@@ -113,6 +113,20 @@ function acceptableHosts(): Set<string> {
     if (value) hosts.add(value.replace(/^https?:\/\//, '').replace(/\/$/, ''));
   }
 
+  // example.com and www.example.com are one site by universal convention, and
+  // Vercel answers on both the moment a domain is added -- but only one of the
+  // two appears in VERCEL_PROJECT_PRODUCTION_URL, so the other was refused.
+  // That is not hypothetical: adding kaushalkarki17.com.np made every exam fail
+  // on the apex while working on www, which reads as the site being broken
+  // rather than as a configuration gap.
+  //
+  // Safe to pair them: only hosts that are already trusted -- the configured
+  // one, or one the platform set -- get a counterpart, so this widens nothing
+  // an attacker controls.
+  for (const host of [...hosts]) {
+    hosts.add(host.startsWith('www.') ? host.slice(4) : 'www.' + host);
+  }
+
   return hosts;
 }
 
