@@ -1,0 +1,99 @@
+{
+  "$comment": [
+    "Single source of truth for how every exam on this platform is scored and assembled.",
+    "SCHEME follows the new NEC pattern given by the project owner: 100 questions x 1 mark,",
+    "120 minutes, pass 50, no negative marking. The older publicly-documented pattern",
+    "(60 x 1 mark + 20 x 2 marks = 100 marks) is kept in `alternateSchemes` so the engine can",
+    "run either without a code change - set `activeScheme` to switch.",
+    "",
+    "WEIGHTAGE: NEC's stated principle is 'one question per subchapter' across 60 subchapters.",
+    "Scaled to a 100-question paper that is 10 questions per chapter (every chapter has exactly",
+    "6 subchapters). This uniform baseline is marked `provisional`. It is to be replaced by",
+    "`empirical` counts once all 15 real past papers are transcribed - see tools/derive-weightage.mjs.",
+    "Model-set generation reads whichever profile `activeWeightage` names."
+  ],
+  "activeScheme": "nec-2082-onemark",
+  "activeWeightage": "provisional-uniform",
+  "schemes": {
+    "nec-2082-onemark": {
+      "label": "NEC (current) — 100 × 1 mark",
+      "totalQuestions": 100,
+      "totalMarks": 100,
+      "passMarks": 50,
+      "durationMinutes": 120,
+      "negativeMarking": false,
+      "negativeMarkPerWrong": 0,
+      "optionsPerQuestion": 4,
+      "questionTiers": [
+        {
+          "marks": 1,
+          "count": 100,
+          "secondsPerQuestion": 72
+        }
+      ]
+    }
+  },
+  "alternateSchemes": {
+    "nec-legacy-mixed": {
+      "label": "NEC (legacy) — 60 × 1 mark + 20 × 2 marks",
+      "totalQuestions": 80,
+      "totalMarks": 100,
+      "passMarks": 50,
+      "durationMinutes": 120,
+      "negativeMarking": false,
+      "negativeMarkPerWrong": 0,
+      "optionsPerQuestion": 4,
+      "questionTiers": [
+        {
+          "marks": 1,
+          "count": 60,
+          "secondsPerQuestion": 60
+        },
+        {
+          "marks": 2,
+          "count": 20,
+          "secondsPerQuestion": 120
+        }
+      ]
+    }
+  },
+  "weightage": {
+    "provisional-uniform": {
+      "label": "Provisional — uniform, from NEC's one-question-per-subchapter rule",
+      "status": "provisional",
+      "chapters": {
+        "ACiE01": 10,
+        "ACiE02": 10,
+        "ACiE03": 10,
+        "ACiE04": 10,
+        "ACiE05": 10,
+        "ACiE06": 10,
+        "ACiE07": 10,
+        "ACiE08": 10,
+        "ACiE09": 10,
+        "AALL10": 10
+      }
+    }
+  },
+  "tiers": {
+    "free": {
+      "pastPaperSets": "all",
+      "modelSets": "all",
+      "theory": "all",
+      "quickRevision": "all",
+      "dailyCapsule": "all",
+      "forum": "read-write",
+      "practiceQuestionsPerSubchapter": "all"
+    }
+  },
+  "dailyCapsule": {
+    "questionsPerDay": 20,
+    "marksPerQuestion": 1,
+    "durationMinutes": 25,
+    "freeForAllUsers": true
+  },
+  "attribution": {
+    "preparedBy": "Kaushal Karki",
+    "adminName": "Kaushal Karki"
+  }
+}

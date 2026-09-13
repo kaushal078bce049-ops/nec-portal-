@@ -1,0 +1,422 @@
+[
+  {
+    "id": "QR-ACiE02-001",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0201",
+    "fact": "The three-phase relations: **e = V_v/V_s**, **n = V_v/V**, and **e = n/(1−n)**.",
+    "detail": "Void ratio e is referred to the volume of **solids**, porosity n to the **total** volume. So e can exceed 1 but n never can.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-002",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0201",
+    "fact": "The master equation of soil phase relations is **e·S = w·G**.",
+    "detail": "Void ratio × degree of saturation = water content × specific gravity. Every other phase relation can be recovered from it. For a fully saturated soil S = 1, so e = wG.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-003",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0201",
+    "fact": "**Plasticity index PI = liquid limit − plastic limit.**",
+    "detail": "Not LL − shrinkage limit. The Atterberg limits in descending order of water content are **liquid > plastic > shrinkage**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-004",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0201",
+    "fact": "The **liquid limit** is the water content at **25 blows** in the Casagrande apparatus.",
+    "detail": "The groove must close over 12 mm. The cone penetrometer alternative uses a 20 mm penetration in 5 s.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-005",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0201",
+    "fact": "**Uniformity coefficient C_u = D_60/D_10**; **coefficient of curvature C_c = D_30²/(D_10·D_60)**.",
+    "detail": "Well graded sand needs **C_u > 6**, gravel **C_u > 4**, and both need **C_c between 1 and 3**. A higher C_u means a **wider** range of sizes, hence better grading.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-006",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0201",
+    "fact": "**Standard Proctor** compacts in **3 layers × 25 blows** with a 2.6 kg rammer falling 310 mm.",
+    "detail": "**Modified Proctor** uses **5 layers × 25 blows**, a 4.89 kg rammer and a 450 mm drop — about 4.5× the energy, giving a **higher maximum dry density at a lower optimum moisture content**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-007",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0201",
+    "fact": "**Core cutter** suits soft fine-grained soil; **sand replacement** suits gravelly or hard soil.",
+    "detail": "Both measure **in-situ (field) dry density**. The core cutter cannot be driven into stony ground without damage, which is the discriminator.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-008",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0202",
+    "fact": "**Effective stress σ′ = σ − u** — Terzaghi's principle.",
+    "detail": "Only the **effective** stress controls strength and volume change. Raising the water table raises u, lowers σ′, and so **reduces** shear strength — the mechanism behind most rain-triggered slope failures.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-009",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0202",
+    "fact": "**Quick sand is a condition, not a type of soil** — it occurs when the upward seepage force cancels the effective stress.",
+    "detail": "It happens at the **critical hydraulic gradient i_c = (G−1)/(1+e) ≈ 1** for most soils. σ′ becomes zero, so the soil has no shear strength at all.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-010",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0202",
+    "fact": "**Darcy's law: v = k·i**, valid only for **laminar** flow.",
+    "detail": "v is the **discharge velocity** (over the gross area); the **seepage velocity** v_s = v/n is larger, since water actually flows only through the voids.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-011",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0202",
+    "fact": "Seepage through a flow net: **q = k·H·(N_f/N_d)**.",
+    "detail": "N_f is the number of **flow channels**, N_d the number of **equipotential drops**. Flow lines and equipotential lines always cross at **right angles**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-012",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0202",
+    "fact": "Permeability field tests: **pumping-out** for a large area, **constant/falling head** in the laboratory.",
+    "detail": "**Constant head** suits **coarse** soils (sand, gravel); **falling head** suits **fine** soils (silt, clay) where flow is too slow to measure at constant head.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-013",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0202",
+    "fact": "**Consolidation** is time-dependent volume change from the **expulsion of pore water**; **compaction** is instant densification by **expelling air**.",
+    "detail": "Consolidation applies to **saturated clay** under load; compaction is a **construction** operation using mechanical energy. The two are constantly confused.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-014",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0202",
+    "fact": "Degree of consolidation: **T_v = c_v·t/d²**, so time to a given settlement varies as the **square of the drainage path**.",
+    "detail": "T_v = 0.197 at U = 50%, and 0.848 at U = 90%. **Double-drained** clay has d = H/2, so it consolidates **four times faster** than single-drained.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-015",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0203",
+    "fact": "**Mohr–Coulomb: τ = c + σ′ tan φ.**",
+    "detail": "For **pure sand** c = 0; for **saturated clay under undrained conditions** φ_u = 0 and τ = c_u. Those two limiting cases cover most examination problems.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-016",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0203",
+    "fact": "The **triaxial test** is the most versatile shear test — it controls drainage and measures pore pressure.",
+    "detail": "Its three forms: **UU** (quick, for immediate stability), **CU** (with pore pressure, giving effective parameters), **CD** (slow, for long-term stability). The **direct shear** box cannot control drainage and forces failure on a predetermined plane.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-017",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0203",
+    "fact": "The **vane shear test** measures the **undrained shear strength of soft, sensitive clay** in situ.",
+    "detail": "It is the field test of choice where an undisturbed sample cannot be recovered. **Sensitivity** = undisturbed strength ÷ remoulded strength.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-018",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0203",
+    "fact": "For a **purely cohesive slope**, the critical circle depends on the **stability number S_n = c/(F·γ·H)**.",
+    "detail": "Taylor's stability number charts give the factor of safety. For a **cohesionless** slope the answer is far simpler: it is stable while **β < φ**, independent of height.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-019",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0203",
+    "fact": "**Sudden drawdown** is the critical case for the **upstream** slope of an earth dam; **steady seepage** for the downstream slope.",
+    "detail": "On drawdown the water supporting the slope is removed while the pore pressure inside is still high — the worst combination. End-of-construction governs both slopes for a clay core.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-020",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0203",
+    "fact": "Slope stability methods: **Swedish circle (method of slices)**, **Bishop's simplified**, **Fellenius**, **friction circle**.",
+    "detail": "**Bishop's** method satisfies vertical equilibrium and is more accurate; the ordinary method of slices ignores inter-slice forces and is **conservative**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-021",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0204",
+    "fact": "**Active pressure K_a = (1−sin φ)/(1+sin φ)**; **passive K_p = (1+sin φ)/(1−sin φ) = 1/K_a**.",
+    "detail": "**At rest** K_0 = 1 − sin φ (Jaky). Order of magnitude: **K_a < K_0 < K_p** always. For φ = 30°, K_a = 1/3, K_0 = 0.5, K_p = 3.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-022",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0204",
+    "fact": "**Active** pressure develops when the wall moves **away** from the backfill; **passive** when it moves **into** it.",
+    "detail": "Passive resistance needs **far more movement** to mobilise than active — roughly ten times — which is why passive resistance in front of a wall is often discounted in design.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-023",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0204",
+    "fact": "The resultant active thrust **P_a = ½ K_a γ H²** acts at **H/3 above the base**.",
+    "detail": "The pressure distribution is **triangular**, so the resultant sits at the centroid of the triangle. A surcharge adds a **rectangular** block acting at H/2.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-024",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0204",
+    "fact": "A retaining wall is checked against **overturning, sliding, bearing capacity and overall slope failure**.",
+    "detail": "Minimum factors of safety: **2.0 against overturning**, **1.5 against sliding**, **3.0** on bearing capacity. Drainage behind the wall (weep holes, filter) is essential — hydrostatic pressure is what actually fails most walls.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-025",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0204",
+    "fact": "**Standard Penetration Test: N = blows for the last 300 mm of a 450 mm drive**, with a 63.5 kg hammer falling 750 mm.",
+    "detail": "The first 150 mm is the seating drive and is **discarded**. N must be corrected for **overburden** and **dilatancy** (for fine sand below water, N_c = 15 + ½(N − 15) when N > 15).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-026",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0204",
+    "fact": "Depth of exploration should be at least **1.5 to 2 times the width** of the loaded area.",
+    "detail": "Because the significant stress increase (the **isobar of 20% of applied pressure**) extends to about that depth. Below it, the added stress is too small to cause appreciable settlement.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-027",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0205",
+    "fact": "**Minimum depth of a shallow foundation (Rankine): D = (q/γ)·[(1−sin φ)/(1+sin φ)]².**",
+    "detail": "In practice, at least **0.5 m below ground**, below the zone of seasonal moisture change, below any fill, and below the frost line where relevant.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-028",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0205",
+    "fact": "A **raft** is economical when the footings would otherwise cover more than about **half the plan area**.",
+    "detail": "It spreads the load over the greatest possible area and, by tying the structure together, greatly reduces **differential** settlement.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-029",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0205",
+    "fact": "**Negative skin friction acts DOWNWARD** on a pile — it is an added load, not a resistance.",
+    "detail": "It occurs where the surrounding soil settles more than the pile, as in a **consolidating fill**. It must be **subtracted** from the pile capacity, not added.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-030",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0205",
+    "fact": "**Pile group efficiency is normally less than 1** for piles in clay — the group acts as a block.",
+    "detail": "Minimum spacing is **2.5 to 3 times the pile diameter**. Converse–Labarre gives the group efficiency. In **dense sand**, driving can densify the soil and efficiency may exceed 1.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-031",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0205",
+    "fact": "**End-bearing** piles carry load at the tip on a hard stratum; **friction** piles carry it along the shaft.",
+    "detail": "A friction pile is used where **no firm stratum is within reach**. Most real piles carry both, and the design capacity is Q_u = Q_p + Q_s − W.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-032",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0206",
+    "fact": "**Terzaghi: q_u = cN_c + γD_f N_q + 0.5 γ B N_γ.**",
+    "detail": "The three terms are the contributions of **cohesion, surcharge (depth) and the width of the footing**. For a **strip** footing on the general shear case, N_c = 5.7 when φ = 0.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-033",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0206",
+    "fact": "**Net safe bearing capacity = net ultimate ÷ factor of safety** (usually 2.5 or 3), and **allowable** is the lesser of that and the settlement-governed value.",
+    "detail": "**Gross** includes the weight of soil above founding level; **net** is the increase over it. Mixing gross and net is the commonest error in bearing capacity problems.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-034",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0206",
+    "fact": "For **local shear** failure, use **c′ = ⅔c** and **tan φ′ = ⅔ tan φ**.",
+    "detail": "Local shear governs in **loose sand or soft clay** (N < 5, or void ratio high); **general shear** in dense or stiff soil. Punching shear occurs in very loose soil.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-035",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0206",
+    "fact": "Permissible settlement: **isolated footing on sand 40 mm**, **on clay 65 mm**; rafts allow more.",
+    "detail": "**Differential** settlement matters far more than total — the limits are typically **1/300 of the span** for angular distortion. A building settling uniformly is undamaged.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-036",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0206",
+    "fact": "Total settlement = **immediate (elastic) + primary consolidation + secondary compression**.",
+    "detail": "In **sand**, settlement is essentially **immediate**; in **clay**, **consolidation** dominates and takes years. That difference decides which analysis is needed.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-037",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0206",
+    "fact": "Consolidation settlement **S_c = (C_c·H/(1+e_0))·log₁₀[(σ′_0+Δσ)/σ′_0]** for normally consolidated clay.",
+    "detail": "C_c is the compression index, from the e–log σ′ curve. Skempton's approximation: **C_c = 0.009(LL − 10)** for remoulded clay.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-038",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0206",
+    "fact": "**Over-consolidation ratio OCR = preconsolidation pressure ÷ present effective overburden.**",
+    "detail": "**OCR = 1** normally consolidated; **OCR > 1** over-consolidated (it has carried a greater load in the past — erosion, melted ice, a demolished building). An over-consolidated clay settles far less.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-039",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0201",
+    "fact": "**Specific gravity of soil solids G is 2.65–2.70** for most soils.",
+    "detail": "Determined by the **pycnometer** (density bottle). Organic soils are lower; soils with iron minerals higher. G = 2.65 is the standard assumption when none is given.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-040",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0202",
+    "fact": "**Piping (internal erosion)** is the progressive backward erosion of soil by seepage under a dam.",
+    "detail": "Guarded against by **Bligh's creep** and **Lane's weighted creep** theories, by lengthening the seepage path with cut-offs and aprons, and by an **inverted filter** at the exit.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-041",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0203",
+    "fact": "**Liquefaction** occurs in **loose, saturated, fine sand** under cyclic (earthquake) loading.",
+    "detail": "Cyclic shearing raises the pore pressure until σ′ = 0 and the sand behaves as a liquid. A central concern in Nepal — widespread liquefaction occurred in the Kathmandu Valley in the **2015 Gorkha earthquake**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE02-042",
+    "chapter": "ACiE02",
+    "subchapter": "ACiE0204",
+    "fact": "**Coulomb** theory allows wall friction and a sloping/rough back; **Rankine** assumes a smooth vertical back and no wall friction.",
+    "detail": "Rankine is simpler and **conservative** for active pressure. Coulomb's passive value is **unsafe** for large wall friction, because the real failure surface is curved, not planar.",
+    "verification": {
+      "status": "verified"
+    }
+  }
+]

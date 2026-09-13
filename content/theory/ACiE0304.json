@@ -1,0 +1,67 @@
+{
+  "chapter": "ACiE03",
+  "subchapter": "ACiE0304",
+  "title": "Pipe flow",
+  "summary": "Darcy–Weisbach and the minor-loss coefficients cover most of the numerical work, but watch for the two conventions of the friction factor — some texts write h_f = fLV²/2gD and others 4fLV²/2gD with an f four times smaller. Beyond that, the reliable marks are in the series/parallel distinction (same discharge or same head loss), the maximum-power-transmission result h_f = H/3, and water hammer. Hardy Cross network analysis appears in both this subchapter and water supply.",
+  "sections": [
+    {
+      "heading": "Laminar and turbulent flow, and the major loss",
+      "body": "**Reynolds number** decides the regime:\n\n> **Re = ρVD/μ = VD/ν**\n\n| Re | Regime |\n|---|---|\n| **< 2000** | **Laminar** |\n| 2000 – 4000 | Transitional |\n| **> 4000** | **Turbulent** |\n\nMost engineering pipe flow is **turbulent**; laminar flow occurs only in very small pipes, very viscous fluids, or very low velocities.\n\n**Laminar flow — the Hagen–Poiseuille results**, all derivable and all examinable:\n\n> **h_f = 32 μ V L / (γ D²)**   — note h_f varies as **V¹**, linearly\n> **Q = πΔp D⁴ / (128 μ L)**   — discharge varies as **D⁴**\n> **V_max = 2 V_mean**   (parabolic velocity profile)\n> **f = 64/Re**\n\nThe **D⁴** dependence is striking: halving a pipe's diameter reduces its laminar discharge to **one sixteenth**. And **V_max = 2V_mean** is the standard question — in **turbulent** flow the profile is much flatter and V_max ≈ 1.2 V_mean.\n\n**Turbulent flow — Darcy–Weisbach**, the master equation for the **major (friction) loss**:\n\n> **h_f = f L V² / (2 g D)**\n\nNote h_f now varies as **V²**, not V — because turbulent resistance is dominated by momentum exchange rather than viscous shear.\n\n**A warning about conventions.** Many Indian textbooks write\n\n> **h_f = 4 f L V² / (2 g D)**\n\nwith a friction factor **four times smaller** (the *Fanning* friction factor, f = 16/Re for laminar flow). Both forms are correct with their own f. **Check which convention a question uses** — the presence or absence of the 4, and whether laminar f is quoted as 64/Re or 16/Re, identifies it. This single ambiguity causes more wrong answers in this subchapter than any conceptual error.\n\n**The friction factor in turbulent flow** depends on **Re** and the **relative roughness k/D**, read from the **Moody diagram**:\n\n| Zone | Behaviour |\n|---|---|\n| **Laminar** | **f = 64/Re** — roughness irrelevant |\n| **Smooth turbulent** | f depends on **Re only** |\n| Transition | f depends on both |\n| **Rough turbulent (fully developed)** | f depends on **k/D only** — **independent of Re** |\n\nThe last row matters practically: in a rough old pipe at high velocity, f is a **constant**, so h_f is exactly proportional to V². **Colebrook–White** gives f implicitly for the transition zone; **Blasius** gives f = 0.316/Re^0.25 for smooth turbulent flow.\n\n**Other empirical formulae** in wide use:\n\n| Formula | Expression | Used for |\n|---|---|---|\n| **Hazen–Williams** | V = 0.849 C R^0.63 S^0.54 | **Water supply** networks; C = 100–150 |\n| **Manning** | V = (1/n) R^{2/3} S^{1/2} | Sewers, part-full pipes, channels |\n| Chézy | V = C√(RS) | General |\n\n**Hazen–Williams is the water-supply standard** because its coefficient C is tabulated by pipe material and age, which is what a designer actually knows. Its exponent on V is **1.85**, not 2 — which is why the Hardy Cross correction uses n = 1.85 for Hazen–Williams and n = 2 for Darcy–Weisbach."
+    },
+    {
+      "heading": "Minor losses and pipe systems",
+      "body": "**Minor losses** arise wherever the flow is disturbed, and each is expressed as a multiple of the velocity head:\n\n| Cause | Loss |\n|---|---|\n| **Sudden expansion** | **(V₁ − V₂)²/2g** |\n| **Sudden contraction** | **0.5 V₂²/2g** |\n| **Exit** into a reservoir | **V²/2g** — the **entire** velocity head is lost |\n| **Entrance**, sharp | 0.5 V²/2g |\n| Entrance, bell-mouthed | ≈ 0.05 V²/2g |\n| Bend, 90° | 0.3 – 1.0 V²/2g |\n| Gate valve, fully open | 0.2 V²/2g |\n| Globe valve, fully open | 10 V²/2g |\n\nThey are called *minor* only by convention. **Minor losses dominate in SHORT pipes** (a pump suction line, a valve manifold) while **friction dominates in LONG ones**. The usual rule of thumb is that minor losses may be neglected when the pipe length exceeds about **1000 diameters**.\n\nTwo entries deserve comment. The **exit loss is the full velocity head**, because the kinetic energy is entirely dissipated in the receiving reservoir — a fact often forgotten in a total-head calculation. And a **bell-mouthed entrance** costs almost nothing compared with a sharp one, which is why intakes are shaped.\n\n**Pipes in series and in parallel** — the distinction is the single most useful thing in this subchapter:\n\n| Arrangement | Same in every pipe | Adds up |\n|---|---|---|\n| **Series** | **Discharge Q** | **Head loss** h_f |\n| **Parallel** | **Head loss h_f** | **Discharge** Q |\n\nGetting that pair the wrong way round is the classic error. In **series**, continuity forces the same Q through each pipe and the losses accumulate. In **parallel**, both branches connect the same two points, so they must have the **same head difference**, and the flows share out accordingly — the smoother or larger branch taking more.\n\n**Equivalent pipe.** A compound pipeline may be replaced by a single pipe of the same length giving the same loss. For pipes in **series**, **Dupuit's equation**:\n\n> **L/D⁵ = L₁/D₁⁵ + L₂/D₂⁵ + …**\n\nThe **fifth power** arises because h_f ∝ LV²/D and V ∝ Q/D², so h_f ∝ LQ²/D⁵.\n\n**Three-reservoir problem.** Three pipes meeting at a junction: assume a piezometric head at the junction, compute the flow in each pipe, and adjust until **continuity is satisfied** at the junction. The middle reservoir may be either receiving or supplying, depending on whether the junction head is below or above its surface — establishing which is the first step.\n\n**Network analysis — Hardy Cross method.** Two conditions must hold:\n\n> **ΣQ = 0 at every junction** (continuity)\n> **Σh_f = 0 around every loop** (energy)\n\nAssume a flow distribution satisfying continuity, then correct each loop iteratively:\n\n> **ΔQ = − Σh_f / (n · Σ|h_f/Q|)**\n\nwith **n = 2** for Darcy–Weisbach and **n = 1.85** for Hazen–Williams. Pipes common to two loops receive both corrections. Convergence is usually achieved in a handful of iterations, and the method is the historical ancestor of every pipe-network program.\n\n**Power transmission through a pipe** gives a result worth knowing because it is counter-intuitive:\n\n> **P = ρgQ(H − h_f)**\n\nMaximising with respect to h_f (with Q itself depending on h_f) gives\n\n> **Maximum power when h_f = H/3**, at a **transmission efficiency of 66.7%**\n\nSo the most power is delivered when a **third of the available head is deliberately lost to friction** — not when losses are minimised. The reason is that reducing losses means reducing velocity and hence discharge, and the product of head and discharge peaks in between. Note that maximum *power* is not maximum *efficiency*: efficiency is highest at low velocity, but the power then approaches zero.\n\n> **Efficiency of transmission = (H − h_f)/H**"
+    },
+    {
+      "heading": "Water hammer, siphons and pipe appurtenances",
+      "body": "**Water hammer** is the pressure surge caused by a **rapid change of velocity** in a pipeline — typically a valve closing. The water's small compressibility, normally ignored, is exactly what governs it.\n\n> **Pressure wave celerity c = √(K/ρ) ≈ 1440 m/s** in water (less in an elastic pipe)\n\n**Sudden closure** — the valve shuts in less than the time for the wave to travel to the reservoir and back:\n\n> Closure is **sudden** if **t < 2L/c**\n> **Δp = ρ c V**\n\nFor a velocity change of only 1 m/s, Δp ≈ **1.44 MPa** — about 147 m of head. That is why water hammer, not static pressure, often governs penstock thickness.\n\n**Gradual closure** (t > 2L/c) gives a much smaller rise, approximated by\n\n> **Δp = ρ L V / t**\n\nso the pressure rise falls in proportion to the closure time. **Slowing the valve is the cheapest control measure.**\n\n**Control measures**, in order of usual preference:\n\n| Measure | Mechanism |\n|---|---|\n| **Slow closure** of valves and gates | Reduces Δp directly |\n| **Surge tank** | Converts the **pressure wave** problem into a **mass oscillation** problem — far easier to accommodate |\n| **Air vessel / accumulator** | Cushions the surge |\n| **Pressure relief valve** | Vents the excess |\n| **Flywheel** on the pump | Slows the rate of change of velocity |\n| Thicker pipe | Accepts the pressure rather than avoiding it |\n\nA **surge tank** is provided on a **long pressure conduit** where the length is large relative to the head; a short penstock does not need one. Types: **simple, restricted orifice, differential, expansion chamber**. Its second function, on load acceptance, is to **supply water immediately** while the long conduit accelerates.\n\n**Siphon.** A pipe carrying liquid over a summit above the upstream water level, driven by the difference in the two reservoir levels. It works because the pressure at the summit falls below atmospheric, and the atmosphere pushes water up into it.\n\n**The limit is the vapour pressure.** In theory the summit can be **10.33 m** above the upstream surface (one atmosphere of water); in practice the limit is about **7 to 8 m**, because:\n\n- the pressure must stay above the **vapour pressure**, or the water boils and the column breaks;\n- **dissolved air** comes out of solution at low pressure and collects at the summit;\n- friction losses to the summit reduce the available margin.\n\nSo a siphon needs an **air valve at the summit** to remove accumulated air, and priming to start. **Inverted siphons** — which are not siphons at all but pipes dipping *below* the hydraulic grade line to pass under an obstruction — are common in sewerage, and must be designed for **self-cleansing velocity** because they cannot be scoured by gravity.\n\n**Pipe materials and their duties:**\n\n| Material | Character |\n|---|---|\n| **Cast iron / ductile iron** | Durable, strong; heavy; **DI** now standard for mains |\n| **Galvanised iron (GI)** | Small service connections |\n| **PVC / HDPE** | **Corrosion-free, light, flexible**; UV and temperature limits |\n| **Steel** | Large diameter, high pressure; needs corrosion protection |\n| Prestressed concrete (PSC) | Large gravity mains |\n| Asbestos cement | Historic; no longer used |\n\n**HDPE dominates Nepali rural water supply** because it is light enough to be carried to remote sites, **flexible over unstable slopes**, corrosion-free, and jointed by heat fusion without skilled fitters.\n\n**Appurtenances and their duties**, each a standard one-line question:\n\n| Fitting | Duty |\n|---|---|\n| **Sluice / gate valve** | **Isolation** for repair |\n| **Reflux / non-return valve** | Prevents **backflow** |\n| **Air valve** | Releases air at **summits** |\n| **Scour valve** | **Drains** the main at **low points** |\n| Pressure relief valve | Limits surge |\n| Fire hydrant | Fire fighting |\n| Water meter | Measurement |\n\nThe pairing to hold: **air valves at high points, scour valves at low points** — air rises, sediment settles."
+    }
+  ],
+  "formulas": [
+    {
+      "label": "Darcy–Weisbach (major loss)",
+      "expression": "h_f = f L V² / (2 g D)     [some texts: h_f = 4fLV²/2gD with f four times smaller]",
+      "note": "CHECK the convention. Laminar f = 64/Re in the first form, 16/Re in the second."
+    },
+    {
+      "label": "Laminar (Hagen–Poiseuille) flow",
+      "expression": "h_f = 32μVL/(γD²) ;   Q = πΔp D⁴/(128μL) ;   V_max = 2 V_mean",
+      "note": "h_f varies as V (not V²) and Q as D⁴. In turbulent flow V_max ≈ 1.2 V_mean."
+    },
+    {
+      "label": "Minor losses",
+      "expression": "expansion (V₁−V₂)²/2g ;  contraction 0.5V²/2g ;  exit V²/2g ;  sharp entry 0.5V²/2g",
+      "note": "Dominant in SHORT pipes; negligible beyond about 1000 diameters of length."
+    },
+    {
+      "label": "Series and parallel pipes",
+      "expression": "Series: same Q, head losses ADD.   Parallel: same h_f, discharges ADD.",
+      "note": "The classic error is inverting this pair."
+    },
+    {
+      "label": "Equivalent pipe (Dupuit)",
+      "expression": "L/D⁵ = L₁/D₁⁵ + L₂/D₂⁵ + …",
+      "note": "The fifth power follows from h_f ∝ LQ²/D⁵."
+    },
+    {
+      "label": "Hardy Cross loop correction",
+      "expression": "ΔQ = − Σh_f / (n · Σ|h_f/Q|)     (n = 2 Darcy–Weisbach, 1.85 Hazen–Williams)",
+      "note": "Conditions: ΣQ = 0 at each junction, Σh_f = 0 round each loop."
+    },
+    {
+      "label": "Maximum power transmission",
+      "expression": "P = ρgQ(H − h_f), maximum at h_f = H/3, efficiency 66.7%",
+      "note": "Counter-intuitive: maximum POWER is not minimum loss. Efficiency = (H − h_f)/H."
+    },
+    {
+      "label": "Water hammer",
+      "expression": "sudden (t < 2L/c): Δp = ρcV ;   gradual (t > 2L/c): Δp ≈ ρLV/t ;   c = √(K/ρ) ≈ 1440 m/s",
+      "note": "Δp ≈ 1.44 MPa for only 1 m/s velocity change — often governs penstock thickness."
+    },
+    {
+      "label": "Hazen–Williams",
+      "expression": "V = 0.849 C R^{0.63} S^{0.54}",
+      "note": "The water supply standard; C tabulated by pipe material and age (100–150). Exponent on V is 1.85."
+    }
+  ]
+}

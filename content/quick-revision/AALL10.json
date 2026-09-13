@@ -1,0 +1,402 @@
+[
+  {
+    "id": "QR-AALL10-001",
+    "chapter": "AALL10",
+    "subchapter": "AALL1001",
+    "fact": "**Scale = representative fraction RF = drawing size ÷ actual size**, a ratio of like quantities.",
+    "detail": "**RF < 1 reducing** (maps, buildings), **= 1 full size**, **> 1 enlarging** (small parts). A **large-scale** map has a **large RF** and covers a **small area in detail** — the words describe the fraction, not the area.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-002",
+    "chapter": "AALL10",
+    "subchapter": "AALL1001",
+    "fact": "Typical scales: **building plans 1:50–1:100**, **site plan 1:500–1:1000**, **details 1:5–1:20**, **topographic map 1:25 000+**.",
+    "detail": "Recommended series: **1:2, 1:5, 1:10, 1:20, 1:50, 1:100, 1:200, 1:500, 1:1000**. A **graphical scale bar** is drawn on the sheet because paper shrinks and drawings get photocopied — the bar scales with the reproduction, the stated ratio does not.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-003",
+    "chapter": "AALL10",
+    "subchapter": "AALL1001",
+    "fact": "In **first angle projection** the **top view goes BELOW the front view**; in **third angle** it goes **above**.",
+    "detail": "First angle is **Indian/European** practice (and the IS standard); third angle is **American**. Mnemonic for first angle: the object is **between the observer and the plane**, so each view is pushed to the **far** side.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-004",
+    "chapter": "AALL10",
+    "subchapter": "AALL1001",
+    "fact": "**Sectional views**: the cut surface is **hatched with thin lines at 45°**; **hidden lines are omitted** in the sectioned part.",
+    "detail": "**Never sectioned** even when the plane passes through them: **shafts, bolts, nuts, screws, rivets, keys, pins, ribs, webs, gear teeth**. Ribs are excluded because hatching would falsely suggest solidity.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-005",
+    "chapter": "AALL10",
+    "subchapter": "AALL1001",
+    "fact": "Line types (IS 10714): **continuous thick** = visible outline; **continuous thin** = dimension/hatching; **dashed** = hidden; **chain thin** = centre line; **chain thick at ends** = cutting plane.",
+    "detail": "Sheet sizes halve from **A0 (1 m²)** down; lettering heights step **2.5, 3.5, 5, 7, 10, 14, 20 mm** — all in the **√2** ratio, so a drawing reduced from A1 to A2 stays proportioned and legible.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-006",
+    "chapter": "AALL10",
+    "subchapter": "AALL1002",
+    "fact": "**Simple interest I = Pni**; **compound F = P(1+i)ⁿ**.",
+    "detail": "The six standard factors: **(F/P), (P/F), (F/A), (A/F), (P/A), (A/P)**. **Sinking fund factor (A/F) = i/[(1+i)ⁿ−1]**; **capital recovery factor (A/P) = i(1+i)ⁿ/[(1+i)ⁿ−1]**. Every engineering economy problem reduces to picking the right one.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-007",
+    "chapter": "AALL10",
+    "subchapter": "AALL1002",
+    "fact": "**MARR is an INPUT set by the organisation; IRR is an OUTPUT computed from the project.**",
+    "detail": "Accept when **IRR ≥ MARR**, or equivalently **NPV at the MARR ≥ 0**. The MARR reflects the **cost of capital + risk premium + opportunity cost**. Confusing the two is the commonest error in this topic.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-008",
+    "chapter": "AALL10",
+    "subchapter": "AALL1002",
+    "fact": "**Comparing mutually exclusive alternatives requires INCREMENTAL analysis**, not a ranking of individual IRRs.",
+    "detail": "A small project with a spectacular IRR can leave most of the capital idle. Test each **increment** of investment against the MARR. **NPV** ranks correctly on its own; **IRR does not**. Alternatives with unequal lives are compared by **EUAC** or over the **LCM of lives**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-009",
+    "chapter": "AALL10",
+    "subchapter": "AALL1002",
+    "fact": "**Straight line depreciation D = (C − S)/n**; **sinking fund D = (C − S) × i/[(1+i)ⁿ − 1]**.",
+    "detail": "**Declining balance** charges a fixed **% of the reducing book value** — accelerated, and it never reaches zero. **Book value** = cost less accumulated depreciation; **salvage** = worth intact; **scrap** = worth of the dismantled materials.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-010",
+    "chapter": "AALL10",
+    "subchapter": "AALL1002",
+    "fact": "**Capitalised value = net annual income × year's purchase**, with **YP = 100 ÷ rate of interest**.",
+    "detail": "At 8%, YP = 12.5. **A higher required return gives a LOWER valuation** for the same income — which is how risk enters a valuation. Deduct outgoings (repairs ≈ 1/12 of gross rent, taxes, insurance, management, **sinking fund**) to get net income.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-011",
+    "chapter": "AALL10",
+    "subchapter": "AALL1002",
+    "fact": "**B/C ratio ≥ 1** and **EIRR ≥ social discount rate** are the criteria for a **public** project.",
+    "detail": "Public appraisal uses **shadow prices** and includes **externalities** — environmental damage, time savings, accident reduction — that a private financial analysis ignores. That is why a road can be economically justified while being financially unprofitable.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-012",
+    "chapter": "AALL10",
+    "subchapter": "AALL1002",
+    "fact": "**Nominal and real rates: (1 + i_nominal) = (1 + i_real)(1 + f)**.",
+    "detail": "A **nominal** MARR goes with cash flows in **current** prices; a **real** MARR with **constant** prices. Mixing them systematically distorts the appraisal — usually making long-lived projects look worse than they are.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-013",
+    "chapter": "AALL10",
+    "subchapter": "AALL1003",
+    "fact": "**PERT: t_e = (t_o + 4t_m + t_p)/6**, **σ = (t_p − t_o)/6**.",
+    "detail": "σ depends on **only the two extremes** — t_m affects the expected time but **not** the spread. **Variances add along the critical path**, and **σ_project = √(Σσ²)**; then **Z = (T − T_e)/σ_project** gives the probability of finishing by T.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-014",
+    "chapter": "AALL10",
+    "subchapter": "AALL1003",
+    "fact": "**CPM is deterministic and activity-oriented**; **PERT is probabilistic and event-oriented**.",
+    "detail": "CPM suits **repetitive** work (construction) and handles the **time–cost trade-off**; PERT suits **novel** work (research, development). PERT's known limitation: it uses the **critical path variance only**, so a high-variance near-critical path makes its estimate **optimistic**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-015",
+    "chapter": "AALL10",
+    "subchapter": "AALL1003",
+    "fact": "**Float**: total float = LST − EST; **free float**; **independent float**. **Critical activities have ZERO total float.**",
+    "detail": "The **critical path is the longest path** through the network and determines the **project duration**. Only critical activities can shorten it — which is why crashing a non-critical activity is wasted money.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-016",
+    "chapter": "AALL10",
+    "subchapter": "AALL1003",
+    "fact": "**Crashing** shortens duration by **adding resources at extra cost**; **cost slope = (crash cost − normal cost)/(normal time − crash time)**.",
+    "detail": "Crash the **critical** activity with the **lowest cost slope** first, then **recompute — the critical path may change**. Total cost has a **minimum** because **indirect cost falls** as direct cost rises; that minimum is the **optimum duration**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-017",
+    "chapter": "AALL10",
+    "subchapter": "AALL1003",
+    "fact": "**Crashing costs money; fast tracking costs risk** (activities overlapped instead of sequential).",
+    "detail": "Distinguish from the resource techniques: **resource levelling** holds resources fixed and may **extend** duration; **resource smoothing** holds the duration fixed and shifts activities **within their float**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-018",
+    "chapter": "AALL10",
+    "subchapter": "AALL1003",
+    "fact": "A **WBS** is a **hierarchical decomposition of the total scope into manageable work packages**.",
+    "detail": "It comes **before** the schedule: the bar chart, network, cost estimate, resource plan and risk register are all **derived from** it. The WBS answers *what work exists*; the network answers *in what order*.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-019",
+    "chapter": "AALL10",
+    "subchapter": "AALL1003",
+    "fact": "**Bar (Gantt) chart** shows durations against a calendar but **not dependencies**; a **network** shows logic.",
+    "detail": "That is the bar chart's fundamental limitation — it cannot show what delays what, so it cannot identify a critical path. Modern software draws a bar chart **from** network logic, giving both.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-020",
+    "chapter": "AALL10",
+    "subchapter": "AALL1004",
+    "fact": "Contract types: **item rate (unit price)**, **lump sum**, **percentage rate**, **cost plus percentage**, **cost plus fixed fee**, **labour rate**.",
+    "detail": "**Item rate is the commonest for civil works** because quantities cannot be fixed exactly in advance — the **employer** carries the quantity risk. **Lump sum** transfers it to the contractor and needs complete drawings.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-021",
+    "chapter": "AALL10",
+    "subchapter": "AALL1004",
+    "fact": "**Cost plus percentage** has a perverse incentive: **the contractor's fee rises with the cost.**",
+    "detail": "So it is used only where the scope genuinely cannot be defined — **emergency or repair work** — and a **fixed fee** version is preferred wherever possible because the fee no longer grows with the spend.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-022",
+    "chapter": "AALL10",
+    "subchapter": "AALL1004",
+    "fact": "Securities under Nepal's Public Procurement Act 2063: **bid security 2–3%**, **performance security 5–10%**, plus **retention money** and **mobilisation advance**.",
+    "detail": "**Bid security** guarantees the bid will not be withdrawn; **performance security** guarantees performance; **retention** is withheld from each bill against **defects** and released after the **defect liability period**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-023",
+    "chapter": "AALL10",
+    "subchapter": "AALL1004",
+    "fact": "**Liquidated damages** are a **pre-agreed sum per day/week of delay** — a genuine pre-estimate of loss, not a penalty.",
+    "detail": "Usually capped at about **10%** of the contract price. A sum far above any conceivable loss is a **penalty** and generally unenforceable. Delay beyond the ceiling becomes a ground for **termination**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-024",
+    "chapter": "AALL10",
+    "subchapter": "AALL1004",
+    "fact": "**Extension of time** is the contractor's defence against LD — for **employer delay, variations, force majeure, adverse weather, suspension**.",
+    "detail": "LD can only be levied for delay that is the **contractor's** responsibility. A **variation order** therefore matters twice: it changes the price **and** may justify an EOT — which is why it must be issued **in writing and before the work is done**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-025",
+    "chapter": "AALL10",
+    "subchapter": "AALL1004",
+    "fact": "**IS 1200** deduction thresholds: **brickwork no deduction up to 0.1 m²**; **plastering up to 0.5 m²**.",
+    "detail": "Plastering's threshold is larger because the **extra labour of working around a small opening** offsets the area saved. Measurement conventions are built to make quantity track **cost**, not geometry.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-026",
+    "chapter": "AALL10",
+    "subchapter": "AALL1004",
+    "fact": "Quality control tools: **check sheet, histogram, Pareto chart, cause-and-effect (Ishikawa), scatter diagram, control chart, stratification**.",
+    "detail": "**Pareto**: about **80% of problems come from 20% of causes** — so tackle the few big ones first. **QA is process-oriented and preventive**; **QC is product-oriented and detective**. A **control chart** distinguishes normal variation from an assignable cause.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-027",
+    "chapter": "AALL10",
+    "subchapter": "AALL1004",
+    "fact": "Project management knowledge areas include **scope, schedule, cost, quality, resource, risk, procurement, stakeholder, communication, integration**.",
+    "detail": "The **triple constraint** — **scope, time, cost** — with **quality** at the centre: change any one and at least one other must move. Promising all three fixed is the root of most project failure.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-028",
+    "chapter": "AALL10",
+    "subchapter": "AALL1004",
+    "fact": "**Earned value**: **CPI = EV/AC**, **SPI = EV/PV**; **CV = EV − AC**, **SV = EV − PV**.",
+    "detail": "**Below 1 is bad** for both indices. Earned value is what lets a manager say a project is *both* over budget and behind schedule with numbers rather than impressions — and it requires a **WBS** with measurable packages to work at all.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-029",
+    "chapter": "AALL10",
+    "subchapter": "AALL1005",
+    "fact": "The **first canon of engineering ethics: hold the safety, health and welfare of the public paramount.**",
+    "detail": "Duties to client and employer are real but **subordinate** to it. Where they conflict, the public interest prevails — which is why an engineer must **refuse to certify non-compliant work** even when the client has accepted it.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-030",
+    "chapter": "AALL10",
+    "subchapter": "AALL1005",
+    "fact": "On a **conflict of interest**, the duty is to **disclose it and withdraw** — not to proceed carefully and privately.",
+    "detail": "The test is whether the decision would **survive disclosure**. Concealment compounds the fault, because it removes the affected parties' ability to judge for themselves. Reducing one's fee does not cure it.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-031",
+    "chapter": "AALL10",
+    "subchapter": "AALL1005",
+    "fact": "An engineer must **practise only in their area of competence** and **issue statements only objectively and truthfully**.",
+    "detail": "Other core duties: act as a **faithful agent** of client and employer, avoid **deceptive acts**, conduct oneself **honourably**, **continue professional development**, and **give credit** where due. Signing drawings prepared by another as one's own is a disciplinary offence.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-032",
+    "chapter": "AALL10",
+    "subchapter": "AALL1005",
+    "fact": "**Professional liability** arises in **contract**, in **tort (negligence)**, and under **statute**; criminal liability where failure causes injury.",
+    "detail": "The standard is the **reasonable skill and care of a competent engineer** — not perfection. Professional indemnity insurance covers the civil exposure; it does not remove the **disciplinary** exposure to the Council, or the criminal one.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-033",
+    "chapter": "AALL10",
+    "subchapter": "AALL1006",
+    "fact": "The **Nepal Engineering Council** was established by the **Nepal Engineering Council Act, 2055 (1998)**.",
+    "detail": "Its functions: **registration**, the **license examination**, **recognition of qualifications and accreditation of programmes**, **regulation of conduct**, and determining the **scope of practice** by category. It does **not** fix fees or salaries.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-034",
+    "chapter": "AALL10",
+    "subchapter": "AALL1006",
+    "fact": "NEC registration categories: **A (General)**, **B (Professional)**, **C (Foreign)**.",
+    "detail": "**Registration is a legal prerequisite to practising engineering in Nepal**, for Nepali and foreign nationals alike. The Council may **suspend or cancel** registration for professional misconduct — removing the right to practise.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-035",
+    "chapter": "AALL10",
+    "subchapter": "AALL1006",
+    "fact": "**NEC is a statutory REGULATOR serving the public; NEA (Nepal Engineers' Association) is a voluntary body serving its members.**",
+    "detail": "Registration with the Council is **mandatory**; NEA membership is by choice. The two are linked — the **NEA President and five NEA-elected engineers** sit on the Council, with the **Registrar as Member-Secretary**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-036",
+    "chapter": "AALL10",
+    "subchapter": "AALL1006",
+    "fact": "Nepal's key regulatory instruments: **NBC (building code)**, **NBC 105:2020 (seismic)**, **Nepal Road Standard 2070**, **Public Procurement Act 2063**, **Environment Protection Act 2076**.",
+    "detail": "**NBC 105:2020** replaced the 1994 edition, reflecting lessons from the **2015 Gorkha earthquake**. For many materials and design methods, Nepali practice adopts the **Indian Standards** (IS 456, IS 800, IS 1200).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-037",
+    "chapter": "AALL10",
+    "subchapter": "AALL1004",
+    "fact": "Tender process: **notice → sale of documents → pre-bid meeting → submission → opening → evaluation → award → agreement**.",
+    "detail": "Methods under the Public Procurement Act: **open (national/international) competitive bidding**, **sealed quotation**, **direct procurement**, **force account**, and **framework agreement** — each with a monetary threshold that determines which may be used.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-038",
+    "chapter": "AALL10",
+    "subchapter": "AALL1003",
+    "fact": "Network conventions: an **event (node)** is a point in time; an **activity (arrow)** consumes time and resources; a **dummy** shows dependency only.",
+    "detail": "A **dummy activity has zero duration** and exists to preserve logic or to avoid two activities sharing the same start and end events. **Looping and dangling** are errors — a network must have exactly one start and one end event.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-039",
+    "chapter": "AALL10",
+    "subchapter": "AALL1005",
+    "fact": "**Whistleblowing** is justified when harm is **serious and likely**, internal channels are **exhausted**, and the engineer has **documented evidence**.",
+    "detail": "The proper sequence is **internal escalation first** — record, notify in writing, escalate — and only then external reporting. Going public prematurely damages the engineer's standing and rarely fixes the problem.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-AALL10-040",
+    "chapter": "AALL10",
+    "subchapter": "AALL1001",
+    "fact": "Civil engineering drawings that matter most on site: **wall section (DPC, plinth, foundation)**, **beam section (reinforcement)**, **road cross-section (camber, shoulders, drains)**.",
+    "detail": "A structure is understood chiefly through its **sections**, because that is where the information a contractor actually needs is conveyed — plans show layout, sections show construction.",
+    "verification": {
+      "status": "verified"
+    }
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "chapter": "ACiE03",
+  "subchapter": "ACiE0301",
+  "title": "Fluids and their properties",
+  "summary": "This subchapter is definitions and units, and the examination exploits confusion between closely related quantities: dynamic against kinematic viscosity, density against specific weight against specific gravity, and the three surface-tension cases. Learn each property with its SI unit attached, because a dimensional check eliminates most wrong options immediately. The one behavioural fact worth understanding rather than memorising is that liquid viscosity falls with temperature while gas viscosity rises — and why.",
+  "sections": [
+    {
+      "heading": "Density, specific weight and specific gravity",
+      "body": "Four related quantities, and questions routinely swap them:\n\n| Quantity | Symbol | Definition | SI unit | Water at 4 °C |\n|---|---|---|---|---|\n| **Mass density** | ρ | mass / volume | **kg/m³** | **1000** |\n| **Specific weight** | γ or w | weight / volume = **ρg** | **N/m³** | **9810** (9.81 kN/m³) |\n| **Specific gravity** | S | ρ_fluid / ρ_water | **dimensionless** | 1.0 |\n| **Specific volume** | v | volume / mass = **1/ρ** | m³/kg | 0.001 |\n\n> **γ = ρ g**\n\nSpecific gravity has **no units**, which is often enough to identify the right option on its own. Mercury: S = **13.6**, so ρ = 13600 kg/m³ and γ = 133.4 kN/m³.\n\nNote that specific weight depends on **g** and therefore on location, while density does not. In engineering practice the distinction rarely matters on earth, but it is the reason two symbols exist.\n\n**A fluid** is a substance that **deforms continuously under any shear stress, however small**. That is the whole definition, and it separates fluids from solids: a solid deforms a finite amount and stops, a fluid keeps deforming as long as the stress acts. A fluid at rest can therefore sustain **no shear stress at all** — which is why pressure in a static fluid acts equally in all directions.\n\n**Classification of fluids:**\n\n| Type | Character |\n|---|---|\n| **Ideal fluid** | **μ = 0**, incompressible — a useful fiction; no real fluid is ideal |\n| **Real fluid** | Has viscosity; all actual fluids |\n| **Newtonian** | τ ∝ du/dy, constant μ — **water, air, oil, glycerine** |\n| **Non-Newtonian** | μ varies with shear rate |\n| Ideal plastic | Yields at a threshold stress, then flows |\n\n**Non-Newtonian sub-types**, examined by name:\n\n| Type | Behaviour | Example |\n|---|---|---|\n| **Bingham plastic** | Needs a **yield stress** before flowing | Toothpaste, **sewage sludge**, drilling mud |\n| **Pseudoplastic** (shear thinning) | μ **falls** with shear rate | Paint, blood, polymer solutions |\n| **Dilatant** (shear thickening) | μ **rises** with shear rate | Cornflour paste, some slurries |\n\nSewage sludge and drilling mud are the two that matter to a civil engineer: both must be pumped, and both refuse to move until a threshold stress is exceeded, which changes the pump selection entirely."
+    },
+    {
+      "heading": "Viscosity",
+      "body": "**Newton's law of viscosity:**\n\n> **τ = μ (du/dy)**\n\nwhere **du/dy** is the **velocity gradient** or rate of shear strain.\n\n| Quantity | Symbol | Definition | SI unit | CGS unit |\n|---|---|---|---|---|\n| **Dynamic (absolute) viscosity** | **μ** | τ / (du/dy) | **Pa·s** = N·s/m² | **poise** (1 poise = 0.1 Pa·s) |\n| **Kinematic viscosity** | **ν** | **μ / ρ** | **m²/s** | **stokes** (1 stokes = 10⁻⁴ m²/s) |\n\n> **ν = μ / ρ**\n\nThe distinction is worth holding by **units**: dynamic viscosity carries force (Pa·s), kinematic viscosity does not (m²/s) — it is called *kinematic* precisely because its dimensions involve only length and time. Water at 20 °C: **μ ≈ 1.0 × 10⁻³ Pa·s**, **ν ≈ 1.0 × 10⁻⁶ m²/s**.\n\n**Temperature dependence — opposite for liquids and gases:**\n\n| Fluid | Viscosity with rising temperature | Why |\n|---|---|---|\n| **Liquid** | **Decreases** | Viscosity comes from **cohesion** between molecules, which weakens as they move apart |\n| **Gas** | **Increases** | Viscosity comes from **molecular momentum transfer**, which intensifies as molecules move faster |\n\nThis is the one fact in the subchapter worth understanding rather than memorising, because the reasoning tells you which way each goes. It is why hot oil flows easily and why a hot-weather bitumen must be a harder grade.\n\n**Pressure dependence** is slight for liquids and negligible for gases at ordinary pressures.\n\n**Where viscosity enters engineering:** it produces the **no-slip condition** at a boundary (fluid velocity equals the boundary velocity), hence the **boundary layer**, hence **friction losses** in pipes and channels. An **ideal (inviscid) fluid** would have no boundary layer, no friction loss and no drag — which is why the ideal-fluid assumption, useful for pressure distributions, fails completely for resistance."
+    },
+    {
+      "heading": "Surface tension and capillarity",
+      "body": "**Surface tension σ** is the tensile force per unit length acting in the surface of a liquid, arising because a molecule at the surface is attracted **inward** by its neighbours with no balancing attraction outward. Units: **N/m**. For water in air at 20 °C, **σ ≈ 0.073 N/m**; it **decreases with temperature** and with dissolved impurities (which is what detergents exploit).\n\n**Excess pressure inside a curved surface** — the three cases, and the reason each differs:\n\n| Case | Excess pressure | Why |\n|---|---|---|\n| **Liquid droplet** | **p = 4σ/d** | **One** surface, curved in **two** directions |\n| **Soap bubble** | **p = 8σ/d** | **Two** surfaces (inner and outer films) — hence **twice** the droplet |\n| **Cylindrical liquid jet** | **p = 2σ/d** | One surface, curved in **one** direction only |\n\nSo the ordering is **jet < droplet < bubble**, in the ratio 1 : 2 : 4. Deriving it once from a force balance is more reliable than memorising three formulae: the pressure force on a diametral plane balances the surface tension acting round the perimeter.\n\n**Capillarity** is the rise or fall of a liquid in a narrow tube, from the combination of surface tension and the **adhesion** between liquid and solid:\n\n> **h = 4σ cos θ / (ρ g d)**\n\n| Liquid in glass | Contact angle θ | Behaviour |\n|---|---|---|\n| **Water** | **≈ 0°** (< 90°) — adhesion beats cohesion | **Rises**, concave meniscus |\n| **Mercury** | **≈ 130°** (> 90°) — cohesion beats adhesion | **Depresses**, convex meniscus |\n\n**Rise is inversely proportional to the tube diameter** — which is exactly the mechanism of **rising damp** in masonry (fine pores draw water high), of **capillary water** above the water table in soil, and of the **frost heave** that lifts pavements. It is also why a manometer tube must not be too fine, or the capillary correction becomes significant.\n\n**Vapour pressure and cavitation.** Every liquid has a **vapour pressure** at which it boils at the given temperature — for water, **2.34 kPa absolute at 20 °C**. Where the local pressure in flowing water falls to the vapour pressure, **vapour bubbles form**; carried into a higher-pressure region they **collapse violently**, and the resulting pressure pulses **pit the metal**. That is **cavitation**, and it is the reason for limiting the **NPSH** of a pump and the **setting level** of a reaction turbine.\n\n**Compressibility and bulk modulus:**\n\n> **K = − dp / (dV/V)**,  and the **compressibility is 1/K**\n\nFor water **K ≈ 2.1 GPa**, so water is very nearly incompressible and is treated as such — **except** in **water hammer** and acoustic problems, where the small compressibility is exactly what matters. The celerity of a pressure wave is\n\n> **c = √(K/ρ) ≈ 1440 m/s** in water\n\nwhich is why a sudden valve closure generates enormous pressures: **Δp = ρcV**, giving about 1.4 MPa for a velocity change of only 1 m/s."
+    }
+  ],
+  "formulas": [
+    {
+      "label": "Specific weight and specific gravity",
+      "expression": "γ = ρg ;   S = ρ_fluid/ρ_water   (dimensionless)",
+      "note": "Water: ρ = 1000 kg/m³, γ = 9810 N/m³. Mercury: S = 13.6."
+    },
+    {
+      "label": "Newton's law of viscosity",
+      "expression": "τ = μ (du/dy) ;   ν = μ/ρ",
+      "note": "μ in Pa·s (poise); ν in m²/s (stokes). Water at 20 °C: μ ≈ 10⁻³ Pa·s, ν ≈ 10⁻⁶ m²/s."
+    },
+    {
+      "label": "Surface tension — excess pressure",
+      "expression": "droplet p = 4σ/d ;   soap bubble p = 8σ/d ;   cylindrical jet p = 2σ/d",
+      "note": "Bubble is twice the droplet because it has two films. Ratio jet : droplet : bubble = 1 : 2 : 4."
+    },
+    {
+      "label": "Capillary rise",
+      "expression": "h = 4σ cos θ / (ρ g d)",
+      "note": "Water rises (θ < 90°), mercury depresses (θ ≈ 130°). Inversely proportional to diameter."
+    },
+    {
+      "label": "Bulk modulus and pressure wave celerity",
+      "expression": "K = −dp/(dV/V) ;   c = √(K/ρ) ≈ 1440 m/s for water",
+      "note": "Water is treated as incompressible EXCEPT in water hammer, where Δp = ρcV."
+    }
+  ]
+}

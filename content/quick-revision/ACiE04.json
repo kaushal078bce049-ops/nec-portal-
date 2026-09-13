@@ -1,0 +1,402 @@
+[
+  {
+    "id": "QR-ACiE04-001",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0401",
+    "fact": "**Bending moment is maximum where the shear force is zero (or changes sign).**",
+    "detail": "Because dM/dx = V. Equally: **dV/dx = −w**. So the SF diagram is one degree higher than the load diagram, and the BM diagram one degree higher than the SF diagram.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-002",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0401",
+    "fact": "A **point of contraflexure** is where the **bending moment changes sign** (passes through zero).",
+    "detail": "Not where shear is zero — that is where BM is *maximum*. A simply supported beam with no overhang has **no** point of contraflexure; an overhanging or continuous beam does.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-003",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0401",
+    "fact": "Simply supported beam: **central point load W → M = WL/4**; **UDL w → M = wL²/8**.",
+    "detail": "Cantilever: **point load at free end → M = WL**; **UDL → M = wL²/2**. Fixed beam with UDL: **wL²/12 at supports, wL²/24 at mid-span**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-004",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0401",
+    "fact": "Under a **UDL** the SF diagram is a **straight sloping line** and the BM diagram a **parabola**.",
+    "detail": "Under a **point load** the SF is constant (steps at the load) and the BM linear. Under a **triangular** load the SF is parabolic and the BM cubic.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-005",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0402",
+    "fact": "**Poisson's ratio μ = lateral strain / longitudinal strain**; for steel **≈ 0.3**, concrete 0.15–0.20, cork ≈ 0.",
+    "detail": "Thermodynamic limits are **0 to 0.5**; at exactly 0.5 the material is **incompressible** (rubber ≈ 0.5). It has **no units**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-006",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0402",
+    "fact": "**E = 2G(1+μ) = 3K(1−2μ)**, and **E = 9KG/(3K+G)**.",
+    "detail": "For steel with μ = 0.3: **G = E/2.6 ≈ 0.385E** and **K = E/1.2 ≈ 0.833E**. So **E > K > G** for ordinary metals — a quick sanity check on any computed value.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-007",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0402",
+    "fact": "**Principal stresses σ₁,₂ = (σx+σy)/2 ± √[((σx−σy)/2)² + τ²]**; **τ_max = √[((σx−σy)/2)² + τ²]**.",
+    "detail": "Shear stress is **zero on a principal plane**, and the two principal planes are **90° apart**. The planes of **maximum shear** lie at **45° to the principal planes**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-008",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0402",
+    "fact": "On **Mohr's circle**, an angle **2θ** on the circle corresponds to **θ** on the element.",
+    "detail": "The circle's **centre is at (σx+σy)/2** and its **radius equals τ_max**. For **pure shear**, σ₁ = +τ and σ₂ = −τ — which is why a brittle shaft in torsion fails on a **45° helix**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-009",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0402",
+    "fact": "**Strain energy: U = σ²V/2E** (gradual load); **impact/sudden load gives twice the stress** of a gradual one.",
+    "detail": "**Resilience** is the energy absorbed up to the elastic limit; **proof resilience** is that at the elastic limit; **modulus of resilience** is proof resilience per unit volume. **Toughness** is the total area under the stress-strain curve.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-010",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0402",
+    "fact": "**Thermal stress σ = αEΔT** — and it arises **only if the member is restrained**.",
+    "detail": "A **free** member expands with **no stress at all**. For a **composite** bar, each material carries a different stress and equilibrium requires the forces to be equal and opposite. Steel α ≈ 12 × 10⁻⁶/°C.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-011",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0403",
+    "fact": "**Flexure formula: M/I = σ/y = E/R.**",
+    "detail": "Assumes the material is **homogeneous, isotropic, obeys Hooke's law**, the beam is **initially straight** with a **constant cross-section**, plane sections **remain plane**, and the load acts in a **plane of symmetry**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-012",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0403",
+    "fact": "**Shear stress distribution: τ = VAȳ/(Ib)** — parabolic in a rectangle, **maximum at the neutral axis**.",
+    "detail": "For a **rectangle τ_max = 1.5 × τ_avg**; for a **circle 1.33 × τ_avg**. Bending stress is maximum at the **extreme fibre** and zero at the NA — exactly the opposite distribution.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-013",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0403",
+    "fact": "**Euler: P_cr = π²EI/L_e²** — valid only for **long** columns.",
+    "detail": "Effective length: **both ends hinged L**, **both fixed L/2**, **one fixed one free 2L**, **one fixed one hinged L/√2**. So a fixed-fixed column carries **four times** the load of a pinned-pinned one of the same length.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-014",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0403",
+    "fact": "**Rankine: 1/P = 1/P_c + 1/P_e** — valid for **both short and long** columns.",
+    "detail": "That universality is Rankine's advantage over Euler, which is unsafe for short columns (it predicts an absurdly high load as L → 0). A column buckles about its axis of **minimum** radius of gyration.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-015",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0403",
+    "fact": "**Torsion: T/J = τ/r = Gθ/L.** Polar modulus for a solid circle **Z_p = πd³/16**.",
+    "detail": "Shear stress in torsion is **zero at the centre and maximum at the surface** — which is why a **hollow** shaft is so efficient. **GJ** is the torsional rigidity, the analogue of **EI**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-016",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0404",
+    "fact": "Static determinacy of a truss: **m = 2j − 3** (plane truss).",
+    "detail": "**m < 2j−3** unstable (deficient); **m = 2j−3** determinate and stable; **m > 2j−3** indeterminate (redundant). For a **space** truss the relation is m = 3j − 6.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-017",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0404",
+    "fact": "Truss analysis: **method of joints** for all members, **method of sections** for a few specific ones.",
+    "detail": "Method of joints needs a joint with **not more than two unknowns**. Method of sections cuts through **not more than three** unknown members. **Zero-force members** occur at unloaded two-member joints and at unloaded three-member joints where two are collinear.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-018",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0404",
+    "fact": "A **three-hinged arch is determinate**; a two-hinged arch is indeterminate to the first degree.",
+    "detail": "For a three-hinged parabolic arch, the **horizontal thrust H = wL²/(8h)** under a UDL — it varies **inversely with the rise**. A flatter arch thrusts harder.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-019",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0405",
+    "fact": "**Macaulay's method** integrates the BM equation using terms that vanish when negative.",
+    "detail": "Standard deflections: **central point load δ = WL³/48EI**; **UDL δ = 5wL⁴/384EI**; **cantilever point load WL³/3EI**; **cantilever UDL wL⁴/8EI**. Note the deflection varies as **L³ or L⁴** — doubling the span multiplies deflection 8- or 16-fold.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-020",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0405",
+    "fact": "**Mohr's theorems (moment-area)**: θ = area of M/EI diagram; δ = moment of that area about the point.",
+    "detail": "Most efficient for **cantilevers** and for beams with a **simple M/EI diagram**. The **conjugate beam** method restates the same idea: load a fictitious beam with M/EI and read off shear as slope and moment as deflection.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-021",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0405",
+    "fact": "**Castigliano's theorem: δ = ∂U/∂P** — the deflection at a load is the partial derivative of strain energy with respect to it.",
+    "detail": "**Unit load method** is its practical form: δ = Σ(PkL/AE) for trusses, ∫(Mm/EI)dx for beams. **Maxwell's reciprocal theorem**: the deflection at A due to a load at B equals that at B due to the same load at A.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-022",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0405",
+    "fact": "An **influence line** shows how a **function at one section** varies as a **unit load moves** across the span.",
+    "detail": "Do not confuse it with a bending moment diagram, which shows the function **along the beam for a fixed load**. Influence lines are the basis of **moving load** analysis for bridges and gantry girders.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-023",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0406",
+    "fact": "**Degree of static indeterminacy D_s = r − 3** for a plane frame (r = number of reaction components), plus internal redundancy.",
+    "detail": "General plane frame: **D_s = 3m + r − 3j**, and **kinematic indeterminacy D_k = 3j − r** (ignoring axial deformation, subtract the number of members). A propped cantilever is D_s = 1; a fixed beam D_s = 2.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-024",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0406",
+    "fact": "**Fixed end moments** for a UDL: **wL²/12** at each end. For a central point load: **WL/8**.",
+    "detail": "These are the starting values for **moment distribution**. For a **propped** cantilever with UDL the support moment is **wL²/8**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-025",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0406",
+    "fact": "**Moment distribution (Hardy Cross)**: distribute by **stiffness ratio**, carry over **half** to the far end if it is fixed.",
+    "detail": "**Distribution factor = (I/L) of the member ÷ Σ(I/L) at the joint.** Carry-over factor is **½** to a fixed end and **0** to a hinged end. Relative stiffness of a member hinged at the far end is **¾(I/L)**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-026",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0406",
+    "fact": "**Clapeyron's three-moment equation** relates the moments at three consecutive supports of a continuous beam.",
+    "detail": "**M₁L₁ + 2M₂(L₁+L₂) + M₃L₂ = −6(A₁x̄₁/L₁ + A₂x̄₂/L₂)** for equal EI and level supports. Suits a continuous beam; moment distribution suits frames.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-027",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0406",
+    "fact": "**Slope-deflection: M_AB = (2EI/L)(2θ_A + θ_B − 3Δ/L) + FEM_AB.**",
+    "detail": "The unknowns are **rotations and sway** — a **displacement (stiffness)** method, like the matrix stiffness method. Force methods (consistent deformation, three-moment) take **redundant forces** as unknowns instead.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-028",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0406",
+    "fact": "Indeterminate structures redistribute load and are **not affected by settlement, temperature or fabrication error** — determinate ones are.",
+    "detail": "That is the key trade-off. Indeterminacy gives **redundancy** (alternative load paths, so one failure need not be collapse) but introduces **secondary stresses** from support settlement, temperature change and shrinkage.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-029",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0401",
+    "fact": "A **hinge (internal) transmits shear and axial force but NOT moment.**",
+    "detail": "So the bending moment at an internal hinge is **always zero** — the single most useful equation in analysing a three-hinged arch or a hinged frame.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-030",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0402",
+    "fact": "**Thin cylinder: circumferential (hoop) stress = pd/2t; longitudinal = pd/4t.**",
+    "detail": "Hoop stress is **twice** the longitudinal, so a cylindrical vessel splits along a **longitudinal seam**. **Thin sphere: pd/4t in every direction** — which is why a sphere is the most efficient pressure vessel. \"Thin\" means d/t > 20.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-031",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0403",
+    "fact": "**Shear centre** is the point through which a load must pass to cause **no twisting**.",
+    "detail": "It coincides with the centroid for a **doubly symmetric** section. For a **channel** it lies **outside** the section, on the opposite side to the web — which is why a channel used as a purlin twists under a load applied at its centroid.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-032",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0404",
+    "fact": "A **cable** carries load in **pure tension**; the shape under a **UDL along the span** is a **parabola**, under **self-weight** a **catenary**.",
+    "detail": "**Horizontal tension H = wL²/(8h)** — identical in form to the arch thrust, because a cable is an inverted arch. Maximum tension occurs **at the supports**, where the slope is steepest.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-033",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0405",
+    "fact": "IS 456 deflection limit: **span/depth ≤ 20 for simply supported, 26 continuous, 7 cantilever** (spans up to 10 m).",
+    "detail": "These are the **deemed-to-satisfy** ratios that avoid an explicit deflection calculation. Beyond 10 m span they are multiplied by 10/span. Final deflection including creep and shrinkage is limited to **span/250**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-034",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0406",
+    "fact": "**Portal frames** under lateral load: analyse by **portal method** (shear) or **cantilever method** (axial).",
+    "detail": "**Portal method** assumes interior columns take twice the shear of exterior ones and suits **low-rise, wide** frames. **Cantilever method** distributes axial force by distance from the centroid and suits **tall, slender** frames.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-035",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0402",
+    "fact": "**Stress-strain curve for mild steel**: proportional limit → elastic limit → **upper and lower yield** → ultimate → **necking** → fracture.",
+    "detail": "Mild steel shows a **distinct yield point**; **high-strength steel and concrete do not**, so a **0.2% proof stress** is used instead. The **breaking stress is lower than the ultimate** because of necking (on the nominal-area curve).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-036",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0403",
+    "fact": "**Combined bending and direct stress: σ = P/A ± M/Z.** No tension develops while **e ≤ d/6** for a rectangular section.",
+    "detail": "This is the **middle-third rule**, and for a circular section the limit is **d/8**. It governs masonry dams, chimneys and retaining walls, where the material cannot take tension.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-037",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0404",
+    "fact": "**Method of tension coefficients** and the **graphical (Maxwell diagram)** method are alternatives for truss forces.",
+    "detail": "In a roof truss under gravity load the **top chord (rafter) is in compression** and the **bottom chord (tie) in tension** — and the **king post is in TENSION**, hanging the tie beam from the apex.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-038",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0401",
+    "fact": "**Support reactions**: roller gives **1**, hinge **2**, fixed **3** unknowns in a plane structure.",
+    "detail": "A plane structure is determinate when the total equals **3** (ΣH = ΣV = ΣM = 0). A roller permits rotation and translation along the surface; a hinge permits rotation only.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-039",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0406",
+    "fact": "The **matrix stiffness method** assembles member stiffness matrices into a global one: **[K]{D} = {F}**.",
+    "detail": "It is the **displacement** method generalised, and the basis of all structural analysis software. The global stiffness matrix is **symmetric** and, after applying boundary conditions, **positive definite**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-040",
+    "chapter": "ACiE04",
+    "subchapter": "ACiE0405",
+    "fact": "**Deflection is governed by EI (stiffness); strength by Z (section modulus).**",
+    "detail": "Both must be checked separately: a section adequate in strength can fail the deflection limit, and often does for long, lightly loaded spans. That is why serviceability, not strength, sizes many beams.",
+    "verification": {
+      "status": "verified"
+    }
+  }
+]

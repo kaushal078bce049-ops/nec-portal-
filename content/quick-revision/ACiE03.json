@@ -1,0 +1,402 @@
+[
+  {
+    "id": "QR-ACiE03-001",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0301",
+    "fact": "**Dynamic viscosity μ** has units **Pa·s (N·s/m²)**; **kinematic viscosity ν = μ/ρ** has units **m²/s (stokes)**.",
+    "detail": "Viscosity of a **liquid decreases** with temperature; that of a **gas increases**. The reason: liquids are governed by cohesion, gases by molecular momentum transfer.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-002",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0301",
+    "fact": "**Newton's law of viscosity: τ = μ (du/dy).**",
+    "detail": "A **Newtonian** fluid has a constant μ (water, air, oil). Non-Newtonian: **Bingham plastic** (toothpaste, sewage sludge), **pseudoplastic** (shear-thinning), **dilatant** (shear-thickening). An **ideal fluid** has μ = 0.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-003",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0301",
+    "fact": "Excess pressure from surface tension: **droplet 4σ/d**, **soap bubble 8σ/d**, **cylindrical jet 2σ/d**.",
+    "detail": "A **soap bubble is twice the droplet** because it has an **inner and an outer** film, so surface tension acts over two surfaces. The jet is the lowest because it curves in **one** direction only, not two.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-004",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0301",
+    "fact": "**Capillary rise h = 4σ cos θ / (ρ g d).**",
+    "detail": "Water in glass **rises** (θ < 90°, adhesion beats cohesion); mercury **depresses** (θ ≈ 130°). Rise is inversely proportional to the tube diameter — the mechanism of rising damp in masonry.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-005",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0301",
+    "fact": "**Bulk modulus K = −dp/(dV/V)**; for water **K ≈ 2.1 GPa**.",
+    "detail": "Water is nearly incompressible, so it is treated as such except in **water hammer** and acoustic problems. Celerity of a pressure wave c = √(K/ρ) ≈ 1440 m/s in water.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-006",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0302",
+    "fact": "Total pressure on a vertical plane surface: **F = ρ g A h̄**, acting at the **centre of pressure**, not the centroid.",
+    "detail": "**h_cp = h̄ + I_G/(A h̄)** — always **below** the centroid, because pressure increases with depth. The two coincide only for a horizontal surface.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-007",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0302",
+    "fact": "**Archimedes: buoyant force = weight of fluid displaced**, acting through the **centre of buoyancy** (centroid of the displaced volume).",
+    "detail": "A floating body displaces its **own weight**; a submerged body displaces its **own volume**. That distinction settles most flotation problems immediately.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-008",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0302",
+    "fact": "A floating body is **stable when the metacentre is ABOVE the centre of gravity**.",
+    "detail": "**Metacentric height GM = I/V − BG**. For a **submerged** body the rule differs: stability requires **B above G**, since there is no metacentre. Larger GM = more stable but a **shorter, jerkier roll period**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-009",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0302",
+    "fact": "**Absolute pressure = gauge + atmospheric.** Atmospheric = **10.33 m of water = 760 mm Hg = 101.325 kPa**.",
+    "detail": "A **barometer** reads absolute (atmospheric) pressure; a **manometer** or **differential manometer** reads a gauge pressure or a difference. Vacuum pressure is negative gauge pressure.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-010",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0303",
+    "fact": "**Continuity: A₁V₁ = A₂V₂** for steady incompressible flow.",
+    "detail": "It is a statement of **mass conservation**. In differential form ∂u/∂x + ∂v/∂y + ∂w/∂z = 0 for incompressible flow — a standard test of whether a given velocity field is possible.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-011",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0303",
+    "fact": "**Bernoulli: p/ρg + V²/2g + z = constant** — pressure, velocity and datum head.",
+    "detail": "Assumes **steady, incompressible, inviscid, irrotational flow along a streamline** with no energy addition or loss. Every one of those is an examinable assumption.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-012",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0303",
+    "fact": "**Reynolds number Re = ρVD/μ = VD/ν** — the ratio of **inertial to viscous** force.",
+    "detail": "In a **pipe**: laminar Re < 2000, transitional 2000–4000, turbulent > 4000. In **open channel** (using hydraulic radius) laminar Re < 500. Around a **plate**, transition at Re ≈ 5 × 10⁵.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-013",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0303",
+    "fact": "**Froude number Fr = V/√(gL)** — inertial to **gravity** force; governs **open channel** flow.",
+    "detail": "**Fr < 1 subcritical**, **= 1 critical**, **> 1 supercritical**. The other dimensionless groups: **Euler** (pressure/inertia), **Weber** (surface tension), **Mach** (compressibility).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-014",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0303",
+    "fact": "**Venturimeter C_d ≈ 0.98**; **orifice meter ≈ 0.62**; **sharp-edged orifice C_c ≈ 0.62, C_v ≈ 0.98, C_d ≈ 0.61**.",
+    "detail": "**C_d = C_c × C_v.** The venturimeter's higher C_d is because its gradual expansion recovers most of the pressure — an orifice plate loses it in eddies.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-015",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0303",
+    "fact": "**Momentum equation: F = ρQ(V₂ − V₁)** — used for forces on bends, nozzles and vanes.",
+    "detail": "**Force on a fixed flat plate normal to a jet: F = ρAV².** For a **curved vane turning the jet through 180°, F = 2ρAV²** — the reason a Pelton bucket is split and turns the jet nearly back on itself.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-016",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0304",
+    "fact": "**Darcy–Weisbach: h_f = fLV²/(2gD)**, the major loss in a pipe.",
+    "detail": "For **laminar** flow **f = 64/Re** (Hagen–Poiseuille). For turbulent flow read f from the **Moody diagram** using Re and relative roughness k/D. Note some texts write h_f = 4fLV²/(2gD) with a friction factor a quarter as large — check which convention a question uses.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-017",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0304",
+    "fact": "Minor losses: **sudden expansion h = (V₁−V₂)²/2g**; **sudden contraction h = 0.5V²/2g**; **exit h = V²/2g**.",
+    "detail": "Entry loss ≈ 0.5V²/2g for a sharp entrance, near zero for a bell mouth. Minor losses dominate in **short** pipes; friction dominates in **long** ones.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-018",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0304",
+    "fact": "**Equivalent pipe (Dupuit): L/D⁵ = L₁/D₁⁵ + L₂/D₂⁵ + …** for pipes in **series**.",
+    "detail": "In **series** the **discharge is the same** and losses add. In **parallel** the **head loss is the same** and discharges add. Getting that pair the wrong way round is the classic error.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-019",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0304",
+    "fact": "**Water hammer** pressure rise for **sudden** closure: **p = ρ c V**, with c = √(K/ρ).",
+    "detail": "Closure is \"sudden\" if the valve time **t < 2L/a**, where 2L/a is the time for the pressure wave to travel to the reservoir and back. Controlled by **slow closure**, a **surge tank** or an **air vessel**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-020",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0304",
+    "fact": "**HGL = pressure head + datum**; **TEL = HGL + velocity head**. TEL always **falls** in the direction of flow.",
+    "detail": "HGL can **rise** (at an expansion, where velocity head converts to pressure head), but TEL never rises without a pump. HGL below the pipe means **negative pressure** — a siphon or cavitation risk.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-021",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0305",
+    "fact": "**Manning: V = (1/n) R^(2/3) S^(1/2).**",
+    "detail": "R is the **hydraulic radius A/P**. Chézy: V = C√(RS), with **C = R^(1/6)/n**. Typical n: **0.011** smooth concrete, 0.015 rough concrete, **0.025–0.035** natural earth channel.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-022",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0305",
+    "fact": "The **most economical section** is the one with the **minimum wetted perimeter** for a given area.",
+    "detail": "**Rectangle: b = 2y** (depth = half width). **Trapezoid**: the sloping side equals the half top width, and the **inscribed semicircle** touches all three sides. The **semicircle** is the most efficient of all sections.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-023",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0305",
+    "fact": "**Critical depth** occurs at **minimum specific energy**, where **Fr = 1**.",
+    "detail": "For a rectangular channel **y_c = (q²/g)^(1/3)** and **E_min = 1.5 y_c**. The specific energy curve has **two depths (alternate depths) for any E above E_min** — one subcritical, one supercritical.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-024",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0305",
+    "fact": "A **hydraulic jump** forms only when flow passes from **supercritical to subcritical**.",
+    "detail": "**y₂/y₁ = ½(√(1+8Fr₁²) − 1)** — the sequent depth relation. It **dissipates energy**, which is why it is deliberately created in a stilling basin at a spillway toe. Energy loss = (y₂−y₁)³/(4y₁y₂).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-025",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0305",
+    "fact": "Weir discharge: **rectangular Q ∝ H^(3/2)**; **triangular (V-notch) Q ∝ H^(5/2)**.",
+    "detail": "Rectangular Q = (2/3)C_d L√(2g) H^(3/2); V-notch Q = (8/15)C_d √(2g) tan(θ/2) H^(5/2). The **V-notch is more accurate at low flows** because its area shrinks with head.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-026",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0305",
+    "fact": "**Gradually varied flow** profiles are classified by the bed slope: **M** (mild), **S** (steep), **C**, **H**, **A**.",
+    "detail": "**Mild slope: y_n > y_c**; **steep: y_n < y_c**. M1 is the backwater curve behind a dam; M2 the drawdown to a free overfall; S1 upstream of an obstruction on a steep slope.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-027",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0306",
+    "fact": "**The hydrological cycle**: precipitation → interception, infiltration, runoff → evaporation and transpiration.",
+    "detail": "The **water balance equation: P = R + E + T + I + ΔS.** Rainfall in Nepal is dominated by the **south-west monsoon (June–September)**, which delivers about **80%** of the annual total.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-028",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0306",
+    "fact": "Mean rainfall over a catchment: **arithmetic mean**, **Thiessen polygon**, **isohyetal** method.",
+    "detail": "**Thiessen** weights each gauge by its polygon area — good for a reasonably uniform plain. **Isohyetal** is the **most accurate**, especially in **mountainous** terrain, because it lets the analyst draw in orographic effects.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-029",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0306",
+    "fact": "**Rational formula: Q = CIA/3.6** with Q in m³/s, I in mm/h, A in km².",
+    "detail": "C is the runoff coefficient (0.05 flat cultivated to **0.95 paved**). Valid only for **small catchments** (under about 50 km²), and the design rainfall duration is taken as the **time of concentration**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-030",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0306",
+    "fact": "A **unit hydrograph** is the direct runoff hydrograph from **1 cm (or 1 mm) of effective rainfall uniformly over the catchment in a specified duration**.",
+    "detail": "Its assumptions: **time invariance**, **linearity (proportionality)** and **superposition**. Note the unit is of **rainfall depth**, not of time — a 6-hour UH and a 12-hour UH are different hydrographs of the same 1 cm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-031",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0306",
+    "fact": "**Return period T and risk: risk = 1 − (1 − 1/T)^n** over n years.",
+    "detail": "A **100-year flood has a 1% chance in any single year** — not \"once a century\". Over a 50-year design life the risk of exceedance is 1 − 0.99⁵⁰ = **39%**, which is why long-lived structures use long return periods.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-032",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0306",
+    "fact": "**Infiltration indices**: the **φ-index** is the constant loss rate that makes rainfall excess equal the observed runoff.",
+    "detail": "The **W-index** is more refined, excluding interception and depression storage. Infiltration capacity is measured by a **double-ring infiltrometer**; **Horton's equation** f = f_c + (f_0 − f_c)e^(−kt) describes its decay.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-033",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0306",
+    "fact": "**Evaporation** is measured by a **Class A pan**; **evapotranspiration** is estimated by **Penman**, **Blaney–Criddle** or **Thornthwaite**.",
+    "detail": "**Penman** is the most rigorous, combining an energy balance with an aerodynamic term. Pan measurements are multiplied by a **pan coefficient (≈0.7)** to give lake evaporation.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-034",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0306",
+    "fact": "A **flow duration curve** plots discharge against the **percentage of time it is equalled or exceeded**.",
+    "detail": "**Q₄₀** (exceeded 40% of the time) is the conventional design flow for a **run-of-river hydropower** plant in Nepal. A **flat** curve means well-regulated flow; a **steep** one means a flashy river needing storage.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-035",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0301",
+    "fact": "**Specific weight γ = ρg**; for water **γ = 9810 N/m³ (9.81 kN/m³)** and **ρ = 1000 kg/m³**.",
+    "detail": "**Specific gravity** is dimensionless (relative to water at 4 °C); **specific volume** is 1/ρ. Mercury: specific gravity 13.6.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-036",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0303",
+    "fact": "**Cavitation** occurs where the local pressure falls to the **vapour pressure** of the liquid.",
+    "detail": "Vapour bubbles form and then **collapse violently** in a higher-pressure region, pitting the metal. Guarded against by limiting the **NPSH** of a pump and the **setting level** of a reaction turbine.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-037",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0305",
+    "fact": "For a **wide rectangular channel, R ≈ y** (the hydraulic radius approaches the depth).",
+    "detail": "Because P ≈ b when b ≫ y, so R = by/(b+2y) → y. This simplification is what makes wide-channel problems tractable and is worth spotting immediately.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-038",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0304",
+    "fact": "**Power transmitted through a pipe is maximum when the friction loss is ONE THIRD of the total head.**",
+    "detail": "P = ρgQ(H − h_f), maximised at **h_f = H/3**, giving a maximum transmission efficiency of **66.7%**. A counter-intuitive but standard result.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-039",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0302",
+    "fact": "**Pascal's law**: pressure at a point in a fluid at rest is **equal in all directions**.",
+    "detail": "The basis of the hydraulic press and of all manometry. Pressure varies **only with depth** in a static fluid: dp/dz = −ρg.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-040",
+    "chapter": "ACiE03",
+    "subchapter": "ACiE0306",
+    "fact": "**GLOF (glacial lake outburst flood)** is a design flood case peculiar to Nepal's high mountains.",
+    "detail": "A moraine-dammed glacial lake breaches and releases a very large, very short flood. Hydropower and bridge projects in the high Himalaya must assess it separately from the rainfall flood — it is not captured by rainfall frequency analysis.",
+    "verification": {
+      "status": "verified"
+    }
+  }
+]

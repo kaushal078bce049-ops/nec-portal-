@@ -1,0 +1,505 @@
+[
+  {
+    "id": "QR-ACiE01-001",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Plaster of Paris is obtained by calcining **gypsum**.",
+    "detail": "CaSO_{4}·2H_{2}O heated to 120–160 °C gives CaSO_{4}·½H_{2}O. Sets in 5–10 minutes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-002",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Early strength of cement → **C_{3}S**. Ultimate strength → **C_{2}S**. Highest heat of hydration → **C_{3}A**.",
+    "detail": "C_{3}S ~40–50%, C_{2}S ~25–30%, C_{3}A ~8–12%, C_{4}AF ~6–10%. C_{4}AF gives colour and little strength.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-003",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Gypsum (3–5%) **retards** setting — it increases the setting time by preventing a flash set of C_{3}A.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-004",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0102",
+    "fact": "OPC setting time: initial **not less than 30 min**, final **not more than 600 min** (10 h).",
+    "detail": "Low heat cement is allowed 60 min initial. Measured on the Vicat apparatus.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-005",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0102",
+    "fact": "Vicat apparatus → consistency and setting time. **Le Chatelier apparatus → soundness.**",
+    "detail": "Fineness → 90 μm sieve or Blaine. Strength → 70.6 mm mortar cubes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-006",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Primary raw material for cement is **limestone** (supplies 60–65% CaO). Main hydration product is **C-S-H gel**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-007",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Strength of cement **decreases** on storage: ~20% in 3 months, 30% in 6, 40% in 12.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-008",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "**White cement** is used for painting and decorative finishes — low iron oxide content.",
+    "detail": "Fe_{2}O_{3} is what makes ordinary cement grey; keeping it below ~0.4% leaves it white.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-009",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Brick earth: silica 50–60%, alumina 20–30%, lime ≤5%, iron oxide 5–6%, magnesia <1%.",
+    "detail": "Sand/silica **prevents warping, shrinking and cracking**; excess makes it brittle. Alumina gives plasticity; excess causes shrinkage. **Iron oxide gives the red colour** — excess turns it dark blue/black, deficiency pale yellow.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-010",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "The indentation on a brick face is the **frog**; it is laid facing **upward**.",
+    "detail": "Typically 100 × 40 × 10–20 mm. Omitted on wire-cut and flooring bricks.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-011",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0102",
+    "fact": "Brick compressive strength: first class **10.5 N/mm²**, second class 7.0, third class 3.5.",
+    "detail": "Test with the frog filled flush with **1:1** cement–sand mortar, loaded at 14 N/mm²/min.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-012",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0102",
+    "fact": "Brick water absorption (24 h): **not more than 20%** for first class; 15% for class 12.5 and above; 22% second class.",
+    "detail": "Collections quoting \"0.15\" are a mistyped 15%. A 0.15% absorption is impossible for burnt clay.",
+    "verification": {
+      "status": "key-corrected",
+      "notes": "Source key gave \"0.15\"; the standard limit is 20% by weight for a first class brick."
+    }
+  },
+  {
+    "id": "QR-ACiE01-013",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "**Bloating** = swelling of a brick from trapped gases. **Efflorescence** = white alkali salt patches. **Lamination** = laminae from trapped air.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-014",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Burning develops brick strength; drying only removes moisture so it does not crack when burnt.",
+    "detail": "Order: clay preparation → moulding → drying → burning.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-015",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Metamorphic pairs: sandstone→**quartzite**, limestone→**marble**, shale→**slate**, granite→**gneiss**.",
+    "detail": "Quartzite is chemically **siliceous**. Slate is argillaceous; marble and limestone are calcareous.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-016",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "**Hydraulic lime** (5–30% clay) is used in lime mortar — it sets under water. Fat lime (<5% clay) sets only in air.",
+    "detail": "Poor lime has >30% clay. Slaking = adding water to quicklime CaO → Ca(OH)_{2}, exothermic.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-017",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Seasoning of timber = **reducing moisture content**. Drawback of electrical seasoning is **splitting**.",
+    "detail": "Target 10–12% interior, 15–18% exterior. Fungi need ~20% to attack.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-018",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Fibreboard density: hardboard >800, **medium 350–800**, low (insulation) <350 kg/m³.",
+    "detail": "Some collections quote medium density as 600–800 or 960 kg/m³. 960 is firmly hardboard.",
+    "verification": {
+      "status": "key-corrected",
+      "notes": "Source gave \"600 to 800, prefer 960\". IS 3348 puts medium density at 350–800 kg/m³."
+    }
+  },
+  {
+    "id": "QR-ACiE01-019",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Paint: **pigment gives colour**; base gives body; vehicle (linseed oil) binds; thinner (turpentine) makes it workable; drier speeds oxidation.",
+    "detail": "**Red lead** is the pigment for corrosion resistance on structural steel.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-020",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "**Lacquer is a spirit varnish** — shellac in alcohol, dries by evaporation, not weather resistant.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-021",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "**Plastic bitumen is used for crack filling.** Cutbacks: RC (naphtha), MC (kerosene), SC (diesel).",
+    "detail": "Blown/oxidised bitumen → roofing, pipe coating. Tar comes from destructive distillation of coal; bitumen is a petroleum residue.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-022",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Ore dressing order: crushing → **concentration** → calcination/roasting → smelting → refining.",
+    "detail": "**Washing** removes clay adhering to iron ore. Calcination excludes air; roasting uses excess air to remove sulphur.",
+    "verification": {
+      "status": "key-corrected",
+      "notes": "Source key gave \"pressing\" for removal of clay from iron ore. Pressing is a metal-forming operation; the ore-dressing step is washing."
+    }
+  },
+  {
+    "id": "QR-ACiE01-023",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "Carbon: wrought iron <0.25%, **steel 0.15–1.5%**, cast iron 2–4%. Stainless steel's main alloying element is **chromium** (12–18%).",
+    "detail": "More carbon → harder, stronger, more brittle, less weldable.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-024",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "**Ductility** = drawn into wire. **Malleability** = beaten into sheets. **Toughness** = absorbs impact. **Hardness** = resists scratching.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-025",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0103",
+    "fact": "**Shoring** temporarily supports an unsafe structure. **Underpinning** strengthens a foundation. **Scaffolding** is a working platform.",
+    "detail": "Shore types: raking (45°–75°), flying (between two walls), dead (vertical, with needles).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-026",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0103",
+    "fact": "**Hacking** = roughening a surface before plastering. Plaster coats: rendering → floating → finishing.",
+    "detail": "Before plastering: rake out joints, clean, roughen and thoroughly wet the surface.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-027",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0103",
+    "fact": "**Number of treads = number of risers − 1.** Comfort rule 2R + T ≈ 600 mm.",
+    "detail": "Residential: rise 150–190 mm, tread 250–300 mm. Max ~12–15 risers per flight.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-028",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0103",
+    "fact": "Dress stone **immediately after quarrying**, while the quarry sap keeps it soft — then season it 6–12 months before use.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-029",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0104",
+    "fact": "Moment of inertia: rectangle bd³/12 (centroid), **bd³/3 (base)**; triangle bh³/36 (centroid), bh³/12 (base), **bh³/4 (vertex)**.",
+    "detail": "Vertex value is **9×** the centroidal value for a triangle. Ratios 1 : 3 : 9.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-030",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0104",
+    "fact": "Circle **πd⁴/64**; hollow circle **π(D⁴−d⁴)/64**; semicircle about diameter **πd⁴/128** = πR⁴/8.",
+    "detail": "Polar J = π(D⁴−d⁴)/32 — twice the diametral value. Z of hollow circle = π(D⁴−d⁴)/(32D).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-031",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0104",
+    "fact": "Centroids from base: solid hemisphere **3r/8**, hemispherical shell r/2, semicircular lamina **4r/3π**, cone and pyramid **h/4**, triangle h/3.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-032",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0104",
+    "fact": "Radius of gyration **k = √(I/A)**; I = Ak². Slenderness ratio λ = l_{e}/k.",
+    "detail": "For a rectangle about its centroid, k = d/√12 = 0.2887d.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-033",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0104",
+    "fact": "**Perpendicular axis theorem (plane laminae only): I_{zz} = I_{xx} + I_{yy}.** Parallel axis theorem: I = I_{G} + Ah².",
+    "detail": "For a circular lamina, I_{zz} = πd⁴/64 + πd⁴/64 = πd⁴/32 — the polar moment used in torsion.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-034",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0106",
+    "fact": "**Plinth area estimate** = plinth area × rate from a similar building. **Cubical content** = plinth area × height × rate — more accurate.",
+    "detail": "Carpet area ≈ **50–65%** of plinth area. Plinth area ≈ 60–75% of plot area under typical bye-laws.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-035",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0106",
+    "fact": "**Rate analysis** builds the rate per unit of work: materials + labour + plant + overheads + profit (~10–15%).",
+    "detail": "Distinguish from **valuation** (present worth of an existing property) and **specification** (required quality of materials and workmanship).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-036",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0101",
+    "fact": "**Steel** is the preferred formwork material for repeated reuse — 100–2000+ uses versus 8–10 for timber.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-037",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0102",
+    "fact": "Bulking of sand peaks at **4–6% moisture** (20–40% volume increase) and is **zero at full saturation**.",
+    "detail": "Sand batched by volume must be corrected for bulking or the mix will be sand-deficient.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-038",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0102",
+    "fact": "NDT on concrete: rebound hammer, ultrasonic pulse velocity, pull-out, cover meter, half-cell potential. The **cube compression test is destructive**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-039",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "The fundamental principle of surveying is **working from whole to part**.",
+    "detail": "Accurate control first, detail afterwards — so errors are **localised rather than accumulated**, and every stage carries a built-in check. The second principle: fixing a point needs **two independent measurements** from a known base.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-040",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "**BB − FB = ± 180°.** A departure from 180° means **local attraction** at one of the two stations.",
+    "detail": "Local attraction affects **all bearings from a station equally**, which is what makes it correctable: find a line whose FB and BB do differ by 180°, and work outwards from it. Do not confuse it with **magnetic declination**, which exists everywhere.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-041",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "WCB → reduced bearing: **I (0–90°) RB = WCB, N→E**; **II (90–180°) 180−WCB, S→E**; **III (180–270°) WCB−180, S→W**; **IV (270–360°) 360−WCB, N→W**.",
+    "detail": "The prefix alternates **N, S, S, N** and the suffix goes **E, E, W, W**. So a WCB of 200° is **S 20° W**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-042",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "**Rise and fall** check: **ΣBS − ΣFS = ΣRise − ΣFall = last RL − first RL** — three quantities that must agree.",
+    "detail": "**Height of collimation** has only two of those checks, so it **does not verify intermediate sights**. Use collimation for many detail levels (faster), rise and fall for precise work (fully checked).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-043",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "Combined **curvature and refraction correction = 0.0673 d²** metres, with d in km.",
+    "detail": "Curvature alone is 0.0785d² (makes objects appear **lower**); refraction restores about **1/7** of it. Negligible at 100 m, **67 mm at 1 km** — which is why back and fore sight distances are kept **equal**, and why **reciprocal levelling** is needed across a wide river.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-044",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "**Contours cannot cross — except at an overhanging cliff**, and cannot merge except at a **vertical cliff**.",
+    "detail": "**V pointing uphill = valley** (contours point upstream); **U or V pointing downhill = ridge**. Close contours mean steep ground; a closed contour with **higher values inside** is a hill, with lower values a depression.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-045",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "Observing on **both face left and face right** eliminates **collimation and trunnion axis** errors.",
+    "detail": "**Both verniers** remove **eccentricity of centres**; **repetition** removes **graduation** error. Nothing removes a **non-vertical vertical axis** — the instrument must simply be levelled properly.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-046",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "**Tacheometry: D = Ks + C**, with **K = f/i = 100** and **C = 0** for an anallatic lens.",
+    "detail": "Inclined sight, staff vertical: **D = Ks cos²θ + C cos θ**, **V = Ks(sin 2θ)/2**. Accuracy about **1 in 500–1000**, so tacheometry is for **detail and contouring**, never the primary control.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-047",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "**Bowditch rule** distributes closing error in proportion to **line length** (compass traverse); **transit rule** in proportion to **latitude/departure** (theodolite traverse).",
+    "detail": "**Closing error e = √[(ΣL)² + (ΣD)²]**, expressed as a **relative** error against the perimeter. Balancing **hides** error — if the misclosure exceeds the permissible limit, **re-observe** rather than distribute it.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-048",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "**Simpson's rule needs an ODD number of ordinates** (even number of intervals); the **trapezoidal rule accepts any number**.",
+    "detail": "**Simpson: (d/3)[first + last + 4(even) + 2(odd)]** — more accurate for a curved boundary. Its volume analogue is the **prismoidal formula**; the difference from the trapezoidal result is the **prismoidal correction**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-049",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "**A total station measures horizontal angle, vertical angle and SLOPE distance** — everything else it reports is computed.",
+    "detail": "**GNSS needs four satellites** for a 3D fix, because the receiver clock error is a fourth unknown alongside X, Y, Z. Total station needs **line of sight**; GNSS needs **sky view** — so they are complements, not rivals.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-050",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "**Degree of curve: R ≈ 1719/D** on the **30 m chord** definition (**1146/D** for a 20 m chord).",
+    "detail": "From R = 57.3C/D. **Rankine's deflection angle δ = 1718.9 C/R minutes.** The **first and last sub-chords are shorter** than the standard chord and need their own deflection angles — the commonest setting-out error.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-051",
+    "chapter": "ACiE01",
+    "subchapter": "ACiE0105",
+    "fact": "Plane tabling: **radiation** and **intersection** fix **detail**; **traversing** fixes **stations**; **resection** fixes **the observer's own position**.",
+    "detail": "The **three-point problem** solves resection, but fails if the station lies on the **danger circle** through the three known points, where the position is indeterminate. **Chain correction: true length = measured × (wrong chain length ÷ true length)** — a stretched chain reads **short**.",
+    "verification": {
+      "status": "verified"
+    }
+  }
+]

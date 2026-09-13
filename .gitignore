@@ -1,0 +1,68 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Generated LaTeX, PDFs and Word files.
+# Everything under latex/ and docx/ is derived from content/ by:
+#     npm run latex          # .tex files  (~56 MB)
+#     sh tools/build-pdfs.sh # .pdf files  (~50 MB)
+#     npm run docx           # .md + .docx (~52 MB)
+# Committing ~150 MB of regenerable binaries would bloat the repository and
+# every clone of it. Publish them as GitHub Release assets instead, where
+# large files are expected and are not part of the git history.
+# To version them deliberately anyway:  git add -f latex/ docx/
+/latex/
+/docx/
+
+# The Word reference document is rebuilt from reference-default.docx by
+# tools/docx/make-reference.mjs on every docx build, so a committed copy could
+# only ever disagree with the script. The pandoc baseline it is patched from IS
+# committed -- that one is an input, and pinning it keeps the styling stable
+# across pandoc versions.
+/tools/docx/reference.docx
+
+# Local environment.
+# `.env*` above hides every env file, which would also hide .env.example --
+# but that one is the template a new contributor needs, and it holds no
+# secrets. Re-include it explicitly.
+.env.local
+.env*.local
+!.env.example

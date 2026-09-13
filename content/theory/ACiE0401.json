@@ -1,0 +1,57 @@
+{
+  "chapter": "ACiE04",
+  "subchapter": "ACiE0401",
+  "title": "Shear forces and bending moments",
+  "summary": "Two relations do almost all the work here: dV/dx = −w and dM/dx = V. From them follow every rule about diagram shapes, the location of maximum moment, and the meaning of a point of contraflexure. Memorise the handful of standard cases (WL/4, wL²/8, WL, wL²/2) and learn to distinguish 'shear is zero' (maximum moment) from 'moment is zero' (contraflexure) — the two are confused more often than any other pair in structural mechanics.",
+  "sections": [
+    {
+      "heading": "Supports, loads and determinacy",
+      "body": "**Support reactions** in a plane structure:\n\n| Support | Restrains | Unknowns |\n|---|---|---|\n| **Roller** | Translation **normal** to the surface only | **1** |\n| **Hinge (pin)** | Translation in both directions; permits rotation | **2** |\n| **Fixed (encastré)** | Translation **and rotation** | **3** |\n| Link | Translation along its axis | 1 |\n\nA plane structure is **statically determinate** when the total number of unknowns equals **3**, matching the three equations of equilibrium **ΣH = 0, ΣV = 0, ΣM = 0**.\n\n| Beam | Unknowns | Determinacy |\n|---|---|---|\n| Simply supported (hinge + roller) | 3 | **Determinate** |\n| Cantilever (fixed) | 3 | **Determinate** |\n| Overhanging | 3 | **Determinate** |\n| **Propped cantilever** | 4 | Indeterminate to **1st** degree |\n| **Fixed (both ends)** | 6 | Indeterminate to **3rd** degree (or 2nd if axial ignored) |\n| Continuous, n spans | — | Indeterminate |\n\n**An internal hinge is the key device for reducing indeterminacy**, and its property is worth stating on its own:\n\n> **An internal hinge transmits shear and axial force but NOT moment.**\n> Therefore **the bending moment at an internal hinge is ALWAYS ZERO.**\n\nThat single equation is the most useful extra condition available, and it is what makes a **three-hinged arch** determinate while a two-hinged arch is not. Each internal hinge adds one equation.\n\n**Types of load:**\n\n| Load | Character |\n|---|---|\n| **Point (concentrated)** | Acts at one location |\n| **Uniformly distributed (UDL)** | Constant intensity w per unit length |\n| **Uniformly varying (triangular)** | Linearly changing intensity |\n| **Couple / moment** | Pure moment applied at a point |\n\nA UDL over a length L is replaced for equilibrium purposes by its **resultant wL acting at the centroid**, that is at mid-length; a triangular load of peak w by **½wL at one third of the length from the larger end**. Using the resultant to find reactions and then reverting to the distributed form for the internal forces is the standard procedure."
+    },
+    {
+      "heading": "The differential relations and diagram shapes",
+      "body": "Consider an element of beam of length dx under a distributed load w:\n\n> **dV/dx = −w**\n> **dM/dx = V**\n> **d²M/dx² = −w**\n\nEverything else in this subchapter is a consequence of these three lines.\n\n**Consequence 1 — the degree of each diagram.** Each integration raises the polynomial degree by one:\n\n| Load | Shear force diagram | Bending moment diagram |\n|---|---|---|\n| **No load** | **Constant** | **Linear** |\n| **Point load** | Constant, with a **step** at the load | **Linear**, with a **kink** at the load |\n| **UDL** | **Linear (sloping)** | **Parabolic** |\n| **Triangular** | **Parabolic** | **Cubic** |\n| Couple | No change | **Step (jump)** |\n\nSo the shape of the diagrams identifies the loading and vice versa — a common question form is to give a diagram and ask what loading produced it.\n\n**Consequence 2 — where the moment is maximum.** Since dM/dx = V,\n\n> **The bending moment is maximum (or minimum) where the SHEAR FORCE IS ZERO or changes sign.**\n\nThis is the single most useful working rule in the subchapter. Find where V crosses zero, and evaluate M there.\n\n**Consequence 3 — the area rule.** Integrating dM/dx = V between two sections:\n\n> **Change in bending moment = AREA of the shear force diagram between the sections**\n\nand similarly the change in shear equals the area of the load diagram. This is often the fastest way to construct a BMD without writing equations — and it provides a check on one drawn by equations.\n\n**Point of contraflexure.**\n\n> A **point of contraflexure** is a section where the **bending moment CHANGES SIGN** (passes through zero), so the curvature reverses.\n\n**This is not where shear is zero** — that is where the moment is *maximum*. The two are routinely swapped, and the distinction is worth stating twice:\n\n| At this point | This happens |\n|---|---|\n| **Shear force = 0** | Bending moment is at a **maximum or minimum** |\n| **Bending moment = 0** | **Point of contraflexure** — curvature reverses |\n\nA **simply supported beam carrying downward loads only, with no overhang, has NO point of contraflexure** — its moment is positive throughout (sagging). Points of contraflexure occur in **overhanging** beams, **fixed** beams and **continuous** beams, where hogging and sagging regions meet. Locating them matters practically because that is where **reinforcement can be curtailed or lapped** in a concrete beam, and where a construction joint may be placed.\n\n**Sign convention** (the usual one): shear force is **positive** when the left-hand portion tends to move **up** relative to the right; bending moment is **positive (sagging)** when it causes **compression at the top** and tension at the bottom. Whatever convention is adopted must be used consistently — and a **hogging** moment (tension at the top) is what occurs over the support of a continuous beam and at the fixed end of a cantilever."
+    },
+    {
+      "heading": "Standard cases",
+      "body": "These must be known outright, because they appear both as questions in their own right and as building blocks.\n\n**Simply supported beam, span L:**\n\n| Loading | Maximum shear | Maximum moment | At |\n|---|---|---|---|\n| **Central point load W** | **W/2** | **WL/4** | Mid-span |\n| Point load W at distance a from left (b from right) | Larger of Wb/L, Wa/L | **Wab/L** | Under the load |\n| **UDL w over the whole span** | **wL/2** | **wL²/8** | Mid-span |\n| Triangular, zero at ends, peak w at centre | wL/4 | wL²/12 | Mid-span |\n| Couple M at one end | M/L | M | At that end |\n\n**Cantilever, length L:**\n\n| Loading | Maximum shear | Maximum moment | At |\n|---|---|---|---|\n| **Point load W at the free end** | **W** | **WL** | **Fixed end** |\n| **UDL w over the whole length** | **wL** | **wL²/2** | Fixed end |\n| Triangular, peak w at the fixed end | wL/2 | wL²/6 | Fixed end |\n| Couple M at the free end | 0 | M | Throughout |\n\nFor a cantilever the maximum shear **and** the maximum moment both occur at the **fixed end**, which is why a cantilever is always deepest there — a tapering cantilever is the natural shape.\n\n**Fixed (built-in) beam**, for comparison, since it shows the value of restraint:\n\n| Loading | Support moment | Mid-span moment |\n|---|---|---|\n| **UDL w** | **wL²/12** (hogging) | **wL²/24** (sagging) |\n| **Central point load W** | **WL/8** | WL/8 |\n\nThe UDL case is instructive: a fixed beam's maximum moment is **wL²/12** against **wL²/8** for a simply supported beam — a **33% reduction** — and the moment is shared between support and mid-span instead of being concentrated at one place. That is the structural value of continuity, and it is why continuous beams are used wherever practicable.\n\n**Propped cantilever** with a UDL: support moment **wL²/8** at the fixed end, with the prop reaction 3wL/8 and the fixed-end reaction 5wL/8.\n\n**Overhanging beams** deserve a note because they generate the examinable question of **where the overhang should be** to minimise the maximum moment. Extending an overhang creates a **hogging** moment over the support that **reduces** the sagging moment at mid-span, and there is an optimum overhang at which the two are equal in magnitude — the same principle used in a **balanced cantilever bridge**.\n\n**Moving loads and influence lines.** An **influence line** shows how a function **at one fixed section** varies as a **unit load moves** across the span. It must not be confused with a bending moment diagram, which shows the function **along the beam for a fixed load**. Influence lines are the basis of **moving load analysis** for bridges and gantry girders, where the question is not what the moment is under a given load but **where to place the load to make it worst**.\n\nFor a simply supported beam, the influence line for bending moment at a section distance a from the left is a **triangle** with peak **ab/L** at that section, and for shear it consists of **two parallel lines** with a step of 1 at the section. The **absolute maximum bending moment** from a set of moving loads occurs when the loads are positioned so that the **resultant is close to mid-span** — an optimisation carried out by trial."
+    }
+  ],
+  "formulas": [
+    {
+      "label": "Differential relations",
+      "expression": "dV/dx = −w ;   dM/dx = V ;   d²M/dx² = −w",
+      "note": "Everything in this subchapter follows from these. Each integration raises the diagram's degree by one."
+    },
+    {
+      "label": "Location of maximum moment",
+      "expression": "Bending moment is maximum where the SHEAR FORCE is zero or changes sign",
+      "note": "Distinct from the point of contraflexure, which is where the MOMENT is zero."
+    },
+    {
+      "label": "Area rule",
+      "expression": "Change in bending moment = area of the shear force diagram between the sections",
+      "note": "Often the fastest way to construct a BMD, and a good check on one drawn by equations."
+    },
+    {
+      "label": "Simply supported beam maxima",
+      "expression": "Central point load: M = WL/4.   UDL: M = wL²/8.   Point load at a, b: M = Wab/L.",
+      "note": "Maximum shear W/2 and wL/2 respectively."
+    },
+    {
+      "label": "Cantilever maxima",
+      "expression": "Point load at free end: M = WL.   UDL: M = wL²/2.   Both maxima at the FIXED end.",
+      "note": "Which is why a cantilever is deepest at its root."
+    },
+    {
+      "label": "Fixed beam moments",
+      "expression": "UDL: wL²/12 at supports (hogging), wL²/24 at mid-span.   Central point load: WL/8 at both.",
+      "note": "wL²/12 against wL²/8 simply supported — a 33% reduction, the structural value of continuity."
+    },
+    {
+      "label": "Internal hinge condition",
+      "expression": "Bending moment at an internal hinge = 0",
+      "note": "The extra equation that makes a three-hinged arch determinate. A hinge transmits shear and axial force only."
+    }
+  ]
+}

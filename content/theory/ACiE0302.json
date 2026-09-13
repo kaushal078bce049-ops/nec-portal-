@@ -1,0 +1,57 @@
+{
+  "chapter": "ACiE03",
+  "subchapter": "ACiE0302",
+  "title": "Hydrostatics",
+  "summary": "Three things carry this subchapter. First, pressure in a static fluid varies only with depth and acts equally in all directions — which makes all of manometry a matter of bookkeeping along a path. Second, the total force on a submerged surface acts at the centre of pressure, which is always BELOW the centroid. Third, a floating body is stable when the metacentre is above the centre of gravity, whereas a fully submerged body needs the centre of buoyancy above the centre of gravity — a distinction examined almost every sitting.",
+  "sections": [
+    {
+      "heading": "Pressure and its measurement",
+      "body": "**Pascal's law:** at a point in a fluid at rest, the **pressure is the same in all directions**. It follows from the fact that a fluid at rest can sustain no shear stress.\n\n**Variation with depth.** In a static fluid,\n\n> **dp/dz = −ρg**,  hence  **p = ρgh = γh**\n\nSo pressure depends **only on depth**, not on the shape or volume of the container. Two consequences that questions exploit:\n\n- The pressure at the base of a wide reservoir and of a narrow tube of the same depth is **identical** — the **hydrostatic paradox**.\n- All points at the same level in a **connected** body of the same fluid are at the **same pressure**, which is the entire basis of manometry.\n\n**Pressure head** expresses pressure as a height of fluid: **h = p/γ**. The standard equivalences to memorise:\n\n> **Atmospheric pressure = 101.325 kPa = 10.33 m of water = 760 mm of mercury = 1.013 bar**\n\n**Absolute, gauge and vacuum:**\n\n> **p_absolute = p_gauge + p_atmospheric**\n\n| Term | Reference | Sign |\n|---|---|---|\n| **Absolute** | Perfect vacuum | Always positive |\n| **Gauge** | **Local atmospheric** | Positive or negative |\n| **Vacuum** | Atmospheric, measured downward | = negative gauge pressure |\n\nUnless a question says otherwise, **pressures are gauge** — the convention throughout engineering practice.\n\n**Instruments, and which reads what:**\n\n| Instrument | Reads |\n|---|---|\n| **Barometer** | **Absolute (atmospheric)** pressure |\n| **Piezometer** | Moderate positive gauge pressure of a liquid |\n| **Simple manometer** | Gauge pressure at a point |\n| **Differential manometer** | **Difference** of pressure between two points |\n| **Inverted / inclined manometer** | Small differences, magnified |\n| Bourdon gauge | Gauge pressure, mechanically |\n\nThe **barometer** is the one to notice: it is the only instrument in the list reading **absolute** pressure, and \"which instrument measures atmospheric pressure\" is a standard question.\n\n**Manometry method.** Work along a path from the known pressure to the unknown, **adding γh going down and subtracting γh going up**, and remembering that pressure is unchanged when moving **horizontally within one continuous fluid**. That single procedure solves every manometer problem without a separate formula.\n\nAn **inclined** manometer magnifies a small reading: a vertical rise h appears as a length **L = h/sin θ** along the tube, so a shallow inclination gives high resolution — the standard device for measuring small air-pressure differences."
+    },
+    {
+      "heading": "Total pressure and centre of pressure",
+      "body": "For a **plane surface** immersed in a liquid:\n\n> **Total pressure F = γ A h̄**\n\nwhere **h̄** is the depth of the **centroid** of the area. So the total force is simply the pressure at the centroid multiplied by the area.\n\nBut the force does **not act at the centroid**. It acts at the **centre of pressure**:\n\n> **h_cp = h̄ + I_G /(A h̄)**   (vertical surface)\n> **h_cp = h̄ + I_G sin²θ /(A h̄)**   (surface inclined at θ to the horizontal)\n\n**The centre of pressure is ALWAYS below the centroid**, because the added term I_G/(Ah̄) is always positive. The physical reason: pressure **increases with depth**, so the lower part of the surface carries more than its share of the force, pulling the resultant downward.\n\nTwo useful special cases:\n\n| Surface | h̄ | h_cp |\n|---|---|---|\n| **Vertical rectangle**, top edge at the free surface, depth d | d/2 | **2d/3** |\n| Vertical rectangle, fully submerged | Depends | Approaches h̄ as depth increases |\n| **Horizontal** surface | Uniform pressure | **Coincides with the centroid** |\n\nThe first is worth memorising outright: for a vertical gate or wall retaining water to its top, the resultant acts at **two thirds of the depth from the surface**, that is **d/3 from the base**. It is the same result as the triangular earth pressure distribution, for the same reason — a triangular loading has its centroid at one third of the height.\n\nNote also that **as the surface is submerged deeper, the centre of pressure approaches the centroid**, because I_G/(Ah̄) shrinks as h̄ grows. A deeply submerged gate is loaded almost uniformly.\n\n**Curved surfaces** are handled by resolving into components rather than by a single formula:\n\n| Component | Equals |\n|---|---|\n| **Horizontal force F_H** | The force on the **vertical projection** of the surface |\n| **Vertical force F_V** | The **weight of the liquid** contained above the surface (real or imaginary) |\n\nThe resultant is **√(F_H² + F_V²)** at **tan⁻¹(F_V/F_H)** to the horizontal. The vertical component being a *weight* is the elegant part: for a surface with liquid above it the weight is real, and for one with liquid below it the weight is that of the imaginary volume that would sit above.\n\n**Where this is applied:** dam and retaining-wall design, **sluice gates**, **lock gates**, tank walls, and the **pressure on an immersed body**. For a **dam**, the horizontal water thrust ½γH² acting at H/3 is the primary overturning force, resisted by the dam's own weight — and the **no-tension (middle third) rule** e ≤ B/6 then governs the base width."
+    },
+    {
+      "heading": "Buoyancy and flotation",
+      "body": "**Archimedes' principle:** a body wholly or partly immersed experiences an **upward buoyant force equal to the weight of the fluid displaced**, acting through the **centre of buoyancy** — which is the **centroid of the displaced volume**, not of the body.\n\nTwo distinct cases, and mixing them is a standard error:\n\n| Body | Displaces |\n|---|---|\n| **Floating** | Its **own WEIGHT** of fluid |\n| **Fully submerged** | Its **own VOLUME** of fluid |\n\nThat single distinction settles most flotation problems immediately. A floating body sinks until the displaced weight equals its own; a submerged body's buoyancy is fixed by its volume and cannot adjust.\n\n**Conditions of equilibrium:**\n\n| Condition | Result |\n|---|---|\n| Weight > buoyancy | **Sinks** |\n| Weight = buoyancy | **Neutral** — floats submerged at any depth |\n| Weight < buoyancy | **Rises** until partly emerged, then floats |\n\n**Stability — and here the two cases differ fundamentally.**\n\nFor a **fully submerged** body (a submarine, a balloon), the centre of buoyancy **B is fixed relative to the body**, because the displaced volume is the whole body and cannot change shape. So:\n\n> **Submerged body: stable when B is ABOVE G.**\n\nFor a **floating** body, tilting changes the **shape of the displaced volume**, so **B moves sideways**. The vertical through the new B intersects the original axis at the **metacentre M**, and:\n\n> **Floating body: stable when M is ABOVE G**, that is when **GM is positive**.\n\nThis is the distinction examined almost every sitting: **B above G for a submerged body, M above G for a floating one.** A floating body can be perfectly stable with **G above B** — a ship normally is — because the shift of buoyancy on tilting generates a **righting couple**.\n\n**Metacentric height:**\n\n> **GM = I/V − BG**\n\nwhere **I** is the second moment of area of the **water-line plane** about the axis of tilt and **V** the displaced volume. The term **I/V = BM** is the metacentric radius.\n\nNote what I/V means physically: a **wide** vessel has a large water-line I, hence a large BM and good stability. That is why barges and catamarans are stable and why a narrow deep hull is not.\n\n**Determining GM experimentally** by moving a known weight w through a distance x across the deck and measuring the resulting tilt θ:\n\n> **GM = w x / (W tan θ)**\n\n**Large or small GM?** A larger GM gives a **stiffer, more stable** vessel — but also a **shorter, jerkier rolling period**, since\n\n> **T = 2π √(k²/(g · GM))**\n\nso T falls as GM rises. Passenger comfort and cargo safety therefore call for a **moderate** GM, not the largest possible: an over-stiff ship rolls violently and can shift or damage its cargo. This trade-off is a favourite conceptual question.\n\n**Three states**, for completeness: **stable** (M above G, GM positive), **unstable** (M below G, GM negative — the body capsizes), and **neutral** (M coincides with G).\n\nA practical civil-engineering application is the **buoyancy raft** and the check on **uplift of empty tanks and basements**: a below-ground structure lighter than the water it displaces will **float**, which has happened to more than one empty swimming pool and sewage tank."
+    }
+  ],
+  "formulas": [
+    {
+      "label": "Hydrostatic pressure",
+      "expression": "p = ρgh = γh ;   p_absolute = p_gauge + p_atmospheric",
+      "note": "Depends only on depth. Atmospheric = 101.325 kPa = 10.33 m water = 760 mm Hg."
+    },
+    {
+      "label": "Total pressure on a plane surface",
+      "expression": "F = γ A h̄     (h̄ = depth of the CENTROID)",
+      "note": "The pressure at the centroid times the area — but the force does not act there."
+    },
+    {
+      "label": "Centre of pressure",
+      "expression": "h_cp = h̄ + I_G/(A h̄) ;   inclined: h_cp = h̄ + I_G sin²θ/(A h̄)",
+      "note": "ALWAYS below the centroid, because pressure increases with depth. For a vertical rectangle to the surface: 2d/3."
+    },
+    {
+      "label": "Force on a curved surface",
+      "expression": "F_H = force on the vertical projection ;   F_V = weight of liquid above (real or imaginary)",
+      "note": "Resultant √(F_H² + F_V²) at tan⁻¹(F_V/F_H)."
+    },
+    {
+      "label": "Archimedes' principle",
+      "expression": "Buoyant force = weight of fluid displaced, acting through the centre of buoyancy",
+      "note": "A FLOATING body displaces its own weight; a SUBMERGED body its own volume."
+    },
+    {
+      "label": "Metacentric height",
+      "expression": "GM = I/V − BG ;   experimentally GM = w x /(W tan θ)",
+      "note": "I is of the water-line plane. Floating body stable when M is above G; submerged body when B is above G."
+    },
+    {
+      "label": "Rolling period",
+      "expression": "T = 2π √(k²/(g · GM))",
+      "note": "A larger GM means more stability but a shorter, jerkier roll — so a moderate GM is preferred."
+    }
+  ]
+}

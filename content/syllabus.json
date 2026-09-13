@@ -1,0 +1,479 @@
+{
+  "$comment": "Transcribed verbatim from the official NEC 'Civil Engineering Syllabus (ACiE)' PDF (5 pages) supplied with this project. Subchapter codes are the official NEC codes. Do not edit titles/details without checking against the source PDF.",
+  "exam": {
+    "code": "ACiE",
+    "authority": "Nepal Engineering Council",
+    "title": "Registration Examination — Civil Engineering",
+    "shortTitle": "NEC Civil License Examination",
+    "note": "Chapters 1–4 are fundamentals/principles of concepts in civil engineering; chapters 5–9 are related to application of engineering principles in practice; and the last (10th) chapter is related to project planning, design and implementation."
+  },
+  "groups": {
+    "fundamentals": {
+      "label": "Fundamentals & Principles",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "application": {
+      "label": "Application in Practice",
+      "chapters": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "project": {
+      "label": "Project Planning, Design & Implementation",
+      "chapters": [
+        10
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "no": 1,
+      "code": "ACiE01",
+      "title": "Basic Civil Engineering",
+      "group": "fundamentals",
+      "subchapters": [
+        {
+          "no": "1.1",
+          "code": "ACiE0101",
+          "title": "Engineering materials",
+          "detail": "Properties (physical, chemical, mechanical and thermal); types, characteristics, composition, selection, and usage/function of engineering materials (stones, bricks, tiles, cement, lime, timber, metals/alloys, paints/varnishes, and asphalt/bitumen/tar)."
+        },
+        {
+          "no": "1.2",
+          "code": "ACiE0102",
+          "title": "Standards (NS & IS) and tests for civil engineering materials",
+          "detail": "Tests of brick (water absorption and compressive tests), tests of cement (consistency, setting time, soundness, and compressive strength); test of aggregate (bulking of sand); test of rebar (tensile test)."
+        },
+        {
+          "no": "1.3",
+          "code": "ACiE0103",
+          "title": "Building technology",
+          "detail": "Building construction technology (brick and stone masonry, carpentry, painting, plastering, concrete roofing, flooring, damp proof course); Building by laws."
+        },
+        {
+          "no": "1.4",
+          "code": "ACiE0104",
+          "title": "Geometric properties of sections",
+          "detail": "Axes of symmetry; centre of gravity of different sections (e.g., built-up plane figures, standard steel sections); moment of inertia; radius of gyration."
+        },
+        {
+          "no": "1.5",
+          "code": "ACiE0105",
+          "title": "Surveying and levelling",
+          "detail": "Fundamentals of surveying; measurements (linear distance, vertical distance, and angle and directions); levelling; topographic survey (principles and applications); Simple circular curves, principles and applications of GPS/GIS."
+        },
+        {
+          "no": "1.6",
+          "code": "ACiE0106",
+          "title": "Estimating, costing, and valuation",
+          "detail": "Types of estimate; methods of estimating; rate analysis; specifications (purpose, importance and types), valuation."
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "code": "ACiE02",
+      "title": "Soil Mechanics and Foundation Engineering",
+      "group": "fundamentals",
+      "subchapters": [
+        {
+          "no": "2.1",
+          "code": "ACiE0201",
+          "title": "Soil properties and laboratory tests",
+          "detail": "Tests for strength, permeability, compressibility, phase relationships; determination of index and engineering properties of soils; soil classification (descriptive, textural, ISI, MIT, USCS); boring log interpretation; sieve analysis and interpretation of results; determination of Atterberg limits of soils."
+        },
+        {
+          "no": "2.2",
+          "code": "ACiE0202",
+          "title": "Stresses on soil and seepage",
+          "detail": "Effective stress (factors affecting effective stress, capillary rise, and quick sand conditions); seepage analysis [Seepage pressure, flow nets and their applications]; soil compressibility (including various indices) and compaction (definition, affecting factors)."
+        },
+        {
+          "no": "2.3",
+          "code": "ACiE0203",
+          "title": "Shear strength of soil and stability of slopes",
+          "detail": "Concept of shear strength, principal planes and principal stresses; Mohr-Coulomb theory of shear strength; calculation of normal and shear stresses at different planes; relation of principle stress at failure condition; types of shear tests; stability of slopes."
+        },
+        {
+          "no": "2.4",
+          "code": "ACiE0204",
+          "title": "Soil exploration, earth pressure and retaining structures",
+          "detail": "Soil exploration (methods, planning, soil sampling and samplers, field tests, site investigation reports); earth pressure theories; stability analysis of retaining walls; techniques to increase stability of retaining walls."
+        },
+        {
+          "no": "2.5",
+          "code": "ACiE0205",
+          "title": "Fundamentals of foundation",
+          "detail": "Definition, Types (Shallow and Deep), functions, factor affecting, site investigation of foundation, concept of spread and mat foundation."
+        },
+        {
+          "no": "2.6",
+          "code": "ACiE0206",
+          "title": "Bearing capacity and foundation settlements",
+          "detail": "Bearing capacity (types, effects of various factors); modes of foundation failure; Terzaghi's general bearing capacity theory; ultimate bearing capacity of cohesion-less and cohesive soils; consolidation (concept, types and tests); settlement (types, nature, effects and calculations)."
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "code": "ACiE03",
+      "title": "Basic Water Resources Engineering",
+      "group": "fundamentals",
+      "subchapters": [
+        {
+          "no": "3.1",
+          "code": "ACiE0301",
+          "title": "Fluids and their properties",
+          "detail": "Types of fluids; fluid properties (mass density, specific weight, specific gravity, specific volume, viscosity, compressibility, capillarity, surface tension, cavitation and vapour pressure)."
+        },
+        {
+          "no": "3.2",
+          "code": "ACiE0302",
+          "title": "Hydrostatics",
+          "detail": "Pressure and head; Pascal's law; pressure-depth relationship; manometers; pressure force and centre of pressure on submerged bodies (plane and curved surfaces, practical applications); pressure diagrams; buoyancy; stability of floating/submerged bodies."
+        },
+        {
+          "no": "3.3",
+          "code": "ACiE0303",
+          "title": "Hydro-kinematics and hydro-dynamics",
+          "detail": "Classification of fluid flow; conservation of mass (continuity equation) and momentum equations and their applications; Bernoulli's equation and its application; flow measurement."
+        },
+        {
+          "no": "3.4",
+          "code": "ACiE0304",
+          "title": "Pipe flow",
+          "detail": "Types, governing equations, major and minor head losses; HGL and TEL lines; design; pipe network problems; unsteady flow in pipes and relief devices."
+        },
+        {
+          "no": "3.5",
+          "code": "ACiE0305",
+          "title": "Open channel flow",
+          "detail": "Geometrical properties; various types of flows; energy and momentum principles (Specific Energy and Specific Force); Types of gradually varied flow profiles; hydraulic jump (types, theory for horizontal and rectangular); flow in mobile boundary channel (design principles/approaches; inception motion condition; Shield diagram)."
+        },
+        {
+          "no": "3.6",
+          "code": "ACiE0306",
+          "title": "Hydrology",
+          "detail": "Hydrologic cycle and water balance components; flow measurement and rating curves; hydrographs analysis and synthetic unit hydrographs; rainfall-runoff analysis; flood hydrology (flood frequency analysis and design flood); groundwater hydrology."
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "code": "ACiE04",
+      "title": "Structural Mechanics",
+      "group": "fundamentals",
+      "subchapters": [
+        {
+          "no": "4.1",
+          "code": "ACiE0401",
+          "title": "Shear forces and bending moments",
+          "detail": "Axial forces, shear forces, and bending moments; loads and load superposition; relationship and diagram Interpretation (AF, SF, BM)."
+        },
+        {
+          "no": "4.2",
+          "code": "ACiE0402",
+          "title": "Stress and strain analysis",
+          "detail": "Normal and shear stresses; principal stresses and principal planes; maximum shear stress and corresponding plane; stress-strain curves; torsion."
+        },
+        {
+          "no": "4.3",
+          "code": "ACiE0403",
+          "title": "Theory of flexure and columns",
+          "detail": "Co-planar and pure bending; elastic curve; angle of rotation; radius of curvature and flexural stiffness; deflection; bending stress; Euler's formula for long column."
+        },
+        {
+          "no": "4.4",
+          "code": "ACiE0404",
+          "title": "Determinate structures-1",
+          "detail": "Degree of determinacy, Energy Methods, Virtual Work Method, Deflection of beams and portal frame."
+        },
+        {
+          "no": "4.5",
+          "code": "ACiE0405",
+          "title": "Determinate structures-2",
+          "detail": "Influence Lines for Simple Structures with point loads and UDL; analysis of two hinged arches."
+        },
+        {
+          "no": "4.6",
+          "code": "ACiE0406",
+          "title": "Indeterminate structures",
+          "detail": "Flexibility Method, Two-Hinged Parabolic Arches, Slope Deflection Method, Moment Distribution Method, Stiffness method, Influence Lines for Continuous Beams, Elementary Plastic analysis."
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "code": "ACiE05",
+      "title": "Design of Structures",
+      "group": "application",
+      "subchapters": [
+        {
+          "no": "5.1",
+          "code": "ACiE0501",
+          "title": "Loads and load combinations",
+          "detail": "Dead Load, Imposed Load, Wind Load, Snow Load, Earthquake Load."
+        },
+        {
+          "no": "5.2",
+          "code": "ACiE0502",
+          "title": "Concrete technology",
+          "detail": "Concrete technology (materials, properties, mix design, testing, quality control, and codes (IS and NS))."
+        },
+        {
+          "no": "5.3",
+          "code": "ACiE0503",
+          "title": "RCC structures-1",
+          "detail": "Working stress and limit state methods; design of beams and slabs; analysis of RC beams and slabs in bending, shear, deflection, bond and end anchorage; RCC; NS & IS codes."
+        },
+        {
+          "no": "5.4",
+          "code": "ACiE0504",
+          "title": "RCC structures-2",
+          "detail": "Design of columns and isolated/combined footings; pre-stressed concrete; NS & IS codes."
+        },
+        {
+          "no": "5.5",
+          "code": "ACiE0505",
+          "title": "Steel structures",
+          "detail": "Standard and built-up sections; design of bolted and welded connections; design of simple elements such as ties, struts, axially loaded columns, and column bases; NS and IS codes."
+        },
+        {
+          "no": "5.6",
+          "code": "ACiE0506",
+          "title": "Timber and masonry structures",
+          "detail": "Design principles of timber beams and columns; Design of masonry structures (Mandatory rules of thumb, Nepal Building Code (NBC), properties), Failure modes of masonry structure, mud mortar, lime mortar and cement mortar and its properties."
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "code": "ACiE06",
+      "title": "Water Supply, Sanitation and Environment",
+      "group": "application",
+      "subchapters": [
+        {
+          "no": "6.1",
+          "code": "ACiE0601",
+          "title": "Water sources, water quality and water demand",
+          "detail": "Sources of water (surface and groundwater) and their selection; impurities in water (suspended, colloidal, dissolved); hardness and alkalinity; living organisms in water; water-related diseases and prevention measures; drinking water quality standards; water demand estimation."
+        },
+        {
+          "no": "6.2",
+          "code": "ACiE0602",
+          "title": "Intake and distribution systems",
+          "detail": "Types of intakes, factor affecting while selection of location of intake; types and purposes of pipe materials, joints, valves and fittings; break pressure tanks; service reservoirs and their capacity determination; design of branch and looped water distribution systems."
+        },
+        {
+          "no": "6.3",
+          "code": "ACiE0603",
+          "title": "Water treatment process and technologies",
+          "detail": "Various treatment process and their purposes; screening; plain sedimentation; sedimentation with coagulation; flocculation; filtration; disinfection; softening; and miscellaneous treatments (aeration, removal of iron and manganese, removal of color/odour/taste)."
+        },
+        {
+          "no": "6.4",
+          "code": "ACiE0604",
+          "title": "Design and construction of sewers",
+          "detail": "Estimation of quantity of waste water; sewerage system and types; design criteria of sewers; shapes of sewers; sewer materials; design of sewers for separate and combined systems; construction of sewers and sewer appurtenances."
+        },
+        {
+          "no": "6.5",
+          "code": "ACiE0605",
+          "title": "Treatment and disposal of wastewater",
+          "detail": "Characteristics and examination of sewage; decomposition of wastewater; BOD and COD; primary treatment processes and design of grit chamber; secondary or biological treatment process; sewage filtration; activated sludge process; oxidation ponds; waste water disposal by dilution (oxygen sag curve; Streeter Phelp's equation); waste water disposal by land treatment; sludge and solid waste disposal methods; latrine and septic tank."
+        },
+        {
+          "no": "6.6",
+          "code": "ACiE0606",
+          "title": "Concept of environmental assessment",
+          "detail": "BES; IEE; EIA; government's act, rules/regulations/procedures for BES/IEE/EIA; Types of disaster and its mitigation."
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "code": "ACiE07",
+      "title": "Irrigation and Drainage",
+      "group": "application",
+      "subchapters": [
+        {
+          "no": "7.1",
+          "code": "ACiE0701",
+          "title": "Water demand estimation",
+          "detail": "Crop water and irrigation water requirements; water availability for irrigation; command areas; irrigation intensity; duty, delta and their relationship; water losses and irrigation efficiencies; effective rainfall; soil-moisture-irrigation relationship; depth and frequency of irrigation; design discharge for canals."
+        },
+        {
+          "no": "7.2",
+          "code": "ACiE0702",
+          "title": "Design of canals",
+          "detail": "Canal types, network and alignment; tractive force approach of canal design; design of stable canals, alluvial canals (Kennedy's and Lacey's theory), and lined canals."
+        },
+        {
+          "no": "7.3",
+          "code": "ACiE0703",
+          "title": "Diversion headworks",
+          "detail": "Components of headwork; seepage theories and their applications (Bligh's, Lane's, Khosla's); design of silt control structures (excluder, ejector and settling basins); design of weir/barrage (crest, length and thickness of impervious floor); design of energy dissipaters."
+        },
+        {
+          "no": "7.4",
+          "code": "ACiE0704",
+          "title": "River training works",
+          "detail": "River stages and need of river training; design of river training works (guide bund and launching aprons, levees and spurs); watershed management."
+        },
+        {
+          "no": "7.5",
+          "code": "ACiE0705",
+          "title": "Regulating and cross-drainage structures",
+          "detail": "Functions of various types of regulators, design of regulators and escapes (crest, length and thickness of impervious floor); design of pipe outlet (free and submerged); design of vertical drop (crest, length, and thickness of impervious floor); design of cross-drainage structures."
+        },
+        {
+          "no": "7.6",
+          "code": "ACiE0706",
+          "title": "Water logging and drainage",
+          "detail": "Causes, effects and preventive measures; design of surface and sub-surface drainage systems."
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "code": "ACiE08",
+      "title": "Hydropower",
+      "group": "application",
+      "subchapters": [
+        {
+          "no": "8.1",
+          "code": "ACiE0801",
+          "title": "Planning of hydropower projects",
+          "detail": "Power potential (gross, technical, economic) of Nepal and the world; stages of hydropower development, hydropower development in Nepal (history, policy, acts & regulation)."
+        },
+        {
+          "no": "8.2",
+          "code": "ACiE0802",
+          "title": "Power and energy potential study",
+          "detail": "Power and energy potentials; methods of fixing installed capacity of a plant; types of hydropower plants on various basis; components of different types of hydropower projects; reservoirs and their regulation."
+        },
+        {
+          "no": "8.3",
+          "code": "ACiE0803",
+          "title": "Headworks of storage plants",
+          "detail": "Components of a typical storage plant; dams (types, functions, selection, design, failure modes and remedies); stability analysis of gravity dam, seepage control and foundation treatment in dams; design of intake, spillway and energy dissipaters; gates (types and locations)."
+        },
+        {
+          "no": "8.4",
+          "code": "ACiE0804",
+          "title": "Headworks of run-of-river (ROR) plants",
+          "detail": "Components of a typical ROR plant; design of intake; methods of bed and suspended load handling; design of settling basin (practice and concentration approach), estimation of sediment volume in settling basin, flushing of deposited sediment, estimation of flushing frequency for sediments."
+        },
+        {
+          "no": "8.5",
+          "code": "ACiE0805",
+          "title": "Water conveyance structures",
+          "detail": "Hydraulic tunnels, x-sections, and hydraulic design (velocity and sizing); tunnel lining; design of forebay and surge tanks; design of penstocks and pressure shaft; hydraulic transients (water hammer)."
+        },
+        {
+          "no": "8.6",
+          "code": "ACiE0806",
+          "title": "Hydro-electric machines and powerhouse",
+          "detail": "Hydro-mechanical equipment and their functions; types of turbines and performance characteristics; selection of turbine and their specific speed; preliminary design of Francis and Pelton turbines; scroll case and draft tubes; generators (types, rating); governs; pumps and their performance characteristics; powerhouse (types, general arrangements, dimensions)."
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "code": "ACiE09",
+      "title": "Transportation",
+      "group": "application",
+      "subchapters": [
+        {
+          "no": "9.1",
+          "code": "ACiE0901",
+          "title": "Highway planning and survey",
+          "detail": "Modes of transport, history of road development in Nepal; classification of roads; road survey; highway alignment and controlling factors; evaluating alternate alignments; Road Standards of Nepal."
+        },
+        {
+          "no": "9.2",
+          "code": "ACiE0902",
+          "title": "Geometric design of highway",
+          "detail": "Basic design control and criteria; elements of highway cross-section; highway curves; super elevation; average and ruling gradients; stopping sight distance; design considerations for horizontal and vertical alignments, extra widening, and set back distance; design of road drainage structures; design considerations for hill roads."
+        },
+        {
+          "no": "9.3",
+          "code": "ACiE0903",
+          "title": "Highway materials",
+          "detail": "Types of aggregates and tests on their gradation, strength, durability; binding materials and their tests; design of asphalt mixes; evaluation of subgrade soil."
+        },
+        {
+          "no": "9.4",
+          "code": "ACiE0904",
+          "title": "Traffic engineering and safety",
+          "detail": "Impact of human and vehicular characteristics on traffic planning; traffic operations and regulations; traffic control devices; traffic studies (volume, speed, O&D, traffic capacity, traffic flow characteristics, parking, accident, flow); road intersections (types, configurations, design); traffic lights; factors influencing night visibility, road safety measures."
+        },
+        {
+          "no": "9.5",
+          "code": "ACiE0905",
+          "title": "Road pavement",
+          "detail": "Different types of pavement; design methods for flexible and rigid pavements (DOR Guidelines); loads and other factors controlling pavement design; stress due to load, temperature."
+        },
+        {
+          "no": "9.6",
+          "code": "ACiE0906",
+          "title": "Road construction & maintenance",
+          "detail": "Activities, techniques, tools, equipment and plants used in road construction; preparation of road subgrade; field compaction control and soil stabilization; construction of asphalt concrete layers; construction procedure for penetration macadam, bituminous bound macadam and plain cement concrete pavements; road maintenance, repair and rehabilitation."
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "code": "AALL10",
+      "title": "Project Planning, Design and Implementation",
+      "group": "project",
+      "subchapters": [
+        {
+          "no": "10.1",
+          "code": "AALL1001",
+          "title": "Engineering drawings and its concepts",
+          "detail": "Fundamentals of standard drawing sheets, dimensions, scale, line diagram, orthographic projection, isometric projection/view, pictorial views, and sectional drawing."
+        },
+        {
+          "no": "10.2",
+          "code": "AALL1002",
+          "title": "Engineering Economics",
+          "detail": "Understanding of project cash flow; discount rate, interest and time value of money; basic methodologies for engineering economics analysis (Discounted Payback Period, NPV, IRR & MARR); comparison of alternatives, depreciation system and taxation system in Nepal."
+        },
+        {
+          "no": "10.3",
+          "code": "AALL1003",
+          "title": "Project planning and scheduling",
+          "detail": "Project classifications; project life cycle phases; project planning process; project scheduling (bar chart, CPM, PERT); resources levelling and smoothing; monitoring/evaluation/controlling."
+        },
+        {
+          "no": "10.4",
+          "code": "AALL1004",
+          "title": "Project management",
+          "detail": "Information system; project risk analysis and management; project financing, tender and its process, and contract management."
+        },
+        {
+          "no": "10.5",
+          "code": "AALL1005",
+          "title": "Engineering professional practice",
+          "detail": "Environment and society; professional ethics; regulatory environment; contemporary issues/problems in engineering; occupational health and safety; roles/responsibilities of Nepal Engineers Association (NEA)."
+        },
+        {
+          "no": "10.6",
+          "code": "AALL1006",
+          "title": "Engineering Regulatory Body",
+          "detail": "Nepal Engineering Council (Acts & Regulations)."
+        }
+      ]
+    }
+  ]
+}

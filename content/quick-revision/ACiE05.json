@@ -1,0 +1,402 @@
+[
+  {
+    "id": "QR-ACiE05-001",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0501",
+    "fact": "Limit state load combinations (IS 456): **1.5(DL+LL)**, **1.2(DL+LL±WL/EL)**, **1.5(DL±WL/EL)**, **0.9DL ± 1.5WL/EL**.",
+    "detail": "The **0.9DL** case checks **uplift and overturning**, where dead load is a *stabilising* action so its favourable value must be reduced. Missing that combination is a classic design error.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-002",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0501",
+    "fact": "Partial safety factors on materials: **γ_concrete = 1.5**, **γ_steel = 1.15**.",
+    "detail": "Steel's is lower because it is a **factory-made product of consistent quality**, whereas concrete is made on site. Design strengths: **0.446 f_ck** for concrete and **0.87 f_y** for steel.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-003",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0501",
+    "fact": "Live loads (IS 875 Part 2): **residential 2 kN/m²**, **office 2.5–4**, **classroom 3**, **assembly without fixed seats 5**, **stairs/corridors 3–5**.",
+    "detail": "Unit weights (IS 875 Part 1): **RCC 25 kN/m³**, PCC 24, **brick masonry 19–20**, stone masonry 24, steel 78.5, water 9.81.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-004",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0501",
+    "fact": "**Seismic base shear V_B = A_h × W**, where the design horizontal coefficient **A_h = (Z/2)(I/R)(S_a/g)**.",
+    "detail": "**R (response reduction factor) rewards ductility** — a special moment-resisting frame gets R = 5, an ordinary frame 3. Higher R means lower design force, which is why detailing for ductility is not optional. Nepal uses **NBC 105:2020**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-005",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0501",
+    "fact": "Wind load: **design wind pressure p_z = 0.6 V_z²** (N/m²), with **V_z = V_b·k₁·k₂·k₃**.",
+    "detail": "k₁ risk coefficient (design life), k₂ terrain/height, k₃ topography. Wind governs **tall, light** structures; seismic governs **heavy** ones — because seismic force is proportional to **mass** and wind to **exposed area**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-006",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0502",
+    "fact": "**Target mean strength f′_ck = f_ck + 1.65σ.**",
+    "detail": "The **1.65** is the standard normal deviate for the **5% fractile** that defines characteristic strength. σ from IS 10262: **4.0 N/mm²** for M20–M25, **5.0** for M30–M45. A mix designed at exactly f_ck fails acceptance about half the time.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-007",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0502",
+    "fact": "**Abrams' law**: strength depends chiefly on the **water–cement ratio**, not on the cement content alone.",
+    "detail": "Minimum w/c for **complete hydration ≈ 0.38**; below about **0.25** hydration is incomplete. IS 456 caps w/c by **exposure**: 0.55 mild, 0.50 moderate, **0.45 severe**, 0.45 very severe, **0.40 extreme**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-008",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0502",
+    "fact": "Nominal cover (IS 456 Table 16): **20 mm mild**, **30 moderate**, **45 severe**, **50 very severe**, **75 extreme**.",
+    "detail": "Also: **footings 50 mm** minimum, and cover must be **at least the bar diameter**. Cover protects against **corrosion and fire**, and inadequate cover is the single commonest cause of premature RCC failure.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-009",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0502",
+    "fact": "**Curing must continue at least 7 days** for OPC, **10–14 days** for blended cements and in hot weather.",
+    "detail": "Curing supplies the water for **continued hydration**. Stopping early can cost **30–40% of potential strength** and greatly increases permeability. Concrete gains ~65–70% of its 28-day strength by 7 days.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-010",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0502",
+    "fact": "**Modulus of elasticity E_c = 5000√f_ck** N/mm²; **flexural (modulus of rupture) f_cr = 0.7√f_ck**.",
+    "detail": "Note both go as **√f_ck**, so doubling the grade does *not* double the stiffness. Split tensile strength ≈ 0.9 f_cr; direct tensile ≈ **1/10 of compressive**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-011",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0502",
+    "fact": "**Creep** is time-dependent strain under **sustained load**; **shrinkage** occurs **without any load**.",
+    "detail": "IS 456 ultimate shrinkage strain **0.0003**; creep coefficient **2.2 at 7 days, 1.6 at 28 days, 1.1 at one year** of loading age. Long-term deflection may be **2–3 times** the immediate value.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-012",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0503",
+    "fact": "**Limiting neutral axis depth x_u,max/d: 0.53 for Fe 250, 0.48 for Fe 415, 0.46 for Fe 500.**",
+    "detail": "**x_u < x_u,max → under-reinforced** (steel yields first, ductile, warns before failure). **x_u > x_u,max → over-reinforced** (concrete crushes first, sudden). Codes require **under-reinforced** design for exactly that reason.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-013",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0503",
+    "fact": "**M_u = 0.87 f_y A_st (d − 0.42 x_u)** and **x_u = 0.87 f_y A_st /(0.36 f_ck b)**.",
+    "detail": "The **0.36** and **0.42** come from the rectangular-parabolic stress block: **0.36 f_ck b x_u** is its area (the compressive force) and its centroid is **0.42 x_u** from the extreme fibre. Maximum strain in concrete is **0.0035**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-014",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0503",
+    "fact": "Minimum steel in a beam: **A_st/bd = 0.85/f_y**; maximum **0.04bD**.",
+    "detail": "Minimum tension steel for **Fe 415 ≈ 0.205%**. Slab minimum: **0.12% of gross area** for HYSD, 0.15% for mild steel. The minimum exists so the section does not fail the moment it cracks.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-015",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0503",
+    "fact": "**Development length L_d = φσ_s/(4τ_bd)**.",
+    "detail": "τ_bd for M20 plain bars = 1.2 N/mm², **increased 60% for deformed bars** and **25% in compression**. Roughly **L_d ≈ 47φ** for Fe 415 in M20. Lap length in tension is usually taken as **L_d or 30φ**, whichever is greater.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-016",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0503",
+    "fact": "**One-way slab: L_y/L_x > 2**; **two-way: L_y/L_x ≤ 2**.",
+    "detail": "A one-way slab bends in **one direction only**, so main steel runs along the **short** span and distribution steel along the long. In a two-way slab both directions carry load, and the **short span carries more**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-017",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0504",
+    "fact": "**Nominal shear stress τ_v = V_u/(bd)**; provide stirrups when **τ_v > τ_c**, and **redesign the section if τ_v > τ_c,max**.",
+    "detail": "τ_c,max = **2.8 N/mm² for M20**, 3.5 for M25. Exceeding it means **web crushing**, which stirrups cannot prevent — the section must be enlarged. Minimum shear reinforcement: A_sv/(b·s_v) ≥ 0.4/(0.87f_y).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-018",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0504",
+    "fact": "Maximum stirrup spacing: the least of **0.75d**, **300 mm**, and that required by calculation.",
+    "detail": "For **ductile detailing** (IS 13920) the spacing in the end region (2d from the face) is much tighter: the least of **d/4**, **8× the smallest longitudinal bar diameter**, and **100 mm**. Critical for Nepal's seismicity.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-019",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0504",
+    "fact": "Column: **P_u = 0.4 f_ck A_c + 0.67 f_y A_sc** for a short axially loaded column.",
+    "detail": "Steel **0.8% minimum to 6% maximum** (4% practical, for placing). **Ties: diameter ≥ ¼ of the largest longitudinal bar and ≥ 6 mm; spacing ≤ least lateral dimension, 16× the smallest bar, or 300 mm.** A column is **short if L_e/D < 12**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-020",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0504",
+    "fact": "**Minimum eccentricity e_min = L/500 + D/30, but not less than 20 mm.**",
+    "detail": "No column is truly axially loaded, so the code requires this allowance. If the actual eccentricity exceeds 0.05D the column must be designed for **combined axial load and bending**, using an interaction (P–M) diagram.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-021",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0504",
+    "fact": "A footing is checked for **one-way shear, two-way (punching) shear, bending, and bearing/development**.",
+    "detail": "**Punching shear** is checked on a perimeter **d/2 from the column face**, with permissible stress **k_s·0.25√f_ck**. One-way shear is checked at **d from the face**. Punching usually governs the thickness.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-022",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0505",
+    "fact": "IS 800:2007 is a **limit state** code: γ_m0 = **1.10** for yielding, γ_m1 = **1.25** for ultimate/rupture.",
+    "detail": "Design strengths: **tension yielding T_dg = A_g f_y/1.10**; **net-section rupture T_dn = 0.9 A_n f_u/1.25**. The lower of the two governs. Rupture takes the larger factor because it is a **brittle** failure mode.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-023",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0505",
+    "fact": "Bolt values: **shear V_dsb = (A_nb f_ub/√3)/1.25**; **bearing** on the thinner plate; **tension**.",
+    "detail": "A bolt in **double shear** has twice the capacity of one in single shear. Pitch **≥ 2.5d**, edge distance **≥ 1.5× the hole diameter**, maximum pitch **min(32t, 300 mm)**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-024",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0505",
+    "fact": "**Fillet weld throat thickness = 0.7 × size**; effective length = actual length **− 2 × size**.",
+    "detail": "Strength **= 0.7s·L_eff·f_u/(√3 × 1.25)**. Minimum weld size depends on the **thicker** plate; maximum on the **thinner**. A **butt weld** is as strong as the parent metal when full penetration is achieved.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-025",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0505",
+    "fact": "Slenderness limits (IS 800): **compression member carrying load 180**, **bracing 250**, **tension member 400**.",
+    "detail": "Compression members buckle about the axis of **minimum radius of gyration**. Steel column design uses **buckling class a, b, c, d** curves with an imperfection factor α, replacing the older Euler/Rankine treatment.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-026",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0505",
+    "fact": "Section classification: **plastic, compact, semi-compact, slender** — by the width-to-thickness ratio.",
+    "detail": "Only a **plastic** section can form a full plastic hinge and be used in plastic design. A **slender** section buckles locally **before** reaching yield, so its capacity must be reduced. Governed by b/t and d/t limits against ε = √(250/f_y).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-027",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0506",
+    "fact": "Masonry: **effective thickness of a cavity wall = greater of ⅔(t₁+t₂) and the thicker leaf** (IS 1905).",
+    "detail": "**Slenderness ratio ≤ 27** for load-bearing walls in cement mortar. Because the two leaves are tied but not bonded, they do not act fully together — hence the ⅔ factor.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-028",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0506",
+    "fact": "**Mortar must be weaker than the masonry unit**, not stronger.",
+    "detail": "A weak mortar accommodates movement and cracks are **fine and distributed in the joints**. A mortar stronger than the brick forces cracking **through the units** — much harder to repair, and the wall loses its ability to take differential movement.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-029",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0506",
+    "fact": "Timber design (IS 883): three **grades of location** — **inside, outside, wet** — set the permissible stress.",
+    "detail": "Timber is **anisotropic**: strength **along** the grain far exceeds that across it. Strength depends on **moisture content, defects (knots, shakes) and duration of loading**. Permissible stresses may be raised for short-duration loads.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-030",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0506",
+    "fact": "Seismic strengthening of masonry: **horizontal bands** at plinth, sill, lintel and roof level, plus **vertical bars at corners and openings**.",
+    "detail": "This is the core of **NBC 202 (Mandatory Rules of Thumb)** for load-bearing masonry in Nepal. The bands tie the walls into a box so they act together rather than as independent panels — the lesson of repeated Himalayan earthquakes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-031",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0502",
+    "fact": "**Segregation** is the separation of coarse aggregate from the mix; **bleeding** is water rising to the surface.",
+    "detail": "Segregation is caused by **over-wet or harsh mixes, excessive vibration, dropping concrete from a height**. Bleeding leaves a weak, porous **laitance** layer that must be removed before the next lift.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-032",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0502",
+    "fact": "Admixtures: **plasticiser/superplasticiser** (workability at lower w/c), **accelerator**, **retarder**, **air-entraining**.",
+    "detail": "**Superplasticisers** can cut water demand **15–30%** — the basis of high-strength and self-compacting concrete. **Air entrainment** improves **freeze-thaw** resistance but reduces strength ~5% per 1% air. **Calcium chloride** accelerates but **corrodes reinforcement** and is banned in RCC.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-033",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0503",
+    "fact": "In a **T-beam**, the effective flange width is the least of **L_0/6 + b_w + 6D_f**, the actual width, or the beam spacing.",
+    "detail": "For an **isolated** T-beam it is L_0/(L_0/b + 4) + b_w. Usually the **neutral axis falls within the flange**, so the beam is designed as a **rectangular section of the flange width** — a large simplification worth checking for first.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-034",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0504",
+    "fact": "**Prestressing losses**: elastic shortening, creep and shrinkage of concrete, relaxation of steel, friction, anchorage slip.",
+    "detail": "**Pre-tensioning** stresses the steel **before** casting and relies on **bond**; **post-tensioning** stresses it **after** hardening and relies on **anchorages**. Losses are **higher in pre-tensioning** (full elastic shortening). Total loss is typically **15–25%**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-035",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0505",
+    "fact": "**Plastic moment M_p = f_y·Z_p**, and the **shape factor = Z_p/Z_e**.",
+    "detail": "Shape factors: **rectangle 1.5**, **circle 1.7**, **I-section 1.10–1.20**, diamond 2.0. The I-section's low factor is because it is already near-optimal elastically — little reserve remains between first yield and full plasticity.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-036",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0501",
+    "fact": "**Limit states** are grouped as **collapse (strength)** and **serviceability (deflection, cracking, vibration)**.",
+    "detail": "Collapse uses **factored** loads and **reduced** material strengths; serviceability uses **unfactored (characteristic)** loads with γ = 1.0. Crack width limits: **0.3 mm** normal, **0.2 mm** for aggressive exposure, 0.1 mm where appearance is critical.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-037",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0503",
+    "fact": "A **doubly reinforced** beam is used when the section depth is **restricted** and M_u exceeds the singly reinforced capacity.",
+    "detail": "Compression steel also **reduces long-term deflection** by resisting creep, and **improves ductility**. It must be restrained by closely spaced ties or it will buckle.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-038",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0506",
+    "fact": "**Strong column–weak beam** is the governing principle of ductile design: beams must hinge before columns.",
+    "detail": "A beam hinge is a **local** failure the frame survives; a column hinge causes **storey collapse**. IS 13920 requires ΣM_column ≥ 1.4 ΣM_beam at a joint. The **soft/weak storey** — an open ground floor — is the classic violation and a major cause of collapse in 2015.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-039",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0502",
+    "fact": "**Batching by weight is far more accurate than by volume**, because of **bulking of sand**.",
+    "detail": "Moist sand bulks **20–40%** at about 4–5% moisture, so volume batching silently under-supplies sand. Where volume batching is unavoidable, the bulking must be measured and the volume corrected.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-040",
+    "chapter": "ACiE05",
+    "subchapter": "ACiE0504",
+    "fact": "Formwork stripping (IS 456 Table 11): **vertical faces 16–24 h**, **slab soffit 3 days**, **beam soffit 7 days**, **props to beams over 6 m span 21 days**.",
+    "detail": "The times rise with the **load the formwork carries** and the **span**. Removing soffit forms while **leaving props** is the standard way to reuse formwork early without asking young concrete to span.",
+    "verification": {
+      "status": "verified"
+    }
+  }
+]

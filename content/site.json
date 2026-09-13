@@ -1,0 +1,70 @@
+{
+  "$comment": "EDIT THIS FILE to change branding, social links and contact details. Anything left as PLACEHOLDER is hidden by the site rather than shown. All portal content is FREE — there is no payment configuration here and no paid tier anywhere in the product.",
+  "brand": {
+    "name": "NEC Civil License",
+    "tagline": "Nepal Engineering Council — Civil Engineering Registration Examination",
+    "shortName": "NEC Civil",
+    "description": "Complete preparation for the NEC civil engineering graduate license examination: the full syllabus, chapterwise theory, 1000+ practice questions with worked solutions, past papers, model sets and a daily capsule."
+  },
+  "preparedBy": {
+    "name": "Kaushal Karki",
+    "role": "Prepared and maintained by",
+    "blurb": "Civil engineer. Built this because the material a candidate needs was scattered across photocopies, and the answer keys in circulation contain real errors.",
+    "email": "PLACEHOLDER-your-email@example.com",
+    "showEmail": false
+  },
+  "social": [
+    {
+      "label": "Facebook",
+      "url": "PLACEHOLDER-https://facebook.com/your-page",
+      "icon": "facebook",
+      "enabled": false
+    },
+    {
+      "label": "Instagram",
+      "url": "PLACEHOLDER-https://instagram.com/your-handle",
+      "icon": "instagram",
+      "enabled": false
+    },
+    {
+      "label": "YouTube",
+      "url": "PLACEHOLDER-https://youtube.com/@your-channel",
+      "icon": "youtube",
+      "enabled": false
+    },
+    {
+      "label": "LinkedIn",
+      "url": "PLACEHOLDER-https://linkedin.com/in/your-profile",
+      "icon": "linkedin",
+      "enabled": false
+    },
+    {
+      "label": "TikTok",
+      "url": "PLACEHOLDER-https://tiktok.com/@your-handle",
+      "icon": "tiktok",
+      "enabled": false
+    },
+    {
+      "label": "WhatsApp",
+      "url": "PLACEHOLDER-https://wa.me/9779800000000",
+      "icon": "whatsapp",
+      "enabled": false
+    },
+    {
+      "label": "Telegram",
+      "url": "PLACEHOLDER-https://t.me/your-channel",
+      "icon": "telegram",
+      "enabled": false
+    }
+  ],
+  "legal": {
+    "disclaimer": "This is an independent preparation resource. It is not affiliated with, endorsed by, or operated by the Nepal Engineering Council. The syllabus reproduced here follows NEC's published curriculum; always confirm examination dates, fees and scheme against nec.gov.np before relying on them.",
+    "necWebsite": "https://www.nec.gov.np"
+  },
+  "contact": {
+    "whatsapp": "PLACEHOLDER-+977-98XXXXXXXX",
+    "viber": "PLACEHOLDER-+977-98XXXXXXXX",
+    "email": "PLACEHOLDER-your-email@example.com",
+    "hours": "Sunday to Friday, 7am – 9pm NPT"
+  }
+}

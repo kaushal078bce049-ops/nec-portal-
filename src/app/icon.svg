@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="NEC Civil License Portal">
+  <rect width="64" height="64" rx="14" fill="#0d111a"/>
+  <!-- A theodolite/level abstracted to a tripod over a baseline: the one
+       instrument every civil discipline in this syllabus has in common. -->
+  <path d="M32 14 L32 34" stroke="#4da3ff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="13" r="5" fill="#4da3ff"/>
+  <path d="M32 34 L20 50 M32 34 L44 50 M32 34 L32 50"
+        stroke="#e8edf5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 54 L50 54" stroke="#4da3ff" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "QR-ACiE06-001",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0601",
+    "fact": "Design water demand in Nepal (rural/urban): **45 lpcd basic**, **65–100 lpcd** for piped urban supply.",
+    "detail": "Indian practice (CPHEEO) quotes **135 lpcd** for towns with full flushing. Breakdown: domestic ~50–60%, plus industrial, commercial, public and **fire demand**, with **15–20% unaccounted-for water**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-002",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0601",
+    "fact": "Peak factors: **maximum daily = 1.8 × average**, **maximum hourly = 1.5 × maximum daily = 2.7 × average**.",
+    "detail": "Design each component for its own governing demand: **source and treatment for maximum daily**, **distribution mains for maximum hourly**, **service reservoir to balance the two**. Using the wrong factor for the wrong component is the classic error.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-003",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0601",
+    "fact": "Drinking water standards: **turbidity ≤ 5 NTU**, **pH 6.5–8.5**, **residual chlorine 0.2 mg/l**, **E. coli 0 per 100 ml**.",
+    "detail": "Nepal's **NDWQS 2062** sets these. **Arsenic 0.05 mg/l** (Nepal) — a real problem in the Terai; **fluoride 0.5–1.5**; **iron 0.3**; **total hardness 500 mg/l**. **Zero E. coli is non-negotiable.**",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-004",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0601",
+    "fact": "Population forecasting: **arithmetic** (constant increase), **geometric** (constant %), **incremental increase**, **logistic** (S-curve).",
+    "detail": "**Arithmetic** suits large, stable, saturated cities; **geometric** suits young, rapidly growing towns (it over-predicts for old ones); **logistic** is the most realistic over a long horizon because it recognises a **saturation** population.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-005",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0601",
+    "fact": "**Hardness** is caused chiefly by **calcium and magnesium** salts; **temporary (carbonate) hardness is removed by boiling**.",
+    "detail": "**Permanent (non-carbonate)** hardness needs **lime-soda** softening or **ion exchange**. Hardness is expressed as **mg/l of CaCO₃**. Soft water is corrosive; very hard water scales pipes and wastes soap.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-006",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0602",
+    "fact": "Distribution layouts: **dead end (tree)**, **grid iron**, **circular (ring)**, **radial**.",
+    "detail": "**Dead end** is cheapest and easiest to design but gives **stagnation and no alternative supply** during repair. **Grid iron** suits a **rectangular street pattern** and gives circulation from two directions — best water quality, highest cost.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-007",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0602",
+    "fact": "Network analysis: **Hardy Cross** method of balancing heads, or the equivalent-pipe method.",
+    "detail": "Correction per loop **ΔQ = −Σh_f/(n·Σ|h_f/Q|)**, with n = 1.85 for Hazen-Williams and 2 for Darcy-Weisbach. The two conditions: **ΣQ = 0 at each junction** and **Σh_f = 0 around each loop**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-008",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0602",
+    "fact": "Service reservoir capacity is normally **one third of the maximum daily demand**.",
+    "detail": "It balances the **constant** pumping/treatment rate against the **variable** hourly demand, provides **fire reserve** and **breakdown reserve**, and maintains pressure. Balancing storage is found from a **mass curve** of cumulative supply against cumulative demand.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-009",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0602",
+    "fact": "Minimum residual pressure in a distribution system: about **7 m** (single storey) to **17–22 m** for multi-storey and fire fighting.",
+    "detail": "Valves and their duties: **sluice/gate** (isolation), **reflux/non-return** (prevents backflow), **air valve** (releases air at summits), **scour valve** (drains at low points), **pressure relief**, **fire hydrant**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-010",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0602",
+    "fact": "An **intake** must draw water **below the surface but above the bed**, and be protected by a **trash rack**.",
+    "detail": "Below the surface to avoid **floating debris and oil**; above the bed to avoid **silt**. Types: river, reservoir, canal, lake, spring. A **multi-level** intake lets the operator draw the best-quality layer as the reservoir level changes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-011",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0603",
+    "fact": "Conventional treatment train: **screening → aeration → coagulation-flocculation → sedimentation → filtration → disinfection**.",
+    "detail": "Each stage removes what the next cannot handle economically. **Filtration removes the fine particles and most pathogens; disinfection kills what remains.** Turbidity must be low **before** disinfection, or chlorine is consumed by particles instead of organisms.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-012",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0603",
+    "fact": "**Surface loading (overflow) rate = Q/A_surface** — sedimentation tank efficiency depends on **surface area, not depth**.",
+    "detail": "A counter-intuitive but fundamental result of ideal settling theory: a particle is removed if its settling velocity exceeds Q/A. Typical values: **20–30 m³/m²/day** plain sedimentation, **40–50** with coagulation. Detention time 2–4 h (plain), 2–2.5 h (clariflocculator).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-013",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0603",
+    "fact": "**Alum (aluminium sulphate)** is the commonest coagulant; it needs **alkalinity** to work.",
+    "detail": "Al₂(SO₄)₃ + alkalinity → **Al(OH)₃ floc** + CO₂. Optimum **pH 6.5–8.5**, dose 5–30 mg/l, found by the **jar test**. If natural alkalinity is insufficient, **lime or soda ash** must be added. **Coagulation** destabilises colloids; **flocculation** is the gentle stirring that grows the floc.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-014",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0603",
+    "fact": "**Rapid sand filter: 100–150 m³/m²/day**; **slow sand filter: 2.5–5 m³/m²/day** — roughly **30–50× slower**.",
+    "detail": "**Rapid** filters need **pre-coagulation** and are cleaned by **backwashing** (24–48 h cycle). **Slow** filters need no chemicals, are cleaned by **scraping** the schmutzdecke, and remove bacteria biologically — ideal for **small rural schemes** in Nepal.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-015",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0603",
+    "fact": "**Break-point chlorination**: chlorine first forms chloramines, then destroys them, and **free residual chlorine appears only beyond the break point**.",
+    "detail": "**Free residual chlorine** is the effective disinfectant; **combined** (chloramine) is weaker but longer-lasting. Contact time **≥30 min**, residual **0.2 mg/l** at the far end. Chlorine's effectiveness **falls as pH rises** (HOCl dissociates to the weaker OCl⁻).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-016",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0603",
+    "fact": "Disinfection alternatives: **ozone** (no residual, no taste), **UV** (no residual, needs clear water), **boiling**, **SODIS**.",
+    "detail": "The decisive advantage of **chlorine** is its **persistent residual**, which protects water through the distribution network against recontamination. Ozone and UV leave none, so they need a chlorine top-up in a piped system.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-017",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0604",
+    "fact": "Sewers are designed for a **self-cleansing velocity of 0.6–0.8 m/s** and a **maximum of 3 m/s**.",
+    "detail": "Minimum to stop **solids depositing**; maximum to stop **abrasion of the invert**. A sewer is designed to run **just full at peak** but flows partly full most of the time — hence the **hydraulic elements (partial flow) diagram**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-018",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0604",
+    "fact": "A **circular sewer carries its maximum discharge at about 0.94 of full depth**, and maximum velocity at about **0.81**.",
+    "detail": "Both exceed the full-flow values, because near the crown the added wetted perimeter costs more than the added area gains. That is why a sewer running absolutely full is **less** efficient than one running nearly full.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-019",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0604",
+    "fact": "**Separate system** carries sewage and stormwater in separate sewers; **combined** carries both together.",
+    "detail": "**Separate** suits **high-rainfall** regions (like Nepal) because the treatment plant is not overwhelmed by storm flow; **combined** is cheaper to build but needs **storm overflows** that discharge untreated sewage. **Partially separate** is the compromise.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-020",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0604",
+    "fact": "**Manholes** are placed at every change of **direction, gradient, diameter**, at junctions, and on straight runs at **30–100 m**.",
+    "detail": "A **drop manhole** is used where the incoming sewer is much higher than the outgoing — it dissipates energy instead of allowing a high velocity. Appurtenances also include **inverted siphons**, **flushing tanks**, **catch basins** and **ventilating columns**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-021",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0605",
+    "fact": "**BOD₅ at 20 °C** is the standard measure of organic strength; **COD** is always **higher** than BOD.",
+    "detail": "COD oxidises **all** organic matter chemically; BOD only the **biodegradable** fraction. A high **COD/BOD ratio** means poorly biodegradable waste (industrial), so biological treatment will not work well. Domestic sewage: BOD **200–300 mg/l**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-022",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0605",
+    "fact": "**BOD remaining: L_t = L_0·10^(−kt)**; **BOD exerted: y = L_0(1 − 10^(−kt))**.",
+    "detail": "With k ≈ 0.1/day at 20 °C, the **5-day BOD is about 68% of the ultimate**. Temperature correction: **k_T = k_20 × 1.047^(T−20)**. Confusing 'remaining' with 'exerted' is the commonest slip in these calculations.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-023",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0605",
+    "fact": "Treatment stages: **preliminary (screens, grit) → primary (sedimentation) → secondary (biological) → tertiary**.",
+    "detail": "**Primary** removes ~**30–40% BOD** and 50–70% suspended solids by settling alone. **Secondary** (biological) takes total BOD removal to **85–95%**. **Tertiary** removes nutrients and pathogens where the receiving water is sensitive.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-024",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0605",
+    "fact": "**Activated sludge** is a **suspended growth** process; a **trickling filter** is **attached growth**.",
+    "detail": "ASP key parameters: **F/M ratio 0.2–0.4**, **MLSS 2000–4000 mg/l**, **SRT 5–15 days**, **sludge volume index 50–150**. **Bulking sludge** (filamentous, high SVI) is the classic ASP operating problem.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-025",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0605",
+    "fact": "**Waste stabilisation ponds** are the most appropriate technology for small Nepali towns — anaerobic, facultative, maturation in series.",
+    "detail": "No mechanical parts, no power, minimal operator skill, and **maturation ponds give excellent pathogen removal** by sunlight and long detention. The cost is **large land area** and detention of 20–40 days. A **facultative** pond is aerobic at the top and anaerobic at the bottom.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-026",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0605",
+    "fact": "A **septic tank** provides settling and anaerobic digestion only — its effluent **still needs a soak pit or drain field**.",
+    "detail": "Detention **1–3 days**, desludging every **2–3 years**, minimum **two compartments**. Septic tank effluent is **not safe to discharge**: BOD removal is only ~30–50%. Treating a septic tank as complete treatment is a widespread and serious error.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-027",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0605",
+    "fact": "**Sludge digestion** (anaerobic) proceeds by **hydrolysis → acidogenesis → acetogenesis → methanogenesis**.",
+    "detail": "Produces **biogas ≈ 60–70% CH₄**, reduces volume and destroys pathogens. Optimum **mesophilic 30–38 °C** or **thermophilic 50–57 °C**, pH **6.8–7.2**. Methanogens are the slowest and most sensitive step — a pH drop stalls the digester.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-028",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0606",
+    "fact": "In Nepal the environmental assessment tiers are **BES → IEE → EIA**, under the **Environment Protection Act 2076 (2019)**.",
+    "detail": "**IEE** is approved by the **concerned ministry**; **EIA** by the **Ministry of Forests and Environment**. The 2019 Act added the **Brief Environmental Study (BES)** as a third, lightest tier — a change from the 1997 Act.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-029",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0606",
+    "fact": "EIA process: **screening → scoping → ToR → baseline study → impact prediction → mitigation → EMP → review → approval → monitoring/auditing**.",
+    "detail": "**Screening** decides *whether* an assessment is needed and at what tier; **scoping** decides *what* it must cover. **Public consultation** is mandatory at scoping and again at the draft report stage. Monitoring and **environmental auditing** continue after approval.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-030",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0606",
+    "fact": "The mitigation hierarchy: **avoid → minimise → rectify/restore → compensate/offset**.",
+    "detail": "**Avoidance ranks first** and is the cheapest and most certain — usually achieved by changing the **site or alignment** at the design stage. Compensation is the last resort because it does not prevent the harm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-031",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0606",
+    "fact": "**Air pollutants** and their chief sources: **PM₁₀/PM₂.₅** (combustion, dust), **SO₂** (coal, brick kilns), **NOₓ** (vehicles), **CO** (incomplete combustion).",
+    "detail": "Kathmandu's dominant problems are **PM from vehicles, brick kilns and road dust**, aggravated by the **valley's winter inversion**, which traps pollutants under a stable layer. **PM₂.₅** matters most for health because it reaches the alveoli.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-032",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0606",
+    "fact": "**Solid waste hierarchy: reduce → reuse → recycle → recover (energy) → dispose.**",
+    "detail": "**Sanitary landfilling** is the only acceptable disposal method — with a **liner, leachate collection, gas venting, daily cover and monitoring wells**. **Open dumping, open burning and river discharge are all unacceptable**, whatever local practice may be.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-033",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0601",
+    "fact": "**Fire demand (Kuichling): Q = 3182√P** litres/min, with P the population in thousands.",
+    "detail": "Fire demand is **short duration but very high rate**, so it sizes the **distribution main and the reservoir reserve**, not the source. Other formulae: Freeman, Buston, and the National Board of Fire Underwriters.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-034",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0602",
+    "fact": "Pipe materials: **CI/DI** (mains, durable), **GI** (small service), **PVC/HDPE** (corrosion-free, light), **steel** (large, high pressure), **PSC** (large gravity mains).",
+    "detail": "**HDPE** is dominant in Nepali rural water supply — light enough to be carried to remote sites, **flexible over unstable slopes**, corrosion-free and jointed by fusion. Its limits are UV degradation and low temperature resistance.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-035",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0603",
+    "fact": "**Aeration** removes **dissolved gases (CO₂, H₂S), taste and odour**, and oxidises **iron and manganese**.",
+    "detail": "Types: cascade, spray, tray, diffused air. It is the standard **pre-treatment for groundwater** high in iron: aeration oxidises soluble Fe²⁺ to insoluble Fe³⁺, which is then settled and filtered out.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-036",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0604",
+    "fact": "Sewage flow for design = **water supply × 0.8**, plus infiltration; peak factor **2–3**.",
+    "detail": "The 0.8 allows for water that never reaches the sewer (irrigation, evaporation, losses). **Storm** sewers are designed by the **rational method** with a **2–5 year** return period — much shorter than for a bridge, because the consequence of exceedance is temporary flooding.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-037",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0605",
+    "fact": "**Streeter–Phelps** describes the **oxygen sag curve** downstream of a discharge.",
+    "detail": "**Deoxygenation** by BOD competes with **reaeration** from the atmosphere; the **critical point** is the minimum DO. Self-purification depends on **dilution, turbulence, temperature and sunlight** — a fast, cold, turbulent Himalayan river self-purifies far better than a sluggish warm one.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-038",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0606",
+    "fact": "**Eutrophication** is nutrient enrichment (**N and P**) causing algal blooms and oxygen depletion.",
+    "detail": "**Phosphorus is usually the limiting nutrient** in fresh water, so its removal gives the most benefit per rupee. The sequence: nutrients → algal bloom → algae die → decomposition consumes DO → fish kill.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-039",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0603",
+    "fact": "Backwashing a rapid sand filter uses **5–15 minutes** at **0.3–1.0 m³/m²/min**, expanding the bed **20–50%**.",
+    "detail": "Backwash water is **2–5% of the filtered volume**. **Negative head** develops when clogging makes the pressure in the bed fall below atmospheric — it causes **air binding**, and is the signal that backwashing is overdue.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-040",
+    "chapter": "ACiE06",
+    "subchapter": "ACiE0601",
+    "fact": "Water sources: **surface** (river, lake, reservoir), **subsurface** (spring, well, tubewell), **rainwater**.",
+    "detail": "In Nepal's hills, **gravity-fed spring sources** are the dominant rural supply — no pumping, no power, minimal running cost. Their vulnerability is **drying and contamination at the source**, so **source protection** (fencing, an intake chamber, upslope sanitation control) is the critical measure.",
+    "verification": {
+      "status": "verified"
+    }
+  }
+]

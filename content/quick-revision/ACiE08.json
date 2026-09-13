@@ -1,0 +1,402 @@
+[
+  {
+    "id": "QR-ACiE08-001",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0801",
+    "fact": "Nepal's hydropower classification: **micro < 100 kW**, **mini 100 kW–1 MW**, **small 1–25 MW**, **medium 25–100 MW**, **large > 100 MW**.",
+    "detail": "The **1 MW** and **25 MW** thresholds carry licensing consequences under the Electricity Act — below 1 MW no survey/generation license is required. Nepal's theoretical potential is about **83,000 MW**, economically feasible **~42,000 MW**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-002",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0801",
+    "fact": "Plant types: **run-of-river (ROR)**, **peaking ROR (PROR)**, **storage**, **pumped storage**.",
+    "detail": "Nepal is dominated by **ROR** because storage needs large reservoirs and resettlement in steep valleys. ROR's weakness is the **dry-season drop** in output — which is why PROR (a few hours of daily pondage) and storage projects matter for the grid.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-003",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0801",
+    "fact": "Investigations for a hydropower project: **hydrological, topographical, geological, geotechnical, sediment, seismic, environmental**.",
+    "detail": "In the Himalaya, **geology dominates the risk** — weak, young, highly fractured rock, active faults, and very high **sediment loads** that abrade turbines. Under-investigating geology is the leading cause of cost overrun on Nepali tunnels.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-004",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0801",
+    "fact": "Study stages: **reconnaissance → pre-feasibility → feasibility → detailed design**, with cost accuracy improving at each.",
+    "detail": "Licenses under the Electricity Act: a **survey license (5 years)** then a **generation license (up to 35 years, 30 for foreign investment)**, both issued by the **Department of Electricity Development** — not by NEA, which is the utility.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-005",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0802",
+    "fact": "**P = ρgQHη** watts, or **P ≈ 9.81·Q·H·η** kW with Q in m³/s and H in metres.",
+    "detail": "Overall efficiency **η = turbine × generator × transformer**, typically **0.80–0.90**. A quick field estimate: **P (kW) ≈ 8·Q·H** for a good small plant. Energy **E = P × t**, in kWh.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-006",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0802",
+    "fact": "**Gross head** is the difference in water level; **net head = gross − all hydraulic losses**.",
+    "detail": "Losses occur in the intake, trashrack, conveyance (canal/tunnel), forebay, penstock friction and bends. **Power is computed on the NET head** — using gross head overstates output, a common error. Penstock losses are usually kept to about **3–5% of gross head**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-007",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0802",
+    "fact": "**Load factor = average load ÷ peak load**; **capacity (plant) factor = average load ÷ installed capacity**.",
+    "detail": "**Utilisation factor = peak load ÷ installed capacity**; **diversity factor = Σ individual maxima ÷ system maximum** (always ≥ 1). Nepali ROR plants typically run at a capacity factor of **0.5–0.6** because of the monsoon-dry season swing.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-008",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0802",
+    "fact": "**Firm (primary) power** is available **95–100% of the time**; **secondary power** is the surplus available only seasonally.",
+    "detail": "Firm power commands a **higher tariff** because the grid can rely on it. It is read off the **flow duration curve** at the high-exceedance end — **Q₉₅ or Q₁₀₀** — while the design flow for capacity is usually **Q₄₀**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-009",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0802",
+    "fact": "A **two-part tariff** charges a **fixed sum on maximum demand plus a running charge on energy consumed**.",
+    "detail": "It reflects the utility's actual cost structure: **capacity costs are fixed** (built for the peak) and **energy costs are variable** (fuel/water). Flat energy-only tariffs make peaky consumers under-pay for the capacity they force the utility to build.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-010",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0803",
+    "fact": "Reservoir storage zones: **dead storage**, **live (useful) storage**, **surcharge**, with **flood control** storage above the conservation level.",
+    "detail": "**Dead storage** is below the lowest outlet and is where **sediment accumulates** — its size sets the reservoir's useful life. **Live storage** between minimum drawdown level and full reservoir level is what actually regulates flow.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-011",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0803",
+    "fact": "**Trap efficiency** is the fraction of inflowing sediment retained; it rises with the **capacity/inflow ratio**.",
+    "detail": "**Reservoir life = useful capacity ÷ (annual sediment inflow × trap efficiency)**. Himalayan rivers carry extreme sediment loads, so **sedimentation is the principal threat** to storage projects in Nepal — mitigated by catchment treatment, **sluicing, flushing and dredging**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-012",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0803",
+    "fact": "**Gravity dam** stability: no tension (**e ≤ B/6**), **factor of safety against sliding ≥ 1.5**, and **overturning ≥ 1.5**.",
+    "detail": "Forces: **self weight, water pressure, uplift, silt pressure, earthquake, ice, wave**. The **elementary profile** has base width **B = H/√(S_c − c)** — from the no-tension condition. Uplift is reduced by a **grout curtain and drainage gallery**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-013",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0803",
+    "fact": "An **ogee spillway profile follows the lower nappe of a freely falling jet**, so the flow stays in contact with the surface.",
+    "detail": "That shape gives **atmospheric pressure on the crest** — no negative pressure to cause **cavitation**, and no separation to lose discharge capacity. **Q = C·L·H^(3/2)** with C ≈ 2.2. Other types: chute, side channel, shaft (morning glory), siphon.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-014",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0803",
+    "fact": "**Energy dissipation** at a spillway toe: **stilling basin (hydraulic jump)**, **ski-jump/flip bucket**, **roller bucket**, **plunge pool**.",
+    "detail": "The choice depends on the **tailwater level**: a **stilling basin** needs adequate tailwater to form the jump; a **flip bucket** throws the jet clear and suits **high heads with sound rock** downstream. USBR basin types II–IV are selected by the incoming Froude number.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-015",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0804",
+    "fact": "**Side intake** with a **trench weir (Tyrolean intake)** is the standard headworks for a Himalayan ROR plant.",
+    "detail": "A trench weir across the bed lets water fall through a **coarse screen** into a trench, while boulders and bedload pass over. It suits **steep, boulder-laden mountain streams** where a conventional side intake would silt or be destroyed.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-016",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0804",
+    "fact": "A **settling basin (desilting basin)** removes particles above a target size, usually **0.2–0.3 mm**, before the conveyance.",
+    "detail": "Designed on **settling velocity vs. surface area** — the same principle as a water treatment sedimentation tank. Essential because **abrasive Himalayan sediment destroys turbine runners**; Pelton needles and Francis runners can be worn out in a single monsoon without it.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-017",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0804",
+    "fact": "A **forebay** provides **short-term storage and a final settling opportunity** at the head of the penstock.",
+    "detail": "It also ensures **submergence** so no air is drawn into the penstock, and accommodates **load fluctuation**. In a tunnel scheme its role is taken by a **surge tank**, whose function is to absorb **water hammer** and supply water during load acceptance.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-018",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0805",
+    "fact": "A **surge tank** is provided on a **long pressure conduit** to absorb **water hammer** and supply water on load increase.",
+    "detail": "Types: **simple, restricted orifice, differential, expansion chamber**. It is needed when the **conduit is long relative to the head**; a short penstock does not need one. It converts a **pressure wave problem into a mass oscillation problem** — much easier to accommodate.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-019",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0805",
+    "fact": "**Penstock economic diameter** balances **cost of pipe (rises with D)** against **cost of lost energy from friction (falls with D)**.",
+    "detail": "Thickness from **t = pD/(2σ) + corrosion allowance**, checking the **water hammer** pressure not just the static head. **Anchor blocks** resist thrust at bends; **saddle/roller supports** carry the weight and allow **expansion joints** to work.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-020",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0805",
+    "fact": "Tunnel support: classified by **RMR (Rock Mass Rating)** or **Q-system**; support by **shotcrete, rock bolts, steel ribs, concrete lining**.",
+    "detail": "The **Q-system** (Barton) uses RQD, joint sets, roughness, alteration, water and stress. In Nepal's weak Himalayan rock, **squeezing and high water inflow** are the recurring problems — the reason tunnels dominate hydropower cost risk.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-021",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0805",
+    "fact": "**Headrace** conveys water to the forebay; **penstock** takes it under pressure to the turbine; **tailrace** returns it to the river.",
+    "detail": "The headrace may be an **open canal** (cheap, but exposed to landslides and needs a long alignment) or a **tunnel** (expensive but short, safe and low-loss). Nepali projects increasingly choose tunnels because hillside canals are vulnerable to monsoon slides.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-022",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0806",
+    "fact": "**Pelton = impulse turbine, high head (> 250 m), low discharge**; **Francis = reaction, medium head**; **Kaplan = reaction, low head, high discharge**.",
+    "detail": "Specific speed ranges: **Pelton 8–30**, **Francis 60–300**, **Kaplan 300–1000**. So **low specific speed = high head**. Most Nepali plants are **Pelton or Francis** because of the steep terrain.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-023",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0806",
+    "fact": "**Specific speed N_s = N√P/H^(5/4)** for a turbine; **N_s = N√Q/H^(3/4)** for a pump.",
+    "detail": "Note the **different definitions** — turbines use power, pumps use discharge. Specific speed is the single parameter that selects the machine type, and it is why a turbine cannot be scaled arbitrarily between heads.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-024",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0806",
+    "fact": "In a **Pelton wheel, maximum efficiency occurs when the bucket speed is HALF the jet velocity** (u = V/2).",
+    "detail": "The bucket turns the jet through nearly 180°, so **force = ρaV²(1 + k cos θ)**, and power is maximised at u = V/2 giving theoretical efficiency **≈ 100%(1+k cos θ)/2**. Speed ratio **0.43–0.48** in practice.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-025",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0806",
+    "fact": "A **draft tube** is essential for a **reaction** turbine — it recovers **kinetic energy** at the exit and permits the runner to be set above tailwater.",
+    "detail": "A **Pelton (impulse) turbine has no draft tube**: it discharges to atmosphere. Draft tube types: conical, Moody spreading, elbow. Efficiency of recovery is what makes a reaction turbine's low-head operation viable.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-026",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0806",
+    "fact": "A **governor maintains constant speed (hence frequency) irrespective of load variation**.",
+    "detail": "It adjusts the **needle/spear valve** in a Pelton or the **wicket gates** in a Francis/Kaplan. Because grid frequency must stay at **50 Hz** in Nepal, and frequency is proportional to turbine speed, governing is a grid-stability requirement, not a convenience.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-027",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0806",
+    "fact": "**Cavitation** in a reaction turbine is controlled by the **Thoma cavitation factor σ** and the **setting level** of the runner.",
+    "detail": "σ = (H_atm − H_vapour − H_suction)/H. Cavitation occurs where local pressure reaches **vapour pressure**; the bubbles collapse and **pit the runner blades**. Kaplan turbines are set **below tailwater** for this reason.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-028",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0806",
+    "fact": "**Powerhouse types: surface, semi-underground, underground (cavern), and shaft.**",
+    "detail": "**Underground** suits **steep, narrow, landslide-prone valleys** and gives protection from rockfall and avalanche — increasingly the Nepali choice. Its cost is excavation and access-tunnel length. The powerhouse holds the **turbine, generator, governor, transformer, switchgear, cranes and control room**.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-029",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0801",
+    "fact": "**Mandatory environmental release** in Nepal: at least **10% of the minimum monthly average flow**, or the amount required by the EIA — whichever is greater.",
+    "detail": "It maintains the **dewatered reach** between intake and tailrace for aquatic life and downstream users. It is a genuine design constraint: it reduces the flow available for power in exactly the dry season when energy is most valuable.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-030",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0802",
+    "fact": "**Mass curve (Rippl) method** determines the **storage** needed to meet a given demand from a variable inflow.",
+    "detail": "Plot cumulative inflow against time; draw demand-slope tangents at the peaks; the **maximum vertical intercept** between tangent and curve is the required storage. It also identifies the **critical drought period** — the real design case.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-031",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0803",
+    "fact": "**Earth/rockfill dams** fail by **hydraulic failure (overtopping, piping), seepage failure, or structural (slope) failure**.",
+    "detail": "**Overtopping** is the leading cause — hence generous **freeboard** and adequate spillway capacity. Internal control by a **core, chimney/blanket filter, and toe drain**; the **phreatic line** (Casagrande's parabola) must be kept **within the body** and away from the downstream slope.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-032",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0805",
+    "fact": "**Anchor blocks** resist the **resultant thrust at every bend and at intervals on a straight run** of penstock.",
+    "detail": "Thrust comes from **change of momentum at the bend, internal pressure, and the weight component along the slope**. Between anchors, **expansion joints** absorb thermal movement and **saddle supports** carry the pipe — omitting expansion joints buckles the penstock.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-033",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0806",
+    "fact": "A **Cross-flow (Banki-Mitchell) turbine** suits **micro-hydro**: simple, locally manufacturable, and flat-efficiency over a wide flow range.",
+    "detail": "Its peak efficiency (**~80%**) is below a Pelton or Francis, but it holds that efficiency at **part flow**, which matters when the stream varies and there is no storage. Widely used in Nepal's rural micro-hydro programme.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-034",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0802",
+    "fact": "**Levelised cost of energy (LCOE)** = present value of all costs ÷ present value of energy produced.",
+    "detail": "It is the honest way to compare projects with different **capital/operating balances and lifetimes**. Hydropower has **very high capital and very low running cost**, so its LCOE is highly sensitive to the **discount rate** — which is why financing terms matter as much as engineering.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-035",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0804",
+    "fact": "A **gravel trap** precedes the settling basin, catching **coarse bedload (> 2 mm)** that a settling basin cannot handle.",
+    "detail": "The sequence at a Himalayan ROR headworks is therefore **trench weir/intake → gravel trap → settling basin → headrace**, each stage removing a coarser fraction than the next. Skipping the gravel trap chokes the settling basin within a monsoon.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-036",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0806",
+    "fact": "**Runaway speed** is the speed a turbine reaches if the load is suddenly lost and the governor fails.",
+    "detail": "Roughly **1.8× rated for Pelton**, **2.0× for Francis**, **2.5–3.0× for Kaplan**. The **generator and all rotating parts must be designed to survive it** — a mechanical requirement independent of normal operating conditions.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-037",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0803",
+    "fact": "**Reservoir area-capacity curves** come from the **contour map**: area within each contour, then volume by the trapezoidal or prismoidal rule.",
+    "detail": "V = (h/3)(A₁ + A₂ + √(A₁A₂)) is the **cone formula** for the volume between two contours — more accurate than the trapezoidal rule where the areas differ greatly, as they do near the dam.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-038",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0801",
+    "fact": "**PPA (Power Purchase Agreement)** with NEA fixes the tariff and terms; **take-or-pay** vs **take-and-pay** is the critical clause.",
+    "detail": "**Take-or-pay** obliges the buyer to pay for contracted energy whether or not it is taken — it transfers **market risk to the utility** and is what makes a project bankable. Nepal's PPAs distinguish **wet and dry season** rates, with dry-season energy paid more.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-039",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0805",
+    "fact": "**Water hammer** pressure rise in a penstock is limited by **slow gate closure**, a **surge tank**, a **relief valve** or a **flywheel**.",
+    "detail": "Sudden closure gives **Δp = ρcV**, with c ≈ 1440 m/s in water — an enormous pressure. Closure is 'sudden' only if the valve time is **less than 2L/c**; designing the governor's closing time is therefore a **structural** decision about the penstock.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE08-040",
+    "chapter": "ACiE08",
+    "subchapter": "ACiE0806",
+    "fact": "**Synchronous speed N = 120f/P** — with f = 50 Hz, a 6-pole generator runs at 1000 rpm.",
+    "detail": "The turbine speed must equal a synchronous speed, so the turbine is selected for a **discrete** set of speeds, not any value. **High-head Pelton units run fast (few poles); low-head Kaplan units run slowly (many poles)**, which is why low-head generators are physically much larger.",
+    "verification": {
+      "status": "verified"
+    }
+  }
+]

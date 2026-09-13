@@ -1,0 +1,44 @@
+{
+  "name": "nec-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run validate && next build",
+    "build:only": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "validate": "node tools/validate-content.mjs",
+    "check": "npm run validate && npm run typecheck && npm run test && npm run lint",
+    "extract:pages": "node --max-old-space-size=6144 tools/extract-all.mjs",
+    "derive:weightage": "node tools/derive-weightage.mjs",
+    "export:latex": "node tools/export-latex.mjs --split",
+    "check:latex": "node tools/check-latex.mjs && node tools/check-latex.mjs latex/split",
+    "export:docx": "node tools/export-docx.mjs --split --chapters --papers",
+    "check:docx": "node tools/docx/check-docx.mjs",
+    "publish:library": "node tools/upload-library.mjs",
+    "docx": "npm run export:docx && sh tools/build-docx.sh && npm run check:docx",
+    "latex": "npm run export:latex && npm run check:latex"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.4",
+    "@supabase/supabase-js": "^2.112.3",
+    "next": "16.3.2",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "uploadthing": "^7.7.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
