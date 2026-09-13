@@ -113,6 +113,16 @@ function acceptableHosts(): Set<string> {
     if (value) hosts.add(value.replace(/^https?:\/\//, '').replace(/\/$/, ''));
   }
 
+  // Any further hostname this deployment answers on. Vercel keeps aliases that
+  // appear in none of the variables above -- nec-portal-clamphook.vercel.app,
+  // the branch URL once it points at an older deployment -- and there is no
+  // runtime way to enumerate them. A comma-separated list keeps that
+  // configurable instead of needing a code change for every alias added.
+  for (const host of (process.env.ALLOWED_ORIGIN_HOSTS ?? '').split(',')) {
+    const trimmed = host.trim().replace(/^https?:\/\//, '').replace(/\/$/, '');
+    if (trimmed) hosts.add(trimmed);
+  }
+
   // example.com and www.example.com are one site by universal convention, and
   // Vercel answers on both the moment a domain is added -- but only one of the
   // two appears in VERCEL_PROJECT_PRODUCTION_URL, so the other was refused.
