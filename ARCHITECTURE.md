@@ -293,3 +293,13 @@ would burden every clone forever. Publish them as GitHub Release assets.
   (Pana Academy, Fast Track Engineering Institute). Solutions and theory here
   are written fresh, but clear reproduction rights for any verbatim question
   text before commercial distribution.
+- **The 2,562 scanned source pages are hosted publicly.** They sit in
+  `source-pages/` beside the repository and are mirrored to UploadThing by
+  `tools/upload-source-pages.mjs --public`, with the URLs recorded in
+  `tools/source-pages.manifest.json`. The URLs carry a random 48-character key,
+  so they are unguessable and not listed anywhere, but they are permanent and
+  anyone holding one can fetch it. Given the rights position in the line above,
+  that is a deliberate decision by the owner rather than a default: the script
+  asks for private storage unless `--public` is passed, and private needs a
+  paid UploadThing app. If the rights position changes, `utapi.updateACL()`
+  flips the stored files without re-uploading them.

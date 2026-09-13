@@ -7,11 +7,11 @@
  * nothing on the site references them -- but they are the only copy of the
  * material the question banks were built from, and they live on one laptop.
  *
- * Uploaded with acl: 'private'. That is the whole point of doing it this way:
- * the books are third-party institute copyright and rights were never cleared,
- * so a public URL for every scanned page would amount to republishing someone
- * else's textbook. Private storage plus a signed URL when you actually need a
- * page is archival, not publication.
+ * Visibility is a deliberate choice, not a default. The books are third-party
+ * institute copyright and rights were never cleared, so --public gives every
+ * scanned page a permanent public URL and is a decision to be made knowingly.
+ * Without the flag the script asks for acl: 'private', which UploadThing
+ * allows only on a paid app.
  *
  * Usage:
  *   node tools/upload-source-pages.mjs              upload anything not yet archived
@@ -86,8 +86,9 @@ const mb = (b) => (b / 1048576).toFixed(1) + ' MB';
 function writeManifest(map) {
   const files = [...map.values()].sort((a, b) => a.p.localeCompare(b.p));
   fs.writeFileSync(MANIFEST, JSON.stringify({
-    note: 'Private archive of the scanned source pages. Keys are not credentials; '
-      + 'reading a page needs a signed URL -- see tools/source-page-url.mjs.',
+    note: PUBLIC
+      ? 'Scanned source pages, uploaded PUBLIC. Every url below is permanent and fetchable by anyone holding it.'
+      : 'Private archive of the scanned source pages. Keys are not credentials; reading a page needs a signed URL -- see tools/source-page-url.mjs.',
     archivedAt: new Date().toISOString().slice(0, 10),
     count: files.length,
     files,
@@ -168,7 +169,9 @@ async function main() {
       }
       done++;
       sent += f.bytes;
-      published.set(f.rel, { p: f.rel, k: res.data.key, b: f.bytes });
+      published.set(f.rel, PUBLIC
+        ? { p: f.rel, k: res.data.key, b: f.bytes, u: res.data.ufsUrl }
+        : { p: f.rel, k: res.data.key, b: f.bytes });
     });
 
     writeManifest(published);
