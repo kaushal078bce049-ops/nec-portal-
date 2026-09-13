@@ -56,7 +56,6 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-
   // Content JSON is read with fs at request time; keep it out of the client graph.
   serverExternalPackages: [],
 

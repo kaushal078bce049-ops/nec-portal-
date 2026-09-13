@@ -247,25 +247,3 @@ export interface SiteConfig {
   };
 }
 
-/**
- * One published offline edition. Written by tools/upload-library.mjs, which
- * uploads the generated PDF and Word files and records where they landed.
- *
- * The manifest is the only record of those URLs: the files themselves are
- * gitignored, so nothing else in the repository knows they exist.
- */
-export interface LibraryFile {
-  /** Repository-relative source path. Stable, and the manifest's identity. */
-  path: string;
-  title: string;
-  group: string;
-  kind: 'pdf' | 'docx';
-  bytes: number;
-  key: string;
-  url: string;
-}
-
-export interface Library {
-  generatedAt: string;
-  files: LibraryFile[];
-}

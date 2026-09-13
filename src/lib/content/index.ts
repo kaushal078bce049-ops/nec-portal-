@@ -13,7 +13,6 @@ import type {
   Question,
   ReviewQuestion,
   RevisionCard,
-  Library,
   SiteConfig,
   SocialLink,
   Syllabus,
@@ -110,18 +109,6 @@ export function getAttribution() {
  * the helpers below, so a half-configured site renders cleanly instead of
  * publishing a fake phone number.
  */
-/**
- * The published offline editions, or null before anything has been uploaded.
- *
- * Absent is a normal state, not an error: a fresh clone has no manifest, and
- * the page that renders this says so rather than showing an empty list.
- */
-export function getLibrary(): Library | null {
-  const lib = readJsonIfExists<Library>('library.json');
-  if (!lib || !Array.isArray(lib.files) || lib.files.length === 0) return null;
-  return lib;
-}
-
 export function getSiteConfig(): SiteConfig {
   return readJson<SiteConfig>('site.json');
 }

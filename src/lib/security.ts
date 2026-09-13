@@ -56,9 +56,91 @@ export async function assertSameOrigin(): Promise<void> {
     throw forbidden('Malformed origin.');
   }
 
-  if (incoming.host !== expected.host) {
-    throw forbidden('Cross-origin request refused.');
+  if (acceptableHosts().has(incoming.host)) return;
+  if (isDevelopmentOrigin(incoming)) return;
+
+  // In development, say what did not match. "Cross-origin request refused" on
+  // your own machine is a genuinely baffling message, and the cause is almost
+  // always that the browser is on 127.0.0.1 while the configuration says
+  // localhost, or the dev server took a different port.
+  if (process.env.NODE_ENV !== 'production') {
+    throw forbidden(
+      `Cross-origin request refused: the request came from ${incoming.origin}, `
+      + `but NEXT_PUBLIC_SITE_URL is ${site}. Open the site at ${expected.origin}, `
+      + 'or set NEXT_PUBLIC_SITE_URL to the address you are using.',
+    );
   }
+  throw forbidden(
+    `Cross-origin request refused: the request came from ${incoming.origin}, `
+    + `which is not among this deployment's known hosts (${[...acceptableHosts()].join(', ')}).`,
+  );
+}
+
+/**
+ * Every host this deployment legitimately answers on.
+ *
+ * NEXT_PUBLIC_SITE_URL names one hostname, but Vercel serves a single
+ * deployment on several at once:
+ *
+ *   nec-portal.vercel.app                     the production alias
+ *   nec-portal-git-main-you.vercel.app        the branch URL
+ *   nec-portal-k3j9fx2-you.vercel.app         this specific deployment
+ *
+ * plus any custom domain. They are the same application, but they are
+ * different `host` strings, so a check against the configured one alone
+ * refuses every mutation from all the others -- which is why starting an exam
+ * fails on a preview deployment while working on the production alias.
+ *
+ * Vercel publishes the first three to the server at runtime, so they can be
+ * trusted: they are set by the platform, not by the request. A custom domain
+ * still has to be named in NEXT_PUBLIC_SITE_URL.
+ */
+function acceptableHosts(): Set<string> {
+  const hosts = new Set<string>();
+
+  try {
+    hosts.add(new URL(publicEnv().NEXT_PUBLIC_SITE_URL).host);
+  } catch {
+    // A malformed NEXT_PUBLIC_SITE_URL is caught by publicEnv() at startup;
+    // here it just means there is no configured host to add.
+  }
+
+  for (const value of [
+    process.env.VERCEL_PROJECT_PRODUCTION_URL,
+    process.env.VERCEL_BRANCH_URL,
+    process.env.VERCEL_URL,
+  ]) {
+    if (value) hosts.add(value.replace(/^https?:\/\//, '').replace(/\/$/, ''));
+  }
+
+  return hosts;
+}
+
+/**
+ * Accept loopback and private-network origins while developing.
+ *
+ * `next dev` answers on localhost, 127.0.0.1, [::1] and the machine's LAN
+ * address all at once, and they are the same server by any sane reading -- but
+ * they are different `host` strings, so a strict comparison refuses every
+ * mutation from all but the one that happens to match the configuration. That
+ * is a real bug: it makes starting an exam fail on 127.0.0.1, and the error
+ * blames the origin rather than the mismatch.
+ *
+ * The LAN range matters too: testing the exam interface on a phone means
+ * loading http://192.168.x.x:3000, which is exactly the case this is for.
+ *
+ * Gated hard on NODE_ENV. In production the only acceptable origin remains the
+ * configured one, because there the relaxation would be the vulnerability.
+ */
+function isDevelopmentOrigin(u: URL): boolean {
+  if (process.env.NODE_ENV === 'production') return false;
+  const h = u.hostname.replace(/^[|]$/g, '');
+  return h === 'localhost'
+    || h === '127.0.0.1'
+    || h === '::1'
+    || /^10./.test(h)
+    || /^192.168./.test(h)
+    || /^172.(1[6-9]|2d|3[01])./.test(h);
 }
 
 export async function clientIp(): Promise<string> {

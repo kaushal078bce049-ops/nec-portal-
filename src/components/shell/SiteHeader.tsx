@@ -19,7 +19,6 @@ const PORTALS = [
   { href: '/model-sets', label: 'Model Sets' },
   { href: '/daily-capsule', label: 'Daily Capsule' },
   { href: '/quick-revision', label: 'Quick Revision' },
-  { href: '/library', label: 'Downloads' },
   { href: '/guide', label: 'How to Pass' },
   { href: '/forum', label: 'Forum' },
 ];

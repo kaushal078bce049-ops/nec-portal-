@@ -11,7 +11,6 @@ const COLUMNS: { heading: string; links: { href: string; label: string }[] }[] =
       { href: '/chapters', label: 'Chapterwise Theory' },
       { href: '/chapters', label: 'Practice Questions' },
       { href: '/quick-revision', label: 'Quick Revision' },
-      { href: '/library', label: 'Downloads (PDF & Word)' },
     ],
   },
   {
