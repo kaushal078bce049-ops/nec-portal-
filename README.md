@@ -49,22 +49,39 @@ When your domain starts working, add `https://kaushalkarki17.com.np/auth/callbac
 
 ---
 
-## Step 3 — Set up email sending  ← before you tell anyone about the site
+## Step 3 — Turn on email sending in Supabase
 
-**Why:** Supabase's built-in email is for testing only. It sends a **handful
-of messages per hour**. Since everyone must verify their email to get in, that
-becomes the thing that stops people joining. Five students signing up together
-would already hit it.
+**Why:** Supabase's built-in mailer sends only a handful of messages an hour.
+Every user has to verify their email to get in, so that limit *is* your signup
+capacity — a few students registering together will hit it and be turned away.
 
-1. Make a free account at https://resend.com (or https://brevo.com).
-2. Get the SMTP details they give you.
-3. Put them in Supabase: **Project Settings → Authentication → SMTP Settings**.
-4. Send yourself a test signup to confirm the email arrives.
+Your Gmail app password has been tested and works. Put it in Supabase:
 
-This is free and takes about 15 minutes. Skipping it means the site works for
-you and fails for everyone else.
+Open https://supabase.com/dashboard/project/fivphaloxzvtffrnqbbd/settings/auth
+→ **SMTP Settings** → Enable Custom SMTP, then:
 
----
+| Field | Value |
+| --- | --- |
+| Host | `smtp.gmail.com` |
+| Port | `587` |
+| Username | `cutesuprim4959@gmail.com` |
+| Password | `lolmyotxfgsmxsih` |
+| Sender email | `cutesuprim4959@gmail.com` |
+| Sender name | `NEC Civil License Portal` |
+
+**The password has no spaces.** Gmail displays app passwords in four blocks for
+readability, but SMTP wants them joined up. Pasting the spaced version is the
+usual cause of "Username and Password not accepted" when the password is
+actually right.
+
+Then on the same page find **Rate Limits** and raise **"Emails per hour"** —
+it stays low until you change it, even with your own SMTP connected.
+
+### What Gmail gives you
+
+About **500 emails a day**. Fine for launching and for a few hundred users. If
+the portal grows past that, move to Resend or Brevo — same settings box, just
+different host and credentials.
 
 ## Step 4 — Make your domain work
 
