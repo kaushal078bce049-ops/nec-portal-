@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
+import { StartExamButton } from '@/components/papers/StartExamButton';
 import { PracticePlayer } from '@/components/practice/PracticePlayer';
 import { getBlueprint, getSyllabus, toReviewQuestion } from '@/lib/content';
 import { capsuleDateFor, getDailyCapsule, shiftCapsuleDate } from '@/lib/daily';
@@ -108,8 +109,31 @@ export default async function DailyCapsulePage({
             </p>
           </div>
 
-          <div className="mt-8">
-            <PracticePlayer questions={questions} subchapterTitles={subchapterTitles} />
+          {/*
+            Two ways to work the capsule, because they serve different days.
+            The timed attempt is marked and submitted like a real paper and is
+            what most people want; practice below reveals each answer as you go,
+            which is what you want when you are learning rather than testing.
+          */}
+          <div className="card mt-8 flex flex-wrap items-center justify-between gap-4 p-6">
+            <div>
+              <h2 className="text-lg">Sit it as a timed test</h2>
+              <p className="mt-1 text-sm text-body">
+                {questions.length} questions in {config.durationMinutes} minutes, marked on
+                submission, with a full review afterwards. Your score is saved to your dashboard.
+              </p>
+            </div>
+            <StartExamButton kind="daily_capsule" slug={date} label="Start capsule" />
+          </div>
+
+          <div className="mt-10">
+            <h2 className="text-lg">Or work through it at your own pace</h2>
+            <p className="mt-1 text-sm text-muted">
+              Untimed and unmarked — each solution appears as soon as you answer.
+            </p>
+            <div className="mt-4">
+              <PracticePlayer questions={questions} subchapterTitles={subchapterTitles} />
+            </div>
           </div>
         </>
       )}

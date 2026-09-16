@@ -8,7 +8,7 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 const bodySchema = z.object({
-  kind: z.enum(['past_paper', 'model_set']),
+  kind: z.enum(['past_paper', 'model_set', 'daily_capsule']),
   slug: z
     .string()
     .min(1)

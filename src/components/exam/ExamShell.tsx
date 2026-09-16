@@ -313,7 +313,12 @@ export function ExamShell({ state }: { state: AttemptState }) {
             className="btn btn-outline xl:hidden"
             aria-expanded={showPalette}
           >
-            {answeredTotal}/{questions.length}
+            {/*
+              Labelled, not just a count. This is the only way to reach the
+              palette below xl, and "12/100" on its own reads as a progress
+              badge rather than a button that jumps to any question.
+            */}
+            Questions {answeredTotal}/{questions.length}
           </button>
 
           <button

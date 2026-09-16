@@ -13,7 +13,7 @@ export function StartExamButton({
   label = 'Start exam',
   guest = false,
 }: {
-  kind: 'past_paper' | 'model_set';
+  kind: 'past_paper' | 'model_set' | 'daily_capsule';
   slug: string;
   label?: string;
   /**

@@ -20,13 +20,6 @@ export function SolutionCard({
   const answered = chosenIndex !== null && chosenIndex !== undefined;
   const correct = answered && chosenIndex === question.answerIndex;
 
-  const noteHeading =
-    question.verification?.status === 'key-corrected'
-      ? 'Why the usual answer is wrong:'
-      : question.verification?.status === 'needs-review'
-        ? 'A note on this question:'
-        : null;
-
   const verdict = !answered
     ? { label: 'Skipped', tone: 'var(--text-muted)', bg: 'var(--surface-sunken)' }
     : correct
@@ -45,16 +38,6 @@ export function SolutionCard({
         </span>
         <span className="chip">{question.subchapter}</span>
         {question.difficulty && <span className="chip">{question.difficulty}</span>}
-        {question.verification?.status === 'key-corrected' && (
-          <span className="chip chip-flag" title={question.verification.notes}>
-            Key corrected
-          </span>
-        )}
-        {question.verification?.status === 'needs-review' && (
-          <span className="chip chip-flag" title={question.verification.notes}>
-            Disputed item
-          </span>
-        )}
         {question.examTip && <span className="chip chip-tip">Exam tip</span>}
       </div>
 
@@ -113,22 +96,6 @@ export function SolutionCard({
             dangerouslySetInnerHTML={{ __html: renderMarkdown(question.solution) }}
           />
 
-          {/*
-            Two kinds of note, both worth showing. 'key-corrected' means the
-            circulating printed key is wrong and we say why. 'needs-review'
-            means the original item itself is defective — no correct option, or
-            two defensible ones — and a candidate who meets it in a real paper
-            deserves to know that rather than concluding they misunderstood.
-          */}
-          {noteHeading && question.verification?.notes && (
-            <p
-              className="mt-3 rounded-lg p-3 text-sm"
-              style={{ background: 'var(--accent-soft)', color: 'var(--text-body)' }}
-            >
-              <strong className="text-strong">{noteHeading} </strong>
-              {question.verification.notes}
-            </p>
-          )}
         </div>
 
         {question.examTip && <ExamTipPanel tip={question.examTip} />}

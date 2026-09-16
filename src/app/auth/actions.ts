@@ -53,18 +53,17 @@ export async function signIn(_prev: AuthFormState, formData: FormData): Promise<
     return { error: parsed.error.issues[0]?.message ?? 'Check your details.' };
   }
 
-  const ip = await clientIp();
-  try {
-    // Tight: brute-forcing a password is the attack this stops.
-    // 30 per 15 minutes, not 10. This is keyed on IP, and the audience shares
-    // them heavily -- an institute lab, a college wifi, a CGNAT mobile carrier.
-    // At 10 a single classroom locked itself out before anyone got in, while an
-    // attacker with a list of passwords was barely inconvenienced either way;
-    // Supabase applies its own limits underneath this.
-    await rateLimit('auth:signin', ip, 30, 60 * 15);
-  } catch (err) {
-    return { error: limiterMessage(err, 'Too many sign-in attempts. Please wait a few minutes and try again.') };
-  }
+  // Signing in is deliberately unmetered here.
+  //
+  // The limit was keyed on IP, and this audience shares addresses heavily:
+  // an institute lab, college wifi, a CGNAT mobile carrier. A class arriving
+  // together looked identical to an attack, and the whole room was locked out
+  // of a site they only wanted to read.
+  //
+  // Brute force is still bounded, just not here: Supabase applies its own
+  // per-IP limits to the auth endpoints beneath this call, the password has a
+  // minimum length, and every failed attempt is written to the audit log, so
+  // a real attack is visible after the fact.
 
   const supabase = await getServerClient();
   const { error } = await supabase.auth.signInWithPassword({

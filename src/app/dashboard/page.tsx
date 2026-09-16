@@ -5,6 +5,7 @@ import { redirect } from 'next/navigation';
 import { signOut } from '@/app/auth/actions';
 import { getActiveScheme, getBlueprint, getSyllabus, listPapers } from '@/lib/content';
 import { capsuleDateFor } from '@/lib/daily';
+import { getLeaderboard } from '@/lib/exam';
 import { getRecentAttempts } from '@/lib/progress';
 import { getSessionUser } from '@/lib/supabase/server';
 
@@ -26,11 +27,12 @@ export default async function DashboardPage() {
   const user = await getSessionUser();
   if (!user) redirect('/login?next=/dashboard');
 
-  const [attempts, scheme, blueprint, syllabus] = await Promise.all([
+  const [attempts, scheme, blueprint, syllabus, board] = await Promise.all([
     getRecentAttempts(12),
     Promise.resolve(getActiveScheme()),
     Promise.resolve(getBlueprint()),
     Promise.resolve(getSyllabus()),
+    getLeaderboard(user, 20),
   ]);
 
   const pastPapers = listPapers('past_paper');
@@ -189,6 +191,54 @@ export default async function DashboardPage() {
               {syllabus.chapters.length} chapters · 60 subchapters
             </p>
           </Link>
+
+          {/*
+            Ranking is on each person's BEST attempt as a percentage. Papers
+            differ in total marks -- a capsule is twenty against a full paper's
+            hundred -- so raw scores are not comparable, and averaging would
+            punish whoever practises most.
+          */}
+          <div className="card p-5">
+            <h3 className="text-base font-semibold text-strong">Ranking</h3>
+            {board.totalRanked === 0 ? (
+              <p className="mt-2 text-xs text-muted">
+                No papers submitted yet. Sit one and you will be first.
+              </p>
+            ) : (
+              <>
+                <p className="mt-1 text-xs text-muted">
+                  Best attempt, across {board.totalRanked}{' '}
+                  {board.totalRanked === 1 ? 'candidate' : 'candidates'}.
+                </p>
+                <ol className="mt-3 space-y-1">
+                  {board.rows.map((r) => (
+                    <li
+                      key={r.userId}
+                      className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs"
+                      style={r.isYou ? { background: 'var(--accent-soft)' } : undefined}
+                    >
+                      <span className="w-6 shrink-0 text-right font-bold tabular-nums text-strong">
+                        {r.rank}
+                      </span>
+                      <span className="min-w-0 flex-1 truncate text-body">
+                        {r.name}
+                        {r.isYou && <span className="ml-1 font-semibold">(you)</span>}
+                      </span>
+                      <span className="shrink-0 tabular-nums text-muted">
+                        {r.bestScore}/{r.bestOutOf}
+                      </span>
+                    </li>
+                  ))}
+                </ol>
+                {board.you && !board.rows.some((r) => r.isYou) && (
+                  <p className="mt-3 border-t border-soft pt-3 text-xs text-body">
+                    You are <strong className="text-strong">{board.you.rank}</strong> of{' '}
+                    {board.totalRanked}, best {board.you.bestScore}/{board.you.bestOutOf}.
+                  </p>
+                )}
+              </>
+            )}
+          </div>
 
           <Link href="/forum" className="card block p-5 transition-colors hover:bg-sunken">
             <h3 className="text-base font-semibold text-strong">Discussion forum</h3>

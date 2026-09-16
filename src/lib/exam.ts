@@ -1,8 +1,10 @@
 import 'server-only';
+import { getDailyCapsule } from '@/lib/daily';
 
 import {
   getActiveScheme,
   getPaper,
+  getBlueprint,
   getQuestions,
   getSyllabus,
   toPublicQuestion,
@@ -71,11 +73,18 @@ function chapterTitles(): Map<string, string> {
 
 export async function startAttempt(
   user: SessionUser,
-  kind: 'past_paper' | 'model_set',
+  kind: 'past_paper' | 'model_set' | 'daily_capsule',
   slug: string,
 ): Promise<{ attemptId: string }> {
-  const paper = getPaper(kind, slug);
-  if (!paper) throw notFound('That paper does not exist.');
+  // The capsule is generated for a date rather than stored as a paper, so its
+  // questions come from a different place -- but everything after this point is
+  // identical, which is the point of routing it through the same engine: it
+  // gets the timer, the frozen question list, server-side marking and the
+  // review screen without any of that being written twice.
+  const questions = kind === 'daily_capsule'
+    ? getDailyCapsule(slug).questions
+    : getPaper(kind, slug)?.questions;
+  if (!questions) throw notFound('That paper does not exist.');
 
   const scheme = getActiveScheme();
   const admin = getAdminClient();
@@ -98,11 +107,16 @@ export async function startAttempt(
     await submitAttempt(user, existing.id, { reason: 'expired' });
   }
 
-  const questionIds = paper.questions.map((q) => q.id);
+  const questionIds = questions.map((q) => q.id);
   if (questionIds.length === 0) throw badRequest('That paper has no questions yet.');
 
-  const totalMarks = paper.questions.reduce((sum, q) => sum + q.marks, 0);
-  const durationSecs = scheme.durationMinutes * 60;
+  const totalMarks = questions.reduce((sum, q) => sum + q.marks, 0);
+  // The capsule is twenty questions in twenty-five minutes, not a hundred in
+  // two hours; using the full scheme's clock would give it eight minutes a
+  // question and make the timer meaningless.
+  const durationSecs = kind === 'daily_capsule'
+    ? getBlueprint().dailyCapsule.durationMinutes * 60
+    : scheme.durationMinutes * 60;
   const passMarks = Math.ceil((scheme.passMarks / scheme.totalMarks) * totalMarks);
 
   const { data, error } = await admin
@@ -391,4 +405,117 @@ export async function getAttemptReview(
     .map(toReviewQuestion);
 
   return { result: await getAttemptResult(user, attemptId), questions, chosen };
+}
+
+// -----------------------------------------------------------------------------
+// Leaderboard
+// -----------------------------------------------------------------------------
+
+export interface LeaderboardRow {
+  rank: number;
+  userId: string;
+  name: string;
+  bestScore: number;
+  bestOutOf: number;
+  attempts: number;
+  passed: boolean;
+  isYou: boolean;
+}
+
+export interface Leaderboard {
+  rows: LeaderboardRow[];
+  you: LeaderboardRow | null;
+  totalRanked: number;
+}
+
+/**
+ * Ranking across everyone who has submitted a paper.
+ *
+ * Ranked on each person's BEST attempt, not their average or their latest.
+ * Averaging punishes practising -- the candidate who sits ten papers to find
+ * their weak chapters would rank below someone who sat one careful paper and
+ * stopped, which is precisely the behaviour this should not discourage.
+ *
+ * Scores are compared as a percentage. Papers differ in total marks, and a
+ * capsule is twenty marks against a full paper's hundred, so raw scores are not
+ * comparable across kinds.
+ *
+ * The caller's own row is always returned even when they fall outside the
+ * visible top, because "you are 41st of 120" is the useful part for them.
+ */
+export async function getLeaderboard(
+  user: SessionUser | null,
+  limit = 20,
+): Promise<Leaderboard> {
+  const admin = getAdminClient();
+
+  const { data, error } = await admin
+    .from('exam_attempts')
+    .select('user_id, score, total_marks, passed')
+    .eq('status', 'submitted')
+    .not('score', 'is', null);
+
+  if (error || !data) return { rows: [], you: null, totalRanked: 0 };
+
+  const best = new Map<string, { score: number; outOf: number; pct: number; attempts: number; passed: boolean }>();
+  for (const a of data) {
+    const score = a.score ?? 0;
+    const outOf = a.total_marks || 1;
+    const pct = score / outOf;
+    const prev = best.get(a.user_id);
+    if (!prev) {
+      best.set(a.user_id, { score, outOf, pct, attempts: 1, passed: Boolean(a.passed) });
+    } else {
+      prev.attempts += 1;
+      prev.passed = prev.passed || Boolean(a.passed);
+      if (pct > prev.pct) { prev.score = score; prev.outOf = outOf; prev.pct = pct; }
+    }
+  }
+  if (best.size === 0) return { rows: [], you: null, totalRanked: 0 };
+
+  const { data: profiles } = await admin
+    .from('profiles')
+    .select('id, full_name, email')
+    .in('id', [...best.keys()]);
+
+  // Fall back to the local part of the address rather than showing it whole --
+  // a leaderboard is visible to every signed-in user, and nobody signed up
+  // expecting their email to be published next to their marks.
+  const nameOf = (id: string) => {
+    const p = profiles?.find((x) => x.id === id);
+    const full = p?.full_name?.trim();
+    if (full) return full;
+    const local = p?.email?.split('@')[0];
+    return local || 'Candidate';
+  };
+
+  const ordered = [...best.entries()]
+    .sort((a, b) => b[1].pct - a[1].pct || b[1].score - a[1].score || a[0].localeCompare(b[0]));
+
+  // Equal percentages share a rank, and the next rank skips accordingly: three
+  // people on 82% are all 1st and the next is 4th.
+  const ranked: LeaderboardRow[] = [];
+  let lastPct = Number.NaN;
+  let lastRank = 0;
+  ordered.forEach(([userId, v], i) => {
+    const rank = v.pct === lastPct ? lastRank : i + 1;
+    lastPct = v.pct;
+    lastRank = rank;
+    ranked.push({
+      rank,
+      userId,
+      name: nameOf(userId),
+      bestScore: v.score,
+      bestOutOf: v.outOf,
+      attempts: v.attempts,
+      passed: v.passed,
+      isYou: userId === user?.id,
+    });
+  });
+
+  return {
+    rows: ranked.slice(0, limit),
+    you: ranked.find((r) => r.isYou) ?? null,
+    totalRanked: ranked.length,
+  };
 }

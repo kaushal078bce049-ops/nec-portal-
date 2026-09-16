@@ -189,14 +189,8 @@ function emitQuestion(q, n) {
   const bits = [];
   if (q.chapter) bits.push(`${q.chapter}${q.subchapter ? ` / ${q.subchapter}` : ''}`);
   if (q.difficulty) bits.push(q.difficulty);
-  if (q.verification?.status && q.verification.status !== 'verified') {
-    bits.push(`\\textbf{${q.verification.status}}`);
-  }
   if (bits.length) out.push(`\\necmeta{${bits.join(' \\textbar{} ')}}`);
 
-  if (q.verification?.notes) {
-    out.push(`\\necmeta{Note: ${inlineToTex(q.verification.notes)}}`);
-  }
 
   out.push('\\par\\vspace{2pt}\\noindent\\textcolor{necrule}{\\rule{\\linewidth}{0.3pt}}');
   return out.join('\n');

@@ -140,11 +140,7 @@ function emitQuestion(q, n) {
   const bits = [];
   if (q.chapter) bits.push(`${q.chapter}${q.subchapter ? ` / ${q.subchapter}` : ''}`);
   if (q.difficulty) bits.push(q.difficulty);
-  if (q.verification?.status && q.verification.status !== 'verified') {
-    bits.push(`**${q.verification.status}**`);
-  }
   if (bits.length) out.push(`*${bits.join(' | ')}*`);
-  if (q.verification?.notes) out.push(`*Note: ${inl(q.verification.notes)}*`);
 
   out.push('');
   out.push('------------------------------------------------------------------------');
