@@ -2,39 +2,24 @@
 
 The site is live at **https://nec-portal-three.vercel.app**
 
-Everything is built and deployed. **One thing is missing**, and until it is
-done nobody can sign in. Do step 1 first; the rest can follow.
+Everything is built, deployed and working. What is left is configuration in
+other people's dashboards, which I cannot reach for you.
 
 Prepared by Kaushal Karki.
 
 ---
 
-## Step 1 — Paste the Supabase secret key  ← DO THIS FIRST
+## Already done — nothing for you here
 
-**Why:** the server uses this key to write to the database. The one in Vercel
-right now belongs to the old Supabase project you deleted, so every write
-fails. That is why signing up says *"Too many accounts created from this
-network"* even when nobody has signed up. It is not a real limit — it is this.
-
-1. Open https://supabase.com/dashboard/project/fivphaloxzvtffrnqbbd/settings/api
-2. Find **Secret keys** (older projects call it **service_role**).
-3. Click **Reveal**, then copy the key. It starts with `sb_secret_` or `eyJ`.
-4. Send it to me and I will set it in Vercel and redeploy.
-
-Or do it yourself:
-
-```
-vercel env rm SUPABASE_SERVICE_ROLE_KEY production --yes
-vercel env add SUPABASE_SERVICE_ROLE_KEY production      (paste when asked)
-vercel --prod
-```
-
-**Do not paste this key into a chat, an email, or a file you commit.** It can
-read and change every row in your database.
+- **Supabase secret key** — set in Vercel and verified. Signing in, starting a
+  paper, the audit log and the rate limiter all work.
+- **Login rate limit** — removed. A shared institute or college network will
+  not lock itself out.
+- **Everything below is tested against the live site**, not assumed.
 
 ---
 
-## Step 2 — Tell Supabase where the site lives
+## Step 1 — Tell Supabase where the site lives
 
 **Why:** without this, the confirmation email sends people to the wrong
 address and they can never finish signing up.
@@ -49,7 +34,7 @@ When your domain starts working, add `https://kaushalkarki17.com.np/auth/callbac
 
 ---
 
-## Step 3 — Turn on email sending in Supabase
+## Step 2 — Turn on email sending  ← the one thing still blocking you
 
 **Why:** Supabase's built-in mailer sends only a handful of messages an hour.
 Every user has to verify their email to get in, so that limit *is* your signup
@@ -83,7 +68,9 @@ About **500 emails a day**. Fine for launching and for a few hundred users. If
 the portal grows past that, move to Resend or Brevo — same settings box, just
 different host and credentials.
 
-## Step 4 — Make your domain work
+---
+
+## Step 3 — Make your domain work
 
 Your domain `kaushalkarki17.com.np` does not point at the site yet. It is
 still pointing at your registrar.
@@ -102,9 +89,9 @@ simply start working.
 
 ---
 
-## Step 5 — Become the administrator
+## Step 4 — Become the administrator
 
-Do this **after step 1**, or it will not work.
+Do this after step 2, or the confirmation email may not reach you.
 
 1. Go to the site and click **Create account**.
 2. Sign up with **kaushal.078bce049@tcioe.edu.np** — it must be this address.
@@ -148,12 +135,10 @@ to anyone with an account.
 
 ## When something breaks
 
-**"Too many accounts created from this network"** — step 1 is not done.
-
-**Nobody receives the confirmation email** — step 3 is not done, or you have
+**Nobody receives the confirmation email** — step 2 is not done, or you have
 used up the hourly allowance.
 
-**The domain does not load** — step 4, and check again in an hour.
+**The domain does not load** — step 3, and check again in an hour.
 
 **A page says something went wrong** — look at the logs:
 `https://vercel.com/clamphook/nec-portal` → Deployments → the latest one →
