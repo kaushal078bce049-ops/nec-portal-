@@ -23,6 +23,16 @@ const serverSchema = z.object({
   // without an account — all content is free. Any sufficiently long random string will do; changing it
   // simply invalidates guest attempts in flight.
   GUEST_SESSION_SECRET: z.string().min(32),
+
+  // Outgoing mail. Optional: without it the site still runs and accounts are
+  // still created, they simply wait for an administrator to confirm them. See
+  // src/lib/email.ts for why the app sends these itself rather than leaving
+  // them to Supabase.
+  SMTP_HOST: z.string().min(1).optional(),
+  SMTP_PORT: z.string().optional(),
+  SMTP_USER: z.string().min(1).optional(),
+  SMTP_PASS: z.string().min(1).optional(),
+  SMTP_FROM: z.string().optional(),
 });
 
 let cachedPublic: z.infer<typeof publicSchema> | null = null;

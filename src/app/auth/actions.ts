@@ -4,8 +4,9 @@ import { redirect } from 'next/navigation';
 import { z } from 'zod';
 
 import { publicEnv } from '@/lib/env';
+import { sendConfirmationEmail } from '@/lib/email';
 import { HttpError, audit, clientIp, rateLimit } from '@/lib/security';
-import { getServerClient } from '@/lib/supabase/server';
+import { getAdminClient, getServerClient } from '@/lib/supabase/server';
 
 /**
  * Email/password auth via Supabase.
@@ -117,30 +118,51 @@ export async function signUp(_prev: AuthFormState, formData: FormData): Promise<
     return { error: limiterMessage(err, 'Too many accounts created from this network. Please try again later.') };
   }
 
-  const supabase = await getServerClient();
-  const { data, error } = await supabase.auth.signUp({
+  // Create the account and take the confirmation link, rather than letting
+  // Supabase mail it. Its built-in sender allows a handful of messages an hour,
+  // and since nothing here is readable without a confirmed address, that
+  // ceiling is the signup capacity -- a class registering together exhausts it
+  // and the rest are refused. generateLink() hands back the link without
+  // sending anything, and src/lib/email.ts delivers it over our own SMTP.
+  const admin = getAdminClient();
+  const { data, error } = await admin.auth.admin.generateLink({
+    type: 'signup',
     email: parsed.data.email,
     password: parsed.data.password,
     options: {
       data: { full_name: parsed.data.fullName, institute: parsed.data.institute ?? null },
-      emailRedirectTo: `${publicEnv().NEXT_PUBLIC_SITE_URL}/auth/callback`,
+      redirectTo: `${publicEnv().NEXT_PUBLIC_SITE_URL}/auth/callback`,
     },
   });
 
   if (error) {
+    // "already been registered" is the one case worth naming: the person almost
+    // certainly wants to sign in, not to hear a generic failure.
+    if (/already/i.test(error.message)) {
+      return { error: 'An account with that email already exists. Try signing in instead.' };
+    }
     return { error: error.message };
   }
 
-  // With email confirmation on, there is no session yet.
-  if (!data.session) {
+  const link = data?.properties?.action_link;
+  if (!link) return { error: 'Could not create that account. Please try again.' };
+
+  await audit({ actorId: data.user?.id, action: 'auth.signup' });
+
+  const sent = await sendConfirmationEmail(parsed.data.email, link, parsed.data.fullName);
+  if (!sent) {
+    // The account exists and is waiting; say so rather than implying it failed.
     return {
       notice:
-        'Account created. Check your inbox for a confirmation link, then sign in to start studying.',
+        'Account created, but the confirmation email could not be sent just now. '
+        + 'Please contact the administrator to have your account activated.',
     };
   }
 
-  await audit({ actorId: data.user?.id, action: 'auth.signup' });
-  redirect(safeNext(formData.get('next')));
+  return {
+    notice:
+      'Account created. Check your inbox for the confirmation link, then sign in to start studying.',
+  };
 }
 
 export async function signOut(): Promise<void> {
