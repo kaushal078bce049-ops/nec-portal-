@@ -194,7 +194,7 @@ export async function rateLimit(
   // auth path unprotected.
   if (!isSupabaseConfigured()) {
     if (bucket.startsWith('auth:')) {
-      throw new HttpError(503, 'Service temporarily unavailable. Please retry.');
+      throw new HttpError(503, 'Service temporarily unavailable. Please retry.', 'BACKEND_UNAVAILABLE');
     }
     return;
   }
@@ -212,8 +212,16 @@ export async function rateLimit(
   // Fail closed on infrastructure errors for sensitive buckets, open otherwise:
   // a broken limiter must not lock everyone out of reading pages.
   if (error) {
+    // Log it. A limiter that cannot reach its table is a configuration fault,
+    // and the operator has no other way to see that: the caller only ever sees
+    // whatever message it chooses to show the visitor.
+    console.error('[rateLimit] backend unreachable for bucket ' + bucket + ': ' + error.message);
     if (bucket.startsWith('auth:')) {
-      throw new HttpError(503, 'Service temporarily unavailable. Please retry.');
+      // 503, distinct from the 429 a real limit throws. Callers must be able to
+      // tell "you have done this too often" from "this server is misconfigured"
+      // -- reporting the second as the first sends people away to wait out a
+      // limit that was never reached.
+      throw new HttpError(503, 'Service temporarily unavailable. Please retry.', 'BACKEND_UNAVAILABLE');
     }
     return;
   }

@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation';
 import { z } from 'zod';
 
 import { publicEnv } from '@/lib/env';
-import { audit, clientIp, rateLimit } from '@/lib/security';
+import { HttpError, audit, clientIp, rateLimit } from '@/lib/security';
 import { getServerClient } from '@/lib/supabase/server';
 
 /**
@@ -56,9 +56,14 @@ export async function signIn(_prev: AuthFormState, formData: FormData): Promise<
   const ip = await clientIp();
   try {
     // Tight: brute-forcing a password is the attack this stops.
-    await rateLimit('auth:signin', ip, 10, 60 * 15);
-  } catch {
-    return { error: 'Too many sign-in attempts. Please wait a few minutes and try again.' };
+    // 30 per 15 minutes, not 10. This is keyed on IP, and the audience shares
+    // them heavily -- an institute lab, a college wifi, a CGNAT mobile carrier.
+    // At 10 a single classroom locked itself out before anyone got in, while an
+    // attacker with a list of passwords was barely inconvenienced either way;
+    // Supabase applies its own limits underneath this.
+    await rateLimit('auth:signin', ip, 30, 60 * 15);
+  } catch (err) {
+    return { error: limiterMessage(err, 'Too many sign-in attempts. Please wait a few minutes and try again.') };
   }
 
   const supabase = await getServerClient();
@@ -76,6 +81,23 @@ export async function signIn(_prev: AuthFormState, formData: FormData): Promise<
   redirect(safeNext(formData.get('next')));
 }
 
+/**
+ * Tell a rate limit apart from a broken limiter.
+ *
+ * Both arrive here as a thrown error, and the blanket catch that used to be in
+ * both call sites reported either as "too many attempts". That is actively
+ * misleading when the real cause is that the server cannot reach its database:
+ * it sends the visitor away to wait out a limit they never hit, and it sends
+ * the operator looking for traffic that was never there.
+ */
+function limiterMessage(err: unknown, whenLimited: string): string {
+  if (err instanceof HttpError && err.code === 'BACKEND_UNAVAILABLE') {
+    return 'Sign-in is temporarily unavailable: the server cannot reach its database. '
+      + 'This is a server configuration problem, not a limit on your account.';
+  }
+  return whenLimited;
+}
+
 export async function signUp(_prev: AuthFormState, formData: FormData): Promise<AuthFormState> {
   const parsed = signupSchema.safeParse({
     email: formData.get('email'),
@@ -89,9 +111,11 @@ export async function signUp(_prev: AuthFormState, formData: FormData): Promise<
 
   const ip = await clientIp();
   try {
-    await rateLimit('auth:signup', ip, 5, 60 * 60);
-  } catch {
-    return { error: 'Too many accounts created from this network. Please try again later.' };
+    // 30 an hour, not 5. A class signing up together is the normal case here,
+    // not abuse, and they arrive from one address.
+    await rateLimit('auth:signup', ip, 30, 60 * 60);
+  } catch (err) {
+    return { error: limiterMessage(err, 'Too many accounts created from this network. Please try again later.') };
   }
 
   const supabase = await getServerClient();
