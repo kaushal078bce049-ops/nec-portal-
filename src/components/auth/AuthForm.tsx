@@ -61,6 +61,15 @@ export function AuthForm({
               placeholder="Kaushal Karki"
             />
             <Field
+              label="Username"
+              name="username"
+              type="text"
+              autoComplete="username"
+              required
+              placeholder="kaushal_k"
+              hint="Shown on leaderboards. 3-24 letters, digits, underscore or hyphen."
+            />
+            <Field
               label="Institute or college"
               name="institute"
               type="text"

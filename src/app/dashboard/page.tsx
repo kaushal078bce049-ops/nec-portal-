@@ -5,7 +5,7 @@ import { redirect } from 'next/navigation';
 import { signOut } from '@/app/auth/actions';
 import { getActiveScheme, getBlueprint, getSyllabus, listPapers } from '@/lib/content';
 import { capsuleDateFor } from '@/lib/daily';
-import { getLeaderboard } from '@/lib/exam';
+import { getProgressByKind } from '@/lib/exam';
 import { getRecentAttempts } from '@/lib/progress';
 import { getSessionUser } from '@/lib/supabase/server';
 
@@ -27,12 +27,12 @@ export default async function DashboardPage() {
   const user = await getSessionUser();
   if (!user) redirect('/login?next=/dashboard');
 
-  const [attempts, scheme, blueprint, syllabus, board] = await Promise.all([
+  const [attempts, scheme, blueprint, syllabus, progress] = await Promise.all([
     getRecentAttempts(12),
     Promise.resolve(getActiveScheme()),
     Promise.resolve(getBlueprint()),
     Promise.resolve(getSyllabus()),
-    getLeaderboard(user, 20),
+    getProgressByKind(user, 10),
   ]);
 
   const pastPapers = listPapers('past_paper');
@@ -193,31 +193,59 @@ export default async function DashboardPage() {
           </Link>
 
           {/*
-            Ranking is on each person's BEST attempt as a percentage. Papers
-            differ in total marks -- a capsule is twenty against a full paper's
-            hundred -- so raw scores are not comparable, and averaging would
-            punish whoever practises most.
+            One table per kind of paper, not one combined.
+            
+            A twenty-mark capsule and a hundred-mark past paper are different
+            examinations sat for different reasons; ranking them together
+            produced a number that answered no question anyone had. Each block
+            shows your own figures first -- this is your progress record -- and
+            the standings second.
           */}
-          <div className="card p-5">
-            <h3 className="text-base font-semibold text-strong">Ranking</h3>
-            {board.totalRanked === 0 ? (
-              <p className="mt-2 text-xs text-muted">
-                No papers submitted yet. Sit one and you will be first.
-              </p>
-            ) : (
-              <>
-                <p className="mt-1 text-xs text-muted">
-                  Best attempt, across {board.totalRanked}{' '}
-                  {board.totalRanked === 1 ? 'candidate' : 'candidates'}.
+          {progress.map((k) => (
+            <div key={k.kind} className="card p-5">
+              <h3 className="text-base font-semibold text-strong">{k.label}</h3>
+
+              {k.attempts === 0 ? (
+                <p className="mt-2 text-xs text-muted">
+                  You have not submitted one yet.
+                  {k.totalRanked > 0 && ` ${k.totalRanked} ${k.totalRanked === 1 ? 'candidate has' : 'candidates have'}.`}
                 </p>
-                <ol className="mt-3 space-y-1">
-                  {board.rows.map((r) => (
+              ) : (
+                <>
+                  <dl className="mt-3 grid grid-cols-3 gap-2 text-center">
+                    <div className="rounded-md bg-sunken px-2 py-2">
+                      <dt className="text-[0.65rem] uppercase tracking-wide text-muted">Best</dt>
+                      <dd className="text-sm font-bold tabular-nums text-strong">
+                        {k.bestScore}/{k.bestOutOf}
+                      </dd>
+                    </div>
+                    <div className="rounded-md bg-sunken px-2 py-2">
+                      <dt className="text-[0.65rem] uppercase tracking-wide text-muted">Average</dt>
+                      <dd className="text-sm font-bold tabular-nums text-strong">{k.averagePct}%</dd>
+                    </div>
+                    <div className="rounded-md bg-sunken px-2 py-2">
+                      <dt className="text-[0.65rem] uppercase tracking-wide text-muted">Rank</dt>
+                      <dd className="text-sm font-bold tabular-nums text-strong">
+                        {k.yourRank ?? '—'}
+                        <span className="font-normal text-muted">/{k.totalRanked}</span>
+                      </dd>
+                    </div>
+                  </dl>
+                  <p className="mt-2 text-xs text-muted">
+                    {k.attempts} {k.attempts === 1 ? 'attempt' : 'attempts'}, {k.passed} passed.
+                  </p>
+                </>
+              )}
+
+              {k.top.length > 0 && (
+                <ol className="mt-3 space-y-1 border-t border-soft pt-3">
+                  {k.top.map((r) => (
                     <li
                       key={r.userId}
-                      className="flex items-center gap-2 rounded-md px-2 py-1.5 text-xs"
+                      className="flex items-center gap-2 rounded-md px-2 py-1 text-xs"
                       style={r.isYou ? { background: 'var(--accent-soft)' } : undefined}
                     >
-                      <span className="w-6 shrink-0 text-right font-bold tabular-nums text-strong">
+                      <span className="w-5 shrink-0 text-right font-bold tabular-nums text-strong">
                         {r.rank}
                       </span>
                       <span className="min-w-0 flex-1 truncate text-body">
@@ -230,15 +258,9 @@ export default async function DashboardPage() {
                     </li>
                   ))}
                 </ol>
-                {board.you && !board.rows.some((r) => r.isYou) && (
-                  <p className="mt-3 border-t border-soft pt-3 text-xs text-body">
-                    You are <strong className="text-strong">{board.you.rank}</strong> of{' '}
-                    {board.totalRanked}, best {board.you.bestScore}/{board.you.bestOutOf}.
-                  </p>
-                )}
-              </>
-            )}
-          </div>
+              )}
+            </div>
+          ))}
 
           <Link href="/forum" className="card block p-5 transition-colors hover:bg-sunken">
             <h3 className="text-base font-semibold text-strong">Discussion forum</h3>

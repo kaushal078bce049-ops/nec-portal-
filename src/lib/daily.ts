@@ -67,14 +67,27 @@ export interface DailyCapsule {
 }
 
 /**
- * Build the capsule for a date. Questions are spread across chapters
- * round-robin so a single day never lands entirely inside one chapter.
+ * Build the capsule for a date.
+ *
+ * Every day draws from a single fixed permutation of the pool rather than
+ * reshuffling it per date, and walks forward through that permutation by the
+ * day number. That is what stops questions recurring: independent daily
+ * shuffles repeat far sooner than intuition suggests -- with twenty drawn from
+ * a few hundred per chapter, a repeat inside a fortnight is likely rather than
+ * unlucky, and candidates noticed.
+ *
+ * Walking a permutation instead means a question cannot come round again until
+ * its chapter's pool is exhausted, which at two a day from roughly 350 is the
+ * better part of a year. The permutation is seeded with a constant, not the
+ * date, so it is stable across deploys and yesterday's capsule stays
+ * yesterday's capsule.
+ *
+ * Chapter spread is preserved by advancing each chapter's own cursor, so every
+ * day still covers the syllabus rather than landing in one topic.
  */
 export function getDailyCapsule(date: string): DailyCapsule {
   const size = getBlueprint().dailyCapsule.questionsPerDay;
-  const random = makeRandom(seedFrom(`nec-capsule:${date}`));
 
-  // Bucket the whole pool by chapter, each bucket shuffled for this date.
   const byChapter = new Map<string, Question[]>();
   for (const q of getQuestionIndex().values()) {
     const bucket = byChapter.get(q.chapter);
@@ -86,35 +99,44 @@ export function getDailyCapsule(date: string): DailyCapsule {
     .chapters.map((c) => c.code)
     .filter((code) => (byChapter.get(code)?.length ?? 0) > 0);
 
-  if (order.length === 0) {
-    return { date, questions: [], chapters: [] };
-  }
+  if (order.length === 0) return { date, questions: [], chapters: [] };
 
+  // One permutation per chapter, fixed for all time. Sorting by id first makes
+  // it independent of the order the content loader happens to return.
   const pools = new Map(
-    order.map((code) => [code, shuffled(byChapter.get(code)!, random)] as const),
+    order.map((code) => {
+      const bucket = [...byChapter.get(code)!].sort((a, b) => a.id.localeCompare(b.id));
+      return [code, shuffled(bucket, makeRandom(seedFrom('nec-capsule-pool:' + code)))] as const;
+    }),
   );
 
-  // Rotate the starting chapter by date so the same chapter is not always first.
-  const startAt = Math.floor(random() * order.length);
-  const picked: Question[] = [];
-  const cursor = new Map(order.map((code) => [code, 0]));
+  // Days since a fixed epoch. Dates before it simply count backwards, which
+  // keeps the archive browsable without special-casing.
+  const day = Math.floor(Date.parse(date + 'T00:00:00Z') / 86400000);
 
-  let exhausted = false;
-  while (picked.length < size && !exhausted) {
-    exhausted = true;
-    for (let step = 0; step < order.length && picked.length < size; step++) {
-      const code = order[(startAt + step) % order.length]!;
-      const pool = pools.get(code)!;
-      const at = cursor.get(code)!;
-      if (at >= pool.length) continue;
-      picked.push(pool[at]!);
-      cursor.set(code, at + 1);
-      exhausted = false;
+  const perChapter = Math.floor(size / order.length);
+  const remainder = size - perChapter * order.length;
+
+  // Rotate which chapters get the spare questions, so the same ones are not
+  // always over-represented.
+  const startAt = ((day % order.length) + order.length) % order.length;
+
+  const picked: Question[] = [];
+  for (let step = 0; step < order.length; step++) {
+    const code = order[(startAt + step) % order.length]!;
+    const pool = pools.get(code)!;
+    const take = perChapter + (step < remainder ? 1 : 0);
+    for (let k = 0; k < take; k++) {
+      // Walk forward by day; wrap only once the chapter is exhausted.
+      const at = (((day * take + k) % pool.length) + pool.length) % pool.length;
+      const q = pool[at]!;
+      if (!picked.some((x) => x.id === q.id)) picked.push(q);
     }
   }
 
-  // Final shuffle so the chapter round-robin is not visible as a pattern.
-  const questions = shuffled(picked, random);
+  // Present in a date-dependent order so the chapter round-robin is not a
+  // visible pattern, without changing which questions were selected.
+  const questions = shuffled(picked, makeRandom(seedFrom('nec-capsule-order:' + date)));
 
   return {
     date,

@@ -36,6 +36,14 @@ const signupSchema = credentials.extend({
     .min(2, 'Please enter your full name.')
     .max(120, 'That name is too long.'),
   institute: z.string().trim().max(160).optional(),
+  // The handle shown on leaderboards. Kept separate from the full name, which
+  // people give as their real one and did not choose to publish. The shape is
+  // also enforced by a CHECK constraint in 0003_username.sql, so a mismatch
+  // here fails the insert rather than storing something the UI cannot render.
+  username: z
+    .string()
+    .trim()
+    .regex(/^[A-Za-z0-9_-]{3,24}$/, 'Username: 3-24 letters, digits, underscore or hyphen.'),
 });
 
 /** Only allow relative in-app redirects, never an attacker-supplied origin. */
@@ -103,6 +111,7 @@ export async function signUp(_prev: AuthFormState, formData: FormData): Promise<
     email: formData.get('email'),
     password: formData.get('password'),
     fullName: formData.get('fullName'),
+    username: formData.get('username'),
     institute: formData.get('institute') || undefined,
   });
   if (!parsed.success) {
@@ -130,7 +139,11 @@ export async function signUp(_prev: AuthFormState, formData: FormData): Promise<
     email: parsed.data.email,
     password: parsed.data.password,
     options: {
-      data: { full_name: parsed.data.fullName, institute: parsed.data.institute ?? null },
+      data: {
+        full_name: parsed.data.fullName,
+        username: parsed.data.username,
+        institute: parsed.data.institute ?? null,
+      },
       redirectTo: `${publicEnv().NEXT_PUBLIC_SITE_URL}/auth/callback`,
     },
   });
@@ -138,6 +151,9 @@ export async function signUp(_prev: AuthFormState, formData: FormData): Promise<
   if (error) {
     // "already been registered" is the one case worth naming: the person almost
     // certainly wants to sign in, not to hear a generic failure.
+    if (/profiles_username_key|duplicate key/i.test(error.message)) {
+      return { error: 'That username is taken. Please choose another.' };
+    }
     if (/already/i.test(error.message)) {
       return { error: 'An account with that email already exists. Try signing in instead.' };
     }

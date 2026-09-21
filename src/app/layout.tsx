@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 
+import { CopyGuard } from '@/components/CopyGuard';
 import { SiteFooter } from '@/components/shell/SiteFooter';
 import { SiteHeader } from '@/components/shell/SiteHeader';
 import { getAttribution, getSyllabus } from '@/lib/content';
@@ -74,7 +75,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <div className="flex min-h-screen flex-col">
           <SiteHeader user={user} chapters={syllabus.chapters.map((c) => ({ code: c.code, no: c.no, title: c.title }))} />
           <main id="main" className="flex-1">
-            {children}
+            <CopyGuard>{children}</CopyGuard>
           </main>
           <SiteFooter preparedBy={attribution.preparedBy} />
         </div>

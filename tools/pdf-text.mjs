@@ -164,6 +164,20 @@ for (const s of all) {
       continue;
     }
 
+    // A font change ends a run, and Word does not emit a space across it.
+    //
+    // The capsule sets every answer word in bold, so "calcining" and "gypsum"
+    // arrive as two runs with nothing between them and the extracted line reads
+    // "calcininggypsum". Emitting a space at the boundary repairs the whole
+    // document at once, which is the only tractable way to handle 1,542 facts.
+    // A word genuinely split across a font change is the rare case and would
+    // read oddly either way.
+    if (ch === 'T' && src[i + 1] === 'f') {
+      if (line && !line.endsWith(' ')) line += ' ';
+      i++;
+      continue;
+    }
+
     // Cursor-moving / block-ending operators end the current run.
     if (ch === 'T' && (src[i + 1] === 'd' || src[i + 1] === 'D' || src[i + 1] === '*')) {
       lines.push(line); line = ''; i++;
@@ -181,6 +195,12 @@ for (const s of all) {
     .map((l) => l.replace(/[ \t]+/g, ' ').trimEnd())
     .join('\n')
     .replace(/\n{2,}/g, '\n')
-    .replace(/\n(?=[a-z,;:.)\]])/g, '');
+    // Rejoin a paragraph that wrapped onto the next line -- WITH a space.
+    // Dropping the newline outright produced "calcininggypsum": the answer
+    // word is set in bold, so it lands in its own run on its own line, and
+    // trimEnd() has already removed the space that separated them.
+    .replace(/\n(?=[a-z,;:.)\]])/g, ' ')
+    .replace(/ {2,}/g, ' ')
+    .replace(/ ([,.;:)])/g, '$1');
   console.log(text.trim());
 }

@@ -258,11 +258,18 @@
      Sits beneath a worked solution. Deliberately a different colour and a
      different shape from the solution box, because a candidate revising the
      night before reads only these. */
+  /*
+    No tinted fill. --tip-soft is #fffbeb, a near-white cream, and against it
+    the body text was reported as unreadable. The panel sits inside a card that
+    already has a correct surface colour for both themes, so inheriting it is
+    both safer and one less colour to keep in step; the amber left edge still
+    marks the panel out at a glance.
+  */
   .tip-panel {
-    border: 1px solid var(--tip-line);
-    border-left-width: 3px;
+    border: 1px solid var(--line-soft);
+    border-left: 3px solid var(--tip);
     border-radius: 0.75rem;
-    background: var(--tip-soft);
+    background: transparent;
     padding: 0.875rem 1rem;
   }
   .tip-panel-title {
@@ -425,4 +432,30 @@
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/*
+  Discourage copying the question bank.
+  
+  This is a deterrent, not a control: anything rendered to a browser can be
+  read from the page source or a screenshot, and pretending otherwise would be
+  dishonest. What it does stop is the casual select-and-paste that puts whole
+  papers into a chat group, which is the realistic leak.
+
+  Deliberately NOT applied to inputs, the forum, or anything a candidate types
+  into -- breaking copy there would be a bug, not a protection.
+*/
+.no-copy {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.no-copy input,
+.no-copy textarea,
+.no-copy [contenteditable='true'] {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
 }
