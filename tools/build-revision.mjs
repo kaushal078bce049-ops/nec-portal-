@@ -81,6 +81,12 @@ function parse(text) {
   const lines = text.split('\n');
   let topic = null;
   let current = null;
+  // The next fact number expected in this topic. A bare "3." is ambiguous:
+  // it is either the marker for fact 3, or the ANSWER to the fact above it
+  // ("the number of members nominated by NEC is 3."). Position decides -- a
+  // marker continues the sequence, an answer does not. Reading every one as
+  // a marker truncated all the numeric-answer facts and left 88 empty stubs.
+  let expect = 1;
 
   const flush = () => {
     if (!current) return;
@@ -98,10 +104,14 @@ function parse(text) {
     // into topic 02. Topic 10 also carries its title on the following line,
     // so the colon may end the line; only the number is needed either way.
     const t = line.replace(/\s+/g, ' ').match(/^T ?opic ?(\d+) ?:/i);
-    if (t) { flush(); topic = t[1].padStart(2, '0'); continue; }
+    if (t) { flush(); topic = t[1].padStart(2, '0'); expect = 1; continue; }
 
     if (/^=====\s*PAGE/.test(line)) continue;
     if (/^(REVISION CAPSULE|Fast Track Engineering Institute|Presents|For|Civil Engineering License Exam|\d+(st|nd|rd|th)|Edition)$/i.test(line)) continue;
+    // Section headings inside a topic ("CIVIL AND RURAL ENGINEERING") are set
+    // in capitals and carry no fact. Left in, they are appended to whichever
+    // fact is open, and the numbering then resynchronises around them.
+    if (/^[A-Z][A-Z0-9 ,&()'./-]{6,}$/.test(line)) continue;
 
     const num = line.match(/^(\d{1,4})\.$/);
     // A bare number is only a fact marker if it is plausibly one. The
@@ -109,8 +119,21 @@ function parse(text) {
     // tables and formulas ("2055") also land alone on a line; treating
     // those as fact numbers started a new, empty card and swallowed the
     // rest of the real one.
-    if (num && Number(num[1]) > 400) continue;
-    if (num && topic) { flush(); current = { topic, n: Number(num[1]), parts: [] }; continue; }
+    if (num) {
+      const n = Number(num[1]);
+      // Accept the expected number, or a small skip forward: the source does
+      // occasionally omit one, and refusing to resynchronise would throw away
+      // the remainder of the topic.
+      if (topic && n >= expect && n <= expect + 3) {
+        flush();
+        current = { topic, n, parts: [] };
+        expect = n + 1;
+        continue;
+      }
+      // Not a marker, so it belongs to the fact being read.
+      if (current) { current.parts.push(line); }
+      continue;
+    }
 
     // "12. The fact on one line" also occurs.
     const inline = line.match(/^(\d{1,4})\.\s+(.+)$/);

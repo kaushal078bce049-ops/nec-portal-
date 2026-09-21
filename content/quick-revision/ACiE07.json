@@ -290,7 +290,7 @@
   {
     "id": "QR-ACiE07-037",
     "chapter": "ACiE07",
-    "fact": "If Bis the formation width and depthy with a slope of s: 1 then the area of cross section is Bd + sd",
+    "fact": "If Bis the formation width and depthy with a slope of s: 1 then the area of cross section is Bd + sd 2.",
     "verification": {
       "status": "verified"
     }
@@ -298,7 +298,7 @@
   {
     "id": "QR-ACiE07-038",
     "chapter": "ACiE07",
-    "fact": "If an irrigation channel has side slope of 1: S, width B, depthy and length L then total area of side slope is 2L × y 1 + S",
+    "fact": "If an irrigation channel has side slope of 1: S, width B, depthy and length L then total area of side slope is 2L × y 1 + S 2.",
     "verification": {
       "status": "verified"
     }
@@ -754,7 +754,7 @@
   {
     "id": "QR-ACiE07-095",
     "chapter": "ACiE07",
-    "fact": "The top soil of a water logged field becomes more alkaline and infertile if its pH value is",
+    "fact": "The top soil of a water logged field becomes more alkaline and infertile if its pH value is 11.",
     "verification": {
       "status": "verified"
     }
@@ -778,7 +778,7 @@
   {
     "id": "QR-ACiE07-098",
     "chapter": "ACiE07",
-    "fact": "River reach can be classified on the basis of origin. 9",
+    "fact": "River reach can be classified on the basis of origin. 9 9. The general depth of scour calculated by Lacey's formula in a river represents the depth below the maximum flood level in the river.",
     "verification": {
       "status": "verified"
     }
@@ -786,7 +786,7 @@
   {
     "id": "QR-ACiE07-099",
     "chapter": "ACiE07",
-    "fact": "The general depth of scour calculated by Lacey's formula in a river represents the depth below the maximum flood level in the river.",
+    "fact": "The launching apron typically located in hydraulic structures at bed level.",
     "verification": {
       "status": "verified"
     }
@@ -794,7 +794,7 @@
   {
     "id": "QR-ACiE07-100",
     "chapter": "ACiE07",
-    "fact": "The launching apron typically located in hydraulic structures at bed level.",
+    "fact": "A lined alluvial canal is best designed on the basis of manning theory.",
     "verification": {
       "status": "verified"
     }
@@ -802,7 +802,7 @@
   {
     "id": "QR-ACiE07-101",
     "chapter": "ACiE07",
-    "fact": "A lined alluvial canal is best designed on the basis of manning theory.",
+    "fact": "Soil becomes infertile when it is waterlogged due to growing of weeds.",
     "verification": {
       "status": "verified"
     }
@@ -810,7 +810,7 @@
   {
     "id": "QR-ACiE07-102",
     "chapter": "ACiE07",
-    "fact": "Soil becomes infertile when it is waterlogged due to growing of weeds.",
+    "fact": "In meandering is not possible in an alluvial channel carrying sediments.",
     "verification": {
       "status": "verified"
     }
@@ -818,7 +818,7 @@
   {
     "id": "QR-ACiE07-103",
     "chapter": "ACiE07",
-    "fact": "In meandering is not possible in an alluvial channel carrying sediments.",
+    "fact": "Repelling spur is inclined upstream.",
     "verification": {
       "status": "verified"
     }
@@ -826,7 +826,7 @@
   {
     "id": "QR-ACiE07-104",
     "chapter": "ACiE07",
-    "fact": "Repelling spur is inclined upstream.",
+    "fact": "The ratio of irri gated area under Rabi and Kharif crops is 2.",
     "verification": {
       "status": "verified"
     }
@@ -834,7 +834,7 @@
   {
     "id": "QR-ACiE07-105",
     "chapter": "ACiE07",
-    "fact": "The ratio of irri gated area under Rabi and Kharif crops is",
+    "fact": "Saline soil can be improved by flooding and draining.",
     "verification": {
       "status": "verified"
     }
@@ -842,7 +842,7 @@
   {
     "id": "QR-ACiE07-106",
     "chapter": "ACiE07",
-    "fact": "Saline soil can be improved by flooding and draining.",
+    "fact": "The crest of under sluice potion of diversion head works is kept at bed level of river",
     "verification": {
       "status": "verified"
     }
@@ -850,7 +850,7 @@
   {
     "id": "QR-ACiE07-107",
     "chapter": "ACiE07",
-    "fact": "The crest of under sluice potion of diversion head works is kept at bed level of river",
+    "fact": "Kor watering in irrigation is defined as the first wate ring which is given to a crop when the crop isa few cm highs.",
     "verification": {
       "status": "verified"
     }
@@ -858,7 +858,7 @@
   {
     "id": "QR-ACiE07-108",
     "chapter": "ACiE07",
-    "fact": "Kor watering in irrigation is defined as the first wate ring which is given to a crop when the crop isa few cm highs.",
+    "fact": "The discharge value of water is controlled by regulators.",
     "verification": {
       "status": "verified"
     }
@@ -866,7 +866,7 @@
   {
     "id": "QR-ACiE07-109",
     "chapter": "ACiE07",
-    "fact": "The discharge value of water is controlled by regulators.",
+    "fact": "Sewage sickness occurs when voids of soil get clogged due to continuous application of sewage on a piece of land.",
     "verification": {
       "status": "verified"
     }
@@ -874,7 +874,7 @@
   {
     "id": "QR-ACiE07-110",
     "chapter": "ACiE07",
-    "fact": "Sewage sickness occurs when voids of soil get clogged due to continuous application of sewage on a piece of land.",
+    "fact": "Effective rainfall is considered for estimation of net irrigation requirement.",
     "verification": {
       "status": "verified"
     }
@@ -882,7 +882,7 @@
   {
     "id": "QR-ACiE07-111",
     "chapter": "ACiE07",
-    "fact": "Effective rainfall is considered for estimation of net irrigation requirement.",
+    "fact": "The provision for design discharge of under sluices should be maximum of (a) at least double the canal discharge, (b) about 10 to 15% of maximum flood discharge and (c) able to pass winter flow.",
     "verification": {
       "status": "verified"
     }
@@ -890,7 +890,7 @@
   {
     "id": "QR-ACiE07-112",
     "chapter": "ACiE07",
-    "fact": "The provision for design discharge of under sluices should be maximum of (a) at least double the canal discharge, (b) about 10 to 15% of maximum flood discharge and (c) able to pass winter flow.",
+    "fact": "The canal sections used to carry a discharge of above 84 cumec is trapezoidal.",
     "verification": {
       "status": "verified"
     }
@@ -898,7 +898,7 @@
   {
     "id": "QR-ACiE07-113",
     "chapter": "ACiE07",
-    "fact": "The canal sections used to carry a discharge of above 84 cumec is trapezoidal.",
+    "fact": "In Lacey's regime theory, the velocity of flow is proportional to silt factor and hydraulic radius.",
     "verification": {
       "status": "verified"
     }
@@ -906,7 +906,7 @@
   {
     "id": "QR-ACiE07-114",
     "chapter": "ACiE07",
-    "fact": "In Lacey's regime theory, the velocity of flow is proportional to silt factor and hydraulic radius.",
+    "fact": "The crop with highest delta among rice, tobacco, wheat and banana is rice.",
     "verification": {
       "status": "verified"
     }
@@ -914,7 +914,7 @@
   {
     "id": "QR-ACiE07-115",
     "chapter": "ACiE07",
-    "fact": "The crop with highest delta among rice, tobacco, wheat and banana is rice.",
+    "fact": "The regulator provided at the head of canal off taking from a river is head regulator.",
     "verification": {
       "status": "verified"
     }
@@ -922,7 +922,7 @@
   {
     "id": "QR-ACiE07-116",
     "chapter": "ACiE07",
-    "fact": "The regulator provided at the head of canal off taking from a river is head regulator.",
+    "fact": "In guide bund, the depth of scour is severe in nose.",
     "verification": {
       "status": "verified"
     }
@@ -930,7 +930,7 @@
   {
     "id": "QR-ACiE07-117",
     "chapter": "ACiE07",
-    "fact": "In guide bund, the depth of scour is severe in nose.",
+    "fact": "An embankment has a hydraulic head of 6 meters. The characteristic depth of the seepage path is 4 meters, and the soil permeability factor is 1.5. The exit gradient as Khosla theory is 0.38.",
     "verification": {
       "status": "verified"
     }
@@ -938,7 +938,7 @@
   {
     "id": "QR-ACiE07-118",
     "chapter": "ACiE07",
-    "fact": "An embankment has a hydraulic head of 6 meters. The characteristic depth of the seepage path is 4 meters, and the soil permeability factor is 1.5. The exit gradient as Khosla theory is 0.38.",
+    "fact": "Spurs are provided in the bank of river perpendicular to the river.",
     "verification": {
       "status": "verified"
     }
@@ -946,7 +946,7 @@
   {
     "id": "QR-ACiE07-119",
     "chapter": "ACiE07",
-    "fact": "Spurs are provided in the bank of river perpendicular to the river.",
+    "fact": "Frequency of irrigation is dependent upon soil, crop climate and fertilizer.",
     "verification": {
       "status": "verified"
     }
@@ -954,7 +954,7 @@
   {
     "id": "QR-ACiE07-120",
     "chapter": "ACiE07",
-    "fact": "Frequency of irrigation is dependent upon soil, crop climate and fertilizer.",
+    "fact": "Which one of the following is the purpose of providing the downstream sheet pile in a barrage?",
     "verification": {
       "status": "verified"
     }
@@ -962,7 +962,7 @@
   {
     "id": "QR-ACiE07-121",
     "chapter": "ACiE07",
-    "fact": "Which one of the following is the purpose of providing the downstream sheet pile in a barrage?",
+    "fact": "If D = 0.75 andm = 1 then critical velocity of setting is 0.457 m/s.",
     "verification": {
       "status": "verified"
     }
@@ -970,7 +970,7 @@
   {
     "id": "QR-ACiE07-122",
     "chapter": "ACiE07",
-    "fact": "If D = 0.75 andm = 1 then critical velocity of setting is 0.457 m/s.",
+    "fact": "Permeable spurs are best suitable for rivers which carry heavy suspended load.",
     "verification": {
       "status": "verified"
     }
@@ -978,7 +978,7 @@
   {
     "id": "QR-ACiE07-123",
     "chapter": "ACiE07",
-    "fact": "Permeable spurs are best suitable for rivers which carry heavy suspended load.",
+    "fact": "Super passage is the structure built when a natural drainage channel crosses completely over an irrigation channel.",
     "verification": {
       "status": "verified"
     }
@@ -986,7 +986,7 @@
   {
     "id": "QR-ACiE07-124",
     "chapter": "ACiE07",
-    "fact": "Super passage is the structure built when a natural drainage channel crosses completely over an irrigation channel.",
+    "fact": "In a Sarda type fall, a rectangular crest is generally used for canal discharge up to 14 m 3 /s.",
     "verification": {
       "status": "verified"
     }
@@ -994,7 +994,7 @@
   {
     "id": "QR-ACiE07-125",
     "chapter": "ACiE07",
-    "fact": "In a Sarda type fall, a rectangular crest is generally used for canal discharge up to 14 m 3 /s.",
+    "fact": "In a Sarda type fall, a triangular crest is generally used for canal discharge up to 85 m 3 /s.",
     "verification": {
       "status": "verified"
     }
@@ -1002,7 +1002,7 @@
   {
     "id": "QR-ACiE07-126",
     "chapter": "ACiE07",
-    "fact": "In a Sarda type fall, a triangular crest is generally used for canal discharge up to 85 m 3 /s.",
+    "fact": "Discharge is NOT considered a geometric cross - sectional parameter of a canal.",
     "verification": {
       "status": "verified"
     }
@@ -1010,7 +1010,7 @@
   {
     "id": "QR-ACiE07-127",
     "chapter": "ACiE07",
-    "fact": "Discharge is NOT considered a geometric cross - sectional parameter of a canal.",
+    "fact": "Cross regulators provided to raise water level in main canal.",
     "verification": {
       "status": "verified"
     }
@@ -1018,21 +1018,13 @@
   {
     "id": "QR-ACiE07-128",
     "chapter": "ACiE07",
-    "fact": "Cross regulators provided to raise water level in main canal.",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE07-129",
-    "chapter": "ACiE07",
     "fact": "Kennedy developed his theory based on observations from Upper Bari Doab Canal, Punjab.",
     "verification": {
       "status": "verified"
     }
   },
   {
-    "id": "QR-ACiE07-130",
+    "id": "QR-ACiE07-129",
     "chapter": "ACiE07",
     "fact": "Canal scouring primarily results from velocity increase.",
     "verification": {

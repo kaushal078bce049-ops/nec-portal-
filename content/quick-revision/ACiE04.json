@@ -130,7 +130,7 @@
   {
     "id": "QR-ACiE04-017",
     "chapter": "ACiE04",
-    "fact": "The relation between E, G and  is  = E 2G –",
+    "fact": "The relation between E, G and  is  = E 2G – 1.",
     "verification": {
       "status": "verified"
     }
@@ -202,7 +202,7 @@
   {
     "id": "QR-ACiE04-026",
     "chapter": "ACiE04",
-    "fact": "In crippling load equation for a column of length L, the equivalent length for a case of both the ends fixed is L",
+    "fact": "In crippling load equation for a column of length L, the equivalent length for a case of both the ends fixed is L 2.",
     "verification": {
       "status": "verified"
     }
@@ -210,7 +210,7 @@
   {
     "id": "QR-ACiE04-027",
     "chapter": "ACiE04",
-    "fact": "The simply supported beam 'A' of lengthl carries a central point load W. Another beam 'B' is loaded with a uniformly distributed load such that the total load on the beam is W. The ratio of maximum deflections between beams A and Bis 8",
+    "fact": "The simply supported beam 'A' of lengthl carries a central point load W. Another beam 'B' is loaded with a uniformly distributed load such that the total load on the beam is W. The ratio of maximum deflections between beams A and Bis 8 5.",
     "verification": {
       "status": "verified"
     }
@@ -218,7 +218,7 @@
   {
     "id": "QR-ACiE04-028",
     "chapter": "ACiE04",
-    "fact": "If the width of a simply supported beam carrying an isolated load at its center is doubled, the deflection of the beam at the center is changed by 1",
+    "fact": "If the width of a simply supported beam carrying an isolated load at its center is doubled, the deflection of the beam at the center is changed by 1 2.",
     "verification": {
       "status": "verified"
     }
@@ -250,7 +250,7 @@
   {
     "id": "QR-ACiE04-032",
     "chapter": "ACiE04",
-    "fact": "One end of a column is kept free and other end fixed then ratio of L eff to L is",
+    "fact": "One end of a column is kept free and other end fixed then ratio of L eff to L is 2.",
     "verification": {
       "status": "verified"
     }
@@ -258,7 +258,7 @@
   {
     "id": "QR-ACiE04-033",
     "chapter": "ACiE04",
-    "fact": "In a three hinged arch with supports at different heighth 1 andh 2, load W is acting at thec enter of arch. If L is the length of the span, the horizontal thrust is WL (h 1 + h 2)",
+    "fact": "In a three hinged arch with supports at different heighth 1 andh 2, load W is acting at thec enter of arch. If L is the length of the span, the horizontal thrust is WL (h 1 + h 2) 2.",
     "verification": {
       "status": "verified"
     }
@@ -282,7 +282,7 @@
   {
     "id": "QR-ACiE04-036",
     "chapter": "ACiE04",
-    "fact": "The maximum bending moment in three hinged arches under point load occurs on either side of its crown at L 2",
+    "fact": "The maximum bending moment in three hinged arches under point load occurs on either side of its crown at L 2 3.",
     "verification": {
       "status": "verified"
     }
@@ -434,7 +434,7 @@
   {
     "id": "QR-ACiE04-055",
     "chapter": "ACiE04",
-    "fact": "The minimum clear cover for column is",
+    "fact": "The minimum clear cover for column is 40.",
     "verification": {
       "status": "verified"
     }
@@ -554,7 +554,7 @@
   {
     "id": "QR-ACiE04-070",
     "chapter": "ACiE04",
-    "fact": "The shape factor of cross section with diamond shape under flexure is",
+    "fact": "The shape factor of cross section with diamond shape under flexure is 2.",
     "verification": {
       "status": "verified"
     }
@@ -570,7 +570,7 @@
   {
     "id": "QR-ACiE04-072",
     "chapter": "ACiE04",
-    "fact": "Euler's Bucking load for one end fixed and other hinged is given by 2  2 ΕΙ L",
+    "fact": "Euler's Bucking load for one end fixed and other hinged is given by 2  2 ΕΙ L 2.",
     "verification": {
       "status": "verified"
     }
@@ -650,7 +650,7 @@
   {
     "id": "QR-ACiE04-082",
     "chapter": "ACiE04",
-    "fact": "The effective length of a column with both ends fixed is L",
+    "fact": "The effective length of a column with both ends fixed is L 2.",
     "verification": {
       "status": "verified"
     }
@@ -706,7 +706,7 @@
   {
     "id": "QR-ACiE04-089",
     "chapter": "ACiE04",
-    "fact": "The degree of static indeterminacy of propped cantilever beam is",
+    "fact": "The degree of static indeterminacy of propped cantilever beam is 1.",
     "verification": {
       "status": "verified"
     }
@@ -818,7 +818,7 @@
   {
     "id": "QR-ACiE04-103",
     "chapter": "ACiE04",
-    "fact": "The degree of kinematic indeterminacy of pin jointed plane frame is 2 j –",
+    "fact": "The degree of kinematic indeterminacy of pin jointed plane frame is 2 j – 3.",
     "verification": {
       "status": "verified"
     }
@@ -858,7 +858,7 @@
   {
     "id": "QR-ACiE04-108",
     "chapter": "ACiE04",
-    "fact": "A simply supported beam carries a varying load from zero at one end andw at the other end. If the length of the beam is a, the shear force will be zero at a distancex from least loaded point wherex isa",
+    "fact": "A simply supported beam carries a varying load from zero at one end andw at the other end. If the length of the beam is a, the shear force will be zero at a distancex from least loaded point wherex isa 3.",
     "verification": {
       "status": "verified"
     }
@@ -946,7 +946,7 @@
   {
     "id": "QR-ACiE04-119",
     "chapter": "ACiE04",
-    "fact": "Euler's Buckling load for both end hinged are given by  2 EI L",
+    "fact": "Euler's Buckling load for both end hinged are given by  2 EI L 2.",
     "verification": {
       "status": "verified"
     }
@@ -954,7 +954,7 @@
   {
     "id": "QR-ACiE04-120",
     "chapter": "ACiE04",
-    "fact": "A simply supported beam carries a varying load from zero to one end andw at the other end. If the length of the beam is a, the shear force will be zero at a x from least loaded point wherex isa",
+    "fact": "A simply supported beam carries a varying load from zero to one end andw at the other end. If the length of the beam is a, the shear force will be zero at a x from least loaded point wherex isa 3.",
     "verification": {
       "status": "verified"
     }

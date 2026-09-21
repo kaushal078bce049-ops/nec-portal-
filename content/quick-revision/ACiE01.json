@@ -274,7 +274,7 @@
   {
     "id": "QR-ACiE01-035",
     "chapter": "ACiE01",
-    "fact": "The compressive strength of 1 st class brick should not be less than 10.5 N/mm",
+    "fact": "The compressive strength of 1 st class brick should not be less than 10.5 N/mm 2.",
     "verification": {
       "status": "verified"
     }
@@ -458,7 +458,7 @@
   {
     "id": "QR-ACiE01-058",
     "chapter": "ACiE01",
-    "fact": "Second moment of area of triangle about its base is, I = bh 3",
+    "fact": "Second moment of area of triangle about its base is, I = bh 3 12.",
     "verification": {
       "status": "verified"
     }
@@ -490,7 +490,7 @@
   {
     "id": "QR-ACiE01-062",
     "chapter": "ACiE01",
-    "fact": "The moment of inertia of a rectangular section about a horizontal axis passing through the base is bd 3",
+    "fact": "The moment of inertia of a rectangular section about a horizontal axis passing through the base is bd 3 3.",
     "verification": {
       "status": "verified"
     }
@@ -498,7 +498,7 @@
   {
     "id": "QR-ACiE01-063",
     "chapter": "ACiE01",
-    "fact": "The CG of a cone from its base ish",
+    "fact": "The CG of a cone from its base ish 4. [ Note: h 4 for solid cone andh 3 for hollow cone]",
     "verification": {
       "status": "verified"
     }
@@ -506,7 +506,7 @@
   {
     "id": "QR-ACiE01-064",
     "chapter": "ACiE01",
-    "fact": "[ Note: h 4 for solid cone andh 3 for hollow cone]",
+    "fact": "In computer mapping, the area of the region is typically measured in the unit of square.",
     "verification": {
       "status": "verified"
     }
@@ -514,7 +514,7 @@
   {
     "id": "QR-ACiE01-065",
     "chapter": "ACiE01",
-    "fact": "In computer mapping, the area of the region is typically measured in the unit of square.",
+    "fact": "The perpendicular axis theorem is used to calculate the MOI of circular lamina.",
     "verification": {
       "status": "verified"
     }
@@ -522,7 +522,7 @@
   {
     "id": "QR-ACiE01-066",
     "chapter": "ACiE01",
-    "fact": "The perpendicular axis theorem is used to calculate the MOI of circular lamina.",
+    "fact": "The center of gravity of hemisphere is 3 8.",
     "verification": {
       "status": "verified"
     }
@@ -530,7 +530,7 @@
   {
     "id": "QR-ACiE01-067",
     "chapter": "ACiE01",
-    "fact": "The center of gravity of hemisphere is 3",
+    "fact": "A solid having equilateral triangle as base and other faces converging towards its axis is known as pyramid.",
     "verification": {
       "status": "verified"
     }
@@ -538,7 +538,7 @@
   {
     "id": "QR-ACiE01-068",
     "chapter": "ACiE01",
-    "fact": "A solid having equilateral triangle as base and other faces converging towards its axis is known as pyramid.",
+    "fact": "The shape made up of uniform triangles is prism.",
     "verification": {
       "status": "verified"
     }
@@ -546,7 +546,7 @@
   {
     "id": "QR-ACiE01-069",
     "chapter": "ACiE01",
-    "fact": "The shape made up of uniform triangles is prism.",
+    "fact": "The radius of gyration of are ctangular section is proportional to square root of the moment of inertia, square root of the inverse of the area or square root of the moment of inertia divided by area of the section.",
     "verification": {
       "status": "verified"
     }
@@ -554,7 +554,7 @@
   {
     "id": "QR-ACiE01-070",
     "chapter": "ACiE01",
-    "fact": "The radius of gyration of are ctangular section is proportional to square root of the moment of inertia, square root of the inverse of the area or square root of the moment of inertia divided by area of the section.",
+    "fact": "Moment of inertia of a triangular section of base and height about an axis passing through its vertex and parallel to the base is 9 times than that passing through its CG and parallel to the base.",
     "verification": {
       "status": "verified"
     }
@@ -562,7 +562,7 @@
   {
     "id": "QR-ACiE01-071",
     "chapter": "ACiE01",
-    "fact": "Moment of inertia of a triangular section of base and height about an axis passing through its vertex and parallel to the base is 9 times than that passing through its CG and parallel to the base.",
+    "fact": "The MOI of semi - circle about base is  R 4 8.",
     "verification": {
       "status": "verified"
     }
@@ -570,7 +570,7 @@
   {
     "id": "QR-ACiE01-072",
     "chapter": "ACiE01",
-    "fact": "The MOI of semi - circle about base is  R 4",
+    "fact": "The moment of inertia of the circle is  d 4 64.",
     "verification": {
       "status": "verified"
     }
@@ -578,7 +578,7 @@
   {
     "id": "QR-ACiE01-073",
     "chapter": "ACiE01",
-    "fact": "The moment of inertia of the circle is  d 4",
+    "fact": "The moment of inertia through centroid of triangle parallel to base is bd 3 36.",
     "verification": {
       "status": "verified"
     }
@@ -586,7 +586,7 @@
   {
     "id": "QR-ACiE01-074",
     "chapter": "ACiE01",
-    "fact": "The moment of inertia through centroid of triangle parallel to base is bd 3",
+    "fact": "The area moment of inertia of a semi - circular region having diameter 'd' about its diametric axis is  d 4 128.",
     "verification": {
       "status": "verified"
     }
@@ -594,7 +594,7 @@
   {
     "id": "QR-ACiE01-075",
     "chapter": "ACiE01",
-    "fact": "The area moment of inertia of a semi - circular region having diameter 'd' about its diametric axis is  d 4",
+    "fact": "The moment of inertia of hollow rectangular section having outer depth 'D' and breadth 'B' and dimensions of inner rectangle are depth 'd' and width 'b' about horizontal axis passing through the Centroid is BD 3 – bd 3 12.",
     "verification": {
       "status": "verified"
     }
@@ -602,7 +602,7 @@
   {
     "id": "QR-ACiE01-076",
     "chapter": "ACiE01",
-    "fact": "The moment of inertia of hollow rectangular section having outer depth 'D' and breadth 'B' and dimensions of inner rectangle are depth 'd' and width 'b' about horizontal axis passing through the Centroid is BD 3 – bd 3",
+    "fact": "The shape factor of rectangular section is 1.5",
     "verification": {
       "status": "verified"
     }
@@ -610,7 +610,7 @@
   {
     "id": "QR-ACiE01-077",
     "chapter": "ACiE01",
-    "fact": "The shape factor of rectangular section is 1.5",
+    "fact": "The formula of radius of gyration isk 2 = I A.",
     "verification": {
       "status": "verified"
     }
@@ -618,7 +618,7 @@
   {
     "id": "QR-ACiE01-078",
     "chapter": "ACiE01",
-    "fact": "The formula of radius of gyration isk 2 = I A.",
+    "fact": "The MOI of rectangular section about the base is bd 3 3.",
     "verification": {
       "status": "verified"
     }
@@ -626,7 +626,7 @@
   {
     "id": "QR-ACiE01-079",
     "chapter": "ACiE01",
-    "fact": "The MOI of rectangular section about the base is bd 3",
+    "fact": "The section modulus of hollow circular section having external diameter D and internal diameterd is  (D 4 −  4) 32D.",
     "verification": {
       "status": "verified"
     }
@@ -634,7 +634,7 @@
   {
     "id": "QR-ACiE01-080",
     "chapter": "ACiE01",
-    "fact": "The section modulus of hollow circular section having external diameter D and internal diameterd is  (D 4 −  4) 32D.",
+    "fact": "A trapezoid having two parallel side 'a' and 'b' and height 'h'. The Y centroid distance from bottom side 'b' is H 3 × b + 2a b + a.",
     "verification": {
       "status": "verified"
     }
@@ -642,7 +642,7 @@
   {
     "id": "QR-ACiE01-081",
     "chapter": "ACiE01",
-    "fact": "A trapezoid having two parallel side 'a' and 'b' and height 'h'. The Y centroid distance from bottom side 'b' is H 3 × b + 2a b + a.",
+    "fact": "If level is located at mid - point then Cc and Cr error is eliminated. [Cc = Curvature correction and Cr = Refraction correction]",
     "verification": {
       "status": "verified"
     }
@@ -650,7 +650,7 @@
   {
     "id": "QR-ACiE01-082",
     "chapter": "ACiE01",
-    "fact": "If level is located at mid - point then Cc and Cr error is eliminated. [Cc = Curvature correction and Cr = Refraction correction]",
+    "fact": "24 satellites are used for GPS by the US Department of Defense.",
     "verification": {
       "status": "verified"
     }
@@ -658,7 +658,7 @@
   {
     "id": "QR-ACiE01-083",
     "chapter": "ACiE01",
-    "fact": "24 satellites are used for GPS by the US Department of Defense.",
+    "fact": "The right face zenith angle is 261°29'30\" if left face zenithal angle is 98°30'30\". [ Right face zenith angle = 360° – 98°30'30\" = 261°29'30\"]",
     "verification": {
       "status": "verified"
     }
@@ -666,7 +666,7 @@
   {
     "id": "QR-ACiE01-084",
     "chapter": "ACiE01",
-    "fact": "The right face zenith angle is 261°29'30\" if left face zenithal angle is 98°30'30\". [ Right face zenith angle = 360° – 98°30'30\" = 261°29'30\"]",
+    "fact": "Topography survey is done for soil, traffic and engineering, etc.",
     "verification": {
       "status": "verified"
     }
@@ -674,7 +674,7 @@
   {
     "id": "QR-ACiE01-085",
     "chapter": "ACiE01",
-    "fact": "Topography survey is done for soil, traffic and engineering, etc.",
+    "fact": "Transferring data doesn't determine the capability of GIS.",
     "verification": {
       "status": "verified"
     }
@@ -682,7 +682,7 @@
   {
     "id": "QR-ACiE01-086",
     "chapter": "ACiE01",
-    "fact": "Transferring data doesn't determine the capability of GIS.",
+    "fact": "Geodetic surveying is different from plane surveying because of the consideration of curvature of earth.",
     "verification": {
       "status": "verified"
     }
@@ -690,7 +690,7 @@
   {
     "id": "QR-ACiE01-087",
     "chapter": "ACiE01",
-    "fact": "Geodetic surveying is different from plane surveying because of the consideration of curvature of earth.",
+    "fact": "ΣB.. – ΣF.. = La R.L. – First R.L. indicates the formula for arithmetic check.",
     "verification": {
       "status": "verified"
     }
@@ -698,7 +698,7 @@
   {
     "id": "QR-ACiE01-088",
     "chapter": "ACiE01",
-    "fact": "ΣB.. – ΣF.. = La R.L. – First R.L. indicates the formula for arithmetic check.",
+    "fact": "The percentage of plinth area provided for horizontal circulation area is 10 to 15%.",
     "verification": {
       "status": "verified"
     }
@@ -706,7 +706,7 @@
   {
     "id": "QR-ACiE01-089",
     "chapter": "ACiE01",
-    "fact": "The percentage of plinth area provided for horizontal circulation area is 10 to 15%.",
+    "fact": "In closed traverse, the sum of the north latitudes is more than the sum of the south latitudes and also the sum of west departures is more than the sum of the east departures, the closing line lies is in NW quadrant.",
     "verification": {
       "status": "verified"
     }
@@ -714,7 +714,7 @@
   {
     "id": "QR-ACiE01-090",
     "chapter": "ACiE01",
-    "fact": "In closed traverse, the sum of the north latitudes is more than the sum of the south latitudes and also the sum of west departures is more than the sum of the east departures, the closing line lies is in NW quadrant.",
+    "fact": "Readings taken during traversing using total station are horizontal angle, horizontal distance, vertical distance, station height, height of instrument.",
     "verification": {
       "status": "verified"
     }
@@ -722,7 +722,7 @@
   {
     "id": "QR-ACiE01-091",
     "chapter": "ACiE01",
-    "fact": "Readings taken during traversing using total station are horizontal angle, horizontal distance, vertical distance, station height, height of instrument.",
+    "fact": "The bearings of the lines AB and BC are 146° 30' and 68° 30'. The included angle ABC is 102°. [AB = 180° + 146° 30' = 326°30' Fore Bearing of BC = 68°30' ∡ ABC = 360° – (326°30' – 68°30') = 102°]",
     "verification": {
       "status": "verified"
     }
@@ -730,7 +730,7 @@
   {
     "id": "QR-ACiE01-092",
     "chapter": "ACiE01",
-    "fact": "The bearings of the lines AB and BC are 146° 30' and 68° 30'. The included angle ABC is 102°. [AB = 180° + 146° 30' = 326°30' Fore Bearing of BC = 68°30' ∡ ABC = 360° – (326°30' – 68°30') = 102°]",
+    "fact": "tan  =  D  L is the direction of closing error.",
     "verification": {
       "status": "verified"
     }
@@ -738,7 +738,7 @@
   {
     "id": "QR-ACiE01-093",
     "chapter": "ACiE01",
-    "fact": "tan  =  D  L is the direction of closing error.",
+    "fact": "River is obstacle to chaining but not for ranging.",
     "verification": {
       "status": "verified"
     }
@@ -746,7 +746,7 @@
   {
     "id": "QR-ACiE01-094",
     "chapter": "ACiE01",
-    "fact": "River is obstacle to chaining but not for ranging.",
+    "fact": "The bench marks are fixed during the detailed survey.",
     "verification": {
       "status": "verified"
     }
@@ -754,7 +754,7 @@
   {
     "id": "QR-ACiE01-095",
     "chapter": "ACiE01",
-    "fact": "The bench marks are fixed during the detailed survey.",
+    "fact": "Contour lines of different elevations can unite to form one line, only in the case of a vertical cliff.",
     "verification": {
       "status": "verified"
     }
@@ -762,7 +762,7 @@
   {
     "id": "QR-ACiE01-096",
     "chapter": "ACiE01",
-    "fact": "Contour lines of different elevations can unite to form one line, only in the case of a vertical cliff.",
+    "fact": "The magnetic bearing of a line is 32° and the magnetic declination is 10° 15' W. The true bearing is 21° 45'. [True bearing = 32° – 10° 15' = 21° 45']",
     "verification": {
       "status": "verified"
     }
@@ -770,7 +770,7 @@
   {
     "id": "QR-ACiE01-097",
     "chapter": "ACiE01",
-    "fact": "The magnetic bearing of a line is 32° and the magnetic declination is 10° 15' W. The true bearing is 21° 45'. [True bearing = 32° – 10° 15' = 21° 45']",
+    "fact": "The plan used to intercept dr ainage, surface conditions, and topography is called contour plan.",
     "verification": {
       "status": "verified"
     }
@@ -778,7 +778,7 @@
   {
     "id": "QR-ACiE01-098",
     "chapter": "ACiE01",
-    "fact": "The plan used to intercept dr ainage, surface conditions, and topography is called contour plan.",
+    "fact": "The first stage of the survey is map study.",
     "verification": {
       "status": "verified"
     }
@@ -786,7 +786,7 @@
   {
     "id": "QR-ACiE01-099",
     "chapter": "ACiE01",
-    "fact": "The first stage of the survey is map study.",
+    "fact": "Steep slope do closely space equal contour line indicates.",
     "verification": {
       "status": "verified"
     }
@@ -794,7 +794,7 @@
   {
     "id": "QR-ACiE01-100",
     "chapter": "ACiE01",
-    "fact": "Steep slope do closely space equal contour line indicates.",
+    "fact": "The dumpy level is most suitable for leveling survey is on flat terrain.",
     "verification": {
       "status": "verified"
     }
@@ -802,7 +802,7 @@
   {
     "id": "QR-ACiE01-101",
     "chapter": "ACiE01",
-    "fact": "The dumpy level is most suitable for leveling survey is on flat terrain.",
+    "fact": "Height of Instrument method and Collimation method of levelling is generally adopted if there are lot many numbers of intermediate stations.",
     "verification": {
       "status": "verified"
     }
@@ -810,7 +810,7 @@
   {
     "id": "QR-ACiE01-102",
     "chapter": "ACiE01",
-    "fact": "Height of Instrument method and Collimation method of levelling is generally adopted if there are lot many numbers of intermediate stations.",
+    "fact": "The formula to calculate elevation in tachometric surveying is K.S. sin 2  2 + C sin .",
     "verification": {
       "status": "verified"
     }
@@ -818,7 +818,7 @@
   {
     "id": "QR-ACiE01-103",
     "chapter": "ACiE01",
-    "fact": "The formula to calculate elevation in tachometric surveying is K.S. sin 2  2 + C sin .",
+    "fact": "For 1m 3 volume of 1: 1.5: 3 PCC, the number of bags of cement are required is 8 bags.",
     "verification": {
       "status": "verified"
     }
@@ -826,7 +826,7 @@
   {
     "id": "QR-ACiE01-104",
     "chapter": "ACiE01",
-    "fact": "For 1m 3 volume of 1: 1.5: 3 PCC, the number of bags of cement are required is 8 bags.",
+    "fact": "Binding wire quantity in 1 quintal reinforcement is 1 kg.",
     "verification": {
       "status": "verified"
     }
@@ -834,7 +834,7 @@
   {
     "id": "QR-ACiE01-105",
     "chapter": "ACiE01",
-    "fact": "Binding wire quantity in 1 quintal reinforcement is 1 kg.",
+    "fact": "In long wall – short wall method, the length of the long wall is the sum of center line and b. [where, b = Breadth of wall]",
     "verification": {
       "status": "verified"
     }
@@ -842,7 +842,7 @@
   {
     "id": "QR-ACiE01-106",
     "chapter": "ACiE01",
-    "fact": "In long wall – short wall method, the length of the long wall is the sum of center line and b. [where, b = Breadth of wall]",
+    "fact": "The quantity of brickwork with mortar in foundation used per mason per day is 1.25 m 3.",
     "verification": {
       "status": "verified"
     }
@@ -850,7 +850,7 @@
   {
     "id": "QR-ACiE01-107",
     "chapter": "ACiE01",
-    "fact": "The quantity of brickwork with mortar in foundation used per mason per day is 1.25 m",
+    "fact": "The process of determining fair price or value of a property is known as valuation.",
     "verification": {
       "status": "verified"
     }
@@ -858,7 +858,7 @@
   {
     "id": "QR-ACiE01-108",
     "chapter": "ACiE01",
-    "fact": "The process of determining fair price or value of a property is known as valuation.",
+    "fact": "Calculate the number of cement bag required if overall density is 2350 kg/m 3, aggregate = 3860 kg, w/c = 0.4 and volume of concrete = 2 m 3. [ Ans: 12 bag]",
     "verification": {
       "status": "verified"
     }
@@ -866,7 +866,7 @@
   {
     "id": "QR-ACiE01-109",
     "chapter": "ACiE01",
-    "fact": "Calculate the number of cement bag required if overall density is 2350 kg/m 3, aggregate = 3860 kg, w/c = 0.4 and volume of concrete = 2 m",
+    "fact": "Half brick wall is not measure in cumes.",
     "verification": {
       "status": "verified"
     }
@@ -874,7 +874,7 @@
   {
     "id": "QR-ACiE01-110",
     "chapter": "ACiE01",
-    "fact": "[ Ans: 12 bag]",
+    "fact": "If w/c = 0.8, volume of cement is 2 m 3, the volume of water in liter is 2304 liters.",
     "verification": {
       "status": "verified"
     }
@@ -882,7 +882,7 @@
   {
     "id": "QR-ACiE01-111",
     "chapter": "ACiE01",
-    "fact": "Half brick wall is not measure in cumes.",
+    "fact": "The expected out turn of the cement concrete 1: 2: 4 for per mason per will be: 5.0 m 3.",
     "verification": {
       "status": "verified"
     }
@@ -890,7 +890,7 @@
   {
     "id": "QR-ACiE01-112",
     "chapter": "ACiE01",
-    "fact": "If w/c = 0.8, volume of cement is 2 m 3, the volume of water in liter is 2304 liters.",
+    "fact": "The volume of cement in 50 kg bag is 0.0347 m 3.",
     "verification": {
       "status": "verified"
     }
@@ -898,7 +898,7 @@
   {
     "id": "QR-ACiE01-113",
     "chapter": "ACiE01",
-    "fact": "The expected out turn of the cement concrete 1: 2: 4 for per mason per will be: 5.0 m",
+    "fact": "Revised estimate is prepared when the original sanctioned estimate differs by more than 5%",
     "verification": {
       "status": "verified"
     }
@@ -906,7 +906,7 @@
   {
     "id": "QR-ACiE01-114",
     "chapter": "ACiE01",
-    "fact": "The volume of cement in 50 kg bag is 0.0347 m",
+    "fact": "For well triangle condition each angle shouldn't be less than 30°.",
     "verification": {
       "status": "verified"
     }
@@ -914,7 +914,7 @@
   {
     "id": "QR-ACiE01-115",
     "chapter": "ACiE01",
-    "fact": "Revised estimate is prepared when the original sanctioned estimate differs by more than 5%",
+    "fact": "As per NBC, the standard size of brick is 240 mm × 115 mm × 57 mm.",
     "verification": {
       "status": "verified"
     }
@@ -922,7 +922,7 @@
   {
     "id": "QR-ACiE01-116",
     "chapter": "ACiE01",
-    "fact": "For well triangle condition each angle shouldn't be less than 30°.",
+    "fact": "In rate analysis, the cost of tool and equipment is taken as 3% of the cost of unskilled labour.",
     "verification": {
       "status": "verified"
     }
@@ -930,7 +930,7 @@
   {
     "id": "QR-ACiE01-117",
     "chapter": "ACiE01",
-    "fact": "As per NBC, the standard size of brick is 240 mm × 115 mm × 57 mm.",
+    "fact": "The surface dressing is measured in sq. m.",
     "verification": {
       "status": "verified"
     }
@@ -938,7 +938,7 @@
   {
     "id": "QR-ACiE01-118",
     "chapter": "ACiE01",
-    "fact": "In rate analysis, the cost of tool and equipment is taken as 3% of the cost of unskilled labour.",
+    "fact": "The estimated cost should not be greater than 10% of the actual cost of the project.",
     "verification": {
       "status": "verified"
     }
@@ -946,7 +946,7 @@
   {
     "id": "QR-ACiE01-119",
     "chapter": "ACiE01",
-    "fact": "The surface dressing is measured in sq. m.",
+    "fact": "The size of brick is specified by dimension.",
     "verification": {
       "status": "verified"
     }
@@ -954,7 +954,7 @@
   {
     "id": "QR-ACiE01-120",
     "chapter": "ACiE01",
-    "fact": "The estimated cost should not be greater than 10% of the actual cost of the project.",
+    "fact": "Brick are soaked in water before using in the brick masonry to wash dust, to prevent moisture loss from mortar and for even spreading of mortar.",
     "verification": {
       "status": "verified"
     }
@@ -962,7 +962,7 @@
   {
     "id": "QR-ACiE01-121",
     "chapter": "ACiE01",
-    "fact": "The size of brick is specified by dimension.",
+    "fact": "6 percentage of magnesia is maximum allowed in ordinary Portland cement.",
     "verification": {
       "status": "verified"
     }
@@ -970,7 +970,7 @@
   {
     "id": "QR-ACiE01-122",
     "chapter": "ACiE01",
-    "fact": "Brick are soaked in water before using in the brick masonry to wash dust, to prevent moisture loss from mortar and for even spreading of mortar.",
+    "fact": "According to Bowditch's rule correction to latitude or departure of any side is equal to total error in latitude or departure × length of that side/perimeter of traverse.",
     "verification": {
       "status": "verified"
     }
@@ -978,7 +978,7 @@
   {
     "id": "QR-ACiE01-123",
     "chapter": "ACiE01",
-    "fact": "6 percentage of magnesia is maximum allowed in ordinary Portland cement.",
+    "fact": "Dry rubble masonry requires the highest level of skill and skilled labor for laying.",
     "verification": {
       "status": "verified"
     }
@@ -986,7 +986,7 @@
   {
     "id": "QR-ACiE01-124",
     "chapter": "ACiE01",
-    "fact": "According to Bowditch's rule correction to latitude or departure of any side is equal to total error in latitude or departure × length of that side/perimeter of traverse.",
+    "fact": "The apex angle of Dutch cone is about 60.",
     "verification": {
       "status": "verified"
     }
@@ -994,7 +994,7 @@
   {
     "id": "QR-ACiE01-125",
     "chapter": "ACiE01",
-    "fact": "Dry rubble masonry requires the highest level of skill and skilled labor for laying.",
+    "fact": "The phenomenon of slow extension of material at the constant load during tensile test is known as creeping.",
     "verification": {
       "status": "verified"
     }
@@ -1002,7 +1002,7 @@
   {
     "id": "QR-ACiE01-126",
     "chapter": "ACiE01",
-    "fact": "The apex angle of Dutch cone is about",
+    "fact": "The characteristics of good quality of bricks are less water absorption, regular surface and sharp edge.",
     "verification": {
       "status": "verified"
     }
@@ -1010,7 +1010,7 @@
   {
     "id": "QR-ACiE01-127",
     "chapter": "ACiE01",
-    "fact": "The phenomenon of slow extension of material at the constant load during tensile test is known as creeping.",
+    "fact": "The centroid of semi - circle about diametric axis (base) is 2d 3 .",
     "verification": {
       "status": "verified"
     }
@@ -1018,7 +1018,7 @@
   {
     "id": "QR-ACiE01-128",
     "chapter": "ACiE01",
-    "fact": "The characteristics of good quality of bricks are less water absorption, regular surface and sharp edge.",
+    "fact": "The primary purpose of curing is to reduce the heat loss of concrete that is freshly placed to the atmosphere and reduce the temperature gradient across the cross - section of the concrete.",
     "verification": {
       "status": "verified"
     }
@@ -1026,7 +1026,7 @@
   {
     "id": "QR-ACiE01-129",
     "chapter": "ACiE01",
-    "fact": "The centroid of semi - circle about diametric axis (base) is 2d 3 .",
+    "fact": "Eccentric footing is subjected to axial loading and bending moment.",
     "verification": {
       "status": "verified"
     }
@@ -1034,7 +1034,7 @@
   {
     "id": "QR-ACiE01-130",
     "chapter": "ACiE01",
-    "fact": "The primary purpose of curing is to reduce the heat loss of concrete that is freshly placed to the atmosphere and reduce the temperature gradient across the cross - section of the concrete.",
+    "fact": "Contour interval is inversely proportional to the scale of the map.",
     "verification": {
       "status": "verified"
     }
@@ -1042,7 +1042,7 @@
   {
     "id": "QR-ACiE01-131",
     "chapter": "ACiE01",
-    "fact": "Eccentric footing is subjected to axial loading and bending moment.",
+    "fact": "Short distance of up 150 to 200 mis typically determined by a subtense bar.",
     "verification": {
       "status": "verified"
     }
@@ -1050,7 +1050,7 @@
   {
     "id": "QR-ACiE01-132",
     "chapter": "ACiE01",
-    "fact": "Contour interval is inversely proportional to the scale of the map.",
+    "fact": "A right circular cone is cut parallel with the axis of symmetry, the conic formed is hyperbola.",
     "verification": {
       "status": "verified"
     }
@@ -1058,7 +1058,7 @@
   {
     "id": "QR-ACiE01-133",
     "chapter": "ACiE01",
-    "fact": "Short distance of up 150 to 200 mis typically determined by a subtense bar.",
+    "fact": "The best place to store cement isa dry, moisture proof warehouse.",
     "verification": {
       "status": "verified"
     }
@@ -1066,7 +1066,7 @@
   {
     "id": "QR-ACiE01-134",
     "chapter": "ACiE01",
-    "fact": "A right circular cone is cut parallel with the axis of symmetry, the conic formed is hyperbola.",
+    "fact": "When water is added to cement, both heat is generated and chemical reaction is initiated.",
     "verification": {
       "status": "verified"
     }
@@ -1074,7 +1074,7 @@
   {
     "id": "QR-ACiE01-135",
     "chapter": "ACiE01",
-    "fact": "The best place to store cement isa dry, moisture proof warehouse.",
+    "fact": "Slump test is calculated in the unit of mm.",
     "verification": {
       "status": "verified"
     }
@@ -1082,7 +1082,7 @@
   {
     "id": "QR-ACiE01-136",
     "chapter": "ACiE01",
-    "fact": "When water is added to cement, both heat is generated and chemical reaction is initiated.",
+    "fact": "Surkhi is the powdered form of burnt clay which is used in replaced of sand.",
     "verification": {
       "status": "verified"
     }
@@ -1090,7 +1090,7 @@
   {
     "id": "QR-ACiE01-137",
     "chapter": "ACiE01",
-    "fact": "Slump test is calculated in the unit of mm.",
+    "fact": "The stone Granite has comparatively higher hardness coefficient than the following stone like limestone, slate and conglomerate.",
     "verification": {
       "status": "verified"
     }
@@ -1098,7 +1098,7 @@
   {
     "id": "QR-ACiE01-138",
     "chapter": "ACiE01",
-    "fact": "Surkhi is the powdered form of burnt clay which is used in replaced of sand.",
+    "fact": "The quartzite isa metamorphic type of rock.",
     "verification": {
       "status": "verified"
     }
@@ -1106,7 +1106,7 @@
   {
     "id": "QR-ACiE01-139",
     "chapter": "ACiE01",
-    "fact": "The stone Granite has comparatively higher hardness coefficient than the following stone like limestone, slate and conglomerate.",
+    "fact": "The purpose of pigment in the paint is to provide the color.",
     "verification": {
       "status": "verified"
     }
@@ -1114,7 +1114,7 @@
   {
     "id": "QR-ACiE01-140",
     "chapter": "ACiE01",
-    "fact": "The quartzite isa metamorphic type of rock.",
+    "fact": "The moment of inertia of solid hemisphere about its base is  R 4 8.",
     "verification": {
       "status": "verified"
     }
@@ -1122,7 +1122,7 @@
   {
     "id": "QR-ACiE01-141",
     "chapter": "ACiE01",
-    "fact": "The purpose of pigment in the paint is to provide the color.",
+    "fact": "In Plane surveying, the curvature of the earth is completely neglected.",
     "verification": {
       "status": "verified"
     }
@@ -1130,7 +1130,7 @@
   {
     "id": "QR-ACiE01-142",
     "chapter": "ACiE01",
-    "fact": "The moment of inertia of solid hemisphere about its base is  R 4",
+    "fact": "The polar moment of inertia (J) of a solid circular section of diameterd about its longitudinal axis is  d 4 32.",
     "verification": {
       "status": "verified"
     }
@@ -1138,7 +1138,7 @@
   {
     "id": "QR-ACiE01-143",
     "chapter": "ACiE01",
-    "fact": "In Plane surveying, the curvature of the earth is completely neglected.",
+    "fact": "Blistering is the type of defect in paint which is caused due to moisture.",
     "verification": {
       "status": "verified"
     }
@@ -1146,7 +1146,7 @@
   {
     "id": "QR-ACiE01-144",
     "chapter": "ACiE01",
-    "fact": "The polar moment of inertia (J) of a solid circular section of diameterd about its longitudinal axis is  d 4",
+    "fact": "Co - ordinate method is the accurate method of plotting traverse area.",
     "verification": {
       "status": "verified"
     }
@@ -1154,7 +1154,7 @@
   {
     "id": "QR-ACiE01-145",
     "chapter": "ACiE01",
-    "fact": "Blistering is the type of defect in paint which is caused due to moisture.",
+    "fact": "Clinograph isa type of compass.",
     "verification": {
       "status": "verified"
     }
@@ -1162,7 +1162,7 @@
   {
     "id": "QR-ACiE01-146",
     "chapter": "ACiE01",
-    "fact": "Co - ordinate method is the accurate method of plotting traverse area.",
+    "fact": "Moment of inertia represents resistance against bending.",
     "verification": {
       "status": "verified"
     }
@@ -1170,7 +1170,7 @@
   {
     "id": "QR-ACiE01-147",
     "chapter": "ACiE01",
-    "fact": "Clinograph isa type of compass.",
+    "fact": "Levelling is used to determine elevation difference.",
     "verification": {
       "status": "verified"
     }
@@ -1178,7 +1178,7 @@
   {
     "id": "QR-ACiE01-148",
     "chapter": "ACiE01",
-    "fact": "Moment of inertia represents resistance against bending.",
+    "fact": "Line ranger is not used in measuring perpendicular offsets.",
     "verification": {
       "status": "verified"
     }
@@ -1186,7 +1186,7 @@
   {
     "id": "QR-ACiE01-149",
     "chapter": "ACiE01",
-    "fact": "Levelling is used to determine elevation difference.",
+    "fact": "The construction of an optical square is based on the principle of double reflection.",
     "verification": {
       "status": "verified"
     }
@@ -1194,7 +1194,7 @@
   {
     "id": "QR-ACiE01-150",
     "chapter": "ACiE01",
-    "fact": "Line ranger is not used in measuring perpendicular offsets.",
+    "fact": "The technique of plotting all the Accessible stations with a single setup of plane table is called radiation.",
     "verification": {
       "status": "verified"
     }
@@ -1202,7 +1202,7 @@
   {
     "id": "QR-ACiE01-151",
     "chapter": "ACiE01",
-    "fact": "The construction of an optical square is based on the principle of double reflection.",
+    "fact": "The angle between two plane mirrors of optical square, i s 45 degrees.",
     "verification": {
       "status": "verified"
     }
@@ -1210,7 +1210,7 @@
   {
     "id": "QR-ACiE01-152",
     "chapter": "ACiE01",
-    "fact": "The technique of plotting all the Accessible stations with a single setup of plane table is called radiation.",
+    "fact": "The instruments using in digital cadastral survey is total station.",
     "verification": {
       "status": "verified"
     }
@@ -1218,7 +1218,7 @@
   {
     "id": "QR-ACiE01-153",
     "chapter": "ACiE01",
-    "fact": "The angle between two plane mirrors of optical square, i s 45 degrees.",
+    "fact": "The last reading of levelling is always a fore sight.",
     "verification": {
       "status": "verified"
     }
@@ -1226,7 +1226,7 @@
   {
     "id": "QR-ACiE01-154",
     "chapter": "ACiE01",
-    "fact": "The instruments using in digital cadastral survey is total station.",
+    "fact": "Rise and fall method is used in differential levelling and check levelling",
     "verification": {
       "status": "verified"
     }
@@ -1234,7 +1234,7 @@
   {
     "id": "QR-ACiE01-155",
     "chapter": "ACiE01",
-    "fact": "The last reading of levelling is always a fore sight.",
+    "fact": "Rising moisture from ground via capillary action isa major cause of dampness in buildings.",
     "verification": {
       "status": "verified"
     }
@@ -1242,29 +1242,13 @@
   {
     "id": "QR-ACiE01-156",
     "chapter": "ACiE01",
-    "fact": "Rise and fall method is used in differential levelling and check levelling",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE01-157",
-    "chapter": "ACiE01",
-    "fact": "Rising moisture from ground via capillary action isa major cause of dampness in buildings.",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE01-158",
-    "chapter": "ACiE01",
     "fact": "The purpose of estimate is to find the probable cost of construction project.",
     "verification": {
       "status": "verified"
     }
   },
   {
-    "id": "QR-ACiE01-159",
+    "id": "QR-ACiE01-157",
     "chapter": "ACiE01",
     "fact": "Preliminary estimate is also known as budget estimate.",
     "verification": {

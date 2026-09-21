@@ -138,7 +138,7 @@
   {
     "id": "QR-ACiE08-018",
     "chapter": "ACiE08",
-    "fact": "If installed capacity is equal to peak load, then the ratio of capacity factor to the load factor is",
+    "fact": "If installed capacity is equal to peak load, then the ratio of capacity factor to the load factor is 1.",
     "verification": {
       "status": "verified"
     }
@@ -330,7 +330,7 @@
   {
     "id": "QR-ACiE08-042",
     "chapter": "ACiE08",
-    "fact": "The central core of the zoned embankment type earth dam is checks the seepage.",
+    "fact": "The central core of the zoned embankment type earth dam is checks the seepage. 57. Undermining and uplift are the causes of failure of hydraulic structure on the pervious foundation.",
     "verification": {
       "status": "verified"
     }
@@ -338,7 +338,7 @@
   {
     "id": "QR-ACiE08-043",
     "chapter": "ACiE08",
-    "fact": "Undermining and uplift are the causes of failure of hydraulic structure on the pervious foundation.",
+    "fact": "When the reservoir is empty, the maximum vertical stress equal to at heel = 2W B and at toe = 0.",
     "verification": {
       "status": "verified"
     }
@@ -346,7 +346,7 @@
   {
     "id": "QR-ACiE08-044",
     "chapter": "ACiE08",
-    "fact": "When the reservoir is empty, the maximum vertical stress equal to at heel = 2W B and at toe = 0.",
+    "fact": "The applicability of middle third rule used in the design of structures under combined direct and bending stresses is feasible to rectangular cross - sections.",
     "verification": {
       "status": "verified"
     }
@@ -354,7 +354,7 @@
   {
     "id": "QR-ACiE08-045",
     "chapter": "ACiE08",
-    "fact": "The applicability of middle third rule used in the design of structures under combined direct and bending stresses is feasible to rectangular cross - sections.",
+    "fact": "On the basis of hydraulic design, dam is classified as overflow and non - overflow dam.",
     "verification": {
       "status": "verified"
     }
@@ -362,7 +362,7 @@
   {
     "id": "QR-ACiE08-046",
     "chapter": "ACiE08",
-    "fact": "On the basis of hydraulic design, dam is classified as overflow and non - overflow dam.",
+    "fact": "The safety valve of dam/reservoir is spillway.",
     "verification": {
       "status": "verified"
     }
@@ -370,7 +370,7 @@
   {
     "id": "QR-ACiE08-047",
     "chapter": "ACiE08",
-    "fact": "The safety valve of dam/reservoir is spillway.",
+    "fact": "Energy dissipation downstream of a sloping glacis is achieved by hydraulic jump.",
     "verification": {
       "status": "verified"
     }
@@ -378,7 +378,7 @@
   {
     "id": "QR-ACiE08-048",
     "chapter": "ACiE08",
-    "fact": "Energy dissipation downstream of a sloping glacis is achieved by hydraulic jump.",
+    "fact": "For a given discharge, the efficiency of sedimentation basin can be increased by increasing the surface area of the basin.",
     "verification": {
       "status": "verified"
     }
@@ -386,7 +386,7 @@
   {
     "id": "QR-ACiE08-049",
     "chapter": "ACiE08",
-    "fact": "For a given discharge, the efficiency of sedimentation basin can be increased by increasing the surface area of the basin.",
+    "fact": "Use of governor is to controls the mean speed.",
     "verification": {
       "status": "verified"
     }
@@ -394,7 +394,7 @@
   {
     "id": "QR-ACiE08-050",
     "chapter": "ACiE08",
-    "fact": "Use of governor is to controls the mean speed.",
+    "fact": "The efficiency of a settling tank can be increased by increase in surface area of tank.",
     "verification": {
       "status": "verified"
     }
@@ -402,7 +402,7 @@
   {
     "id": "QR-ACiE08-051",
     "chapter": "ACiE08",
-    "fact": "The efficiency of a settling tank can be increased by increase in surface area of tank.",
+    "fact": "Trash rack is used to prevent the entry of debris.",
     "verification": {
       "status": "verified"
     }
@@ -410,7 +410,7 @@
   {
     "id": "QR-ACiE08-052",
     "chapter": "ACiE08",
-    "fact": "Trash rack is used to prevent the entry of debris.",
+    "fact": "Submerged intake is located at bottom of river.",
     "verification": {
       "status": "verified"
     }
@@ -418,7 +418,7 @@
   {
     "id": "QR-ACiE08-053",
     "chapter": "ACiE08",
-    "fact": "Submerged intake is located at bottom of river.",
+    "fact": "The wrong statement is: Surge tank are totally close to avoid entry of unwanted object to penstock.",
     "verification": {
       "status": "verified"
     }
@@ -426,7 +426,7 @@
   {
     "id": "QR-ACiE08-054",
     "chapter": "ACiE08",
-    "fact": "The wrong statement is: Surge tank are totally close to avoid entry of unwanted object to penstock.",
+    "fact": "The function of a surge tank is to reduce the effects of pressure.",
     "verification": {
       "status": "verified"
     }
@@ -434,7 +434,7 @@
   {
     "id": "QR-ACiE08-055",
     "chapter": "ACiE08",
-    "fact": "The function of a surge tank is to reduce the effects of pressure.",
+    "fact": "The function of a surge tank is to relive water hammer pressures in the penstock pipe.",
     "verification": {
       "status": "verified"
     }
@@ -442,7 +442,7 @@
   {
     "id": "QR-ACiE08-056",
     "chapter": "ACiE08",
-    "fact": "The function of a surge tank is to relive water hammer pressures in the penstock pipe.",
+    "fact": "Fore poling method is used for soft ground.",
     "verification": {
       "status": "verified"
     }
@@ -450,7 +450,7 @@
   {
     "id": "QR-ACiE08-057",
     "chapter": "ACiE08",
-    "fact": "Fore poling method is used for soft ground.",
+    "fact": "The following operations are required for tunneling in rock terrain: 1. Removing of foul gases 2. Marking the tunnel profile 3. Setting up and drilling 4. Checking misfire 5. Mucking: The correct sequence is 2, 3, 1, 4, 5.",
     "verification": {
       "status": "verified"
     }
@@ -458,7 +458,7 @@
   {
     "id": "QR-ACiE08-058",
     "chapter": "ACiE08",
-    "fact": "The following operations are required for tunneling in rock terrain:",
+    "fact": "The recommended value of the shear friction factor against sliding is more than 3 to 5.",
     "verification": {
       "status": "verified"
     }
@@ -466,7 +466,7 @@
   {
     "id": "QR-ACiE08-059",
     "chapter": "ACiE08",
-    "fact": "Removing of foul gases",
+    "fact": "Heading and benching methods of tunneling is used in hard rocks.",
     "verification": {
       "status": "verified"
     }
@@ -474,7 +474,7 @@
   {
     "id": "QR-ACiE08-060",
     "chapter": "ACiE08",
-    "fact": "Marking the tunnel profile",
+    "fact": "Side drainage is not used in tunnel.",
     "verification": {
       "status": "verified"
     }
@@ -482,7 +482,7 @@
   {
     "id": "QR-ACiE08-061",
     "chapter": "ACiE08",
-    "fact": "Setting up and drilling",
+    "fact": "Removal of muck from the heading is very easy is not correct for heading and benching method of tunneling.",
     "verification": {
       "status": "verified"
     }
@@ -490,7 +490,7 @@
   {
     "id": "QR-ACiE08-062",
     "chapter": "ACiE08",
-    "fact": "Checking misfire",
+    "fact": "Cast iron linings is suitable for shield driven tunnels particularly in the subaqueous regions.",
     "verification": {
       "status": "verified"
     }
@@ -498,7 +498,7 @@
   {
     "id": "QR-ACiE08-063",
     "chapter": "ACiE08",
-    "fact": "Mucking: The correct sequence is 2, 3, 1, 4, 5.",
+    "fact": "In high head hydro power plant, the velocity of water in penstock is about 7 m/s.",
     "verification": {
       "status": "verified"
     }
@@ -506,7 +506,7 @@
   {
     "id": "QR-ACiE08-064",
     "chapter": "ACiE08",
-    "fact": "The recommended value of the shear friction factor against sliding is more than 3 to 5.",
+    "fact": "The water hammer effect in hydropower plant is prevented by surge tank.",
     "verification": {
       "status": "verified"
     }
@@ -514,7 +514,7 @@
   {
     "id": "QR-ACiE08-065",
     "chapter": "ACiE08",
-    "fact": "Heading and benching methods of tunneling is used in hard rocks.",
+    "fact": "Surge tank of hydroelectric power plant prevents the penstock from water hammer phenomenon.",
     "verification": {
       "status": "verified"
     }
@@ -522,7 +522,7 @@
   {
     "id": "QR-ACiE08-066",
     "chapter": "ACiE08",
-    "fact": "Side drainage is not used in tunnel.",
+    "fact": "Power generated by unit head under unit discharge condition is unit power.",
     "verification": {
       "status": "verified"
     }
@@ -530,7 +530,7 @@
   {
     "id": "QR-ACiE08-067",
     "chapter": "ACiE08",
-    "fact": "Removal of muck from the heading is very easy is not correct for heading and benching method of tunneling.",
+    "fact": "The formula used to calculate velocity of jet for Pelton turbine is Cv (2gH) 0.5.",
     "verification": {
       "status": "verified"
     }
@@ -538,7 +538,7 @@
   {
     "id": "QR-ACiE08-068",
     "chapter": "ACiE08",
-    "fact": "Cast iron linings is suitable for shield driven tunnels particularly in the subaqueous regions.",
+    "fact": "Power house is used to protect turbine and runner from damage.",
     "verification": {
       "status": "verified"
     }
@@ -546,7 +546,7 @@
   {
     "id": "QR-ACiE08-069",
     "chapter": "ACiE08",
-    "fact": "In high head hydro power plant, the velocity of water in penstock is about 7 m/s.",
+    "fact": "Governors are used in power plants to directly control the flow of working fluids.",
     "verification": {
       "status": "verified"
     }
@@ -554,7 +554,7 @@
   {
     "id": "QR-ACiE08-070",
     "chapter": "ACiE08",
-    "fact": "The water hammer effect in hydropower plant is prevented by surge tank.",
+    "fact": "The use of draft tube in reaction turbine helps to convert KE to pressure energy.",
     "verification": {
       "status": "verified"
     }
@@ -562,7 +562,7 @@
   {
     "id": "QR-ACiE08-071",
     "chapter": "ACiE08",
-    "fact": "Surge tank of hydroelectric power plant prevents the penstock from water hammer phenomenon.",
+    "fact": "Pelton is impulse turbine.",
     "verification": {
       "status": "verified"
     }
@@ -570,7 +570,7 @@
   {
     "id": "QR-ACiE08-072",
     "chapter": "ACiE08",
-    "fact": "Power generated by unit head under unit discharge condition is unit power.",
+    "fact": "Pressure at the inlet and outlet of the draft tube shouldn't be less than one - third of atmospheric pressure.",
     "verification": {
       "status": "verified"
     }
@@ -578,7 +578,7 @@
   {
     "id": "QR-ACiE08-073",
     "chapter": "ACiE08",
-    "fact": "The formula used to calculate velocity of jet for Pelton turbine is Cv (2gH) 0.5.",
+    "fact": "Pumped storage plant uses a reversible turbine that can work at relatively high efficiencies and helps in reducing the cost of such a plant.",
     "verification": {
       "status": "verified"
     }
@@ -586,7 +586,7 @@
   {
     "id": "QR-ACiE08-074",
     "chapter": "ACiE08",
-    "fact": "Power house is used to protect turbine and runner from damage.",
+    "fact": "Kaplan turbine is low head axial flow turbine.",
     "verification": {
       "status": "verified"
     }
@@ -594,7 +594,7 @@
   {
     "id": "QR-ACiE08-075",
     "chapter": "ACiE08",
-    "fact": "Governors are used in power plants to directly control the flow of working fluids.",
+    "fact": "The pressure energy of water is converted to kinetic energy through a nozzle provided next to runner blade in impulse turbine.",
     "verification": {
       "status": "verified"
     }
@@ -602,7 +602,7 @@
   {
     "id": "QR-ACiE08-076",
     "chapter": "ACiE08",
-    "fact": "The use of draft tube in reaction turbine helps to convert KE to pressure energy.",
+    "fact": "The power output from a hydro - electric power plant depends on three parameters head, discharge, and efficiency of the system.",
     "verification": {
       "status": "verified"
     }
@@ -610,7 +610,7 @@
   {
     "id": "QR-ACiE08-077",
     "chapter": "ACiE08",
-    "fact": "Pelton is impulse turbine.",
+    "fact": "The energy of water entering the reaction turbine is partly the pressure energy and partly the kinetic energy.",
     "verification": {
       "status": "verified"
     }
@@ -618,7 +618,7 @@
   {
     "id": "QR-ACiE08-078",
     "chapter": "ACiE08",
-    "fact": "Pressure at the inlet and outlet of the draft tube shouldn't be less than one - third of atmospheric pressure.",
+    "fact": "Draft tubes are not used in Pelton turbine.",
     "verification": {
       "status": "verified"
     }
@@ -626,7 +626,7 @@
   {
     "id": "QR-ACiE08-079",
     "chapter": "ACiE08",
-    "fact": "Pumped storage plant uses a reversible turbine that can work at relatively high efficiencies and helps in reducing the cost of such a plant.",
+    "fact": "A centrifugal pump acts as a reverse of inward radial flow reaction turbine.",
     "verification": {
       "status": "verified"
     }
@@ -634,7 +634,7 @@
   {
     "id": "QR-ACiE08-080",
     "chapter": "ACiE08",
-    "fact": "Kaplan turbine is low head axial flow turbine.",
+    "fact": "The correct sequence, in hydropower plant, for the direction of the flow of water is reservoir, penstock, surge tank, turbine.",
     "verification": {
       "status": "verified"
     }
@@ -642,7 +642,7 @@
   {
     "id": "QR-ACiE08-081",
     "chapter": "ACiE08",
-    "fact": "The pressure energy of water is converted to kinetic energy through a nozzle provided next to runner blade in impulse turbine.",
+    "fact": "Flow duration curve is the graph drawn between discharge and percentage of time such discharge is exceeded.",
     "verification": {
       "status": "verified"
     }
@@ -650,7 +650,7 @@
   {
     "id": "QR-ACiE08-082",
     "chapter": "ACiE08",
-    "fact": "The power output from a hydro - electric power plant depends on three parameters head, discharge, and efficiency of the system.",
+    "fact": "The power of the centrifugal pump is proportional to D 5 or D 3.",
     "verification": {
       "status": "verified"
     }
@@ -658,7 +658,7 @@
   {
     "id": "QR-ACiE08-083",
     "chapter": "ACiE08",
-    "fact": "The energy of water entering the reaction turbine is partly the pressure energy and partly the kinetic energy.",
+    "fact": "The reversible turbines and pumps are very suitable for pumped storage plant.",
     "verification": {
       "status": "verified"
     }
@@ -666,7 +666,7 @@
   {
     "id": "QR-ACiE08-084",
     "chapter": "ACiE08",
-    "fact": "Draft tubes are not used in Pelton turbine.",
+    "fact": "Penstock in a hydroelectric power plant isa conduit connecting forebay to scroll case of turbine.",
     "verification": {
       "status": "verified"
     }
@@ -674,7 +674,7 @@
   {
     "id": "QR-ACiE08-085",
     "chapter": "ACiE08",
-    "fact": "A centrifugal pump acts as a reverse of inward radial flow reaction turbine.",
+    "fact": "High head turbine is Pelton turbine.",
     "verification": {
       "status": "verified"
     }
@@ -682,7 +682,7 @@
   {
     "id": "QR-ACiE08-086",
     "chapter": "ACiE08",
-    "fact": "The correct sequence, in hydropower plant, for the direction of the flow of water is reservoir, penstock, surge tank, turbine.",
+    "fact": "The hydraulic efficiency of a turbine is Fluid power transferred to the runners Power available at the inlet to the turbine.",
     "verification": {
       "status": "verified"
     }
@@ -690,7 +690,7 @@
   {
     "id": "QR-ACiE08-087",
     "chapter": "ACiE08",
-    "fact": "Flow duration curve is the graph drawn between discharge and percentage of time such discharge is exceeded.",
+    "fact": "The head loss in the penstock pipe of given length is increases with increase in velocity.",
     "verification": {
       "status": "verified"
     }
@@ -698,7 +698,7 @@
   {
     "id": "QR-ACiE08-088",
     "chapter": "ACiE08",
-    "fact": "The power of the centrifugal pump is proportional to D 5 or D",
+    "fact": "To import electricity from one country to reduce load shedding was not good for hydropower development policy.",
     "verification": {
       "status": "verified"
     }
@@ -706,7 +706,7 @@
   {
     "id": "QR-ACiE08-089",
     "chapter": "ACiE08",
-    "fact": "The reversible turbines and pumps are very suitable for pumped storage plant.",
+    "fact": "The governor in a hydropower plant: Regulates the flow rate of water striking the runner to control turbine RPM.",
     "verification": {
       "status": "verified"
     }
@@ -714,7 +714,7 @@
   {
     "id": "QR-ACiE08-090",
     "chapter": "ACiE08",
-    "fact": "Penstock in a hydroelectric power plant isa conduit connecting forebay to scroll case of turbine.",
+    "fact": "The hydrostatic pressure on the phreatic line within a dam section is equal to atmospheric pressure.",
     "verification": {
       "status": "verified"
     }
@@ -722,7 +722,7 @@
   {
     "id": "QR-ACiE08-091",
     "chapter": "ACiE08",
-    "fact": "High head turbine is Pelton turbine.",
+    "fact": "In hydropower plant, the Net head is gross head – head losses.",
     "verification": {
       "status": "verified"
     }
@@ -730,7 +730,7 @@
   {
     "id": "QR-ACiE08-092",
     "chapter": "ACiE08",
-    "fact": "The hydraulic efficiency of a turbine is Fluid power transferred to the runners Power available at the inlet to the turbine.",
+    "fact": "In a Francis turbine runner, the number of blades are generally between 16 to 24.",
     "verification": {
       "status": "verified"
     }
@@ -738,7 +738,7 @@
   {
     "id": "QR-ACiE08-093",
     "chapter": "ACiE08",
-    "fact": "The head loss in the penstock pipe of given length is increases with increase in velocity.",
+    "fact": "Storage type is suitable to meet base load as well as peak load.",
     "verification": {
       "status": "verified"
     }
@@ -746,7 +746,7 @@
   {
     "id": "QR-ACiE08-094",
     "chapter": "ACiE08",
-    "fact": "To import electricity from one country to reduce load shedding was not good for hydropower development policy.",
+    "fact": "The process of laying and compacting earth in layer by power roller under OMC for construction of earthen dam is known as rolled filled method.",
     "verification": {
       "status": "verified"
     }
@@ -754,7 +754,7 @@
   {
     "id": "QR-ACiE08-095",
     "chapter": "ACiE08",
-    "fact": "The governor in a hydropower plant: Regulates the flow rate of water striking the runner to control turbine RPM.",
+    "fact": "Trash racks is designed to prevent floating and submerged debris from entering.",
     "verification": {
       "status": "verified"
     }
@@ -762,7 +762,7 @@
   {
     "id": "QR-ACiE08-096",
     "chapter": "ACiE08",
-    "fact": "The hydrostatic pressure on the phreatic line within a dam section is equal to atmospheric pressure.",
+    "fact": "In the case of a reaction turbine, the gross head is the difference between head race and tail race.",
     "verification": {
       "status": "verified"
     }
@@ -770,7 +770,7 @@
   {
     "id": "QR-ACiE08-097",
     "chapter": "ACiE08",
-    "fact": "In hydropower plant, the Net head is gross head – head losses.",
+    "fact": "A trash rack is not required at the entrance of a drum gate installation.",
     "verification": {
       "status": "verified"
     }
@@ -778,7 +778,7 @@
   {
     "id": "QR-ACiE08-098",
     "chapter": "ACiE08",
-    "fact": "In a Francis turbine runner, the number of blades are generally between 16 to 24.",
+    "fact": "The axis of a gravity dam is the line of the crown of the dam on the up stream side.",
     "verification": {
       "status": "verified"
     }
@@ -786,7 +786,7 @@
   {
     "id": "QR-ACiE08-099",
     "chapter": "ACiE08",
-    "fact": "Storage type is suitable to meet base load as well as peak load.",
+    "fact": "In Nepal, the consumption of electricity is maximum during 5 pm to 11 pm.",
     "verification": {
       "status": "verified"
     }
@@ -794,7 +794,7 @@
   {
     "id": "QR-ACiE08-100",
     "chapter": "ACiE08",
-    "fact": "The process of laying and compacting earth in layer by power roller under OMC for construction of earthen dam is known as rolled filled method.",
+    "fact": "The centrifugal pump acts as the reverse of an inward radial flow reaction turbine.",
     "verification": {
       "status": "verified"
     }
@@ -802,7 +802,7 @@
   {
     "id": "QR-ACiE08-101",
     "chapter": "ACiE08",
-    "fact": "Trash racks is designed to prevent floating and submerged debris from entering.",
+    "fact": "According to Nepal Electricity Authority (NEA) policy 2001, the first priority of the policy is to ensure reliable and affordable electricity supply to consumers.",
     "verification": {
       "status": "verified"
     }
@@ -810,7 +810,7 @@
   {
     "id": "QR-ACiE08-102",
     "chapter": "ACiE08",
-    "fact": "In the case of a reaction turbine, the gross head is the difference between head race and tail race.",
+    "fact": "The hydropower plant which utilizes the minimum flow in river having no appreciable pondage on its upstream is ROR plants.",
     "verification": {
       "status": "verified"
     }
@@ -818,7 +818,7 @@
   {
     "id": "QR-ACiE08-103",
     "chapter": "ACiE08",
-    "fact": "A trash rack is not required at the entrance of a drum gate installation.",
+    "fact": "The crest of a siphon spillway is fixed at full reservoir level.",
     "verification": {
       "status": "verified"
     }
@@ -826,7 +826,7 @@
   {
     "id": "QR-ACiE08-104",
     "chapter": "ACiE08",
-    "fact": "The axis of a gravity dam is the line of the crown of the dam on the up stream side.",
+    "fact": "When gravel and sand are available in bed strata, the type of dam selected maybe embankment dam.",
     "verification": {
       "status": "verified"
     }
@@ -834,7 +834,7 @@
   {
     "id": "QR-ACiE08-105",
     "chapter": "ACiE08",
-    "fact": "In Nepal, the consumption of electricity is maximum during 5 pm to 11 pm.",
+    "fact": "Hydropower project construct under BOOT.",
     "verification": {
       "status": "verified"
     }
@@ -842,7 +842,7 @@
   {
     "id": "QR-ACiE08-106",
     "chapter": "ACiE08",
-    "fact": "The centrifugal pump acts as the reverse of an inward radial flow reaction turbine.",
+    "fact": "Trimmer is used to give shape to tunnel.",
     "verification": {
       "status": "verified"
     }
@@ -850,7 +850,7 @@
   {
     "id": "QR-ACiE08-107",
     "chapter": "ACiE08",
-    "fact": "According to Nepal Electricity Authority (NEA) policy 2001, the first priority of the policy is to ensure reliable and affordable electricity supply to consumers.",
+    "fact": "The phreatic line of earth embankment is parabolic.",
     "verification": {
       "status": "verified"
     }
@@ -858,7 +858,7 @@
   {
     "id": "QR-ACiE08-108",
     "chapter": "ACiE08",
-    "fact": "The hydropower plant which utilizes the minimum flow in river having no appreciable pondage on its upstream is ROR plants.",
+    "fact": "Hydrostatic level measurement is the level of water in a dam measured",
     "verification": {
       "status": "verified"
     }
@@ -866,7 +866,7 @@
   {
     "id": "QR-ACiE08-109",
     "chapter": "ACiE08",
-    "fact": "The crest of a siphon spillway is fixed at full reservoir level.",
+    "fact": "The area under the flow duration curve is volume of water.",
     "verification": {
       "status": "verified"
     }
@@ -874,7 +874,7 @@
   {
     "id": "QR-ACiE08-110",
     "chapter": "ACiE08",
-    "fact": "When gravel and sand are available in bed strata, the type of dam selected maybe embankment dam.",
+    "fact": "Draft tube is connected to outlet of turbine.",
     "verification": {
       "status": "verified"
     }
@@ -882,7 +882,7 @@
   {
     "id": "QR-ACiE08-111",
     "chapter": "ACiE08",
-    "fact": "Hydropower project construct under BOOT.",
+    "fact": "Sluiceway is the name of the outlet provided in a dam body to safely release water for downstream water demands.",
     "verification": {
       "status": "verified"
     }
@@ -890,7 +890,7 @@
   {
     "id": "QR-ACiE08-112",
     "chapter": "ACiE08",
-    "fact": "Trimmer is used to give shape to tunnel.",
+    "fact": "The country which provide key financial assistance for Kulekhani I and Kulekhani II hydropower projects is Japan.",
     "verification": {
       "status": "verified"
     }
@@ -898,7 +898,7 @@
   {
     "id": "QR-ACiE08-113",
     "chapter": "ACiE08",
-    "fact": "The phreatic line of earth embankment is parabolic.",
+    "fact": "Forebay in a hydropower plant (HPP) is for Water storage and regulation.",
     "verification": {
       "status": "verified"
     }
@@ -906,7 +906,7 @@
   {
     "id": "QR-ACiE08-114",
     "chapter": "ACiE08",
-    "fact": "Hydrostatic level measurement is the level of water in a dam measured",
+    "fact": "\"Bank storage\" in a dam reservoir increases the computed reservoir capacity.",
     "verification": {
       "status": "verified"
     }
@@ -914,61 +914,13 @@
   {
     "id": "QR-ACiE08-115",
     "chapter": "ACiE08",
-    "fact": "The area under the flow duration curve is volume of water.",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE08-116",
-    "chapter": "ACiE08",
-    "fact": "Draft tube is connected to outlet of turbine.",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE08-117",
-    "chapter": "ACiE08",
-    "fact": "Sluiceway is the name of the outlet provided in a dam body to safely release water for downstream water demands.",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE08-118",
-    "chapter": "ACiE08",
-    "fact": "The country which provide key financial assistance for Kulekhani I and Kulekhani II hydropower projects is Japan.",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE08-119",
-    "chapter": "ACiE08",
-    "fact": "Forebay in a hydropower plant (HPP) is for Water storage and regulation.",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE08-120",
-    "chapter": "ACiE08",
-    "fact": "\"Bank storage\" in a dam reservoir increases the computed reservoir capacity.",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE08-121",
-    "chapter": "ACiE08",
     "fact": "The spillways of the Kulekhani I hydropower project utilize radial gates (or Tainter gates) to control the release of water and maintain safe reservoir levels.",
     "verification": {
       "status": "verified"
     }
   },
   {
-    "id": "QR-ACiE08-122",
+    "id": "QR-ACiE08-116",
     "chapter": "ACiE08",
     "fact": "The under - sluice and spillway gates used in the barrage of the Sunkoshi Hydropower Project are radial gates.",
     "verification": {

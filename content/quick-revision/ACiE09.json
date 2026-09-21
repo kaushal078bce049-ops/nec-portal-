@@ -162,7 +162,7 @@
   {
     "id": "QR-ACiE09-021",
     "chapter": "ACiE09",
-    "fact": "As per NRS 2070, the right of way (ROW) for feeder road is",
+    "fact": "As per NRS 2070, the right of way (ROW) for feeder road is 30.",
     "verification": {
       "status": "verified"
     }
@@ -546,7 +546,7 @@
   {
     "id": "QR-ACiE09-069",
     "chapter": "ACiE09",
-    "fact": "if total lost time is 10 for sum of proportion 0.6, then optimal cycle length = 1.5L + 5 1 – y = 1.5 × 10 + 5 1 –",
+    "fact": "if total lost time is 10 for sum of proportion 0.6, then optimal cycle length = 1.5L + 5 1 – y = 1.5 × 10 + 5 1 – 0. 6 = 50.",
     "verification": {
       "status": "verified"
     }
@@ -810,7 +810,7 @@
   {
     "id": "QR-ACiE09-102",
     "chapter": "ACiE09",
-    "fact": "The specified temperature in penetration test of bitumen is",
+    "fact": "The specified temperature in penetration test of bitumen is 25.",
     "verification": {
       "status": "verified"
     }
@@ -818,7 +818,7 @@
   {
     "id": "QR-ACiE09-103",
     "chapter": "ACiE09",
-    "fact": "According to DOR, the maximum thickness of sub base/premix pavement is",
+    "fact": "According to DOR, the maximum thickness of sub base/premix pavement is 30.",
     "verification": {
       "status": "verified"
     }
@@ -890,7 +890,7 @@
   {
     "id": "QR-ACiE09-112",
     "chapter": "ACiE09",
-    "fact": "The vehicle has highest equivalent factors is bull carts. (value is 6 PCU) 11",
+    "fact": "The vehicle has highest equivalent factors is bull carts. (value is 6 PCU) 11 3. The relation between chain age of mid ordinate (MO) and Intersection Point (IP) is IP > MO.",
     "verification": {
       "status": "verified"
     }
@@ -898,7 +898,7 @@
   {
     "id": "QR-ACiE09-113",
     "chapter": "ACiE09",
-    "fact": "The relation between chain age of mid ordinate (MO) and Intersection Point (IP) is IP > MO.",
+    "fact": "On a pavement with parabolic camber, the angle of inclination of the vehicles will be more at the edges.",
     "verification": {
       "status": "verified"
     }
@@ -906,7 +906,7 @@
   {
     "id": "QR-ACiE09-114",
     "chapter": "ACiE09",
-    "fact": "On a pavement with parabolic camber, the angle of inclination of the vehicles will be more at the edges.",
+    "fact": "In flexible pavement, rolling is done from edges to center.",
     "verification": {
       "status": "verified"
     }
@@ -914,7 +914,7 @@
   {
     "id": "QR-ACiE09-115",
     "chapter": "ACiE09",
-    "fact": "In flexible pavement, rolling is done from edges to center.",
+    "fact": "Impact value in surface layer of road pavement should be less than 30.",
     "verification": {
       "status": "verified"
     }
@@ -922,7 +922,7 @@
   {
     "id": "QR-ACiE09-116",
     "chapter": "ACiE09",
-    "fact": "Impact value in surface layer of road pavement should be less than 30.",
+    "fact": "A vehicle is coming from a route and is made to change its path to another route at a certain place/point on the road. If the destination of those vehicles notc hanged, the path is known as diversion path.",
     "verification": {
       "status": "verified"
     }
@@ -930,7 +930,7 @@
   {
     "id": "QR-ACiE09-117",
     "chapter": "ACiE09",
-    "fact": "A vehicle is coming from a route and is made to change its path to another route at a certain place/point on the road. If the destination of those vehicles notc hanged, the path is known as diversion path.",
+    "fact": "The minimum super elevation on a road curve is equal to equal to camber slope (7%)",
     "verification": {
       "status": "verified"
     }
@@ -938,7 +938,7 @@
   {
     "id": "QR-ACiE09-118",
     "chapter": "ACiE09",
-    "fact": "The minimum super elevation on a road curve is equal to equal to camber slope (7%)",
+    "fact": "In the repair of potholes, a rectangular portion of the pavement surrounding it is cut out.",
     "verification": {
       "status": "verified"
     }
@@ -946,7 +946,7 @@
   {
     "id": "QR-ACiE09-119",
     "chapter": "ACiE09",
-    "fact": "In the repair of potholes, a rectangular portion of the pavement surrounding it is cut out.",
+    "fact": "Under the design of dowel bars, for a design load being 5100 kg. IRC recommends 2.5 cm dowel bars of length 50 cm to be spaced at 30 cm in case of 25 cm thick slab.",
     "verification": {
       "status": "verified"
     }
@@ -954,7 +954,7 @@
   {
     "id": "QR-ACiE09-120",
     "chapter": "ACiE09",
-    "fact": "Under the design of dowel bars, for a design load being 5100 kg. IRC recommends 2.5 cm dowel bars of length 50 cm to be spaced at 30 cm in case of 25 cm thick slab.",
+    "fact": "The maximum abrasion value for the cement concrete pavement (wearing surface) is 0.3.",
     "verification": {
       "status": "verified"
     }
@@ -962,7 +962,7 @@
   {
     "id": "QR-ACiE09-121",
     "chapter": "ACiE09",
-    "fact": "The maximum abrasion value for the cement concrete pavement (wearing surface) is 0.3.",
+    "fact": "The number of P CU and perspective period for the design of Class I road is greater than 20000 at 20 years.",
     "verification": {
       "status": "verified"
     }
@@ -970,7 +970,7 @@
   {
     "id": "QR-ACiE09-122",
     "chapter": "ACiE09",
-    "fact": "The number of P CU and perspective period for the design of Class I road is greater than 20000 at 20 years.",
+    "fact": "The first step in flooring is base coat.",
     "verification": {
       "status": "verified"
     }
@@ -978,7 +978,7 @@
   {
     "id": "QR-ACiE09-123",
     "chapter": "ACiE09",
-    "fact": "The first step in flooring is base coat.",
+    "fact": "The ductility value of bitumen for suitability in road construction should not be less than 50 cm.",
     "verification": {
       "status": "verified"
     }
@@ -986,7 +986,7 @@
   {
     "id": "QR-ACiE09-124",
     "chapter": "ACiE09",
-    "fact": "The ductility value of bitumen for suitability in road construction should not be less than 50 cm.",
+    "fact": "Concrete lining is done in rigid type of pavement.",
     "verification": {
       "status": "verified"
     }
@@ -994,7 +994,7 @@
   {
     "id": "QR-ACiE09-125",
     "chapter": "ACiE09",
-    "fact": "Concrete lining is done in rigid type of pavement.",
+    "fact": "The angle which is measured at the change of direction of two gradients is called deviated angle.",
     "verification": {
       "status": "verified"
     }
@@ -1002,7 +1002,7 @@
   {
     "id": "QR-ACiE09-126",
     "chapter": "ACiE09",
-    "fact": "The angle which is measured at the change of direction of two gradients is called deviated angle.",
+    "fact": "The road foundation for modern highways construction, was developed by both Telford and Macadam.",
     "verification": {
       "status": "verified"
     }
@@ -1010,7 +1010,7 @@
   {
     "id": "QR-ACiE09-127",
     "chapter": "ACiE09",
-    "fact": "The road foundation for modern highways construction, was developed by both Telford and Macadam.",
+    "fact": "The speed and jam density of the traffic stream is 50 km/hr and 100 vehicles/km respectively. The average time headway will be 0.72 second.",
     "verification": {
       "status": "verified"
     }
@@ -1018,7 +1018,7 @@
   {
     "id": "QR-ACiE09-128",
     "chapter": "ACiE09",
-    "fact": "The speed and jam density of the traffic stream is 50 km/hr and 100 vehicles/km respectively. The average time headway will be 0.72 second.",
+    "fact": "The most governing factor that is required for geometric design of road is speed of vehicles.",
     "verification": {
       "status": "verified"
     }
@@ -1026,7 +1026,7 @@
   {
     "id": "QR-ACiE09-129",
     "chapter": "ACiE09",
-    "fact": "The most governing factor that is required for geometric design of road is speed of vehicles.",
+    "fact": "The positive mass haul diagram represents cut portion.",
     "verification": {
       "status": "verified"
     }
@@ -1034,7 +1034,7 @@
   {
     "id": "QR-ACiE09-130",
     "chapter": "ACiE09",
-    "fact": "The positive mass haul diagram represents cut portion.",
+    "fact": "In Asphalt bitumen pavement, the wheel load of the vehicle transfers from asphalt, base sub base to sub grade.",
     "verification": {
       "status": "verified"
     }
@@ -1042,7 +1042,7 @@
   {
     "id": "QR-ACiE09-131",
     "chapter": "ACiE09",
-    "fact": "In Asphalt bitumen pavement, the wheel load of the vehicle transfers from asphalt, base sub base to sub grade.",
+    "fact": "The main objective of transportation is safe, economical and efficient transport of good and passengers.",
     "verification": {
       "status": "verified"
     }
@@ -1050,7 +1050,7 @@
   {
     "id": "QR-ACiE09-132",
     "chapter": "ACiE09",
-    "fact": "The main objective of transportation is safe, economical and efficient transport of good and passengers.",
+    "fact": "In mass haul diagram, if the end is negative. It indicates deficit volume.",
     "verification": {
       "status": "verified"
     }
@@ -1058,7 +1058,7 @@
   {
     "id": "QR-ACiE09-133",
     "chapter": "ACiE09",
-    "fact": "In mass haul diagram, if the end is negative. It indicates deficit volume.",
+    "fact": "The standard penetration value is 1 10 mm.",
     "verification": {
       "status": "verified"
     }
@@ -1066,7 +1066,7 @@
   {
     "id": "QR-ACiE09-134",
     "chapter": "ACiE09",
-    "fact": "The standard penetration value is 1 10 mm.",
+    "fact": "In flexible pavement rutting is contributed by weak subgrade soil, high pavement temperature and poor mix design.",
     "verification": {
       "status": "verified"
     }
@@ -1074,7 +1074,7 @@
   {
     "id": "QR-ACiE09-135",
     "chapter": "ACiE09",
-    "fact": "In flexible pavement rutting is contributed by weak subgrade soil, high pavement temperature and poor mix design.",
+    "fact": "Weaving angle should not provide less than is 15 degree.",
     "verification": {
       "status": "verified"
     }
@@ -1082,7 +1082,7 @@
   {
     "id": "QR-ACiE09-136",
     "chapter": "ACiE09",
-    "fact": "Weaving angle should not provide less than is 15 degree.",
+    "fact": "The typical maximum spacing for contraction joints in unreinforced rigid concrete pavement is 4.5 m.",
     "verification": {
       "status": "verified"
     }
@@ -1090,7 +1090,7 @@
   {
     "id": "QR-ACiE09-137",
     "chapter": "ACiE09",
-    "fact": "The typical maximum spacing for contraction joints in unreinforced rigid concrete pavement is 4.5 m.",
+    "fact": "The standard design thickness for a typical bitumen premix carpet open graded wearing course is 20 mm.",
     "verification": {
       "status": "verified"
     }
@@ -1098,7 +1098,7 @@
   {
     "id": "QR-ACiE09-138",
     "chapter": "ACiE09",
-    "fact": "The standard design thickness for a typical bitumen premix carpet open graded wearing course is 20 mm.",
+    "fact": "The primary priority and core objective of traffic engineering is to ensuring safe, rapid and efficient movement of tra ffic.",
     "verification": {
       "status": "verified"
     }
@@ -1106,7 +1106,7 @@
   {
     "id": "QR-ACiE09-139",
     "chapter": "ACiE09",
-    "fact": "The primary priority and core objective of traffic engineering is to ensuring safe, rapid and efficient movement of tra ffic.",
+    "fact": "In a flexible pavement structure, vehicle wheel loads are primarily transmitted through grain to grain contact of aggregate layer.",
     "verification": {
       "status": "verified"
     }
@@ -1114,7 +1114,7 @@
   {
     "id": "QR-ACiE09-140",
     "chapter": "ACiE09",
-    "fact": "In a flexible pavement structure, vehicle wheel loads are primarily transmitted through grain to grain contact of aggregate layer.",
+    "fact": "The grade compensation required for a curve radius of 600 mis 0.125%.",
     "verification": {
       "status": "verified"
     }
@@ -1122,7 +1122,7 @@
   {
     "id": "QR-ACiE09-141",
     "chapter": "ACiE09",
-    "fact": "The grade compensation required for a curve radius of 600 mis 0.125%.",
+    "fact": "The lane distribution factor (LDF) for 4 lane road is 0.4.",
     "verification": {
       "status": "verified"
     }
@@ -1130,7 +1130,7 @@
   {
     "id": "QR-ACiE09-142",
     "chapter": "ACiE09",
-    "fact": "The lane distribution factor (LDF) for 4 lane road is 0.4.",
+    "fact": "Driver's eye height and object height according to NRS 2070 are 1.2 m and 0.15 m respectively.",
     "verification": {
       "status": "verified"
     }
@@ -1138,7 +1138,7 @@
   {
     "id": "QR-ACiE09-143",
     "chapter": "ACiE09",
-    "fact": "Driver's eye height and object height according to NRS 2070 are 1.2 m and 0.15 m respectively.",
+    "fact": "Camber is provided on roads mainly to drain surface water.",
     "verification": {
       "status": "verified"
     }
@@ -1146,7 +1146,7 @@
   {
     "id": "QR-ACiE09-144",
     "chapter": "ACiE09",
-    "fact": "Camber is provided on roads mainly to drain surface water.",
+    "fact": "The road section Naubise to Pokhara define Prithivi Highway.",
     "verification": {
       "status": "verified"
     }
@@ -1154,7 +1154,7 @@
   {
     "id": "QR-ACiE09-145",
     "chapter": "ACiE09",
-    "fact": "The road section Naubise to Pokhara define Prithivi Highway.",
+    "fact": "Vehicles per meter is the standard SI unit of time headway in traffic engineering.",
     "verification": {
       "status": "verified"
     }
@@ -1162,7 +1162,7 @@
   {
     "id": "QR-ACiE09-146",
     "chapter": "ACiE09",
-    "fact": "Vehicles per meter is the standard SI unit of time headway in traffic engineering.",
+    "fact": "Setback distance in highway planning is defined as the distance between road land boundary and building line.",
     "verification": {
       "status": "verified"
     }
@@ -1170,7 +1170,7 @@
   {
     "id": "QR-ACiE09-147",
     "chapter": "ACiE09",
-    "fact": "Setback distance in highway planning is defined as the distance between road land boundary and building line.",
+    "fact": "Bitumen is an organic construction binding mate rial.",
     "verification": {
       "status": "verified"
     }
@@ -1178,7 +1178,7 @@
   {
     "id": "QR-ACiE09-148",
     "chapter": "ACiE09",
-    "fact": "Bitumen is an organic construction binding mate rial.",
+    "fact": "The test used for detecting whether a bitumen sample has been overheated or cracked during manufacturing is spot test.",
     "verification": {
       "status": "verified"
     }
@@ -1186,21 +1186,13 @@
   {
     "id": "QR-ACiE09-149",
     "chapter": "ACiE09",
-    "fact": "The test used for detecting whether a bitumen sample has been overheated or cracked during manufacturing is spot test.",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE09-150",
-    "chapter": "ACiE09",
     "fact": "The best type of interchange can be provided with full cloverleaf.",
     "verification": {
       "status": "verified"
     }
   },
   {
-    "id": "QR-ACiE09-151",
+    "id": "QR-ACiE09-150",
     "chapter": "ACiE09",
     "fact": "In flexible pavement, minimum contraction joint spacing provided is 4.5 m",
     "verification": {

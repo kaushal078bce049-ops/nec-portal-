@@ -17,7 +17,7 @@ const COLUMNS: { heading: string; links: { href: string; label: string }[] }[] =
     heading: 'Practise',
     links: [
       { href: '/past-papers', label: 'Past Papers (15 sets)' },
-      { href: '/model-sets', label: 'Model Sets (10 sets)' },
+      { href: '/model-sets', label: 'Model Sets (12 sets)' },
       { href: '/daily-capsule', label: 'Daily Capsule' },
     ],
   },

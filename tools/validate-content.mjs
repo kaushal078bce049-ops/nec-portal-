@@ -529,7 +529,7 @@ console.log(
 // Publishing targets for the portal. All content is free, so these are simply
 // the number of sets the project intends to publish.
 const TARGET_PAST_PAPERS = 15;
-const TARGET_MODEL_SETS = 10;
+const TARGET_MODEL_SETS = 12;
 console.log(`past papers         ${pad(listJson('questions/past-papers').length)} / ${TARGET_PAST_PAPERS}`);
 console.log(`model sets          ${pad(listJson('questions/model-sets').length)} / ${TARGET_MODEL_SETS}`);
 console.log(`questions in total  ${pad(seenIds.size)}`);

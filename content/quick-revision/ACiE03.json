@@ -98,7 +98,7 @@
   {
     "id": "QR-ACiE03-013",
     "chapter": "ACiE03",
-    "fact": "The dimension of kinematic viscosity is M 0 L 2 T –",
+    "fact": "The dimension of kinematic viscosity is M 0 L 2 T – 1.",
     "verification": {
       "status": "verified"
     }
@@ -114,7 +114,7 @@
   {
     "id": "QR-ACiE03-015",
     "chapter": "ACiE03",
-    "fact": "The dimensional formula of velocity gradient is M 0 L 0 T –",
+    "fact": "The dimensional formula of velocity gradient is M 0 L 0 T – 1.",
     "verification": {
       "status": "verified"
     }
@@ -194,7 +194,7 @@
   {
     "id": "QR-ACiE03-025",
     "chapter": "ACiE03",
-    "fact": "The force on Hemispherical part will be  r 2 P 0 if pressure acted is P",
+    "fact": "The force on Hemispherical part will be  r 2 P 0 if pressure acted is P 0.",
     "verification": {
       "status": "verified"
     }
@@ -282,7 +282,7 @@
   {
     "id": "QR-ACiE03-036",
     "chapter": "ACiE03",
-    "fact": "The equation of continuity for a fluid that is compressible and flow that is steady is  1 A 1 V 1 =  2 A 2 V",
+    "fact": "The equation of continuity for a fluid that is compressible and flow that is steady is  1 A 1 V 1 =  2 A 2 V 2.",
     "verification": {
       "status": "verified"
     }
@@ -490,7 +490,7 @@
   {
     "id": "QR-ACiE03-062",
     "chapter": "ACiE03",
-    "fact": "The value of hydraulic radius in most economical triangular channel section isy 2",
+    "fact": "The value of hydraulic radius in most economical triangular channel section isy 2 2.",
     "verification": {
       "status": "verified"
     }
@@ -538,7 +538,7 @@
   {
     "id": "QR-ACiE03-068",
     "chapter": "ACiE03",
-    "fact": "The value for Froude number for Steady jump is 4.5 –",
+    "fact": "The value for Froude number for Steady jump is 4.5 – 9.",
     "verification": {
       "status": "verified"
     }
@@ -578,7 +578,7 @@
   {
     "id": "QR-ACiE03-073",
     "chapter": "ACiE03",
-    "fact": "The weighted perimeter calculation for trapezoidal section if z, y, and B are given by B + 2y 1 + z",
+    "fact": "The weighted perimeter calculation for trapezoidal section if z, y, and B are given by B + 2y 1 + z 2.",
     "verification": {
       "status": "verified"
     }
@@ -634,7 +634,7 @@
   {
     "id": "QR-ACiE03-080",
     "chapter": "ACiE03",
-    "fact": "The Froude number of triangular channel of depthy with side slope 2H: 1V is V g × y",
+    "fact": "The Froude number of triangular channel of depthy with side slope 2H: 1V is V g × y 2.",
     "verification": {
       "status": "verified"
     }
@@ -786,7 +786,7 @@
   {
     "id": "QR-ACiE03-099",
     "chapter": "ACiE03",
-    "fact": "Recording type method is very accurate of rain gauging. 10",
+    "fact": "Recording type method is very accurate of rain gauging. 10 0. U - tube manometer is used to measure pressure difference between two points",
     "verification": {
       "status": "verified"
     }
@@ -794,7 +794,7 @@
   {
     "id": "QR-ACiE03-100",
     "chapter": "ACiE03",
-    "fact": "U - tube manometer is used to measure pressure difference between two points",
+    "fact": "The hydraulic grade line HGL in pipe flow is always above the centre line of pipe.",
     "verification": {
       "status": "verified"
     }
@@ -802,7 +802,7 @@
   {
     "id": "QR-ACiE03-101",
     "chapter": "ACiE03",
-    "fact": "The hydraulic grade line HGL in pipe flow is always above the centre line of pipe.",
+    "fact": "In critical flow is given by Q 2 T gA 3 = 1.",
     "verification": {
       "status": "verified"
     }
@@ -810,7 +810,7 @@
   {
     "id": "QR-ACiE03-102",
     "chapter": "ACiE03",
-    "fact": "In critical flow is given by Q 2 T gA 3 = 1.",
+    "fact": "The form factor of a channel section is given by multiplying the square root of hydraulic depth and basin Area",
     "verification": {
       "status": "verified"
     }
@@ -818,7 +818,7 @@
   {
     "id": "QR-ACiE03-103",
     "chapter": "ACiE03",
-    "fact": "The form factor of a channel section is given by multiplying the square root of hydraulic depth and basin Area",
+    "fact": "In WECS/DHM method, the formula used for flood forecasting of return period of 2 years is 1.8767 (A 3000 + 1) 0.8783.",
     "verification": {
       "status": "verified"
     }
@@ -826,7 +826,7 @@
   {
     "id": "QR-ACiE03-104",
     "chapter": "ACiE03",
-    "fact": "In WECS/DHM method, the formula used for flood forecasting of return period of 2 years is 1.8767 (A 3000 + 1) 0.8783.",
+    "fact": "The loss of head at pipe fitting of 90° elbow is given by 0.9V 2 2g.",
     "verification": {
       "status": "verified"
     }
@@ -834,7 +834,7 @@
   {
     "id": "QR-ACiE03-105",
     "chapter": "ACiE03",
-    "fact": "The loss of head at pipe fitting of 90° elbow is given by 0.9V 2 2g.",
+    "fact": "The continuity equation is valid for a steady, 2D, incompressible flow.",
     "verification": {
       "status": "verified"
     }
@@ -842,7 +842,7 @@
   {
     "id": "QR-ACiE03-106",
     "chapter": "ACiE03",
-    "fact": "The continuity equation is valid for a steady, 2D, incompressible flow.",
+    "fact": "The dimension of Chezys coefficient C in [MLT] notation system is L 1/2 T – 1.",
     "verification": {
       "status": "verified"
     }
@@ -850,7 +850,7 @@
   {
     "id": "QR-ACiE03-107",
     "chapter": "ACiE03",
-    "fact": "The dimension of Chezys coefficient C in [MLT] notation system is L 1/2 T –",
+    "fact": "When a block of ice floating on water in a container melts, the level of water in the container is remains the same.",
     "verification": {
       "status": "verified"
     }
@@ -858,7 +858,7 @@
   {
     "id": "QR-ACiE03-108",
     "chapter": "ACiE03",
-    "fact": "When a block of ice floating on water in a container melts, the level of water in the container is remains the same.",
+    "fact": "The relationship between time of concentration (T c), inlet time (T e) and time of travel (T f) is T c = T e + T f.",
     "verification": {
       "status": "verified"
     }
@@ -866,7 +866,7 @@
   {
     "id": "QR-ACiE03-109",
     "chapter": "ACiE03",
-    "fact": "The relationship between time of concentration (T c), inlet time (T e) and time of travel (T f) is T c = T e + T f.",
+    "fact": "The instrument used to measure the gas pressure on the pipe is U - tube manometer.",
     "verification": {
       "status": "verified"
     }
@@ -874,7 +874,7 @@
   {
     "id": "QR-ACiE03-110",
     "chapter": "ACiE03",
-    "fact": "The instrument used to measure the gas pressure on the pipe is U - tube manometer.",
+    "fact": "The construction of impounding reservoir is required when the rate of flow in the stream, in dry season is less than the demand.",
     "verification": {
       "status": "verified"
     }
@@ -882,7 +882,7 @@
   {
     "id": "QR-ACiE03-111",
     "chapter": "ACiE03",
-    "fact": "The construction of impounding reservoir is required when the rate of flow in the stream, in dry season is less than the demand.",
+    "fact": "For a given discharge in an open cha nnel, the two depths with the same specific energy are alternate depths.",
     "verification": {
       "status": "verified"
     }
@@ -890,7 +890,7 @@
   {
     "id": "QR-ACiE03-112",
     "chapter": "ACiE03",
-    "fact": "For a given discharge in an open cha nnel, the two depths with the same specific energy are alternate depths.",
+    "fact": "The head loss at the exit of the pipe isv 2 2g.",
     "verification": {
       "status": "verified"
     }
@@ -898,7 +898,7 @@
   {
     "id": "QR-ACiE03-113",
     "chapter": "ACiE03",
-    "fact": "The head loss at the exit of the pipe isv 2 2g.",
+    "fact": "When the coefficient of rugosity is increased from 0.01 to 0.02, the gradient of a pipe of a given diameter to carry the same flow at the same velocity should be increased by 4 times.",
     "verification": {
       "status": "verified"
     }
@@ -906,7 +906,7 @@
   {
     "id": "QR-ACiE03-114",
     "chapter": "ACiE03",
-    "fact": "When the coefficient of rugosity is increased from 0.01 to 0.02, the gradient of a pipe of a given diameter to carry the same flow at the same velocity should be increased by 4 times.",
+    "fact": "In a rectangular channel section, if the critical depth is 2.0 m, the specific energy at critical depth is 3.0",
     "verification": {
       "status": "verified"
     }
@@ -914,7 +914,7 @@
   {
     "id": "QR-ACiE03-115",
     "chapter": "ACiE03",
-    "fact": "In a rectangular channel section, if the critical depth is 2.0 m, the specific energy at critical depth is 3.0",
+    "fact": "The superior type of entrance of sluiceway in the dam structure is bell mouth.",
     "verification": {
       "status": "verified"
     }
@@ -922,7 +922,7 @@
   {
     "id": "QR-ACiE03-116",
     "chapter": "ACiE03",
-    "fact": "The superior type of entrance of sluiceway in the dam structure is bell mouth.",
+    "fact": "If the relationship between the shear stress and the rate of deformation is given by  = 0.05       du dy 2, then the types of fluid is dilatant fluid.",
     "verification": {
       "status": "verified"
     }
@@ -930,7 +930,7 @@
   {
     "id": "QR-ACiE03-117",
     "chapter": "ACiE03",
-    "fact": "If the relationship between the shear stress and the rate of deformation is given by  = 0.05       du dy 2, then the types of fluid is dilatant fluid.",
+    "fact": "The depth having same specific energy in the channel are called alternate depth.",
     "verification": {
       "status": "verified"
     }
@@ -938,7 +938,7 @@
   {
     "id": "QR-ACiE03-118",
     "chapter": "ACiE03",
-    "fact": "The depth having same specific energy in the channel are called alternate depth.",
+    "fact": "The value of bulk modulus for an incompressible liquid is infinite.",
     "verification": {
       "status": "verified"
     }
@@ -946,7 +946,7 @@
   {
     "id": "QR-ACiE03-119",
     "chapter": "ACiE03",
-    "fact": "The value of bulk modulus for an incompressible liquid is infinite.",
+    "fact": "In a M1 profile type of gradually varied flow, y > y 0 > y c.",
     "verification": {
       "status": "verified"
     }
@@ -954,7 +954,7 @@
   {
     "id": "QR-ACiE03-120",
     "chapter": "ACiE03",
-    "fact": "In a M1 profile type of gradually varied flow, y > y 0 > y c.",
+    "fact": "For an inclined plane submerged in a liquid, the center of pressure on one side of the plane will be below the center of gravity.",
     "verification": {
       "status": "verified"
     }
@@ -962,7 +962,7 @@
   {
     "id": "QR-ACiE03-121",
     "chapter": "ACiE03",
-    "fact": "For an inclined plane submerged in a liquid, the center of pressure on one side of the plane will be below the center of gravity.",
+    "fact": "If a capillary tube is dipped into liquid and level of the liquid inside and outside are same, then the angle of contact is 90°.",
     "verification": {
       "status": "verified"
     }
@@ -970,7 +970,7 @@
   {
     "id": "QR-ACiE03-122",
     "chapter": "ACiE03",
-    "fact": "If a capillary tube is dipped into liquid and level of the liquid inside and outside are same, then the angle of contact is 90°.",
+    "fact": "When water is flowing through a frustum of a cone at a constant rate, the flow is non - uniform and steady.",
     "verification": {
       "status": "verified"
     }
@@ -978,7 +978,7 @@
   {
     "id": "QR-ACiE03-123",
     "chapter": "ACiE03",
-    "fact": "When water is flowing through a frustum of a cone at a constant rate, the flow is non - uniform and steady.",
+    "fact": "The total head is equal to velocity head + pressure head + datum head.",
     "verification": {
       "status": "verified"
     }
@@ -986,7 +986,7 @@
   {
     "id": "QR-ACiE03-124",
     "chapter": "ACiE03",
-    "fact": "The total head is equal to velocity head + pressure head + datum head.",
+    "fact": "Shield diagram is used to determine the critical shear for sediment transport.",
     "verification": {
       "status": "verified"
     }
@@ -994,7 +994,7 @@
   {
     "id": "QR-ACiE03-125",
     "chapter": "ACiE03",
-    "fact": "Shield diagram is used to determine the critical shear for sediment transport.",
+    "fact": "The most efficient channel section is semi - circular.",
     "verification": {
       "status": "verified"
     }
@@ -1002,7 +1002,7 @@
   {
     "id": "QR-ACiE03-126",
     "chapter": "ACiE03",
-    "fact": "The most efficient channel section is semi - circular.",
+    "fact": "The solubility curve 's depends on the temperature.",
     "verification": {
       "status": "verified"
     }
@@ -1010,7 +1010,7 @@
   {
     "id": "QR-ACiE03-127",
     "chapter": "ACiE03",
-    "fact": "The solubility curve 's depends on the temperature.",
+    "fact": "If the weights of a body on the moon's surface is 120N, the weight of the same object on the Earth's surface is 720 N.",
     "verification": {
       "status": "verified"
     }
@@ -1018,7 +1018,7 @@
   {
     "id": "QR-ACiE03-128",
     "chapter": "ACiE03",
-    "fact": "If the weights of a body on the moon's surface is 120N, the weight of the same object on the Earth's surface is 720 N.",
+    "fact": "An object weighs 50 Nin water and 80N in a oil whose specific gravity is 0.8 then its volume in liters will be 15.3 liters. [W = 50 +  V = 80 + 0.8  V]",
     "verification": {
       "status": "verified"
     }
@@ -1026,7 +1026,7 @@
   {
     "id": "QR-ACiE03-129",
     "chapter": "ACiE03",
-    "fact": "An object weighs 50 Nin water and 80N in a oil whose specific gravity is 0.8 then its volume in liters will be 15.3 liters. [W = 50 +  V = 80 + 0.8  V]",
+    "fact": "When a spherical ball drops through a fluid, it experiences buoyancy in vertical upward direction.",
     "verification": {
       "status": "verified"
     }
@@ -1034,7 +1034,7 @@
   {
     "id": "QR-ACiE03-130",
     "chapter": "ACiE03",
-    "fact": "When a spherical ball drops through a fluid, it experiences buoyancy in vertical upward direction.",
+    "fact": "As the stone sinks deeper into the lake, the up thrust (buoyant force) acting on it remains constant.",
     "verification": {
       "status": "verified"
     }
@@ -1042,7 +1042,7 @@
   {
     "id": "QR-ACiE03-131",
     "chapter": "ACiE03",
-    "fact": "As the stone sinks deeper into the lake, the up thrust (buoyant force) acting on it remains constant.",
+    "fact": "In case of flow through the diverging cone, it is possible for flow to occur low to high pressure.",
     "verification": {
       "status": "verified"
     }
@@ -1050,7 +1050,7 @@
   {
     "id": "QR-ACiE03-132",
     "chapter": "ACiE03",
-    "fact": "In case of flow through the diverging cone, it is possible for flow to occur low to high pressure.",
+    "fact": "The manning's rugosity coefficient (n) for smooth finished concrete is 0.011 to 0.013.",
     "verification": {
       "status": "verified"
     }
@@ -1058,7 +1058,7 @@
   {
     "id": "QR-ACiE03-133",
     "chapter": "ACiE03",
-    "fact": "The manning's rugosity coefficient (n) for smooth finished concrete is 0.011 to 0.013.",
+    "fact": "The rainfall intensity (I) formula for storm durationt < 20 minutes is I = 760 t + 10.",
     "verification": {
       "status": "verified"
     }
@@ -1066,7 +1066,7 @@
   {
     "id": "QR-ACiE03-134",
     "chapter": "ACiE03",
-    "fact": "The rainfall intensity (I) formula for storm durationt < 20 minutes is I = 760 t + 10.",
+    "fact": "The ratio of maximum velocity to average velocity of viscous fluid through a circular pipe is 2.",
     "verification": {
       "status": "verified"
     }
@@ -1074,7 +1074,7 @@
   {
     "id": "QR-ACiE03-135",
     "chapter": "ACiE03",
-    "fact": "The ratio of maximum velocity to average velocity of viscous fluid through a circular pipe is",
+    "fact": "In a fully rough turbulent pipe flow, the Darcy friction factor (f) depends on both Reynolds number and relative roughness.",
     "verification": {
       "status": "verified"
     }
@@ -1082,7 +1082,7 @@
   {
     "id": "QR-ACiE03-136",
     "chapter": "ACiE03",
-    "fact": "In a fully rough turbulent pipe flow, the Darcy friction factor (f) depends on both Reynolds number and relative roughness.",
+    "fact": "The net force acting on a fluid body which is responsible to produce on acceleration is called Inertial force.",
     "verification": {
       "status": "verified"
     }
@@ -1090,7 +1090,7 @@
   {
     "id": "QR-ACiE03-137",
     "chapter": "ACiE03",
-    "fact": "The net force acting on a fluid body which is responsible to produce on acceleration is called Inertial force.",
+    "fact": "For the given discharge of Q = 35 m 3 /s and velocity V = 1.4 m/s, the diameter of the pipe is 5.64 m.",
     "verification": {
       "status": "verified"
     }
@@ -1098,7 +1098,7 @@
   {
     "id": "QR-ACiE03-138",
     "chapter": "ACiE03",
-    "fact": "For the given discharge of Q = 35 m 3 /s and velocity V = 1.4 m/s, the diameter of the pipe is 5.64 m.",
+    "fact": "The mathematical expression for the incompressibility condition of a fluid flow is ∇ ·u = 0",
     "verification": {
       "status": "verified"
     }
@@ -1106,7 +1106,7 @@
   {
     "id": "QR-ACiE03-139",
     "chapter": "ACiE03",
-    "fact": "The mathematical expression for the incompressibility condition of a fluid flow is ∇ ·u = 0",
+    "fact": "In a 3D Cartesian coordinate system, the condition written in terms of velocity components (u, v, w) is ∂u ∂x + ∂v ∂y + ∂w ∂z = 0.",
     "verification": {
       "status": "verified"
     }
@@ -1114,7 +1114,7 @@
   {
     "id": "QR-ACiE03-140",
     "chapter": "ACiE03",
-    "fact": "In a 3D Cartesian coordinate system, the condition written in terms of velocity components (u, v, w) is ∂u ∂x + ∂v ∂y + ∂w ∂z = 0.",
+    "fact": "A piece of ice is floating in a glass vessel filled with water. The level of water in the vessel remains the change when the ice melts.",
     "verification": {
       "status": "verified"
     }
@@ -1122,7 +1122,7 @@
   {
     "id": "QR-ACiE03-141",
     "chapter": "ACiE03",
-    "fact": "A piece of ice is floating in a glass vessel filled with water. The level of water in the vessel remains the change when the ice melts.",
+    "fact": "Discharge loss at the end of an open channel spillway and butterfly valve is KV 2 2g.",
     "verification": {
       "status": "verified"
     }
@@ -1130,7 +1130,7 @@
   {
     "id": "QR-ACiE03-142",
     "chapter": "ACiE03",
-    "fact": "Discharge loss at the end of an open channel spillway and butterfly valve is KV 2 2g.",
+    "fact": "Bed load are the sediments that are rolling, sliding and bouncing.",
     "verification": {
       "status": "verified"
     }
@@ -1138,21 +1138,13 @@
   {
     "id": "QR-ACiE03-143",
     "chapter": "ACiE03",
-    "fact": "Bed load are the sediments that are rolling, sliding and bouncing.",
-    "verification": {
-      "status": "verified"
-    }
-  },
-  {
-    "id": "QR-ACiE03-144",
-    "chapter": "ACiE03",
     "fact": "Water flows steadily down in a vertical pipe of constant cross - section. Neglecting friction according to Bernoulli's equation, pressure decreases with height.",
     "verification": {
       "status": "verified"
     }
   },
   {
-    "id": "QR-ACiE03-145",
+    "id": "QR-ACiE03-144",
     "chapter": "ACiE03",
     "fact": "Coefficient of friction in laminar flow is 16 R e.",
     "verification": {
