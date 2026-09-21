@@ -19,10 +19,6 @@ export default function QuickRevisionPage() {
   }));
 
   const total = chapters.reduce((n, c) => n + c.cards.length, 0);
-  const corrections = chapters.reduce(
-    (n, c) => n + c.cards.filter((k) => k.verification?.status === 'key-corrected').length,
-    0,
-  );
   const ready = chapters.filter((c) => c.cards.length > 0);
 
   return (
@@ -36,15 +32,6 @@ export default function QuickRevisionPage() {
         </p>
         <p className="mt-3 text-sm text-muted">
           {total} cards across {ready.length} of {chapters.length} chapters.
-          {corrections > 0 && (
-            <>
-              {' '}
-              <span style={{ color: 'var(--accent)' }}>
-                {corrections} correct a widely-circulated error
-              </span>{' '}
-              — those are marked.
-            </>
-          )}
         </p>
       </header>
 
@@ -88,12 +75,10 @@ export default function QuickRevisionPage() {
 
             <ol className="mt-4 space-y-2.5">
               {chapter.cards.map((card, i) => {
-                const corrected = card.verification?.status === 'key-corrected';
                 return (
                   <li
                     key={card.id}
                     className="card flex gap-3 p-4"
-                    style={corrected ? { borderColor: 'var(--accent)' } : undefined}
                   >
                     <span
                       aria-hidden
@@ -112,15 +97,6 @@ export default function QuickRevisionPage() {
                           className="prose-exam mt-1.5 text-sm text-muted [&>p:first-child]:mt-0 [&>p:last-child]:mb-0"
                           dangerouslySetInnerHTML={{ __html: renderMarkdown(card.detail) }}
                         />
-                      )}
-                      {corrected && card.verification?.notes && (
-                        <p
-                          className="mt-2 rounded-lg p-2.5 text-xs"
-                          style={{ background: 'var(--accent-soft)' }}
-                        >
-                          <strong className="text-strong">Corrected: </strong>
-                          {card.verification.notes}
-                        </p>
                       )}
                     </div>
                     <span className="shrink-0 text-xs text-muted">{card.subchapter}</span>

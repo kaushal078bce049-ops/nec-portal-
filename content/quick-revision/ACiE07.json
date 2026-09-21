@@ -2,9 +2,7 @@
   {
     "id": "QR-ACiE07-001",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0701",
-    "fact": "**Duty** is the area irrigated per unit of continuous discharge (ha/cumec); **Delta** is the total depth of water applied (cm).",
-    "detail": "**Δ = 8.64 B / D**, with B the base period in days and D the duty. A **higher duty is better** — more land irrigated per cumec. Note duty and delta are **inversely** related.",
+    "fact": "The ratio of base period to delta is duty.",
     "verification": {
       "status": "verified"
     }
@@ -12,9 +10,7 @@
   {
     "id": "QR-ACiE07-002",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0701",
-    "fact": "**Base period is slightly MORE than the crop period.**",
-    "detail": "The **crop period** runs from sowing to harvest; the **base period** from the first watering to the last, which begins a little before sowing and ends a little before harvest — but conventionally the base period is taken as slightly longer. They are often treated as equal in problems.",
+    "fact": "The crop period is time period that elapses from the instant of its sowing to its harvesting.",
     "verification": {
       "status": "verified"
     }
@@ -22,9 +18,7 @@
   {
     "id": "QR-ACiE07-003",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0701",
-    "fact": "**Consumptive use (evapotranspiration) = evaporation + transpiration**; estimated by **Blaney–Criddle**, **Penman**, or **Hargreaves**.",
-    "detail": "**Penman** is the most rigorous (energy balance + aerodynamic term). Crop water requirement **CWR = ET_crop − effective rainfall**, and **ET_crop = K_c × ET_0** with K_c the crop coefficient, which varies through the growth stages.",
+    "fact": "Rice has highest water resistance.",
     "verification": {
       "status": "verified"
     }
@@ -32,9 +26,7 @@
   {
     "id": "QR-ACiE07-004",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0701",
-    "fact": "Irrigation efficiencies: **conveyance**, **application**, **use**, and **overall = product of the components**.",
-    "detail": "Typical: conveyance **60–80%** for an unlined canal, 85–95% lined; application **60% surface**, **75% sprinkler**, **90% drip**. Because they **multiply**, overall efficiency in a traditional surface system is often only **35–45%**.",
+    "fact": "Duty is maximum at on the field.",
     "verification": {
       "status": "verified"
     }
@@ -42,9 +34,7 @@
   {
     "id": "QR-ACiE07-005",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0701",
-    "fact": "**Field capacity** is the water held after gravity drainage; **permanent wilting point** is where the plant can no longer extract it.",
-    "detail": "**Available moisture = field capacity − wilting point**, and irrigation is normally applied when about **50%** of it has been used. **Readily available moisture** is that fraction. Depth to apply **d = γ_d·D·(FC − present MC)/γ_w**.",
+    "fact": "Sugarcane crops requires maximum water per hectare for production.",
     "verification": {
       "status": "verified"
     }
@@ -52,9 +42,7 @@
   {
     "id": "QR-ACiE07-006",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0701",
-    "fact": "**Kor watering** is the first watering after the plant has grown a few centimetres; **kor depth** is its depth and **kor period** its duration.",
-    "detail": "The kor period is the **most critical** demand, so the canal capacity is fixed by it: **outlet discharge factor = kor depth ÷ kor period**. Kor depth ≈ 13.5 cm for rice, 13.5 for wheat.",
+    "fact": "Gravity water which flows under gravity.",
     "verification": {
       "status": "verified"
     }
@@ -62,9 +50,7 @@
   {
     "id": "QR-ACiE07-007",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0702",
-    "fact": "**Kennedy's** theory uses the **critical velocity V_0 = 0.55 m y^0.64**; **Lacey's** uses the **silt factor f** and a wetted perimeter relation.",
-    "detail": "**Kennedy** ignores the channel **width** (so it needs an assumed B/D ratio and gives no unique section); **Lacey** gives a **unique regime section** from Q and f. Lacey: **P = 4.75√Q**, **R = 0.48(Q/f)^(1/3)**, **S = f^(5/3)/(3340 Q^(1/6))**.",
+    "fact": "Capillary water is usable to plant.",
     "verification": {
       "status": "verified"
     }
@@ -72,9 +58,7 @@
   {
     "id": "QR-ACiE07-008",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0702",
-    "fact": "**Lacey's silt factor f = 1.76√m**, with m the mean particle size in mm.",
-    "detail": "f = 1.0 for standard silt (m = 0.323 mm). A **larger f means coarser material**, hence a steeper regime slope. Lacey's \"regime\" means the channel has adjusted its section and slope so it neither silts nor scours.",
+    "fact": "Water available for plants is FC - PWP.",
     "verification": {
       "status": "verified"
     }
@@ -82,9 +66,7 @@
   {
     "id": "QR-ACiE07-009",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0702",
-    "fact": "Canal lining reduces **seepage**, prevents **waterlogging**, stops **weed growth**, allows a **higher velocity** and a **smaller section**.",
-    "detail": "Types: cement concrete (best, most durable), brick, stone, boulder, shotcrete, and **compacted clay or LDPE membrane** (cheapest). Lining is justified where **seepage loss × water value** exceeds the annualised lining cost.",
+    "fact": "Weight of capillary water is holded by surface tension.",
     "verification": {
       "status": "verified"
     }
@@ -92,9 +74,7 @@
   {
     "id": "QR-ACiE07-010",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0702",
-    "fact": "Canal alignment types: **ridge (watershed) canal**, **contour canal**, **side-slope canal**.",
-    "detail": "A **ridge canal** irrigates **both sides** by gravity and crosses **no drainage** — the ideal, used in the plains. A **contour canal** irrigates **one side only** and must cross every drain, so it needs many **cross-drainage works** — the usual case in hill country.",
+    "fact": "The field capacity of a soil depends upon capillary tension in soil and porosity of soil.",
     "verification": {
       "status": "verified"
     }
@@ -102,9 +82,7 @@
   {
     "id": "QR-ACiE07-011",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0702",
-    "fact": "A **canal fall** is provided where the **ground slope is steeper than the designed canal bed slope**.",
-    "detail": "Otherwise the canal would either run in ever-deeper cutting or exceed its permissible velocity. Types: ogee, rapid, stepped, trapezoidal notch, well type, **Sarda type**, glacis. Falls are often combined with a **regulator** or a **bridge** to share the cost.",
+    "fact": "Available moisture maybe defined as the difference in water content of the soil between field capacity and permanent wilting.",
     "verification": {
       "status": "verified"
     }
@@ -112,9 +90,7 @@
   {
     "id": "QR-ACiE07-012",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0703",
-    "fact": "A **weir** has a raised crest and mainly obstructs flow; a **barrage** has a low crest with **gates** doing most of the ponding.",
-    "detail": "A **barrage gives better flood control and silt regulation** and a shorter afflux, at higher cost. Both are **diversion** headworks — they do **not store** water, unlike a **dam**.",
+    "fact": "The consumptive use in terms of losses are evaporation and transpiration.",
     "verification": {
       "status": "verified"
     }
@@ -122,9 +98,7 @@
   {
     "id": "QR-ACiE07-013",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0703",
-    "fact": "Components of a diversion headwork: **weir/barrage, divide wall, fish ladder, canal head regulator, under-sluices, silt excluder, river training works**.",
-    "detail": "The **divide wall** separates the under-sluice pocket from the weir bay, creating still water in front of the head regulator so silt settles out. The **fish ladder** maintains migration — a real requirement on Nepal's rivers.",
+    "fact": "Farm pond is used for water storage.",
     "verification": {
       "status": "verified"
     }
@@ -132,9 +106,7 @@
   {
     "id": "QR-ACiE07-014",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0703",
-    "fact": "A **silt excluder** is in the **river bed before the regulator** (excludes silt from entering); a **silt ejector** is **in the canal** (ejects silt already admitted).",
-    "detail": "The excluder works on the principle that the **bottom layer carries most of the sediment**, and diverts that layer downstream through tunnels. Prevention before cure: an excluder is preferable, an ejector is the fallback.",
+    "fact": "Irrigation interval means frequency of irrigation.",
     "verification": {
       "status": "verified"
     }
@@ -142,9 +114,7 @@
   {
     "id": "QR-ACiE07-015",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0703",
-    "fact": "**Bligh's creep theory** assumes the creep length is the sum of horizontal and vertical paths, all equally effective; **Lane's** weights the horizontal at **⅓**.",
-    "detail": "**Khosla's theory** superseded both, using **potential flow theory** and showing that the **exit gradient** at the downstream end and the **outer faces of the end sheet piles** are what matter — not the total creep length. Intermediate sheet piles are largely ineffective.",
+    "fact": "Irrigation interval is determined by field capacity to maximum crop water requirement.",
     "verification": {
       "status": "verified"
     }
@@ -152,9 +122,7 @@
   {
     "id": "QR-ACiE07-016",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0703",
-    "fact": "**Piping** is guarded against by controlling the **exit gradient**; **uplift** by providing adequate **floor thickness**.",
-    "detail": "Safe exit gradients: **1/5–1/6 shingle**, **1/6–1/7 coarse sand**, **1/7 fine sand**. Floor thickness **t = (h − t)/(G − 1)** from uplift, and an **inverted filter** with launching apron protects the downstream exit.",
+    "fact": "Balanced depth of cutting of canal is where volume of cutting is equal to volume of filling.",
     "verification": {
       "status": "verified"
     }
@@ -162,9 +130,7 @@
   {
     "id": "QR-ACiE07-017",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0704",
-    "fact": "River training works: **guide banks (Bell's bunds)**, **spurs/groynes**, **marginal embankments (levees)**, **revetment/pitching**, **cut-offs**.",
-    "detail": "**Guide banks** confine and guide the river through a bridge or barrage waterway. A spur that **points upstream (repelling)** pushes flow away from the bank; one **pointing downstream (attracting)** draws it in. Repelling spurs are the usual bank-protection choice.",
+    "fact": "The critical velocity ratio was introduced in Kennedy's equation of critical velocity to take into account the effect of silt grade.",
     "verification": {
       "status": "verified"
     }
@@ -172,9 +138,7 @@
   {
     "id": "QR-ACiE07-018",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0704",
-    "fact": "**Lacey's normal scour depth R = 0.473(Q/f)^(1/3)** for a river with unrestricted width.",
-    "detail": "Maximum scour is a multiple of R: **1.27R at a nose of a guide bank**, **1.7–2.0R at the upstream curved head**, 1.5R at a bridge pier nose. Foundations must be taken **below the maximum scour depth**, plus a grip length.",
+    "fact": "The silting in the channel causes decrease in discharge.",
     "verification": {
       "status": "verified"
     }
@@ -182,9 +146,7 @@
   {
     "id": "QR-ACiE07-019",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0704",
-    "fact": "**Meandering** parameters: **meander length**, **meander belt**, **sinuosity = curved length ÷ straight length**.",
-    "detail": "A river with **sinuosity > 1.5** is classed as meandering. A meander migrates until a **cut-off** forms an **ox-bow lake**. Nepal's Terai rivers are highly braided and mobile, which is why **river training is central** to any structure on them.",
+    "fact": "Aggrading river/channel is silting.",
     "verification": {
       "status": "verified"
     }
@@ -192,9 +154,7 @@
   {
     "id": "QR-ACiE07-020",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0704",
-    "fact": "**Gabions** are stone-filled wire crates — flexible, permeable, and the standard bank protection in Nepal.",
-    "detail": "Their virtues in Himalayan conditions: built from **locally available boulders**, **no cement or skilled labour**, **flexible** enough to tolerate settlement and scour, and **permeable** so pore pressure does not build behind them. The weakness is **wire corrosion and abrasion**.",
+    "fact": "According to Lacey, depth of scour in a river depends upon the straightness of the reach. If 'D' i s the depth of scour in regime flow in a right angled bend, then it is equal to 2.00 D.",
     "verification": {
       "status": "verified"
     }
@@ -202,9 +162,7 @@
   {
     "id": "QR-ACiE07-021",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0705",
-    "fact": "**Cross-drainage works**: **aqueduct** (canal over drain), **super-passage** (drain over canal), **level crossing**, **inlet-outlet**.",
-    "detail": "The discriminator is simply **which one goes on top**. A **syphon aqueduct** is an aqueduct where the **drain flows under pressure** beneath the canal trough; a **canal syphon** is where the **canal** passes under the drain in a barrel.",
+    "fact": "Canal normally used for diversion of flood water of a river is inundation canal.",
     "verification": {
       "status": "verified"
     }
@@ -212,9 +170,7 @@
   {
     "id": "QR-ACiE07-022",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0705",
-    "fact": "A **canal escape** discharges **surplus water out of the canal**; a **regulator** controls the discharge into it.",
-    "detail": "Escapes protect the canal from **breach** when a downstream outlet is closed or rainfall makes irrigation unnecessary. Types: **tail escape**, **surplus water escape**, **scouring escape** (which also flushes silt).",
+    "fact": "Due to lined channel section is command area increases.",
     "verification": {
       "status": "verified"
     }
@@ -222,9 +178,7 @@
   {
     "id": "QR-ACiE07-023",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0705",
-    "fact": "A **canal outlet (module)** delivers water to a watercourse. **Flexibility = (dq/q)/(dQ/Q)**.",
-    "detail": "**Rigid (non-modular)** outlets vary with both levels; **semi-modular** vary only with the parent canal level; **modular (rigid)** deliver a **constant discharge** regardless of either. **Proportional** outlets have flexibility = 1, which distributes shortage fairly among farmers.",
+    "fact": "The purpose of providing free board is Stability against overtopping and safety against frost crack.",
     "verification": {
       "status": "verified"
     }
@@ -232,9 +186,7 @@
   {
     "id": "QR-ACiE07-024",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0705",
-    "fact": "A **cross regulator** is downstream of an offtake; a **head regulator** controls the offtaking channel itself.",
-    "detail": "The cross regulator **raises the water level upstream** so the offtake can draw its full supply even at low parent-canal discharge. The two are almost always built as a pair at a distributary head.",
+    "fact": "Side slope canal does not need cross drainage structures.",
     "verification": {
       "status": "verified"
     }
@@ -242,9 +194,7 @@
   {
     "id": "QR-ACiE07-025",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0706",
-    "fact": "**Waterlogging** is caused by **over-irrigation with inadequate drainage** — the water table rises into the root zone.",
-    "detail": "Consequences: **root aeration lost**, **salinity from capillary rise and evaporation**, lower soil temperature, weed growth, and reduced yield. The critical water table depth is about **1.5–2 m** below ground.",
+    "fact": "Canal irrigation is generally preferred in alluvial canal.",
     "verification": {
       "status": "verified"
     }
@@ -252,9 +202,7 @@
   {
     "id": "QR-ACiE07-026",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0706",
-    "fact": "Remedies for waterlogging: **lining canals**, **surface and subsurface drains**, **conjunctive use of groundwater**, **crop and irrigation scheduling**.",
-    "detail": "**Conjunctive use** is elegant: pumping groundwater for irrigation simultaneously **lowers the water table** and supplies water, addressing cause and need together. **Vertical drainage** (tubewells) suits deep aquifers; **horizontal (tile) drains** shallow ones.",
+    "fact": "The placement of intake is not optimal when i t is placed in natural channel and navigation channel.",
     "verification": {
       "status": "verified"
     }
@@ -262,9 +210,7 @@
   {
     "id": "QR-ACiE07-027",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0706",
-    "fact": "**Salinity** is measured by **electrical conductivity (EC)**; **sodicity** by the **sodium adsorption ratio (SAR)** and ESP.",
-    "detail": "**Saline** soil (high EC, low SAR) is reclaimed by **leaching** with good-quality water plus drainage. **Sodic/alkali** soil (high SAR) needs a **chemical amendment — gypsum** — because leaching alone would disperse the clay and destroy its structure.",
+    "fact": "Design canal discharge is based on maximum irrigation water requirement.",
     "verification": {
       "status": "verified"
     }
@@ -272,9 +218,7 @@
   {
     "id": "QR-ACiE07-028",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0706",
-    "fact": "**Tile drain spacing (Hooghoudt's equation)** depends on **permeability, drain depth, water table height and drainable porosity**.",
-    "detail": "S² = 8KDh/q + 4Kh²/q. **Higher permeability allows wider spacing** — a sandy soil needs far fewer drains than a clay. Drains are laid with a **gravel envelope or geotextile filter** to prevent clogging by fines.",
+    "fact": "Main canal is not considered to be used for irrigation.",
     "verification": {
       "status": "verified"
     }
@@ -282,9 +226,7 @@
   {
     "id": "QR-ACiE07-029",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0701",
-    "fact": "**Overlap allowance** and **cropping intensity**: intensity = (area cropped in a year ÷ culturable command area) × 100.",
-    "detail": "**GCA** gross command area; **CCA** culturable command area; **NCA** net. Intensity can exceed 100% where **two or three crops** a year are grown — the object of most irrigation investment.",
+    "fact": "The capacity of irrigation canal is determined by kor water depth (Kharif).",
     "verification": {
       "status": "verified"
     }
@@ -292,9 +234,7 @@
   {
     "id": "QR-ACiE07-030",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0702",
-    "fact": "**Free board** on a canal: **0.3 m for small canals up to 0.75 m for large ones**, above the full supply level.",
-    "detail": "Its purpose is to contain **wave action, surges from gate operation, and the uncertainty of the design flow** — a safety margin, not a hydraulic requirement. Side slopes: **1:1 to 1.5:1 in cutting**, 1.5:1 to 2:1 in filling.",
+    "fact": "The problem in Nepal for artificial channels is formation of Alluvial Soil.",
     "verification": {
       "status": "verified"
     }
@@ -302,9 +242,7 @@
   {
     "id": "QR-ACiE07-031",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0703",
-    "fact": "**Afflux** is the rise in upstream water level caused by an obstruction such as a weir or bridge.",
-    "detail": "It determines the **height of marginal embankments and the extent of upstream submergence**. **Molesworth's formula** for bridge afflux. A **barrage produces less afflux than a weir** for the same pond level, which is one of its chief advantages.",
+    "fact": "Water in canal is based on gross irrigation requirement.",
     "verification": {
       "status": "verified"
     }
@@ -312,9 +250,7 @@
   {
     "id": "QR-ACiE07-032",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0704",
-    "fact": "**Launching apron** is a flexible stone apron that **launches itself down the scour slope**, protecting the toe.",
-    "detail": "Designed on a slope of **2:1** with a thickness allowing for the launched profile, its stone quantity is computed for the anticipated scour depth. It is the standard toe protection for guide banks and spurs.",
+    "fact": "The following conditions is NOT applicable to a true regime is channel can be scoured more easily than it can be deposited.",
     "verification": {
       "status": "verified"
     }
@@ -322,9 +258,7 @@
   {
     "id": "QR-ACiE07-033",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0705",
-    "fact": "A **trash rack** prevents **floating debris and large objects** from entering the waterway.",
-    "detail": "Bar spacing is set by the smallest passage downstream (turbine, pump, pipe). Approach velocity is kept **low (≈1 m/s)** so debris does not pin against the bars, and head loss rises sharply as it clogs — hence raking is a routine operating task.",
+    "fact": "The structure provided to discharge extra water from canal is canal escape.",
     "verification": {
       "status": "verified"
     }
@@ -332,9 +266,7 @@
   {
     "id": "QR-ACiE07-034",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0706",
-    "fact": "**Surface drainage** removes **excess water from the ground surface**; **subsurface drainage** lowers the **water table**.",
-    "detail": "Surface drains are open channels sized by the **rational method** for a design storm; subsurface drains are buried perforated pipes spaced by Hooghoudt's equation. A field usually needs **both** — they solve different problems.",
+    "fact": "The Lacey's regime velocity is proportional to R 2/3 S 1/3.",
     "verification": {
       "status": "verified"
     }
@@ -342,9 +274,7 @@
   {
     "id": "QR-ACiE07-035",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0701",
-    "fact": "Methods of irrigation: **flooding, furrow, border, basin, check** (surface); **sprinkler** and **drip** (pressurised).",
-    "detail": "**Drip** has the highest efficiency (**~90%**) and suits **row crops, orchards, and scarce water**; its cost is **capital and clogging**. **Sprinkler** suits undulating land and sandy soil. Surface methods need **land levelling** to be efficient at all.",
+    "fact": "The hydraulic structure allows drainage to mix with the canal in canal inlet.",
     "verification": {
       "status": "verified"
     }
@@ -352,9 +282,7 @@
   {
     "id": "QR-ACiE07-036",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0702",
-    "fact": "**Balancing depth** is the cutting depth at which the excavated volume exactly equals the embankment required.",
-    "detail": "It minimises cost by eliminating both **borrow and spoil disposal** — a purely economic optimum, found by equating the cut and fill areas of the cross-section. A standard numerical question in canal design.",
+    "fact": "The sediments that are rolling, sliding and bouncing is called bed load.",
     "verification": {
       "status": "verified"
     }
@@ -362,9 +290,7 @@
   {
     "id": "QR-ACiE07-037",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0703",
-    "fact": "Weir types by construction: **vertical drop (masonry)**, **rockfill (dry stone)**, **concrete glacis (sloping)**.",
-    "detail": "The **sloping glacis weir** is the modern choice because a **hydraulic jump forms on the glacis**, dissipating energy in a controlled and predictable position. The vertical drop weir suits a firm rock or clay foundation; rockfill suits abundant stone and a wide river.",
+    "fact": "If Bis the formation width and depthy with a slope of s: 1 then the area of cross section is Bd + sd",
     "verification": {
       "status": "verified"
     }
@@ -372,9 +298,7 @@
   {
     "id": "QR-ACiE07-038",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0706",
-    "fact": "**Leaching requirement LR = depth of drainage water ÷ depth of applied water = EC_iw/EC_dw.**",
-    "detail": "Extra water must be applied **beyond crop need** to carry salts below the root zone. It only works with **adequate drainage** — leaching without drainage simply raises the water table and makes salinity worse.",
+    "fact": "If an irrigation channel has side slope of 1: S, width B, depthy and length L then total area of side slope is 2L × y 1 + S",
     "verification": {
       "status": "verified"
     }
@@ -382,9 +306,7 @@
   {
     "id": "QR-ACiE07-039",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0704",
-    "fact": "**Bank erosion** is countered by **revetment (armouring the bank)** and **spurs (deflecting the flow)**.",
-    "detail": "Revetment is **passive** and protects only where it is placed; spurs are **active** and move the attack away from the bank altogether, also encouraging **siltation** in the pockets between them. Spurs are cheaper per kilometre but need careful spacing.",
+    "fact": "Garret's diagrams are based on Kennedy's theory.",
     "verification": {
       "status": "verified"
     }
@@ -392,9 +314,727 @@
   {
     "id": "QR-ACiE07-040",
     "chapter": "ACiE07",
-    "subchapter": "ACiE0705",
-    "fact": "In choosing between an **aqueduct** and a **super-passage**, the **relative bed levels of canal and drain** decide.",
-    "detail": "If the **canal bed is above the drain HFL**, an **aqueduct** is natural. If the **drain bed is above the canal FSL**, a **super-passage**. Where the levels are close, a **syphon** version or a **level crossing** is forced — and a level crossing mixes silty drain water into the canal, so it is a last resort.",
+    "fact": "For the design of non - scouring channels in coarse alluviums, the shield's entrainment function should be 0.056.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-041",
+    "chapter": "ACiE07",
+    "fact": "Irrigation canals are generally aligned along ridge line.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-042",
+    "chapter": "ACiE07",
+    "fact": "The canal intake is preferred in trough stage.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-043",
+    "chapter": "ACiE07",
+    "fact": "The types of triangular section lining are adopted when discharge in the channel is < 85 cumecs.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-044",
+    "chapter": "ACiE07",
+    "fact": "According to Khosla, the soil material has lowest safe exit gradient is fine sand.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-045",
+    "chapter": "ACiE07",
+    "fact": "Fish ladder is provided on the side of divide wall.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-046",
+    "chapter": "ACiE07",
+    "fact": "Divide wall is used to separate the under sluice portion from main weir portion.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-047",
+    "chapter": "ACiE07",
+    "fact": "According to the Khosla theory, the exit gradient in the absence of downstream cut - off is infinity.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-048",
+    "chapter": "ACiE07",
+    "fact": "Masonry or concrete sloping weir is of recent origin.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-049",
+    "chapter": "ACiE07",
+    "fact": "Parabolic is most efficient weir.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-050",
+    "chapter": "ACiE07",
+    "fact": "The main function of weir and barrage is to increase water height.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-051",
+    "chapter": "ACiE07",
+    "fact": "The major differentiating point between weirs and barrages is presence of gates.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-052",
+    "chapter": "ACiE07",
+    "fact": "According to Bligh's creep theory, percolating water flows along the outline of the base of the foundation of the dam.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-053",
+    "chapter": "ACiE07",
+    "fact": "Bligh's theory of seepage assumes equal weightage to the horizontal and vertical creep.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-054",
+    "chapter": "ACiE07",
+    "fact": "The method is evolved by Khosla for designing of hydraulic structures is method of independent variables.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-055",
+    "chapter": "ACiE07",
+    "fact": "A quantum of discharge with high enough magnitude and frequency to bring about changes to the river boundary and surrounding area is dominant discharge.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-056",
+    "chapter": "ACiE07",
+    "fact": "The weir constructed such that the weight of structure is completely balanced by upward seepage force of water is gravity weir.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-057",
+    "chapter": "ACiE07",
+    "fact": "Uplifting pressure is important for stability of concrete dam.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-058",
+    "chapter": "ACiE07",
+    "fact": "The lanes creep length formula is 2d 1 + L 3 + 2d 2 (where, d 1 is upst ream cutoff, d 2 is downstream cutoff and L is floor length).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-059",
+    "chapter": "ACiE07",
+    "fact": "According to Khosla's theory, the exit gradient formula is H d  l.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-060",
+    "chapter": "ACiE07",
+    "fact": "There are 2 considerations is the depth downstream vertical cutoff governed.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-061",
+    "chapter": "ACiE07",
+    "fact": "The river training work deals with flood control is training for discharge.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-062",
+    "chapter": "ACiE07",
+    "fact": "Canal bund is not considered as river - training structure.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-063",
+    "chapter": "ACiE07",
+    "fact": "Launching apron is made of gabion, stone, geotextile fabric.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-064",
+    "chapter": "ACiE07",
+    "fact": "Launching apron is made of gabion.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-065",
+    "chapter": "ACiE07",
+    "fact": "Guide banks are provided to train the flow of a river along a specified course.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-066",
+    "chapter": "ACiE07",
+    "fact": "The correct about length of guide bank is U/s length is greater than d/s length.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-067",
+    "chapter": "ACiE07",
+    "fact": "Length of upstream guide bank is greater than downstream guide bank length.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-068",
+    "chapter": "ACiE07",
+    "fact": "The sensitivity of rigid module is zero.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-069",
+    "chapter": "ACiE07",
+    "fact": "The structure that is used to separate the weir from under sluice is divide wall.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-070",
+    "chapter": "ACiE07",
+    "fact": "A canal drop/fall is provided if ground slope exceeds designed bed slope.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-071",
+    "chapter": "ACiE07",
+    "fact": "Canal escape structures is used to remove surplus water from a canal into a natural drain.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-072",
+    "chapter": "ACiE07",
+    "fact": "Economy in earthwork balance is factor decides canal fall in main channel.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-073",
+    "chapter": "ACiE07",
+    "fact": "An outlet is said to be proportional, if its flexibility is equal to unity.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-074",
+    "chapter": "ACiE07",
+    "fact": "The function of cross regulator in irrigation to maintain the head for flow in off taking canal.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-075",
+    "chapter": "ACiE07",
+    "fact": "The structure at the head of regulator to remove silt is silt excluder.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-076",
+    "chapter": "ACiE07",
+    "fact": "Canal aqueduct is not provided at head regulator.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-077",
+    "chapter": "ACiE07",
+    "fact": "The crossing arrangement preferably made at the junction of a huge canal and a river st ream carrying a short - lived high flood discharge at almost equal bed levels isa level crossing.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-078",
+    "chapter": "ACiE07",
+    "fact": "In a super - passage, the full supply level (FSL) of a canal is below the drain flood level.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-079",
+    "chapter": "ACiE07",
+    "fact": "CD works carry drainage over the canal is super passage and syphon.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-080",
+    "chapter": "ACiE07",
+    "fact": "Cross drainage works carrying canal over natural drain called aqueduct and syphon aqueduct.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-081",
+    "chapter": "ACiE07",
+    "fact": "Saline soil can be improved by leaching.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-082",
+    "chapter": "ACiE07",
+    "fact": "The open drains would be fully operative only in rainy season is shallow surface drain.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-083",
+    "chapter": "ACiE07",
+    "fact": "Excessive tapping of ground water does not contribute to water logging.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-084",
+    "chapter": "ACiE07",
+    "fact": "Irregular topography depends upon the depressions of the terrain and causes water logging.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-085",
+    "chapter": "ACiE07",
+    "fact": "How can tile drainage help to increase crop yields by increases volume of soil.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-086",
+    "chapter": "ACiE07",
+    "fact": "Under less pervious strata the tile drainage should not be placed.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-087",
+    "chapter": "ACiE07",
+    "fact": "A tile drain is suitable for wet soil.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-088",
+    "chapter": "ACiE07",
+    "fact": "The spacing of tile drains to relieve water - logged land is directly proportional to the coefficient of permeability of the soil to be drained.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-089",
+    "chapter": "ACiE07",
+    "fact": "Theme thod which uses dead furrows on cropped farms for drainage of excess irrigation or rain water, is called bedding.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-090",
+    "chapter": "ACiE07",
+    "fact": "Considering canals as a factor, seepage of water through the canals causes waterlogging.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-091",
+    "chapter": "ACiE07",
+    "fact": "The factor causing waterlogging suggests extensive irrigation is over and intensive irrigation.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-092",
+    "chapter": "ACiE07",
+    "fact": "Frequent irrigation doesn't prevent waterlogging.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-093",
+    "chapter": "ACiE07",
+    "fact": "The drainage provided to escape water from water logged area is drains.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-094",
+    "chapter": "ACiE07",
+    "fact": "The shape is optimal for surface drain is trapezoidal.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-095",
+    "chapter": "ACiE07",
+    "fact": "The top soil of a water logged field becomes more alkaline and infertile if its pH value is",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-096",
+    "chapter": "ACiE07",
+    "fact": "A free pipe outlet isa flexible outlet.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-097",
+    "chapter": "ACiE07",
+    "fact": "At bed level, there is no provision of gates in head regulator.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-098",
+    "chapter": "ACiE07",
+    "fact": "River reach can be classified on the basis of origin. 9",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-099",
+    "chapter": "ACiE07",
+    "fact": "The general depth of scour calculated by Lacey's formula in a river represents the depth below the maximum flood level in the river.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-100",
+    "chapter": "ACiE07",
+    "fact": "The launching apron typically located in hydraulic structures at bed level.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-101",
+    "chapter": "ACiE07",
+    "fact": "A lined alluvial canal is best designed on the basis of manning theory.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-102",
+    "chapter": "ACiE07",
+    "fact": "Soil becomes infertile when it is waterlogged due to growing of weeds.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-103",
+    "chapter": "ACiE07",
+    "fact": "In meandering is not possible in an alluvial channel carrying sediments.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-104",
+    "chapter": "ACiE07",
+    "fact": "Repelling spur is inclined upstream.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-105",
+    "chapter": "ACiE07",
+    "fact": "The ratio of irri gated area under Rabi and Kharif crops is",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-106",
+    "chapter": "ACiE07",
+    "fact": "Saline soil can be improved by flooding and draining.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-107",
+    "chapter": "ACiE07",
+    "fact": "The crest of under sluice potion of diversion head works is kept at bed level of river",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-108",
+    "chapter": "ACiE07",
+    "fact": "Kor watering in irrigation is defined as the first wate ring which is given to a crop when the crop isa few cm highs.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-109",
+    "chapter": "ACiE07",
+    "fact": "The discharge value of water is controlled by regulators.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-110",
+    "chapter": "ACiE07",
+    "fact": "Sewage sickness occurs when voids of soil get clogged due to continuous application of sewage on a piece of land.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-111",
+    "chapter": "ACiE07",
+    "fact": "Effective rainfall is considered for estimation of net irrigation requirement.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-112",
+    "chapter": "ACiE07",
+    "fact": "The provision for design discharge of under sluices should be maximum of (a) at least double the canal discharge, (b) about 10 to 15% of maximum flood discharge and (c) able to pass winter flow.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-113",
+    "chapter": "ACiE07",
+    "fact": "The canal sections used to carry a discharge of above 84 cumec is trapezoidal.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-114",
+    "chapter": "ACiE07",
+    "fact": "In Lacey's regime theory, the velocity of flow is proportional to silt factor and hydraulic radius.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-115",
+    "chapter": "ACiE07",
+    "fact": "The crop with highest delta among rice, tobacco, wheat and banana is rice.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-116",
+    "chapter": "ACiE07",
+    "fact": "The regulator provided at the head of canal off taking from a river is head regulator.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-117",
+    "chapter": "ACiE07",
+    "fact": "In guide bund, the depth of scour is severe in nose.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-118",
+    "chapter": "ACiE07",
+    "fact": "An embankment has a hydraulic head of 6 meters. The characteristic depth of the seepage path is 4 meters, and the soil permeability factor is 1.5. The exit gradient as Khosla theory is 0.38.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-119",
+    "chapter": "ACiE07",
+    "fact": "Spurs are provided in the bank of river perpendicular to the river.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-120",
+    "chapter": "ACiE07",
+    "fact": "Frequency of irrigation is dependent upon soil, crop climate and fertilizer.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-121",
+    "chapter": "ACiE07",
+    "fact": "Which one of the following is the purpose of providing the downstream sheet pile in a barrage?",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-122",
+    "chapter": "ACiE07",
+    "fact": "If D = 0.75 andm = 1 then critical velocity of setting is 0.457 m/s.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-123",
+    "chapter": "ACiE07",
+    "fact": "Permeable spurs are best suitable for rivers which carry heavy suspended load.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-124",
+    "chapter": "ACiE07",
+    "fact": "Super passage is the structure built when a natural drainage channel crosses completely over an irrigation channel.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-125",
+    "chapter": "ACiE07",
+    "fact": "In a Sarda type fall, a rectangular crest is generally used for canal discharge up to 14 m 3 /s.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-126",
+    "chapter": "ACiE07",
+    "fact": "In a Sarda type fall, a triangular crest is generally used for canal discharge up to 85 m 3 /s.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-127",
+    "chapter": "ACiE07",
+    "fact": "Discharge is NOT considered a geometric cross - sectional parameter of a canal.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-128",
+    "chapter": "ACiE07",
+    "fact": "Cross regulators provided to raise water level in main canal.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-129",
+    "chapter": "ACiE07",
+    "fact": "Kennedy developed his theory based on observations from Upper Bari Doab Canal, Punjab.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE07-130",
+    "chapter": "ACiE07",
+    "fact": "Canal scouring primarily results from velocity increase.",
     "verification": {
       "status": "verified"
     }

@@ -2,9 +2,7 @@
   {
     "id": "QR-ACiE03-001",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0301",
-    "fact": "**Dynamic viscosity μ** has units **Pa·s (N·s/m²)**; **kinematic viscosity ν = μ/ρ** has units **m²/s (stokes)**.",
-    "detail": "Viscosity of a **liquid decreases** with temperature; that of a **gas increases**. The reason: liquids are governed by cohesion, gases by molecular momentum transfer.",
+    "fact": "The rise of a liquid in a capillary tube depends on the inner radius of the tube.",
     "verification": {
       "status": "verified"
     }
@@ -12,9 +10,7 @@
   {
     "id": "QR-ACiE03-002",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0301",
-    "fact": "**Newton's law of viscosity: τ = μ (du/dy).**",
-    "detail": "A **Newtonian** fluid has a constant μ (water, air, oil). Non-Newtonian: **Bingham plastic** (toothpaste, sewage sludge), **pseudoplastic** (shear-thinning), **dilatant** (shear-thickening). An **ideal fluid** has μ = 0.",
+    "fact": "Two capillary tubes P and Q are dipped in water. The height of water level in capillary P is 2 3 to the height in Q capillary. The ratio of their diameters is 3: 2.",
     "verification": {
       "status": "verified"
     }
@@ -22,9 +18,7 @@
   {
     "id": "QR-ACiE03-003",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0301",
-    "fact": "Excess pressure from surface tension: **droplet 4σ/d**, **soap bubble 8σ/d**, **cylindrical jet 2σ/d**.",
-    "detail": "A **soap bubble is twice the droplet** because it has an **inner and an outer** film, so surface tension acts over two surfaces. The jet is the lowest because it curves in **one** direction only, not two.",
+    "fact": "The rise of a liquid in a capillary tube is due to surface tension.",
     "verification": {
       "status": "verified"
     }
@@ -32,9 +26,7 @@
   {
     "id": "QR-ACiE03-004",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0301",
-    "fact": "**Capillary rise h = 4σ cos θ / (ρ g d).**",
-    "detail": "Water in glass **rises** (θ < 90°, adhesion beats cohesion); mercury **depresses** (θ ≈ 130°). Rise is inversely proportional to the tube diameter — the mechanism of rising damp in masonry.",
+    "fact": "For liquid, capillary rise (or fall) will decrease with rise in temperature.",
     "verification": {
       "status": "verified"
     }
@@ -42,9 +34,7 @@
   {
     "id": "QR-ACiE03-005",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0301",
-    "fact": "**Bulk modulus K = −dp/(dV/V)**; for water **K ≈ 2.1 GPa**.",
-    "detail": "Water is nearly incompressible, so it is treated as such except in **water hammer** and acoustic problems. Celerity of a pressure wave c = √(K/ρ) ≈ 1440 m/s in water.",
+    "fact": "The capillary rise of water depends upon the force responsible.",
     "verification": {
       "status": "verified"
     }
@@ -52,9 +42,7 @@
   {
     "id": "QR-ACiE03-006",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0302",
-    "fact": "Total pressure on a vertical plane surface: **F = ρ g A h̄**, acting at the **centre of pressure**, not the centroid.",
-    "detail": "**h_cp = h̄ + I_G/(A h̄)** — always **below** the centroid, because pressure increases with depth. The two coincide only for a horizontal surface.",
+    "fact": "Match the following: A. Capillarity a. Cavitation B. Vapor pressure b. Density of water C. Viscosity c. Shear forces D. Specific gravity d. Surface tension Ans: A - d, B - a, c - c, D - b",
     "verification": {
       "status": "verified"
     }
@@ -62,9 +50,7 @@
   {
     "id": "QR-ACiE03-007",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0302",
-    "fact": "**Archimedes: buoyant force = weight of fluid displaced**, acting through the **centre of buoyancy** (centroid of the displaced volume).",
-    "detail": "A floating body displaces its **own weight**; a submerged body displaces its **own volume**. That distinction settles most flotation problems immediately.",
+    "fact": "The density of water is maximum at 4 degree celsius.",
     "verification": {
       "status": "verified"
     }
@@ -72,9 +58,7 @@
   {
     "id": "QR-ACiE03-008",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0302",
-    "fact": "A floating body is **stable when the metacentre is ABOVE the centre of gravity**.",
-    "detail": "**Metacentric height GM = I/V − BG**. For a **submerged** body the rule differs: stability requires **B above G**, since there is no metacentre. Larger GM = more stable but a **shorter, jerkier roll period**.",
+    "fact": "Bulk modulus of liquid increases with pressure.",
     "verification": {
       "status": "verified"
     }
@@ -82,9 +66,7 @@
   {
     "id": "QR-ACiE03-009",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0302",
-    "fact": "**Absolute pressure = gauge + atmospheric.** Atmospheric = **10.33 m of water = 760 mm Hg = 101.325 kPa**.",
-    "detail": "A **barometer** reads absolute (atmospheric) pressure; a **manometer** or **differential manometer** reads a gauge pressure or a difference. Vacuum pressure is negative gauge pressure.",
+    "fact": "A non - Newtonian fluid is one which doesn't follow Newton's law of viscosity.",
     "verification": {
       "status": "verified"
     }
@@ -92,9 +74,7 @@
   {
     "id": "QR-ACiE03-010",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0303",
-    "fact": "**Continuity: A₁V₁ = A₂V₂** for steady incompressible flow.",
-    "detail": "It is a statement of **mass conservation**. In differential form ∂u/∂x + ∂v/∂y + ∂w/∂z = 0 for incompressible flow — a standard test of whether a given velocity field is possible.",
+    "fact": "Peanut butter is an example of a non - Newtonian fluid.",
     "verification": {
       "status": "verified"
     }
@@ -102,9 +82,7 @@
   {
     "id": "QR-ACiE03-011",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0303",
-    "fact": "**Bernoulli: p/ρg + V²/2g + z = constant** — pressure, velocity and datum head.",
-    "detail": "Assumes **steady, incompressible, inviscid, irrotational flow along a streamline** with no energy addition or loss. Every one of those is an examinable assumption.",
+    "fact": "Specific volume is defined as reciprocal of density.",
     "verification": {
       "status": "verified"
     }
@@ -112,9 +90,7 @@
   {
     "id": "QR-ACiE03-012",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0303",
-    "fact": "**Reynolds number Re = ρVD/μ = VD/ν** — the ratio of **inertial to viscous** force.",
-    "detail": "In a **pipe**: laminar Re < 2000, transitional 2000–4000, turbulent > 4000. In **open channel** (using hydraulic radius) laminar Re < 500. Around a **plate**, transition at Re ≈ 5 × 10⁵.",
+    "fact": "Viscosity is defined as the resistance to flow of fluid.",
     "verification": {
       "status": "verified"
     }
@@ -122,9 +98,7 @@
   {
     "id": "QR-ACiE03-013",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0303",
-    "fact": "**Froude number Fr = V/√(gL)** — inertial to **gravity** force; governs **open channel** flow.",
-    "detail": "**Fr < 1 subcritical**, **= 1 critical**, **> 1 supercritical**. The other dimensionless groups: **Euler** (pressure/inertia), **Weber** (surface tension), **Mach** (compressibility).",
+    "fact": "The dimension of kinematic viscosity is M 0 L 2 T –",
     "verification": {
       "status": "verified"
     }
@@ -132,9 +106,7 @@
   {
     "id": "QR-ACiE03-014",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0303",
-    "fact": "**Venturimeter C_d ≈ 0.98**; **orifice meter ≈ 0.62**; **sharp-edged orifice C_c ≈ 0.62, C_v ≈ 0.98, C_d ≈ 0.61**.",
-    "detail": "**C_d = C_c × C_v.** The venturimeter's higher C_d is because its gradual expansion recovers most of the pressure — an orifice plate loses it in eddies.",
+    "fact": "The viscosity of liquid decrease with increase in temperature.",
     "verification": {
       "status": "verified"
     }
@@ -142,9 +114,7 @@
   {
     "id": "QR-ACiE03-015",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0303",
-    "fact": "**Momentum equation: F = ρQ(V₂ − V₁)** — used for forces on bends, nozzles and vanes.",
-    "detail": "**Force on a fixed flat plate normal to a jet: F = ρAV².** For a **curved vane turning the jet through 180°, F = 2ρAV²** — the reason a Pelton bucket is split and turns the jet nearly back on itself.",
+    "fact": "The dimensional formula of velocity gradient is M 0 L 0 T –",
     "verification": {
       "status": "verified"
     }
@@ -152,9 +122,7 @@
   {
     "id": "QR-ACiE03-016",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0304",
-    "fact": "**Darcy–Weisbach: h_f = fLV²/(2gD)**, the major loss in a pipe.",
-    "detail": "For **laminar** flow **f = 64/Re** (Hagen–Poiseuille). For turbulent flow read f from the **Moody diagram** using Re and relative roughness k/D. Note some texts write h_f = 4fLV²/(2gD) with a friction factor a quarter as large — check which convention a question uses.",
+    "fact": "The radius of curvature of the arc of the bubble tube is generally kept 100 m.",
     "verification": {
       "status": "verified"
     }
@@ -162,9 +130,7 @@
   {
     "id": "QR-ACiE03-017",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0304",
-    "fact": "Minor losses: **sudden expansion h = (V₁−V₂)²/2g**; **sudden contraction h = 0.5V²/2g**; **exit h = V²/2g**.",
-    "detail": "Entry loss ≈ 0.5V²/2g for a sharp entrance, near zero for a bell mouth. Minor losses dominate in **short** pipes; friction dominates in **long** ones.",
+    "fact": "The dew point is above 0°C, then dew will form.",
     "verification": {
       "status": "verified"
     }
@@ -172,9 +138,7 @@
   {
     "id": "QR-ACiE03-018",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0304",
-    "fact": "**Equivalent pipe (Dupuit): L/D⁵ = L₁/D₁⁵ + L₂/D₂⁵ + …** for pipes in **series**.",
-    "detail": "In **series** the **discharge is the same** and losses add. In **parallel** the **head loss is the same** and discharges add. Getting that pair the wrong way round is the classic error.",
+    "fact": "A fluid will undergo continuous deformation under the action of shearing stress.",
     "verification": {
       "status": "verified"
     }
@@ -182,9 +146,7 @@
   {
     "id": "QR-ACiE03-019",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0304",
-    "fact": "**Water hammer** pressure rise for **sudden** closure: **p = ρ c V**, with c = √(K/ρ).",
-    "detail": "Closure is \"sudden\" if the valve time **t < 2L/a**, where 2L/a is the time for the pressure wave to travel to the reservoir and back. Controlled by **slow closure**, a **surge tank** or an **air vessel**.",
+    "fact": "If the critical shear stress of a channel is T c, then the average value of shear stress required to move the grain on the bank is 0.75 T c.",
     "verification": {
       "status": "verified"
     }
@@ -192,9 +154,7 @@
   {
     "id": "QR-ACiE03-020",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0304",
-    "fact": "**HGL = pressure head + datum**; **TEL = HGL + velocity head**. TEL always **falls** in the direction of flow.",
-    "detail": "HGL can **rise** (at an expansion, where velocity head converts to pressure head), but TEL never rises without a pump. HGL below the pipe means **negative pressure** — a siphon or cavitation risk.",
+    "fact": "The spherical shape of water drops due to its property of surface tension.",
     "verification": {
       "status": "verified"
     }
@@ -202,9 +162,7 @@
   {
     "id": "QR-ACiE03-021",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0305",
-    "fact": "**Manning: V = (1/n) R^(2/3) S^(1/2).**",
-    "detail": "R is the **hydraulic radius A/P**. Chézy: V = C√(RS), with **C = R^(1/6)/n**. Typical n: **0.011** smooth concrete, 0.015 rough concrete, **0.025–0.035** natural earth channel.",
+    "fact": "The value of pressure inside a soap bubble having radius R is 4T R.",
     "verification": {
       "status": "verified"
     }
@@ -212,9 +170,7 @@
   {
     "id": "QR-ACiE03-022",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0305",
-    "fact": "The **most economical section** is the one with the **minimum wetted perimeter** for a given area.",
-    "detail": "**Rectangle: b = 2y** (depth = half width). **Trapezoid**: the sloping side equals the half top width, and the **inscribed semicircle** touches all three sides. The **semicircle** is the most efficient of all sections.",
+    "fact": "Buoyant force is the resultant force on a body due to the fluid surrounding it",
     "verification": {
       "status": "verified"
     }
@@ -222,9 +178,7 @@
   {
     "id": "QR-ACiE03-023",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0305",
-    "fact": "**Critical depth** occurs at **minimum specific energy**, where **Fr = 1**.",
-    "detail": "For a rectangular channel **y_c = (q²/g)^(1/3)** and **E_min = 1.5 y_c**. The specific energy curve has **two depths (alternate depths) for any E above E_min** — one subcritical, one supercritical.",
+    "fact": "The relation between absolute pressure [P abs] atmospheric pressure [P atm] and gauge pressure[P gauge] is P abs = P gauge ± P atm.",
     "verification": {
       "status": "verified"
     }
@@ -232,9 +186,7 @@
   {
     "id": "QR-ACiE03-024",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0305",
-    "fact": "A **hydraulic jump** forms only when flow passes from **supercritical to subcritical**.",
-    "detail": "**y₂/y₁ = ½(√(1+8Fr₁²) − 1)** — the sequent depth relation. It **dissipates energy**, which is why it is deliberately created in a stilling basin at a spillway toe. Energy loss = (y₂−y₁)³/(4y₁y₂).",
+    "fact": "The pressure at a point in a fluid will not be same in all directions when the fluid is viscous and moving.",
     "verification": {
       "status": "verified"
     }
@@ -242,9 +194,7 @@
   {
     "id": "QR-ACiE03-025",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0305",
-    "fact": "Weir discharge: **rectangular Q ∝ H^(3/2)**; **triangular (V-notch) Q ∝ H^(5/2)**.",
-    "detail": "Rectangular Q = (2/3)C_d L√(2g) H^(3/2); V-notch Q = (8/15)C_d √(2g) tan(θ/2) H^(5/2). The **V-notch is more accurate at low flows** because its area shrinks with head.",
+    "fact": "The force on Hemispherical part will be  r 2 P 0 if pressure acted is P",
     "verification": {
       "status": "verified"
     }
@@ -252,9 +202,7 @@
   {
     "id": "QR-ACiE03-026",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0305",
-    "fact": "**Gradually varied flow** profiles are classified by the bed slope: **M** (mild), **S** (steep), **C**, **H**, **A**.",
-    "detail": "**Mild slope: y_n > y_c**; **steep: y_n < y_c**. M1 is the backwater curve behind a dam; M2 the drawdown to a free overfall; S1 upstream of an obstruction on a steep slope.",
+    "fact": "The piezometric head for the static fluid is remains constant at all points in the liquid.",
     "verification": {
       "status": "verified"
     }
@@ -262,9 +210,7 @@
   {
     "id": "QR-ACiE03-027",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0306",
-    "fact": "**The hydrological cycle**: precipitation → interception, infiltration, runoff → evaporation and transpiration.",
-    "detail": "The **water balance equation: P = R + E + T + I + ΔS.** Rainfall in Nepal is dominated by the **south-west monsoon (June–September)**, which delivers about **80%** of the annual total.",
+    "fact": "The pressure in Pascal at a depth of 1m below the water surface is pressure, P = 1000 × 9.8 × 1 = 9810 Pascal.",
     "verification": {
       "status": "verified"
     }
@@ -272,9 +218,7 @@
   {
     "id": "QR-ACiE03-028",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0306",
-    "fact": "Mean rainfall over a catchment: **arithmetic mean**, **Thiessen polygon**, **isohyetal** method.",
-    "detail": "**Thiessen** weights each gauge by its polygon area — good for a reasonably uniform plain. **Isohyetal** is the **most accurate**, especially in **mountainous** terrain, because it lets the analyst draw in orographic effects.",
+    "fact": "The correct expression is GM = I V – BG.",
     "verification": {
       "status": "verified"
     }
@@ -282,9 +226,7 @@
   {
     "id": "QR-ACiE03-029",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0306",
-    "fact": "**Rational formula: Q = CIA/3.6** with Q in m³/s, I in mm/h, A in km².",
-    "detail": "C is the runoff coefficient (0.05 flat cultivated to **0.95 paved**). Valid only for **small catchments** (under about 50 km²), and the design rainfall duration is taken as the **time of concentration**.",
+    "fact": "A floating body attains stable equilibrium if its metacenter is above the centroid.",
     "verification": {
       "status": "verified"
     }
@@ -292,9 +234,7 @@
   {
     "id": "QR-ACiE03-030",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0306",
-    "fact": "A **unit hydrograph** is the direct runoff hydrograph from **1 cm (or 1 mm) of effective rainfall uniformly over the catchment in a specified duration**.",
-    "detail": "Its assumptions: **time invariance**, **linearity (proportionality)** and **superposition**. Note the unit is of **rainfall depth**, not of time — a 6-hour UH and a 12-hour UH are different hydrographs of the same 1 cm.",
+    "fact": "Bourdon gauge is used to measure gauge pressure.",
     "verification": {
       "status": "verified"
     }
@@ -302,9 +242,7 @@
   {
     "id": "QR-ACiE03-031",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0306",
-    "fact": "**Return period T and risk: risk = 1 − (1 − 1/T)^n** over n years.",
-    "detail": "A **100-year flood has a 1% chance in any single year** — not \"once a century\". Over a 50-year design life the risk of exceedance is 1 − 0.99⁵⁰ = **39%**, which is why long-lived structures use long return periods.",
+    "fact": "In Bernoulli's equation, each term represents total energy per unit weight.",
     "verification": {
       "status": "verified"
     }
@@ -312,9 +250,7 @@
   {
     "id": "QR-ACiE03-032",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0306",
-    "fact": "**Infiltration indices**: the **φ-index** is the constant loss rate that makes rainfall excess equal the observed runoff.",
-    "detail": "The **W-index** is more refined, excluding interception and depression storage. Infiltration capacity is measured by a **double-ring infiltrometer**; **Horton's equation** f = f_c + (f_0 − f_c)e^(−kt) describes its decay.",
+    "fact": "The incompressibility condition in Navier - stokes equation is ∇ ⋅ u = 0",
     "verification": {
       "status": "verified"
     }
@@ -322,9 +258,7 @@
   {
     "id": "QR-ACiE03-033",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0306",
-    "fact": "**Evaporation** is measured by a **Class A pan**; **evapotranspiration** is estimated by **Penman**, **Blaney–Criddle** or **Thornthwaite**.",
-    "detail": "**Penman** is the most rigorous, combining an energy balance with an aerodynamic term. Pan measurements are multiplied by a **pan coefficient (≈0.7)** to give lake evaporation.",
+    "fact": "Momentum principle is not applic able to venturi meter.",
     "verification": {
       "status": "verified"
     }
@@ -332,9 +266,7 @@
   {
     "id": "QR-ACiE03-034",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0306",
-    "fact": "A **flow duration curve** plots discharge against the **percentage of time it is equalled or exceeded**.",
-    "detail": "**Q₄₀** (exceeded 40% of the time) is the conventional design flow for a **run-of-river hydropower** plant in Nepal. A **flat** curve means well-regulated flow; a **steep** one means a flashy river needing storage.",
+    "fact": "The difference between the total headline and the hydraulic grade line represents the velocity head.",
     "verification": {
       "status": "verified"
     }
@@ -342,9 +274,7 @@
   {
     "id": "QR-ACiE03-035",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0301",
-    "fact": "**Specific weight γ = ρg**; for water **γ = 9810 N/m³ (9.81 kN/m³)** and **ρ = 1000 kg/m³**.",
-    "detail": "**Specific gravity** is dimensionless (relative to water at 4 °C); **specific volume** is 1/ρ. Mercury: specific gravity 13.6.",
+    "fact": "The term for the sheet of water flowing over a weir is Nappe.",
     "verification": {
       "status": "verified"
     }
@@ -352,9 +282,7 @@
   {
     "id": "QR-ACiE03-036",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0303",
-    "fact": "**Cavitation** occurs where the local pressure falls to the **vapour pressure** of the liquid.",
-    "detail": "Vapour bubbles form and then **collapse violently** in a higher-pressure region, pitting the metal. Guarded against by limiting the **NPSH** of a pump and the **setting level** of a reaction turbine.",
+    "fact": "The equation of continuity for a fluid that is compressible and flow that is steady is  1 A 1 V 1 =  2 A 2 V",
     "verification": {
       "status": "verified"
     }
@@ -362,9 +290,7 @@
   {
     "id": "QR-ACiE03-037",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0305",
-    "fact": "For a **wide rectangular channel, R ≈ y** (the hydraulic radius approaches the depth).",
-    "detail": "Because P ≈ b when b ≫ y, so R = by/(b+2y) → y. This simplification is what makes wide-channel problems tractable and is worth spotting immediately.",
+    "fact": "If the area changes from A 1 to A 2 and velocity of flow changes from V 1 to V 2 then A 1 × V 1 = A 2 × V 2 is called equation of continuity.",
     "verification": {
       "status": "verified"
     }
@@ -372,9 +298,7 @@
   {
     "id": "QR-ACiE03-038",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0304",
-    "fact": "**Power transmitted through a pipe is maximum when the friction loss is ONE THIRD of the total head.**",
-    "detail": "P = ρgQ(H − h_f), maximised at **h_f = H/3**, giving a maximum transmission efficiency of **66.7%**. A counter-intuitive but standard result.",
+    "fact": "The Bernoulli equation states that energy is constant for one streamline and is different from another streamline.",
     "verification": {
       "status": "verified"
     }
@@ -382,9 +306,7 @@
   {
     "id": "QR-ACiE03-039",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0302",
-    "fact": "**Pascal's law**: pressure at a point in a fluid at rest is **equal in all directions**.",
-    "detail": "The basis of the hydraulic press and of all manometry. Pressure varies **only with depth** in a static fluid: dp/dz = −ρg.",
+    "fact": "Bernoulli equation is not to be used for viscous flow.",
     "verification": {
       "status": "verified"
     }
@@ -392,9 +314,847 @@
   {
     "id": "QR-ACiE03-040",
     "chapter": "ACiE03",
-    "subchapter": "ACiE0306",
-    "fact": "**GLOF (glacial lake outburst flood)** is a design flood case peculiar to Nepal's high mountains.",
-    "detail": "A moraine-dammed glacial lake breaches and releases a very large, very short flood. Hydropower and bridge projects in the high Himalaya must assess it separately from the rainfall flood — it is not captured by rainfall frequency analysis.",
+    "fact": "Coefficient of friction for laminar flow is 16 R e.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-041",
+    "chapter": "ACiE03",
+    "fact": "The dimension of Manning rugosity coefficient is M 0 L – 0.33 T.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-042",
+    "chapter": "ACiE03",
+    "fact": "When three pipes are connected in series, discharge is the same through each pipe.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-043",
+    "chapter": "ACiE03",
+    "fact": "When the pipes of same materials are connected in parallel, the total loss of head is same as in each pipe.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-044",
+    "chapter": "ACiE03",
+    "fact": "In a vertical stationary plate, the jet after striking moves along the plate.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-045",
+    "chapter": "ACiE03",
+    "fact": "The force exerted by a jet of water on a stationary vertical plate in the direction of jet is  aV 2",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-046",
+    "chapter": "ACiE03",
+    "fact": "The kinematic similarity between model and prototype is similarity of discharge and streamline pattern.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-047",
+    "chapter": "ACiE03",
+    "fact": "In a venturi meter, throat has the highest velocity.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-048",
+    "chapter": "ACiE03",
+    "fact": "Prandl mixing length is zero at the pipe wall.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-049",
+    "chapter": "ACiE03",
+    "fact": "A pitot tube is used to measure velocity of flow.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-050",
+    "chapter": "ACiE03",
+    "fact": "Head loss formulah = f l Q 2 12.1D 5 is given by Darcy – Weisbach",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-051",
+    "chapter": "ACiE03",
+    "fact": "Formula for sudden expansion loss is (V 1 – V 2) 2 2g.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-052",
+    "chapter": "ACiE03",
+    "fact": "If size particle is 6 cm, find manning's rughosity coefficient. Manning's rugosity coefficient = d 1/6 21.1 = (0.06) 1/6 21.1 = 0.029.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-053",
+    "chapter": "ACiE03",
+    "fact": "The coefficient of discharge for an orifice meter is in the range 0.62 to 0.65.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-054",
+    "chapter": "ACiE03",
+    "fact": "In the parameter e/D of moody diagram, thee in that moody diagram represents surface roughness height.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-055",
+    "chapter": "ACiE03",
+    "fact": "Fluids which undergo strain rates proportional to the applied shear stress are termed as Newtonian fluid.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-056",
+    "chapter": "ACiE03",
+    "fact": "The frictional resistance for fluids in motion is proportional to the velocity in laminar flow and to the square of the velocity in turbulent flow.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-057",
+    "chapter": "ACiE03",
+    "fact": "Water is flowing down steadily in a constant cross sectional pipe. According to Bernoulli principle Pressure increases with height.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-058",
+    "chapter": "ACiE03",
+    "fact": "The Darcy - Weisbach formula for head loss (h f) due to friction is given byf l v 2 2gd.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-059",
+    "chapter": "ACiE03",
+    "fact": "When the slope changes from a mild slope to a steep slope, M 2 S 2 profile is formed.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-060",
+    "chapter": "ACiE03",
+    "fact": "The hydraulic radius for a wide rectangular channel section is y.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-061",
+    "chapter": "ACiE03",
+    "fact": "The length parameter in a Froude number indicates that hydraulic mean depth.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-062",
+    "chapter": "ACiE03",
+    "fact": "The value of hydraulic radius in most economical triangular channel section isy 2",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-063",
+    "chapter": "ACiE03",
+    "fact": "Head loss will be small in case of broad crested.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-064",
+    "chapter": "ACiE03",
+    "fact": "In case of open channel flow, at critical depth, the discharge is maximum for a given specific energy.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-065",
+    "chapter": "ACiE03",
+    "fact": "At critical depth of flow of water in open channels, the specific energy is minimum.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-066",
+    "chapter": "ACiE03",
+    "fact": "Nappe is sheet of liquid flowing over a notch (or a weir).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-067",
+    "chapter": "ACiE03",
+    "fact": "The formula of sequent depth isy 2 y 1 = 0.5 (– 1 + 8fr 2 + 1).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-068",
+    "chapter": "ACiE03",
+    "fact": "The value for Froude number for Steady jump is 4.5 –",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-069",
+    "chapter": "ACiE03",
+    "fact": "If Manning's nis doubled then slope should be changed to quadruple.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-070",
+    "chapter": "ACiE03",
+    "fact": "The condition for supercritical flow Fr > 1.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-071",
+    "chapter": "ACiE03",
+    "fact": "In an open channel flow, the alternate depths are which occurs at the same specific energy.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-072",
+    "chapter": "ACiE03",
+    "fact": "In defining the Froude number which depth parameter is used hydraulic mean depth.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-073",
+    "chapter": "ACiE03",
+    "fact": "The weighted perimeter calculation for trapezoidal section if z, y, and B are given by B + 2y 1 + z",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-074",
+    "chapter": "ACiE03",
+    "fact": "The portion between two successive flow lines is known as flow channel.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-075",
+    "chapter": "ACiE03",
+    "fact": "Pitot - static tubes measures velocity at a point of fluid in a stream.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-076",
+    "chapter": "ACiE03",
+    "fact": "Length of hydraulic jump is equal to 5 – 7 times the jump height.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-077",
+    "chapter": "ACiE03",
+    "fact": "In case of most economical trapezoidal section top width is equals to sum of side slope.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-078",
+    "chapter": "ACiE03",
+    "fact": "The head loss is minimum in broad crested weir.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-079",
+    "chapter": "ACiE03",
+    "fact": "The discharge passing over ogee weir is proportional to H 3/2.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-080",
+    "chapter": "ACiE03",
+    "fact": "The Froude number of triangular channel of depthy with side slope 2H: 1V is V g × y",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-081",
+    "chapter": "ACiE03",
+    "fact": "When the flow in an open channel is gradually varied, the flow is said to be steady non - uniform flow.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-082",
+    "chapter": "ACiE03",
+    "fact": "The branch of science which deals with the occurrence, circulation and distribution of the waters of the earth and its atmosphere is hydrology.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-083",
+    "chapter": "ACiE03",
+    "fact": "As per geography of Nepal, River are classified into 3 groups.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-084",
+    "chapter": "ACiE03",
+    "fact": "As the duration of unit hydrograph increases then base period increases.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-085",
+    "chapter": "ACiE03",
+    "fact": "The double mass curve technique is used to check the consistency of rain gauge records.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-086",
+    "chapter": "ACiE03",
+    "fact": "As compared to fan shaped catchment, the fern shaped catchment will have longer stream.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-087",
+    "chapter": "ACiE03",
+    "fact": "Isohytes are the imaginary lines joining the points of equal to rainfall.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-088",
+    "chapter": "ACiE03",
+    "fact": "DHM 2004 method gives accurate flow characteristics in context of river of Nepal.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-089",
+    "chapter": "ACiE03",
+    "fact": "The most accurate method to determine average precipitation depth over an area isi sohyetal map method.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-090",
+    "chapter": "ACiE03",
+    "fact": "Precipitation caused by lifting of an air mass due to the pressure difference, is called cyclonic precipitation",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-091",
+    "chapter": "ACiE03",
+    "fact": "The cold frontal precipitation is formed due to a cold frontal wave is formed when an advancing cold air mass meets warmer air.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-092",
+    "chapter": "ACiE03",
+    "fact": "Cold frontal precipitation means small catchment area with heavy precipitation.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-093",
+    "chapter": "ACiE03",
+    "fact": "Discharge - stage relationship is known as rating curve.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-094",
+    "chapter": "ACiE03",
+    "fact": "Precipitation falling during the growing period of a crop that is available to meet the evapo - transpiration needs of the crop is known as effective rainfall.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-095",
+    "chapter": "ACiE03",
+    "fact": "Recession limb of a hydrograph is independent of storm characteristics.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-096",
+    "chapter": "ACiE03",
+    "fact": "Ordinate of Unit hydrograph is obtained by dividing ordinate of DRH by runoff depth.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-097",
+    "chapter": "ACiE03",
+    "fact": "Rational method is applicable for duration of rainfall = time of concentration",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-098",
+    "chapter": "ACiE03",
+    "fact": "The equation of rational formula for flood discharge (inm 3 /s) is given by CIA 36, [where, A = area in hectare, C = Runoff coefficient, I = Rainfall intensity in cm/hr.]",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-099",
+    "chapter": "ACiE03",
+    "fact": "Recording type method is very accurate of rain gauging. 10",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-100",
+    "chapter": "ACiE03",
+    "fact": "U - tube manometer is used to measure pressure difference between two points",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-101",
+    "chapter": "ACiE03",
+    "fact": "The hydraulic grade line HGL in pipe flow is always above the centre line of pipe.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-102",
+    "chapter": "ACiE03",
+    "fact": "In critical flow is given by Q 2 T gA 3 = 1.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-103",
+    "chapter": "ACiE03",
+    "fact": "The form factor of a channel section is given by multiplying the square root of hydraulic depth and basin Area",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-104",
+    "chapter": "ACiE03",
+    "fact": "In WECS/DHM method, the formula used for flood forecasting of return period of 2 years is 1.8767 (A 3000 + 1) 0.8783.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-105",
+    "chapter": "ACiE03",
+    "fact": "The loss of head at pipe fitting of 90° elbow is given by 0.9V 2 2g.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-106",
+    "chapter": "ACiE03",
+    "fact": "The continuity equation is valid for a steady, 2D, incompressible flow.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-107",
+    "chapter": "ACiE03",
+    "fact": "The dimension of Chezys coefficient C in [MLT] notation system is L 1/2 T –",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-108",
+    "chapter": "ACiE03",
+    "fact": "When a block of ice floating on water in a container melts, the level of water in the container is remains the same.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-109",
+    "chapter": "ACiE03",
+    "fact": "The relationship between time of concentration (T c), inlet time (T e) and time of travel (T f) is T c = T e + T f.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-110",
+    "chapter": "ACiE03",
+    "fact": "The instrument used to measure the gas pressure on the pipe is U - tube manometer.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-111",
+    "chapter": "ACiE03",
+    "fact": "The construction of impounding reservoir is required when the rate of flow in the stream, in dry season is less than the demand.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-112",
+    "chapter": "ACiE03",
+    "fact": "For a given discharge in an open cha nnel, the two depths with the same specific energy are alternate depths.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-113",
+    "chapter": "ACiE03",
+    "fact": "The head loss at the exit of the pipe isv 2 2g.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-114",
+    "chapter": "ACiE03",
+    "fact": "When the coefficient of rugosity is increased from 0.01 to 0.02, the gradient of a pipe of a given diameter to carry the same flow at the same velocity should be increased by 4 times.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-115",
+    "chapter": "ACiE03",
+    "fact": "In a rectangular channel section, if the critical depth is 2.0 m, the specific energy at critical depth is 3.0",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-116",
+    "chapter": "ACiE03",
+    "fact": "The superior type of entrance of sluiceway in the dam structure is bell mouth.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-117",
+    "chapter": "ACiE03",
+    "fact": "If the relationship between the shear stress and the rate of deformation is given by  = 0.05       du dy 2, then the types of fluid is dilatant fluid.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-118",
+    "chapter": "ACiE03",
+    "fact": "The depth having same specific energy in the channel are called alternate depth.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-119",
+    "chapter": "ACiE03",
+    "fact": "The value of bulk modulus for an incompressible liquid is infinite.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-120",
+    "chapter": "ACiE03",
+    "fact": "In a M1 profile type of gradually varied flow, y > y 0 > y c.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-121",
+    "chapter": "ACiE03",
+    "fact": "For an inclined plane submerged in a liquid, the center of pressure on one side of the plane will be below the center of gravity.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-122",
+    "chapter": "ACiE03",
+    "fact": "If a capillary tube is dipped into liquid and level of the liquid inside and outside are same, then the angle of contact is 90°.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-123",
+    "chapter": "ACiE03",
+    "fact": "When water is flowing through a frustum of a cone at a constant rate, the flow is non - uniform and steady.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-124",
+    "chapter": "ACiE03",
+    "fact": "The total head is equal to velocity head + pressure head + datum head.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-125",
+    "chapter": "ACiE03",
+    "fact": "Shield diagram is used to determine the critical shear for sediment transport.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-126",
+    "chapter": "ACiE03",
+    "fact": "The most efficient channel section is semi - circular.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-127",
+    "chapter": "ACiE03",
+    "fact": "The solubility curve 's depends on the temperature.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-128",
+    "chapter": "ACiE03",
+    "fact": "If the weights of a body on the moon's surface is 120N, the weight of the same object on the Earth's surface is 720 N.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-129",
+    "chapter": "ACiE03",
+    "fact": "An object weighs 50 Nin water and 80N in a oil whose specific gravity is 0.8 then its volume in liters will be 15.3 liters. [W = 50 +  V = 80 + 0.8  V]",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-130",
+    "chapter": "ACiE03",
+    "fact": "When a spherical ball drops through a fluid, it experiences buoyancy in vertical upward direction.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-131",
+    "chapter": "ACiE03",
+    "fact": "As the stone sinks deeper into the lake, the up thrust (buoyant force) acting on it remains constant.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-132",
+    "chapter": "ACiE03",
+    "fact": "In case of flow through the diverging cone, it is possible for flow to occur low to high pressure.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-133",
+    "chapter": "ACiE03",
+    "fact": "The manning's rugosity coefficient (n) for smooth finished concrete is 0.011 to 0.013.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-134",
+    "chapter": "ACiE03",
+    "fact": "The rainfall intensity (I) formula for storm durationt < 20 minutes is I = 760 t + 10.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-135",
+    "chapter": "ACiE03",
+    "fact": "The ratio of maximum velocity to average velocity of viscous fluid through a circular pipe is",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-136",
+    "chapter": "ACiE03",
+    "fact": "In a fully rough turbulent pipe flow, the Darcy friction factor (f) depends on both Reynolds number and relative roughness.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-137",
+    "chapter": "ACiE03",
+    "fact": "The net force acting on a fluid body which is responsible to produce on acceleration is called Inertial force.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-138",
+    "chapter": "ACiE03",
+    "fact": "For the given discharge of Q = 35 m 3 /s and velocity V = 1.4 m/s, the diameter of the pipe is 5.64 m.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-139",
+    "chapter": "ACiE03",
+    "fact": "The mathematical expression for the incompressibility condition of a fluid flow is ∇ ·u = 0",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-140",
+    "chapter": "ACiE03",
+    "fact": "In a 3D Cartesian coordinate system, the condition written in terms of velocity components (u, v, w) is ∂u ∂x + ∂v ∂y + ∂w ∂z = 0.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-141",
+    "chapter": "ACiE03",
+    "fact": "A piece of ice is floating in a glass vessel filled with water. The level of water in the vessel remains the change when the ice melts.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-142",
+    "chapter": "ACiE03",
+    "fact": "Discharge loss at the end of an open channel spillway and butterfly valve is KV 2 2g.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-143",
+    "chapter": "ACiE03",
+    "fact": "Bed load are the sediments that are rolling, sliding and bouncing.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-144",
+    "chapter": "ACiE03",
+    "fact": "Water flows steadily down in a vertical pipe of constant cross - section. Neglecting friction according to Bernoulli's equation, pressure decreases with height.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-145",
+    "chapter": "ACiE03",
+    "fact": "Coefficient of friction in laminar flow is 16 R e.",
     "verification": {
       "status": "verified"
     }

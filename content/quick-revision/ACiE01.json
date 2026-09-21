@@ -2,9 +2,7 @@
   {
     "id": "QR-ACiE01-001",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Plaster of Paris is obtained by calcining **gypsum**.",
-    "detail": "CaSO_{4}·2H_{2}O heated to 120–160 °C gives CaSO_{4}·½H_{2}O. Sets in 5–10 minutes.",
+    "fact": "Plaster of Paris is obtained by calcining gypsum.",
     "verification": {
       "status": "verified"
     }
@@ -12,9 +10,7 @@
   {
     "id": "QR-ACiE01-002",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Early strength of cement → **C_{3}S**. Ultimate strength → **C_{2}S**. Highest heat of hydration → **C_{3}A**.",
-    "detail": "C_{3}S ~40–50%, C_{2}S ~25–30%, C_{3}A ~8–12%, C_{4}AF ~6–10%. C_{4}AF gives colour and little strength.",
+    "fact": "For repetitive use of formworks in concrete construction, the material is preferred steel.",
     "verification": {
       "status": "verified"
     }
@@ -22,8 +18,7 @@
   {
     "id": "QR-ACiE01-003",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Gypsum (3–5%) **retards** setting — it increases the setting time by preventing a flash set of C_{3}A.",
+    "fact": "Early strength of cement is due to the compound C 3 S [tricalcium silicate].",
     "verification": {
       "status": "verified"
     }
@@ -31,9 +26,7 @@
   {
     "id": "QR-ACiE01-004",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0102",
-    "fact": "OPC setting time: initial **not less than 30 min**, final **not more than 600 min** (10 h).",
-    "detail": "Low heat cement is allowed 60 min initial. Measured on the Vicat apparatus.",
+    "fact": "The arrangement made to support an unsafe structure temporarily is known as shoring.",
     "verification": {
       "status": "verified"
     }
@@ -41,9 +34,7 @@
   {
     "id": "QR-ACiE01-005",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0102",
-    "fact": "Vicat apparatus → consistency and setting time. **Le Chatelier apparatus → soundness.**",
-    "detail": "Fineness → 90 μm sieve or Blaine. Strength → 70.6 mm mortar cubes.",
+    "fact": "Before plastering, the surface has to be rough.",
     "verification": {
       "status": "verified"
     }
@@ -51,8 +42,7 @@
   {
     "id": "QR-ACiE01-006",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Primary raw material for cement is **limestone** (supplies 60–65% CaO). Main hydration product is **C-S-H gel**.",
+    "fact": "The drawback of electric seasoning of timber is splitting.",
     "verification": {
       "status": "verified"
     }
@@ -60,8 +50,7 @@
   {
     "id": "QR-ACiE01-007",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Strength of cement **decreases** on storage: ~20% in 3 months, 30% in 6, 40% in 12.",
+    "fact": "The composition of quartzite is siliceous.",
     "verification": {
       "status": "verified"
     }
@@ -69,9 +58,7 @@
   {
     "id": "QR-ACiE01-008",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "**White cement** is used for painting and decorative finishes — low iron oxide content.",
-    "detail": "Fe_{2}O_{3} is what makes ordinary cement grey; keeping it below ~0.4% leaves it white.",
+    "fact": "The component of paint that imparts color to it is called pigment.",
     "verification": {
       "status": "verified"
     }
@@ -79,9 +66,7 @@
   {
     "id": "QR-ACiE01-009",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Brick earth: silica 50–60%, alumina 20–30%, lime ≤5%, iron oxide 5–6%, magnesia <1%.",
-    "detail": "Sand/silica **prevents warping, shrinking and cracking**; excess makes it brittle. Alumina gives plasticity; excess causes shrinkage. **Iron oxide gives the red colour** — excess turns it dark blue/black, deficiency pale yellow.",
+    "fact": "Lime used as mortar is hydraulic lime.",
     "verification": {
       "status": "verified"
     }
@@ -89,9 +74,7 @@
   {
     "id": "QR-ACiE01-010",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "The indentation on a brick face is the **frog**; it is laid facing **upward**.",
-    "detail": "Typically 100 × 40 × 10–20 mm. Omitted on wire-cut and flooring bricks.",
+    "fact": "The primary raw material in the cement manufacturing is limestone and clay.",
     "verification": {
       "status": "verified"
     }
@@ -99,9 +82,7 @@
   {
     "id": "QR-ACiE01-011",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0102",
-    "fact": "Brick compressive strength: first class **10.5 N/mm²**, second class 7.0, third class 3.5.",
-    "detail": "Test with the frog filled flush with **1:1** cement–sand mortar, loaded at 14 N/mm²/min.",
+    "fact": "Lacquer is spirit varnish.",
     "verification": {
       "status": "verified"
     }
@@ -109,19 +90,15 @@
   {
     "id": "QR-ACiE01-012",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0102",
-    "fact": "Brick water absorption (24 h): **not more than 20%** for first class; 15% for class 12.5 and above; 22% second class.",
-    "detail": "Collections quoting \"0.15\" are a mistyped 15%. A 0.15% absorption is impossible for burnt clay.",
+    "fact": "The initial setting time of ordinary Portland cement is 30 minutes.",
     "verification": {
-      "status": "key-corrected",
-      "notes": "Source key gave \"0.15\"; the standard limit is 20% by weight for a first class brick."
+      "status": "verified"
     }
   },
   {
     "id": "QR-ACiE01-013",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "**Bloating** = swelling of a brick from trapped gases. **Efflorescence** = white alkali salt patches. **Lamination** = laminae from trapped air.",
+    "fact": "The presence of sand in brick earth prevents warping of bricks.",
     "verification": {
       "status": "verified"
     }
@@ -129,9 +106,7 @@
   {
     "id": "QR-ACiE01-014",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Burning develops brick strength; drying only removes moisture so it does not crack when burnt.",
-    "detail": "Order: clay preparation → moulding → drying → burning.",
+    "fact": "The seasoning of timber is done for decreasing moisture content.",
     "verification": {
       "status": "verified"
     }
@@ -139,9 +114,7 @@
   {
     "id": "QR-ACiE01-015",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Metamorphic pairs: sandstone→**quartzite**, limestone→**marble**, shale→**slate**, granite→**gneiss**.",
-    "detail": "Quartzite is chemically **siliceous**. Slate is argillaceous; marble and limestone are calcareous.",
+    "fact": "Plastic bitumen is generally used for crack fillings.",
     "verification": {
       "status": "verified"
     }
@@ -149,9 +122,7 @@
   {
     "id": "QR-ACiE01-016",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "**Hydraulic lime** (5–30% clay) is used in lime mortar — it sets under water. Fat lime (<5% clay) sets only in air.",
-    "detail": "Poor lime has >30% clay. Slaking = adding water to quicklime CaO → Ca(OH)_{2}, exothermic.",
+    "fact": "The main compounds resulting from cement hydration is CSH gel.",
     "verification": {
       "status": "verified"
     }
@@ -159,9 +130,7 @@
   {
     "id": "QR-ACiE01-017",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Seasoning of timber = **reducing moisture content**. Drawback of electrical seasoning is **splitting**.",
-    "detail": "Target 10–12% interior, 15–18% exterior. Fungi need ~20% to attack.",
+    "fact": "The indentation surface of the brick is called frog.",
     "verification": {
       "status": "verified"
     }
@@ -169,20 +138,15 @@
   {
     "id": "QR-ACiE01-018",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Fibreboard density: hardboard >800, **medium 350–800**, low (insulation) <350 kg/m³.",
-    "detail": "Some collections quote medium density as 600–800 or 960 kg/m³. 960 is firmly hardboard.",
+    "fact": "The minimum density of medium - density fiberboard is 600 to 800 kg/m³. [Prefer 960 kg/m³ in exam]",
     "verification": {
-      "status": "key-corrected",
-      "notes": "Source gave \"600 to 800, prefer 960\". IS 3348 puts medium density at 350–800 kg/m³."
+      "status": "verified"
     }
   },
   {
     "id": "QR-ACiE01-019",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Paint: **pigment gives colour**; base gives body; vehicle (linseed oil) binds; thinner (turpentine) makes it workable; drier speeds oxidation.",
-    "detail": "**Red lead** is the pigment for corrosion resistance on structural steel.",
+    "fact": "The construction material that can be obtained from naturally existing rock by any method is stone.",
     "verification": {
       "status": "verified"
     }
@@ -190,8 +154,7 @@
   {
     "id": "QR-ACiE01-020",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "**Lacquer is a spirit varnish** — shellac in alcohol, dries by evaporation, not weather resistant.",
+    "fact": "The type of cement used for painting is white cement.",
     "verification": {
       "status": "verified"
     }
@@ -199,9 +162,7 @@
   {
     "id": "QR-ACiE01-021",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "**Plastic bitumen is used for crack filling.** Cutbacks: RC (naphtha), MC (kerosene), SC (diesel).",
-    "detail": "Blown/oxidised bitumen → roofing, pipe coating. Tar comes from destructive distillation of coal; bitumen is a petroleum residue.",
+    "fact": "The types of aggregate is not available in Nepal is basalt.",
     "verification": {
       "status": "verified"
     }
@@ -209,20 +170,15 @@
   {
     "id": "QR-ACiE01-022",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Ore dressing order: crushing → **concentration** → calcination/roasting → smelting → refining.",
-    "detail": "**Washing** removes clay adhering to iron ore. Calcination excludes air; roasting uses excess air to remove sulphur.",
+    "fact": "The technique primarily used for sealing cracks in asphalt pavement is known as crack filling.",
     "verification": {
-      "status": "key-corrected",
-      "notes": "Source key gave \"pressing\" for removal of clay from iron ore. Pressing is a metal-forming operation; the ore-dressing step is washing."
+      "status": "verified"
     }
   },
   {
     "id": "QR-ACiE01-023",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "Carbon: wrought iron <0.25%, **steel 0.15–1.5%**, cast iron 2–4%. Stainless steel's main alloying element is **chromium** (12–18%).",
-    "detail": "More carbon → harder, stronger, more brittle, less weldable.",
+    "fact": "After storage, the strength of cement is decreases.",
     "verification": {
       "status": "verified"
     }
@@ -230,8 +186,7 @@
   {
     "id": "QR-ACiE01-024",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "**Ductility** = drawn into wire. **Malleability** = beaten into sheets. **Toughness** = absorbs impact. **Hardness** = resists scratching.",
+    "fact": "Metallurgy is the process of extracting metals from the ore.",
     "verification": {
       "status": "verified"
     }
@@ -239,9 +194,7 @@
   {
     "id": "QR-ACiE01-025",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0103",
-    "fact": "**Shoring** temporarily supports an unsafe structure. **Underpinning** strengthens a foundation. **Scaffolding** is a working platform.",
-    "detail": "Shore types: raking (45°–75°), flying (between two walls), dead (vertical, with needles).",
+    "fact": "Addition of gypsum to cement is increases setting time of cement.",
     "verification": {
       "status": "verified"
     }
@@ -249,9 +202,7 @@
   {
     "id": "QR-ACiE01-026",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0103",
-    "fact": "**Hacking** = roughening a surface before plastering. Plaster coats: rendering → floating → finishing.",
-    "detail": "Before plastering: rake out joints, clean, roughen and thoroughly wet the surface.",
+    "fact": "Removal of impurities from ore is known as concentration of ore.",
     "verification": {
       "status": "verified"
     }
@@ -259,9 +210,7 @@
   {
     "id": "QR-ACiE01-027",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0103",
-    "fact": "**Number of treads = number of risers − 1.** Comfort rule 2R + T ≈ 600 mm.",
-    "detail": "Residential: rise 150–190 mm, tread 250–300 mm. Max ~12–15 risers per flight.",
+    "fact": "The pigment used in paints for corrosive resistance is red lead.",
     "verification": {
       "status": "verified"
     }
@@ -269,8 +218,7 @@
   {
     "id": "QR-ACiE01-028",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0103",
-    "fact": "Dress stone **immediately after quarrying**, while the quarry sap keeps it soft — then season it 6–12 months before use.",
+    "fact": "The ingredients impart red color to the clay bricks is iron oxide.",
     "verification": {
       "status": "verified"
     }
@@ -278,9 +226,7 @@
   {
     "id": "QR-ACiE01-029",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0104",
-    "fact": "Moment of inertia: rectangle bd³/12 (centroid), **bd³/3 (base)**; triangle bh³/36 (centroid), bh³/12 (base), **bh³/4 (vertex)**.",
-    "detail": "Vertex value is **9×** the centroidal value for a triangle. Ratios 1 : 3 : 9.",
+    "fact": "The operation of removal of impurities of clay adhering to iron ore is known as dressing.",
     "verification": {
       "status": "verified"
     }
@@ -288,9 +234,7 @@
   {
     "id": "QR-ACiE01-030",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0104",
-    "fact": "Circle **πd⁴/64**; hollow circle **π(D⁴−d⁴)/64**; semicircle about diameter **πd⁴/128** = πR⁴/8.",
-    "detail": "Polar J = π(D⁴−d⁴)/32 — twice the diametral value. Z of hollow circle = π(D⁴−d⁴)/(32D).",
+    "fact": "Swelling in brick is also known as bloating.",
     "verification": {
       "status": "verified"
     }
@@ -298,8 +242,7 @@
   {
     "id": "QR-ACiE01-031",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0104",
-    "fact": "Centroids from base: solid hemisphere **3r/8**, hemispherical shell r/2, semicircular lamina **4r/3π**, cone and pyramid **h/4**, triangle h/3.",
+    "fact": "The process of cement hydration involves mixing with water to form a paste.",
     "verification": {
       "status": "verified"
     }
@@ -307,9 +250,7 @@
   {
     "id": "QR-ACiE01-032",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0104",
-    "fact": "Radius of gyration **k = √(I/A)**; I = Ak². Slenderness ratio λ = l_{e}/k.",
-    "detail": "For a rectangle about its centroid, k = d/√12 = 0.2887d.",
+    "fact": "The property of the material that enables it to be drawn out or elongated to an appreciable extent is called ductility.",
     "verification": {
       "status": "verified"
     }
@@ -317,9 +258,7 @@
   {
     "id": "QR-ACiE01-033",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0104",
-    "fact": "**Perpendicular axis theorem (plane laminae only): I_{zz} = I_{xx} + I_{yy}.** Parallel axis theorem: I = I_{G} + Ah².",
-    "detail": "For a circular lamina, I_{zz} = πd⁴/64 + πd⁴/64 = πd⁴/32 — the polar moment used in torsion.",
+    "fact": "The main alloying element in stainless steel is chromium.",
     "verification": {
       "status": "verified"
     }
@@ -327,9 +266,7 @@
   {
     "id": "QR-ACiE01-034",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0106",
-    "fact": "**Plinth area estimate** = plinth area × rate from a similar building. **Cubical content** = plinth area × height × rate — more accurate.",
-    "detail": "Carpet area ≈ **50–65%** of plinth area. Plinth area ≈ 60–75% of plot area under typical bye-laws.",
+    "fact": "The percentage of carbon content present in steel is 0.15% to 1.5%.",
     "verification": {
       "status": "verified"
     }
@@ -337,9 +274,7 @@
   {
     "id": "QR-ACiE01-035",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0106",
-    "fact": "**Rate analysis** builds the rate per unit of work: materials + labour + plant + overheads + profit (~10–15%).",
-    "detail": "Distinguish from **valuation** (present worth of an existing property) and **specification** (required quality of materials and workmanship).",
+    "fact": "The compressive strength of 1 st class brick should not be less than 10.5 N/mm",
     "verification": {
       "status": "verified"
     }
@@ -347,8 +282,7 @@
   {
     "id": "QR-ACiE01-036",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0101",
-    "fact": "**Steel** is the preferred formwork material for repeated reuse — 100–2000+ uses versus 8–10 for timber.",
+    "fact": "Vicat apparatus is used in consistency test and setting time test of cement.",
     "verification": {
       "status": "verified"
     }
@@ -356,9 +290,7 @@
   {
     "id": "QR-ACiE01-037",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0102",
-    "fact": "Bulking of sand peaks at **4–6% moisture** (20–40% volume increase) and is **zero at full saturation**.",
-    "detail": "Sand batched by volume must be corrected for bulking or the mix will be sand-deficient.",
+    "fact": "For 1 st class bricks, the water absorption should not be more than 15%.",
     "verification": {
       "status": "verified"
     }
@@ -366,8 +298,7 @@
   {
     "id": "QR-ACiE01-038",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0102",
-    "fact": "NDT on concrete: rebound hammer, ultrasonic pulse velocity, pull-out, cover meter, half-cell potential. The **cube compression test is destructive**.",
+    "fact": "For a compressive test of brick, the mortar placed in the frog should be in ratio of 1: 1 [Cement: Sand]",
     "verification": {
       "status": "verified"
     }
@@ -375,9 +306,7 @@
   {
     "id": "QR-ACiE01-039",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "The fundamental principle of surveying is **working from whole to part**.",
-    "detail": "Accurate control first, detail afterwards — so errors are **localised rather than accumulated**, and every stage carries a built-in check. The second principle: fixing a point needs **two independent measurements** from a known base.",
+    "fact": "In compressive strength test, the minimum strength developed by cube of M20 cement concrete in 7 days is 12.5 MPa.",
     "verification": {
       "status": "verified"
     }
@@ -385,9 +314,7 @@
   {
     "id": "QR-ACiE01-040",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "**BB − FB = ± 180°.** A departure from 180° means **local attraction** at one of the two stations.",
-    "detail": "Local attraction affects **all bearings from a station equally**, which is what makes it correctable: find a line whose FB and BB do differ by 180°, and work outwards from it. Do not confuse it with **magnetic declination**, which exists everywhere.",
+    "fact": "The type of destructive test for concrete is compression test.",
     "verification": {
       "status": "verified"
     }
@@ -395,9 +322,7 @@
   {
     "id": "QR-ACiE01-041",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "WCB → reduced bearing: **I (0–90°) RB = WCB, N→E**; **II (90–180°) 180−WCB, S→E**; **III (180–270°) WCB−180, S→W**; **IV (270–360°) 360−WCB, N→W**.",
-    "detail": "The prefix alternates **N, S, S, N** and the suffix goes **E, E, W, W**. So a WCB of 200° is **S 20° W**.",
+    "fact": "Soundness of cement is done by the apparatus of Le - Chatelier.",
     "verification": {
       "status": "verified"
     }
@@ -405,9 +330,7 @@
   {
     "id": "QR-ACiE01-042",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "**Rise and fall** check: **ΣBS − ΣFS = ΣRise − ΣFall = last RL − first RL** — three quantities that must agree.",
-    "detail": "**Height of collimation** has only two of those checks, so it **does not verify intermediate sights**. Use collimation for many detail levels (faster), rise and fall for precise work (fully checked).",
+    "fact": "Terracotta is used in buildings for ornamentalw ork.",
     "verification": {
       "status": "verified"
     }
@@ -415,9 +338,7 @@
   {
     "id": "QR-ACiE01-043",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "Combined **curvature and refraction correction = 0.0673 d²** metres, with d in km.",
-    "detail": "Curvature alone is 0.0785d² (makes objects appear **lower**); refraction restores about **1/7** of it. Negligible at 100 m, **67 mm at 1 km** — which is why back and fore sight distances are kept **equal**, and why **reciprocal levelling** is needed across a wide river.",
+    "fact": "Plinth area estimate is prepared on the basis of plinth area of the building, the rate being decided from the cost of a similar building having similar specifications, heights, and construction in the locality.",
     "verification": {
       "status": "verified"
     }
@@ -425,9 +346,7 @@
   {
     "id": "QR-ACiE01-044",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "**Contours cannot cross — except at an overhanging cliff**, and cannot merge except at a **vertical cliff**.",
-    "detail": "**V pointing uphill = valley** (contours point upstream); **U or V pointing downhill = ridge**. Close contours mean steep ground; a closed contour with **higher values inside** is a hill, with lower values a depression.",
+    "fact": "The number of treads in a flight is equal to risers minus one.",
     "verification": {
       "status": "verified"
     }
@@ -435,9 +354,7 @@
   {
     "id": "QR-ACiE01-045",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "Observing on **both face left and face right** eliminates **collimation and trunnion axis** errors.",
-    "detail": "**Both verniers** remove **eccentricity of centres**; **repetition** removes **graduation** error. Nothing removes a **non-vertical vertical axis** — the instrument must simply be levelled properly.",
+    "fact": "The weakest bond in building is raking bond.",
     "verification": {
       "status": "verified"
     }
@@ -445,9 +362,7 @@
   {
     "id": "QR-ACiE01-046",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "**Tacheometry: D = Ks + C**, with **K = f/i = 100** and **C = 0** for an anallatic lens.",
-    "detail": "Inclined sight, staff vertical: **D = Ks cos²θ + C cos θ**, **V = Ks(sin 2θ)/2**. Accuracy about **1 in 500–1000**, so tacheometry is for **detail and contouring**, never the primary control.",
+    "fact": "In case of cavity walls where both walls are load bearing, the effective thickness is larger of thickness of stronger wall or 2 3 rd of sum of thickness of both walls.",
     "verification": {
       "status": "verified"
     }
@@ -455,9 +370,7 @@
   {
     "id": "QR-ACiE01-047",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "**Bowditch rule** distributes closing error in proportion to **line length** (compass traverse); **transit rule** in proportion to **latitude/departure** (theodolite traverse).",
-    "detail": "**Closing error e = √[(ΣL)² + (ΣD)²]**, expressed as a **relative** error against the perimeter. Balancing **hides** error — if the misclosure exceeds the permissible limit, **re-observe** rather than distribute it.",
+    "fact": "The purpose of providing waterproof tiles is top revents water from entering.",
     "verification": {
       "status": "verified"
     }
@@ -465,9 +378,7 @@
   {
     "id": "QR-ACiE01-048",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "**Simpson's rule needs an ODD number of ordinates** (even number of intervals); the **trapezoidal rule accepts any number**.",
-    "detail": "**Simpson: (d/3)[first + last + 4(even) + 2(odd)]** — more accurate for a curved boundary. Its volume analogue is the **prismoidal formula**; the difference from the trapezoidal result is the **prismoidal correction**.",
+    "fact": "Cement, sand and bitumen are used in rainwater gutter in roof.",
     "verification": {
       "status": "verified"
     }
@@ -475,9 +386,7 @@
   {
     "id": "QR-ACiE01-049",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "**A total station measures horizontal angle, vertical angle and SLOPE distance** — everything else it reports is computed.",
-    "detail": "**GNSS needs four satellites** for a 3D fix, because the receiver clock error is a fourth unknown alongside X, Y, Z. Total station needs **line of sight**; GNSS needs **sky view** — so they are complements, not rivals.",
+    "fact": "A projecting piece usually provided to support a truss is frieze.",
     "verification": {
       "status": "verified"
     }
@@ -485,9 +394,7 @@
   {
     "id": "QR-ACiE01-050",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "**Degree of curve: R ≈ 1719/D** on the **30 m chord** definition (**1146/D** for a 20 m chord).",
-    "detail": "From R = 57.3C/D. **Rankine's deflection angle δ = 1718.9 C/R minutes.** The **first and last sub-chords are shorter** than the standard chord and need their own deflection angles — the commonest setting-out error.",
+    "fact": "The process of making the background rough before plastering is called hacking.",
     "verification": {
       "status": "verified"
     }
@@ -495,9 +402,871 @@
   {
     "id": "QR-ACiE01-051",
     "chapter": "ACiE01",
-    "subchapter": "ACiE0105",
-    "fact": "Plane tabling: **radiation** and **intersection** fix **detail**; **traversing** fixes **stations**; **resection** fixes **the observer's own position**.",
-    "detail": "The **three-point problem** solves resection, but fails if the station lies on the **danger circle** through the three known points, where the position is indeterminate. **Chain correction: true length = measured × (wrong chain length ÷ true length)** — a stretched chain reads **short**.",
+    "fact": "Gas pipe cannot be provided underneath a floor.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-052",
+    "chapter": "ACiE01",
+    "fact": "The carpet area of residential building is 50 – 65% percentage of plinth area.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-053",
+    "chapter": "ACiE01",
+    "fact": "As per regulations, the plinth area should have occupied about 60 to 75% of total plot area.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-054",
+    "chapter": "ACiE01",
+    "fact": "The type of stone used for the construction of retaining walls must be heavy.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-055",
+    "chapter": "ACiE01",
+    "fact": "The dressing of stone is done immediately after quarrying.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-056",
+    "chapter": "ACiE01",
+    "fact": "The circular finishing commonly applied in construction is Pillars.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-057",
+    "chapter": "ACiE01",
+    "fact": "The CG and geometric center doesn't coincide in right angle triangle.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-058",
+    "chapter": "ACiE01",
+    "fact": "Second moment of area of triangle about its base is, I = bh 3",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-059",
+    "chapter": "ACiE01",
+    "fact": "The angle for well conditional triangle should not be less than 30 degree.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-060",
+    "chapter": "ACiE01",
+    "fact": "Section modulus of a hol low circular section is Z =  (D 4 – d 4) 32D.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-061",
+    "chapter": "ACiE01",
+    "fact": "MOI of inertia of hollow circular section is  4 × (R 4 – r 4).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-062",
+    "chapter": "ACiE01",
+    "fact": "The moment of inertia of a rectangular section about a horizontal axis passing through the base is bd 3",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-063",
+    "chapter": "ACiE01",
+    "fact": "The CG of a cone from its base ish",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-064",
+    "chapter": "ACiE01",
+    "fact": "[ Note: h 4 for solid cone andh 3 for hollow cone]",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-065",
+    "chapter": "ACiE01",
+    "fact": "In computer mapping, the area of the region is typically measured in the unit of square.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-066",
+    "chapter": "ACiE01",
+    "fact": "The perpendicular axis theorem is used to calculate the MOI of circular lamina.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-067",
+    "chapter": "ACiE01",
+    "fact": "The center of gravity of hemisphere is 3",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-068",
+    "chapter": "ACiE01",
+    "fact": "A solid having equilateral triangle as base and other faces converging towards its axis is known as pyramid.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-069",
+    "chapter": "ACiE01",
+    "fact": "The shape made up of uniform triangles is prism.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-070",
+    "chapter": "ACiE01",
+    "fact": "The radius of gyration of are ctangular section is proportional to square root of the moment of inertia, square root of the inverse of the area or square root of the moment of inertia divided by area of the section.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-071",
+    "chapter": "ACiE01",
+    "fact": "Moment of inertia of a triangular section of base and height about an axis passing through its vertex and parallel to the base is 9 times than that passing through its CG and parallel to the base.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-072",
+    "chapter": "ACiE01",
+    "fact": "The MOI of semi - circle about base is  R 4",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-073",
+    "chapter": "ACiE01",
+    "fact": "The moment of inertia of the circle is  d 4",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-074",
+    "chapter": "ACiE01",
+    "fact": "The moment of inertia through centroid of triangle parallel to base is bd 3",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-075",
+    "chapter": "ACiE01",
+    "fact": "The area moment of inertia of a semi - circular region having diameter 'd' about its diametric axis is  d 4",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-076",
+    "chapter": "ACiE01",
+    "fact": "The moment of inertia of hollow rectangular section having outer depth 'D' and breadth 'B' and dimensions of inner rectangle are depth 'd' and width 'b' about horizontal axis passing through the Centroid is BD 3 – bd 3",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-077",
+    "chapter": "ACiE01",
+    "fact": "The shape factor of rectangular section is 1.5",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-078",
+    "chapter": "ACiE01",
+    "fact": "The formula of radius of gyration isk 2 = I A.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-079",
+    "chapter": "ACiE01",
+    "fact": "The MOI of rectangular section about the base is bd 3",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-080",
+    "chapter": "ACiE01",
+    "fact": "The section modulus of hollow circular section having external diameter D and internal diameterd is  (D 4 −  4) 32D.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-081",
+    "chapter": "ACiE01",
+    "fact": "A trapezoid having two parallel side 'a' and 'b' and height 'h'. The Y centroid distance from bottom side 'b' is H 3 × b + 2a b + a.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-082",
+    "chapter": "ACiE01",
+    "fact": "If level is located at mid - point then Cc and Cr error is eliminated. [Cc = Curvature correction and Cr = Refraction correction]",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-083",
+    "chapter": "ACiE01",
+    "fact": "24 satellites are used for GPS by the US Department of Defense.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-084",
+    "chapter": "ACiE01",
+    "fact": "The right face zenith angle is 261°29'30\" if left face zenithal angle is 98°30'30\". [ Right face zenith angle = 360° – 98°30'30\" = 261°29'30\"]",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-085",
+    "chapter": "ACiE01",
+    "fact": "Topography survey is done for soil, traffic and engineering, etc.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-086",
+    "chapter": "ACiE01",
+    "fact": "Transferring data doesn't determine the capability of GIS.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-087",
+    "chapter": "ACiE01",
+    "fact": "Geodetic surveying is different from plane surveying because of the consideration of curvature of earth.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-088",
+    "chapter": "ACiE01",
+    "fact": "ΣB.. – ΣF.. = La R.L. – First R.L. indicates the formula for arithmetic check.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-089",
+    "chapter": "ACiE01",
+    "fact": "The percentage of plinth area provided for horizontal circulation area is 10 to 15%.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-090",
+    "chapter": "ACiE01",
+    "fact": "In closed traverse, the sum of the north latitudes is more than the sum of the south latitudes and also the sum of west departures is more than the sum of the east departures, the closing line lies is in NW quadrant.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-091",
+    "chapter": "ACiE01",
+    "fact": "Readings taken during traversing using total station are horizontal angle, horizontal distance, vertical distance, station height, height of instrument.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-092",
+    "chapter": "ACiE01",
+    "fact": "The bearings of the lines AB and BC are 146° 30' and 68° 30'. The included angle ABC is 102°. [AB = 180° + 146° 30' = 326°30' Fore Bearing of BC = 68°30' ∡ ABC = 360° – (326°30' – 68°30') = 102°]",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-093",
+    "chapter": "ACiE01",
+    "fact": "tan  =  D  L is the direction of closing error.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-094",
+    "chapter": "ACiE01",
+    "fact": "River is obstacle to chaining but not for ranging.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-095",
+    "chapter": "ACiE01",
+    "fact": "The bench marks are fixed during the detailed survey.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-096",
+    "chapter": "ACiE01",
+    "fact": "Contour lines of different elevations can unite to form one line, only in the case of a vertical cliff.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-097",
+    "chapter": "ACiE01",
+    "fact": "The magnetic bearing of a line is 32° and the magnetic declination is 10° 15' W. The true bearing is 21° 45'. [True bearing = 32° – 10° 15' = 21° 45']",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-098",
+    "chapter": "ACiE01",
+    "fact": "The plan used to intercept dr ainage, surface conditions, and topography is called contour plan.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-099",
+    "chapter": "ACiE01",
+    "fact": "The first stage of the survey is map study.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-100",
+    "chapter": "ACiE01",
+    "fact": "Steep slope do closely space equal contour line indicates.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-101",
+    "chapter": "ACiE01",
+    "fact": "The dumpy level is most suitable for leveling survey is on flat terrain.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-102",
+    "chapter": "ACiE01",
+    "fact": "Height of Instrument method and Collimation method of levelling is generally adopted if there are lot many numbers of intermediate stations.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-103",
+    "chapter": "ACiE01",
+    "fact": "The formula to calculate elevation in tachometric surveying is K.S. sin 2  2 + C sin .",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-104",
+    "chapter": "ACiE01",
+    "fact": "For 1m 3 volume of 1: 1.5: 3 PCC, the number of bags of cement are required is 8 bags.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-105",
+    "chapter": "ACiE01",
+    "fact": "Binding wire quantity in 1 quintal reinforcement is 1 kg.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-106",
+    "chapter": "ACiE01",
+    "fact": "In long wall – short wall method, the length of the long wall is the sum of center line and b. [where, b = Breadth of wall]",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-107",
+    "chapter": "ACiE01",
+    "fact": "The quantity of brickwork with mortar in foundation used per mason per day is 1.25 m",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-108",
+    "chapter": "ACiE01",
+    "fact": "The process of determining fair price or value of a property is known as valuation.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-109",
+    "chapter": "ACiE01",
+    "fact": "Calculate the number of cement bag required if overall density is 2350 kg/m 3, aggregate = 3860 kg, w/c = 0.4 and volume of concrete = 2 m",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-110",
+    "chapter": "ACiE01",
+    "fact": "[ Ans: 12 bag]",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-111",
+    "chapter": "ACiE01",
+    "fact": "Half brick wall is not measure in cumes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-112",
+    "chapter": "ACiE01",
+    "fact": "If w/c = 0.8, volume of cement is 2 m 3, the volume of water in liter is 2304 liters.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-113",
+    "chapter": "ACiE01",
+    "fact": "The expected out turn of the cement concrete 1: 2: 4 for per mason per will be: 5.0 m",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-114",
+    "chapter": "ACiE01",
+    "fact": "The volume of cement in 50 kg bag is 0.0347 m",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-115",
+    "chapter": "ACiE01",
+    "fact": "Revised estimate is prepared when the original sanctioned estimate differs by more than 5%",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-116",
+    "chapter": "ACiE01",
+    "fact": "For well triangle condition each angle shouldn't be less than 30°.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-117",
+    "chapter": "ACiE01",
+    "fact": "As per NBC, the standard size of brick is 240 mm × 115 mm × 57 mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-118",
+    "chapter": "ACiE01",
+    "fact": "In rate analysis, the cost of tool and equipment is taken as 3% of the cost of unskilled labour.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-119",
+    "chapter": "ACiE01",
+    "fact": "The surface dressing is measured in sq. m.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-120",
+    "chapter": "ACiE01",
+    "fact": "The estimated cost should not be greater than 10% of the actual cost of the project.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-121",
+    "chapter": "ACiE01",
+    "fact": "The size of brick is specified by dimension.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-122",
+    "chapter": "ACiE01",
+    "fact": "Brick are soaked in water before using in the brick masonry to wash dust, to prevent moisture loss from mortar and for even spreading of mortar.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-123",
+    "chapter": "ACiE01",
+    "fact": "6 percentage of magnesia is maximum allowed in ordinary Portland cement.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-124",
+    "chapter": "ACiE01",
+    "fact": "According to Bowditch's rule correction to latitude or departure of any side is equal to total error in latitude or departure × length of that side/perimeter of traverse.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-125",
+    "chapter": "ACiE01",
+    "fact": "Dry rubble masonry requires the highest level of skill and skilled labor for laying.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-126",
+    "chapter": "ACiE01",
+    "fact": "The apex angle of Dutch cone is about",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-127",
+    "chapter": "ACiE01",
+    "fact": "The phenomenon of slow extension of material at the constant load during tensile test is known as creeping.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-128",
+    "chapter": "ACiE01",
+    "fact": "The characteristics of good quality of bricks are less water absorption, regular surface and sharp edge.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-129",
+    "chapter": "ACiE01",
+    "fact": "The centroid of semi - circle about diametric axis (base) is 2d 3 .",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-130",
+    "chapter": "ACiE01",
+    "fact": "The primary purpose of curing is to reduce the heat loss of concrete that is freshly placed to the atmosphere and reduce the temperature gradient across the cross - section of the concrete.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-131",
+    "chapter": "ACiE01",
+    "fact": "Eccentric footing is subjected to axial loading and bending moment.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-132",
+    "chapter": "ACiE01",
+    "fact": "Contour interval is inversely proportional to the scale of the map.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-133",
+    "chapter": "ACiE01",
+    "fact": "Short distance of up 150 to 200 mis typically determined by a subtense bar.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-134",
+    "chapter": "ACiE01",
+    "fact": "A right circular cone is cut parallel with the axis of symmetry, the conic formed is hyperbola.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-135",
+    "chapter": "ACiE01",
+    "fact": "The best place to store cement isa dry, moisture proof warehouse.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-136",
+    "chapter": "ACiE01",
+    "fact": "When water is added to cement, both heat is generated and chemical reaction is initiated.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-137",
+    "chapter": "ACiE01",
+    "fact": "Slump test is calculated in the unit of mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-138",
+    "chapter": "ACiE01",
+    "fact": "Surkhi is the powdered form of burnt clay which is used in replaced of sand.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-139",
+    "chapter": "ACiE01",
+    "fact": "The stone Granite has comparatively higher hardness coefficient than the following stone like limestone, slate and conglomerate.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-140",
+    "chapter": "ACiE01",
+    "fact": "The quartzite isa metamorphic type of rock.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-141",
+    "chapter": "ACiE01",
+    "fact": "The purpose of pigment in the paint is to provide the color.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-142",
+    "chapter": "ACiE01",
+    "fact": "The moment of inertia of solid hemisphere about its base is  R 4",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-143",
+    "chapter": "ACiE01",
+    "fact": "In Plane surveying, the curvature of the earth is completely neglected.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-144",
+    "chapter": "ACiE01",
+    "fact": "The polar moment of inertia (J) of a solid circular section of diameterd about its longitudinal axis is  d 4",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-145",
+    "chapter": "ACiE01",
+    "fact": "Blistering is the type of defect in paint which is caused due to moisture.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-146",
+    "chapter": "ACiE01",
+    "fact": "Co - ordinate method is the accurate method of plotting traverse area.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-147",
+    "chapter": "ACiE01",
+    "fact": "Clinograph isa type of compass.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-148",
+    "chapter": "ACiE01",
+    "fact": "Moment of inertia represents resistance against bending.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-149",
+    "chapter": "ACiE01",
+    "fact": "Levelling is used to determine elevation difference.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-150",
+    "chapter": "ACiE01",
+    "fact": "Line ranger is not used in measuring perpendicular offsets.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-151",
+    "chapter": "ACiE01",
+    "fact": "The construction of an optical square is based on the principle of double reflection.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-152",
+    "chapter": "ACiE01",
+    "fact": "The technique of plotting all the Accessible stations with a single setup of plane table is called radiation.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-153",
+    "chapter": "ACiE01",
+    "fact": "The angle between two plane mirrors of optical square, i s 45 degrees.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-154",
+    "chapter": "ACiE01",
+    "fact": "The instruments using in digital cadastral survey is total station.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-155",
+    "chapter": "ACiE01",
+    "fact": "The last reading of levelling is always a fore sight.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-156",
+    "chapter": "ACiE01",
+    "fact": "Rise and fall method is used in differential levelling and check levelling",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-157",
+    "chapter": "ACiE01",
+    "fact": "Rising moisture from ground via capillary action isa major cause of dampness in buildings.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-158",
+    "chapter": "ACiE01",
+    "fact": "The purpose of estimate is to find the probable cost of construction project.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE01-159",
+    "chapter": "ACiE01",
+    "fact": "Preliminary estimate is also known as budget estimate.",
     "verification": {
       "status": "verified"
     }

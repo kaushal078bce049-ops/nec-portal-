@@ -2,9 +2,7 @@
   {
     "id": "QR-ACiE06-001",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0601",
-    "fact": "Design water demand in Nepal (rural/urban): **45 lpcd basic**, **65–100 lpcd** for piped urban supply.",
-    "detail": "Indian practice (CPHEEO) quotes **135 lpcd** for towns with full flushing. Breakdown: domestic ~50–60%, plus industrial, commercial, public and **fire demand**, with **15–20% unaccounted-for water**.",
+    "fact": "Rivers contain water with the maximum amount of turbidity.",
     "verification": {
       "status": "verified"
     }
@@ -12,9 +10,7 @@
   {
     "id": "QR-ACiE06-002",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0601",
-    "fact": "Peak factors: **maximum daily = 1.8 × average**, **maximum hourly = 1.5 × maximum daily = 2.7 × average**.",
-    "detail": "Design each component for its own governing demand: **source and treatment for maximum daily**, **distribution mains for maximum hourly**, **service reservoir to balance the two**. Using the wrong factor for the wrong component is the classic error.",
+    "fact": "Water may not contain much impurities if its source is spring along hill slopes.",
     "verification": {
       "status": "verified"
     }
@@ -22,9 +18,7 @@
   {
     "id": "QR-ACiE06-003",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0601",
-    "fact": "Drinking water standards: **turbidity ≤ 5 NTU**, **pH 6.5–8.5**, **residual chlorine 0.2 mg/l**, **E. coli 0 per 100 ml**.",
-    "detail": "Nepal's **NDWQS 2062** sets these. **Arsenic 0.05 mg/l** (Nepal) — a real problem in the Terai; **fluoride 0.5–1.5**; **iron 0.3**; **total hardness 500 mg/l**. **Zero E. coli is non-negotiable.**",
+    "fact": "Water from reservoirs comes under the category of surface water.",
     "verification": {
       "status": "verified"
     }
@@ -32,9 +26,7 @@
   {
     "id": "QR-ACiE06-004",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0601",
-    "fact": "Population forecasting: **arithmetic** (constant increase), **geometric** (constant %), **incremental increase**, **logistic** (S-curve).",
-    "detail": "**Arithmetic** suits large, stable, saturated cities; **geometric** suits young, rapidly growing towns (it over-predicts for old ones); **logistic** is the most realistic over a long horizon because it recognises a **saturation** population.",
+    "fact": "The per capita demand of water is calculated in liters per person per day.",
     "verification": {
       "status": "verified"
     }
@@ -42,9 +34,7 @@
   {
     "id": "QR-ACiE06-005",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0601",
-    "fact": "**Hardness** is caused chiefly by **calcium and magnesium** salts; **temporary (carbonate) hardness is removed by boiling**.",
-    "detail": "**Permanent (non-carbonate)** hardness needs **lime-soda** softening or **ion exchange**. Hardness is expressed as **mg/l of CaCO₃**. Soft water is corrosive; very hard water scales pipes and wastes soap.",
+    "fact": "Pathogens are harmful bacteria.",
     "verification": {
       "status": "verified"
     }
@@ -52,9 +42,7 @@
   {
     "id": "QR-ACiE06-006",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0602",
-    "fact": "Distribution layouts: **dead end (tree)**, **grid iron**, **circular (ring)**, **radial**.",
-    "detail": "**Dead end** is cheapest and easiest to design but gives **stagnation and no alternative supply** during repair. **Grid iron** suits a **rectangular street pattern** and gives circulation from two directions — best water quality, highest cost.",
+    "fact": "Blue baby syndrome(methemoglobinemia) is caused due to nitrate.",
     "verification": {
       "status": "verified"
     }
@@ -62,9 +50,7 @@
   {
     "id": "QR-ACiE06-007",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0602",
-    "fact": "Network analysis: **Hardy Cross** method of balancing heads, or the equivalent-pipe method.",
-    "detail": "Correction per loop **ΔQ = −Σh_f/(n·Σ|h_f/Q|)**, with n = 1.85 for Hazen-Williams and 2 for Darcy-Weisbach. The two conditions: **ΣQ = 0 at each junction** and **Σh_f = 0 around each loop**.",
+    "fact": "Thermophilic bacteria that grow more at high temperature (40 to 70°C).",
     "verification": {
       "status": "verified"
     }
@@ -72,9 +58,7 @@
   {
     "id": "QR-ACiE06-008",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0602",
-    "fact": "Service reservoir capacity is normally **one third of the maximum daily demand**.",
-    "detail": "It balances the **constant** pumping/treatment rate against the **variable** hourly demand, provides **fire reserve** and **breakdown reserve**, and maintains pressure. Balancing storage is found from a **mass curve** of cumulative supply against cumulative demand.",
+    "fact": "The prevention of Trachoma is quantity and quality of water.",
     "verification": {
       "status": "verified"
     }
@@ -82,9 +66,7 @@
   {
     "id": "QR-ACiE06-009",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0602",
-    "fact": "Minimum residual pressure in a distribution system: about **7 m** (single storey) to **17–22 m** for multi-storey and fire fighting.",
-    "detail": "Valves and their duties: **sluice/gate** (isolation), **reflux/non-return** (prevents backflow), **air valve** (releases air at summits), **scour valve** (drains at low points), **pressure relief**, **fire hydrant**.",
+    "fact": "Trachoma can be avoided by providing clean water.",
     "verification": {
       "status": "verified"
     }
@@ -92,9 +74,7 @@
   {
     "id": "QR-ACiE06-010",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0602",
-    "fact": "An **intake** must draw water **below the surface but above the bed**, and be protected by a **trash rack**.",
-    "detail": "Below the surface to avoid **floating debris and oil**; above the bed to avoid **silt**. Types: river, reservoir, canal, lake, spring. A **multi-level** intake lets the operator draw the best-quality layer as the reservoir level changes.",
+    "fact": "Turbidity of water is expressed in ppm.",
     "verification": {
       "status": "verified"
     }
@@ -102,9 +82,7 @@
   {
     "id": "QR-ACiE06-011",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0603",
-    "fact": "Conventional treatment train: **screening → aeration → coagulation-flocculation → sedimentation → filtration → disinfection**.",
-    "detail": "Each stage removes what the next cannot handle economically. **Filtration removes the fine particles and most pathogens; disinfection kills what remains.** Turbidity must be low **before** disinfection, or chlorine is consumed by particles instead of organisms.",
+    "fact": "Tintometer method is used to measure the color of water.",
     "verification": {
       "status": "verified"
     }
@@ -112,9 +90,7 @@
   {
     "id": "QR-ACiE06-012",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0603",
-    "fact": "**Surface loading (overflow) rate = Q/A_surface** — sedimentation tank efficiency depends on **surface area, not depth**.",
-    "detail": "A counter-intuitive but fundamental result of ideal settling theory: a particle is removed if its settling velocity exceeds Q/A. Typical values: **20–30 m³/m²/day** plain sedimentation, **40–50** with coagulation. Detention time 2–4 h (plain), 2–2.5 h (clariflocculator).",
+    "fact": "A disease which is widespread and can reach globally is termed as pandemic.",
     "verification": {
       "status": "verified"
     }
@@ -122,9 +98,7 @@
   {
     "id": "QR-ACiE06-013",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0603",
-    "fact": "**Alum (aluminium sulphate)** is the commonest coagulant; it needs **alkalinity** to work.",
-    "detail": "Al₂(SO₄)₃ + alkalinity → **Al(OH)₃ floc** + CO₂. Optimum **pH 6.5–8.5**, dose 5–30 mg/l, found by the **jar test**. If natural alkalinity is insufficient, **lime or soda ash** must be added. **Coagulation** destabilises colloids; **flocculation** is the gentle stirring that grows the floc.",
+    "fact": "Geometrical increase method is preferred for rapidly growing population.",
     "verification": {
       "status": "verified"
     }
@@ -132,9 +106,7 @@
   {
     "id": "QR-ACiE06-014",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0603",
-    "fact": "**Rapid sand filter: 100–150 m³/m²/day**; **slow sand filter: 2.5–5 m³/m²/day** — roughly **30–50× slower**.",
-    "detail": "**Rapid** filters need **pre-coagulation** and are cleaned by **backwashing** (24–48 h cycle). **Slow** filters need no chemicals, are cleaned by **scraping** the schmutzdecke, and remove bacteria biologically — ideal for **small rural schemes** in Nepal.",
+    "fact": "Permissible pH value for public water supply ranges between 6.5 to 8.5.",
     "verification": {
       "status": "verified"
     }
@@ -142,9 +114,7 @@
   {
     "id": "QR-ACiE06-015",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0603",
-    "fact": "**Break-point chlorination**: chlorine first forms chloramines, then destroys them, and **free residual chlorine appears only beyond the break point**.",
-    "detail": "**Free residual chlorine** is the effective disinfectant; **combined** (chloramine) is weaker but longer-lasting. Contact time **≥30 min**, residual **0.2 mg/l** at the far end. Chlorine's effectiveness **falls as pH rises** (HOCl dissociates to the weaker OCl⁻).",
+    "fact": "The livestock demand should not exceed 20% of total domestic demand.",
     "verification": {
       "status": "verified"
     }
@@ -152,9 +122,7 @@
   {
     "id": "QR-ACiE06-016",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0603",
-    "fact": "Disinfection alternatives: **ozone** (no residual, no taste), **UV** (no residual, needs clear water), **boiling**, **SODIS**.",
-    "detail": "The decisive advantage of **chlorine** is its **persistent residual**, which protects water through the distribution network against recontamination. Ozone and UV leave none, so they need a chlorine top-up in a piped system.",
+    "fact": "1 TCU is equivalent to the color produced by 1 mg of platinum cobalt in 1L of distilled water.",
     "verification": {
       "status": "verified"
     }
@@ -162,9 +130,7 @@
   {
     "id": "QR-ACiE06-017",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0604",
-    "fact": "Sewers are designed for a **self-cleansing velocity of 0.6–0.8 m/s** and a **maximum of 3 m/s**.",
-    "detail": "Minimum to stop **solids depositing**; maximum to stop **abrasion of the invert**. A sewer is designed to run **just full at peak** but flows partly full most of the time — hence the **hydraulic elements (partial flow) diagram**.",
+    "fact": "Dead end system distribution is used in irregularly developed old city.",
     "verification": {
       "status": "verified"
     }
@@ -172,9 +138,7 @@
   {
     "id": "QR-ACiE06-018",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0604",
-    "fact": "A **circular sewer carries its maximum discharge at about 0.94 of full depth**, and maximum velocity at about **0.81**.",
-    "detail": "Both exceed the full-flow values, because near the crown the added wetted perimeter costs more than the added area gains. That is why a sewer running absolutely full is **less** efficient than one running nearly full.",
+    "fact": "The effect on pH decrease if bleaching powder is added.",
     "verification": {
       "status": "verified"
     }
@@ -182,9 +146,7 @@
   {
     "id": "QR-ACiE06-019",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0604",
-    "fact": "**Separate system** carries sewage and stormwater in separate sewers; **combined** carries both together.",
-    "detail": "**Separate** suits **high-rainfall** regions (like Nepal) because the treatment plant is not overwhelmed by storm flow; **combined** is cheaper to build but needs **storm overflows** that discharge untreated sewage. **Partially separate** is the compromise.",
+    "fact": "Membrane filter technique isa better test to identify coliforms.",
     "verification": {
       "status": "verified"
     }
@@ -192,9 +154,7 @@
   {
     "id": "QR-ACiE06-020",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0604",
-    "fact": "**Manholes** are placed at every change of **direction, gradient, diameter**, at junctions, and on straight runs at **30–100 m**.",
-    "detail": "A **drop manhole** is used where the incoming sewer is much higher than the outgoing — it dissipates energy instead of allowing a high velocity. Appurtenances also include **inverted siphons**, **flushing tanks**, **catch basins** and **ventilating columns**.",
+    "fact": "By boiling water, hardness can be removed if it is due to calcium bicarbonate.",
     "verification": {
       "status": "verified"
     }
@@ -202,9 +162,7 @@
   {
     "id": "QR-ACiE06-021",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0605",
-    "fact": "**BOD₅ at 20 °C** is the standard measure of organic strength; **COD** is always **higher** than BOD.",
-    "detail": "COD oxidises **all** organic matter chemically; BOD only the **biodegradable** fraction. A high **COD/BOD ratio** means poorly biodegradable waste (industrial), so biological treatment will not work well. Domestic sewage: BOD **200–300 mg/l**.",
+    "fact": "The water carriage system needs more water.",
     "verification": {
       "status": "verified"
     }
@@ -212,9 +170,7 @@
   {
     "id": "QR-ACiE06-022",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0605",
-    "fact": "**BOD remaining: L_t = L_0·10^(−kt)**; **BOD exerted: y = L_0(1 − 10^(−kt))**.",
-    "detail": "With k ≈ 0.1/day at 20 °C, the **5-day BOD is about 68% of the ultimate**. Temperature correction: **k_T = k_20 × 1.047^(T−20)**. Confusing 'remaining' with 'exerted' is the commonest slip in these calculations.",
+    "fact": "Jar test is used to measure coagulant.",
     "verification": {
       "status": "verified"
     }
@@ -222,9 +178,7 @@
   {
     "id": "QR-ACiE06-023",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0605",
-    "fact": "Treatment stages: **preliminary (screens, grit) → primary (sedimentation) → secondary (biological) → tertiary**.",
-    "detail": "**Primary** removes ~**30–40% BOD** and 50–70% suspended solids by settling alone. **Secondary** (biological) takes total BOD removal to **85–95%**. **Tertiary** removes nutrients and pathogens where the receiving water is sensitive.",
+    "fact": "By providing safe drinking water help to prevent water borne disease.",
     "verification": {
       "status": "verified"
     }
@@ -232,9 +186,7 @@
   {
     "id": "QR-ACiE06-024",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0605",
-    "fact": "**Activated sludge** is a **suspended growth** process; a **trickling filter** is **attached growth**.",
-    "detail": "ASP key parameters: **F/M ratio 0.2–0.4**, **MLSS 2000–4000 mg/l**, **SRT 5–15 days**, **sludge volume index 50–150**. **Bulking sludge** (filamentous, high SVI) is the classic ASP operating problem.",
+    "fact": "E. coli typically die in water if PH value is 9.5.",
     "verification": {
       "status": "verified"
     }
@@ -242,9 +194,7 @@
   {
     "id": "QR-ACiE06-025",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0605",
-    "fact": "**Waste stabilisation ponds** are the most appropriate technology for small Nepali towns — anaerobic, facultative, maturation in series.",
-    "detail": "No mechanical parts, no power, minimal operator skill, and **maturation ponds give excellent pathogen removal** by sunlight and long detention. The cost is **large land area** and detention of 20–40 days. A **facultative** pond is aerobic at the top and anaerobic at the bottom.",
+    "fact": "NTU is the measure of turbidity.",
     "verification": {
       "status": "verified"
     }
@@ -252,9 +202,7 @@
   {
     "id": "QR-ACiE06-026",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0605",
-    "fact": "A **septic tank** provides settling and anaerobic digestion only — its effluent **still needs a soak pit or drain field**.",
-    "detail": "Detention **1–3 days**, desludging every **2–3 years**, minimum **two compartments**. Septic tank effluent is **not safe to discharge**: BOD removal is only ~30–50%. Treating a septic tank as complete treatment is a widespread and serious error.",
+    "fact": "The chemical generally used for controlling algae is copper sulphate.",
     "verification": {
       "status": "verified"
     }
@@ -262,9 +210,7 @@
   {
     "id": "QR-ACiE06-027",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0605",
-    "fact": "**Sludge digestion** (anaerobic) proceeds by **hydrolysis → acidogenesis → acetogenesis → methanogenesis**.",
-    "detail": "Produces **biogas ≈ 60–70% CH₄**, reduces volume and destroys pathogens. Optimum **mesophilic 30–38 °C** or **thermophilic 50–57 °C**, pH **6.8–7.2**. Methanogens are the slowest and most sensitive step — a pH drop stalls the digester.",
+    "fact": "The effect on pH of water in ponds due to presence of algae is alkalinity increases at day and decreases at night.",
     "verification": {
       "status": "verified"
     }
@@ -272,9 +218,7 @@
   {
     "id": "QR-ACiE06-028",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0606",
-    "fact": "In Nepal the environmental assessment tiers are **BES → IEE → EIA**, under the **Environment Protection Act 2076 (2019)**.",
-    "detail": "**IEE** is approved by the **concerned ministry**; **EIA** by the **Ministry of Forests and Environment**. The 2019 Act added the **Brief Environmental Study (BES)** as a third, lightest tier — a change from the 1997 Act.",
+    "fact": "E - coli are harmless organisms but their presence in water indicates the presence of pathogenic bacteria.",
     "verification": {
       "status": "verified"
     }
@@ -282,9 +226,7 @@
   {
     "id": "QR-ACiE06-029",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0606",
-    "fact": "EIA process: **screening → scoping → ToR → baseline study → impact prediction → mitigation → EMP → review → approval → monitoring/auditing**.",
-    "detail": "**Screening** decides *whether* an assessment is needed and at what tier; **scoping** decides *what* it must cover. **Public consultation** is mandatory at scoping and again at the draft report stage. Monitoring and **environmental auditing** continue after approval.",
+    "fact": "Reducer fitting is used to connect pipes of different diameter.",
     "verification": {
       "status": "verified"
     }
@@ -292,9 +234,7 @@
   {
     "id": "QR-ACiE06-030",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0606",
-    "fact": "The mitigation hierarchy: **avoid → minimise → rectify/restore → compensate/offset**.",
-    "detail": "**Avoidance ranks first** and is the cheapest and most certain — usually achieved by changing the **site or alignment** at the design stage. Compensation is the last resort because it does not prevent the harm.",
+    "fact": "Altitude valves is used for supplies water to elevated tanks or standpipes.",
     "verification": {
       "status": "verified"
     }
@@ -302,9 +242,7 @@
   {
     "id": "QR-ACiE06-031",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0606",
-    "fact": "**Air pollutants** and their chief sources: **PM₁₀/PM₂.₅** (combustion, dust), **SO₂** (coal, brick kilns), **NOₓ** (vehicles), **CO** (incomplete combustion).",
-    "detail": "Kathmandu's dominant problems are **PM from vehicles, brick kilns and road dust**, aggravated by the **valley's winter inversion**, which traps pollutants under a stable layer. **PM₂.₅** matters most for health because it reaches the alveoli.",
+    "fact": "If three pipes are connected in series, then discharge is same for all.",
     "verification": {
       "status": "verified"
     }
@@ -312,9 +250,7 @@
   {
     "id": "QR-ACiE06-032",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0606",
-    "fact": "**Solid waste hierarchy: reduce → reuse → recycle → recover (energy) → dispose.**",
-    "detail": "**Sanitary landfilling** is the only acceptable disposal method — with a **liner, leachate collection, gas venting, daily cover and monitoring wells**. **Open dumping, open burning and river discharge are all unacceptable**, whatever local practice may be.",
+    "fact": "Elbow pipe fitting provide a deviation of 90° in the pipe work system.",
     "verification": {
       "status": "verified"
     }
@@ -322,9 +258,7 @@
   {
     "id": "QR-ACiE06-033",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0601",
-    "fact": "**Fire demand (Kuichling): Q = 3182√P** litres/min, with P the population in thousands.",
-    "detail": "Fire demand is **short duration but very high rate**, so it sizes the **distribution main and the reservoir reserve**, not the source. Other formulae: Freeman, Buston, and the National Board of Fire Underwriters.",
+    "fact": "Steel pipe is strong in resisting inside stress but weak when stressed from outside.",
     "verification": {
       "status": "verified"
     }
@@ -332,9 +266,7 @@
   {
     "id": "QR-ACiE06-034",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0602",
-    "fact": "Pipe materials: **CI/DI** (mains, durable), **GI** (small service), **PVC/HDPE** (corrosion-free, light), **steel** (large, high pressure), **PSC** (large gravity mains).",
-    "detail": "**HDPE** is dominant in Nepali rural water supply — light enough to be carried to remote sites, **flexible over unstable slopes**, corrosion-free and jointed by fusion. Its limits are UV degradation and low temperature resistance.",
+    "fact": "Scour valves are provided at every depression and dead ends to drain out the waste water that may collect there.",
     "verification": {
       "status": "verified"
     }
@@ -342,9 +274,7 @@
   {
     "id": "QR-ACiE06-035",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0603",
-    "fact": "**Aeration** removes **dissolved gases (CO₂, H₂S), taste and odour**, and oxidises **iron and manganese**.",
-    "detail": "Types: cascade, spray, tray, diffused air. It is the standard **pre-treatment for groundwater** high in iron: aeration oxidises soluble Fe²⁺ to insoluble Fe³⁺, which is then settled and filtered out.",
+    "fact": "The reserve of water for breakdown period is generally not more than 25% of total storage.",
     "verification": {
       "status": "verified"
     }
@@ -352,9 +282,7 @@
   {
     "id": "QR-ACiE06-036",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0604",
-    "fact": "Sewage flow for design = **water supply × 0.8**, plus infiltration; peak factor **2–3**.",
-    "detail": "The 0.8 allows for water that never reaches the sewer (irrigation, evaporation, losses). **Storm** sewers are designed by the **rational method** with a **2–5 year** return period — much shorter than for a bridge, because the consequence of exceedance is temporary flooding.",
+    "fact": "Expansion joint mostly used at such places where pipe contracts due to change in atmospheric.",
     "verification": {
       "status": "verified"
     }
@@ -362,9 +290,7 @@
   {
     "id": "QR-ACiE06-037",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0605",
-    "fact": "**Streeter–Phelps** describes the **oxygen sag curve** downstream of a discharge.",
-    "detail": "**Deoxygenation** by BOD competes with **reaeration** from the atmosphere; the **critical point** is the minimum DO. Self-purification depends on **dilution, turbulence, temperature and sunlight** — a fast, cold, turbulent Himalayan river self-purifies far better than a sluggish warm one.",
+    "fact": "Vacuum filter is most suitable for the removal of fines from liquid.",
     "verification": {
       "status": "verified"
     }
@@ -372,9 +298,7 @@
   {
     "id": "QR-ACiE06-038",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0606",
-    "fact": "**Eutrophication** is nutrient enrichment (**N and P**) causing algal blooms and oxygen depletion.",
-    "detail": "**Phosphorus is usually the limiting nutrient** in fresh water, so its removal gives the most benefit per rupee. The sequence: nutrients → algal bloom → algae die → decomposition consumes DO → fish kill.",
+    "fact": "For a given discharge, efficiency of sedimentation tank can be increased by increasing area of basin.",
     "verification": {
       "status": "verified"
     }
@@ -382,9 +306,7 @@
   {
     "id": "QR-ACiE06-039",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0603",
-    "fact": "Backwashing a rapid sand filter uses **5–15 minutes** at **0.3–1.0 m³/m²/min**, expanding the bed **20–50%**.",
-    "detail": "Backwash water is **2–5% of the filtered volume**. **Negative head** develops when clogging makes the pressure in the bed fall below atmospheric — it causes **air binding**, and is the signal that backwashing is overdue.",
+    "fact": "The opening spacing of bars in case of coarse screen is 50 mm.",
     "verification": {
       "status": "verified"
     }
@@ -392,9 +314,807 @@
   {
     "id": "QR-ACiE06-040",
     "chapter": "ACiE06",
-    "subchapter": "ACiE0601",
-    "fact": "Water sources: **surface** (river, lake, reservoir), **subsurface** (spring, well, tubewell), **rainwater**.",
-    "detail": "In Nepal's hills, **gravity-fed spring sources** are the dominant rural supply — no pumping, no power, minimal running cost. Their vulnerability is **drying and contamination at the source**, so **source protection** (fencing, an intake chamber, upslope sanitation control) is the critical measure.",
+    "fact": "The velocity will the particles settle down in 0.3 m/s.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-041",
+    "chapter": "ACiE06",
+    "fact": "The formula for overall efficiency of HRTF is E 1 + E 2 (1 – E 1).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-042",
+    "chapter": "ACiE06",
+    "fact": "Dissolved oxygen is not significantly affected by chlorination in water.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-043",
+    "chapter": "ACiE06",
+    "fact": "Vacuum filters are used for dewatering of sludge.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-044",
+    "chapter": "ACiE06",
+    "fact": "The size and spacing of a coarse screen inclined at 45° to 60°, generally used for filtration is Bars of size 10 – 25 mm, with spacing of 20 – 100 mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-045",
+    "chapter": "ACiE06",
+    "fact": "Paper is not used as a media for trickling filters.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-046",
+    "chapter": "ACiE06",
+    "fact": "The short - circuiting occurring in a sedimentation tank is represented by displacement efficiency.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-047",
+    "chapter": "ACiE06",
+    "fact": "The hydraulic loading for a high rate trickling Filter varies between 110 to 330 M.L per hectare per day.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-048",
+    "chapter": "ACiE06",
+    "fact": "The rate of filtration in rapid sand filtration is 3000 to 6000 l /hr/m",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-049",
+    "chapter": "ACiE06",
+    "fact": "In a slow sand filter, the thickness of sand bed is 90 to 110 cm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-050",
+    "chapter": "ACiE06",
+    "fact": "Surface overflow rate (SOR) of plain sedimentation tank is 12000 to 18000 lit/day/m",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-051",
+    "chapter": "ACiE06",
+    "fact": "If a circular sewer is partially full and depth is increased, then Wetted perimeter increases.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-052",
+    "chapter": "ACiE06",
+    "fact": "Inverted siphon (Depressed Sewer) is provided when a sewer crosses a river.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-053",
+    "chapter": "ACiE06",
+    "fact": "A manhole is classified as shallow if its depth is between 0.7 to 0.9 m.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-054",
+    "chapter": "ACiE06",
+    "fact": "Inverted syphon sewer is also called depressed sewer.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-055",
+    "chapter": "ACiE06",
+    "fact": "The velocity of flow of sewage in a combined sewer should not be less than 0.75 m/s.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-056",
+    "chapter": "ACiE06",
+    "fact": "The slope of a sewer will be given in the direction of natural slope of ground.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-057",
+    "chapter": "ACiE06",
+    "fact": "In the process of finding fixed inorganic solid in a sludge sample, the temp is 550° ± 50 for 15 minutes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-058",
+    "chapter": "ACiE06",
+    "fact": "The detention time for septic tank is 24 hours.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-059",
+    "chapter": "ACiE06",
+    "fact": "Intercepting sewer is the sewer that collects water from a number of other large sewers or outlets.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-060",
+    "chapter": "ACiE06",
+    "fact": "The main objective of toxicity assessment is to estimate how much of a substance does what kind of harm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-061",
+    "chapter": "ACiE06",
+    "fact": "The pH value off resh sewage is usually is more than 7.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-062",
+    "chapter": "ACiE06",
+    "fact": "If D.O. concentration falls down to zero in any natural drainage, it indicates the zone of active decomposition.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-063",
+    "chapter": "ACiE06",
+    "fact": "Surfactant causes greasing in flocculation.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-064",
+    "chapter": "ACiE06",
+    "fact": "The detention period in a septic tank is assumed 30 minutes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-065",
+    "chapter": "ACiE06",
+    "fact": "The minimum amount of DO required for the life survival of aquatic animals is 4 mg/ l.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-066",
+    "chapter": "ACiE06",
+    "fact": "The minimum depth of septic tank as per design consideration is 1.2 m.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-067",
+    "chapter": "ACiE06",
+    "fact": "The oxygen sag curve developed by Streeter Phelps method.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-068",
+    "chapter": "ACiE06",
+    "fact": "Noise is not generated in waste treatment processes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-069",
+    "chapter": "ACiE06",
+    "fact": "The value of ratio of BOD/COD of domestic wastewater before treatment is 0.3 to 0.8.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-070",
+    "chapter": "ACiE06",
+    "fact": "The minimum width of toilet door is 750 mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-071",
+    "chapter": "ACiE06",
+    "fact": "Fresh sewage is generally alkaline.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-072",
+    "chapter": "ACiE06",
+    "fact": "Grit isa inert matter of specific gravity 2.65.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-073",
+    "chapter": "ACiE06",
+    "fact": "Sullage isa wastewater that come from kitchen, washing places and wash basin.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-074",
+    "chapter": "ACiE06",
+    "fact": "Degradable is not the characteristic of hazardous waste.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-075",
+    "chapter": "ACiE06",
+    "fact": "The minimum size of grit particles that can be removed in grit chamber is 0.20 mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-076",
+    "chapter": "ACiE06",
+    "fact": "The definition of mitigation in the context of risk management is the implementation of strategies to reduce the impact or likelihood of identified risks.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-077",
+    "chapter": "ACiE06",
+    "fact": "Variability in the rate of return is known as risk.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-078",
+    "chapter": "ACiE06",
+    "fact": "Vulnerability analysis comes in which part of the disaster management cycle is mitigation.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-079",
+    "chapter": "ACiE06",
+    "fact": "Mitigation denotes reduction of risk to a threshold level.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-080",
+    "chapter": "ACiE06",
+    "fact": "Planning phase, detailed risk analysis is done.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-081",
+    "chapter": "ACiE06",
+    "fact": "EIA isa systematic process used to evaluate the environmental consequences of a proposed project or development, aiming to identify and mitigate potential adverse effects on the environment.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-082",
+    "chapter": "ACiE06",
+    "fact": "The first environmental act introduced in Nepal in",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-083",
+    "chapter": "ACiE06",
+    "fact": "The number of goals of sustainable development is",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-084",
+    "chapter": "ACiE06",
+    "fact": "\"Risk management\" isa process that includes evaluation of policy alternatives.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-085",
+    "chapter": "ACiE06",
+    "fact": "Earthquakes and landslides are categorized as geological hazards.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-086",
+    "chapter": "ACiE06",
+    "fact": "Ministry of home affairs is related to National Disaster and risk management.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-087",
+    "chapter": "ACiE06",
+    "fact": "COD/BOD ratio of detreated domestic sewage is 1.25 – 2.5.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-088",
+    "chapter": "ACiE06",
+    "fact": "The first step involving in EIA is scoping.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-089",
+    "chapter": "ACiE06",
+    "fact": "In distribution system, the drain valves is provided at low point.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-090",
+    "chapter": "ACiE06",
+    "fact": "The sewer used to convey wastewater form one or more lateral sewer is main sewer.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-091",
+    "chapter": "ACiE06",
+    "fact": "In water supply system, blow off valve is provided at bottom of pipeline.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-092",
+    "chapter": "ACiE06",
+    "fact": "The full form of BES is in environment study is brief environment studies.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-093",
+    "chapter": "ACiE06",
+    "fact": "Forest fire and drought lies in climatic condition category.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-094",
+    "chapter": "ACiE06",
+    "fact": "The presence of free ammonia in waste water represent undecomposed organicm atter.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-095",
+    "chapter": "ACiE06",
+    "fact": "In a pipe flow, the minor loss due to sudden contraction is due to expansion of flow after sudden contraction.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-096",
+    "chapter": "ACiE06",
+    "fact": "Air valves or air - relief valves are provided at summits.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-097",
+    "chapter": "ACiE06",
+    "fact": "The cover of manhole is made by cast iron.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-098",
+    "chapter": "ACiE06",
+    "fact": "Activated sludge process is an example of aerobic suspended growth process.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-099",
+    "chapter": "ACiE06",
+    "fact": "The permissible limit of free residual chlorine is 0.2 ppm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-100",
+    "chapter": "ACiE06",
+    "fact": "The manhole covers are generally made circular to prevent falling of cover into the manhole.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-101",
+    "chapter": "ACiE06",
+    "fact": "In a meandering river, should the intake be placed for optimal water quality and flow concave.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-102",
+    "chapter": "ACiE06",
+    "fact": "Alum can be regenerated by adding sulfuric acid.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-103",
+    "chapter": "ACiE06",
+    "fact": "Night soil is human excreta.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-104",
+    "chapter": "ACiE06",
+    "fact": "Hardy cross method is used to solve the problem of pipe network.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-105",
+    "chapter": "ACiE06",
+    "fact": "The typeo f water supply system generally used in hilly region is gravity flow system.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-106",
+    "chapter": "ACiE06",
+    "fact": "The disposal of hazardous waste should not be done directly at dumping.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-107",
+    "chapter": "ACiE06",
+    "fact": "The diameter of vent pipe used in VIP latrine is 50 mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-108",
+    "chapter": "ACiE06",
+    "fact": "Intake in water supply system should not be located navigation channel.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-109",
+    "chapter": "ACiE06",
+    "fact": "According to DWSS, the water required for fire - fighting should not be more than 1 lpcd.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-110",
+    "chapter": "ACiE06",
+    "fact": "All relevant stakeholder's concerns are incorporate is not included in EIA report.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-111",
+    "chapter": "ACiE06",
+    "fact": "In a pipe network the algebraic sum of piezometric head drops around each elementary circuit must be zero.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-112",
+    "chapter": "ACiE06",
+    "fact": "In filtration, the amount of dissolved solid passing through the filters is difference between total solid and suspended solid",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-113",
+    "chapter": "ACiE06",
+    "fact": "Effluent from a high rate Trickling filter is brown and not fully oxidized.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-114",
+    "chapter": "ACiE06",
+    "fact": "Air relief valves are used to discharge air from the water pipelines.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-115",
+    "chapter": "ACiE06",
+    "fact": "Transmission main in water supply system is designed for maximum daily demand.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-116",
+    "chapter": "ACiE06",
+    "fact": "Environmental impact assessment there are 4 type of level.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-117",
+    "chapter": "ACiE06",
+    "fact": "The recent disastrous earthquake occurs in western.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-118",
+    "chapter": "ACiE06",
+    "fact": "The self - purification process does not depend in aquatic species.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-119",
+    "chapter": "ACiE06",
+    "fact": "Suspended particles are less than 10 mg.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-120",
+    "chapter": "ACiE06",
+    "fact": "The egg shaped sewer is best preferred on combined.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-121",
+    "chapter": "ACiE06",
+    "fact": "Environmental Impact Assessment (EIA) is mandatory for large projects.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-122",
+    "chapter": "ACiE06",
+    "fact": "The primary purpose of using a vacuum filter in sludge treatment is to dewater",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-123",
+    "chapter": "ACiE06",
+    "fact": "The purest form of natural water free from impurities is rain water.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-124",
+    "chapter": "ACiE06",
+    "fact": "To design sewer pipes of diameters 0.4 m t o 0.9 mat maximum flow, the flow in sewer is running at two third full.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-125",
+    "chapter": "ACiE06",
+    "fact": "The intake structure is widely used in small works is simple submerged intakes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-126",
+    "chapter": "ACiE06",
+    "fact": "Steel dust is categorized as inorganic.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-127",
+    "chapter": "ACiE06",
+    "fact": "The head loss coefficient for a fully open butterfly valve is 0.4.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-128",
+    "chapter": "ACiE06",
+    "fact": "When moisture content of sludge is reduced from 95% to 90%, its volume is reduced by 50%.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-129",
+    "chapter": "ACiE06",
+    "fact": "Sanitary sewage is independent of rainfall.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-130",
+    "chapter": "ACiE06",
+    "fact": "Sewage sickness occurs when voids of soil get clogged due to continuous application of sewage on a piece of land.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-131",
+    "chapter": "ACiE06",
+    "fact": "Dust from steel manufacturing is example for inorganic aqueous waste category.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-132",
+    "chapter": "ACiE06",
+    "fact": "If sewage is 500 mg/ l and the in treatment plant is 10 mg/ l then efficient of treatment plant is 0.9.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-133",
+    "chapter": "ACiE06",
+    "fact": "Sewage sickness is developed due to continuous application of sewage on land.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-134",
+    "chapter": "ACiE06",
+    "fact": "Portable water is use in construction.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-135",
+    "chapter": "ACiE06",
+    "fact": "The risk manager sector is responsible for risk mitigation.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-136",
+    "chapter": "ACiE06",
+    "fact": "According to chemical composition, the chemical formula for bleaching powder is CaOCl",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-137",
+    "chapter": "ACiE06",
+    "fact": "Nephelometeris used to determine turbidity and Tintometer is used to determine color.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-138",
+    "chapter": "ACiE06",
+    "fact": "Environmental Impact Assessment (EIA) is most closely related to Strategic Environmental Assessment (SEA).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-139",
+    "chapter": "ACiE06",
+    "fact": "Environment Act first promulgated on 1993AD.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE06-140",
+    "chapter": "ACiE06",
+    "fact": "If present in water, chlorination of water does not reduce the dissolved oxygen content.",
     "verification": {
       "status": "verified"
     }

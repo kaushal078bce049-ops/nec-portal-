@@ -2,9 +2,7 @@
   {
     "id": "QR-ACiE04-001",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0401",
-    "fact": "**Bending moment is maximum where the shear force is zero (or changes sign).**",
-    "detail": "Because dM/dx = V. Equally: **dV/dx = −w**. So the SF diagram is one degree higher than the load diagram, and the BM diagram one degree higher than the SF diagram.",
+    "fact": "A bending moment \"M\" acts at each support of a simply supported beam, the SFD has ordinates zero at all sections.",
     "verification": {
       "status": "verified"
     }
@@ -12,9 +10,7 @@
   {
     "id": "QR-ACiE04-002",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0401",
-    "fact": "A **point of contraflexure** is where the **bending moment changes sign** (passes through zero).",
-    "detail": "Not where shear is zero — that is where BM is *maximum*. A simply supported beam with no overhang has **no** point of contraflexure; an overhanging or continuous beam does.",
+    "fact": "If the shear force along a section of a beam is zero, the bending moment at the section is either maximum or minimum.",
     "verification": {
       "status": "verified"
     }
@@ -22,9 +18,7 @@
   {
     "id": "QR-ACiE04-003",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0401",
-    "fact": "Simply supported beam: **central point load W → M = WL/4**; **UDL w → M = wL²/8**.",
-    "detail": "Cantilever: **point load at free end → M = WL**; **UDL → M = wL²/2**. Fixed beam with UDL: **wL²/12 at supports, wL²/24 at mid-span**.",
+    "fact": "For a simply supported beam, a neutral axis is where bending stress is zero and shear stress maximum.",
     "verification": {
       "status": "verified"
     }
@@ -32,9 +26,7 @@
   {
     "id": "QR-ACiE04-004",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0401",
-    "fact": "Under a **UDL** the SF diagram is a **straight sloping line** and the BM diagram a **parabola**.",
-    "detail": "Under a **point load** the SF is constant (steps at the load) and the BM linear. Under a **triangular** load the SF is parabolic and the BM cubic.",
+    "fact": "During ultimate shear failure, the resistance provided is due to shear reinforcement only.",
     "verification": {
       "status": "verified"
     }
@@ -42,9 +34,7 @@
   {
     "id": "QR-ACiE04-005",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0402",
-    "fact": "**Poisson's ratio μ = lateral strain / longitudinal strain**; for steel **≈ 0.3**, concrete 0.15–0.20, cork ≈ 0.",
-    "detail": "Thermodynamic limits are **0 to 0.5**; at exactly 0.5 the material is **incompressible** (rubber ≈ 0.5). It has **no units**.",
+    "fact": "BM at center is important while designing a beam.",
     "verification": {
       "status": "verified"
     }
@@ -52,9 +42,7 @@
   {
     "id": "QR-ACiE04-006",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0402",
-    "fact": "**E = 2G(1+μ) = 3K(1−2μ)**, and **E = 9KG/(3K+G)**.",
-    "detail": "For steel with μ = 0.3: **G = E/2.6 ≈ 0.385E** and **K = E/1.2 ≈ 0.833E**. So **E > K > G** for ordinary metals — a quick sanity check on any computed value.",
+    "fact": "The relation between SF and Mis S = dM dx.",
     "verification": {
       "status": "verified"
     }
@@ -62,9 +50,7 @@
   {
     "id": "QR-ACiE04-007",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0402",
-    "fact": "**Principal stresses σ₁,₂ = (σx+σy)/2 ± √[((σx−σy)/2)² + τ²]**; **τ_max = √[((σx−σy)/2)² + τ²]**.",
-    "detail": "Shear stress is **zero on a principal plane**, and the two principal planes are **90° apart**. The planes of **maximum shear** lie at **45° to the principal planes**.",
+    "fact": "The deflection at the center of a simply supported beam when a concentrated load P is acting at its center is PL 3 48EI.",
     "verification": {
       "status": "verified"
     }
@@ -72,9 +58,7 @@
   {
     "id": "QR-ACiE04-008",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0402",
-    "fact": "On **Mohr's circle**, an angle **2θ** on the circle corresponds to **θ** on the element.",
-    "detail": "The circle's **centre is at (σx+σy)/2** and its **radius equals τ_max**. For **pure shear**, σ₁ = +τ and σ₂ = −τ — which is why a brittle shaft in torsion fails on a **45° helix**.",
+    "fact": "In a simply supported beam, two equal point loads P are acting at a distance of L 3 from both supports A and B. the value of shear force at distance L 6 from support A is P.",
     "verification": {
       "status": "verified"
     }
@@ -82,9 +66,7 @@
   {
     "id": "QR-ACiE04-009",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0402",
-    "fact": "**Strain energy: U = σ²V/2E** (gradual load); **impact/sudden load gives twice the stress** of a gradual one.",
-    "detail": "**Resilience** is the energy absorbed up to the elastic limit; **proof resilience** is that at the elastic limit; **modulus of resilience** is proof resilience per unit volume. **Toughness** is the total area under the stress-strain curve.",
+    "fact": "The ductility of a material increases with the increase in percentage reduction in the area of a specimen under a tensile test.",
     "verification": {
       "status": "verified"
     }
@@ -92,9 +74,7 @@
   {
     "id": "QR-ACiE04-010",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0402",
-    "fact": "**Thermal stress σ = αEΔT** — and it arises **only if the member is restrained**.",
-    "detail": "A **free** member expands with **no stress at all**. For a **composite** bar, each material carries a different stress and equilibrium requires the forces to be equal and opposite. Steel α ≈ 12 × 10⁻⁶/°C.",
+    "fact": "A beam is said to be continuous if supported on more than two supports.",
     "verification": {
       "status": "verified"
     }
@@ -102,9 +82,7 @@
   {
     "id": "QR-ACiE04-011",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0403",
-    "fact": "**Flexure formula: M/I = σ/y = E/R.**",
-    "detail": "Assumes the material is **homogeneous, isotropic, obeys Hooke's law**, the beam is **initially straight** with a **constant cross-section**, plane sections **remain plane**, and the load acts in a **plane of symmetry**.",
+    "fact": "Abrupt change in BMD if couple is applied.",
     "verification": {
       "status": "verified"
     }
@@ -112,9 +90,7 @@
   {
     "id": "QR-ACiE04-012",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0403",
-    "fact": "**Shear stress distribution: τ = VAȳ/(Ib)** — parabolic in a rectangle, **maximum at the neutral axis**.",
-    "detail": "For a **rectangle τ_max = 1.5 × τ_avg**; for a **circle 1.33 × τ_avg**. Bending stress is maximum at the **extreme fibre** and zero at the NA — exactly the opposite distribution.",
+    "fact": "The positive bending moment has shape of convex downward.",
     "verification": {
       "status": "verified"
     }
@@ -122,9 +98,7 @@
   {
     "id": "QR-ACiE04-013",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0403",
-    "fact": "**Euler: P_cr = π²EI/L_e²** — valid only for **long** columns.",
-    "detail": "Effective length: **both ends hinged L**, **both fixed L/2**, **one fixed one free 2L**, **one fixed one hinged L/√2**. So a fixed-fixed column carries **four times** the load of a pinned-pinned one of the same length.",
+    "fact": "If a simply supported beam carries a UDL across the entire span, then the shear force will be changes linearly.",
     "verification": {
       "status": "verified"
     }
@@ -132,9 +106,7 @@
   {
     "id": "QR-ACiE04-014",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0403",
-    "fact": "**Rankine: 1/P = 1/P_c + 1/P_e** — valid for **both short and long** columns.",
-    "detail": "That universality is Rankine's advantage over Euler, which is unsafe for short columns (it predicts an absurdly high load as L → 0). A column buckles about its axis of **minimum** radius of gyration.",
+    "fact": "If a beam is subjected to a constant bending moment along its length, then the shear force will be zero at all sections along the beam.",
     "verification": {
       "status": "verified"
     }
@@ -142,9 +114,7 @@
   {
     "id": "QR-ACiE04-015",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0403",
-    "fact": "**Torsion: T/J = τ/r = Gθ/L.** Polar modulus for a solid circle **Z_p = πd³/16**.",
-    "detail": "Shear stress in torsion is **zero at the centre and maximum at the surface** — which is why a **hollow** shaft is so efficient. **GJ** is the torsional rigidity, the analogue of **EI**.",
+    "fact": "A moment Mis acting at free end of a cantilever beam. The maximum moment developed in the beam will be M.",
     "verification": {
       "status": "verified"
     }
@@ -152,9 +122,7 @@
   {
     "id": "QR-ACiE04-016",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0404",
-    "fact": "Static determinacy of a truss: **m = 2j − 3** (plane truss).",
-    "detail": "**m < 2j−3** unstable (deficient); **m = 2j−3** determinate and stable; **m > 2j−3** indeterminate (redundant). For a **space** truss the relation is m = 3j − 6.",
+    "fact": "In case of propped cantilever beam, the internal hinge is located at 0.414L distance from propped end.",
     "verification": {
       "status": "verified"
     }
@@ -162,9 +130,7 @@
   {
     "id": "QR-ACiE04-017",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0404",
-    "fact": "Truss analysis: **method of joints** for all members, **method of sections** for a few specific ones.",
-    "detail": "Method of joints needs a joint with **not more than two unknowns**. Method of sections cuts through **not more than three** unknown members. **Zero-force members** occur at unloaded two-member joints and at unloaded three-member joints where two are collinear.",
+    "fact": "The relation between E, G and  is  = E 2G –",
     "verification": {
       "status": "verified"
     }
@@ -172,9 +138,7 @@
   {
     "id": "QR-ACiE04-018",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0404",
-    "fact": "A **three-hinged arch is determinate**; a two-hinged arch is indeterminate to the first degree.",
-    "detail": "For a three-hinged parabolic arch, the **horizontal thrust H = wL²/(8h)** under a UDL — it varies **inversely with the rise**. A flatter arch thrusts harder.",
+    "fact": "The principal planes are subjected to normal stresses only.",
     "verification": {
       "status": "verified"
     }
@@ -182,9 +146,7 @@
   {
     "id": "QR-ACiE04-019",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0405",
-    "fact": "**Macaulay's method** integrates the BM equation using terms that vanish when negative.",
-    "detail": "Standard deflections: **central point load δ = WL³/48EI**; **UDL δ = 5wL⁴/384EI**; **cantilever point load WL³/3EI**; **cantilever UDL wL⁴/8EI**. Note the deflection varies as **L³ or L⁴** — doubling the span multiplies deflection 8- or 16-fold.",
+    "fact": "The shear stress along the principal plane subjected to maximum principal stress is no shear stress acts.",
     "verification": {
       "status": "verified"
     }
@@ -192,9 +154,7 @@
   {
     "id": "QR-ACiE04-020",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0405",
-    "fact": "**Mohr's theorems (moment-area)**: θ = area of M/EI diagram; δ = moment of that area about the point.",
-    "detail": "Most efficient for **cantilevers** and for beams with a **simple M/EI diagram**. The **conjugate beam** method restates the same idea: load a fictitious beam with M/EI and read off shear as slope and moment as deflection.",
+    "fact": "The maximum shear stress is 1.5 times the average shear stress for rectangular beams.",
     "verification": {
       "status": "verified"
     }
@@ -202,9 +162,7 @@
   {
     "id": "QR-ACiE04-021",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0405",
-    "fact": "**Castigliano's theorem: δ = ∂U/∂P** — the deflection at a load is the partial derivative of strain energy with respect to it.",
-    "detail": "**Unit load method** is its practical form: δ = Σ(PkL/AE) for trusses, ∫(Mm/EI)dx for beams. **Maxwell's reciprocal theorem**: the deflection at A due to a load at B equals that at B due to the same load at A.",
+    "fact": "A circular shaft is subjected to torsion, the stress at the center of shaft is zero.",
     "verification": {
       "status": "verified"
     }
@@ -212,9 +170,7 @@
   {
     "id": "QR-ACiE04-022",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0405",
-    "fact": "An **influence line** shows how a **function at one section** varies as a **unit load moves** across the span.",
-    "detail": "Do not confuse it with a bending moment diagram, which shows the function **along the beam for a fixed load**. Influence lines are the basis of **moving load** analysis for bridges and gantry girders.",
+    "fact": "Section modulus doesn't have the same unit as the modulus of elasticity.",
     "verification": {
       "status": "verified"
     }
@@ -222,9 +178,7 @@
   {
     "id": "QR-ACiE04-023",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0406",
-    "fact": "**Degree of static indeterminacy D_s = r − 3** for a plane frame (r = number of reaction components), plus internal redundancy.",
-    "detail": "General plane frame: **D_s = 3m + r − 3j**, and **kinematic indeterminacy D_k = 3j − r** (ignoring axial deformation, subtract the number of members). A propped cantilever is D_s = 1; a fixed beam D_s = 2.",
+    "fact": "In purely bending, stress distribution in the beam is linear.",
     "verification": {
       "status": "verified"
     }
@@ -232,9 +186,7 @@
   {
     "id": "QR-ACiE04-024",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0406",
-    "fact": "**Fixed end moments** for a UDL: **wL²/12** at each end. For a central point load: **WL/8**.",
-    "detail": "These are the starting values for **moment distribution**. For a **propped** cantilever with UDL the support moment is **wL²/8**.",
+    "fact": "Virtual work refers to virtual work done by actual forces.",
     "verification": {
       "status": "verified"
     }
@@ -242,9 +194,7 @@
   {
     "id": "QR-ACiE04-025",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0406",
-    "fact": "**Moment distribution (Hardy Cross)**: distribute by **stiffness ratio**, carry over **half** to the far end if it is fixed.",
-    "detail": "**Distribution factor = (I/L) of the member ÷ Σ(I/L) at the joint.** Carry-over factor is **½** to a fixed end and **0** to a hinged end. Relative stiffness of a member hinged at the far end is **¾(I/L)**.",
+    "fact": "A simply supported beam is subjected to a concentrated load at the midpoint. The shape of BMD is triangle.",
     "verification": {
       "status": "verified"
     }
@@ -252,9 +202,7 @@
   {
     "id": "QR-ACiE04-026",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0406",
-    "fact": "**Clapeyron's three-moment equation** relates the moments at three consecutive supports of a continuous beam.",
-    "detail": "**M₁L₁ + 2M₂(L₁+L₂) + M₃L₂ = −6(A₁x̄₁/L₁ + A₂x̄₂/L₂)** for equal EI and level supports. Suits a continuous beam; moment distribution suits frames.",
+    "fact": "In crippling load equation for a column of length L, the equivalent length for a case of both the ends fixed is L",
     "verification": {
       "status": "verified"
     }
@@ -262,9 +210,7 @@
   {
     "id": "QR-ACiE04-027",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0406",
-    "fact": "**Slope-deflection: M_AB = (2EI/L)(2θ_A + θ_B − 3Δ/L) + FEM_AB.**",
-    "detail": "The unknowns are **rotations and sway** — a **displacement (stiffness)** method, like the matrix stiffness method. Force methods (consistent deformation, three-moment) take **redundant forces** as unknowns instead.",
+    "fact": "The simply supported beam 'A' of lengthl carries a central point load W. Another beam 'B' is loaded with a uniformly distributed load such that the total load on the beam is W. The ratio of maximum deflections between beams A and Bis 8",
     "verification": {
       "status": "verified"
     }
@@ -272,9 +218,7 @@
   {
     "id": "QR-ACiE04-028",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0406",
-    "fact": "Indeterminate structures redistribute load and are **not affected by settlement, temperature or fabrication error** — determinate ones are.",
-    "detail": "That is the key trade-off. Indeterminacy gives **redundancy** (alternative load paths, so one failure need not be collapse) but introduces **secondary stresses** from support settlement, temperature change and shrinkage.",
+    "fact": "If the width of a simply supported beam carrying an isolated load at its center is doubled, the deflection of the beam at the center is changed by 1",
     "verification": {
       "status": "verified"
     }
@@ -282,9 +226,7 @@
   {
     "id": "QR-ACiE04-029",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0401",
-    "fact": "A **hinge (internal) transmits shear and axial force but NOT moment.**",
-    "detail": "So the bending moment at an internal hinge is **always zero** — the single most useful equation in analysing a three-hinged arch or a hinged frame.",
+    "fact": "The deflection of a cantilever beam subjected to a point load W at its free end is WL 3 3EI.",
     "verification": {
       "status": "verified"
     }
@@ -292,9 +234,7 @@
   {
     "id": "QR-ACiE04-030",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0402",
-    "fact": "**Thin cylinder: circumferential (hoop) stress = pd/2t; longitudinal = pd/4t.**",
-    "detail": "Hoop stress is **twice** the longitudinal, so a cylindrical vessel splits along a **longitudinal seam**. **Thin sphere: pd/4t in every direction** — which is why a sphere is the most efficient pressure vessel. \"Thin\" means d/t > 20.",
+    "fact": "The deflection at center of fixed beam with total load W applied uniformly over its length L is WL 3 384EI.",
     "verification": {
       "status": "verified"
     }
@@ -302,9 +242,7 @@
   {
     "id": "QR-ACiE04-031",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0403",
-    "fact": "**Shear centre** is the point through which a load must pass to cause **no twisting**.",
-    "detail": "It coincides with the centroid for a **doubly symmetric** section. For a **channel** it lies **outside** the section, on the opposite side to the web — which is why a channel used as a purlin twists under a load applied at its centroid.",
+    "fact": "Strain energy in a simply supported beam loaded with point loadw at center isw 2 l 3 96EI.",
     "verification": {
       "status": "verified"
     }
@@ -312,9 +250,7 @@
   {
     "id": "QR-ACiE04-032",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0404",
-    "fact": "A **cable** carries load in **pure tension**; the shape under a **UDL along the span** is a **parabola**, under **self-weight** a **catenary**.",
-    "detail": "**Horizontal tension H = wL²/(8h)** — identical in form to the arch thrust, because a cable is an inverted arch. Maximum tension occurs **at the supports**, where the slope is steepest.",
+    "fact": "One end of a column is kept free and other end fixed then ratio of L eff to L is",
     "verification": {
       "status": "verified"
     }
@@ -322,9 +258,7 @@
   {
     "id": "QR-ACiE04-033",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0405",
-    "fact": "IS 456 deflection limit: **span/depth ≤ 20 for simply supported, 26 continuous, 7 cantilever** (spans up to 10 m).",
-    "detail": "These are the **deemed-to-satisfy** ratios that avoid an explicit deflection calculation. Beyond 10 m span they are multiplied by 10/span. Final deflection including creep and shrinkage is limited to **span/250**.",
+    "fact": "In a three hinged arch with supports at different heighth 1 andh 2, load W is acting at thec enter of arch. If L is the length of the span, the horizontal thrust is WL (h 1 + h 2)",
     "verification": {
       "status": "verified"
     }
@@ -332,9 +266,7 @@
   {
     "id": "QR-ACiE04-034",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0406",
-    "fact": "**Portal frames** under lateral load: analyse by **portal method** (shear) or **cantilever method** (axial).",
-    "detail": "**Portal method** assumes interior columns take twice the shear of exterior ones and suits **low-rise, wide** frames. **Cantilever method** distributes axial force by distance from the centroid and suits **tall, slender** frames.",
+    "fact": "When a uniformly distributed load (UDL) of length greater than the length of the girder is moved from left to right, then the bending moment (BM) is maximum when the UDL covers the entire beam.",
     "verification": {
       "status": "verified"
     }
@@ -342,9 +274,7 @@
   {
     "id": "QR-ACiE04-035",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0402",
-    "fact": "**Stress-strain curve for mild steel**: proportional limit → elastic limit → **upper and lower yield** → ultimate → **necking** → fracture.",
-    "detail": "Mild steel shows a **distinct yield point**; **high-strength steel and concrete do not**, so a **0.2% proof stress** is used instead. The **breaking stress is lower than the ultimate** because of necking (on the nominal-area curve).",
+    "fact": "ILD for bending moment at any section of cantilever beam when unit load is moving triangle between free end and section.",
     "verification": {
       "status": "verified"
     }
@@ -352,9 +282,7 @@
   {
     "id": "QR-ACiE04-036",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0403",
-    "fact": "**Combined bending and direct stress: σ = P/A ± M/Z.** No tension develops while **e ≤ d/6** for a rectangular section.",
-    "detail": "This is the **middle-third rule**, and for a circular section the limit is **d/8**. It governs masonry dams, chimneys and retaining walls, where the material cannot take tension.",
+    "fact": "The maximum bending moment in three hinged arches under point load occurs on either side of its crown at L 2",
     "verification": {
       "status": "verified"
     }
@@ -362,9 +290,7 @@
   {
     "id": "QR-ACiE04-037",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0404",
-    "fact": "**Method of tension coefficients** and the **graphical (Maxwell diagram)** method are alternatives for truss forces.",
-    "detail": "In a roof truss under gravity load the **top chord (rafter) is in compression** and the **bottom chord (tie) in tension** — and the **king post is in TENSION**, hanging the tie beam from the apex.",
+    "fact": "Increase in permissible stress in design of wall subjected to eccentric load with eccentricity ratio > 1 24 is 0.25",
     "verification": {
       "status": "verified"
     }
@@ -372,9 +298,7 @@
   {
     "id": "QR-ACiE04-038",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0401",
-    "fact": "**Support reactions**: roller gives **1**, hinge **2**, fixed **3** unknowns in a plane structure.",
-    "detail": "A plane structure is determinate when the total equals **3** (ΣH = ΣV = ΣM = 0). A roller permits rotation and translation along the surface; a hinge permits rotation only.",
+    "fact": "Two hinge arches is an indeterminate structure.",
     "verification": {
       "status": "verified"
     }
@@ -382,9 +306,7 @@
   {
     "id": "QR-ACiE04-039",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0406",
-    "fact": "The **matrix stiffness method** assembles member stiffness matrices into a global one: **[K]{D} = {F}**.",
-    "detail": "It is the **displacement** method generalised, and the basis of all structural analysis software. The global stiffness matrix is **symmetric** and, after applying boundary conditions, **positive definite**.",
+    "fact": "The bending moment in an arch is zero when the line of thrust coincides with the line of the axis.",
     "verification": {
       "status": "verified"
     }
@@ -392,9 +314,655 @@
   {
     "id": "QR-ACiE04-040",
     "chapter": "ACiE04",
-    "subchapter": "ACiE0405",
-    "fact": "**Deflection is governed by EI (stiffness); strength by Z (section modulus).**",
-    "detail": "Both must be checked separately: a section adequate in strength can fail the deflection limit, and often does for long, lightly loaded spans. That is why serviceability, not strength, sizes many beams.",
+    "fact": "Stiffness matrix method is also called displacement method",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-041",
+    "chapter": "ACiE04",
+    "fact": "Stiffness of the end A if the far end Bis vertical guided roller is EI L.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-042",
+    "chapter": "ACiE04",
+    "fact": "The simultaneous equations of slope deflection method can be solved by iteration in moment distribution method.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-043",
+    "chapter": "ACiE04",
+    "fact": "In a plastic analysis of structures, the segment between any two successive plastic hinges is assumed to deform as a rigid material.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-044",
+    "chapter": "ACiE04",
+    "fact": "The horizontal thrust in a two hinged semi - circular arch subjected to UDL ofw kN/m over left half span will be 2wR 3 .",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-045",
+    "chapter": "ACiE04",
+    "fact": "For given two hinged semicircular arches A, B and C of radii 5 m, 7.5 m, and 10 m respectively and carrying concentrated crown load 'W', ratio of horizontal thrust at their support will be 1: 1: 1.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-046",
+    "chapter": "ACiE04",
+    "fact": "For a two hinged arch having constant EI, the horizontal thrust H at a point (x, y) on the arch, in terms of beam moment Mis given by ∫ My dy dx ∫ y 2 ds EI.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-047",
+    "chapter": "ACiE04",
+    "fact": "The bending moment at end supports of a simply supported beam is zero.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-048",
+    "chapter": "ACiE04",
+    "fact": "The absolute maximum shear force in simply supported beam with UDL is near support.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-049",
+    "chapter": "ACiE04",
+    "fact": "In the conjugate beam method, the fixed support in actual beam is considered as free support in the conjugate beam.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-050",
+    "chapter": "ACiE04",
+    "fact": "The ILD of a three hinged arch of span 'L' and rise 'h' due to horizontal thrust 'H' is triangle with its maximum ordinate at center equals to L 4h.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-051",
+    "chapter": "ACiE04",
+    "fact": "For RCC structure, the shape of shear stress diagram is parabolic above neutral axis and rectangular below neutral axis.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-052",
+    "chapter": "ACiE04",
+    "fact": "When a body is subjected to a direct tensile stress ( x) in one plane accompanied by a simple shear stress ( xy), the maximum normal stress is  x + 1 2 ×  x 2 + 4  x 2 y.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-053",
+    "chapter": "ACiE04",
+    "fact": "In a two - hinged arch, the moment will be zero under when the thrust axis and the hinge axis coincide.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-054",
+    "chapter": "ACiE04",
+    "fact": "The stiffness of a member if the farther end hinged is 3EI L.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-055",
+    "chapter": "ACiE04",
+    "fact": "The minimum clear cover for column is",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-056",
+    "chapter": "ACiE04",
+    "fact": "Moment distribution method is introduced by Hardy cross.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-057",
+    "chapter": "ACiE04",
+    "fact": "The deflection at the center of fixed beam carrying a point load at the mid - spam is WL 3 192EI.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-058",
+    "chapter": "ACiE04",
+    "fact": "Modulus of rigidity is defined as the ratio of shear stress and shear strain.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-059",
+    "chapter": "ACiE04",
+    "fact": "The maximum energy which can be stored in a body up to the elastic limit is called proof resilience.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-060",
+    "chapter": "ACiE04",
+    "fact": "The ILD for reaction at fixed support of cantilever beam is 1 ordinate throughout the span.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-061",
+    "chapter": "ACiE04",
+    "fact": "Shear modulus of elasticity is the ratio of shearing stress and shearing strain.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-062",
+    "chapter": "ACiE04",
+    "fact": "The maximum bending moment due to a train of wheel loads on a simply supported girder always occurs under a wheel load.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-063",
+    "chapter": "ACiE04",
+    "fact": "When the bending moment is constant over the beam the shear force will be zero over the entire span.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-064",
+    "chapter": "ACiE04",
+    "fact": "The ratio of linear stress to linear strain is called modulus of elasticity.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-065",
+    "chapter": "ACiE04",
+    "fact": "The equation of flexure is M I =  y = E R.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-066",
+    "chapter": "ACiE04",
+    "fact": "A parabolic two hinged arch is loaded with a concentrated load 'W' at the crown. The horizontal thrust is equal to 25WL 128h. [where, 'L' is the span and 'h' is the rise]",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-067",
+    "chapter": "ACiE04",
+    "fact": "If m 1 andm 2 are the two individual member of truss an of compound truss, the truss is determinate and static ifm = m 1 + m 2 + 3.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-068",
+    "chapter": "ACiE04",
+    "fact": "In Limit state design, Hooke's law valid up to proportional limit.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-069",
+    "chapter": "ACiE04",
+    "fact": "At the point of contra flexure, the bending moment is changes sign",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-070",
+    "chapter": "ACiE04",
+    "fact": "The shape factor of cross section with diamond shape under flexure is",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-071",
+    "chapter": "ACiE04",
+    "fact": "In influence line diagrams (ILD), points remain fixed and position of load changes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-072",
+    "chapter": "ACiE04",
+    "fact": "Euler's Bucking load for one end fixed and other hinged is given by 2  2 ΕΙ L",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-073",
+    "chapter": "ACiE04",
+    "fact": "The major principal stresses produced on diagonal plane is expressed asf x + f y 2 + 1 2 ((f x – f y) 2 + 4  v 2) 1/2.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-074",
+    "chapter": "ACiE04",
+    "fact": "The property in which elongation of a material occurs due to a tensile load is called Ductility",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-075",
+    "chapter": "ACiE04",
+    "fact": "A UVL ofw is applied in a two hinged a parabolic arch with zero at one end andw at other end. The formula to calculate horizontal thrust isw l 2 16H.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-076",
+    "chapter": "ACiE04",
+    "fact": "If the shear force diagram of a simply supported beam is parabolic, then the load on the beam is linearly varying distributed load.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-077",
+    "chapter": "ACiE04",
+    "fact": "If ki is the stiffness of i th member at a joint, the distribution factor for the member is ki Σk.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-078",
+    "chapter": "ACiE04",
+    "fact": "The point of contraflexure is the point where bending moment changes sign",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-079",
+    "chapter": "ACiE04",
+    "fact": "Th laion bwn Youn' Moulu (E), ha oulu (G) an Poion' aio (μ) i cocly ivn by the expression is G = E 2 (1 + ).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-080",
+    "chapter": "ACiE04",
+    "fact": "The influence line diagram for shear force at a section on a cantilever will be a rectangle extending between free end and the section with unit ordinate.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-081",
+    "chapter": "ACiE04",
+    "fact": "The maximum stress material can resist is called as ultimate stress.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-082",
+    "chapter": "ACiE04",
+    "fact": "The effective length of a column with both ends fixed is L",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-083",
+    "chapter": "ACiE04",
+    "fact": "The relationship between flexural strength and characteristic strength isf cr = 0.7 f ck.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-084",
+    "chapter": "ACiE04",
+    "fact": "Pullout test is not tensile strength test of concrete.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-085",
+    "chapter": "ACiE04",
+    "fact": "Fatigue cracking failure is due to tensile strain below surface.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-086",
+    "chapter": "ACiE04",
+    "fact": "Self - weight refers to the permanent static load of a structure",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-087",
+    "chapter": "ACiE04",
+    "fact": "Creep is the gradual increase of plastic strain with time at constant load.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-088",
+    "chapter": "ACiE04",
+    "fact": "The vertical reaction for the arch with W load acting at distance a of total span \"2 l \" is Wa 2 l.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-089",
+    "chapter": "ACiE04",
+    "fact": "The degree of static indeterminacy of propped cantilever beam is",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-090",
+    "chapter": "ACiE04",
+    "fact": "A load is longer than span and cover entirely to the simply supported beam. The maximum bending moment will beat center.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-091",
+    "chapter": "ACiE04",
+    "fact": "If shear force is constant throughout the section, then BM is linear.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-092",
+    "chapter": "ACiE04",
+    "fact": "When a uniformly distributed load, longer than the span of the girder, moves from left to right, then the maximum bending moment at mid - section of span occurs when the uniformly distributed load occupiesw hole span.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-093",
+    "chapter": "ACiE04",
+    "fact": "For simply supported beam having uniformly distributed loadw kN/m and span L, the maximum bending moment is M. If the span of this simply supported beam is doubled, then the maximum bending moment will be 4M.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-094",
+    "chapter": "ACiE04",
+    "fact": "If 'L' is the span of a three hinged arch, 'h' is the rise and 'W' is the u.d.l. per unit length over the entire span, the horizontal reaction at each support is given by WL 2 8h.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-095",
+    "chapter": "ACiE04",
+    "fact": "The correct sequence of stress - strain curve is as PL, EL, YP, Breaking Point.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-096",
+    "chapter": "ACiE04",
+    "fact": "The maximum shear force in three hinged parabolic arch usually occurs at springing's.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-097",
+    "chapter": "ACiE04",
+    "fact": "In a two hinged parabolic arch, an increase in temperature will be increase the horizontal thrust.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-098",
+    "chapter": "ACiE04",
+    "fact": "The maximum compressive strain in concrete in case of bending compression is taken as 0.0035.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-099",
+    "chapter": "ACiE04",
+    "fact": "The permission stress is less than yield stress.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-100",
+    "chapter": "ACiE04",
+    "fact": "The maximum shear stress induced in a member which is subjected to an axial load is equal to half of maximum normal stress.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-101",
+    "chapter": "ACiE04",
+    "fact": "The loading rate used in compressive strength test is 14 N/mm 2 per minute",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-102",
+    "chapter": "ACiE04",
+    "fact": "Castigliano's first theorem is applicable when the system behaves elastically",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-103",
+    "chapter": "ACiE04",
+    "fact": "The degree of kinematic indeterminacy of pin jointed plane frame is 2 j –",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-104",
+    "chapter": "ACiE04",
+    "fact": "The shear force diagram of the cantilever beam with point load at the free end is rectangle.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-105",
+    "chapter": "ACiE04",
+    "fact": "The cable for a prestressed concrete simply supported beam subjected to uniformly distributed load over the entire span should ideally be parabolic with zero eccentricity at the ends and maximum eccentricity at the center of the span.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-106",
+    "chapter": "ACiE04",
+    "fact": "The shear stress at the outermost fibers of a circular shaft under torsion is maximum",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-107",
+    "chapter": "ACiE04",
+    "fact": "For DPC at plinth level, M15 grade of concrete is used.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-108",
+    "chapter": "ACiE04",
+    "fact": "A simply supported beam carries a varying load from zero at one end andw at the other end. If the length of the beam is a, the shear force will be zero at a distancex from least loaded point wherex isa",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-109",
+    "chapter": "ACiE04",
+    "fact": "The locus of reaction of a two hinged semi - circular arch is straight line.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-110",
+    "chapter": "ACiE04",
+    "fact": "The shear reinforcement in RCC is provided to resist diagonal tension.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-111",
+    "chapter": "ACiE04",
+    "fact": "The shape of idealized stress - strain curve for prestressed concrete as prescribed by IS 456 – 1978 is rectangular parabolic.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-112",
+    "chapter": "ACiE04",
+    "fact": "A rigid - jointed plane frame is stable and statically determinate is 3m + r = 3j.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-113",
+    "chapter": "ACiE04",
+    "fact": "In the case of uniaxial stress field, the maximum shear stress is half of the normal stress.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-114",
+    "chapter": "ACiE04",
+    "fact": "A three - hinged arch is hinged at supports end anywhere in arch.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-115",
+    "chapter": "ACiE04",
+    "fact": "A symmetrical two hinged parabolic arch when subjective to a uniformly distributed load on the entire horizontal span, is subjected to normal thrust only.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-116",
+    "chapter": "ACiE04",
+    "fact": "The planes, which have no shear stress are known as principle stress.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-117",
+    "chapter": "ACiE04",
+    "fact": "The strain energy stored in a body due to suddenly applied load compared to when it is applied gradually is four times.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-118",
+    "chapter": "ACiE04",
+    "fact": "When a point load is applied to a cantilever beam at its free end, the bending moment diagram is triangle.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-119",
+    "chapter": "ACiE04",
+    "fact": "Euler's Buckling load for both end hinged are given by  2 EI L",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-120",
+    "chapter": "ACiE04",
+    "fact": "A simply supported beam carries a varying load from zero to one end andw at the other end. If the length of the beam is a, the shear force will be zero at a x from least loaded point wherex isa",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE04-121",
+    "chapter": "ACiE04",
+    "fact": "The formula for the maximum deflection of a simply supported beam of length L and flexural rigidity EI, subjected to a total uniform distributed load of total load W over its entire span is 5WL 3 384EI.",
     "verification": {
       "status": "verified"
     }

@@ -2,9 +2,7 @@
   {
     "id": "QR-ACiE09-001",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0901",
-    "fact": "Nepal's functional road classes: **National Highway (H)**, **Feeder Road (F)**, **District Road (D)**, **Urban Road (U)**.",
-    "detail": "Separately classified by **terrain** — **Plain** (up to 10% cross slope), **Rolling** (10–25%), **Mountainous** (25–60%), **Steep** (over 60%) — which is what sets the geometric standards. The same class carries very different design speeds in different terrain.",
+    "fact": "The most reliable mode of transportation road transport.",
     "verification": {
       "status": "verified"
     }
@@ -12,9 +10,7 @@
   {
     "id": "QR-ACiE09-002",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0901",
-    "fact": "The **Nagpur road plan (1943–61)** adopted a **star and grid** pattern with a target density of **16 km/100 km²**.",
-    "detail": "The successors: **Bombay (1961–81) square grid, 32 km/100 km²**; **Lucknow (1981–2001), 82 km/100 km²**. It also introduced the five-class hierarchy NH, SH, MDR, ODR, VR.",
+    "fact": "The feeder for other means of transportation is roadway.",
     "verification": {
       "status": "verified"
     }
@@ -22,9 +18,7 @@
   {
     "id": "QR-ACiE09-003",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0901",
-    "fact": "**Home interview** is the O–D method for a **large urban area**; **registration number** for a **cordon** survey.",
-    "detail": "Only the home interview captures **internal trips, trip purpose, mode and socio-economic data** — the variables needed to *forecast* trip generation, not merely describe today. It is expensive, so it is done on a **1–10% sample**.",
+    "fact": "A road inside the city is called street.",
     "verification": {
       "status": "verified"
     }
@@ -32,9 +26,7 @@
   {
     "id": "QR-ACiE09-004",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0901",
-    "fact": "The four-stage transport model: **trip generation → trip distribution → modal split → traffic assignment**.",
-    "detail": "An **O–D matrix** and **desire lines** (width ∝ trip volume, drawn between zone centroids) are the outputs of the survey that feed it. Desire lines show where demand actually is, which is not necessarily where roads exist.",
+    "fact": "The stage of survey, soil survey is done in preliminary survey.",
     "verification": {
       "status": "verified"
     }
@@ -42,9 +34,7 @@
   {
     "id": "QR-ACiE09-005",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0902",
-    "fact": "**Camber** values: **bituminous 2–2.5% (1 in 40–50)**, **cement concrete 1.7–2%**, **WBM/gravel 2.5–3%**, **earthen 3–4%**.",
-    "detail": "A rougher, more permeable surface needs a **steeper** camber to shed water before it infiltrates. Too steep causes vehicles to drift toward the edge; too flat leaves standing water and causes **hydroplaning and pavement damage**.",
+    "fact": "Railway locomotive is not the fixed component.",
     "verification": {
       "status": "verified"
     }
@@ -52,9 +42,7 @@
   {
     "id": "QR-ACiE09-006",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0902",
-    "fact": "**SSD = lag distance + braking distance = 0.278Vt + V²/(254f)** with V in km/h.",
-    "detail": "Reaction time **t = 2.5 s**; **f = 0.35–0.40**. **OSD = d₁+d₂+d₃** on a two-way road, and **ISD = 2 × SSD**. A **two-way single-lane road needs 2 × SSD** because both vehicles must stop.",
+    "fact": "Mobility is not the negative impact of transportation.",
     "verification": {
       "status": "verified"
     }
@@ -62,9 +50,7 @@
   {
     "id": "QR-ACiE09-007",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0902",
-    "fact": "**Superelevation e = V²/(127R)**, and **e + f = V²/(127R)** allowing side friction.",
-    "detail": "IRC design method: compute e for **75% of design speed with no friction**; cap at **e_max = 7%** (10% in hills without snow, 4% in urban areas). Then check that **f ≤ 0.15** at full design speed.",
+    "fact": "The sequence of four stages of the survey in a highway alignment is map survey, reconnaissance survey, preliminary survey, and detailed survey.",
     "verification": {
       "status": "verified"
     }
@@ -72,9 +58,7 @@
   {
     "id": "QR-ACiE09-008",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0902",
-    "fact": "**Summit curves are designed for SIGHT DISTANCE**; **valley curves for HEADLIGHT sight distance and COMFORT**.",
-    "detail": "On a summit the road surface itself blocks the view; centrifugal force acts **upward**, opposing gravity, so comfort is not critical. In a valley the force acts **downward**, adding to gravity — felt as a jolt — and at night the headlight beam shoots up off the curve.",
+    "fact": "Extra widening is equal to sum of mechanical and psychological widening.",
     "verification": {
       "status": "verified"
     }
@@ -82,9 +66,7 @@
   {
     "id": "QR-ACiE09-009",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0902",
-    "fact": "**Grade compensation = (30 + 75)/R percent, maximum 75/R**, and **not applied to gradients flatter than 4%**.",
-    "detail": "Because **curve resistance ADDS to grade resistance** — the tyres must be dragged sideways through the curve. **Hairpin bends** in NRS 2070: gradient **≤ 4%**, design speed 20 km/h, minimum radius **15 m**, e_max 10%.",
+    "fact": "Formula of mechanical extra widening in road is W m = n l 2 2R.",
     "verification": {
       "status": "verified"
     }
@@ -92,9 +74,7 @@
   {
     "id": "QR-ACiE09-010",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0902",
-    "fact": "**Transition curve length**: the greatest of the **rate of change of centrifugal acceleration**, **rate of superelevation attainment**, and an **empirical (IRC) value**.",
-    "detail": "The **spiral (clothoid)** is used because its **radius decreases linearly with length**, matching the driver's steering. Empirical: **L_s = 2.7V²/R** for plain/rolling terrain, **L_s = V²/R** for mountainous.",
+    "fact": "Gradient is not related to cross section of road.",
     "verification": {
       "status": "verified"
     }
@@ -102,9 +82,7 @@
   {
     "id": "QR-ACiE09-011",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0902",
-    "fact": "**Extra widening on a curve = mechanical widening + psychological widening = nl²/(2R) + V/(9.5√R).**",
-    "detail": "**Mechanical** widening is because the rear wheels track a smaller radius than the front (off-tracking); **psychological** because drivers keep further from the edge on a curve. Both are needed, and IRC gives tabulated values by radius.",
+    "fact": "The relationship between SSD and ISD is ISD = 2 SSD.",
     "verification": {
       "status": "verified"
     }
@@ -112,9 +90,7 @@
   {
     "id": "QR-ACiE09-012",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0903",
-    "fact": "**Flakiness index: least dimension < 0.6 × mean.** **Elongation index: greatest dimension > 1.8 × mean.**",
-    "detail": "Limits: **flakiness 25%**, **elongation 15%**, combined 40%. Flaky particles **break under compaction**, so an aggregate that passes every strength test in the laboratory can still fail in the road by changing its own gradation during rolling.",
+    "fact": "Endoscope is used to determine by spot speed.",
     "verification": {
       "status": "verified"
     }
@@ -122,9 +98,7 @@
   {
     "id": "QR-ACiE09-013",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0903",
-    "fact": "Aggregate limits for **wearing surfaces: impact 30%, crushing 30%, Los Angeles abrasion 30%**; for other concrete **45% / 45% / 50%**.",
-    "detail": "Impact tests **sudden shock**; crushing tests **gradual load**; abrasion tests **wear**. A wearing surface takes the stricter limit because it is directly exposed to wheel impact and braking with no covering layer.",
+    "fact": "The length visible to driver at any instance of time is called Sight distance",
     "verification": {
       "status": "verified"
     }
@@ -132,9 +106,7 @@
   {
     "id": "QR-ACiE09-014",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0903",
-    "fact": "Bitumen tests: **penetration** (consistency, 100 g/5 s/25 °C), **ductility** (≥ 50 cm at 27 °C), **softening point** (ring and ball, 5 °C/min), **float** (hard bitumen).",
-    "detail": "A **higher softening point means a harder, less temperature-susceptible binder** — needed in hot climates to resist **bleeding and rutting**; a lower one stays flexible in cold and resists **cracking**. IS 73:2013 moved to **viscosity grading (VG-10 to VG-40)**.",
+    "fact": "Settlement is not considered when designing highways.",
     "verification": {
       "status": "verified"
     }
@@ -142,9 +114,7 @@
   {
     "id": "QR-ACiE09-015",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0903",
-    "fact": "**Marshall method** designs a bituminous mix using **stability, flow, air voids, VMA and VFB**.",
-    "detail": "Optimum binder content is chosen at **4% air voids**, subject to minimum stability (**~9 kN**) and flow within 2–4 mm. Too much binder gives **bleeding and rutting**; too little gives **ravelling and cracking**.",
+    "fact": "Speed at a particular place in different time is TMS.",
     "verification": {
       "status": "verified"
     }
@@ -152,9 +122,7 @@
   {
     "id": "QR-ACiE09-016",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0904",
-    "fact": "**Cautionary = triangle with red border**; **mandatory = circular**; **informatory = rectangular**.",
-    "detail": "Two break their own rule deliberately, because they must be unmistakable even partly obscured: **STOP = octagon**, **GIVE WAY = inverted triangle**. Mandatory signs are **legally enforceable**; cautionary ones warn only.",
+    "fact": "If space mean speed is 50kmph then TMS will be greater than 50 kmph.",
     "verification": {
       "status": "verified"
     }
@@ -162,9 +130,7 @@
   {
     "id": "QR-ACiE09-017",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0904",
-    "fact": "**PCU = Passenger Car Unit**, the standard unit for mixed traffic volume.",
-    "detail": "Typical PCU factors: **car 1.0**, motorcycle 0.5, **bus/truck 3.0**, cycle 0.5, cycle rickshaw 2.0, tractor-trailer 4.5. Essential in Nepal and India where traffic is highly mixed — capacity in vehicles alone is meaningless.",
+    "fact": "Any gradient on a road is said to be an exceptional gradient, if it is less than minimum gradient or more than maximum gradient.",
     "verification": {
       "status": "verified"
     }
@@ -172,9 +138,7 @@
   {
     "id": "QR-ACiE09-018",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0904",
-    "fact": "**Spot speed percentiles: 85th = speed limit**, **98th = geometric design speed**, **15th = lower speed limit**.",
-    "detail": "**Time mean speed** is the average of speeds at one **place** over time; **space mean speed** is the average over a **length** at one instant, and is the **harmonic mean** — always the **smaller** of the two. Space mean speed is what enters q = k·v.",
+    "fact": "As per NURS, arterial road is called path.",
     "verification": {
       "status": "verified"
     }
@@ -182,9 +146,7 @@
   {
     "id": "QR-ACiE09-019",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0904",
-    "fact": "**q = k · v** — flow = density × space mean speed, the fundamental relation of traffic flow.",
-    "detail": "Flow is **maximum at the optimum density**, roughly **half the jam density** and at **half the free-flow speed** (Greenshields' linear model). Beyond that, adding vehicles **reduces** flow — the onset of congestion.",
+    "fact": "As per NRS 2070, the life of Perpetual road is about 20 years.",
     "verification": {
       "status": "verified"
     }
@@ -192,9 +154,7 @@
   {
     "id": "QR-ACiE09-020",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0904",
-    "fact": "A **collision diagram** shows the **type and manner of collisions at one location**; a **condition diagram** shows the **physical features**.",
-    "detail": "Read together they turn an accident record into a **specific engineering remedy**: many rear-end collisions → improve SSD and advance warning; many right-angle → assign right of way; night concentration → lighting; wet-weather → skid resistance.",
+    "fact": "As per NRS 2070, the maximum value for coefficient of lateral friction is taken as 0.15.",
     "verification": {
       "status": "verified"
     }
@@ -202,9 +162,7 @@
   {
     "id": "QR-ACiE09-021",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0905",
-    "fact": "**Flexible pavement** distributes load **grain to grain over a wide area**; **rigid pavement** by the **flexural strength of the slab**.",
-    "detail": "So flexible pavements need a **strong subgrade** (design on **CBR**) while rigid pavements can bridge a weaker one (design on **modulus of subgrade reaction k**). Flexible: subgrade → sub-base → base → binder → wearing course.",
+    "fact": "As per NRS 2070, the right of way (ROW) for feeder road is",
     "verification": {
       "status": "verified"
     }
@@ -212,9 +170,7 @@
   {
     "id": "QR-ACiE09-022",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0905",
-    "fact": "**CBR** is the ratio of the load to penetrate a soil to that for standard crushed stone, at **2.5 mm and 5.0 mm** penetration.",
-    "detail": "Plunger 50 mm diameter, rate **1.25 mm/min**. Take the **2.5 mm value normally**; if the 5.0 mm value is higher, **repeat the test**, and if it repeats, use the 5.0 mm value. Soaked for **4 days** for design.",
+    "fact": "As per NURS 2071, the maximum gradient [%] for hair pin bend is 4%.",
     "verification": {
       "status": "verified"
     }
@@ -222,9 +178,7 @@
   {
     "id": "QR-ACiE09-023",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0905",
-    "fact": "**Design traffic in MSA (million standard axles)** with a standard axle of **80 kN**; **VDF (vehicle damage factor)** converts real axles by the **fourth power law**.",
-    "detail": "Damage ∝ (axle load/80 kN)⁴, so a **60% overload does about 6.5 times** the damage. That is why **axle-load control matters more than any pavement design refinement** — one overloaded truck can undo a year's design life.",
+    "fact": "The minimum radius of curvature for hair pin bend in hill roads is 15 m.",
     "verification": {
       "status": "verified"
     }
@@ -232,9 +186,7 @@
   {
     "id": "QR-ACiE09-024",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0905",
-    "fact": "Rigid pavement stresses: **load stress (Westergaard)**, **warping stress (temperature gradient)**, **frictional stress (uniform temperature change)**.",
-    "detail": "**Critical combination = load + warping**, at the edge and corner. **Warping** comes from a gradient **through the depth** and is relieved by **warping joints**; **frictional** from a uniform change and is relieved by **expansion/contraction joints** — different causes, different joints.",
+    "fact": "In plain terrain, the design speed of vehicle for 1 st class road 120 km/hr.",
     "verification": {
       "status": "verified"
     }
@@ -242,9 +194,7 @@
   {
     "id": "QR-ACiE09-025",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0905",
-    "fact": "**Radius of relative stiffness l = [Eh³/(12k(1−μ²))]^(1/4).**",
-    "detail": "It measures how far a slab spreads a load. Joints: **expansion 50–140 m**, **contraction ≈ 4.5 m**, **warping along the centreline**. **Dowel bars** transfer load across a joint while allowing movement; **tie bars** hold a longitudinal joint together.",
+    "fact": "The improper alignment of highway does not cause by fatigue cracking.",
     "verification": {
       "status": "verified"
     }
@@ -252,9 +202,7 @@
   {
     "id": "QR-ACiE09-026",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0906",
-    "fact": "**Prime coat** on a **granular base** (penetrate and seal); **tack coat** between **bituminous layers** (bond); **seal coat** on the **finished surface** (waterproof).",
-    "detail": "Rates: prime **7–10 kg/10 m²**, tack **2–3 kg/10 m²**. The sequence is: base → **PRIME** → binder course → **TACK** → wearing course → **SEAL**. A tack coat cannot substitute for a prime coat — it is too viscous to penetrate.",
+    "fact": "Super elevation formula i n hilly roadse = v 2 127R.",
     "verification": {
       "status": "verified"
     }
@@ -262,9 +210,7 @@
   {
     "id": "QR-ACiE09-027",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0906",
-    "fact": "**WBM (Water Bound Macadam)** uses coarse aggregate with screenings and binding material, **compacted with water**.",
-    "detail": "**WMM (Wet Mix Macadam)** is graded aggregate premixed with water in a plant — more uniform, faster, and now preferred. WBM is laid in layers of **75 mm compacted thickness**, each with its own screening and rolling.",
+    "fact": "The ideal shape of a transition curve is clothoid.",
     "verification": {
       "status": "verified"
     }
@@ -272,9 +218,7 @@
   {
     "id": "QR-ACiE09-028",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0906",
-    "fact": "Bituminous surfacings from thin to thick: **surface dressing → premix carpet → BM → DBM → BC**.",
-    "detail": "**Surface dressing** is a waterproofing and skid-resistance treatment, **not a structural layer**. **BC (bituminous concrete)** is the dense, structural wearing course. **DBM** is the dense binder course. Choose by traffic and available funds.",
+    "fact": "Vertical alignment is the process dealing with vertical curves and gradients.",
     "verification": {
       "status": "verified"
     }
@@ -282,9 +226,7 @@
   {
     "id": "QR-ACiE09-029",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0906",
-    "fact": "Pavement distresses: **ravelling, potholes, rutting, cracking (alligator, longitudinal, transverse), bleeding, corrugation, shoving**.",
-    "detail": "Each points to a cause: **alligator cracking = fatigue from repeated load**; **rutting = permanent deformation, often excess binder or weak subgrade**; **bleeding = too much binder**; **ravelling = insufficient binder or poor compaction**.",
+    "fact": "Drainage structure parallel to the road provided to intercept rain in a hilly region is catch drain.",
     "verification": {
       "status": "verified"
     }
@@ -292,9 +234,7 @@
   {
     "id": "QR-ACiE09-030",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0906",
-    "fact": "**Benkelman beam** measures **rebound deflection** to assess a pavement's structural condition and design an **overlay**.",
-    "detail": "Higher deflection means a weaker pavement, hence a thicker overlay. Corrections for **temperature, seasonal variation and moisture** are applied to the characteristic deflection before overlay design.",
+    "fact": "85 th percentile cumulative frequency is used for speed regulation.",
     "verification": {
       "status": "verified"
     }
@@ -302,9 +242,7 @@
   {
     "id": "QR-ACiE09-031",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0901",
-    "fact": "Highway alignment requirements: **short, easy, safe, economical** — and it must respect **obligatory points**.",
-    "detail": "**Obligatory points through which the alignment must pass** (a bridge site, a mountain pass, an intermediate town) and **points to avoid** (a marsh, a lake, a religious site, unstable ground). In Nepal, **landslide-prone slopes and geological faults** are the critical avoid-list.",
+    "fact": "The maximum vertical clearance in hill road for overhanging cliff is 5 m.",
     "verification": {
       "status": "verified"
     }
@@ -312,9 +250,7 @@
   {
     "id": "QR-ACiE09-032",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0902",
-    "fact": "Road width terms from narrow to wide: **carriageway → roadway (formation) → right of way**.",
-    "detail": "**Carriageway** is the paved travel surface (**3.5 m per lane**, 3.75 m for a single-lane national highway); **roadway/formation width** adds the **shoulders**; **right of way** is the whole acquired land corridor, including drains and future widening.",
+    "fact": "The brake reaction time of a normal driver is 2.5 sec.",
     "verification": {
       "status": "verified"
     }
@@ -322,9 +258,7 @@
   {
     "id": "QR-ACiE09-033",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0902",
-    "fact": "**Set-back distance** clears the inside of a horizontal curve so the required sight distance is available.",
-    "detail": "**m = R − (R − d)cos(θ/2)** where θ = S/(R−d) radians. It is why obstructions — parapets, cut faces, vegetation, buildings — must be cleared on the inside of a bend, and why hill roads have benched cut slopes at curves.",
+    "fact": "If the speed of overtaken vehicle is 80 kmph, then the design speed = (V + 16) = 80 + 16 = 96 kmph.",
     "verification": {
       "status": "verified"
     }
@@ -332,9 +266,7 @@
   {
     "id": "QR-ACiE09-034",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0905",
-    "fact": "**Subgrade must be compacted to at least 97% of modified Proctor MDD**; sub-base and base to 98–100%.",
-    "detail": "**Field density** is verified by **core cutter** or **sand replacement**. Compaction is done at or near **OMC** — too dry and the target density is unreachable, too wet and the soil shears and pumps under the roller.",
+    "fact": "The minimum width of a single lane road is 3.75 m.",
     "verification": {
       "status": "verified"
     }
@@ -342,9 +274,7 @@
   {
     "id": "QR-ACiE09-035",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0906",
-    "fact": "Rollers: **smooth wheeled** (granular, finishing), **pneumatic tyred** (bituminous, kneading), **sheep foot** (cohesive soil), **vibratory** (granular).",
-    "detail": "**Sheep foot (pad foot)** works cohesive soil by kneading; **vibratory** rearranges granular particles and is far more effective on sand and gravel. Matching the roller to the material is the difference between reaching target density and merely passing over it.",
+    "fact": "The distance travelled by moving vehicles during perception and brake reaction time is known as lag distance.",
     "verification": {
       "status": "verified"
     }
@@ -352,9 +282,7 @@
   {
     "id": "QR-ACiE09-036",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0904",
-    "fact": "Signal design (Webster): **optimum cycle C_0 = (1.5L + 5)/(1 − ΣY)**, with L the total lost time.",
-    "detail": "Green time is allocated **in proportion to the critical flow ratios y_i**. If **ΣY approaches 1** the intersection is at capacity and no cycle length will work — the geometry or the demand must change. Practical cycle lengths are **40–120 s**.",
+    "fact": "For the purpose of measuring the stopping sight distance or visibility ahead, the height of the object is suggested as 15 cm above the road surface.",
     "verification": {
       "status": "verified"
     }
@@ -362,9 +290,7 @@
   {
     "id": "QR-ACiE09-037",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0904",
-    "fact": "**Rotary (roundabout)** design: **weaving angle ≈ 15°**, **weaving length**, and entry deflection to slow traffic.",
-    "detail": "A rotary converts **crossing conflicts into merging and diverging** ones, which are far less severe. It suits **moderate** flows from **3–7 approaches**; at high volumes it locks up and a **signalised or grade-separated** intersection is needed.",
+    "fact": "The basic capacity of road can be calculated with formula is 1000V L + S.",
     "verification": {
       "status": "verified"
     }
@@ -372,9 +298,7 @@
   {
     "id": "QR-ACiE09-038",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0906",
-    "fact": "Hill road drainage: **side drains, catch water drains, causeways, culverts** — and drainage is the primary defence against landslides.",
-    "detail": "A **catch water (intercepting) drain** above the cut slope diverts hillside runoff before it reaches the road. Most hill road failures in Nepal are **water-triggered**, so drainage maintenance matters more than pavement thickness.",
+    "fact": "In valley curve design, the height of head light above the road surface is taken as 0.75 m.",
     "verification": {
       "status": "verified"
     }
@@ -382,9 +306,7 @@
   {
     "id": "QR-ACiE09-039",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0905",
-    "fact": "**Group Index** and **CBR** methods size a flexible pavement; **IRC 37** now uses **mechanistic-empirical** design.",
-    "detail": "IRC 37:2018 checks two failure criteria: **fatigue cracking** (tensile strain at the bottom of the bituminous layer) and **rutting** (vertical strain at the top of the subgrade). Design period **15 years** for national highways, 10–15 for others.",
+    "fact": "The standard temperature for Marshall stability test is 60°C.",
     "verification": {
       "status": "verified"
     }
@@ -392,9 +314,895 @@
   {
     "id": "QR-ACiE09-040",
     "chapter": "ACiE09",
-    "subchapter": "ACiE0903",
-    "fact": "**Stripping** is the loss of adhesion between bitumen and aggregate in the presence of water.",
-    "detail": "Worse with **hydrophilic (siliceous, acidic) aggregates like quartzite**; better with **basic aggregates like limestone and basalt**. Countered by **anti-stripping agents, hydrated lime or cement filler**, and by ensuring the aggregate is **dry** when coated.",
+    "fact": "The distance between two samples in a penetration test should be 10 mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-041",
+    "chapter": "ACiE09",
+    "fact": "The organic binding material used in road pavement is bitumen.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-042",
+    "chapter": "ACiE09",
+    "fact": "If the penetration grade is 62, the penetration value is = 62 10 mm = 6.2 mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-043",
+    "chapter": "ACiE09",
+    "fact": "Minimum bitumen ductility value to use in road is 50 cm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-044",
+    "chapter": "ACiE09",
+    "fact": "Rate o f stretching bitumen in ductility test is 5 cm/min.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-045",
+    "chapter": "ACiE09",
+    "fact": "Bitumen is obtained from petroleum.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-046",
+    "chapter": "ACiE09",
+    "fact": "Bitumen content is determined by the test is Marshall test.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-047",
+    "chapter": "ACiE09",
+    "fact": "Bitumen extraction test is typically done at 3600 rpm at 110°C.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-048",
+    "chapter": "ACiE09",
+    "fact": "The maximum moisture content on Bitumen is 0.2%.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-049",
+    "chapter": "ACiE09",
+    "fact": "The test is used to measure weathering of aggregate is Soundness test.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-050",
+    "chapter": "ACiE09",
+    "fact": "Abrasion test is done for hardness.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-051",
+    "chapter": "ACiE09",
+    "fact": "The sieve size is used in Los Angles abrasion test is 1.7 mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-052",
+    "chapter": "ACiE09",
+    "fact": "The slope of a Mass Haul diagram gives the rate of change of earthwork volume over distance.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-053",
+    "chapter": "ACiE09",
+    "fact": "Vscosity test is used to determine the consistency and flow resistance of bitumen.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-054",
+    "chapter": "ACiE09",
+    "fact": "The Vacuum capillary tube viscometer test is suitable for a temperature range of 20 ± 0.1°C.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-055",
+    "chapter": "ACiE09",
+    "fact": "The maximum ordinate of mass haul diagram occurs at the end of a cutting.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-056",
+    "chapter": "ACiE09",
+    "fact": "In mass haul diagram the negative sign represents the filling.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-057",
+    "chapter": "ACiE09",
+    "fact": "In mass haul diagram, if end is negative then it means burrow.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-058",
+    "chapter": "ACiE09",
+    "fact": "Daily average traffic calculated based on 30 days' survey in 365 days is ADT.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-059",
+    "chapter": "ACiE09",
+    "fact": "The minimum value is taken by backward pass.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-060",
+    "chapter": "ACiE09",
+    "fact": "Longitudinal ridging due to the channelization of traffic is called as grooving.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-061",
+    "chapter": "ACiE09",
+    "fact": "For the movement of vehicles at an intersection of two roads, without any interference, the type of grade separator generally preferred to, is clover leaf.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-062",
+    "chapter": "ACiE09",
+    "fact": "An intersection that is provided for different levels of the road is called grade - separated intersections.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-063",
+    "chapter": "ACiE09",
+    "fact": "The minimum weaving angle in the rotary section is 15°.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-064",
+    "chapter": "ACiE09",
+    "fact": "The procedure of adopting medians and traffic island in an unchannelized intersection is called channelizing.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-065",
+    "chapter": "ACiE09",
+    "fact": "Clover leaf intersection has no conflict.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-066",
+    "chapter": "ACiE09",
+    "fact": "The value of distribution factor for 4 lane road in Nepal is 0.4 for both lanes.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-067",
+    "chapter": "ACiE09",
+    "fact": "'Clearance time' is indicated by amber.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-068",
+    "chapter": "ACiE09",
+    "fact": "Reduce right turn but may increase rear end is the effect of using traffic signals.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-069",
+    "chapter": "ACiE09",
+    "fact": "if total lost time is 10 for sum of proportion 0.6, then optimal cycle length = 1.5L + 5 1 – y = 1.5 × 10 + 5 1 –",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-070",
+    "chapter": "ACiE09",
+    "fact": "A 160 kN load damages pavement................. times more than 80 kN load. Then answer is       160 80 4 = 16.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-071",
+    "chapter": "ACiE09",
+    "fact": "The minimum value of 15 - minute peak hour factor on a section of a road is 0.25.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-072",
+    "chapter": "ACiE09",
+    "fact": "The maximum number of vehicles in a lane or a road that can pass a given point in a unit time, usually an hour is called traffic capacity.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-073",
+    "chapter": "ACiE09",
+    "fact": "The Lane Distribution Factor (LFD) for 4 lane road is 0.4.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-074",
+    "chapter": "ACiE09",
+    "fact": "The type of parking in which maximum number of vehicles can be parked is 90°.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-075",
+    "chapter": "ACiE09",
+    "fact": "The school ahead is the type of traffic sign of cautionary sign.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-076",
+    "chapter": "ACiE09",
+    "fact": "The traffic that is prepared based on 365 days of the year is called annual average daily traffic.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-077",
+    "chapter": "ACiE09",
+    "fact": "The percentile value of CBR is used for design of road with more than 20 million ESAL as recommended by DOR is 0.9.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-078",
+    "chapter": "ACiE09",
+    "fact": "If CBR = 5%, then resilient modulus as per NRS (Mr) = 10 × CBR = 10 × 5 = 50 MPa.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-079",
+    "chapter": "ACiE09",
+    "fact": "In CBR test, If the CBR value at 5 mm is greater than that at 2.5 mm so the test should be repeated.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-080",
+    "chapter": "ACiE09",
+    "fact": "In CBR test, the rate of penetration of plunger is 1.25 mm/min.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-081",
+    "chapter": "ACiE09",
+    "fact": "The design factor not considered in CBR is weather.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-082",
+    "chapter": "ACiE09",
+    "fact": "The standard temperature taken for the rebound (benklement beam) deflection calculation is 35°C.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-083",
+    "chapter": "ACiE09",
+    "fact": "In benklement beam test, the deflection of road is checked at the distance of Single lane road is 0.6 m from edge.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-084",
+    "chapter": "ACiE09",
+    "fact": "In water bound macadam roads, binding material is stone dust.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-085",
+    "chapter": "ACiE09",
+    "fact": "The premix is used in the base course is Bituminous bound macadam.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-086",
+    "chapter": "ACiE09",
+    "fact": "One of the probable causes of rutting on flexible pavements is inadequate compaction of pavement layers.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-087",
+    "chapter": "ACiE09",
+    "fact": "Minimum thickness of the base of a flexible pavement is 10 cm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-088",
+    "chapter": "ACiE09",
+    "fact": "The coefficient of sub grade doesn't depend upon water table.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-089",
+    "chapter": "ACiE09",
+    "fact": "Which of the following factors does NOT primarily influence the sub grade capacity is seismic activity.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-090",
+    "chapter": "ACiE09",
+    "fact": "The load transfer to lower layers in flexible pavements is grain to grain contact.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-091",
+    "chapter": "ACiE09",
+    "fact": "The bitumen layer spread over old pavement to bind newer pavement layer together is tack coat.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-092",
+    "chapter": "ACiE09",
+    "fact": "In the penetration macadam construction, the bitumen is sprayed after the aggregates are spread and compacted.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-093",
+    "chapter": "ACiE09",
+    "fact": "Which of the following pavement is best for night visibility is rigid pavement (cement concr ete).",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-094",
+    "chapter": "ACiE09",
+    "fact": "Tie bars in rigid pavements provide across is longitudinal joints.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-095",
+    "chapter": "ACiE09",
+    "fact": "The dowel bars are used in rigid pavements for transferring load from one portion to another.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-096",
+    "chapter": "ACiE09",
+    "fact": "The highest quality construction in the group of black top pavements is bituminous concrete.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-097",
+    "chapter": "ACiE09",
+    "fact": "The correct sequence of flexible road pavement construction stages in a highway is excavation, application of binder material, spreading of premix, compaction",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-098",
+    "chapter": "ACiE09",
+    "fact": "The thin hairline crack is also known as crazing.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-099",
+    "chapter": "ACiE09",
+    "fact": "For sandy soils the most common method of stabilization Is soil - cement.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-100",
+    "chapter": "ACiE09",
+    "fact": "The longitudinal depression in the wheel path in bituminous pavements is rutting.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-101",
+    "chapter": "ACiE09",
+    "fact": "The roller is used to compact the coarse grained soil is vibratory roller.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-102",
+    "chapter": "ACiE09",
+    "fact": "The specified temperature in penetration test of bitumen is",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-103",
+    "chapter": "ACiE09",
+    "fact": "According to DOR, the maximum thickness of sub base/premix pavement is",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-104",
+    "chapter": "ACiE09",
+    "fact": "Alligator cracking is fatigue.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-105",
+    "chapter": "ACiE09",
+    "fact": "The pot hole maintenance in case of bituminous road is recurrent maintenance.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-106",
+    "chapter": "ACiE09",
+    "fact": "As per IRC, the super elevation to be provided in horizontal curve in order to encounter is centrifugal force.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-107",
+    "chapter": "ACiE09",
+    "fact": "The equivalent wheel load of 100 kN load is 2.25 times repetition of design load.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-108",
+    "chapter": "ACiE09",
+    "fact": "According to administrative classification, the road has high mobility and least accessibility is called National Highway.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-109",
+    "chapter": "ACiE09",
+    "fact": "The accident book isa legal document that records the details of an accident in the workplace.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-110",
+    "chapter": "ACiE09",
+    "fact": "The survey in which details are covered roughly but not accurately is called reconnaissance.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-111",
+    "chapter": "ACiE09",
+    "fact": "The recommended speed limit for traffic in a rotary (roundabout) designed for urban areas is 30 km/hr.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-112",
+    "chapter": "ACiE09",
+    "fact": "The vehicle has highest equivalent factors is bull carts. (value is 6 PCU) 11",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-113",
+    "chapter": "ACiE09",
+    "fact": "The relation between chain age of mid ordinate (MO) and Intersection Point (IP) is IP > MO.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-114",
+    "chapter": "ACiE09",
+    "fact": "On a pavement with parabolic camber, the angle of inclination of the vehicles will be more at the edges.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-115",
+    "chapter": "ACiE09",
+    "fact": "In flexible pavement, rolling is done from edges to center.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-116",
+    "chapter": "ACiE09",
+    "fact": "Impact value in surface layer of road pavement should be less than 30.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-117",
+    "chapter": "ACiE09",
+    "fact": "A vehicle is coming from a route and is made to change its path to another route at a certain place/point on the road. If the destination of those vehicles notc hanged, the path is known as diversion path.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-118",
+    "chapter": "ACiE09",
+    "fact": "The minimum super elevation on a road curve is equal to equal to camber slope (7%)",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-119",
+    "chapter": "ACiE09",
+    "fact": "In the repair of potholes, a rectangular portion of the pavement surrounding it is cut out.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-120",
+    "chapter": "ACiE09",
+    "fact": "Under the design of dowel bars, for a design load being 5100 kg. IRC recommends 2.5 cm dowel bars of length 50 cm to be spaced at 30 cm in case of 25 cm thick slab.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-121",
+    "chapter": "ACiE09",
+    "fact": "The maximum abrasion value for the cement concrete pavement (wearing surface) is 0.3.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-122",
+    "chapter": "ACiE09",
+    "fact": "The number of P CU and perspective period for the design of Class I road is greater than 20000 at 20 years.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-123",
+    "chapter": "ACiE09",
+    "fact": "The first step in flooring is base coat.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-124",
+    "chapter": "ACiE09",
+    "fact": "The ductility value of bitumen for suitability in road construction should not be less than 50 cm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-125",
+    "chapter": "ACiE09",
+    "fact": "Concrete lining is done in rigid type of pavement.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-126",
+    "chapter": "ACiE09",
+    "fact": "The angle which is measured at the change of direction of two gradients is called deviated angle.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-127",
+    "chapter": "ACiE09",
+    "fact": "The road foundation for modern highways construction, was developed by both Telford and Macadam.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-128",
+    "chapter": "ACiE09",
+    "fact": "The speed and jam density of the traffic stream is 50 km/hr and 100 vehicles/km respectively. The average time headway will be 0.72 second.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-129",
+    "chapter": "ACiE09",
+    "fact": "The most governing factor that is required for geometric design of road is speed of vehicles.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-130",
+    "chapter": "ACiE09",
+    "fact": "The positive mass haul diagram represents cut portion.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-131",
+    "chapter": "ACiE09",
+    "fact": "In Asphalt bitumen pavement, the wheel load of the vehicle transfers from asphalt, base sub base to sub grade.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-132",
+    "chapter": "ACiE09",
+    "fact": "The main objective of transportation is safe, economical and efficient transport of good and passengers.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-133",
+    "chapter": "ACiE09",
+    "fact": "In mass haul diagram, if the end is negative. It indicates deficit volume.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-134",
+    "chapter": "ACiE09",
+    "fact": "The standard penetration value is 1 10 mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-135",
+    "chapter": "ACiE09",
+    "fact": "In flexible pavement rutting is contributed by weak subgrade soil, high pavement temperature and poor mix design.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-136",
+    "chapter": "ACiE09",
+    "fact": "Weaving angle should not provide less than is 15 degree.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-137",
+    "chapter": "ACiE09",
+    "fact": "The typical maximum spacing for contraction joints in unreinforced rigid concrete pavement is 4.5 m.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-138",
+    "chapter": "ACiE09",
+    "fact": "The standard design thickness for a typical bitumen premix carpet open graded wearing course is 20 mm.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-139",
+    "chapter": "ACiE09",
+    "fact": "The primary priority and core objective of traffic engineering is to ensuring safe, rapid and efficient movement of tra ffic.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-140",
+    "chapter": "ACiE09",
+    "fact": "In a flexible pavement structure, vehicle wheel loads are primarily transmitted through grain to grain contact of aggregate layer.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-141",
+    "chapter": "ACiE09",
+    "fact": "The grade compensation required for a curve radius of 600 mis 0.125%.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-142",
+    "chapter": "ACiE09",
+    "fact": "The lane distribution factor (LDF) for 4 lane road is 0.4.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-143",
+    "chapter": "ACiE09",
+    "fact": "Driver's eye height and object height according to NRS 2070 are 1.2 m and 0.15 m respectively.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-144",
+    "chapter": "ACiE09",
+    "fact": "Camber is provided on roads mainly to drain surface water.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-145",
+    "chapter": "ACiE09",
+    "fact": "The road section Naubise to Pokhara define Prithivi Highway.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-146",
+    "chapter": "ACiE09",
+    "fact": "Vehicles per meter is the standard SI unit of time headway in traffic engineering.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-147",
+    "chapter": "ACiE09",
+    "fact": "Setback distance in highway planning is defined as the distance between road land boundary and building line.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-148",
+    "chapter": "ACiE09",
+    "fact": "Bitumen is an organic construction binding mate rial.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-149",
+    "chapter": "ACiE09",
+    "fact": "The test used for detecting whether a bitumen sample has been overheated or cracked during manufacturing is spot test.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-150",
+    "chapter": "ACiE09",
+    "fact": "The best type of interchange can be provided with full cloverleaf.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE09-151",
+    "chapter": "ACiE09",
+    "fact": "In flexible pavement, minimum contraction joint spacing provided is 4.5 m",
     "verification": {
       "status": "verified"
     }
