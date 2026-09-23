@@ -330,7 +330,7 @@
   {
     "id": "QR-ACiE01-042",
     "chapter": "ACiE01",
-    "fact": "Terracotta is used in buildings for ornamentalw ork.",
+    "fact": "Terracotta is used in buildings for ornamental work.",
     "verification": {
       "status": "verified"
     }
@@ -370,7 +370,7 @@
   {
     "id": "QR-ACiE01-047",
     "chapter": "ACiE01",
-    "fact": "The purpose of providing waterproof tiles is top revents water from entering.",
+    "fact": "The purpose of providing waterproof tiles is to prevents water from entering.",
     "verification": {
       "status": "verified"
     }
@@ -474,7 +474,7 @@
   {
     "id": "QR-ACiE01-060",
     "chapter": "ACiE01",
-    "fact": "Section modulus of a hol low circular section is Z =  (D 4 – d 4) 32D.",
+    "fact": "Section modulus of a hollow circular section is Z =  (D 4 – d 4) 32D.",
     "verification": {
       "status": "verified"
     }
@@ -626,7 +626,7 @@
   {
     "id": "QR-ACiE01-079",
     "chapter": "ACiE01",
-    "fact": "The section modulus of hollow circular section having external diameter D and internal diameterd is  (D 4 −  4) 32D.",
+    "fact": "The section modulus of hollow circular section having external diameter D and internal diameter d is  (D 4 −  4) 32D.",
     "verification": {
       "status": "verified"
     }
@@ -770,7 +770,7 @@
   {
     "id": "QR-ACiE01-097",
     "chapter": "ACiE01",
-    "fact": "The plan used to intercept dr ainage, surface conditions, and topography is called contour plan.",
+    "fact": "The plan used to intercept drainage, surface conditions, and topography is called contour plan.",
     "verification": {
       "status": "verified"
     }

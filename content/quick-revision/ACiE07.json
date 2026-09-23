@@ -458,7 +458,7 @@
   {
     "id": "QR-ACiE07-058",
     "chapter": "ACiE07",
-    "fact": "The lanes creep length formula is 2d 1 + L 3 + 2d 2 (where, d 1 is upst ream cutoff, d 2 is downstream cutoff and L is floor length).",
+    "fact": "The lanes creep length formula is 2d 1 + L 3 + 2d 2 (where, d 1 is upstream cutoff, d 2 is downstream cutoff and L is floor length).",
     "verification": {
       "status": "verified"
     }
@@ -706,7 +706,7 @@
   {
     "id": "QR-ACiE07-089",
     "chapter": "ACiE07",
-    "fact": "Theme thod which uses dead furrows on cropped farms for drainage of excess irrigation or rain water, is called bedding.",
+    "fact": "The method which uses dead furrows on cropped farms for drainage of excess irrigation or rain water, is called bedding.",
     "verification": {
       "status": "verified"
     }
@@ -826,7 +826,7 @@
   {
     "id": "QR-ACiE07-104",
     "chapter": "ACiE07",
-    "fact": "The ratio of irri gated area under Rabi and Kharif crops is 2.",
+    "fact": "The ratio of irrigated area under Rabi and Kharif crops is 2.",
     "verification": {
       "status": "verified"
     }
@@ -850,7 +850,7 @@
   {
     "id": "QR-ACiE07-107",
     "chapter": "ACiE07",
-    "fact": "Kor watering in irrigation is defined as the first wate ring which is given to a crop when the crop isa few cm highs.",
+    "fact": "Kor watering in irrigation is defined as the first watering which is given to a crop when the crop isa few cm highs.",
     "verification": {
       "status": "verified"
     }

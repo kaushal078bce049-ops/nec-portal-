@@ -138,7 +138,7 @@
   {
     "id": "QR-ACiE02-018",
     "chapter": "ACiE02",
-    "fact": "Sands ofz one I are coarse sand.",
+    "fact": "Sands of zone I are coarse sand.",
     "verification": {
       "status": "verified"
     }
@@ -306,7 +306,7 @@
   {
     "id": "QR-ACiE02-039",
     "chapter": "ACiE02",
-    "fact": "The bulking of sand is increase in volume of sand due to moisture absorptio n.",
+    "fact": "The bulking of sand is increase in volume of sand due to moisture absorption.",
     "verification": {
       "status": "verified"
     }
@@ -418,7 +418,7 @@
   {
     "id": "QR-ACiE02-053",
     "chapter": "ACiE02",
-    "fact": "The circle obtained from two dimensional stress system is known as Mohr cir cle.",
+    "fact": "The circle obtained from two dimensional stress system is known as Mohr circle.",
     "verification": {
       "status": "verified"
     }
@@ -482,7 +482,7 @@
   {
     "id": "QR-ACiE02-061",
     "chapter": "ACiE02",
-    "fact": "Water at room temperature has them inimum compressibility.",
+    "fact": "Water at room temperature has the minimum compressibility.",
     "verification": {
       "status": "verified"
     }
@@ -594,7 +594,7 @@
   {
     "id": "QR-ACiE02-075",
     "chapter": "ACiE02",
-    "fact": "Increased slope angle doesn't contribute to the stability of a s lope.",
+    "fact": "Increased slope angle doesn't contribute to the stability of a slope.",
     "verification": {
       "status": "verified"
     }

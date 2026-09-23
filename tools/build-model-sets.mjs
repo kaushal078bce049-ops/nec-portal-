@@ -110,60 +110,6 @@ function toQuestion(fact) {
   return null;
 }
 
-/**
- * How alike two answers are, as a candidate would see them.
- *
- * Drawing distractors at random from the chapter made the key obvious: a
- * question about formwork material offered "steel" against "CSH gel",
- * "crack filling" and "pigment", and you can pick the material without
- * knowing anything. A distractor only works if it could plausibly answer the
- * same question, so candidates are scored and the closest three are taken.
- */
-
-/** A quantity, and the unit it is quoted in. */
-function quantity(s) {
-  const m = String(s).match(/^[<>~≈]?\s*(\d+(?:\.\d+)?)\s*(.*)$/);
-  if (!m) return null;
-  const unit = m[2].trim().toLowerCase().replace(/[.)]+$/, '');
-  return { value: Number(m[1]), unit };
-}
-
-function similarity(answer, candidate) {
-  if (answer === candidate) return -1;
-  const qa = quantity(answer);
-  const qc = quantity(candidate);
-
-  // A number must be answered by a number. Beyond that, the unit has to
-  // match -- offering "1 kg" against "0.15 MPa" tells the candidate which
-  // one the question is about -- and the magnitudes have to be comparable,
-  // or the real answer is the only credible size.
-  if (qa || qc) {
-    if (!qa || !qc) return -1;
-    if (qa.unit !== qc.unit) return -1;
-    if (qa.value === qc.value) return -1;
-    const ratio = Math.max(qa.value, qc.value) / Math.max(Math.min(qa.value, qc.value), 0.0001);
-    if (ratio > 20) return -1;
-    // Closer is better, but not so close as to be indistinguishable.
-    return 10 - Math.abs(Math.log10(ratio));
-  }
-
-  const wa = answer.toLowerCase().split(/\W+/).filter(Boolean);
-  const wc = candidate.toLowerCase().split(/\W+/).filter(Boolean);
-  if (!wc.length) return -1;
-
-  let score = 0;
-  // A shared head word means they name the same kind of thing: "bell mouth"
-  // and "trumpet mouth", "flexible pavement" and "rigid pavement".
-  if (wa[wa.length - 1] === wc[wc.length - 1]) score += 6;
-  if (wa[0] === wc[0]) score += 2;
-  score += wa.filter((w) => wc.includes(w)).length * 2;
-  // Similar length reads as a parallel option; a one-word answer among
-  // three long phrases stands out on shape alone.
-  score += 3 - Math.min(3, Math.abs(wa.length - wc.length));
-  score += 2 - Math.min(2, Math.abs(answer.length - candidate.length) / 12);
-  return score;
-}
-
 function stemFor(lead) {
   const l = lead.replace(/\s+/g, ' ').trim();
   // Keep the source's own wording; only turn the statement into a question.
@@ -200,6 +146,113 @@ function subchapterFor(chapter, text) {
  * The second is plainly better: a model set is meant to be representative,
  * and a candidate meeting a practice question again in a mock is no loss.
  */
+const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+/**
+ * Distractors borrowed from the authored question banks.
+ *
+ * Scoring capsule answers against one another produced option lists like
+ * "steel / ductility / chromium / prism": three real terms from the right
+ * chapter, not one of which could answer the question, so the key is picked
+ * without knowing anything. No amount of lexical scoring repairs that,
+ * because the capsule has no sibling terms to offer -- it is a list of facts,
+ * not a list of materials, and nothing in it stands in the same relation to
+ * "steel" as "cast iron" does.
+ *
+ * The authored questions do. Each carries four options that someone wrote to
+ * be confusable with each other, so for any term appearing among them the
+ * co-occurring options are already the right kind of thing. This indexes that
+ * co-occurrence and reuses it, which is why the options now read as a real
+ * question rather than as one answer among three non sequiturs.
+ *
+ * A term the banks have never seen yields nothing and the question is dropped
+ * rather than furnished with filler; reserve() below makes up the shortfall.
+ */
+function buildSiblings(skip) {
+  const byTerm = new Map();
+  for (const d of ['practice', 'past-papers', 'model-sets']) {
+    const dir = path.join(CONTENT, 'questions', d);
+    if (!fs.existsSync(dir)) continue;
+    for (const file of fs.readdirSync(dir)) {
+      if (skip.has(path.basename(file, '.json'))) continue;
+      const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+      for (const q of data.questions ?? []) {
+        const opts = (q.options ?? []).filter((o) => typeof o === 'string' && o.trim());
+        if (opts.length < 2) continue;
+        for (const a of opts) {
+          const ka = norm(a);
+          if (!ka) continue;
+          let m = byTerm.get(ka);
+          if (!m) { m = new Map(); byTerm.set(ka, m); }
+          for (const b of opts) {
+            const kb = norm(b);
+            if (!kb || kb === ka) continue;
+            const prev = m.get(kb);
+            if (prev) { prev.count++; prev.chapters.add(q.chapter); }
+            else m.set(kb, { text: b, count: 1, chapters: new Set([q.chapter]) });
+          }
+        }
+      }
+    }
+  }
+  return byTerm;
+}
+
+/** Whether offering `candidate` alongside `answer` is not a real choice. */
+/**
+ * Reduce a term to what a candidate actually reads.
+ *
+ * Spacing, hyphenation and plurals are not choices. The banks spell the same
+ * test both "triaxial" and "tri-axial", and a question that offers each as a
+ * separate option has three real choices, not four -- worse, the duplicated
+ * pair tells the candidate that neither is the answer.
+ */
+function key(s) {
+  const n = norm(s);
+  // A quantity keeps its spacing. norm() has already turned the decimal point
+  // into a space, so squashing would make "6.0 m" and "60 m" the same token and
+  // throw away one of two perfectly good options -- they are different lengths.
+  if (/\d/.test(n)) return n;
+  return n.replace(/\s+/g, '').replace(/s$/, '');
+}
+
+function conflicts(answer, candidate) {
+  const a = norm(answer);
+  const c = norm(candidate);
+  if (!c) return true;
+  if (key(a) === key(c)) return true;
+  // "steel" against "mild steel" asks nobody anything: one contains the other,
+  // so the pair reads as a hedge rather than as two alternatives.
+  return (' ' + a + ' ').includes(' ' + c + ' ') || (' ' + c + ' ').includes(' ' + a + ' ');
+}
+
+function distractorsFor(answer, chapter, siblings, random) {
+  const pool = siblings.get(norm(answer));
+  if (!pool) return null;
+
+  const ranked = [...pool.values()]
+    .filter((x) => !conflicts(answer, x.text))
+    // How often two options were written together is the whole signal: a pair
+    // an author reached for repeatedly is a pair candidates actually confuse.
+    // Same-chapter company breaks ties, so a term used in two chapters offers
+    // the reading this question is about.
+    .map((x) => ({ text: x.text, score: x.count * 2 + (x.chapters.has(chapter) ? 5 : 0) }))
+    .sort((u, v) => v.score - u.score);
+
+  if (ranked.length < 3) return null;
+
+  // From the strongest handful rather than strictly the top three, so two
+  // questions on the same term do not come out with identical option lists.
+  const near = ranked.slice(0, 6).sort(() => random() - 0.5);
+  const picked = [];
+  for (const cand of near) {
+    if (picked.some((t) => conflicts(t, cand.text))) continue;
+    picked.push(cand.text);
+    if (picked.length === 3) break;
+  }
+  return picked.length === 3 ? picked : null;
+}
+
 function reserve(chapter) {
   const f = path.join(CONTENT, 'questions', 'practice', chapter + '.json');
   if (!fs.existsSync(f)) return [];
@@ -213,29 +266,17 @@ function main() {
     cards.set(code, read('quick-revision/' + f));
   }
 
-  // Candidate questions per chapter, plus the answer pool for distractors.
+  // Candidate questions per chapter. Distractors no longer come from here --
+  // see buildSiblings(), which takes them from the authored banks instead.
   const candidates = new Map();
-  const answerPool = new Map();
   for (const [code, list] of cards) {
     const cs = [];
-    const pool = [];
     for (const c of list) {
       const q = toQuestion(c.fact);
       if (!q) continue;
       cs.push({ ...q, fact: c.fact, source: c.id });
-      // Keep the sentence each answer came from. Answer-to-answer similarity
-      // alone cannot tell that "copper sulphate" wants other chemicals for
-      // company; the question it answered can. Two facts that share wording
-      // ("the chemical used for...") are asking about the same kind of thing.
-      pool.push({ answer: q.answer, context: c.fact });
     }
     candidates.set(code, cs);
-    const seen = new Set();
-    answerPool.set(code, pool.filter((x) => {
-      if (seen.has(x.answer)) return false;
-      seen.add(x.answer);
-      return true;
-    }));
   }
 
   console.log('\n  usable questions per chapter:');
@@ -259,6 +300,14 @@ function main() {
 
   if (DRY) { console.log('\n  --dry-run: nothing written.\n'); return; }
 
+  // Exclude the sets being rebuilt, so a previous run's own options cannot
+  // come back round as evidence for themselves.
+  const skip = new Set();
+  for (let i = 0; i < SETS; i++) skip.add('ms-set-' + String(FROM + i).padStart(2, '0'));
+  const siblings = buildSiblings(skip);
+  console.log('\n  sibling index: ' + siblings.size + ' terms from the authored banks');
+
+  let dropped = 0;
   const used = new Set();
   for (let s = 0; s < SETS; s++) {
     const n = FROM + s;
@@ -268,31 +317,14 @@ function main() {
 
     for (const [code, want] of Object.entries(perChapter)) {
       const pool = (candidates.get(code) ?? []).filter((c) => !used.has(c.source));
-      const answers = answerPool.get(code) ?? [];
       let taken = 0;
       for (const c of pool) {
         if (taken >= want) break;
-        // Score every other answer in the chapter and keep the three that
-        // could most plausibly answer this same question.
-        const mine = new Set(c.fact.toLowerCase().match(/[a-z]{4,}/g) ?? []);
-        const scored = answers
-          .map((x) => {
-            const base = similarity(c.answer, x.answer);
-            if (base <= 0) return { a: x.answer, s: -1 };
-            const theirs = new Set(x.context.toLowerCase().match(/[a-z]{4,}/g) ?? []);
-            let shared = 0;
-            for (const w of mine) if (theirs.has(w)) shared++;
-            // Context overlap is weighted heavily: it is the only signal that
-            // knows two answers belong to the same question type.
-            return { a: x.answer, s: base + shared * 4 };
-          })
-          .filter((x) => x.s > 0)
-          .sort((x, y) => y.s - x.s);
-        // Take from the top few rather than strictly the top three, so two
-        // questions sharing a topic do not get identical option lists.
-        const near = scored.slice(0, 8).sort(() => random() - 0.5);
-        const distractors = near.slice(0, 3).map((x) => x.a);
-        if (distractors.length < 3) continue;
+        // Three options a candidate could actually believe, taken from the
+        // authored banks. No usable set means no question: filler is what
+        // made the key obvious last time.
+        const distractors = distractorsFor(c.answer, code, siblings, random);
+        if (!distractors) { dropped++; continue; }
 
         used.add(c.source);
         taken++;
@@ -366,6 +398,7 @@ function main() {
     const spread = [0, 1, 2, 3].map((i) => questions.filter((q) => q.answerIndex === i).length);
     console.log('  wrote ' + slug + ': ' + questions.length + ' questions, letters ' + spread.join('/'));
   }
+  console.log('  dropped ' + dropped + ' capsule facts with no plausible option set.');
   console.log('');
 }
 

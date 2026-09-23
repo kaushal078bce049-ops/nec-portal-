@@ -258,7 +258,7 @@
   {
     "id": "QR-ACiE04-033",
     "chapter": "ACiE04",
-    "fact": "In a three hinged arch with supports at different heighth 1 andh 2, load W is acting at thec enter of arch. If L is the length of the span, the horizontal thrust is WL (h 1 + h 2) 2.",
+    "fact": "In a three hinged arch with supports at different heighth 1 andh 2, load W is acting at the center of arch. If L is the length of the span, the horizontal thrust is WL (h 1 + h 2) 2.",
     "verification": {
       "status": "verified"
     }
@@ -594,7 +594,7 @@
   {
     "id": "QR-ACiE04-075",
     "chapter": "ACiE04",
-    "fact": "A UVL ofw is applied in a two hinged a parabolic arch with zero at one end andw at other end. The formula to calculate horizontal thrust isw l 2 16H.",
+    "fact": "A UVL of w is applied in a two hinged a parabolic arch with zero at one end and w at other end. The formula to calculate horizontal thrust is w l 2 16H.",
     "verification": {
       "status": "verified"
     }
@@ -730,7 +730,7 @@
   {
     "id": "QR-ACiE04-092",
     "chapter": "ACiE04",
-    "fact": "When a uniformly distributed load, longer than the span of the girder, moves from left to right, then the maximum bending moment at mid - section of span occurs when the uniformly distributed load occupiesw hole span.",
+    "fact": "When a uniformly distributed load, longer than the span of the girder, moves from left to right, then the maximum bending moment at mid - section of span occurs when the uniformly distributed load occupies whole span.",
     "verification": {
       "status": "verified"
     }

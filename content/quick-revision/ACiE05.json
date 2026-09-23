@@ -90,7 +90,7 @@
   {
     "id": "QR-ACiE05-012",
     "chapter": "ACiE05",
-    "fact": "To minimize the total cost of a roof truss, the ratio of the cost of trusst o the cost of purlins shall be 2.",
+    "fact": "To minimize the total cost of a roof truss, the ratio of the cost of truss to the cost of purlins shall be 2.",
     "verification": {
       "status": "verified"
     }
@@ -762,7 +762,7 @@
   {
     "id": "QR-ACiE05-096",
     "chapter": "ACiE05",
-    "fact": "The type of joint commonly used in wood construction, where one part is recessed to fit into a cor responding projection on another, is tongue and groove joint.",
+    "fact": "The type of joint commonly used in wood construction, where one part is recessed to fit into a corresponding projection on another, is tongue and groove joint.",
     "verification": {
       "status": "verified"
     }
@@ -786,7 +786,7 @@
   {
     "id": "QR-ACiE05-099",
     "chapter": "ACiE05",
-    "fact": "The minimum area of tensile reinfor cement provided in beam is 0.85bD f y.",
+    "fact": "The minimum area of tensile reinforcement provided in beam is 0.85bD f y.",
     "verification": {
       "status": "verified"
     }
@@ -898,7 +898,7 @@
   {
     "id": "QR-ACiE05-113",
     "chapter": "ACiE05",
-    "fact": "The effective throat thickness of a fillet weld isk times the size of the wel d. For a 70° angle between fusion faces, what is the value ofk is 0.7.",
+    "fact": "The effective throat thickness of a fillet weld isk times the size of the weld. For a 70° angle between fusion faces, what is the value ofk is 0.7.",
     "verification": {
       "status": "verified"
     }
@@ -946,7 +946,7 @@
   {
     "id": "QR-ACiE05-119",
     "chapter": "ACiE05",
-    "fact": "The property of concrete in which the water tends to rise to the surface whilep lacing and compacting is called bleeding.",
+    "fact": "The property of concrete in which the water tends to rise to the surface while placing and compacting is called bleeding.",
     "verification": {
       "status": "verified"
     }

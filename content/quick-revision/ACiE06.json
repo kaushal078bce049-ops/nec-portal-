@@ -322,7 +322,7 @@
   {
     "id": "QR-ACiE06-041",
     "chapter": "ACiE06",
-    "fact": "The formula for overall efficiency of HRTF is E 1 + E 2 (1 – E 1).",
+    "fact": "The formula for overall efficiency of HRT F is E 1 + E 2 (1 – E 1).",
     "verification": {
       "status": "verified"
     }
@@ -482,7 +482,7 @@
   {
     "id": "QR-ACiE06-061",
     "chapter": "ACiE06",
-    "fact": "The pH value off resh sewage is usually is more than 7.",
+    "fact": "The pH value of fresh sewage is usually is more than 7.",
     "verification": {
       "status": "verified"
     }
@@ -746,7 +746,7 @@
   {
     "id": "QR-ACiE06-094",
     "chapter": "ACiE06",
-    "fact": "The presence of free ammonia in waste water represent undecomposed organicm atter.",
+    "fact": "The presence of free ammonia in waste water represent undecomposed organic matter.",
     "verification": {
       "status": "verified"
     }
@@ -834,7 +834,7 @@
   {
     "id": "QR-ACiE06-105",
     "chapter": "ACiE06",
-    "fact": "The typeo f water supply system generally used in hilly region is gravity flow system.",
+    "fact": "The type of water supply system generally used in hilly region is gravity flow system.",
     "verification": {
       "status": "verified"
     }

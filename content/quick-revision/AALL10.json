@@ -306,7 +306,7 @@
   {
     "id": "QR-AALL10-039",
     "chapter": "AALL10",
-    "fact": "In PERT analysis, the time estimates of activities and probability of their occurrence follow isb eta distribution curve.",
+    "fact": "In PERT analysis, the time estimates of activities and probability of their occurrence follow is beta distribution curve.",
     "verification": {
       "status": "verified"
     }
@@ -370,7 +370,7 @@
   {
     "id": "QR-AALL10-047",
     "chapter": "AALL10",
-    "fact": "EF = ES + Duration is formula is used to calculate the earliest finish time (EF) of an activity during the forward pass in project sch eduling.",
+    "fact": "EF = ES + Duration is formula is used to calculate the earliest finish time (EF) of an activity during the forward pass in project scheduling.",
     "verification": {
       "status": "verified"
     }
@@ -578,7 +578,7 @@
   {
     "id": "QR-AALL10-073",
     "chapter": "AALL10",
-    "fact": "Nepal Engineering Council(NEC) is government and autonomous body was established in 2055. Professional codes of con duct issued by NEC has 11 article s.",
+    "fact": "Nepal Engineering Council(NEC) is government and autonomous body was established in 2055. Professional codes of conduct issued by NEC has 11 article s.",
     "verification": {
       "status": "verified"
     }
@@ -914,7 +914,7 @@
   {
     "id": "QR-AALL10-115",
     "chapter": "AALL10",
-    "fact": "In rate a nalysis, the cost of tool and equipment is taken as 3% of cost unskilled labor.",
+    "fact": "In rate analysis, the cost of tool and equipment is taken as 3% of cost unskilled labor.",
     "verification": {
       "status": "verified"
     }
@@ -994,7 +994,7 @@
   {
     "id": "QR-AALL10-125",
     "chapter": "AALL10",
-    "fact": "The number of member directly elected for Council from Nepal Enginee ring Association is 5.",
+    "fact": "The number of member directly elected for Council from Nepal Engineering Association is 5.",
     "verification": {
       "status": "verified"
     }
@@ -1042,7 +1042,7 @@
   {
     "id": "QR-AALL10-131",
     "chapter": "AALL10",
-    "fact": "The process of calculating LS and LF involves only a backward pass through the ne twork.",
+    "fact": "The process of calculating LS and LF involves only a backward pass through the network.",
     "verification": {
       "status": "verified"
     }
@@ -1282,7 +1282,7 @@
   {
     "id": "QR-AALL10-161",
     "chapter": "AALL10",
-    "fact": "Quorum required to conduct a meeting of the NEA: More than 50 and above 1. In water mills, the type of material used as turbine to rotate the flow is wheel of wood. 2. The main problem caused by the use of pesticides is their residue persists in water and other components of the environment. 3. The truss bridge is preferred for span range upto 32 m. 4. The essential things to be built during farm house construction as residential building is kitchen + bathroom + store house + farm. 5. The number of cups used to extract milk from cow through mechanical means are 4. 6. The favorable condition for crop pref erred for intercultural operation is before harvesting. 7. As structural component, suspension bridges utilize vertical struts, vertical cantilever and vertical column. 8. The green road concept focuses on (a) conserving the delicate mountain ecology, (b) protecting vegetation cover and (c) promoting labor based and affordable trial. 9. The approximate storage temperature of fish is – 25°C 10. The structure used traditionally to harvest rain water in rural area is called step well. 11. In biomethane, the percentage of carbon dioxide is 32 to 43%. 12. Structures used for restraining animal when carrying out livestock routine practices like spraying and milking is called as crushes. 13. The average width of green road phase 1 st is 1.25 m. 14. The design capacity of a village road in Terai in both direction (Vehicle per day) is 200. 15. In general, wind guy arrangement is not required for trail bridges with span upto 120 m. 16. The footbath at the entrance of a poultry farm is placed is to prevent the spread of diseases. 17. Suspended trail bridge is also called as D - types. 18. The minimum free board in trail bridge is 5 m. 19. The principal of mechanical milking is to use a vacuum to extract milk from the cow's teat. 20. If a temperature 30 – 35°C for more than 5 hours a day, then orientation of animal housing is E – W orientation. 21. In septic tank, slope is given towards inlet side. 22. The bottom of sewage inlet chamber of septic tank is laid as outward slope of 1 in 10.",
+    "fact": "Quorum required to conduct a meeting of the NEA: More than 50 and above 1. In water mills, the type of material used as turbine to rotate the flow is wheel of wood. 2. The main problem caused by the use of pesticides is their residue persists in water and other components of the environment. 3. The truss bridge is preferred for span range upto 32 m. 4. The essential things to be built during farm house construction as residential building is kitchen + bathroom + store house + farm. 5. The number of cups used to extract milk from cow through mechanical means are 4. 6. The favorable condition for crop preferred for intercultural operation is before harvesting. 7. As structural component, suspension bridges utilize vertical struts, vertical cantilever and vertical column. 8. The green road concept focuses on (a) conserving the delicate mountain ecology, (b) protecting vegetation cover and (c) promoting labor based and affordable trial. 9. The approximate storage temperature of fish is – 25°C 10. The structure used traditionally to harvest rain water in rural area is called step well. 11. In biomethane, the percentage of carbon dioxide is 32 to 43%. 12. Structures used for restraining animal when carrying out livestock routine practices like spraying and milking is called as crushes. 13. The average width of green road phase 1 st is 1.25 m. 14. The design capacity of a village road in Terai in both direction (Vehicle per day) is 200. 15. In general, wind guy arrangement is not required for trail bridges with span upto 120 m. 16. The footbath at the entrance of a poultry farm is placed is to prevent the spread of diseases. 17. Suspended trail bridge is also called as D - types. 18. The minimum free board in trail bridge is 5 m. 19. The principal of mechanical milking is to use a vacuum to extract milk from the cow's teat. 20. If a temperature 30 – 35°C for more than 5 hours a day, then orientation of animal housing is E – W orientation. 21. In septic tank, slope is given towards inlet side. 22. The bottom of sewage inlet chamber of septic tank is laid as outward slope of 1 in 10.",
     "verification": {
       "status": "verified"
     }

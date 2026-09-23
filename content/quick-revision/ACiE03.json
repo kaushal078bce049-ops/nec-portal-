@@ -258,7 +258,7 @@
   {
     "id": "QR-ACiE03-033",
     "chapter": "ACiE03",
-    "fact": "Momentum principle is not applic able to venturi meter.",
+    "fact": "Momentum principle is not applicable to venturi meter.",
     "verification": {
       "status": "verified"
     }
@@ -706,7 +706,7 @@
   {
     "id": "QR-ACiE03-089",
     "chapter": "ACiE03",
-    "fact": "The most accurate method to determine average precipitation depth over an area isi sohyetal map method.",
+    "fact": "The most accurate method to determine average precipitation depth over an area is isohyetal map method.",
     "verification": {
       "status": "verified"
     }
@@ -882,7 +882,7 @@
   {
     "id": "QR-ACiE03-111",
     "chapter": "ACiE03",
-    "fact": "For a given discharge in an open cha nnel, the two depths with the same specific energy are alternate depths.",
+    "fact": "For a given discharge in an open channel, the two depths with the same specific energy are alternate depths.",
     "verification": {
       "status": "verified"
     }
