@@ -417,6 +417,7 @@ export interface RankRow {
   rank: number;
   userId: string;
   name: string;
+  avatarUrl: string | null;
   bestScore: number;
   bestOutOf: number;
   isYou: boolean;
@@ -474,8 +475,8 @@ export async function getProgressByKind(
   const rows = error || !data ? [] : data;
 
   const { data: profiles } = rows.length
-    ? await admin.from('profiles').select('id, username, full_name, email').in('id', [...new Set(rows.map((r) => r.user_id))])
-    : { data: [] as { id: string; username: string | null; full_name: string | null; email: string }[] };
+    ? await admin.from('profiles').select('id, username, full_name, email, avatar_url').in('id', [...new Set(rows.map((r) => r.user_id))])
+    : { data: [] as { id: string; username: string | null; full_name: string | null; email: string; avatar_url: string | null }[] };
 
   // Show a chosen name, never a whole email address: this table is visible to
   // every signed-in user and nobody registered expecting that.
@@ -486,6 +487,8 @@ export async function getProgressByKind(
     // then to the local part of the address -- never the whole address.
     return p?.username?.trim() || p?.full_name?.trim() || p?.email?.split('@')[0] || 'Candidate';
   };
+
+  const avatarOf = (id: string) => profiles?.find((x) => x.id === id)?.avatar_url ?? null;
 
   return (['past_paper', 'model_set', 'daily_capsule'] as RankedKind[]).map((kind) => {
     const mine = rows.filter((r) => r.kind === kind);
@@ -521,6 +524,7 @@ export async function getProgressByKind(
         rank,
         userId,
         name: nameOf(userId),
+        avatarUrl: avatarOf(userId),
         bestScore: v.score,
         bestOutOf: v.outOf,
         isYou: userId === user?.id,

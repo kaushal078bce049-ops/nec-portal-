@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useActionState } from 'react';
 
 import type { AuthFormState } from '@/app/auth/actions';
+import { GoogleButton } from '@/components/auth/GoogleButton';
 
 type Action = (state: AuthFormState, formData: FormData) => Promise<AuthFormState>;
 
@@ -48,6 +49,19 @@ export function AuthForm({
           {state.notice}
         </p>
       )}
+
+      {/*
+        Google first, then the form. Most people have a Google account and no
+        wish to invent another password; putting it above the fields makes the
+        quicker route the obvious one rather than an afterthought below.
+      */}
+      <GoogleButton next={next} />
+
+      <div className="my-6 flex items-center gap-3">
+        <span className="h-px flex-1" style={{ background: 'var(--line-soft)' }} />
+        <span className="text-xs text-muted">or use your email</span>
+        <span className="h-px flex-1" style={{ background: 'var(--line-soft)' }} />
+      </div>
 
       <div className="mt-6 space-y-4">
         {isSignup && (
@@ -97,6 +111,16 @@ export function AuthForm({
           minLength={isSignup ? 10 : undefined}
           hint={isSignup ? 'At least 10 characters.' : undefined}
         />
+
+        {/* Only on sign-in: offering a reset while someone is choosing a
+            password for the first time is just noise. */}
+        {!isSignup && (
+          <p className="text-right text-sm">
+            <Link href="/forgot-password" className="accent hover:underline">
+              Forgot your password?
+            </Link>
+          </p>
+        )}
       </div>
 
       <button type="submit" disabled={pending} className="btn btn-primary mt-6 w-full">

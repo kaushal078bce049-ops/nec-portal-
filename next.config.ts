@@ -28,7 +28,9 @@ const csp = [
   "form-action 'self'",
   "frame-ancestors 'none'",
   "object-src 'none'",
-  "img-src 'self' data: blob:",
+  // Profile pictures live in Supabase Storage, so that origin has to be
+  // readable as an image source as well as reachable over fetch.
+  `img-src 'self' data: blob: ${supabaseOrigin}`.trim(),
   "font-src 'self' data:",
   "style-src 'self' 'unsafe-inline'",
   `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''}`,

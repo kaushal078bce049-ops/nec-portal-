@@ -27,6 +27,8 @@ const ADMIN_PREFIX = '/admin';
 const PUBLIC_PATHS = new Set([
   '/login',
   '/signup',
+  '/forgot-password',
+  '/reset-password',
   '/robots.txt',
   '/sitemap.xml',
   '/manifest.webmanifest',

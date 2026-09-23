@@ -90,6 +90,8 @@ export type SessionUser = {
   email: string;
   fullName: string;
   username: string | null;
+  institute: string | null;
+  avatarUrl: string | null;
   role: 'student' | 'moderator' | 'admin';
   isBanned: boolean;
 };
@@ -118,7 +120,7 @@ export async function getSessionUser(): Promise<SessionUser | null> {
 
     const { data: profile } = await supabase
       .from('profiles')
-      .select('email, full_name, username, role, is_banned')
+      .select('email, full_name, username, institute, avatar_url, role, is_banned')
       .eq('id', user.id)
       .maybeSingle();
 
@@ -134,6 +136,8 @@ export async function getSessionUser(): Promise<SessionUser | null> {
       email: profile.email,
       fullName: profile.full_name,
       username: profile.username ?? null,
+      institute: profile.institute ?? null,
+      avatarUrl: profile.avatar_url ?? null,
       role,
       isBanned: profile.is_banned,
     };

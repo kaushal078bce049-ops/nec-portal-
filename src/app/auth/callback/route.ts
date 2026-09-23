@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { syncOAuthProfile } from '@/lib/oauth-profile';
 import { getServerClient } from '@/lib/supabase/server';
 
 export const runtime = 'nodejs';
@@ -21,10 +22,16 @@ export async function GET(request: NextRequest) {
   }
 
   const supabase = await getServerClient();
-  const { error } = await supabase.auth.exchangeCodeForSession(code);
+  const { data, error } = await supabase.auth.exchangeCodeForSession(code);
 
   if (error) {
     return NextResponse.redirect(`${origin}/login?error=invalid-link`);
   }
+
+  // A Google sign-in arrives here with a name and a picture that the signup
+  // trigger never saw, because there was no signup form to put them in the
+  // metadata it reads. Copy them across before the dashboard renders.
+  if (data.user) await syncOAuthProfile(data.user);
+
   return NextResponse.redirect(`${origin}${next}`);
 }
