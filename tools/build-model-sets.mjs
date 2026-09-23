@@ -110,8 +110,59 @@ function toQuestion(fact) {
   return null;
 }
 
-/** Is this answer a quantity? Numeric answers need numeric distractors. */
-const isNumeric = (s) => /^[<>~]?\s*\d/.test(s);
+/**
+ * How alike two answers are, as a candidate would see them.
+ *
+ * Drawing distractors at random from the chapter made the key obvious: a
+ * question about formwork material offered "steel" against "CSH gel",
+ * "crack filling" and "pigment", and you can pick the material without
+ * knowing anything. A distractor only works if it could plausibly answer the
+ * same question, so candidates are scored and the closest three are taken.
+ */
+
+/** A quantity, and the unit it is quoted in. */
+function quantity(s) {
+  const m = String(s).match(/^[<>~≈]?\s*(\d+(?:\.\d+)?)\s*(.*)$/);
+  if (!m) return null;
+  const unit = m[2].trim().toLowerCase().replace(/[.)]+$/, '');
+  return { value: Number(m[1]), unit };
+}
+
+function similarity(answer, candidate) {
+  if (answer === candidate) return -1;
+  const qa = quantity(answer);
+  const qc = quantity(candidate);
+
+  // A number must be answered by a number. Beyond that, the unit has to
+  // match -- offering "1 kg" against "0.15 MPa" tells the candidate which
+  // one the question is about -- and the magnitudes have to be comparable,
+  // or the real answer is the only credible size.
+  if (qa || qc) {
+    if (!qa || !qc) return -1;
+    if (qa.unit !== qc.unit) return -1;
+    if (qa.value === qc.value) return -1;
+    const ratio = Math.max(qa.value, qc.value) / Math.max(Math.min(qa.value, qc.value), 0.0001);
+    if (ratio > 20) return -1;
+    // Closer is better, but not so close as to be indistinguishable.
+    return 10 - Math.abs(Math.log10(ratio));
+  }
+
+  const wa = answer.toLowerCase().split(/\W+/).filter(Boolean);
+  const wc = candidate.toLowerCase().split(/\W+/).filter(Boolean);
+  if (!wc.length) return -1;
+
+  let score = 0;
+  // A shared head word means they name the same kind of thing: "bell mouth"
+  // and "trumpet mouth", "flexible pavement" and "rigid pavement".
+  if (wa[wa.length - 1] === wc[wc.length - 1]) score += 6;
+  if (wa[0] === wc[0]) score += 2;
+  score += wa.filter((w) => wc.includes(w)).length * 2;
+  // Similar length reads as a parallel option; a one-word answer among
+  // three long phrases stands out on shape alone.
+  score += 3 - Math.min(3, Math.abs(wa.length - wc.length));
+  score += 2 - Math.min(2, Math.abs(answer.length - candidate.length) / 12);
+  return score;
+}
 
 function stemFor(lead) {
   const l = lead.replace(/\s+/g, ' ').trim();
@@ -172,10 +223,19 @@ function main() {
       const q = toQuestion(c.fact);
       if (!q) continue;
       cs.push({ ...q, fact: c.fact, source: c.id });
-      pool.push(q.answer);
+      // Keep the sentence each answer came from. Answer-to-answer similarity
+      // alone cannot tell that "copper sulphate" wants other chemicals for
+      // company; the question it answered can. Two facts that share wording
+      // ("the chemical used for...") are asking about the same kind of thing.
+      pool.push({ answer: q.answer, context: c.fact });
     }
     candidates.set(code, cs);
-    answerPool.set(code, [...new Set(pool)]);
+    const seen = new Set();
+    answerPool.set(code, pool.filter((x) => {
+      if (seen.has(x.answer)) return false;
+      seen.add(x.answer);
+      return true;
+    }));
   }
 
   console.log('\n  usable questions per chapter:');
@@ -212,11 +272,26 @@ function main() {
       let taken = 0;
       for (const c of pool) {
         if (taken >= want) break;
-        const numeric = isNumeric(c.answer);
-        const distractors = answers
-          .filter((a) => a !== c.answer && isNumeric(a) === numeric)
-          .sort(() => random() - 0.5)
-          .slice(0, 3);
+        // Score every other answer in the chapter and keep the three that
+        // could most plausibly answer this same question.
+        const mine = new Set(c.fact.toLowerCase().match(/[a-z]{4,}/g) ?? []);
+        const scored = answers
+          .map((x) => {
+            const base = similarity(c.answer, x.answer);
+            if (base <= 0) return { a: x.answer, s: -1 };
+            const theirs = new Set(x.context.toLowerCase().match(/[a-z]{4,}/g) ?? []);
+            let shared = 0;
+            for (const w of mine) if (theirs.has(w)) shared++;
+            // Context overlap is weighted heavily: it is the only signal that
+            // knows two answers belong to the same question type.
+            return { a: x.answer, s: base + shared * 4 };
+          })
+          .filter((x) => x.s > 0)
+          .sort((x, y) => y.s - x.s);
+        // Take from the top few rather than strictly the top three, so two
+        // questions sharing a topic do not get identical option lists.
+        const near = scored.slice(0, 8).sort(() => random() - 0.5);
+        const distractors = near.slice(0, 3).map((x) => x.a);
         if (distractors.length < 3) continue;
 
         used.add(c.source);

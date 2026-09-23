@@ -173,6 +173,27 @@ function vocabulary() {
   return VOCAB;
 }
 
+/**
+ * The opposite repair: a short word glued to what follows it.
+ *
+ * "is q", "and w", "and h" arrive as "isq", "andw", "andh" -- the space is
+ * lost the same way, but here the result is one token rather than two, so
+ * unsplit() cannot see it. Only split when the whole token is unknown to the
+ * corpus and the remainder after the leading word is itself a word, which
+ * keeps "island", "isotropic" and "andesite" intact.
+ */
+const GLUED = /^(and|is|are|of|the|in|to|for|by|with|as|at|on|it)([a-z]{2,})$/;
+function unglue(text) {
+  const vocab = vocabulary();
+  return text.split(' ').map((tok) => {
+    const lower = tok.toLowerCase();
+    if (vocab.has(lower)) return tok;
+    const m = lower.match(GLUED);
+    if (m && vocab.has(m[2])) return m[1] + " " + m[2];
+    return tok;
+  }).join(' ');
+}
+
 function unsplit(text) {
   const vocab = vocabulary();
   const parts = text.split(' ');
@@ -195,7 +216,7 @@ function unsplit(text) {
 
 /** Repair what the PDF layer leaves behind, without rewriting the author. */
 function tidy(s) {
-  return unsplit(s)
+  return unglue(unsplit(s))
     .replace(/\s+/g, ' ')
     .replace(/\s+([,.;:)\]])/g, '$1')
     .replace(/\(\s+/g, '(')

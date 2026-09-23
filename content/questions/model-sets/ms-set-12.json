@@ -10,38 +10,14 @@
       "chapter": "ACiE01",
       "subchapter": "ACiE0101",
       "marks": 1,
-      "stem": "The technique primarily used for sealing cracks in asphalt pavement:",
-      "options": [
-        "crack filling",
-        "dressing",
-        "steel",
-        "risers minus one"
-      ],
-      "answerIndex": 0,
-      "solution": "**crack filling.** The technique primarily used for sealing cracks in asphalt pavement is known as crack filling.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The technique primarily used for sealing cracks in asphalt pavement is known as crack filling.\"",
-        "mnemonic": "The technique primarily used → crack filling"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q002",
-      "chapter": "ACiE01",
-      "subchapter": "ACiE0101",
-      "marks": 1,
       "stem": "After storage, the strength of cement:",
       "options": [
-        "steel",
         "decreases",
-        "shoring",
-        "frog"
+        "CSH gel",
+        "white cement",
+        "valuation"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "solution": "**decreases.** After storage, the strength of cement is decreases.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -54,18 +30,18 @@
       }
     },
     {
-      "id": "MS12-Q003",
+      "id": "MS12-Q002",
       "chapter": "ACiE01",
       "subchapter": "ACiE0101",
       "marks": 1,
       "stem": "Removal of impurities from ore:",
       "options": [
-        "white cement",
-        "creeping",
+        "shoring",
         "concentration of ore",
-        "ductility"
+        "pyramid",
+        "crack filling"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "solution": "**concentration of ore.** Removal of impurities from ore is known as concentration of ore.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -78,18 +54,18 @@
       }
     },
     {
-      "id": "MS12-Q004",
+      "id": "MS12-Q003",
       "chapter": "ACiE01",
       "subchapter": "ACiE0101",
       "marks": 1,
       "stem": "The pigment used in paints for corrosive resistance:",
       "options": [
-        "decreases",
-        "iron oxide",
+        "pigment",
         "crack filling",
-        "red lead"
+        "red lead",
+        "CSH gel"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "solution": "**red lead.** The pigment used in paints for corrosive resistance is red lead.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -102,18 +78,18 @@
       }
     },
     {
-      "id": "MS12-Q005",
+      "id": "MS12-Q004",
       "chapter": "ACiE01",
       "subchapter": "ACiE0101",
       "marks": 1,
       "stem": "The ingredients impart red color to the clay bricks:",
       "options": [
-        "valuation",
-        "iron oxide",
-        "risers minus one",
-        "steel"
+        "red lead",
+        "CSH gel",
+        "crack filling",
+        "iron oxide"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "solution": "**iron oxide.** The ingredients impart red color to the clay bricks is iron oxide.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -126,18 +102,18 @@
       }
     },
     {
-      "id": "MS12-Q006",
+      "id": "MS12-Q005",
       "chapter": "ACiE01",
       "subchapter": "ACiE0101",
       "marks": 1,
       "stem": "The operation of removal of impurities of clay adhering to iron ore:",
       "options": [
-        "ductility",
-        "stone",
+        "shoring",
         "dressing",
-        "pyramid"
+        "creeping",
+        "iron oxide"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "solution": "**dressing.** The operation of removal of impurities of clay adhering to iron ore is known as dressing.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -150,18 +126,18 @@
       }
     },
     {
-      "id": "MS12-Q007",
+      "id": "MS12-Q006",
       "chapter": "ACiE01",
       "subchapter": "ACiE0101",
       "marks": 1,
       "stem": "The property of the material that enables it to be drawn out or elongated to an appreciable extent:",
       "options": [
-        "crack filling",
-        "stone",
-        "splitting",
-        "ductility"
+        "frog",
+        "steel",
+        "ductility",
+        "stone"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "solution": "**ductility.** The property of the material that enables it to be drawn out or elongated to an appreciable extent is called ductility.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -174,18 +150,18 @@
       }
     },
     {
-      "id": "MS12-Q008",
+      "id": "MS12-Q007",
       "chapter": "ACiE01",
       "subchapter": "ACiE0101",
       "marks": 1,
       "stem": "The main alloying element in stainless steel:",
       "options": [
-        "chromium",
-        "compression test",
-        "stone",
-        "creeping"
+        "dressing",
+        "creeping",
+        "CSH gel",
+        "chromium"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "solution": "**chromium.** The main alloying element in stainless steel is chromium.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -198,24 +174,48 @@
       }
     },
     {
+      "id": "MS12-Q008",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0101",
+      "marks": 1,
+      "stem": "The type of destructive test for concrete:",
+      "options": [
+        "compression test",
+        "crack filling",
+        "contour plan",
+        "steel"
+      ],
+      "answerIndex": 0,
+      "solution": "**compression test.** The type of destructive test for concrete is compression test.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The type of destructive test for concrete is compression test.\"",
+        "mnemonic": "The type of destructive → compression test"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
       "id": "MS12-Q009",
       "chapter": "ACiE01",
       "subchapter": "ACiE0101",
       "marks": 1,
-      "stem": "The percentage of carbon content present in steel:",
+      "stem": "The number of treads in a flight:",
       "options": [
-        "2d 3 ",
-        "1 kg",
-        "0.15% to 1.5%",
-        "10 to 15%"
+        "bd 3 3",
+        "required is 8 bags",
+        "risers minus one",
+        "bd 3 36"
       ],
       "answerIndex": 2,
-      "solution": "**0.15% to 1.5%.** The percentage of carbon content present in steel is 0.15% to 1.5%.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "solution": "**risers minus one.** The number of treads in a flight is equal to risers minus one.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The percentage of carbon content present in steel is 0.15% to 1.5%.\"",
-        "mnemonic": "The percentage of carbon → 0.15% to 1.5%"
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The number of treads in a flight is equal to risers minus one.\"",
+        "mnemonic": "The number of treads → risers minus one"
       },
       "verification": {
         "status": "verified"
@@ -226,20 +226,20 @@
       "chapter": "ACiE01",
       "subchapter": "ACiE0101",
       "marks": 1,
-      "stem": "In compressive strength test, the minimum strength developed by cube of M20 cement concrete in 7 days:",
+      "stem": "A projecting piece usually provided to support a truss:",
       "options": [
-        "3 8",
-        "0.15% to 1.5%",
-        "2d 3 ",
-        "12.5 MPa"
+        "shoring",
+        "steel",
+        "prism",
+        "frieze"
       ],
       "answerIndex": 3,
-      "solution": "**12.5 MPa.** In compressive strength test, the minimum strength developed by cube of M20 cement concrete in 7 days is 12.5 MPa.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "solution": "**frieze.** A projecting piece usually provided to support a truss is frieze.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"In compressive strength test, the minimum strength developed by cube of M20 cement concrete in 7 days is 12.5 MPa.\"",
-        "mnemonic": "In compressive strength test, → 12.5 MPa"
+        "trick": "Fix the whole statement in memory, not the answer alone: \"A projecting piece usually provided to support a truss is frieze.\"",
+        "mnemonic": "A projecting piece usually → frieze"
       },
       "verification": {
         "status": "verified"
@@ -248,86 +248,14 @@
     {
       "id": "MS12-Q011",
       "chapter": "ACiE02",
-      "subchapter": "ACiE0201",
-      "marks": 1,
-      "stem": "The densification of a soil by means of mechanical manipulation:",
-      "options": [
-        "compaction",
-        "pore pressure",
-        "Mohr cir cle",
-        "pellicular water"
-      ],
-      "answerIndex": 0,
-      "solution": "**compaction.** The densification of a soil by means of mechanical manipulation is called compaction.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The densification of a soil by means of mechanical manipulation is called compaction.\"",
-        "mnemonic": "The densification of a → compaction"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q012",
-      "chapter": "ACiE02",
-      "subchapter": "ACiE0201",
-      "marks": 1,
-      "stem": "Typical height of a soil sample used in an oedometer test:",
-      "options": [
-        "2.6 kg",
-        "20 mm",
-        "0.075 mm",
-        "100% of building weight"
-      ],
-      "answerIndex": 1,
-      "solution": "**20 mm.** Typical height of a soil sample used in an oedometer test is 20 mm.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"Typical height of a soil sample used in an oedometer test is 20 mm.\"",
-        "mnemonic": "Typical height of a → 20 mm"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q013",
-      "chapter": "ACiE02",
-      "subchapter": "ACiE0204",
-      "marks": 1,
-      "stem": "The pressure exerted by the fluids in a pore to its surrounding soil mass:",
-      "options": [
-        "long",
-        "Angle of internal friction",
-        "plastic limit",
-        "pore pressure"
-      ],
-      "answerIndex": 3,
-      "solution": "**pore pressure.** The pressure exerted by the fluids in a pore to its surrounding soil mass is pore pressure.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The pressure exerted by the fluids in a pore to its surrounding soil mass is pore pressure.\"",
-        "mnemonic": "The pressure exerted by → pore pressure"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q014",
-      "chapter": "ACiE02",
       "subchapter": "ACiE0202",
       "marks": 1,
       "stem": "Stresses within a soil mass due to its own weight:",
       "options": [
         "known as geostatic stress",
-        "over consolidated",
-        "shrinkage limit",
-        "long"
+        "degree of saturation",
+        "Mohr cir cle",
+        "over consolidated"
       ],
       "answerIndex": 0,
       "solution": "**known as geostatic stress.** Stresses within a soil mass due to its own weight are known as geostatic stress.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -342,16 +270,16 @@
       }
     },
     {
-      "id": "MS12-Q015",
+      "id": "MS12-Q012",
       "chapter": "ACiE02",
       "subchapter": "ACiE0201",
       "marks": 1,
       "stem": "The circle obtained from two dimensional stress system:",
       "options": [
-        "sand with plastic fines",
+        "known as geostatic stress",
         "Mohr cir cle",
-        "undrained test for clay",
-        "known as geostatic stress"
+        "degree of saturation",
+        "saturated surface dry aggregate"
       ],
       "answerIndex": 1,
       "solution": "**Mohr cir cle.** The circle obtained from two dimensional stress system is known as Mohr cir cle.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -366,18 +294,18 @@
       }
     },
     {
-      "id": "MS12-Q016",
+      "id": "MS12-Q013",
       "chapter": "ACiE02",
       "subchapter": "ACiE0203",
       "marks": 1,
       "stem": "For testing a saturated clay for shear strength, the test recommended:",
       "options": [
-        "long",
-        "degree of consolidation",
-        "unconfined compression test",
-        "hydrated lime"
+        "local shear failure",
+        "Angle of internal friction",
+        "greater than 6",
+        "unconfined compression test"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "solution": "**unconfined compression test.** For testing a saturated clay for shear strength, the test recommended, is unconfined compression test.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -390,16 +318,16 @@
       }
     },
     {
-      "id": "MS12-Q017",
+      "id": "MS12-Q014",
       "chapter": "ACiE02",
       "subchapter": "ACiE0201",
       "marks": 1,
       "stem": "When drainage is permitted throughout the triaxial test, it:",
       "options": [
         "CD test",
-        "homogeneous",
         "undrained test for clay",
-        "shrinkage limit"
+        "shrinkage limit",
+        "Mohr cir cle"
       ],
       "answerIndex": 0,
       "solution": "**CD test.** When drainage is permitted throughout the triaxial test, it is known as CD test.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -414,16 +342,16 @@
       }
     },
     {
-      "id": "MS12-Q018",
+      "id": "MS12-Q015",
       "chapter": "ACiE02",
       "subchapter": "ACiE0201",
       "marks": 1,
       "stem": "The best suited material for stabilization of black cotton soils:",
       "options": [
-        "degree of saturation",
+        "CD test",
         "hydrated lime",
-        "sand with plastic fines",
-        "local shear failure"
+        "pellicular water",
+        "over consolidated"
       ],
       "answerIndex": 1,
       "solution": "**hydrated lime.** The best suited material for stabilization of black cotton soils is hydrated lime.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -438,16 +366,16 @@
       }
     },
     {
-      "id": "MS12-Q019",
+      "id": "MS12-Q016",
       "chapter": "ACiE02",
       "subchapter": "ACiE0201",
       "marks": 1,
       "stem": "Based on the assumptions of Rankine's theory, the soil mass:",
       "options": [
-        "saturated surface dry aggregate",
-        "pellicular water",
+        "plastic limit",
+        "known as geostatic stress",
         "homogeneous",
-        "plastic limit"
+        "shrinkage limit"
       ],
       "answerIndex": 2,
       "solution": "**homogeneous.** Based on the assumptions of Rankine's theory, the soil mass is homogeneous.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -462,24 +390,96 @@
       }
     },
     {
+      "id": "MS12-Q017",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0204",
+      "marks": 1,
+      "stem": "The smooth surface of retaining wall:",
+      "options": [
+        "assumed by Rankine theory",
+        "undrained test for clay",
+        "unconfined compression test",
+        "saturated surface dry aggregate"
+      ],
+      "answerIndex": 0,
+      "solution": "**assumed by Rankine theory.** The smooth surface of retaining wall is assumed by Rankine theory.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The smooth surface of retaining wall is assumed by Rankine theory.\"",
+        "mnemonic": "The smooth surface of → assumed by Rankine theory"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q018",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0201",
+      "marks": 1,
+      "stem": "The quantum of water contained in the soil pores, which cannot be extracted by gravity drainage:",
+      "options": [
+        "degree of saturation",
+        "pellicular water",
+        "shrinkage limit",
+        "pore pressure"
+      ],
+      "answerIndex": 1,
+      "solution": "**pellicular water.** The quantum of water contained in the soil pores, which cannot be extracted by gravity drainage, is called pellicular water.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The quantum of water contained in the soil pores, which cannot be extracted by gravity drainage, is called pellicular water.\"",
+        "mnemonic": "The quantum of water → pellicular water"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q019",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0201",
+      "marks": 1,
+      "stem": "The type of footing used when the two columns carry equal loads:",
+      "options": [
+        "CD test",
+        "homogeneous",
+        "rectangle",
+        "long"
+      ],
+      "answerIndex": 2,
+      "solution": "**rectangle.** The type of footing used when the two columns carry equal loads is rectangle.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The type of footing used when the two columns carry equal loads is rectangle.\"",
+        "mnemonic": "The type of footing → rectangle"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
       "id": "MS12-Q020",
       "chapter": "ACiE02",
       "subchapter": "ACiE0201",
       "marks": 1,
-      "stem": "A foundation can be termed as \"fully compensated\" when the total weight of the excavated soil:",
+      "stem": "The angle that coulomb's failure envelope makes with horizontal:",
       "options": [
-        "45° and 135°",
-        "50 mm diameter",
-        "500 mm",
-        "100% of building weight"
+        "sand with plastic fines",
+        "local shear failure",
+        "assumed by Rankine theory",
+        "Angle of internal friction"
       ],
       "answerIndex": 3,
-      "solution": "**100% of building weight.** A foundation can be termed as \"fully compensated\" when the total weight of the excavated soil is equal to 100% of building weight.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "solution": "**Angle of internal friction.** The angle that coulomb's failure envelope makes with horizontal is called Angle of internal friction.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"A foundation can be termed as \"fully compensated\" when the total weight of the excavated soil is equal to 100% of building weight.\"",
-        "mnemonic": "A foundation can be → 100% of building weight"
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The angle that coulomb's failure envelope makes with horizontal is called Angle of internal friction.\"",
+        "mnemonic": "The angle that coulomb's → Angle of internal friction"
       },
       "verification": {
         "status": "verified"
@@ -492,10 +492,10 @@
       "marks": 1,
       "stem": "Precipitation caused by lifting of an air mass due to the pressure difference:",
       "options": [
-        "bell mouth",
+        "called alternate depth",
         "cyclonic precipitation",
-        " aV 2",
-        "due to surface tension"
+        "semi - circular",
+        "viscous and moving"
       ],
       "answerIndex": 1,
       "solution": "**cyclonic precipitation.** Precipitation caused by lifting of an air mass due to the pressure difference, is called cyclonic precipitation\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -516,10 +516,10 @@
       "marks": 1,
       "stem": "Discharge - stage relationship:",
       "options": [
-        "hydraulic mean depth",
         "semi - circular",
+        "flow channel",
         "rating curve",
-        " aV 2"
+        "alternate depths"
       ],
       "answerIndex": 2,
       "solution": "**rating curve.** Discharge - stage relationship is known as rating curve.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -540,9 +540,9 @@
       "marks": 1,
       "stem": "Precipitation falling during the growing period of a crop that is available to meet the evapo - transpiration needs of the crop:",
       "options": [
-        "Nappe",
+        "alternate depths",
+        "rating curve",
         "flow channel",
-        "hydrology",
         "effective rainfall"
       ],
       "answerIndex": 3,
@@ -565,9 +565,9 @@
       "stem": "When a block of ice floating on water in a container melts, the level of water in the container:",
       "options": [
         "remains the same",
-        "KV 2 2g",
-        "minimum",
-        "viscous and moving"
+        "viscous and moving",
+        "called alternate depth",
+        "alternate depths"
       ],
       "answerIndex": 0,
       "solution": "**remains the same.** When a block of ice floating on water in a container melts, the level of water in the container is remains the same.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -588,8 +588,8 @@
       "marks": 1,
       "stem": "For a given discharge in an open cha nnel, the two depths with the same specific energy:",
       "options": [
-        "KV 2 2g",
-        "viscous and moving",
+        "semi - circular",
+        "remains the same",
         "alternate depths",
         "rating curve"
       ],
@@ -612,9 +612,9 @@
       "marks": 1,
       "stem": "The superior type of entrance of sluiceway in the dam structure:",
       "options": [
-        "cyclonic precipitation",
+        "Inertial force",
+        "flow channel",
         "alternate depths",
-        "Nappe",
         "bell mouth"
       ],
       "answerIndex": 3,
@@ -637,9 +637,9 @@
       "stem": "The depth having same specific energy in the channel:",
       "options": [
         "called alternate depth",
-        "bell mouth",
-        "hydraulic mean depth",
-        "as Newtonian fluid"
+        "minimum",
+        "cyclonic precipitation",
+        "viscous and moving"
       ],
       "answerIndex": 0,
       "solution": "**called alternate depth.** The depth having same specific energy in the channel are called alternate depth.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -662,8 +662,8 @@
       "options": [
         "due to surface tension",
         "infinite",
-        "cyclonic precipitation",
-        "bell mouth"
+        "hydrology",
+        "flow channel"
       ],
       "answerIndex": 1,
       "solution": "**infinite.** The value of bulk modulus for an incompressible liquid is infinite.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -684,9 +684,9 @@
       "marks": 1,
       "stem": "The most efficient channel section:",
       "options": [
-        "alternate depths",
-        "effective rainfall",
+        "KV 2 2g",
         "called alternate depth",
+        "alternate depths",
         "semi - circular"
       ],
       "answerIndex": 3,
@@ -710,8 +710,8 @@
       "options": [
         "Inertial force",
         "hydraulic mean depth",
-        " aV 2",
-        "infinite"
+        "viscous and moving",
+        "as Newtonian fluid"
       ],
       "answerIndex": 0,
       "solution": "**Inertial force.** The net force acting on a fluid body which is responsible to produce on acceleration is called Inertial force.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -732,10 +732,10 @@
       "marks": 1,
       "stem": "The property in which elongation of a material occurs due to a tensile load:",
       "options": [
-        "WL 3 3EI",
+        "proof resilience",
         "Ductility",
-        "known as principle stress",
-        "straight line"
+        "as ultimate stress",
+        "rectangle"
       ],
       "answerIndex": 1,
       "solution": "**Ductility.** The property in which elongation of a material occurs due to a tensile load is called Ductility\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -757,9 +757,9 @@
       "stem": "The maximum stress material can resist:",
       "options": [
         "known as principle stress",
-        "WL 3 192EI",
+        "modulus of elasticity",
         "as ultimate stress",
-        "applied"
+        "near support"
       ],
       "answerIndex": 2,
       "solution": "**as ultimate stress.** The maximum stress material can resist is called as ultimate stress.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -781,8 +781,8 @@
       "stem": "The shear force diagram of the cantilever beam with point load at the free end:",
       "options": [
         "rectangle",
-        "near support",
-        "zero",
+        "WL 3 3EI",
+        "maximum",
         "WL 3 384EI"
       ],
       "answerIndex": 0,
@@ -804,10 +804,10 @@
       "marks": 1,
       "stem": "The shear stress at the outermost fibers of a circular shaft under torsion:",
       "options": [
-        "changes sign",
+        "known as principle stress",
         "maximum",
-        "applied",
-        "linear"
+        "straight line",
+        "rectangle"
       ],
       "answerIndex": 1,
       "solution": "**maximum.** The shear stress at the outermost fibers of a circular shaft under torsion is maximum\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -828,10 +828,10 @@
       "marks": 1,
       "stem": "The locus of reaction of a two hinged semi - circular arch:",
       "options": [
-        "as ultimate stress",
+        "near support",
         "maximum",
         "straight line",
-        "near support"
+        "proof resilience"
       ],
       "answerIndex": 2,
       "solution": "**straight line.** The locus of reaction of a two hinged semi - circular arch is straight line.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -852,9 +852,9 @@
       "marks": 1,
       "stem": "The planes, which have no shear stress:",
       "options": [
-        "applied",
+        "rectangle",
+        "modulus of elasticity",
         "as ultimate stress",
-        "linear",
         "known as principle stress"
       ],
       "answerIndex": 3,
@@ -998,208 +998,16 @@
     {
       "id": "MS12-Q041",
       "chapter": "ACiE05",
-      "subchapter": "ACiE0501",
-      "marks": 1,
-      "stem": "The value of refractive index of diamond:",
-      "options": [
-        "2.5 N/m 2",
-        "45°",
-        "2.42",
-        "0.002"
-      ],
-      "answerIndex": 2,
-      "solution": "**2.42.** The value of refractive index of diamond is 2.42.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The value of refractive index of diamond is 2.42.\"",
-        "mnemonic": "The value of refractive → 2.42"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q042",
-      "chapter": "ACiE05",
-      "subchapter": "ACiE0501",
-      "marks": 1,
-      "stem": "The bending stress on the neutral axis of the cross sectional beam:",
-      "options": [
-        "building code",
-        "more than balanced section",
-        "greater than 16t",
-        "zero"
-      ],
-      "answerIndex": 3,
-      "solution": "**zero.** The bending stress on the neutral axis of the cross sectional beam is zero.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The bending stress on the neutral axis of the cross sectional beam is zero.\"",
-        "mnemonic": "The bending stress on → zero"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q043",
-      "chapter": "ACiE05",
-      "subchapter": "ACiE0501",
-      "marks": 1,
-      "stem": "The maximum theoretical percentage of longitudinal reinforcement in a RCC column:",
-      "options": [
-        "6% of gross area",
-        "2.5 N/m 2",
-        "0.002",
-        "16 "
-      ],
-      "answerIndex": 0,
-      "solution": "**6% of gross area.** The maximum theoretical percentage of longitudinal reinforcement in a RCC column is 6% of gross area.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The maximum theoretical percentage of longitudinal reinforcement in a RCC column is 6% of gross area.\"",
-        "mnemonic": "The maximum theoretical percentage → 6% of gross area"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q044",
-      "chapter": "ACiE05",
-      "subchapter": "ACiE0502",
-      "marks": 1,
-      "stem": "The minimum cube strength of concrete used for a pre - stressed member:",
-      "options": [
-        "50 mm",
-        "350 kg/cm 2",
-        "0.04",
-        "16 "
-      ],
-      "answerIndex": 1,
-      "solution": "**350 kg/cm 2.** The minimum cube strength of concrete used for a pre - stressed member, is 350 kg/cm 2.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The minimum cube strength of concrete used for a pre - stressed member, is 350 kg/cm 2.\"",
-        "mnemonic": "The minimum cube strength → 350 kg/cm 2"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q045",
-      "chapter": "ACiE05",
-      "subchapter": "ACiE0501",
-      "marks": 1,
-      "stem": "The nature of crippling load in a column:",
-      "options": [
-        "called as combined footing",
-        "over reinforced",
-        "side fillet weld",
-        "compressive load"
-      ],
-      "answerIndex": 3,
-      "solution": "**compressive load.** The nature of crippling load in a column is compressive load.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The nature of crippling load in a column is compressive load.\"",
-        "mnemonic": "The nature of crippling → compressive load"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q046",
-      "chapter": "ACiE05",
-      "subchapter": "ACiE0501",
-      "marks": 1,
-      "stem": "In foundation design, the shear strength:",
-      "options": [
-        "resisted by traverse bars",
-        "called as combined footing",
-        "bleeding",
-        "zero"
-      ],
-      "answerIndex": 0,
-      "solution": "**resisted by traverse bars.** In foundation design, the shear strength is resisted by traverse bars.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"In foundation design, the shear strength is resisted by traverse bars.\"",
-        "mnemonic": "In foundation design, the → resisted by traverse bars"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q047",
-      "chapter": "ACiE05",
-      "subchapter": "ACiE0501",
-      "marks": 1,
-      "stem": "When an individual footing accommodates two or more than two columns, it:",
-      "options": [
-        "proof resilience",
-        "called as combined footing",
-        "batten",
-        "bleeding"
-      ],
-      "answerIndex": 1,
-      "solution": "**called as combined footing.** When an individual footing accommodates two or more than two columns, it is usually called as combined footing.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"When an individual footing accommodates two or more than two columns, it is usually called as combined footing.\"",
-        "mnemonic": "When an individual footing → called as combined footing"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q048",
-      "chapter": "ACiE05",
-      "subchapter": "ACiE0501",
-      "marks": 1,
-      "stem": "The most economical section for a column:",
-      "options": [
-        "more than balanced section",
-        "friction grip bolt",
-        "tubular section",
-        "proof resilience"
-      ],
-      "answerIndex": 2,
-      "solution": "**tubular section.** The most economical section for a column is tubular section.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The most economical section for a column is tubular section.\"",
-        "mnemonic": "The most economical section → tubular section"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q049",
-      "chapter": "ACiE05",
       "subchapter": "ACiE0502",
       "marks": 1,
       "stem": "The section in which the area of tensile steel is such that at the ultimate limit state, the ultimate compressive strain in concrete is reached, however the tensile strain in the reinforcing steel is less than the yield strain:",
       "options": [
+        "M20 grade of concrete",
+        "greater than 16t",
         "over reinforced section",
-        "eves",
-        "saturated surface dry",
-        "zero"
+        "side fillet weld"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "solution": "**over reinforced section.** The section in which the area of tensile steel is such that at the ultimate limit state, the ultimate compressive strain in concrete is reached, however the tensile strain in the reinforcing steel is less than the yield strain is known as over reinforced section.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -1212,18 +1020,18 @@
       }
     },
     {
-      "id": "MS12-Q050",
+      "id": "MS12-Q042",
       "chapter": "ACiE05",
       "subchapter": "ACiE0501",
       "marks": 1,
       "stem": "A fillet weld whose axis is parallel to the direction of the applied load:",
       "options": [
         "proof resilience",
-        "side fillet weld",
-        "M20 grade of concrete",
-        "called as combined footing"
+        "batten",
+        "greater than 16t",
+        "side fillet weld"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "solution": "**side fillet weld.** A fillet weld whose axis is parallel to the direction of the applied load, is known as side fillet weld.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -1236,210 +1044,210 @@
       }
     },
     {
-      "id": "MS12-Q051",
-      "chapter": "ACiE06",
-      "subchapter": "ACiE0601",
+      "id": "MS12-Q043",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0501",
       "marks": 1,
-      "stem": "The detention time for septic tank:",
+      "stem": "For the reversal of stresses, the most suitable bolt:",
       "options": [
-        "750 mm",
-        "9.5",
-        "24 hours",
-        "50 mm"
-      ],
-      "answerIndex": 2,
-      "solution": "**24 hours.** The detention time for septic tank is 24 hours.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The detention time for septic tank is 24 hours.\"",
-        "mnemonic": "The detention time for → 24 hours"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q052",
-      "chapter": "ACiE06",
-      "subchapter": "ACiE0601",
-      "marks": 1,
-      "stem": "The detention period in a septic tank:",
-      "options": [
-        "scoping",
-        "main sewer",
-        "rain water",
-        "assumed 30 minutes"
-      ],
-      "answerIndex": 3,
-      "solution": "**assumed 30 minutes.** The detention period in a septic tank is assumed 30 minutes.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The detention period in a septic tank is assumed 30 minutes.\"",
-        "mnemonic": "The detention period in → assumed 30 minutes"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q053",
-      "chapter": "ACiE06",
-      "subchapter": "ACiE0605",
-      "marks": 1,
-      "stem": "The value of ratio of BOD/COD of domestic wastewater before treatment:",
-      "options": [
-        "750 mm",
-        "0.3 to 0.8",
-        "0.2 ppm",
-        "4 type of level"
-      ],
-      "answerIndex": 1,
-      "solution": "**0.3 to 0.8.** The value of ratio of BOD/COD of domestic wastewater before treatment is 0.3 to 0.8.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The value of ratio of BOD/COD of domestic wastewater before treatment is 0.3 to 0.8.\"",
-        "mnemonic": "The value of ratio → 0.3 to 0.8"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q054",
-      "chapter": "ACiE06",
-      "subchapter": "ACiE0601",
-      "marks": 1,
-      "stem": "The minimum width of toilet door:",
-      "options": [
-        "0.4",
-        "0.3 to 0.8",
-        "750 mm",
-        "90 to 110 cm"
-      ],
-      "answerIndex": 2,
-      "solution": "**750 mm.** The minimum width of toilet door is 750 mm.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The minimum width of toilet door is 750 mm.\"",
-        "mnemonic": "The minimum width of → 750 mm"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q055",
-      "chapter": "ACiE06",
-      "subchapter": "ACiE0601",
-      "marks": 1,
-      "stem": "The minimum size of grit particles that can be removed in grit chamber:",
-      "options": [
-        "0.3 to 0.8",
-        "9.5",
-        "1.25 – 2.5",
-        "0.20 mm"
-      ],
-      "answerIndex": 3,
-      "solution": "**0.20 mm.** The minimum size of grit particles that can be removed in grit chamber is 0.20 mm.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The minimum size of grit particles that can be removed in grit chamber is 0.20 mm.\"",
-        "mnemonic": "The minimum size of → 0.20 mm"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q056",
-      "chapter": "ACiE06",
-      "subchapter": "ACiE0601",
-      "marks": 1,
-      "stem": "Variability in the rate of return:",
-      "options": [
-        "risk",
-        "copper sulphate",
-        "mandatory for large projects",
-        "same for all"
+        "friction grip bolt",
+        "compressive load",
+        "proof resilience",
+        "over reinforced section"
       ],
       "answerIndex": 0,
-      "solution": "**risk.** Variability in the rate of return is known as risk.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "solution": "**friction grip bolt.** For the reversal of stresses, the most suitable bolt is friction grip bolt.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"Variability in the rate of return is known as risk.\"",
-        "mnemonic": "Variability in the rate → risk"
+        "trick": "Fix the whole statement in memory, not the answer alone: \"For the reversal of stresses, the most suitable bolt is friction grip bolt.\"",
+        "mnemonic": "For the reversal of → friction grip bolt"
       },
       "verification": {
         "status": "verified"
       }
     },
     {
-      "id": "MS12-Q057",
-      "chapter": "ACiE06",
-      "subchapter": "ACiE0601",
+      "id": "MS12-Q044",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0501",
       "marks": 1,
-      "stem": "Vulnerability analysis comes in which part of the disaster management cycle:",
+      "stem": "The lowest edge of the sloping surface of roof:",
       "options": [
-        "copper sulphate",
-        "at low point",
-        "mitigation",
-        "as pandemic"
+        "batten",
+        "eves",
+        "development length",
+        "saturated surface dry"
       ],
-      "answerIndex": 2,
-      "solution": "**mitigation.** Vulnerability analysis comes in which part of the disaster management cycle is mitigation.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "answerIndex": 1,
+      "solution": "**eves.** The lowest edge of the sloping surface of roof is called eves.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"Vulnerability analysis comes in which part of the disaster management cycle is mitigation.\"",
-        "mnemonic": "Vulnerability analysis comes in → mitigation"
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The lowest edge of the sloping surface of roof is called eves.\"",
+        "mnemonic": "The lowest edge of → eves"
       },
       "verification": {
         "status": "verified"
       }
     },
     {
-      "id": "MS12-Q058",
-      "chapter": "ACiE06",
-      "subchapter": "ACiE0601",
+      "id": "MS12-Q045",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0506",
       "marks": 1,
-      "stem": "COD/BOD ratio of detreated domestic sewage:",
+      "stem": "NBC - 203 code deals with earthquake resistant design for low strength masonry. 8 5. The law that governs the standards of construction of structural and non - structural buildings in Nepal:",
       "options": [
-        "90 to 110 cm",
-        "0.3 to 0.8",
-        "24 hours",
-        "1.25 – 2.5"
+        "over reinforced section",
+        "M60",
+        "compressive load",
+        "building code"
       ],
       "answerIndex": 3,
-      "solution": "**1.25 – 2.5.** COD/BOD ratio of detreated domestic sewage is 1.25 – 2.5.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "solution": "**building code.** NBC - 203 code deals with earthquake resistant design for low strength masonry. 8 5. The law that governs the standards of construction of structural and non - structural buildings in Nepal is building code.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"COD/BOD ratio of detreated domestic sewage is 1.25 – 2.5.\"",
-        "mnemonic": "COD/BOD ratio of detreated → 1.25 – 2.5"
+        "trick": "Fix the whole statement in memory, not the answer alone: \"NBC - 203 code deals with earthquake resistant design for low strength masonry. 8 5. The law that governs the standards of construction of structural and non - structural buildings in Nepal is building code.\"",
+        "mnemonic": "NBC - 203 code → building code"
       },
       "verification": {
         "status": "verified"
       }
     },
     {
-      "id": "MS12-Q059",
+      "id": "MS12-Q046",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0506",
+      "marks": 1,
+      "stem": "The timber piece whose thickness and breadth should not exceed 50 mm:",
+      "options": [
+        "batten",
+        "bleeding",
+        "zero",
+        "eves"
+      ],
+      "answerIndex": 0,
+      "solution": "**batten.** The timber piece whose thickness and breadth should not exceed 50 mm is called batten.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The timber piece whose thickness and breadth should not exceed 50 mm is called batten.\"",
+        "mnemonic": "The timber piece whose → batten"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q047",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0502",
+      "marks": 1,
+      "stem": "The property of concrete in which the water tends to rise to the surface whilep lacing and compacting:",
+      "options": [
+        "saturated surface dry",
+        "bleeding",
+        "eves",
+        "over reinforced section"
+      ],
+      "answerIndex": 1,
+      "solution": "**bleeding.** The property of concrete in which the water tends to rise to the surface whilep lacing and compacting is called bleeding.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The property of concrete in which the water tends to rise to the surface whilep lacing and compacting is called bleeding.\"",
+        "mnemonic": "The property of concrete → bleeding"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q048",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0502",
+      "marks": 1,
+      "stem": "For high strength concrete, the minimum grade:",
+      "options": [
+        "building code",
+        "M20 grade of concrete",
+        "M60",
+        "greater than 16t"
+      ],
+      "answerIndex": 2,
+      "solution": "**M60.** For high strength concrete, the minimum grade is M60.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"For high strength concrete, the minimum grade is M60.\"",
+        "mnemonic": "For high strength concrete, → M60"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q049",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0501",
+      "marks": 1,
+      "stem": "The maximum load a beam can sustain before permanent deformation:",
+      "options": [
+        "proof resilience",
+        "batten",
+        "zero",
+        "WL 3"
+      ],
+      "answerIndex": 0,
+      "solution": "**proof resilience.** The maximum load a beam can sustain before permanent deformation is called proof resilience.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The maximum load a beam can sustain before permanent deformation is called proof resilience.\"",
+        "mnemonic": "The maximum load a → proof resilience"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q050",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0502",
+      "marks": 1,
+      "stem": "The length of a steel bar that needs to be embedded in concrete to achieve the desired bond strength:",
+      "options": [
+        "proof resilience",
+        "development length",
+        "greater than 16t",
+        "reduced by flexural strength"
+      ],
+      "answerIndex": 1,
+      "solution": "**development length.** The length of a steel bar that needs to be embedded in concrete to achieve the desired bond strength is called development length.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The length of a steel bar that needs to be embedded in concrete to achieve the desired bond strength is called development length.\"",
+        "mnemonic": "The length of a → development length"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q051",
       "chapter": "ACiE06",
       "subchapter": "ACiE0601",
       "marks": 1,
       "stem": "The first step involving in EIA:",
       "options": [
-        "scoping",
-        "spring along hill slopes",
+        "main sewer",
         "added",
-        "caused due to nitrate"
+        "scoping",
+        "at summits"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "solution": "**scoping.** The first step involving in EIA is scoping.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -1452,18 +1260,18 @@
       }
     },
     {
-      "id": "MS12-Q060",
+      "id": "MS12-Q052",
       "chapter": "ACiE06",
       "subchapter": "ACiE0602",
       "marks": 1,
       "stem": "In distribution system, the drain valves:",
       "options": [
-        "mitigation",
-        "at low point",
-        "caused due to nitrate",
-        "assumed 30 minutes"
+        "gravity flow system",
+        "as pandemic",
+        "at bottom of pipeline",
+        "at low point"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "solution": "**at low point.** In distribution system, the drain valves is provided at low point.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -1476,14 +1284,215 @@
       }
     },
     {
+      "id": "MS12-Q053",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0605",
+      "marks": 1,
+      "stem": "The sewer used to convey wastewater form one or more lateral sewer:",
+      "options": [
+        "rain water",
+        "main sewer",
+        "mitigation",
+        "CaOCl 2"
+      ],
+      "answerIndex": 1,
+      "solution": "**main sewer.** The sewer used to convey wastewater form one or more lateral sewer is main sewer.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The sewer used to convey wastewater form one or more lateral sewer is main sewer.\"",
+        "mnemonic": "The sewer used to → main sewer"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q054",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0601",
+      "marks": 1,
+      "stem": "In water supply system, blow off valve:",
+      "options": [
+        "gravity flow system",
+        "at low point",
+        "at bottom of pipeline",
+        "mandatory for large projects"
+      ],
+      "answerIndex": 2,
+      "solution": "**at bottom of pipeline.** In water supply system, blow off valve is provided at bottom of pipeline.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"In water supply system, blow off valve is provided at bottom of pipeline.\"",
+        "mnemonic": "In water supply system, → at bottom of pipeline"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q055",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0601",
+      "marks": 1,
+      "stem": "Air valves or air - relief valves:",
+      "options": [
+        "rain water",
+        "main sewer",
+        "at bottom of pipeline",
+        "at summits"
+      ],
+      "answerIndex": 3,
+      "solution": "**at summits.** Air valves or air - relief valves are provided at summits.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"Air valves or air - relief valves are provided at summits.\"",
+        "mnemonic": "Air valves or air → at summits"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q056",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0601",
+      "marks": 1,
+      "stem": "The typeo f water supply system generally used in hilly region:",
+      "options": [
+        "gravity flow system",
+        "assumed 30 minutes",
+        "at bottom of pipeline",
+        "main sewer"
+      ],
+      "answerIndex": 0,
+      "solution": "**gravity flow system.** The typeo f water supply system generally used in hilly region is gravity flow system.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The typeo f water supply system generally used in hilly region is gravity flow system.\"",
+        "mnemonic": "The typeo f water → gravity flow system"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q057",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0606",
+      "marks": 1,
+      "stem": "Environmental Impact Assessment (EIA):",
+      "options": [
+        "assumed 30 minutes",
+        "due to calcium bicarbonate",
+        "mandatory for large projects",
+        "gravity flow system"
+      ],
+      "answerIndex": 2,
+      "solution": "**mandatory for large projects.** Environmental Impact Assessment (EIA) is mandatory for large projects.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"Environmental Impact Assessment (EIA) is mandatory for large projects.\"",
+        "mnemonic": "Environmental Impact Assessment (EIA) → mandatory for large projects"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q058",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0601",
+      "marks": 1,
+      "stem": "The purest form of natural water free from impurities:",
+      "options": [
+        "spring along hill slopes",
+        "at summits",
+        "CaOCl 2",
+        "rain water"
+      ],
+      "answerIndex": 3,
+      "solution": "**rain water.** The purest form of natural water free from impurities is rain water.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The purest form of natural water free from impurities is rain water.\"",
+        "mnemonic": "The purest form of → rain water"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q059",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0601",
+      "marks": 1,
+      "stem": "According to chemical composition, the chemical formula for bleaching powder:",
+      "options": [
+        "CaOCl 2",
+        "added",
+        "as pandemic",
+        "copper sulphate"
+      ],
+      "answerIndex": 0,
+      "solution": "**CaOCl 2.** According to chemical composition, the chemical formula for bleaching powder is CaOCl 2.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"According to chemical composition, the chemical formula for bleaching powder is CaOCl 2.\"",
+        "mnemonic": "According to chemical composition, → CaOCl 2"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q060",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0601",
+      "marks": 1,
+      "stem": "The total PER CAPITA DEMAND used in designing a town water supply is made up of:",
+      "options": [
+        "The domestic demand alone",
+        "DOMESTIC, INDUSTRIAL, INSTITUTIONAL and COMMERCIAL, and PUBLIC (civic) demands, together with an allowance for LOSSES and WASTAGE — the losses commonly being the largest single item after domestic use",
+        "Domestic and industrial demand only",
+        "Domestic demand plus a fixed allowance of 20 per cent for everything else"
+      ],
+      "answerIndex": 1,
+      "solution": "**DOMESTIC, INDUSTRIAL, INSTITUTIONAL and COMMERCIAL, and PUBLIC demands, together with an allowance for LOSSES and WASTAGE** — the losses commonly being the largest single item after domestic use.\n\n**The components, with typical figures for an Indian or Nepali town:**\n\n| Component | Typical allowance (litres per capita per day) |\n|---|---|\n| **DOMESTIC — drinking, cooking, bathing, washing, flushing** ← | **135 for a piped supply with sewerage; 70 to 100 without** ← |\n| **INDUSTRIAL** ← | **20 to 25, or computed separately for a major industry** ← |\n| **INSTITUTIONAL and COMMERCIAL — schools, offices, hospitals, hotels, markets** ← | **20 to 25** ← |\n| **PUBLIC (civic) — street washing, gardens, public fountains, public toilets** ← | **10 to 15** ← |\n| **FIRE fighting** ← | **1 to 5, though the demand is instantaneous rather than continuous** ← |\n| **LOSSES and WASTAGE — leakage, theft, unmetered use, meter error** ← | **15 to 25 per cent of the total — often the largest item after domestic use** ← |\n| **TOTAL** | **About 200 to 270 lpcd for a fully served town** ← |\n\n> **THE LOSSES IN THE SIXTH ROW ARE THE ITEM MOST WORTH THINKING ABOUT AND THEY ARE ROUTINELY UNDER-ESTIMATED IN DESIGN AND UNDER-ATTENDED IN OPERATION:**\n\n| Point | Note |\n|---|---|\n| **The design allowance of 15 to 25 per cent is a DESIGN target, not a description of reality** ← | ← |\n| **Actual NON-REVENUE WATER in many South Asian systems is 30 to 50 per cent** ← | **And in some Nepali towns higher still** ← |\n| **So a system designed for 20 per cent losses and operating at 45 per cent is short of water from the day it opens** ← | **The shortfall being invisible in the design and unmistakable at the tap** ← |\n\n> **THE THIRD ROW DESCRIBES A REAL AND COMMON OUTCOME AND IT LEADS TO AN IMPORTANT CONCLUSION ABOUT PRIORITIES: reducing losses is almost always cheaper than augmenting supply.**\n\n> **A town losing 40 per cent of its water can recover more supply by leak detection and repair than by building a new intake, at a fraction of the cost and without any new source, land acquisition or treatment capacity.**\n\n> **Yet augmentation is politically visible and leak repair is not, so the harder and cheaper option is regularly deferred in favour of the easier and dearer one.**\n\n> **This is one of the clearest instances in public infrastructure where the engineering judgment and the political incentive point in opposite directions, and it is worth being able to state the case plainly.**\n\n**HOW THE DOMESTIC FIGURE DIVIDES, WHICH IS USEFUL FOR JUDGING WHETHER AN ALLOWANCE IS REASONABLE:**\n\n| Use | Litres per capita per day |\n|---|---|\n| **Drinking** ← | **About 5 — a tiny fraction of the total** ← |\n| **Cooking** | **5** |\n| **Bathing** ← | **55 — the largest single domestic use** ← |\n| **WC flushing** ← | **30 — and this is why sewered towns need much more water than unsewered ones** ← |\n| **Washing clothes** | **20** |\n| **Washing utensils** | **10** |\n| **House cleaning** | **10** |\n| **TOTAL domestic** | **135** ← |\n\n> **THE DRINKING FIGURE IN THE FIRST ROW IS WORTH NOTING FOR THE PERSPECTIVE IT GIVES: only about 4 per cent of a domestic supply is actually drunk.**\n\n> **Everything else is used for washing, flushing and cleaning, for which drinking-quality water is not strictly necessary.**\n\n> **That observation is the basis of DUAL SUPPLY proposals — a treated supply for drinking and cooking and an untreated or reclaimed supply for flushing and irrigation — which are attractive in principle and rarely built, because two pipe networks cost far more than one and the risk of cross-connection is serious.**\n\n> **It is nevertheless the reason RAINWATER HARVESTING and greywater reuse are worth pursuing for the non-potable uses, since those uses account for the overwhelming majority of the demand and have no quality requirement to speak of.**",
+      "difficulty": "easy",
+      "tags": [
+        "per capita demand",
+        "demand components",
+        "losses and wastage",
+        "non-revenue water",
+        "domestic demand breakdown",
+        "dual supply"
+      ],
+      "verification": {
+        "status": "verified",
+        "checkedOn": "2026-09-11"
+      },
+      "examTip": {
+        "trick": "**Domestic + industrial + institutional/commercial + public + fire + LOSSES.** About 135 lpcd domestic for a sewered town, 200-270 total.",
+        "trap": "**Design allows 15-25 % losses; reality is often 30-50 %** — so the system is short of water from the day it opens, and the shortfall is invisible in the design.",
+        "mnemonic": "**Only about 5 lpcd is actually DRUNK** — bathing is 55 and flushing 30. Which is why sewered towns need more water, and why non-potable reuse has such scope."
+      }
+    },
+    {
       "id": "MS12-Q061",
       "chapter": "ACiE07",
       "subchapter": "ACiE0704",
       "marks": 1,
       "stem": "A quantum of discharge with high enough magnitude and frequency to bring about changes to the river boundary and surrounding area:",
       "options": [
-        "zero",
-        "Bd + sd 2",
+        "rice",
+        "head regulator",
         "silt excluder",
         "dominant discharge"
       ],
@@ -1507,9 +1516,9 @@
       "stem": "The river training work deals with flood control:",
       "options": [
         "training for discharge",
-        "duty",
-        "bed load",
-        "shallow surface drain"
+        "dominant discharge",
+        "shallow surface drain",
+        "inundation canal"
       ],
       "answerIndex": 0,
       "solution": "**training for discharge.** The river training work deals with flood control is training for discharge.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1530,10 +1539,10 @@
       "marks": 1,
       "stem": "The sensitivity of rigid module:",
       "options": [
-        "head regulator",
+        "bed load",
         "zero",
-        "formation of Alluvial Soil",
-        "severe in nose"
+        "rice",
+        "canal escape"
       ],
       "answerIndex": 1,
       "solution": "**zero.** The sensitivity of rigid module is zero.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1554,10 +1563,10 @@
       "marks": 1,
       "stem": "The structure at the head of regulator to remove silt:",
       "options": [
-        "presence of gates",
+        "inundation canal",
         "fine sand",
         "silt excluder",
-        "shallow surface drain"
+        "Bd + sd 2"
       ],
       "answerIndex": 2,
       "solution": "**silt excluder.** The structure at the head of regulator to remove silt is silt excluder.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1579,9 +1588,9 @@
       "stem": "CD works carry drainage over the canal:",
       "options": [
         "super passage and syphon",
-        "formation of Alluvial Soil",
-        "duty",
-        "infinity"
+        "canal escape",
+        "evaporation and transpiration",
+        "formation of Alluvial Soil"
       ],
       "answerIndex": 0,
       "solution": "**super passage and syphon.** CD works carry drainage over the canal is super passage and syphon.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1602,10 +1611,10 @@
       "marks": 1,
       "stem": "The open drains would be fully operative only in rainy season:",
       "options": [
-        "dominant discharge",
+        "super passage and syphon",
         "shallow surface drain",
-        "infinity",
-        "inundation canal"
+        "dominant discharge",
+        "Bd + sd 2"
       ],
       "answerIndex": 1,
       "solution": "**shallow surface drain.** The open drains would be fully operative only in rainy season is shallow surface drain.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1626,10 +1635,10 @@
       "marks": 1,
       "stem": "Theme thod which uses dead furrows on cropped farms for drainage of excess irrigation or rain water:",
       "options": [
-        "training for discharge",
-        "super passage and syphon",
+        "zero",
+        "bed load",
         "bedding",
-        "inundation canal"
+        "drains"
       ],
       "answerIndex": 2,
       "solution": "**bedding.** Theme thod which uses dead furrows on cropped farms for drainage of excess irrigation or rain water, is called bedding.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1650,9 +1659,9 @@
       "marks": 1,
       "stem": "The factor causing waterlogging suggests extensive irrigation:",
       "options": [
-        "bed load",
+        "presence of gates",
+        "severe in nose",
         "evaporation and transpiration",
-        "duty",
         "over and intensive irrigation"
       ],
       "answerIndex": 3,
@@ -1674,10 +1683,10 @@
       "marks": 1,
       "stem": "The drainage provided to escape water from water logged area:",
       "options": [
-        "canal escape",
+        "head regulator",
         "drains",
-        "formation of Alluvial Soil",
-        "training for discharge"
+        "canal escape",
+        "bedding"
       ],
       "answerIndex": 1,
       "solution": "**drains.** The drainage provided to escape water from water logged area is drains.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1698,10 +1707,10 @@
       "marks": 1,
       "stem": "The crop with highest delta among rice, tobacco, wheat and banana:",
       "options": [
-        "fine sand",
-        "inundation canal",
+        "zero",
+        "training for discharge",
         "rice",
-        "training for discharge"
+        "dominant discharge"
       ],
       "answerIndex": 2,
       "solution": "**rice.** The crop with highest delta among rice, tobacco, wheat and banana is rice.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1718,112 +1727,16 @@
     {
       "id": "MS12-Q071",
       "chapter": "ACiE08",
-      "subchapter": "ACiE0802",
-      "marks": 1,
-      "stem": "Energy dissipation downstream of a sloping glacis:",
-      "options": [
-        "spillway",
-        "important for controlling seepage",
-        "Japan",
-        "achieved by hydraulic jump"
-      ],
-      "answerIndex": 3,
-      "solution": "**achieved by hydraulic jump.** Energy dissipation downstream of a sloping glacis is achieved by hydraulic jump.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"Energy dissipation downstream of a sloping glacis is achieved by hydraulic jump.\"",
-        "mnemonic": "Energy dissipation downstream of → achieved by hydraulic jump"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q072",
-      "chapter": "ACiE08",
-      "subchapter": "ACiE0802",
-      "marks": 1,
-      "stem": "In high head hydro power plant, the velocity of water in penstock:",
-      "options": [
-        "7 m/s",
-        "0.5 – 1.5%",
-        "0.2H + 3",
-        "1911 AD, 500 kW"
-      ],
-      "answerIndex": 0,
-      "solution": "**7 m/s.** In high head hydro power plant, the velocity of water in penstock is about 7 m/s.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"In high head hydro power plant, the velocity of water in penstock is about 7 m/s.\"",
-        "mnemonic": "In high head hydro → 7 m/s"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q073",
-      "chapter": "ACiE08",
-      "subchapter": "ACiE0801",
-      "marks": 1,
-      "stem": "The water hammer effect in hydropower plant:",
-      "options": [
-        "between 16 to 24",
-        "Japan",
-        "prevented by surge tank",
-        "achieved by hydraulic jump"
-      ],
-      "answerIndex": 2,
-      "solution": "**prevented by surge tank.** The water hammer effect in hydropower plant is prevented by surge tank.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The water hammer effect in hydropower plant is prevented by surge tank.\"",
-        "mnemonic": "The water hammer effect → prevented by surge tank"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q074",
-      "chapter": "ACiE08",
-      "subchapter": "ACiE0802",
-      "marks": 1,
-      "stem": "Power generated by unit head under unit discharge condition:",
-      "options": [
-        "coffer dam",
-        "important for controlling seepage",
-        "rolled filled method",
-        "unit power"
-      ],
-      "answerIndex": 3,
-      "solution": "**unit power.** Power generated by unit head under unit discharge condition is unit power.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"Power generated by unit head under unit discharge condition is unit power.\"",
-        "mnemonic": "Power generated by unit → unit power"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q075",
-      "chapter": "ACiE08",
       "subchapter": "ACiE0801",
       "marks": 1,
       "stem": "The formula used to calculate velocity of jet for Pelton turbine:",
       "options": [
-        "Cv (2gH) 0.5",
-        "firm power",
-        "Japan",
-        "atmospheric pressure"
+        "between 16 to 24",
+        "important for controlling seepage",
+        "fixed wheel gate",
+        "Cv (2gH) 0.5"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "solution": "**Cv (2gH) 0.5.** The formula used to calculate velocity of jet for Pelton turbine is Cv (2gH) 0.5.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -1836,18 +1749,18 @@
       }
     },
     {
-      "id": "MS12-Q076",
+      "id": "MS12-Q072",
       "chapter": "ACiE08",
       "subchapter": "ACiE0801",
       "marks": 1,
       "stem": "The hydrostatic pressure on the phreatic line within a dam section:",
       "options": [
-        "radial gates",
         "atmospheric pressure",
-        "prevented by surge tank",
-        "parabolic"
+        "parabolic",
+        "radial gates",
+        "firm power"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "solution": "**atmospheric pressure.** The hydrostatic pressure on the phreatic line within a dam section is equal to atmospheric pressure.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -1860,18 +1773,18 @@
       }
     },
     {
-      "id": "MS12-Q077",
+      "id": "MS12-Q073",
       "chapter": "ACiE08",
       "subchapter": "ACiE0801",
       "marks": 1,
       "stem": "In a Francis turbine runner, the number of blades:",
       "options": [
-        "Japan",
-        "volume of water",
-        "spillway",
-        "between 16 to 24"
+        "achieved by hydraulic jump",
+        "fixed wheel gate",
+        "between 16 to 24",
+        "prevented by surge tank"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "solution": "**between 16 to 24.** In a Francis turbine runner, the number of blades are generally between 16 to 24.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -1884,18 +1797,18 @@
       }
     },
     {
-      "id": "MS12-Q078",
+      "id": "MS12-Q074",
       "chapter": "ACiE08",
       "subchapter": "ACiE0802",
       "marks": 1,
       "stem": "The process of laying and compacting earth in layer by power roller under OMC for construction of earthen dam:",
       "options": [
-        "rolled filled method",
-        "atmospheric pressure",
-        "achieved by hydraulic jump",
-        "radial gates"
+        "unit power",
+        "radial gates",
+        "important for controlling seepage",
+        "rolled filled method"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "solution": "**rolled filled method.** The process of laying and compacting earth in layer by power roller under OMC for construction of earthen dam is known as rolled filled method.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -1908,18 +1821,18 @@
       }
     },
     {
-      "id": "MS12-Q079",
+      "id": "MS12-Q075",
       "chapter": "ACiE08",
       "subchapter": "ACiE0804",
       "marks": 1,
       "stem": "The hydropower plant which utilizes the minimum flow in river having no appreciable pondage on its upstream:",
       "options": [
-        "important for controlling seepage",
         "ROR plants",
         "Japan",
-        "achieved by hydraulic jump"
+        "firm power",
+        "prevented by surge tank"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "solution": "**ROR plants.** The hydropower plant which utilizes the minimum flow in river having no appreciable pondage on its upstream is ROR plants.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -1932,18 +1845,18 @@
       }
     },
     {
-      "id": "MS12-Q080",
+      "id": "MS12-Q076",
       "chapter": "ACiE08",
       "subchapter": "ACiE0801",
       "marks": 1,
       "stem": "The phreatic line of earth embankment:",
       "options": [
-        "coffer dam",
-        "volume of water",
+        "spillway",
         "parabolic",
-        "prevented by surge tank"
+        "Japan",
+        "coffer dam"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "solution": "**parabolic.** The phreatic line of earth embankment is parabolic.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -1956,162 +1869,123 @@
       }
     },
     {
-      "id": "MS12-Q081",
-      "chapter": "ACiE09",
-      "subchapter": "ACiE0905",
+      "id": "MS12-Q077",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0805",
       "marks": 1,
-      "stem": "The organic binding material used in road pavement:",
+      "stem": "The area under the flow duration curve:",
       "options": [
-        "bitumen",
-        "tack coat",
-        "lag distance",
-        "spread and compacted"
-      ],
-      "answerIndex": 0,
-      "solution": "**bitumen.** The organic binding material used in road pavement is bitumen.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The organic binding material used in road pavement is bitumen.\"",
-        "mnemonic": "The organic binding material → bitumen"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q082",
-      "chapter": "ACiE09",
-      "subchapter": "ACiE0905",
-      "marks": 1,
-      "stem": "Minimum bitumen ductility value to use in road:",
-      "options": [
-        "0.25",
-        "50 cm",
-        "35°C",
-        "60°C"
-      ],
-      "answerIndex": 1,
-      "solution": "**50 cm.** Minimum bitumen ductility value to use in road is 50 cm.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"Minimum bitumen ductility value to use in road is 50 cm.\"",
-        "mnemonic": "Minimum bitumen ductility value → 50 cm"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q083",
-      "chapter": "ACiE09",
-      "subchapter": "ACiE0901",
-      "marks": 1,
-      "stem": "Rate o f stretching bitumen in ductility test:",
-      "options": [
-        "0.2%",
-        "0.4",
-        "5 cm/min",
-        "90°"
-      ],
-      "answerIndex": 2,
-      "solution": "**5 cm/min.** Rate o f stretching bitumen in ductility test is 5 cm/min.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"Rate o f stretching bitumen in ductility test is 5 cm/min.\"",
-        "mnemonic": "Rate o f stretching → 5 cm/min"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q084",
-      "chapter": "ACiE09",
-      "subchapter": "ACiE0901",
-      "marks": 1,
-      "stem": "The maximum moisture content on Bitumen:",
-      "options": [
-        "90°",
-        "5 cm/min",
-        "15 degree",
-        "0.2%"
+        "most reliable/suitable",
+        "unit power",
+        "radial gates",
+        "volume of water"
       ],
       "answerIndex": 3,
-      "solution": "**0.2%.** The maximum moisture content on Bitumen is 0.2%.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "solution": "**volume of water.** The area under the flow duration curve is volume of water.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The maximum moisture content on Bitumen is 0.2%.\"",
-        "mnemonic": "The maximum moisture content → 0.2%"
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The area under the flow duration curve is volume of water.\"",
+        "mnemonic": "The area under the → volume of water"
       },
       "verification": {
         "status": "verified"
       }
     },
     {
-      "id": "MS12-Q085",
-      "chapter": "ACiE09",
-      "subchapter": "ACiE0901",
+      "id": "MS12-Q078",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0801",
       "marks": 1,
-      "stem": "Daily average traffic calculated based on 30 days' survey in 365 days:",
+      "stem": "The country which provide key financial assistance for Kulekhani I and Kulekhani II hydropower projects:",
       "options": [
-        "centrifugal force",
-        "ADT",
-        "roadway",
-        "Sight distance"
+        "Japan",
+        "radial gates",
+        "spillway",
+        "prevented by surge tank"
+      ],
+      "answerIndex": 0,
+      "solution": "**Japan.** The country which provide key financial assistance for Kulekhani I and Kulekhani II hydropower projects is Japan.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The country which provide key financial assistance for Kulekhani I and Kulekhani II hydropower projects is Japan.\"",
+        "mnemonic": "The country which provide → Japan"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q079",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0801",
+      "marks": 1,
+      "stem": "The under - sluice and spillway gates used in the barrage of the Sunkoshi Hydropower Project:",
+      "options": [
+        "unit power",
+        "radial gates",
+        "Cv (2gH) 0.5",
+        "fixed wheel gate"
       ],
       "answerIndex": 1,
-      "solution": "**ADT.** Daily average traffic calculated based on 30 days' survey in 365 days is ADT.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "solution": "**radial gates.** The under - sluice and spillway gates used in the barrage of the Sunkoshi Hydropower Project are radial gates.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"Daily average traffic calculated based on 30 days' survey in 365 days is ADT.\"",
-        "mnemonic": "Daily average traffic calculated → ADT"
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The under - sluice and spillway gates used in the barrage of the Sunkoshi Hydropower Project are radial gates.\"",
+        "mnemonic": "The under - sluice → radial gates"
       },
       "verification": {
         "status": "verified"
       }
     },
     {
-      "id": "MS12-Q086",
-      "chapter": "ACiE09",
-      "subchapter": "ACiE0904",
+      "id": "MS12-Q080",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0801",
       "marks": 1,
-      "stem": "Longitudinal ridging due to the channelization of traffic:",
+      "stem": "The theoretical POWER available from a hydropower scheme is given by P = ρgQH. For water, using ρ = 1000 kg/m³ and g = 9.81 m/s², the power in KILOWATTS for a discharge Q in m³/s and a net head H in metres is:",
       "options": [
-        "roadway",
-        "Sight distance",
-        "as grooving",
-        "spread and compacted"
+        "P = 1000 Q H",
+        "P = 0.00981 Q H",
+        "P = 9.81 Q H",
+        "P = 98.1 Q H"
       ],
       "answerIndex": 2,
-      "solution": "**as grooving.** Longitudinal ridging due to the channelization of traffic is called as grooving.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"Longitudinal ridging due to the channelization of traffic is called as grooving.\"",
-        "mnemonic": "Longitudinal ridging due to → as grooving"
-      },
+      "solution": "**P = 9.81 Q H kilowatts** — and multiplied by the overall efficiency η to give the power actually delivered.\n\n**The derivation, which is worth doing once so the constant is never misremembered:**\n\n| Step | Working |\n|---|---|\n| **Mass flow rate** | **= ρQ = 1000 × Q kg/s** ← |\n| **Weight flow rate** | **ρgQ = 1000 × 9.81 × Q = 9810 Q newtons per second** ← |\n| **Power = weight flow × head** | **P = 9810 Q H watts** ← |\n| **In kilowatts** | **P = 9.81 Q H kW** ← |\n| **With efficiency** | **P = 9.81 η Q H kW** ← |\n\n> **THE CONSTANT 9.81 IS THE ONE TO REMEMBER AND ITS UNITS ARE THE REASON FOR EVERY MISTAKE MADE WITH THIS FORMULA: it delivers KILOWATTS when Q is in m³/s and H is in metres.**\n\n> **Not watts, not megawatts.**\n\n> **A candidate who writes P = 9.81 × 20 × 100 for a 20 m³/s, 100 m scheme and reports 19,620 watts has made the error; the answer is 19,620 kW, which is 19.6 MW.**\n\n> **Sense-checking against a familiar scheme is the cheapest guard: Kulekhani I is 60 MW, so anything a scheme of similar size produces should land in the tens of megawatts, and an answer in watts or gigawatts is wrong by a factor a thousand either way.**\n\n**A USEFUL APPROXIMATION AND ITS JUSTIFICATION:**\n\n| Approximation | Note |\n|---|---|\n| **P ≈ 9.81 η Q H, with η typically 0.85 to 0.90 for a good modern plant** ← | ← |\n| **9.81 × 0.85 ≈ 8.3, and 9.81 × 0.90 ≈ 8.8** ← | ← |\n| **So a rough field figure is P ≈ 8.5 Q H kW** ← | **Which is within a few per cent for most schemes** ← |\n| **Or, more roughly still, P ≈ 8 Q H for a first estimate** ← | ← |\n\n> **THE FIGURE 8.5 IS WORTH CARRYING BECAUSE IT LETS A SCHEME BE SIZED MENTALLY, and that is a genuinely useful skill on a site visit: a stream carrying 2 m³/s with 150 m of head available is 8.5 × 2 × 150 ≈ 2,550 kW, which is a 2.5 MW scheme.**\n\n> **That estimate can be made in seconds standing beside the stream, and it decides at once whether the site is worth surveying.**\n\n> **The refinement from 8.5 to the actual efficiency chain — turbine, generator, transformer, penstock losses — changes the answer by perhaps 10 per cent, which does not change the decision.**\n\n> **So the crude estimate does the reconnaissance work and the detailed calculation does the design work, and confusing which is needed at which stage wastes time in both directions.**\n\n**AND THE THREE VARIABLES DESERVE A CLOSING COMMENT ON THEIR RELATIVE STANDING:**\n\n| Variable | Note |\n|---|---|\n| **H, the HEAD** ← | **Fixed by the topography, and free once found — it costs nothing to have 400 m instead of 40 m** ← |\n| **Q, the DISCHARGE** ← | **Fixed by the hydrology, and it varies through the year in a way H does not** ← |\n| **η, the EFFICIENCY** ← | **The only one the engineer can influence, and only within a narrow band** ← |\n\n> **The first row is why HIGH HEAD sites are sought above all others, and why Nepal's topography is its hydropower endowment: the head is given by the mountains and costs nothing to obtain beyond the conveyance that reaches it.**\n\n> **A 400 m head site needs a tenth of the discharge of a 40 m site for the same power, which means a tenth of the water, a tenth of the turbine size and a much smaller headworks.**\n\n> **So head is the variable that decides a scheme's economics, and the search for a site is largely a search for head.**",
+      "difficulty": "easy",
+      "tags": [
+        "hydropower formula",
+        "P = 9.81 Q H kW",
+        "the constant delivers kilowatts",
+        "rule of thumb 8.5 Q H",
+        "head is the decisive variable",
+        "reconnaissance estimating"
+      ],
       "verification": {
-        "status": "verified"
+        "status": "verified",
+        "checkedOn": "2026-09-11"
+      },
+      "examTip": {
+        "trick": "**P = 9.81 Q H gives KILOWATTS** with Q in m³/s and H in metres — the units of the constant are where every error comes from.",
+        "trap": "**Carry 8.5 Q H as the field estimate** — 9.81 times a realistic 0.87 efficiency. It sizes a scheme mentally in seconds beside the stream.",
+        "mnemonic": "**Head is free, discharge is given, efficiency is barely adjustable** — which is why high head sites are hunted and why Nepal's mountains are its endowment."
       }
     },
     {
-      "id": "MS12-Q087",
+      "id": "MS12-Q081",
       "chapter": "ACiE09",
       "subchapter": "ACiE0901",
       "marks": 1,
       "stem": "For the movement of vehicles at an intersection of two roads, without any interference, the type of grade separator generally preferred to:",
       "options": [
-        "soil - cement",
-        "roadway",
-        "weather",
-        "clover leaf"
+        "clover leaf",
+        "catch drain",
+        "grade - separated intersections",
+        "as grooving"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "solution": "**clover leaf.** For the movement of vehicles at an intersection of two roads, without any interference, the type of grade separator generally preferred to, is clover leaf.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -2124,18 +1998,18 @@
       }
     },
     {
-      "id": "MS12-Q088",
+      "id": "MS12-Q082",
       "chapter": "ACiE09",
       "subchapter": "ACiE0905",
       "marks": 1,
       "stem": "An intersection that is provided for different levels of the road:",
       "options": [
+        "channelizing",
         "grade - separated intersections",
-        "deviated angle",
-        "bitumen",
-        "centrifugal force"
+        "National Highway",
+        "annual average daily traffic"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "solution": "**grade - separated intersections.** An intersection that is provided for different levels of the road is called grade - separated intersections.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -2148,24 +2022,168 @@
       }
     },
     {
+      "id": "MS12-Q083",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0904",
+      "marks": 1,
+      "stem": "The procedure of adopting medians and traffic island in an unchannelized intersection:",
+      "options": [
+        "as grooving",
+        "traffic capacity",
+        "channelizing",
+        "grade - separated intersections"
+      ],
+      "answerIndex": 2,
+      "solution": "**channelizing.** The procedure of adopting medians and traffic island in an unchannelized intersection is called channelizing.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The procedure of adopting medians and traffic island in an unchannelized intersection is called channelizing.\"",
+        "mnemonic": "The procedure of adopting → channelizing"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q084",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0905",
+      "marks": 1,
+      "stem": "The minimum value of 15 - minute peak hour factor on a section of a road:",
+      "options": [
+        "0.15",
+        "0.4",
+        "0.3",
+        "0.25"
+      ],
+      "answerIndex": 3,
+      "solution": "**0.25.** The minimum value of 15 - minute peak hour factor on a section of a road is 0.25.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The minimum value of 15 - minute peak hour factor on a section of a road is 0.25.\"",
+        "mnemonic": "The minimum value of → 0.25"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q085",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0904",
+      "marks": 1,
+      "stem": "The maximum number of vehicles in a lane or a road that can pass a given point in a unit time, usually an hour:",
+      "options": [
+        "diversion path",
+        "traffic capacity",
+        "grade - separated intersections",
+        "Sight distance"
+      ],
+      "answerIndex": 1,
+      "solution": "**traffic capacity.** The maximum number of vehicles in a lane or a road that can pass a given point in a unit time, usually an hour is called traffic capacity.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The maximum number of vehicles in a lane or a road that can pass a given point in a unit time, usually an hour is called traffic capacity.\"",
+        "mnemonic": "The maximum number of → traffic capacity"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q086",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0905",
+      "marks": 1,
+      "stem": "The Lane Distribution Factor (LFD) for 4 lane road:",
+      "options": [
+        "0.25",
+        "0.3",
+        "0.4",
+        "0.15"
+      ],
+      "answerIndex": 2,
+      "solution": "**0.4.** The Lane Distribution Factor (LFD) for 4 lane road is 0.4.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The Lane Distribution Factor (LFD) for 4 lane road is 0.4.\"",
+        "mnemonic": "The Lane Distribution Factor → 0.4"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q087",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0904",
+      "marks": 1,
+      "stem": "The traffic that is prepared based on 365 days of the year:",
+      "options": [
+        "grade - separated intersections",
+        "deviated angle",
+        "traffic capacity",
+        "annual average daily traffic"
+      ],
+      "answerIndex": 3,
+      "solution": "**annual average daily traffic.** The traffic that is prepared based on 365 days of the year is called annual average daily traffic.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The traffic that is prepared based on 365 days of the year is called annual average daily traffic.\"",
+        "mnemonic": "The traffic that is → annual average daily traffic"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q088",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0902",
+      "marks": 1,
+      "stem": "The design factor not considered in CBR:",
+      "options": [
+        "weather",
+        "ADT",
+        "clothoid",
+        "reconnaissance"
+      ],
+      "answerIndex": 0,
+      "solution": "**weather.** The design factor not considered in CBR is weather.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The design factor not considered in CBR is weather.\"",
+        "mnemonic": "The design factor not → weather"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
       "id": "MS12-Q089",
       "chapter": "ACiE09",
       "subchapter": "ACiE0901",
       "marks": 1,
-      "stem": "The minimum weaving angle in the rotary section:",
+      "stem": "In water bound macadam roads, binding material:",
       "options": [
-        "0.3",
-        "0.15",
-        "15°",
-        "20 years"
+        "catch drain",
+        "spread and compacted",
+        "stone dust",
+        "as grooving"
       ],
       "answerIndex": 2,
-      "solution": "**15°.** The minimum weaving angle in the rotary section is 15°.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "solution": "**stone dust.** In water bound macadam roads, binding material is stone dust.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The minimum weaving angle in the rotary section is 15°.\"",
-        "mnemonic": "The minimum weaving angle → 15°"
+        "trick": "Fix the whole statement in memory, not the answer alone: \"In water bound macadam roads, binding material is stone dust.\"",
+        "mnemonic": "In water bound macadam → stone dust"
       },
       "verification": {
         "status": "verified"
@@ -2174,22 +2192,22 @@
     {
       "id": "MS12-Q090",
       "chapter": "ACiE09",
-      "subchapter": "ACiE0904",
+      "subchapter": "ACiE0901",
       "marks": 1,
-      "stem": "The procedure of adopting medians and traffic island in an unchannelized intersection:",
+      "stem": "The load transfer to lower layers in flexible pavements:",
       "options": [
-        "traffic capacity",
-        "rutting",
-        "clothoid",
-        "channelizing"
+        "spread and compacted",
+        "centrifugal force",
+        "annual average daily traffic",
+        "grain to grain contact"
       ],
       "answerIndex": 3,
-      "solution": "**channelizing.** The procedure of adopting medians and traffic island in an unchannelized intersection is called channelizing.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "solution": "**grain to grain contact.** The load transfer to lower layers in flexible pavements is grain to grain contact.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The procedure of adopting medians and traffic island in an unchannelized intersection is called channelizing.\"",
-        "mnemonic": "The procedure of adopting → channelizing"
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The load transfer to lower layers in flexible pavements is grain to grain contact.\"",
+        "mnemonic": "The load transfer to → grain to grain contact"
       },
       "verification": {
         "status": "verified"
@@ -2203,9 +2221,9 @@
       "stem": "For a financial institution the most important study of a project to be taken for risks management:",
       "options": [
         "appraisal",
-        "discount rate",
-        "litigation",
-        "mentioned in NEC Regulation"
+        "backward passing",
+        "slack",
+        "required in execution phase"
       ],
       "answerIndex": 0,
       "solution": "**appraisal.** For a financial institution the most important study of a project to be taken for risks management is appraisal.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2226,10 +2244,10 @@
       "marks": 1,
       "stem": "The assessment done by the implementing agency to check the eligibility of the firm to carry out the contract:",
       "options": [
-        "cut and then viewed",
+        "mobilization advance",
         "pre - qualification",
-        "resources",
-        "NRs. 10000 fine"
+        "mutually exclusive",
+        "TF > FF"
       ],
       "answerIndex": 1,
       "solution": "**pre - qualification.** The assessment done by the implementing agency to check the eligibility of the firm to carry out the contract is pre - qualification.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2250,9 +2268,9 @@
       "marks": 1,
       "stem": "Quality and workmanship in construction projects:",
       "options": [
-        "mutually exclusive",
-        "as liquidated damage",
-        "on 2069/03/15",
+        "called Isometric projection",
+        "acid test ratio",
+        "discounted cash flow (DCF)",
         "defined in specifications"
       ],
       "answerIndex": 3,
@@ -2275,9 +2293,9 @@
       "stem": "If employee does wrong in work, employer have to take responsibility of it, this:",
       "options": [
         "vicarious liability",
-        "critical ratio scheduling",
-        "cut and then viewed",
-        "called Isometric projection"
+        "backward passing",
+        "as liquidated damage",
+        "sub - contracting"
       ],
       "answerIndex": 0,
       "solution": "**vicarious liability.** If employee does wrong in work, employer have to take responsibility of it, this is known as vicarious liability.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2298,10 +2316,10 @@
       "marks": 1,
       "stem": "If an engineer violates sub - section 30(b) of NEC act 2055, the punishment:",
       "options": [
-        "radius",
+        "called Isometric projection",
         "NRs. 10000 fine",
-        "selected as base alternative",
-        "called Isometric projection"
+        "acid test ratio",
+        "cut and then viewed"
       ],
       "answerIndex": 1,
       "solution": "**NRs. 10000 fine.** If an engineer violates sub - section 30(b) of NEC act 2055, the punishment is NRs. 10000 fine.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2320,62 +2338,14 @@
       "chapter": "AALL10",
       "subchapter": "AALL1001",
       "marks": 1,
-      "stem": "The Minimum time period allocated by GoN for formation of new council after the dissolution of current NEC:",
-      "options": [
-        "1: 10",
-        "90 days",
-        "3 months",
-        "1 and 50 respectively"
-      ],
-      "answerIndex": 2,
-      "solution": "**3 months.** The Minimum time period allocated by GoN for formation of new council after the dissolution of current NEC is 3 months.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"The Minimum time period allocated by GoN for formation of new council after the dissolution of current NEC is 3 months.\"",
-        "mnemonic": "The Minimum time period → 3 months"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q097",
-      "chapter": "AALL10",
-      "subchapter": "AALL1001",
-      "marks": 1,
-      "stem": "As per NEC Act (Amended 2079), section 30 (c), the punishment on violation of rules:",
-      "options": [
-        "25000",
-        "3 months",
-        "90 days",
-        "1: 10"
-      ],
-      "answerIndex": 0,
-      "solution": "**25000.** As per NEC Act (Amended 2079), section 30 (c), the punishment on violation of rules is 25000.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
-      "difficulty": "medium",
-      "examTip": {
-        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
-        "trick": "Fix the whole statement in memory, not the answer alone: \"As per NEC Act (Amended 2079), section 30 (c), the punishment on violation of rules is 25000.\"",
-        "mnemonic": "As per NEC Act → 25000"
-      },
-      "verification": {
-        "status": "verified"
-      }
-    },
-    {
-      "id": "MS12-Q098",
-      "chapter": "AALL10",
-      "subchapter": "AALL1001",
-      "marks": 1,
       "stem": "After the annual meeting of NEC, the report:",
       "options": [
-        "vicarious liability",
+        "mobilization advance",
+        "NRs. 10000 fine",
         "submitted to GoN",
-        "backward passing",
-        "mentioned in NEC Regulation"
+        "backward passing"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "solution": "**submitted to GoN.** After the annual meeting of NEC, the report is submitted to GoN.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -2388,18 +2358,18 @@
       }
     },
     {
-      "id": "MS12-Q099",
+      "id": "MS12-Q097",
       "chapter": "AALL10",
       "subchapter": "AALL1001",
       "marks": 1,
       "stem": "In CPM, when two activity meets at a node, then minimum value:",
       "options": [
-        "defined in specifications",
-        "submitted to GoN",
         "backward passing",
-        "cut and then viewed"
+        "called Isometric projection",
+        "appraisal",
+        "total float"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "solution": "**backward passing.** In CPM, when two activity meets at a node, then minimum value is taken as backward passing.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
@@ -2412,24 +2382,72 @@
       }
     },
     {
-      "id": "MS12-Q100",
+      "id": "MS12-Q098",
       "chapter": "AALL10",
       "subchapter": "AALL1001",
       "marks": 1,
       "stem": "The ultimate method of resolving any dispute with a contractor:",
       "options": [
-        "discounted cash flow (DCF)",
-        "vicarious liability",
-        "mobilization advance",
-        "litigation"
+        "TF > FF",
+        "litigation",
+        "mutually exclusive",
+        "mobilization advance"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "solution": "**litigation.** The ultimate method of resolving any dispute with a contractor is litigation.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
       "difficulty": "medium",
       "examTip": {
         "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
         "trick": "Fix the whole statement in memory, not the answer alone: \"The ultimate method of resolving any dispute with a contractor is litigation.\"",
         "mnemonic": "The ultimate method of → litigation"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q099",
+      "chapter": "AALL10",
+      "subchapter": "AALL1001",
+      "marks": 1,
+      "stem": "The damages caused due to delay in work:",
+      "options": [
+        "mobilization advance",
+        "critical ratio scheduling",
+        "as liquidated damage",
+        "sub - contracting"
+      ],
+      "answerIndex": 2,
+      "solution": "**as liquidated damage.** The damages caused due to delay in work are termed as liquidated damage.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"The damages caused due to delay in work are termed as liquidated damage.\"",
+        "mnemonic": "The damages caused due → as liquidated damage"
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "MS12-Q100",
+      "chapter": "AALL10",
+      "subchapter": "AALL1001",
+      "marks": 1,
+      "stem": "Symbol R represent in dimension:",
+      "options": [
+        "event",
+        "resources",
+        "TF > FF",
+        "radius"
+      ],
+      "answerIndex": 3,
+      "solution": "**radius.** Symbol R represent in dimension is radius.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The distractors here are genuine terms from this chapter, so none of them looks obviously wrong — you have to know the specific fact rather than eliminate on sight.",
+        "trick": "Fix the whole statement in memory, not the answer alone: \"Symbol R represent in dimension is radius.\"",
+        "mnemonic": "Symbol R represent in → radius"
       },
       "verification": {
         "status": "verified"

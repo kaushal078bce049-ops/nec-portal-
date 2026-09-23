@@ -127,6 +127,22 @@ function decodeHex(hex) {
 
 let page = 0;
 for (const s of all) {
+  // A page's content stream is not the only thing in a PDF that inflates to
+  // something containing "Tj". Embedded font programs and XMP metadata do
+  // too, and their innards then arrive as text: this extraction was picking
+  // up "verisign", "microsoft", "https" and the OpenType feature tags
+  // "frac", "numr", "dnom", "sups", "smcp", "calt" -- 153 revision cards
+  // carried some of it.
+  //
+  // Content streams are identified by what their dictionary does NOT say: a
+  // font file declares /FontFile, /Length1 or a font /Subtype, and metadata
+  // declares /Type /Metadata. Excluding those leaves the page content.
+  if (/\/(FontFile\d?|Length1|Metadata)\b/.test(s.dict)) continue;
+  if (/\/Subtype\s*\/(Type1C|CIDFontType0C|TrueType|OpenType|Image|XML)\b/.test(s.dict)) continue;
+  // A real content stream is mostly operators and short strings. A font
+  // program that slips past the dictionary test is mostly binary.
+  const printable = (s.text.match(/[\x20-\x7E\n\r\t]/g) ?? []).length / (s.text.length || 1);
+  if (printable < 0.55) continue;
   if (!/\bTJ\b|\bTj\b/.test(s.text)) continue;
   page++;
   console.log(`\n===== PAGE ${page} =====`);
