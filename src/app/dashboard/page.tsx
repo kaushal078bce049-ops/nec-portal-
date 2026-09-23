@@ -6,7 +6,7 @@ import { signOut } from '@/app/auth/actions';
 import { Avatar } from '@/components/profile/Avatar';
 import { getActiveScheme, getBlueprint, getSyllabus, listPapers } from '@/lib/content';
 import { capsuleDateFor } from '@/lib/daily';
-import { getProgressByKind } from '@/lib/exam';
+import { getProgressByKind, sweepExpiredAttempts } from '@/lib/exam';
 import { getRecentAttempts } from '@/lib/progress';
 import { getSessionUser } from '@/lib/supabase/server';
 
@@ -27,6 +27,11 @@ const KIND_LABELS: Record<string, string> = {
 export default async function DashboardPage() {
   const user = await getSessionUser();
   if (!user) redirect('/login?next=/dashboard');
+
+  // Score any paper whose time ran out after the candidate closed the tab,
+  // before anything below reads the attempt rows — otherwise an abandoned
+  // attempt shows as "in progress" here and is missing from the rankings.
+  await sweepExpiredAttempts();
 
   const [attempts, scheme, blueprint, syllabus, progress] = await Promise.all([
     getRecentAttempts(12),

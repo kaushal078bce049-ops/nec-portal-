@@ -15,15 +15,41 @@ export const metadata: Metadata = {
 export default async function LoginPage({
   searchParams,
 }: {
-  searchParams: Promise<{ next?: string }>;
+  searchParams: Promise<{ next?: string; error?: string }>;
 }) {
-  const { next } = await searchParams;
+  const { next, error } = await searchParams;
   if (await getSessionUser()) redirect(next?.startsWith('/') ? next : '/dashboard');
 
   const authReady = isSupabaseConfigured();
 
+  /*
+   * A link that did not work says so here, because the alternative is a login
+   * page that looks exactly like an ordinary one — leaving somebody who just
+   * clicked a confirmation link with no idea why they are being asked to sign
+   * in again, or that asking for a fresh link is what fixes it.
+   */
+  const LINK_ERRORS: Record<string, string> = {
+    'link-expired':
+      'That link has expired — they are single-use and time-limited. Request a new one below and it will arrive in a minute or two.',
+    'invalid-link':
+      'That link could not be read. It may have been broken across lines by your email program. Request a fresh one below.',
+    'missing-code': 'That link was incomplete. Please request a fresh one below.',
+  };
+  const linkError = error ? LINK_ERRORS[error] : undefined;
+
   return (
     <div className="mx-auto max-w-md px-4 py-16 sm:px-6">
+      {linkError && (
+        <p
+          className="mb-6 rounded-lg p-3 text-sm"
+          style={{ background: 'var(--accent-soft)', color: 'var(--text-body)' }}
+        >
+          {linkError}{' '}
+          <Link href="/forgot-password" className="accent underline">
+            Send me a new link
+          </Link>
+        </p>
+      )}
       {/*
         Accounts need a Supabase project, and the repository ships placeholder
         keys so it builds and serves its free content before one exists. Saying

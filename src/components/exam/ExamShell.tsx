@@ -8,7 +8,8 @@ import type { AttemptState } from '@/lib/exam';
 /**
  * Full-screen examination interface modelled on the computer-based test screen
  * used for the NEC registration examination: a fixed countdown, a colour-coded
- * question palette, and Save & Next / Mark for Review navigation.
+ * question palette, and Mark for Review navigation. Answers save as they are
+ * chosen rather than on a separate Save press.
  *
  * The client is not trusted for anything that matters. It renders questions it
  * was given (which never include the answer), posts each response to the server
@@ -63,14 +64,6 @@ export function ExamShell({ state }: { state: AttemptState }) {
   const [index, setIndex] = useState(0);
   const [responses, setResponses] = useState(state.responses);
 
-  /**
-   * Selections the candidate has made but not yet saved with Save & Next.
-   * Held per question id and layered over `responses`, so the visible choice is
-   * *derived* rather than synchronised by an effect — an effect would fire an
-   * extra render on every question change and could clobber a fast click.
-   */
-  const [pending, setPending] = useState<Record<string, number | null>>({});
-
   const [visited, setVisited] = useState<Set<string>>(() => {
     const seen = new Set(Object.keys(state.responses));
     if (questions[0]) seen.add(questions[0].id);
@@ -82,6 +75,11 @@ export function ExamShell({ state }: { state: AttemptState }) {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  // Set when the candidate has left the exam window and come back; cleared when
+  // they acknowledge the warning.
+  const [focusWarning, setFocusWarning] = useState<{ count: number; remaining: number } | null>(null);
+  const [terminated, setTerminated] = useState(false);
+
   // Drive the clock off an absolute deadline so a slow tick cannot gift time.
   const deadline = useMemo(() => new Date(state.expiresAt).getTime(), [state.expiresAt]);
   const [remaining, setRemaining] = useState(() =>
@@ -91,21 +89,16 @@ export function ExamShell({ state }: { state: AttemptState }) {
   const current = questions[index];
   const submittedRef = useRef(false);
 
-  // Visible selection for the current question: unsaved choice if there is one,
-  // otherwise whatever the server already has.
-  const draft = current
-    ? current.id in pending
-      ? pending[current.id]!
-      : (responses[current.id]?.selectedOption ?? null)
-    : null;
-
-  const setDraft = useCallback(
-    (value: number | null) => {
-      if (!current) return;
-      setPending((prev) => ({ ...prev, [current.id]: value }));
-    },
-    [current],
-  );
+  /*
+   * The selection shown is simply the one being held for this question.
+   *
+   * There used to be a second layer of "chosen but not yet saved" state,
+   * because saving was a separate act — the candidate picked an option and then
+   * pressed Save & Next. Answers now save the moment they are picked, so that
+   * layer has nothing to hold: what is on screen and what the server has are
+   * the same thing, updated optimistically and reconciled by `persist`.
+   */
+  const draft = current ? (responses[current.id]?.selectedOption ?? null) : null;
 
   /** Move to a question and record that it has now been seen. */
   const navigate = useCallback(
@@ -190,6 +183,49 @@ export function ExamShell({ state }: { state: AttemptState }) {
     return () => window.removeEventListener('beforeunload', onBeforeUnload);
   }, []);
 
+  /*
+   * ------------------------------------------------------------------ lockdown
+   *
+   * No web page can refuse a tab change; the browser does not offer it, and
+   * anything claiming otherwise is describing a kiosk, not a website. What is
+   * available is `visibilitychange`, which fires the moment this tab stops
+   * being the visible one — switching tab, switching window, minimising.
+   *
+   * So leaving is not blocked, it is counted. The count is kept by the server
+   * (a tally in the page would be cleared by reloading, and reloading is the
+   * first thing anyone would try), the candidate is told where they stand, and
+   * the third departure ends the attempt.
+   *
+   * Only `visibilitychange` is watched, deliberately. `blur` also fires for a
+   * print dialog, a password manager, or a click on the browser's own chrome,
+   * and ending someone's examination because they clicked the address bar
+   * would be indefensible.
+   */
+  useEffect(() => {
+    const onHidden = () => {
+      if (submittedRef.current || document.visibilityState !== 'hidden') return;
+      void (async () => {
+        try {
+          const res = await fetch(`/api/exam/${state.attemptId}/focus`, { method: 'POST' });
+          if (!res.ok) return;
+          const out = (await res.json()) as { count: number; remaining: number; terminated: boolean };
+          if (out.terminated) {
+            submittedRef.current = true;
+            setTerminated(true);
+            router.replace(`/exam/${state.attemptId}/result`);
+          } else {
+            setFocusWarning(out);
+          }
+        } catch {
+          // A failed report must not interrupt the exam. The deadline is still
+          // enforced server-side, which is the check that actually matters.
+        }
+      })();
+    };
+    document.addEventListener('visibilitychange', onHidden);
+    return () => document.removeEventListener('visibilitychange', onHidden);
+  }, [router, state.attemptId]);
+
   // ------------------------------------------------------------------- actions
   const statusOf = useCallback(
     (questionId: string): Status => {
@@ -212,23 +248,36 @@ export function ExamShell({ state }: { state: AttemptState }) {
         markedReview: opts.markedReview,
       };
       setResponses((prev) => ({ ...prev, [current.id]: next }));
-      // Saved now, so drop the unsaved overlay for this question.
-      setPending((prev) => {
-        if (!(current.id in prev)) return prev;
-        const rest = { ...prev };
-        delete rest[current.id];
-        return rest;
-      });
       void persist(current.id, next.selectedOption, next.markedReview);
       if (opts.advance) navigate(index + 1);
     },
     [current, index, navigate, persist],
   );
 
-  const saveAndNext = useCallback(
-    () => commit({ selectedOption: draft, markedReview: false, advance: true }),
-    [commit, draft],
+  /**
+   * Choosing an option saves it, there and then.
+   *
+   * Previously a selection sat unsaved until Save & Next was pressed, which
+   * cost people marks they had earned: the answer was on screen, so it looked
+   * saved, and anyone who ran out of time on the last question — or navigated
+   * by the palette rather than the button — lost it. Saving on selection means
+   * the only way to have an answer not counted is to not have chosen one.
+   *
+   * The review flag is carried across rather than reset, so picking a different
+   * option does not silently unmark a question marked for review.
+   */
+  const choose = useCallback(
+    (value: number | null) => {
+      if (!current) return;
+      commit({
+        selectedOption: value,
+        markedReview: responses[current.id]?.markedReview ?? false,
+        advance: false,
+      });
+    },
+    [commit, current, responses],
   );
+
   const markAndNext = useCallback(
     () => commit({ selectedOption: draft, markedReview: true, advance: true }),
     [commit, draft],
@@ -247,16 +296,16 @@ export function ExamShell({ state }: { state: AttemptState }) {
 
       if (/^[1-6]$/.test(e.key)) {
         const n = Number(e.key) - 1;
-        if (n < (current?.options.length ?? 0)) setDraft(n);
+        if (n < (current?.options.length ?? 0)) choose(n);
       } else if (e.key.toLowerCase() === 'n') {
-        saveAndNext();
+        navigate(index + 1);
       } else if (e.key.toLowerCase() === 'p') {
         navigate(index - 1);
       }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [confirming, current, index, navigate, saveAndNext, setDraft, submitting]);
+  }, [choose, confirming, current, index, navigate, submitting]);
 
   const counts = useMemo(() => {
     const tally: Record<Status, number> = {
@@ -279,6 +328,57 @@ export function ExamShell({ state }: { state: AttemptState }) {
 
   return (
     <div className="flex min-h-screen flex-col" style={{ background: 'var(--surface-page)' }}>
+      {/*
+        Shown over the paper on return, so it cannot be missed and cannot be
+        read past. The paper is still behind it and the clock is still running —
+        this is a warning, not a pause.
+      */}
+      {(focusWarning || terminated) && (
+        <div
+          role="alertdialog"
+          aria-modal="true"
+          aria-labelledby="focus-warning-title"
+          className="fixed inset-0 z-50 grid place-items-center p-4"
+          style={{ background: 'rgb(0 0 0 / 0.72)' }}
+        >
+          <div className="card max-w-md p-6">
+            <h2 id="focus-warning-title" className="text-xl text-strong">
+              {terminated ? 'Your attempt has ended' : 'You left the examination window'}
+            </h2>
+            {terminated ? (
+              <p className="mt-3 text-body">
+                You left the examination window too many times, so this attempt has been submitted
+                and marked as it stood. Taking you to your result.
+              </p>
+            ) : (
+              <>
+                <p className="mt-3 text-body">
+                  Switching away from this tab during an examination is recorded. This is{' '}
+                  <strong className="text-strong">
+                    {focusWarning?.count === 1 ? 'the first time' : `time ${focusWarning?.count}`}
+                  </strong>
+                  .
+                </p>
+                <p className="mt-2 text-body">
+                  {focusWarning?.remaining === 1
+                    ? 'Leave once more and your attempt will be submitted automatically, marked as it stands.'
+                    : `Leave ${focusWarning?.remaining} more times and your attempt will be submitted automatically.`}
+                </p>
+                <p className="mt-2 text-sm text-muted">The clock has not stopped.</p>
+                <button
+                  type="button"
+                  onClick={() => setFocusWarning(null)}
+                  className="btn btn-primary mt-5 w-full"
+                  autoFocus
+                >
+                  Continue the examination
+                </button>
+              </>
+            )}
+          </div>
+        </div>
+      )}
+
       {/* Top bar */}
       <header
         className="sticky top-0 z-30 border-b border-soft"
@@ -381,7 +481,7 @@ export function ExamShell({ state }: { state: AttemptState }) {
                       name={`q-${current.id}`}
                       value={i}
                       checked={selected}
-                      onChange={() => setDraft(i)}
+                      onChange={() => choose(i)}
                       className="sr-only"
                     />
                     <span
@@ -402,9 +502,6 @@ export function ExamShell({ state }: { state: AttemptState }) {
             </fieldset>
 
             <div className="mt-7 flex flex-wrap gap-2.5 border-t border-soft pt-5">
-              <button type="button" onClick={saveAndNext} className="btn btn-primary">
-                Save &amp; Next
-              </button>
               <button type="button" onClick={markAndNext} className="btn btn-outline">
                 Mark for Review &amp; Next
               </button>
@@ -424,7 +521,7 @@ export function ExamShell({ state }: { state: AttemptState }) {
                   type="button"
                   onClick={() => navigate(index + 1)}
                   disabled={index === questions.length - 1}
-                  className="btn btn-outline"
+                  className="btn btn-primary"
                 >
                   Next
                 </button>
@@ -432,8 +529,8 @@ export function ExamShell({ state }: { state: AttemptState }) {
             </div>
 
             <p className="mt-4 text-xs text-muted">
-              Shortcuts: <kbd>1</kbd>–<kbd>4</kbd> choose an option, <kbd>N</kbd> save &amp; next,{' '}
-              <kbd>P</kbd> previous.
+              Your answer is saved the moment you choose it. Shortcuts: <kbd>1</kbd>–<kbd>4</kbd>{' '}
+              choose an option, <kbd>N</kbd> next, <kbd>P</kbd> previous.
             </p>
           </div>
         </section>

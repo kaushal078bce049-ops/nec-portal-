@@ -12,7 +12,7 @@ import {
 } from '@/lib/content';
 import type { PublicQuestion, ReviewQuestion } from '@/lib/content/types';
 import { scoreAttempt, type ChapterBreakdownRow } from '@/lib/scoring';
-import { badRequest, forbidden, notFound } from '@/lib/security';
+import { audit, badRequest, forbidden, notFound } from '@/lib/security';
 import { getAdminClient, type SessionUser } from '@/lib/supabase/server';
 
 /**
@@ -330,6 +330,136 @@ export async function submitAttempt(
   }
 
   return await getAttemptResult(user, attemptId);
+}
+
+/**
+ * How many times a candidate may leave the examination window before the
+ * attempt is ended for them.
+ *
+ * Not one: a stray notification, a dropped connection prompt or an accidental
+ * alt-tab should not destroy two hours of work. Not unlimited either, or the
+ * rule says nothing. Three leaves room for an honest mistake and none for a
+ * habit.
+ */
+const FOCUS_LIMIT = 3;
+
+export interface FocusOutcome {
+  /** How many times this attempt has left the window, including this one. */
+  count: number;
+  /** What is left before the attempt ends. */
+  remaining: number;
+  /** True once the attempt has been submitted because of this. */
+  terminated: boolean;
+}
+
+/**
+ * Record that the examination window lost focus, and end the attempt once that
+ * has happened too often.
+ *
+ * A browser cannot be made to refuse a tab change — no web page can hold the
+ * window against its user, and any claim to the contrary is a claim the
+ * platform does not support. What can be done is to make leaving count:
+ * detect it, record it where the candidate cannot reach it, warn, and end the
+ * attempt on the third.
+ *
+ * The tally lives in the audit log rather than in the page or in the session,
+ * because both of those are cleared by a reload. It is therefore also a record
+ * an administrator can read afterwards, which is the part that actually matters
+ * for an examination: not that the switch was prevented, but that it is known.
+ */
+export async function recordFocusLoss(
+  user: SessionUser,
+  attemptId: string,
+): Promise<FocusOutcome> {
+  const admin = getAdminClient();
+
+  const { data: attempt } = await admin
+    .from('exam_attempts')
+    .select('user_id, status')
+    .eq('id', attemptId)
+    .maybeSingle();
+
+  if (!attempt) throw notFound('Attempt not found.');
+  if (attempt.user_id !== user.id) throw forbidden();
+  // Nothing to enforce once it is over; report it as spent rather than failing,
+  // so a late event arriving after submission does not surface as an error.
+  if (attempt.status !== 'in_progress') {
+    return { count: FOCUS_LIMIT, remaining: 0, terminated: true };
+  }
+
+  await audit({
+    actorId: user.id,
+    action: 'exam.focus_lost',
+    target: attemptId,
+  });
+
+  const { count } = await admin
+    .from('audit_log')
+    .select('id', { count: 'exact', head: true })
+    .eq('action', 'exam.focus_lost')
+    .eq('target', attemptId);
+
+  const total = count ?? 1;
+  if (total >= FOCUS_LIMIT) {
+    await submitAttempt(user, attemptId, { reason: 'expired' });
+    await audit({ actorId: user.id, action: 'exam.terminated', target: attemptId });
+    return { count: total, remaining: 0, terminated: true };
+  }
+
+  return { count: total, remaining: FOCUS_LIMIT - total, terminated: false };
+}
+
+/**
+ * Close out attempts whose time ran out while nobody was watching.
+ *
+ * The exam page submits itself when the clock reaches zero, and reopening an
+ * expired attempt submits it on the way in — but both need the candidate to
+ * still be there. Someone who closes the tab half way through leaves a row
+ * stuck in `in_progress` for ever: it never reaches the dashboard, never
+ * appears in the rankings, and blocks a fresh attempt at the same paper,
+ * because startAttempt() hands back the unfinished one.
+ *
+ * So the deadline is enforced by the server rather than by the page. This runs
+ * on dashboard loads, which is frequent enough that an abandoned paper is
+ * scored within minutes and costs nothing when there is nothing to do: the
+ * query is indexed on status and returns no rows in the ordinary case.
+ *
+ * Deliberately not limited to one candidate's own attempts. The rankings are
+ * shared, so a paper abandoned by one person and left unscored misstates
+ * everybody else's position in it.
+ */
+export async function sweepExpiredAttempts(limit = 50): Promise<number> {
+  const admin = getAdminClient();
+  const cutoff = new Date(Date.now() - GRACE_SECONDS * 1000).toISOString();
+
+  const { data: stale } = await admin
+    .from('exam_attempts')
+    .select('id, user_id')
+    .eq('status', 'in_progress')
+    .lt('expires_at', cutoff)
+    .limit(limit);
+
+  if (!stale?.length) return 0;
+
+  let closed = 0;
+  for (const row of stale) {
+    try {
+      // The owner, not the caller: submitAttempt checks that they match, and
+      // scoring somebody else's paper under the wrong id would be wrong even
+      // though the admin client would allow it.
+      await submitAttempt(
+        { id: row.user_id } as SessionUser,
+        row.id,
+        { reason: 'expired' },
+      );
+      closed++;
+    } catch {
+      // One unscorable attempt must not stop the rest; it will be retried on
+      // the next sweep, and a row that cannot be scored at all is a content
+      // problem rather than something to fail a dashboard load over.
+    }
+  }
+  return closed;
 }
 
 // -----------------------------------------------------------------------------

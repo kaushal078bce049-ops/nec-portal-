@@ -21,6 +21,32 @@ export interface AuthFormState {
   notice?: string;
 }
 
+/**
+ * Build the link that actually goes in the email.
+ *
+ * Not `properties.action_link`, which points at Supabase's own verify endpoint:
+ * that endpoint checks our `redirect_to` against the project's allowed-redirect
+ * list and, when it does not match, sends the person to whatever "Site URL" the
+ * dashboard holds instead. That was still http://localhost:3000, so every
+ * confirmation and reset link landed somewhere no visitor could reach.
+ *
+ * `hashed_token` is the same credential without the detour. Handing it to our
+ * own /auth/confirm keeps the address in the email under this application's
+ * control, and no dashboard setting can redirect it elsewhere.
+ */
+function confirmLink(
+  hashedToken: string | undefined,
+  type: 'signup' | 'recovery',
+  next?: string,
+): string | null {
+  if (!hashedToken) return null;
+  const url = new URL('/auth/confirm', publicEnv().NEXT_PUBLIC_SITE_URL);
+  url.searchParams.set('token_hash', hashedToken);
+  url.searchParams.set('type', type);
+  if (next) url.searchParams.set('next', next);
+  return url.toString();
+}
+
 const credentials = z.object({
   email: z.string().trim().toLowerCase().email('Enter a valid email address.'),
   password: z
@@ -144,7 +170,7 @@ export async function signUp(_prev: AuthFormState, formData: FormData): Promise<
         username: parsed.data.username,
         institute: parsed.data.institute ?? null,
       },
-      redirectTo: `${publicEnv().NEXT_PUBLIC_SITE_URL}/auth/callback`,
+      redirectTo: `${publicEnv().NEXT_PUBLIC_SITE_URL}/auth/confirm`,
     },
   });
 
@@ -160,7 +186,7 @@ export async function signUp(_prev: AuthFormState, formData: FormData): Promise<
     return { error: error.message };
   }
 
-  const link = data?.properties?.action_link;
+  const link = confirmLink(data?.properties?.hashed_token, 'signup');
   if (!link) return { error: 'Could not create that account. Please try again.' };
 
   await audit({ actorId: data.user?.id, action: 'auth.signup' });
@@ -222,10 +248,10 @@ export async function requestPasswordReset(
     const { data, error } = await getAdminClient().auth.admin.generateLink({
       type: 'recovery',
       email: parsed.data.email,
-      options: { redirectTo: `${publicEnv().NEXT_PUBLIC_SITE_URL}/auth/callback?next=/reset-password` },
+      options: { redirectTo: `${publicEnv().NEXT_PUBLIC_SITE_URL}/auth/confirm` },
     });
 
-    const link = data?.properties?.action_link;
+    const link = confirmLink(data?.properties?.hashed_token, 'recovery', '/reset-password');
     if (!error && link) {
       await sendPasswordResetEmail(parsed.data.email, link);
       await audit({ action: 'auth.reset.requested', target: parsed.data.email });
