@@ -13,7 +13,7 @@
         "Is always a bituminous-surfaced road while feeder roads are gravel",
         "Carries only freight traffic and no passenger vehicles",
         "Is maintained by the local municipality rather than the central government",
-        "Forms the principal ARTERIAL network connecting major regions and international borders, carrying long-distance traffic"
+        "Forms the principal arterial network connecting major regions and international borders, carrying long-distance traffic"
       ],
       "answerIndex": 3,
       "solution": "**It forms the principal ARTERIAL network connecting major regions and international borders, carrying long-distance traffic** — while a feeder road links a district headquarters or an important centre TO that arterial network.\n\n**The classification as it stands in Nepal:**\n\n| Class | Function |\n|---|---|\n| **NATIONAL HIGHWAY (NH)** ← | **The arterial backbone — inter-regional and international connections. Mahendra Highway, Prithvi Highway, Araniko Highway and the rest** ← |\n| **FEEDER ROAD (FR)** ← | **Links district headquarters, major towns and economic centres to the national highway network** ← |\n| **DISTRICT ROAD (DR)** ← | **Serves traffic within a district, connecting villages to the feeder network** ← |\n| **URBAN / MUNICIPAL ROAD** ← | **Within municipal areas, serving local access** ← |\n\n> **THE CLASSIFICATION IS BY FUNCTION AND NOT BY SURFACE OR CONDITION, WHICH IS THE POINT OPTION (a) MISSES: a national highway may be earthen in a remote stretch and a feeder road may be blacktopped where traffic justifies it.**\n\n> **The class describes the road's ROLE in the network, and the standard to which it should eventually be built follows from that role.**\n\n> **So an unsealed national highway is a national highway that has not yet been built to its proper standard, not a road of lower class.**\n\n> **The distinction matters administratively because the class determines who is responsible: the Department of Roads maintains national highways and feeder roads, while district and urban roads fall to local government — so misclassifying a road misdirects its maintenance funding for years.**\n\n**THE FUNCTIONAL HIERARCHY BEHIND THE CLASSIFICATION IS WORTH UNDERSTANDING SINCE IT APPLIES UNIVERSALLY:**\n\n| Function | Characteristic |\n|---|---|\n| **MOBILITY — moving traffic long distances quickly** ← | **Few access points, higher speed, controlled junctions** ← |\n| **ACCESS — reaching individual properties** ← | **Many access points, low speed, frequent junctions** ← |\n| **The two are in direct CONFLICT** ← | **Every access point interrupts the through movement** ← |\n\n> **THE THIRD ROW IS THE CENTRAL IDEA OF ROAD HIERARCHY AND IT EXPLAINS WHY THE CLASSES EXIST AT ALL: a road cannot serve both functions well.**\n\n> **A highway with a shop entrance every fifty metres carries through traffic badly and dangerously.**\n\n> **A residential street designed for through movement is unpleasant and unsafe for the people living on it.**\n\n> **So the network separates the functions by class — arterials for mobility with access controlled, local roads for access with through movement discouraged, and collectors mediating between them — and a network in which that separation has broken down performs badly at both jobs regardless of how well any individual road is built.**\n\n> **RIBBON DEVELOPMENT ALONG NEPAL'S HIGHWAYS IS EXACTLY THIS BREAKDOWN AND IT IS WORTH NAMING AS A PLANNING FAILURE RATHER THAN A NUISANCE: buildings, shops and bus stops line the Mahendra Highway for long stretches, each generating turning movements, pedestrians and parked vehicles.**\n\n> **The road was built for mobility and has acquired an access function it was not designed for, and the result is the accident concentration and the speed collapse that those stretches show.**\n\n> **The remedies — service roads parallel to the highway, controlled access, bypasses around settlements — all work by RESTORING the separation of functions.**\n\n> **And they are far more expensive applied afterwards than the land-use control that would have prevented the development, which is a planning lesson rather than an engineering one and is the reason highway alignment and land-use planning must be done together.**",
@@ -45,7 +45,7 @@
       "options": [
         "Detailed survey, then reconnaissance, then map study, then preliminary survey",
         "Preliminary survey, then map study, then detailed survey, then reconnaissance",
-        "MAP (desk) STUDY, then RECONNAISSANCE, then PRELIMINARY survey, then DETAILED (final location) survey",
+        "Map (desk) study, then reconnaissance, then preliminary survey, then detailed (final location) survey",
         "Map study and detailed survey only, the intermediate stages being unnecessary"
       ],
       "answerIndex": 2,
@@ -77,7 +77,7 @@
       "stem": "The RULING GRADIENT (design gradient) on a hill road is:",
       "options": [
         "The maximum gradient that may be used anywhere on the road under any circumstances",
-        "The gradient adopted for the NORMAL design of the road's vertical alignment",
+        "The gradient adopted for the normal design of the road's vertical alignment",
         "The average gradient of the whole road from end to end",
         "The gradient below which no drainage is required"
       ],
@@ -112,7 +112,7 @@
         "Provide a place for vehicles to park and rest",
         "Improve the view for travellers",
         "Reduce the road's construction cost by shortening it",
-        "GAIN HEIGHT within a limited horizontal distance"
+        "Gain height within a limited horizontal distance"
       ],
       "answerIndex": 3,
       "solution": "**To GAIN HEIGHT within a limited horizontal distance** — turning the alignment back on itself so the ruling gradient can be maintained where the hillside is too steep to climb directly.\n\n**Why a hairpin is sometimes unavoidable:**\n\n| Point | Note |\n|---|---|\n| **A road must gain height at no more than the ruling gradient** ← | ← |\n| **So gaining 100 m at 5 per cent requires 2,000 m of road length** ← | ← |\n| **On a spur or a narrow valley, there may be no 2,000 m of hillside available in one direction** ← | ← |\n| **So the alignment must double back to find the length** ← | ← |\n| **Each hairpin adds height at the cost of a very sharp curve** ← | ← |\n\n> **THE SECOND ROW IS THE ARITHMETIC THAT GOVERNS HILL ALIGNMENT AND IT IS WORTH INTERNALISING: at 5 per cent, every metre of height costs twenty metres of road.**\n\n> **A 600 m climb therefore requires 12 km of road, however direct the route looks on a map.**\n\n> **That is why hill roads are so much longer than the straight-line distance, and why a village visible across a valley may be an hour's drive away.**\n\n> **And it is why reducing the ruling gradient is so costly in hill terrain — the length, and therefore the earthwork, the structures and the slope stabilisation, all scale inversely with it.**\n\n**THE DESIGN REQUIREMENTS FOR A HAIRPIN ARE SPECIFIC AND THEY EXIST BECAUSE THE BEND IS INHERENTLY DIFFICULT:**\n\n| Requirement | Typical provision |\n|---|---|\n| **Locate it on the most STABLE and gently sloping ground available** ← | **A spur nose or a bench, never a gully or a slide zone** ← |\n| **A generous minimum RADIUS at the inner edge** ← | **Commonly 14 to 20 m for a hill road, set by the design vehicle's turning circle** ← |\n| **WIDENING of the carriageway through the bend** ← | **A long vehicle's rear wheels track inside the front wheels — the off-tracking allowance** ← |\n| **A FLAT or very gentle gradient through the bend itself** ← | **Commonly limited to 2.5% — a steep grade on a sharp curve is the worst combination** ← |\n| **Full SUPERELEVATION, applied through the bend** ← | ← |\n| **Adequate spacing between successive hairpins** ← | **So that drivers and vehicles recover between them** ← |\n\n> **THE FOURTH ROW COMBINES WITH THE GRADE COMPENSATION PRINCIPLE AND IT IS THE MOST IMPORTANT GEOMETRIC RULE FOR A HAIRPIN: the bend must be nearly LEVEL.**\n\n> **A long vehicle negotiating a 15 m radius turn is already using most of its tractive effort against curve resistance and most of its steering lock.**\n\n> **Adding a 6 per cent grade may exceed what it can manage, and a vehicle that stalls on a hairpin blocks the road completely — there being no width to pass and no alternative route.**\n\n> **So the height gain is made on the STRAIGHTS between the hairpins and not through the bends themselves, which means the straights carry a steeper gradient than the average and the bends carry almost none.**\n\n> **THE FIRST ROW IS WHERE HILL ROAD ALIGNMENT IS MOST OFTEN COMPROMISED AND THE CONSEQUENCE IS LONG-LASTING: a hairpin requires a wide, level platform, which means a large cut on the hillside or a large fill.**\n\n> **The tempting places to put one are the gullies, where the topography already forms a re-entrant of about the right shape.**\n\n> **Those are precisely the worst places — a gully concentrates water and is often the head of an existing or potential slide, and a wide bench cut there destabilises it further.**\n\n> **The right place is a SPUR, where the ground is convex, the drainage divides rather than concentrates, and a bench can be cut into stable material — and the difference between a hairpin on a spur and one in a gully is often the difference between a road that needs occasional maintenance and one that fails every monsoon.**",
@@ -142,7 +142,7 @@
       "marks": 1,
       "stem": "Comparing a VALLEY (river) alignment with a RIDGE alignment for a hill road, the valley route generally offers:",
       "options": [
-        "Easier gradients and shorter length, but greater exposure to FLOODING, landslides from the valley sides, and numerous tributary crossings",
+        "Easier gradients and shorter length, but greater exposure to flooding, landslides from the valley sides, and numerous tributary crossings",
         "Greater stability and fewer stream crossings",
         "Better access to settlements, which are concentrated on valley floors in Nepal's hills",
         "Lower construction cost in every respect"
@@ -175,7 +175,7 @@
       "marks": 1,
       "stem": "The SATURATION SYSTEM of road planning, used in the Nagpur and subsequent road plans, allocates road length on the basis of:",
       "options": [
-        "MAXIMUM UTILITY",
+        "Maximum utility",
         "The revenue each district generates",
         "The length of road already existing in each district",
         "The political importance of each region"
@@ -210,7 +210,7 @@
       "options": [
         "The width of the carriageway available to moving vehicles",
         "The legal priority a vehicle has at a junction",
-        "The total LAND WIDTH acquired and legally reserved for the road and its future development",
+        "The total land width acquired and legally reserved for the road and its future development",
         "The width between the outer edges of the side drains only"
       ],
       "answerIndex": 2,
@@ -307,7 +307,7 @@
       "marks": 1,
       "stem": "A TRAFFIC VOLUME COUNT for a road improvement project should be conducted:",
       "options": [
-        "Over a period long enough to capture DAILY, WEEKLY and SEASONAL variation",
+        "Over a period long enough to capture daily, weekly and seasonal variation",
         "For a single day at the busiest location, which represents the road adequately",
         "Only during the monsoon, when traffic is heaviest",
         "Only at night, when counting is easier"
@@ -342,7 +342,7 @@
       "options": [
         "The total number of vehicles passing a point in a day",
         "The speed at which vehicles travel between two points",
-        "WHERE journeys begin and end",
+        "Where journeys begin and end",
         "The condition of the road surface along a route"
       ],
       "answerIndex": 2,
@@ -376,7 +376,7 @@
         "Noise from traffic using the completed road",
         "Air pollution from vehicle exhaust",
         "Loss of agricultural land under the road formation itself",
-        "SLOPE INSTABILITY AND EROSION"
+        "Slope instability AND erosion"
       ],
       "answerIndex": 3,
       "solution": "**SLOPE INSTABILITY AND EROSION** — the cut slopes, the tipped spoil and the concentrated drainage initiating landslides and gullying that continue to deliver sediment and to threaten land and property for many years after construction.\n\n**Why this impact dominates the others:**\n\n| Point | Note |\n|---|---|\n| **It extends far BEYOND the road's own footprint** ← | **A slide below a road can destroy fields and houses hundreds of metres downslope** ← |\n| **It PERSISTS and often worsens for years** ← | **Unlike noise or dust, which end with construction or are confined to the road** ← |\n| **It is largely IRREVERSIBLE once a large slide is initiated** ← | ← |\n| **It delivers sediment to rivers, affecting downstream irrigation and hydropower** ← | **A cumulative regional impact** ← |\n| **And it endangers life, which the other impacts generally do not** ← | ← |\n\n> **THE FIRST ROW IS WHAT MAKES THE IMPACT SO DISPROPORTIONATE AND IT IS WORTH QUANTIFYING: a road may occupy a 10 m strip and destabilise a slope 200 m deep.**\n\n> **So the area affected can be twenty times the area taken, and the affected land belongs to people who received no compensation because their land was not acquired.**\n\n> **That mismatch — between who is compensated and who is harmed — is a recurring source of grievance on Nepali road projects and it is entirely predictable from the engineering.**\n\n> **An impact assessment that considers only the acquired corridor therefore misses most of the harm, and a compensation framework tied to land acquisition misses most of the people affected.**\n\n**THE ENGINEERING CAUSES ARE SPECIFIC AND EACH HAS A KNOWN REMEDY:**\n\n| Cause | Remedy |\n|---|---|\n| **SPOIL side-tipped down the slope** ← | **Retain all spoil in engineered fill or designated tipping sites; balance cut and fill** ← |\n| **Cut slopes too STEEP for the material** ← | **Slope angles set by the material, benched where high, with drainage** ← |\n| **Drainage CONCENTRATED and discharged onto an unprotected slope** ← | **Lined chutes to a safe outfall, with energy dissipation** ← |\n| **Culvert outfalls discharging onto bare hillside** ← | **The single commonest cause of gully initiation below a hill road** ← |\n| **Vegetation stripped over a wide construction width** ← | **Minimise the width; replant immediately** ← |\n| **Blasting damaging the rock mass beyond the excavation** ← | **Controlled perimeter blasting** ← |\n\n> **THE FOURTH ROW DESERVES SINGLING OUT BECAUSE IT IS SO COMMON, SO DAMAGING AND SO CHEAP TO PREVENT: a culvert collects the drainage of a catchment above the road and discharges it at one point.**\n\n> **Discharged onto the hillside without protection, that concentrated flow cuts a gully, the gully deepens and works back, and in time it undermines the culvert and the road above it.**\n\n> **The remedy is a lined chute carrying the flow down to a natural watercourse, with a dissipator at the bottom — which costs a small fraction of the culvert itself.**\n\n> **Its omission is the reason so many hill road culverts are found perched above a deep gully of their own making, and repairing that afterwards costs many times what the chute would have.**\n\n> **THE PROPER TREATMENT OF THESE IMPACTS IN THE PROJECT CYCLE IS THE CLOSING POINT AND IT IS A MATTER OF TIMING: every remedy above is cheap when designed in and expensive when retrofitted.**\n\n> **The tipping sites must be identified before excavation begins, the chutes must be built as the culverts are built, and the bio-engineering must be planted in the first season after cutting so that it is established before the slopes have degraded.**\n\n> **A project that completes its earthworks and then commissions a slope stabilisation package has already incurred most of the damage and is paying to repair it.**\n\n> **So the environmental management plan must be integrated into the construction programme and the contract, with the remedies as work items on the same programme as the earthworks — not as a separate environmental contract to follow, which is how it is too often arranged and why it too often arrives late.**",
@@ -407,7 +407,7 @@
       "stem": "In the economic evaluation of a road project, VEHICLE OPERATING COST (VOC) savings are usually the largest quantified benefit. VOC includes:",
       "options": [
         "Only the cost of fuel consumed",
-        "Fuel, lubricants, TYRES, maintenance and repair, depreciation, crew time and interest on capital",
+        "Fuel, lubricants, tyres, maintenance and repair, depreciation, crew time and interest on capital",
         "Only the driver's wages and the vehicle's depreciation",
         "The toll charges paid by the vehicle's owner"
       ],
@@ -441,7 +441,7 @@
       "options": [
         "Traffic diverted from a parallel route onto the improved road",
         "Traffic that existed before the improvement and continues to use the road",
-        "NEW trips that would not have been made at all without the improvement",
+        "New trips that would not have been made at all without the improvement",
         "Traffic generated by the construction works themselves"
       ],
       "answerIndex": 2,
@@ -475,7 +475,7 @@
         "Provide superelevation on straight sections",
         "Increase the road's structural strength",
         "Allow vehicles to drain fuel spillage to the side",
-        "DRAIN rainwater from the carriageway surface to the shoulders quickly"
+        "Drain rainwater from the carriageway surface to the shoulders quickly"
       ],
       "answerIndex": 3,
       "solution": "**To DRAIN rainwater from the carriageway surface to the shoulders quickly** — since water standing on or infiltrating the pavement is the principal cause of its deterioration and of skidding.\n\n**Typical camber values by surface type:**\n\n| Surface | Camber |\n|---|---|\n| **Cement concrete and high-quality bituminous** ← | **1.7 to 2.0 per cent (1 in 60 to 1 in 50)** ← |\n| **Thin bituminous surfacing** ← | **2.0 to 2.5 per cent** ← |\n| **Water-bound macadam and gravel** ← | **2.5 to 3.0 per cent** ← |\n| **Earth road** ← | **3.0 to 4.0 per cent** ← |\n\n> **THE PROGRESSION IS THE RULE TO REMEMBER AND ITS LOGIC IS STRAIGHTFORWARD: the ROUGHER and more PERMEABLE the surface, the STEEPER the camber required.**\n\n> **A smooth impermeable surface sheds water readily and needs little slope; a rough permeable one holds water in its texture and lets it soak in, so it needs more slope to shed it before it infiltrates.**\n\n> **An earth road needs the most of all, and even then it will not stay shaped without regular grading.**\n\n> **So the camber is set by the surface's own drainage behaviour rather than by the rainfall, which is why the same values apply across very different climates.**\n\n**THE UPPER LIMIT ON CAMBER IS AS IMPORTANT AS THE LOWER AND IT IS WHY THE VALUES ARE SO MODEST:**\n\n| Consequence of EXCESSIVE camber | Note |\n|---|---|\n| **Vehicles tend to drift toward the edge** ← | **Requiring continuous steering correction** ← |\n| **Uncomfortable for occupants** ← | ← |\n| **Dangerous on a wet or icy surface — a vehicle can slide sideways** ← | ← |\n| **Difficult for slow two-wheeled vehicles and for animal-drawn carts** ← | ← |\n| **Overtaking vehicles cross the crown and are momentarily tilted the other way** ← | **A destabilising motion at speed** ← |\n\n> **THE LAST ROW IS AN EFFECT THAT IS EASILY OVERLOOKED AND IT SETS THE PRACTICAL LIMIT ON A TWO-LANE ROAD: a vehicle overtaking crosses from one camber slope to the other, rolling first one way and then the other.**\n\n> **At a modest camber that is unnoticeable; at a steep one it is a distinct lurch, occurring at the moment the driver is most committed and least able to respond.**\n\n> **So the camber must be small enough that crossing the crown is a non-event, which is why 2 to 2.5 per cent is the practical maximum on a sealed two-lane road however much one might want steeper drainage.**\n\n> **Where more drainage capacity is needed the answer is a more impermeable surface, better longitudinal drainage or a narrower carriageway, not a steeper camber.**\n\n**AND THE SHAPE OF THE CAMBER DESERVES A NOTE SINCE SEVERAL FORMS EXIST:**\n\n| Form | Note |\n|---|---|\n| **PARABOLIC (barrel) camber** ← | **Steeper at the edges, flat at the crown — good drainage at the edge and comfortable at the centre** ← |\n| **STRAIGHT-LINE camber** ← | **Two plane surfaces meeting at the crown — simplest to construct and to check** ← |\n| **COMBINATION — straight over the outer portions, parabolic at the crown** ← | **Removes the sharp crown while keeping construction simple** ← |\n| **UNIDIRECTIONAL (one-way crossfall)** ← | **The whole width sloping one way — used on divided carriageways and through curves** ← |\n\n> **The fourth row is the standard arrangement on a dual carriageway and it has a distinct advantage worth noting: water crosses only half the width before reaching the edge, since there is no crown to drain away from.**\n\n> **So the drainage path is shorter and the surface clears faster for the same crossfall.**\n\n> **The straight-line form in the second row is the practical choice for most single carriageways, because a parabolic camber is difficult to construct accurately and almost impossible to verify with a straight edge.**\n\n> **That constructability consideration usually outweighs the parabolic form's theoretical superiority, which is a reminder that a shape which cannot be built or checked to tolerance is not in practice better than a simpler one that can.**",
@@ -572,7 +572,7 @@
       "stem": "STOPPING SIGHT DISTANCE (SSD) is made up of:",
       "options": [
         "The braking distance alone",
-        "The distance travelled during the driver's REACTION TIME plus the BRAKING DISTANCE",
+        "The distance travelled during the driver's reaction time plus the braking distance",
         "The distance to the nearest road sign plus the braking distance",
         "Twice the braking distance, to allow for a second vehicle"
       ],
@@ -604,7 +604,7 @@
       "marks": 1,
       "stem": "SUPERELEVATION is provided on a horizontal curve to:",
       "options": [
-        "Counteract the CENTRIFUGAL FORCE acting on a vehicle",
+        "Counteract the centrifugal force acting on a vehicle",
         "Improve the drainage of the curve",
         "Compensate for the gradient of the road at the curve",
         "Allow vehicles to overtake more easily on the curve"
@@ -639,7 +639,7 @@
       "options": [
         "Reduce the length of the circular curve required",
         "Provide a place to locate road signs",
-        "Introduce the CENTRIFUGAL FORCE and the SUPERELEVATION gradually",
+        "Introduce the centrifugal force and the superelevation gradually",
         "Make the curve appear longer to the driver"
       ],
       "answerIndex": 2,
@@ -673,7 +673,7 @@
         "Vehicles travel faster on curves and need more room",
         "The pavement is weaker on curves",
         "Drainage requires a wider surface on curves",
-        "A vehicle's REAR WHEELS track INSIDE its front wheels on a curve (mechanical widening) and drivers need extra clearance to steer accurately at speed (psychological widening)"
+        "A vehicle's rear wheels track inside its front wheels on a curve (mechanical widening) and drivers need extra clearance to steer accurately at speed (psychological widening)"
       ],
       "answerIndex": 3,
       "solution": "**A vehicle's REAR WHEELS track INSIDE its front wheels on a curve (mechanical widening) and drivers need extra clearance to steer accurately at speed (psychological widening)** — so the vehicle occupies more width than on a straight.\n\n**The two components:**\n\n| Component | Expression | Cause |\n|---|---|---|\n| **MECHANICAL widening** | **Wm = n L² / (2 R)** ← | **Off-tracking — the rear wheels cut the corner** ← |\n| **PSYCHOLOGICAL widening** | **Wps = V / (9.5 √R)** ← | **Drivers keep further from the edge and from each other on a curve** ← |\n| **Total** | **We = n L²/(2R) + V/(9.5√R)** ← | **n = number of lanes, L = wheelbase, V in km/h, R in m** ← |\n\n> **THE MECHANICAL TERM'S DEPENDENCE ON WHEELBASE SQUARED IS THE POINT THAT MATTERS MOST IN PRACTICE: a long vehicle off-tracks far more than a short one, and the effect grows with the square of the wheelbase.**\n\n> **So a car with a 2.5 m wheelbase on a 30 m radius needs about 0.10 m of widening, and a truck with a 6 m wheelbase on the same curve needs 0.60 m — six times as much for a wheelbase 2.4 times as long.**\n\n> **An articulated vehicle, whose effective wheelbase is longer still, needs more again.**\n\n> **So the widening must be computed for the DESIGN VEHICLE, and designing for a car on a route that carries trucks produces a curve on which trucks cannot stay in their lane — which on a two-lane hill road means they occupy the oncoming lane on every bend.**\n\n**WHY THE WIDENING IS APPLIED ON THE INSIDE OF THE CURVE:**\n\n| Point | Note |\n|---|---|\n| **Off-tracking moves the rear wheels toward the INSIDE of the curve** ← | ← |\n| **So the space the vehicle needs beyond its lane is on the inside** ← | ← |\n| **Hence widening is applied to the INNER edge on a simple curve** ← | ← |\n| **Though on a curve with transitions it is commonly split, half on each side** ← | **Which is easier to construct and looks better** ← |\n| **And on a hairpin the full widening goes inside** ← | ← |\n\n> **THE THIRD ROW IS THE RULE AND ITS LOGIC IS DIRECTLY PHYSICAL: the rear wheels cut the corner, so the extra space must be where they cut to.**\n\n> **Widening the outside of a curve provides room where nothing needs it and leaves the inside as tight as before, which achieves nothing for the vehicle that needed it.**\n\n> **The practice in the fourth row — splitting the widening — is a construction convenience adopted where a transition curve allows the widening to be introduced gradually on both sides, and it works because the transition gives room to develop the extra width smoothly.**\n\n> **On a sharp curve without transitions, applying it all to the inside is both correct and necessary.**\n\n> **THE PSYCHOLOGICAL TERM DESERVES DEFENDING BECAUSE IT SOUNDS SOFTER THAN IT IS: drivers genuinely do position themselves further from the edge and from oncoming traffic on a curve, and they do so because their lateral control is less precise when steering.**\n\n> **That is a measurable behaviour rather than a matter of nervousness, and a lane that does not accommodate it is a lane in which vehicles encroach on the adjacent one.**\n\n> **Its formula's dependence on speed and on the inverse root of radius captures the behaviour well — faster and sharper both increase the clearance drivers take.**\n\n> **So both terms are real, they add, and omitting the psychological term because it sounds unscientific produces curves that measure adequate and drive narrow.**",
@@ -771,7 +771,7 @@
       "options": [
         "The comfort of passengers, since the vertical acceleration is the critical factor",
         "The need to drain water from the curve",
-        "SIGHT DISTANCE — the crest itself obstructs the view, so the curve must be long enough that a driver can see the required stopping distance over it",
+        "Sight distance — the crest itself obstructs the view, so the curve must be long enough that a driver can see the required stopping distance over it",
         "The maximum permissible rate of change of grade for construction plant"
       ],
       "answerIndex": 2,
@@ -838,7 +838,7 @@
         "Sag curves are more common on roads used at night",
         "Vehicles travel faster at night on sag curves",
         "Headlights are brighter than daylight at close range",
-        "The headlight beam is directed along the vehicle's axis and the road curves UPWARD away from it"
+        "The headlight beam is directed along the vehicle's axis and the road curves upward away from it"
       ],
       "answerIndex": 3,
       "solution": "**The headlight beam is directed along the vehicle's axis and the road curves UPWARD away from it, so the length of road illuminated ahead is limited** — whereas by day nothing obstructs the view at all.\n\n**The geometry of the problem:**\n\n| Point | Note |\n|---|---|\n| **Headlights are mounted about 0.75 m above the road** ← | ← |\n| **The beam is aimed slightly upward — a 1 degree divergence is assumed** ← | ← |\n| **On a sag, the road ahead rises relative to the vehicle's current attitude** ← | ← |\n| **So the beam strikes the road surface at a limited distance and illuminates no further** ← | ← |\n| **Beyond that point the road is dark, whatever the geometric sight line** ← | ← |\n\n> **THE FIFTH ROW IS THE ESSENTIAL DISTINCTION AND IT IS WHY THIS CRITERION EXISTS SEPARATELY FROM SIGHT DISTANCE: a driver can only stop for what can be SEEN, and at night that means what is ILLUMINATED.**\n\n> **The geometric sight distance in a sag is effectively unlimited, so a daytime analysis finds no problem at all.**\n\n> **At night the illuminated distance may be well short of the stopping distance, and the driver is then over-driving the headlights.**\n\n> **So the sag curve must be long enough — flat enough — that the headlight beam reaches at least the stopping sight distance ahead, and that requirement has nothing to do with the daytime geometry.**\n\n**THE FORMULAE AND THE SECOND CRITERION:**\n\n| Criterion | Expression |\n|---|---|\n| **HEADLIGHT sight distance, L > S** | **L = N S² / (1.5 + 0.035 S)** ← |\n| **HEADLIGHT sight distance, L < S** | **L = 2S − (1.5 + 0.035 S) / N** ← |\n| **COMFORT criterion** | **L = 0.38 (N V²)^0.5 ... commonly given as L = N V² / (3.9 × c), with c the allowable centrifugal acceleration** ← |\n| **Adopt the GREATER of the two** | ← |\n\n> **THE 1.5 IN THE HEADLIGHT FORMULA IS TWICE THE HEADLIGHT HEIGHT OF 0.75 m, AND THE 0.035 IS THE TANGENT OF THE 1 DEGREE BEAM DIVERGENCE MULTIPLIED BY 2 — so both constants are physical rather than arbitrary, and knowing that makes the formula reconstructable.**\n\n> **The comfort criterion arises because a sag subjects occupants to an UPWARD centrifugal acceleration, which adds to gravity and is felt as increased weight.**\n\n> **That is tolerable up to about 0.3 m/s² and unpleasant beyond it, which is what the comfort formula limits.**\n\n> **In practice the headlight criterion almost always governs on a road designed for night use, and the comfort criterion governs only where the road is lit or where design speeds are low — so the headlight formula is the one to reach for first, with the comfort check confirming rather than deciding.**\n\n> **A FURTHER CONSIDERATION APPLIES IN SAGS THAT THE FORMULAE DO NOT CAPTURE AND IT IS WORTH KNOWING: a sag is where water collects and where cold air pools.**\n\n> **So a sag on a hill road is the place where ice forms first and persists longest, and where fog lies when the surrounding road is clear.**\n\n> **Both conditions reduce the friction and the visibility precisely where the alignment is already demanding.**\n\n> **So a sag at the bottom of a long descent, which is the commonest place for one, combines a high approach speed, a possible ice patch and a limited headlight distance — and recognising that combination as a hazard cluster rather than three separate minor issues is what a road safety audit contributes beyond the design calculations.**",
@@ -868,7 +868,7 @@
       "marks": 1,
       "stem": "The minimum radius of a horizontal curve for a given design speed is determined by:",
       "options": [
-        "Setting both the superelevation and the side friction to their MAXIMUM permissible values in e + f = V²/(127R) and solving for R",
+        "Setting both the superelevation and the side friction to their maximum permissible values in e + f = V²/(127R) and solving for R",
         "The length of the longest vehicle expected to use the road",
         "The width of the available right of way",
         "The rate at which the transition curve can introduce superelevation"
@@ -903,7 +903,7 @@
       "options": [
         "Vehicles can park off the carriageway",
         "Drainage water can be discharged clear of the road",
-        "The required SIGHT DISTANCE is available along the chord of the curve",
+        "The required sight distance is available along the chord of the curve",
         "Snow cleared from the carriageway can be stored"
       ],
       "answerIndex": 2,
@@ -935,7 +935,7 @@
       "stem": "In the design of a road INTERSECTION, the primary objective of channelisation using islands and markings is to:",
       "options": [
         "Increase the intersection's total paved area",
-        "REDUCE the CONFLICT AREA and control the angle and location of conflicts",
+        "Reduce the conflict area and control the angle and location of conflicts",
         "Provide space for vendors and parking",
         "Increase vehicle speeds through the junction"
       ],
@@ -1001,7 +1001,7 @@
       "stem": "PASSING PLACES on a single-lane hill road should be provided:",
       "options": [
         "Only at the start and end of the road",
-        "At regular intervals AND at locations INTERVISIBLE with one another",
+        "At regular intervals AND at locations intervisible with one another",
         "Only where the road is already wide enough, requiring no construction",
         "At intervals of exactly one kilometre regardless of the terrain"
       ],
@@ -1035,7 +1035,7 @@
       "options": [
         "Increased, to help vehicles maintain momentum through the curve",
         "Left unchanged, since the curve does not affect tractive requirements",
-        "REDUCED through the curve",
+        "Reduced through the curve",
         "Replaced by a level section of at least 50 m"
       ],
       "answerIndex": 2,
@@ -1069,7 +1069,7 @@
         "A horizontal curve extending slightly beyond the vertical curve at both ends",
         "A gentle horizontal curve coinciding with a long sag curve",
         "A straight section coinciding with a constant gradient",
-        "A sharp HORIZONTAL curve located at or near the top of a SUMMIT curve"
+        "A sharp horizontal curve located at or near the top of a summit curve"
       ],
       "answerIndex": 3,
       "solution": "**A sharp HORIZONTAL curve located at or near the top of a SUMMIT curve** — since the crest hides the curve from the approaching driver until it is too late to react.\n\n**Why this particular combination is so dangerous:**\n\n| Point | Note |\n|---|---|\n| **A summit curve limits the distance a driver can see ahead** ← | ← |\n| **A driver approaching a crest sees only the road surface up to the crest itself** ← | ← |\n| **Beyond it, the road may go anywhere and the driver cannot tell** ← | ← |\n| **If it turns sharply, the driver discovers this only on reaching the crest** ← | ← |\n| **By which time the available distance may be less than the stopping distance** ← | ← |\n| **And the driver's approach speed was chosen on the assumption the road continued straight** ← | ← |\n\n> **THE LAST ROW IS THE ASPECT THAT MAKES IT WORSE THAN A SIGHT DISTANCE DEFICIENCY ALONE: the crest does not merely hide the curve, it actively suggests there is none.**\n\n> **A road disappearing over a crest reads visually as continuing straight, because that is what the visible alignment implies.**\n\n> **So the driver is not merely uninformed but MISLED, and approaches at a speed appropriate to a straight road.**\n\n> **A sight distance restriction that the driver can perceive — a cutting, a bend into trees — prompts caution; one that looks like open road does not, and that difference is why this combination appears so consistently in accident records.**\n\n**THE PRINCIPLES OF ALIGNMENT COORDINATION:**\n\n| Principle | Note |\n|---|---|\n| **The horizontal curve should be somewhat LONGER than the vertical curve, overlapping it at both ends** ← | **So the driver sees the horizontal curve begin before reaching the crest** ← |\n| **Curves in the two planes should be PHASED — beginning and ending at about the same chainage** ← | ← |\n| **Avoid a sharp horizontal curve at or just beyond a summit** ← | **The rule above** ← |\n| **Avoid a sharp horizontal curve at the bottom of a steep descent** ← | **High approach speed, and water and ice collect there** ← |\n| **Avoid short vertical curves within a long horizontal curve** ← | **Producing a visually broken, undulating appearance** ← |\n| **Avoid a series of short curves and grades producing a 'roller-coaster' profile** ← | ← |\n\n> **THE FIRST ROW IS THE POSITIVE VERSION OF THE RULE AND IT IS THE ONE TO APPLY IN DESIGN: let the horizontal curve start BEFORE the crest.**\n\n> **The driver then sees the road curving as they approach, understands what is coming, and adjusts speed in advance.**\n\n> **The same sharp curve, properly phased with the vertical alignment, becomes an ordinary and safe piece of road.**\n\n> **So the hazard is not the curve or the crest individually but their relative POSITION, and shifting one by fifty metres can transform the location at essentially no cost if it is done at the design stage.**\n\n> **THE SECOND ROW'S PHASING PRINCIPLE HAS AN AESTHETIC DIMENSION THAT IS MORE THAN COSMETIC: a road whose horizontal and vertical curves are phased looks coherent and flows naturally, and one whose curves are offset looks broken and confusing.**\n\n> **A driver reads the road ahead largely from its apparent shape, so a road that looks coherent is a road that is correctly understood.**\n\n> **Visual appearance is therefore a safety attribute rather than a matter of taste, and the 'looks wrong' judgement of an experienced designer looking at a perspective view or a drive-through model is a legitimate technical assessment.**\n\n> **That is why three-dimensional visualisation of an alignment before construction is worth doing — it reveals coordination faults that plan and profile drawings, examined separately, conceal by their very separation.**",
@@ -1134,7 +1134,7 @@
       "options": [
         "The aggregate's resistance to crushing under a slowly applied compressive load",
         "The aggregate's water absorption",
-        "The aggregate's resistance to ABRASION and IMPACT combined",
+        "The aggregate's resistance to abrasion and impact combined",
         "The shape of the aggregate particles"
       ],
       "answerIndex": 2,
@@ -1168,7 +1168,7 @@
         "Measure the bitumen content of a mix",
         "Determine the optimum moisture content of a soil",
         "Measure the compressive strength of concrete used in rigid pavements",
-        "Express a soil's or an aggregate's resistance to penetration as a PERCENTAGE of that of a standard crushed stone"
+        "Express a soil's or an aggregate's resistance to penetration as a percentage of that of a standard crushed stone"
       ],
       "answerIndex": 3,
       "solution": "**Express a soil's or an aggregate's resistance to penetration as a PERCENTAGE of that of a standard crushed stone** — giving an empirical index of SUBGRADE or layer strength from which pavement thickness is read off design curves.\n\n**The test in outline:**\n\n| Step | Note |\n|---|---|\n| **The soil is compacted in a standard mould at a specified density and moisture** ← | ← |\n| **Usually SOAKED for 4 days with a surcharge, to simulate the worst likely condition** ← | ← |\n| **A plunger of 50 mm diameter is driven in at 1.25 mm/min** ← | ← |\n| **The load is recorded at 2.5 mm and 5.0 mm penetration** ← | ← |\n| **Each is expressed as a percentage of the standard load — 1370 kg at 2.5 mm, 2055 kg at 5.0 mm** ← | ← |\n| **The HIGHER of the two percentages is reported as the CBR** ← | **Normally the 2.5 mm value governs; if the 5 mm value is higher, the test is repeated and if confirmed, the 5 mm value is taken** ← |\n\n> **THE SOAKING IN THE SECOND ROW IS THE MOST IMPORTANT FEATURE OF THE TEST AS PRACTISED AND ITS OMISSION IS A SERIOUS ERROR: a subgrade's strength falls dramatically when it is saturated.**\n\n> **A soil with an unsoaked CBR of 15 may have a soaked CBR of 4.**\n\n> **The pavement must survive the worst condition the subgrade will experience, which in a monsoon climate is saturation.**\n\n> **So the soaked value is the design value, and using an unsoaked CBR because the laboratory was pressed for time produces a pavement designed for a subgrade strength that will not exist when it rains — which is precisely when the pavement is most vulnerable.**\n\n**THE SIXTH ROW'S RULE IS A COMMON EXAMINATION POINT AND IT IS WORTH BEING PRECISE ABOUT:**\n\n| Situation | Action |\n|---|---|\n| **CBR at 2.5 mm is greater than at 5.0 mm** ← | **Normal. Report the 2.5 mm value** ← |\n| **CBR at 5.0 mm is greater** ← | **Unusual. REPEAT the test** ← |\n| **If the repeat confirms it** ← | **Report the 5.0 mm value** ← |\n\n> **THE REQUIREMENT TO REPEAT RATHER THAN SIMPLY TAKE THE HIGHER VALUE IS THE PART MOST OFTEN MISSTATED, and it exists because the anomaly usually indicates a problem with the test rather than a property of the soil.**\n\n> **A stone under the plunger, a poorly prepared surface, or non-uniform compaction can all produce it.**\n\n> **So the anomalous result is treated as suspect until confirmed, and only a confirmed anomaly is accepted as real.**\n\n> **That is a sound general principle for any test — an unexpected result is a reason to check the test before revising the understanding, and the CBR procedure writes that principle into the standard.**\n\n**THE TEST'S NATURE AS AN EMPIRICAL INDEX DESERVES A CLOSING NOTE BECAUSE IT BOUNDS WHAT CAN BE DONE WITH IT:**\n\n| Point | Note |\n|---|---|\n| **CBR is not a fundamental engineering property** ← | **It is not a modulus, a strength or a stiffness** ← |\n| **It is an INDEX, correlated empirically with pavement performance** ← | ← |\n| **So it can only be used with design methods CALIBRATED against it** ← | ← |\n| **It cannot be inserted into a mechanistic analysis directly** ← | **Though correlations to resilient modulus exist, such as E ≈ 10 CBR in MPa** ← |\n| **And those correlations are approximate and scatter widely** ← | ← |\n\n> **The fourth row's correlation is widely used and worth knowing, with the caveat the fifth row states: E (MPa) ≈ 10 × CBR is the common rule for fine-grained subgrades at low CBR values.**\n\n> **It lets a CBR-based site investigation feed a mechanistic-empirical design, which is how most modern pavement design is done.**\n\n> **But the scatter is large — a factor of two either way is not unusual — so a design resting entirely on a converted CBR carries that uncertainty.**\n\n> **Where the design is critical or the pavement expensive, measuring the modulus directly with a falling weight deflectometer or a plate load test removes the conversion and its uncertainty, and is worth the extra cost for exactly that reason.**",
@@ -1234,7 +1234,7 @@
         "Contains no bitumen at all",
         "Must be heated to above 150 °C before use",
         "Is used only for concrete pavements",
-        "Disperses bitumen in WATER with an emulsifying agent"
+        "Disperses bitumen in water with an emulsifying agent"
       ],
       "answerIndex": 3,
       "solution": "**It disperses bitumen in WATER with an emulsifying agent, so it can be applied COLD and sets by the water separating and evaporating** — whereas a cutback dissolves bitumen in a volatile petroleum solvent that must evaporate.\n\n**The two compared:**\n\n| Aspect | EMULSION | CUTBACK |\n|---|---|---|\n| **Bitumen dispersed in** | **WATER, with an emulsifier** ← | **A petroleum SOLVENT — kerosene, diesel or naphtha** ← |\n| **Application** | **Cold or slightly warmed** ← | **Warmed, less than for hot bitumen** ← |\n| **Sets by** | **BREAKING — the water separating — then evaporating** ← | **Evaporation of the solvent** ← |\n| **Environmental effect** | **Water released; low emissions** ← | **Hydrocarbon solvent released to atmosphere** ← |\n| **Fire risk** | **Low** ← | **Significant — the solvents are flammable** ← |\n| **Works on damp aggregate** | **YES — an important advantage** ← | **NO — requires dry aggregate** ← |\n| **Cost of the volatile phase** | **Water — free** ← | **Petroleum solvent — expensive and lost to the air** ← |\n\n> **THE SIXTH ROW IS THE PRACTICAL ADVANTAGE THAT MATTERS MOST IN NEPAL AND IT IS DECISIVE FOR MONSOON-SEASON WORK: an emulsion will bond to a damp surface, because it is itself water-based.**\n\n> **A cutback or hot bitumen applied to damp aggregate does not adhere — the water film prevents contact, and the bond fails immediately or shortly afterwards.**\n\n> **Since it is difficult to guarantee dry aggregate in a monsoon climate, and since waiting for dryness costs working days, the emulsion's tolerance of dampness extends the working season considerably.**\n\n> **The fourth and seventh rows together are why emulsions have largely displaced cutbacks worldwide — releasing petroleum solvent to the atmosphere is both a pollution problem and a waste of an expensive material, whereas the emulsion's volatile phase is water.**\n\n**EMULSIONS ARE CLASSIFIED BY HOW FAST THEY BREAK AND BY THEIR CHARGE:**\n\n| Classification | Types | Use |\n|---|---|---|\n| **By SETTING rate** | **RS (rapid setting)** ← | **Surface dressing, tack coat — must break quickly on contact** ← |\n| ← | **MS (medium setting)** ← | **Premix with coarse aggregate** ← |\n| ← | **SS (slow setting)** ← | **Premix with fine aggregate, soil stabilisation, prime coat** ← |\n| **By CHARGE** | **CATIONIC (positively charged)** ← | **Suits negatively charged aggregates such as granite and quartzite — most common** ← |\n| ← | **ANIONIC (negatively charged)** ← | **Suits positively charged aggregates such as limestone** ← |\n\n> **THE CHARGE MATCHING IN THE LAST TWO ROWS IS THE ELEGANT PART OF EMULSION TECHNOLOGY AND IT IS WORTH UNDERSTANDING: the emulsified bitumen droplets carry an electrical charge, and they are attracted to aggregate of the OPPOSITE charge.**\n\n> **Most common road aggregates — granite, quartzite, gneiss, the siliceous rocks — carry a negative surface charge.**\n\n> **So a CATIONIC emulsion, whose droplets are positive, is electrostatically attracted to them and breaks on contact, depositing the bitumen directly onto the stone.**\n\n> **That is why cationic emulsions dominate in practice, and why using an anionic emulsion on a siliceous aggregate gives poor adhesion — the two repel, and the emulsion breaks by evaporation alone rather than by attraction.**\n\n> **THE SETTING RATE MUST MATCH THE APPLICATION AND A MISMATCH FAILS IN AN OBVIOUS WAY: a rapid-setting emulsion used in a premix breaks while the mixing is still in progress, producing lumps of coated and uncoated material that cannot be laid.**\n\n> **A slow-setting emulsion used for surface dressing has not broken by the time traffic is admitted, so the chippings are picked up by tyres and the treatment is lost.**\n\n> **So the grade is selected from the operation, not from convenience or availability — and substituting whichever grade is in stock, which is a real temptation on a remote site, wastes both the material and the work.**",
@@ -1264,7 +1264,7 @@
       "marks": 1,
       "stem": "In the MARSHALL METHOD of bituminous mix design, the STABILITY value represents:",
       "options": [
-        "The maximum LOAD in kN that the compacted specimen carries before failure when loaded diametrically at 60 °C at a rate of 50 mm per minute",
+        "The maximum load in kN that the compacted specimen carries before failure when loaded diametrically at 60 °C at a rate of 50 mm per minute",
         "The percentage of voids in the compacted mix",
         "The bitumen content at which the mix is most economical",
         "The deformation of the specimen at failure"
@@ -1298,7 +1298,7 @@
       "stem": "The FLAKINESS INDEX of an aggregate is the percentage by weight of particles whose:",
       "options": [
         "Length is greater than 1.8 times their mean dimension",
-        "LEAST dimension (thickness) is less than 0.6 times their mean dimension",
+        "Least dimension (thickness) is less than 0.6 times their mean dimension",
         "Volume is less than 60 per cent of a sphere of the same diameter",
         "Surface is rough rather than smooth"
       ],
@@ -1332,7 +1332,7 @@
       "options": [
         "Cannot be compacted by any available equipment",
         "Is too permeable and drains the pavement layers above it",
-        "Undergoes large VOLUME CHANGE with moisture",
+        "Undergoes large volume change with moisture",
         "Is chemically aggressive to bitumen"
       ],
       "answerIndex": 2,
@@ -1364,7 +1364,7 @@
       "stem": "The MODIFIED PROCTOR compaction test differs from the STANDARD Proctor test in that it:",
       "options": [
         "Uses a different soil sample preparation method only",
-        "Applies a much GREATER compactive effort",
+        "Applies a much greater compactive effort",
         "Is carried out on saturated samples only",
         "Measures the soil's shear strength rather than its density"
       ],
@@ -1397,7 +1397,7 @@
       "stem": "STRIPPING of a bituminous mix refers to:",
       "options": [
         "Removal of the surface layer during maintenance milling",
-        "The separation of the bitumen film from the AGGREGATE surface in the presence of WATER",
+        "The separation of the bitumen film from the aggregate surface in the presence of water",
         "The peeling of road markings from the surface",
         "The loss of volatile components from the bitumen during mixing"
       ],
@@ -1464,7 +1464,7 @@
       "options": [
         "Provide the final wearing surface",
         "Increase the base course's thickness",
-        "PENETRATE and bind the top of the granular surface",
+        "Penetrate and bind the top of the granular surface",
         "Colour the base for inspection purposes"
       ],
       "answerIndex": 2,
@@ -1563,7 +1563,7 @@
       "options": [
         "A cement binder mixed with the aggregate",
         "A bituminous binder sprayed between the layers",
-        "MECHANICAL INTERLOCK of coarse aggregate",
+        "Mechanical interlock of coarse aggregate",
         "The compaction of a single uniform aggregate size with no filler"
       ],
       "answerIndex": 2,
@@ -1630,7 +1630,7 @@
         "The temperature at which the bitumen flows",
         "The weight loss when the bitumen is heated",
         "The force required to break the bitumen sample",
-        "The DISTANCE in centimetres to which a standard briquette of bitumen stretches before the thread breaks"
+        "The distance in centimetres to which a standard briquette of bitumen stretches before the thread breaks"
       ],
       "answerIndex": 3,
       "solution": "**The DISTANCE in centimetres to which a standard briquette of bitumen stretches before the thread breaks, when pulled at 50 mm per minute at 27 °C** — indicating the binder's cohesion and ability to accommodate movement without fracturing.\n\n**The test's conditions:**\n\n| Parameter | Value |\n|---|---|\n| **Temperature** | **27 °C** ← |\n| **Rate of pull** | **50 mm per minute** ← |\n| **Specimen** | **A briquette of standard cross-section, 10 mm × 10 mm at the minimum** ← |\n| **Result** | **The elongation at break, in CENTIMETRES** ← |\n| **Typical requirement** | **A minimum of 50 to 75 cm for paving grades** ← |\n\n> **THE RESULT BEING A DISTANCE RATHER THAN A FORCE IS THE POINT THE QUESTION TURNS ON AND IT IS WORTH FIXING: ductility measures how FAR the binder stretches, not how hard it is to stretch.**\n\n> **A ductility of 75 cm means a thread of bitumen 10 mm square drew out to three-quarters of a metre before parting.**\n\n> **That is a remarkable extension and it conveys something important about bitumen: it is not a brittle solid but a very viscous liquid at ordinary temperatures.**\n\n> **The property matters because a pavement moves — thermally, under load, and with the subgrade — and a binder that cannot accommodate that movement cracks.**\n\n**WHY LOW DUCTILITY IS A WARNING SIGN:**\n\n| Point | Note |\n|---|---|\n| **Low ductility indicates poor COHESION within the binder** ← | ← |\n| **Such a binder cracks under thermal contraction and traffic flexing** ← | ← |\n| **It often indicates a bitumen from an unsuitable crude or an over-processed one** ← | ← |\n| **And ductility falls sharply as bitumen AGES** ← | ← |\n| **So a low value on fresh binder predicts early cracking in service** ← | ← |\n\n> **THE FOURTH ROW LINKS THE TEST TO THE AGEING MECHANISM DISCUSSED EARLIER AND IT IS WHY DUCTILITY IS SOMETIMES MEASURED AFTER THE THIN FILM OVEN TEST: what matters is not the fresh binder's ductility but the ductility it retains after mixing and after years of service.**\n\n> **A binder with excellent fresh ductility that loses most of it in the thin film oven test will be brittle in the pavement within a year or two.**\n\n> **So 'retained ductility' after accelerated ageing is a more useful specification than ductility on the fresh material, and modern specifications increasingly work that way.**\n\n> **The same shift underlies the performance-graded system generally — specifying the property that matters, measured after the ageing the material will actually undergo, rather than the property of the material as delivered.**\n\n**THE PENETRATION-BASED TESTS AS A GROUP DESERVE A CLOSING ASSESSMENT SINCE THEY ARE BEING SUPERSEDED:**\n\n| Point | Note |\n|---|---|\n| **Penetration, softening point and ductility are EMPIRICAL tests** ← | **Measuring behaviour under arbitrary standard conditions** ← |\n| **They are simple, cheap and require little equipment** ← | ← |\n| **Their conditions do not correspond to service conditions** ← | ← |\n| **And they do not measure fundamental rheological properties** ← | ← |\n| **The PG system instead measures properties at the actual service temperatures** ← | ← |\n\n> **The tension between the second and third rows is what has kept the old tests in use long after their limitations were understood: they can be performed in any laboratory with modest equipment, and the PG tests require a dynamic shear rheometer and a bending beam rheometer.**\n\n> **In a country where testing capacity is limited and dispersed, a test that can be done at a district laboratory has a practical value that a theoretically superior test in a single central facility does not.**\n\n> **So the empirical tests remain in use in Nepal and in much of South Asia, and they serve adequately when their limitations are understood.**\n\n> **The sensible position is to use them for routine acceptance while recognising that they cannot distinguish a modified binder's performance from a straight one's, and to specify PG testing where a modified binder is being paid for — otherwise the premium is paid for a property the acceptance testing cannot verify.**",
@@ -1660,7 +1660,7 @@
       "marks": 1,
       "stem": "In Nepal, the practical constraint that most often governs the choice of pavement materials on a remote hill road project is:",
       "options": [
-        "The HAUL DISTANCE from the nearest acceptable source",
+        "The haul distance from the nearest acceptable source",
         "The absence of any suitable rock anywhere in the country",
         "A shortage of laboratory testing standards",
         "The prohibition on using river-run gravel in any pavement layer"
@@ -1693,7 +1693,7 @@
       "marks": 1,
       "stem": "The three fundamental parameters of traffic flow are related by the equation:",
       "options": [
-        "FLOW (q) = SPEED (v) × DENSITY (k)",
+        "Flow (q) = speed (v) × density (k)",
         "Flow = Speed ÷ Density",
         "Density = Flow × Speed",
         "Speed = Flow × Density"
@@ -1728,7 +1728,7 @@
       "options": [
         "Count the number of passengers carried by each vehicle",
         "Express the number of cars a road can park",
-        "Convert a MIXED traffic stream into an equivalent stream of passenger cars",
+        "Convert a mixed traffic stream into an equivalent stream of passenger cars",
         "Measure the fuel consumption of a car per kilometre"
       ],
       "answerIndex": 2,
@@ -1762,7 +1762,7 @@
         "Identify the slowest vehicles for enforcement purposes",
         "Calculate the road's capacity",
         "Determine the average speed of the traffic stream",
-        "Set the SPEED LIMIT"
+        "Set the speed limit"
       ],
       "answerIndex": 3,
       "solution": "**Set the SPEED LIMIT** — on the reasoning that 85 per cent of drivers choose a speed that is reasonable for the conditions, so a limit at that speed regulates only the unreasonable minority.\n\n**The percentile speeds and their uses:**\n\n| Percentile | Use |\n|---|---|\n| **15th percentile** ← | **The MINIMUM speed limit, where one is imposed — below this, vehicles obstruct** ← |\n| **50th percentile (median)** ← | **The typical speed; used in some design and economic calculations** ← |\n| **85th percentile** ← | **The SPEED LIMIT, and the design speed for geometric elements on an existing road** ← |\n| **98th percentile** ← | **The DESIGN SPEED for safety-critical geometric design — sight distances and the like** ← |\n\n> **THE LOGIC BEHIND THE 85TH PERCENTILE IS WORTH SETTING OUT BECAUSE IT IS OFTEN MISREPRESENTED AS ARBITRARY: it rests on the observation that most drivers choose a speed appropriate to the road they can see.**\n\n> **Their collective judgement, expressed in the speed distribution, reflects the road's actual characteristics better than any calculation — because they are responding to the geometry, the surface, the sight lines and the roadside conditions all at once.**\n\n> **So a limit set at the 85th percentile agrees with what most drivers already do, and it targets the minority driving faster than conditions warrant.**\n\n> **A limit set much BELOW the 85th percentile criminalises the majority, is widely disobeyed, and brings the whole limit system into disrepute — which is why arbitrarily low limits reduce compliance without reducing speeds.**\n\n**THE PRINCIPLE HAS REAL LIMITATIONS AND THEY DESERVE HONEST STATEMENT:**\n\n| Limitation | Note |\n|---|---|\n| **It assumes drivers' collective judgement is SAFE, which it may not be** ← | **Drivers respond to their own perceived risk, not to the risk they impose on others** ← |\n| **It ignores VULNERABLE road users entirely** ← | **Pedestrians and cyclists bear risk they did not choose and have no vote in the distribution** ← |\n| **It can RATCHET upward** ← | **Raise the limit to the 85th percentile, speeds rise, the new 85th percentile is higher** ← |\n| **It presumes the road is well designed** ← | **On a poorly designed road, drivers may choose speeds it cannot safely accommodate** ← |\n\n> **THE SECOND ROW IS THE MOST SERIOUS OBJECTION AND IT MATTERS PARTICULARLY IN NEPAL'S TOWNS AND HIGHWAY SETTLEMENTS: a driver weighing their own risk does not weigh the pedestrian's.**\n\n> **A speed that feels comfortable to a driver in a car may be lethal to a person crossing the road, and the pedestrian's risk does not enter the speed distribution at all.**\n\n> **So the 85th percentile approach is appropriate where the road users are homogeneous — a rural highway with few pedestrians — and inappropriate where they are not.**\n\n> **In a settlement, the limit should be set from the SURVIVABILITY of a pedestrian impact, which points to 30 km/h or less, regardless of what drivers would otherwise choose.**\n\n> **THE SURVIVABILITY FIGURES ARE WORTH KNOWING BECAUSE THEY SETTLE THE ARGUMENT DIRECTLY: a pedestrian struck at 30 km/h has roughly a 90 per cent chance of survival.**\n\n> **At 50 km/h that falls to around 50 per cent, and at 65 km/h to perhaps 10 per cent.**\n\n> **The relationship is steeply non-linear, because the kinetic energy transferred rises with the square of the speed while the human body's tolerance does not change.**\n\n> **So in any place where vehicles and pedestrians mix, speed management is not one safety measure among several — it is the measure that determines whether collisions are survivable, and reducing 50 to 30 converts most fatal outcomes into survivable ones.**",
@@ -1827,7 +1827,7 @@
       "options": [
         "A location where the road surface has deteriorated badly",
         "A section of road with poor street lighting",
-        "A location with a CONCENTRATION of accidents significantly above what would be expected for that type of road and traffic volume",
+        "A location with a concentration of accidents significantly above what would be expected for that type of road and traffic volume",
         "Any location where a fatal accident has occurred"
       ],
       "answerIndex": 2,
@@ -1858,7 +1858,7 @@
       "marks": 1,
       "stem": "In road safety, the SAFE SYSTEM approach differs from traditional road safety thinking principally in that it:",
       "options": [
-        "Accepts that people WILL make mistakes",
+        "Accepts that people will make mistakes",
         "Focuses exclusively on enforcing traffic laws against drivers",
         "Aims to eliminate all road accidents of every severity",
         "Requires all vehicles to be fitted with speed limiters"
@@ -1894,7 +1894,7 @@
         "The structural condition of the pavement",
         "The quality of the road's maintenance regime",
         "The number of accidents per vehicle-kilometre",
-        "The OPERATING CONDITIONS experienced by drivers"
+        "The operating conditions experienced by drivers"
       ],
       "answerIndex": 3,
       "solution": "**The OPERATING CONDITIONS experienced by drivers — speed, freedom to manoeuvre, comfort and delay** — with A representing free flow and F representing breakdown and forced flow.\n\n**The six levels:**\n\n| Level | Condition |\n|---|---|\n| **A** ← | **FREE FLOW. Drivers unaffected by others; speed and manoeuvring entirely free** ← |\n| **B** ← | **Reasonably free flow. Presence of others noticeable but not restricting** ← |\n| **C** ← | **Stable flow. Manoeuvring requires vigilance; comfort declining** ← |\n| **D** ← | **Approaching unstable flow. Speeds falling; little freedom to manoeuvre** ← |\n| **E** ← | **At CAPACITY. Unstable; any disturbance causes breakdown** ← |\n| **F** ← | **Forced or breakdown flow. Stop-and-go; demand exceeds capacity; queues form** ← |\n\n> **THE DISTINCTION BETWEEN E AND F IS THE ONE MOST WORTH UNDERSTANDING AND IT IS NOT MERELY A MATTER OF DEGREE: LOS E is the road operating AT capacity, carrying the maximum flow it can.**\n\n> **LOS F is the road having BROKEN DOWN, and it carries LESS than capacity.**\n\n> **That is the counter-intuitive part — a congested road moves fewer vehicles per hour than the same road at capacity, because stop-and-go operation is less efficient than steady flow.**\n\n> **It follows directly from the fundamental diagram established earlier, where flow falls away beyond the critical density, and it is why preventing breakdown is so valuable: once a road tips into LOS F, it loses capacity precisely when it most needs it.**\n\n**HOW LOS IS MEASURED DIFFERS BY FACILITY TYPE AND THAT IS WORTH KNOWING:**\n\n| Facility | LOS measured by |\n|---|---|\n| **Freeway or multilane highway** ← | **DENSITY, in passenger cars per km per lane** ← |\n| **Two-lane rural highway** ← | **Percent time spent following, and average travel speed** ← |\n| **Signalised intersection** ← | **Average control DELAY per vehicle, in seconds** ← |\n| **Unsignalised intersection** ← | **Average delay for the minor movements** ← |\n| **Urban street** ← | **Average travel speed as a proportion of free-flow speed** ← |\n\n> **THE SECOND ROW IS THE MOST RELEVANT MEASURE FOR MOST OF NEPAL'S HIGHWAY NETWORK AND IT CAPTURES SOMETHING THE OTHERS DO NOT: on a two-lane road, the quality of service depends largely on how much time a driver spends trapped behind a slower vehicle unable to overtake.**\n\n> **That is not a matter of speed alone — a driver travelling at 55 km/h freely has a much better experience than one travelling at 55 km/h in a queue of eight vehicles.**\n\n> **So 'percent time spent following' measures the frustration and the overtaking pressure directly, and it is the measure that correlates with both service quality and with overtaking-related accident risk.**\n\n> **A two-lane road with a high percent-time-following is a road where dangerous overtaking will occur, which connects the capacity analysis to the safety analysis in a direct and useful way.**\n\n> **A CLOSING CAUTION ON APPLYING LOS IN SOUTH ASIAN CONDITIONS: the level of service framework was developed for homogeneous, lane-disciplined traffic.**\n\n> **Where traffic is mixed and lane discipline is absent, the concepts of density per lane and freedom to manoeuvre translate poorly, and the tabulated thresholds do not apply.**\n\n> **So LOS thresholds must be locally calibrated, and importing them directly produces assessments that do not match what a road is observably doing.**\n\n> **The practical consequence is that a Nepali urban road may be assessed as LOS C by imported criteria while functioning, to any observer, as a congested street — and the discrepancy is a calibration failure rather than a measurement one.**",
@@ -1925,7 +1925,7 @@
       "stem": "A RUMBLE STRIP placed across the carriageway on the approach to a hazard works by:",
       "options": [
         "Physically preventing vehicles from exceeding a given speed",
-        "Producing an AUDIBLE and TACTILE warning",
+        "Producing an audible and TACTILE warning",
         "Improving the skid resistance of the approach",
         "Draining water from the carriageway"
       ],
@@ -1959,7 +1959,7 @@
       "options": [
         "Highest hourly volume recorded in the year",
         "Average hourly volume over the whole year",
-        "30TH HIGHEST HOURLY VOLUME of the year",
+        "30TH highest hourly volume of the year",
         "Hourly volume during the busiest day of the festival season"
       ],
       "answerIndex": 2,
@@ -1990,7 +1990,7 @@
       "marks": 1,
       "stem": "Traffic signs are classified into three groups. These are:",
       "options": [
-        "REGULATORY (mandatory), WARNING (cautionary) and INFORMATORY signs",
+        "Regulatory (mandatory), warning (cautionary) and informatory signs",
         "Permanent, temporary and emergency signs",
         "Urban, rural and highway signs",
         "Illuminated, reflective and plain signs"
@@ -2024,7 +2024,7 @@
       "stem": "A PARKING STUDY that measures PARKING ACCUMULATION determines:",
       "options": [
         "The total number of vehicles that parked during the whole day",
-        "The NUMBER of vehicles parked in a given area at successive points in TIME",
+        "The number of vehicles parked in a given area at successive points in time",
         "The average time each vehicle remains parked",
         "The revenue collected from parking charges"
       ],
@@ -2058,7 +2058,7 @@
       "options": [
         "Allow pedestrians to complete their crossing",
         "Give drivers time to accelerate before the green begins",
-        "Allow vehicles that are too close to the stop line to stop safely to CLEAR the intersection",
+        "Allow vehicles that are too close to the stop line to stop safely to clear the intersection",
         "Indicate that the signal is about to fail"
       ],
       "answerIndex": 2,
@@ -2125,7 +2125,7 @@
         "An investigation carried out after a serious accident to determine its cause",
         "A financial audit of a road project's safety expenditure",
         "An inspection of vehicles to check their roadworthiness",
-        "A formal, INDEPENDENT examination of a road scheme"
+        "A formal, independent examination of a road scheme"
       ],
       "answerIndex": 3,
       "solution": "**A formal, INDEPENDENT examination of a road scheme — at design, pre-opening or in-service stage — by auditors who did not design it**, to identify potential safety hazards BEFORE they cause accidents.\n\n**The defining features:**\n\n| Feature | Note |\n|---|---|\n| **PROACTIVE — it precedes accidents rather than following them** ← | **Distinguishing it from black spot investigation** ← |\n| **INDEPENDENT — the auditor did not design the scheme** ← | **The essential requirement** ← |\n| **FORMAL — a defined procedure, a written report, and a documented response** ← | ← |\n| **Focused on SAFETY ONLY** ← | **Not a general design review or a check of compliance with standards** ← |\n| **Carried out at defined STAGES** ← | **Feasibility, preliminary design, detailed design, pre-opening, and early operation** ← |\n\n> **THE INDEPENDENCE IN THE SECOND ROW IS THE FEATURE THAT MAKES THE PROCESS WORK AND IT IS THE ONE MOST OFTEN COMPROMISED: a designer cannot audit their own work effectively.**\n\n> **Not through any dishonesty, but because they see what they intended rather than what they drew, and because the assumptions that produced a hazard are invisible to the person who made them.**\n\n> **A fresh examiner asks 'why is this here' about features the designer has stopped seeing.**\n\n> **So an audit conducted by the design team, or by a colleague in the same office under the same pressures, provides documentation without providing the scrutiny — and where the independence is compromised, the process becomes a formality that consumes effort and finds nothing.**\n\n**THE STAGES AND WHAT EACH CAN STILL CHANGE:**\n\n| Stage | What can be changed | Cost of change |\n|---|---|---|\n| **FEASIBILITY** ← | **Route, standard, junction strategy — everything** ← | **Negligible** ← |\n| **PRELIMINARY design** ← | **Alignment, cross-section, junction layouts** ← | **Low** ← |\n| **DETAILED design** ← | **Details, signing, markings, roadside features** ← | **Moderate** ← |\n| **PRE-OPENING** ← | **Signs, markings, minor works** ← | **High for anything structural** ← |\n| **IN-SERVICE** ← | **Retrofits only** ← | **Highest** ← |\n\n> **THE COST COLUMN IS THE ARGUMENT FOR AUDITING EARLY AND IT IS OVERWHELMING: a junction strategy changed at feasibility stage costs a meeting, and changed after construction costs a reconstruction.**\n\n> **Yet audits are most commonly done at the pre-opening stage, because that is when the scheme is visible and the process is easy to schedule.**\n\n> **An audit at that stage can recommend signs and markings and little else, so it addresses the least significant layer of the safety problem.**\n\n> **The audits that matter most are the early ones, which examine the decisions that determine the scheme's safety, and they are the ones most often omitted because at that stage there is little to look at and the pressure to proceed is greatest.**\n\n**THE RESPONSE PROCEDURE IS AS IMPORTANT AS THE AUDIT AND IT DESERVES THE CLOSING NOTE:**\n\n| Point | Note |\n|---|---|\n| **The auditor reports findings and recommendations** ← | **The auditor does not redesign the scheme** ← |\n| **The design team responds formally to each finding** ← | **Accepting it, or stating why it is not accepted** ← |\n| **The client decides where the two disagree** ← | ← |\n| **Every finding and its resolution is RECORDED** ← | ← |\n| **And the record is retained** ← | ← |\n\n> **THE SECOND AND FOURTH ROWS TOGETHER ARE WHAT GIVE THE PROCESS ITS FORCE AND THEY DO SO IN A PARTICULAR WAY: a finding may legitimately be rejected, because the auditor sees only safety and the designer must balance safety against cost, environment and function.**\n\n> **What may not happen is for a finding to be ignored without a reason being recorded.**\n\n> **So the process does not give the auditor authority; it gives the finding visibility, and requires a decision to be taken and owned by someone.**\n\n> **That is a modest-sounding mechanism and it is remarkably effective, because a hazard that someone has had to decide in writing to accept is treated very differently from one nobody has considered.**",
@@ -2155,7 +2155,7 @@
       "marks": 1,
       "stem": "Road markings are an essential part of traffic control. A CONTINUOUS (solid) white centre line indicates that:",
       "options": [
-        "Overtaking is PROHIBITED",
+        "Overtaking is prohibited",
         "The road is a one-way street",
         "Parking is permitted on both sides",
         "The road ahead narrows"
@@ -2191,7 +2191,7 @@
         "Increasing the width of the carriageway so vehicles can pass freely",
         "Installing more traffic signals",
         "Prohibiting all vehicular access",
-        "Physically and visually altering the street so that LOWER SPEEDS feel natural and appropriate to the driver"
+        "Physically and visually altering the street so that lower speeds feel natural and appropriate to the driver"
       ],
       "answerIndex": 3,
       "solution": "**Physically and visually altering the street so that LOWER SPEEDS feel natural and appropriate to the driver** — through vertical and horizontal deflection, narrowing, surface changes and visual enclosure — rather than relying on signs and enforcement alone.\n\n**The main measures, grouped by mechanism:**\n\n| Mechanism | Measures |\n|---|---|\n| **VERTICAL deflection** ← | **Speed humps, speed tables, raised junctions, raised crossings, rumble areas** ← |\n| **HORIZONTAL deflection** ← | **Chicanes, build-outs, central islands, mini-roundabouts** ← |\n| **NARROWING** ← | **Kerb extensions, reduced lane width, pinch points, gateways at the settlement entry** ← |\n| **SURFACE and VISUAL change** ← | **Different paving texture and colour, planting, street furniture, visual enclosure** ← |\n| **NETWORK measures** ← | **Road closures, one-way loops, restricting through movement entirely** ← |\n\n> **THE FOURTH ROW IS THE GROUP THAT IS MOST UNDERUSED AND IT WORKS THROUGH PERCEPTION RATHER THAN PHYSICS: drivers choose speed largely from what the street LOOKS like.**\n\n> **A wide, straight, open carriageway reads as a road for driving, and drivers drive.**\n\n> **The same width enclosed by trees, narrowed visually by planting and parking, with a change of surface and buildings close to the edge, reads as a place where people are — and speeds fall without any physical obstacle at all.**\n\n> **So visual treatment achieves what signs cannot, because it operates on the driver's automatic speed choice rather than on their conscious compliance, and a self-enforcing street needs no enforcement.**\n\n**THE GATEWAY TREATMENT DESERVES SPECIFIC MENTION FOR NEPAL'S HIGHWAY SETTLEMENTS:**\n\n| Point | Note |\n|---|---|\n| **A highway passing through a settlement is the classic conflict** ← | **Mobility function and access function in the same space** ← |\n| **Drivers arrive at highway speed and do not perceive the change** ← | ← |\n| **A GATEWAY at each end marks the transition emphatically** ← | **Narrowing, a change of surface, signing, planting, a physical island** ← |\n| **It tells the driver they have ENTERED somewhere different** ← | ← |\n| **And speeds through the settlement fall accordingly** ← | ← |\n\n> **THE FOURTH ROW IS THE PSYCHOLOGICAL MECHANISM AND IT IS WHY A GATEWAY WORKS BETTER THAN A SPEED LIMIT SIGN ALONE: a sign informs, and a gateway changes the driver's mental model of where they are.**\n\n> **A driver who believes they are still on the highway drives at highway speed whatever the sign says.**\n\n> **One who perceives they have entered a village drives accordingly, because that is what people do in villages.**\n\n> **Given how many of Nepal's road deaths occur where highways pass through settlements, gateway treatment is one of the highest-value safety investments available — and it is inexpensive relative to almost any other engineering measure.**\n\n**THE OBJECTIONS TO TRAFFIC CALMING ARE REAL AND DESERVE HONEST TREATMENT:**\n\n| Objection | Response |\n|---|---|\n| **Delays EMERGENCY vehicles** ← | **Genuine. Speed tables and cushions delay them far less than humps; routes should be agreed with the services** ← |\n| **Damages vehicles and is uncomfortable** ← | **Only if badly designed or badly built — profile and height must follow the standard** ← |\n| **Increases noise and emissions from braking and accelerating** ← | **Real for humps; much less for measures producing a steady lower speed** ← |\n| **Displaces traffic to other streets** ← | **A network effect that must be anticipated, not a reason not to act** ← |\n\n> **THE FIRST ROW IS THE MOST SERIOUS OBJECTION AND IT HAS A GOOD TECHNICAL ANSWER: a speed CUSHION is narrower than the lane, so a wide-track vehicle — a fire appliance or an ambulance — straddles it while a car must ride over it.**\n\n> **So the measure slows cars and barely affects emergency vehicles, which resolves the conflict rather than trading it off.**\n\n> **Speed TABLES, being long and flat-topped, are also far gentler for a large vehicle than a short round hump.**\n\n> **So the objection argues for choosing the right measure rather than against calming as such — and designing the scheme with the emergency services at the table, rather than presenting it to them afterwards, is what turns a likely objection into a workable agreement.**",
@@ -2223,7 +2223,7 @@
       "options": [
         "Is easier to calculate from available records",
         "Always produces a smaller and more acceptable number",
-        "Normalises for EXPOSURE",
+        "Normalises for exposure",
         "Is required by international convention for reporting purposes only"
       ],
       "answerIndex": 2,
@@ -2254,7 +2254,7 @@
       "marks": 1,
       "stem": "The fundamental difference between a FLEXIBLE and a RIGID pavement is that:",
       "options": [
-        "A flexible pavement transmits the wheel load to the subgrade through GRAIN-TO-GRAIN contact",
+        "A flexible pavement transmits the wheel load to the subgrade through grain-to-grain contact",
         "A flexible pavement is thinner than a rigid one in every case",
         "A rigid pavement contains no reinforcement",
         "A flexible pavement can only be used on a strong subgrade"
@@ -2288,8 +2288,8 @@
       "stem": "The EQUIVALENT SINGLE AXLE LOAD (ESAL) concept converts a mixed axle load spectrum into a number of standard axles using the FOURTH POWER LAW, which states that the damage caused by an axle is proportional to:",
       "options": [
         "The axle load itself, in direct proportion",
-        "The SQUARE of the ratio of the axle load to the standard axle load",
-        "The FOURTH POWER of the ratio of the axle load to the standard axle load",
+        "The square of the ratio of the axle load to the standard axle load",
+        "The fourth power of the ratio of the axle load to the standard axle load",
         "The number of tyres on the axle"
       ],
       "answerIndex": 2,
@@ -2323,7 +2323,7 @@
         "Allow the slab to be constructed in convenient widths",
         "Provide drainage paths through the slab",
         "Allow the slab to expand in hot weather",
-        "Control the location of the CRACKS that shrinkage and thermal contraction will inevitably produce"
+        "Control the location of the cracks that shrinkage and thermal contraction will inevitably produce"
       ],
       "answerIndex": 3,
       "solution": "**To control the location of the CRACKS that shrinkage and thermal contraction will inevitably produce** — by creating a plane of weakness at which the slab cracks in a straight, sealed, load-transferring line rather than randomly.\n\n**The joint types in a concrete pavement:**\n\n| Joint | Purpose | Detail |\n|---|---|---|\n| **CONTRACTION (transverse)** ← | **Control shrinkage and thermal contraction cracking** ← | **A sawn or formed groove, typically a quarter to a third of the slab depth; DOWEL bars for load transfer** ← |\n| **EXPANSION** ← | **Accommodate thermal expansion** ← | **A full-depth gap with a compressible filler; dowels with one end free to slide in a cap** ← |\n| **LONGITUDINAL** ← | **Control cracking along the pavement; separate construction lanes** ← | **TIE bars, which hold the slabs together rather than allowing movement** ← |\n| **CONSTRUCTION** ← | **Where a day's work ends** ← | **Located at a planned joint position wherever possible** ← |\n\n> **THE DISTINCTION BETWEEN DOWEL BARS AND TIE BARS IN THE FIRST AND THIRD ROWS IS A COMMON EXAMINATION POINT AND THEIR PURPOSES ARE OPPOSITE: a DOWEL transfers load across a joint while ALLOWING the slabs to move apart.**\n\n> **So it is smooth, it is coated or greased over half its length, and it slides.**\n\n> **A TIE BAR HOLDS two slabs together and PREVENTS them separating.**\n\n> **So it is deformed, it is fully bonded, and it does not slide — and confusing the two produces either a contraction joint that cannot open, which cracks elsewhere, or a longitudinal joint that opens progressively, which is how a lane separates from its neighbour.**\n\n**THE CONTRACTION JOINT'S OPERATING PRINCIPLE IS WORTH STATING PLAINLY BECAUSE IT IS SLIGHTLY COUNTER-INTUITIVE:**\n\n| Point | Note |\n|---|---|\n| **Concrete WILL crack from shrinkage and thermal contraction** ← | **This cannot be prevented** ← |\n| **An uncontrolled crack is ragged, unsealed and has no load transfer** ← | ← |\n| **Water enters it, the subgrade below is eroded, and the slab edges spall and rock** ← | ← |\n| **A contraction joint concentrates the crack at a chosen place** ← | **By reducing the section so the tension is relieved there first** ← |\n| **Where it can be sealed, dowelled and maintained** ← | ← |\n\n> **THE FOURTH ROW IS THE MECHANISM AND THE TIMING OF THE SAW CUT IS CRITICAL TO IT: the groove must be cut before the concrete develops enough tensile strength to crack on its own.**\n\n> **Cut too early and the saw ravels the green concrete; too late and the slab has already cracked somewhere else, and the joint is then pointless.**\n\n> **The window is typically 4 to 12 hours after placing, depending on the temperature, and it narrows in hot weather.**\n\n> **So concrete paving requires the sawing crew to work through the night behind the paver, and a sawing operation that falls behind produces random cracking that no subsequent work can undo — which is why saw timing is one of the most carefully managed operations on a concrete paving job.**\n\n> **THE EXPANSION JOINT IN THE SECOND ROW DESERVES A NOTE BECAUSE PRACTICE HAS CHANGED: expansion joints were once provided routinely at regular intervals, and modern practice largely omits them in plain jointed concrete pavements.**\n\n> **The reason is that the contraction joints, once open, provide ample room to accommodate expansion — a pavement that has contracted has joints that can close again.**\n\n> **Expansion joints are also weak points: they are wide, their filler deteriorates, they accumulate incompressible material, and they suffer more faulting than contraction joints.**\n\n> **So they are now used only where genuinely needed — at structures, at junctions with existing pavements, and at sharp changes in alignment — and omitting them elsewhere gives a better pavement rather than a compromised one.**",
@@ -2353,7 +2353,7 @@
       "marks": 1,
       "stem": "The BENKELMAN BEAM is used on flexible pavements to:",
       "options": [
-        "Measure the rebound DEFLECTION of the pavement surface under a standard wheel load",
+        "Measure the rebound deflection of the pavement surface under a standard wheel load",
         "Measure the thickness of each pavement layer",
         "Measure the roughness of the riding surface",
         "Determine the bitumen content of the surfacing"
@@ -2422,7 +2422,7 @@
         "An inadequately thick subgrade",
         "Excessive traffic volume of light vehicles",
         "Poor drainage of the shoulders only",
-        "An unstable MIX"
+        "An unstable mix"
       ],
       "answerIndex": 3,
       "solution": "**An unstable MIX — too much bitumen, too soft a binder for the climate, excessive rounded fine aggregate, or inadequate compaction** — allowing the mix to deform plastically under repeated loading, particularly in hot weather and at slow-moving locations.\n\n**Distinguishing the two rutting mechanisms is the diagnostic task:**\n\n| Feature | STRUCTURAL rutting (subgrade or base) | MIX rutting (bituminous layer) |\n|---|---|---|\n| **Shape** | **A broad, shallow depression across the whole pavement width** ← | **A narrow rut in the wheel path with HEAVING at its edges** ← |\n| **The heave** | **Absent — the material has consolidated** ← | **PRESENT — the mix has flowed sideways, so what left the rut appears beside it** ← |\n| **Cause** | **Inadequate pavement thickness for the traffic and subgrade** ← | **Unstable mix** ← |\n| **Depth of deformation** | **Deep — in the subgrade or lower layers** ← | **Confined to the upper bituminous layers** ← |\n| **Remedy** | **Strengthening — an overlay or reconstruction** ← | **Remove and replace the deficient layer; an overlay will simply rut too** ← |\n\n> **THE SECOND ROW IS THE FIELD DIAGNOSTIC AND IT REQUIRES ONLY A STRAIGHTEDGE: if the material displaced from the rut has appeared as ridges alongside it, the mix has flowed and the problem is in the bituminous layer.**\n\n> **If the surface has simply sunk with no heave, the material beneath has consolidated or the subgrade has deformed.**\n\n> **That distinction is visible on site and it determines the entire treatment.**\n\n> **The fifth row states why it matters so much: overlaying a mix-rutting problem places new material over an unstable layer that will continue to flow, so the rut reappears through the overlay within a season or two — and the money is wasted entirely.**\n\n**THE CAUSES OF MIX RUTTING AND THEIR REMEDIES:**\n\n| Cause | Remedy |\n|---|---|\n| **Excess BITUMEN** ← | **Reduce the binder content; check the mix design and the plant's calibration** ← |\n| **Binder too SOFT for the climate** ← | **Use a harder penetration grade, or a modified binder** ← |\n| **Too much rounded natural sand in the fine fraction** ← | **Use crushed fines, which interlock** ← |\n| **Inadequate compaction at construction** ← | **The mix densifies under traffic instead, which appears as rutting** ← |\n| **Insufficient coarse aggregate skeleton** ← | **Redesign the grading, or use a stone mastic asphalt** ← |\n\n> **THE FOURTH ROW IS AN IMPORTANT AND UNDER-RECOGNISED CAUSE AND IT IS PURELY A CONSTRUCTION FAULT: a mix laid at 92 per cent of its achievable density will be compacted by traffic to perhaps 96 per cent over the following year.**\n\n> **That densification appears at the surface as a rut in the wheel paths, and it is often mistaken for a mix instability problem.**\n\n> **The mix may be entirely sound; it was simply not compacted.**\n\n> **So a rut appearing within the first year, in the wheel paths, without edge heaving, is characteristically a compaction deficiency rather than a mix design fault — and distinguishing it matters because the remedy is to enforce compaction on future work rather than to redesign a mix that was correct.**\n\n> **THE THIRD ROW DESERVES A CLOSING NOTE BECAUSE IT IS A COMMON PROBLEM WHERE RIVER SAND IS PLENTIFUL: rounded natural sand particles roll over one another under load, giving the mix very little internal friction.**\n\n> **Crushed fines, being angular, interlock and resist shear.**\n\n> **A mix with a high proportion of rounded sand can meet its grading specification exactly and still be unstable, because the grading curve says nothing about particle shape.**\n\n> **So a specification limiting the proportion of natural sand, or requiring a minimum proportion of crushed fines, is doing work that the grading requirement cannot do — and its omission is a plausible cause whenever a mix that appears correct on paper ruts in service.**",
@@ -2453,7 +2453,7 @@
       "stem": "ALLIGATOR (fatigue) CRACKING in a flexible pavement is characterised by interconnected cracks forming a pattern of small polygons in the wheel paths. Its fundamental cause is:",
       "options": [
         "Shrinkage of the bituminous binder in cold weather",
-        "Repeated flexing under traffic causing FATIGUE failure of the bituminous layer",
+        "Repeated flexing under traffic causing fatigue failure of the bituminous layer",
         "Chemical attack on the bitumen by de-icing salts",
         "Excessive camber causing the surface to spread"
       ],
@@ -2519,7 +2519,7 @@
       "stem": "A SURFACE DRESSING (chip seal) applied to an existing road:",
       "options": [
         "Adds significant structural strength to the pavement",
-        "Is a thin SURFACING treatment",
+        "Is a thin surfacing treatment",
         "Replaces the need for any future maintenance for at least 20 years",
         "Can only be applied to concrete pavements"
       ],
@@ -2554,7 +2554,7 @@
         "The CBR test on a soaked sample",
         "A triaxial compression test on an undisturbed sample",
         "A sieve analysis combined with the Atterberg limits",
-        "A PLATE LOAD TEST"
+        "A plate load test"
       ],
       "answerIndex": 3,
       "solution": "**A PLATE LOAD TEST — a rigid plate of standard diameter is loaded on the subgrade and k is the pressure divided by the resulting deflection**, conventionally at 1.25 mm settlement.\n\n**The test and the definition:**\n\n| Element | Note |\n|---|---|\n| **A rigid plate, standard diameter 750 mm, is placed on the prepared subgrade** ← | **Smaller plates are used with a correction** ← |\n| **Load is applied in increments and the settlement measured** ← | ← |\n| **k = pressure ÷ settlement, taken at 1.25 mm settlement** ← | ← |\n| **Units are kg/cm³ or MPa/m** ← | **A pressure divided by a length, which is an unusual-looking unit** ← |\n| **Typical values: 2 to 4 kg/cm³ for a weak subgrade, 8 or more for a strong one** ← | ← |\n\n> **THE UNITS IN THE FOURTH ROW ARE WORTH A MOMENT BECAUSE THEY REVEAL WHAT THE QUANTITY IS: pressure per unit of settlement is a SPRING STIFFNESS per unit area.**\n\n> **So k treats the subgrade as a bed of independent springs — the Winkler foundation — each deflecting in proportion to the pressure on it and independently of its neighbours.**\n\n> **That is the model underlying Westergaard's rigid pavement analysis, and it is why k and not a modulus is the parameter used.**\n\n> **The Winkler assumption is a considerable simplification, since real soil does interact between adjacent points, but it makes the slab analysis tractable and it gives results that have served well in practice.**\n\n**THE 750 mm PLATE SIZE IS NOT ARBITRARY AND THE REASON IS INSTRUCTIVE:**\n\n| Point | Note |\n|---|---|\n| **A larger plate stresses the soil to a greater DEPTH** ← | ← |\n| **So the measured k depends on the plate size** ← | ← |\n| **A small plate samples only the near-surface material** ← | ← |\n| **A 750 mm plate approximates the stressed depth beneath a real slab and wheel load** ← | ← |\n| **Where a smaller plate is used, a correction factor must be applied** ← | ← |\n\n> **THE SECOND ROW IS A GENUINELY IMPORTANT POINT ABOUT ALL PLATE AND BEARING TESTS AND IT GENERALISES: the result depends on the size of the loaded area, because the zone of influence scales with it.**\n\n> **So a bearing capacity or a stiffness measured on a small plate does not transfer directly to a large foundation, and the same principle appears in shallow foundation design as the scale effect.**\n\n> **A subgrade with a strong crust over soft material will give a high k on a small plate and a low one on a large plate, because only the large plate reaches the soft layer.**\n\n> **That is exactly the situation in which an uncorrected small-plate test is dangerously misleading, and it is why the correction factors are specified rather than left to judgement.**\n\n**THE RELATIONSHIP BETWEEN k AND CBR IS WORTH KNOWING SINCE CBR DATA IS FAR MORE COMMONLY AVAILABLE:**\n\n| Point | Note |\n|---|---|\n| **Correlations exist between CBR and k, and they are published in design guides** ← | ← |\n| **They are approximate and scatter considerably** ← | ← |\n| **A direct plate load test is preferable where the pavement is important** ← | ← |\n| **And the k value is increased by a granular or cement-treated SUB-BASE beneath the slab** ← | **The 'effective k' at the top of the sub-base, which is what the slab actually bears on** ← |\n\n> **THE LAST ROW IS A DESIGN POINT THAT IS EASY TO MISS AND IT MATTERS FOR THE SLAB THICKNESS: the k value used in design is not the subgrade's own k but the EFFECTIVE k at the top of whatever lies directly beneath the slab.**\n\n> **A 150 mm granular sub-base over a subgrade with k = 3 might give an effective k of 4.5 or so at its top.**\n\n> **A cement-treated sub-base raises it considerably more.**\n\n> **So improving the layer beneath the slab raises k and reduces the required slab thickness — though the relationship is weak, because rigid pavement thickness is relatively insensitive to k, which is the same point as the slab's ability to bridge soft spots seen from the design side.**",
@@ -2585,7 +2585,7 @@
       "stem": "WARPING STRESSES in a concrete pavement slab arise because:",
       "options": [
         "The slab shrinks uniformly as the concrete cures",
-        "A TEMPERATURE DIFFERENTIAL between the top and bottom of the slab makes it tend to curl",
+        "A temperature differential between the top and bottom of the slab makes it tend to curl",
         "Traffic loads are applied off the centre of the slab",
         "The subgrade settles unevenly beneath the slab"
       ],
@@ -2650,7 +2650,7 @@
       "marks": 1,
       "stem": "A POTHOLE forms in a bituminous pavement principally by the following sequence:",
       "options": [
-        "Water enters through a CRACK",
+        "Water enters through a crack",
         "The subgrade swells and pushes material out of the surface",
         "Bitumen evaporates from the surface leaving a cavity",
         "The aggregate dissolves in rainwater over time"
@@ -2718,7 +2718,7 @@
       "options": [
         "The number of potholes per kilometre",
         "The percentage of the surface area that is cracked",
-        "The ACCUMULATED SUSPENSION MOVEMENT of a standard quarter-car travelling at 80 km/h",
+        "The accumulated suspension movement of a standard quarter-car travelling at 80 km/h",
         "The depth of rutting in the wheel paths"
       ],
       "answerIndex": 2,
@@ -2785,7 +2785,7 @@
         "Record the contractual details of each construction project",
         "Store the design calculations for each pavement section",
         "Schedule the daily work of the maintenance gangs",
-        "Hold an INVENTORY and CONDITION record of the network"
+        "Hold an inventory and condition record of the network"
       ],
       "answerIndex": 3,
       "solution": "**Hold an INVENTORY and CONDITION record of the network, PREDICT how each section will deteriorate under alternative maintenance strategies, and identify the programme that maximises network condition or minimises whole-life cost within the available budget.**\n\n**The components of a pavement management system:**\n\n| Component | Note |\n|---|---|\n| **INVENTORY — what exists: location, length, width, construction, age** ← | **The foundation; without it nothing else is possible** ← |\n| **CONDITION data — roughness, cracking, rutting, deflection, updated periodically** ← | ← |\n| **TRAFFIC data — volumes, composition, axle loads** ← | ← |\n| **DETERIORATION models — predicting future condition under each strategy** ← | **The analytical core** ← |\n| **TREATMENT options with unit costs and expected effects** ← | ← |\n| **OPTIMISATION — selecting the programme that best meets the objective within the budget** ← | ← |\n| **Reporting, to inform decisions and to justify budgets** ← | ← |\n\n> **THE FOURTH ROW IS WHAT DISTINGUISHES A MANAGEMENT SYSTEM FROM A DATABASE AND IT IS THE COMPONENT MOST OFTEN MISSING: a record of current condition tells you what the network is like today.**\n\n> **A deterioration model tells you what it will be like in five years under each of the strategies you might adopt.**\n\n> **Only the second supports a decision, because the decision is about the future.**\n\n> **So a system that records condition beautifully and predicts nothing is an inventory rather than a management system, and it can answer 'what is bad now' but not the far more important question of 'what will it cost us if we do nothing'.**\n\n**THE OPTIMISATION IN THE SIXTH ROW IS WHERE THE VALUE IS REALISED AND IT PRODUCES COUNTER-INTUITIVE ANSWERS:**\n\n| Intuitive policy | Optimal policy |\n|---|---|\n| **Fix the WORST roads first** ← | **Often wrong — the worst roads are the most expensive to fix per km** ← |\n| ← | **Preserving GOOD roads before they deteriorate protects more network per rupee** ← |\n| **Spread the budget evenly across districts** ← | **Concentrate it where the deterioration curve is steepest** ← |\n| **Respond to complaints** ← | **Act on predicted condition, not on reported condition** ← |\n\n> **THE FIRST ROW IS THE MOST IMPORTANT AND THE MOST POLITICALLY DIFFICULT FINDING THAT EVERY SUCH SYSTEM PRODUCES: 'worst first' is an intuitive, defensible-sounding and generally wrong policy.**\n\n> **A road that has failed requires reconstruction at perhaps ten times the cost per kilometre of the preventive treatment that would keep a good road good.**\n\n> **So a budget spent on worst-first restores a few kilometres while the rest of the network slides toward the same condition.**\n\n> **A budget spent on preservation holds a large part of the network in good condition and allows the failed sections to be addressed progressively as funds permit — which produces a better network overall, and looks like neglect to anyone driving the worst road.**\n\n> **THAT COMMUNICATION PROBLEM IS REAL AND IT DESERVES THE CLOSING WORD: the optimal policy is hard to explain and easy to attack.**\n\n> **A resident on a failed road, told that the budget is being spent on roads that are still good, has a grievance that is understandable and that no amount of optimisation theory will satisfy.**\n\n> **So a pavement management system's outputs need to be accompanied by an explanation of the reasoning, and usually by a compromise — some proportion of the budget reserved for the worst sections, accepting a less than optimal allocation in exchange for a sustainable one.**\n\n> **Recognising that the optimum must be politically deliverable to be delivered at all is not a failure of the analysis but a condition on its use, and a recommendation that ignores it will be overridden and will have achieved nothing.**",
@@ -2815,7 +2815,7 @@
       "marks": 1,
       "stem": "In road earthwork, the MASS HAUL DIAGRAM is used to:",
       "options": [
-        "Plot the CUMULATIVE volume of cut minus fill against chainage",
+        "Plot the cumulative volume of cut minus fill against chainage",
         "Show the weight of materials delivered to site each day",
         "Record the number of haulage vehicles on site",
         "Show the mass of each pavement layer per square metre"
@@ -2848,7 +2848,7 @@
       "marks": 1,
       "stem": "The BULKING and SHRINKAGE factors applied to earthwork volumes account for the fact that:",
       "options": [
-        "Soil BULKS when excavated",
+        "Soil bulks when excavated",
         "Material is lost during transport and handling",
         "The surveyed cross-sections are always inaccurate",
         "The material absorbs water during the monsoon"
@@ -2882,8 +2882,8 @@
       "stem": "In a hill road, a BREAST WALL and a RETAINING WALL differ in that the breast wall:",
       "options": [
         "Is always constructed of reinforced concrete while a retaining wall is of masonry",
-        "Is built on the VALLEY side to support the fill, whereas a retaining wall is built on the hill side",
-        "Is built on the HILL side to support the cut slope and prevent material falling onto the road, whereas a retaining wall is built on the VALLEY side to retain the fill that carries the road",
+        "Is built on the valley side to support the fill, whereas a retaining wall is built on the hill side",
+        "Is built on the hill side to support the cut slope and prevent material falling onto the road, whereas a retaining wall is built on the valley side to retain the fill that carries the road",
         "Is a temporary structure removed after construction"
       ],
       "answerIndex": 2,
@@ -2916,7 +2916,7 @@
       "options": [
         "Collect water from the road surface and carry it away",
         "Supply water for construction purposes",
-        "INTERCEPT surface runoff from the hillside ABOVE the cutting and carry it away to a safe outfall",
+        "Intercept surface runoff from the hillside above the cutting and carry it away to a safe outfall",
         "Collect groundwater from within the cut slope"
       ],
       "answerIndex": 2,
@@ -2981,7 +2981,7 @@
       "stem": "A CAUSEWAY (Irish crossing, or vented ford) is used in place of a bridge where:",
       "options": [
         "The stream is deep and flows all year with heavy traffic on the road",
-        "The stream flows only SEASONALLY or carries little flow for most of the year",
+        "The stream flows only seasonally or carries little flow for most of the year",
         "The road is a national highway carrying international traffic",
         "The stream bed is too soft to support any structure"
       ],
@@ -3016,7 +3016,7 @@
         "Finish rolling only, with a pneumatic roller",
         "A single pass of a light roller after the mix has cooled",
         "Vibratory rolling continued until the mix is completely cold",
-        "BREAKDOWN rolling with a steel wheel or vibratory roller immediately behind the paver"
+        "Breakdown rolling with a steel wheel or vibratory roller immediately behind the paver"
       ],
       "answerIndex": 3,
       "solution": "**BREAKDOWN rolling with a steel wheel or vibratory roller immediately behind the paver, INTERMEDIATE rolling with a pneumatic-tyred roller, and FINISH rolling with a static steel wheel roller to remove marks** — all completed before the mix cools below the minimum compaction temperature.\n\n**The three stages and what each achieves:**\n\n| Stage | Roller | Purpose |\n|---|---|---|\n| **BREAKDOWN** ← | **Steel wheel, static or vibratory** ← | **Achieves most of the density, immediately behind the paver while the mix is hottest** ← |\n| **INTERMEDIATE** ← | **PNEUMATIC-tyred** ← | **Kneads the mix, seals the surface, completes the density** ← |\n| **FINISH** ← | **Static steel wheel, no vibration** ← | **Removes roller marks and produces a smooth surface** ← |\n\n> **THE TEMPERATURE CONSTRAINT IS THE OVERRIDING ONE AND IT GOVERNS THE WHOLE OPERATION: bitumen is a viscous material whose stiffness rises steeply as it cools.**\n\n> **Above about 110 to 120 °C the mix compacts readily; below about 80 °C very little further density can be achieved whatever the rolling effort.**\n\n> **So the entire compaction must be completed within the time the mat takes to cool through that window, which on a thin layer in cool windy weather may be only a few minutes.**\n\n> **That is why the rollers follow the paver so closely and why laying in cold or windy conditions is restricted — the constraint is not the mix's quality but the time available to compact it.**\n\n**THE PNEUMATIC ROLLER'S KNEADING ACTION IN THE SECOND ROW IS WORTH EXPLAINING SINCE IT IS DISTINCTIVE:**\n\n| Point | Note |\n|---|---|\n| **A steel wheel bridges over the surface and compacts by direct pressure** ← | ← |\n| **A pneumatic tyre DEFORMS to the surface and applies a kneading, manipulating action** ← | ← |\n| **That action reorients the aggregate particles and closes surface voids** ← | ← |\n| **It also seals the surface, reducing its permeability** ← | ← |\n| **And its contact pressure can be varied by adjusting the tyre inflation** ← | **A useful control that a steel roller does not offer** ← |\n\n> **THE THIRD ROW IS THE MECHANICAL ADVANTAGE AND IT PRODUCES A DENSER, MORE UNIFORM MAT THAN STEEL ROLLING ALONE: the kneading works the particles into a tighter arrangement rather than merely pressing them down.**\n\n> **Omitting the intermediate pneumatic rolling — which is common where only steel rollers are available — leaves a mat that meets its density specification at the core and remains permeable at the surface.**\n\n> **That surface permeability admits water and air, so the binder oxidises and the surface ravels earlier than it should.**\n\n> **So the pneumatic roller's contribution is to durability rather than to the measured density, which means its omission does not show in the compaction testing and does show in the pavement's life — a combination that makes it easy to omit and costly to have omitted.**\n\n**THE ROLLING PATTERN ITSELF HAS RULES THAT MATTER:**\n\n| Rule | Reason |\n|---|---|\n| **Roll from the LOWER edge toward the higher** ← | **On a cambered or superelevated surface, so the mix is confined as it is compacted** ← |\n| **Overlap each pass** ← | **By about half the drum width** ← |\n| **Keep the DRIVE wheel toward the paver** ← | **So the mat is not shoved forward by the roller's own thrust** ← |\n| **Start and stop GRADUALLY, and never on hot mix** ← | **Abrupt stops displace the mat and leave a depression** ← |\n| **Keep the drums damp, not wet** ← | **To prevent the mix picking up, without cooling it** ← |\n| **Never stand a roller on a hot mat** ← | **It leaves a permanent depression** ← |\n\n> **The first row's rule is worth understanding rather than memorising: rolling toward the high side means the mix being compacted is confined by the already-compacted material below it.**\n\n> **Rolling the other way pushes the mix down the slope, creating a wave ahead of the roller and leaving the upper edge under-compacted.**\n\n> **The same confinement principle governed the water-bound macadam rolling sequence noted earlier, and it appears wherever a granular or bituminous layer is compacted on a slope.**\n\n> **So the rule is one instance of a general one: compact toward the confinement, and if there is none, create it before rolling.**",
@@ -3080,7 +3080,7 @@
       "stem": "BIO-ENGINEERING for slope stabilisation on a hill road works because vegetation:",
       "options": [
         "Adds significant weight to the slope, holding it down",
-        "Provides several distinct MECHANICAL and HYDROLOGICAL functions",
+        "Provides several distinct mechanical and hydrological functions",
         "Prevents rainfall from reaching the slope entirely",
         "Chemically binds the soil particles together"
       ],
@@ -3148,7 +3148,7 @@
         "Uses less explosive and is therefore always cheaper",
         "Can be carried out without any safety precautions",
         "Produces larger rock fragments suitable for gabions",
-        "LIMITS the damage to the rock BEYOND the excavation line"
+        "Limits the damage to the rock beyond the excavation line"
       ],
       "answerIndex": 3,
       "solution": "**It LIMITS the damage to the rock BEYOND the excavation line** — producing a sound, stable final face rather than a shattered one, and reducing flyrock, vibration and overbreak.\n\n**Why the damage beyond the line matters so much on a hill road:**\n\n| Point | Note |\n|---|---|\n| **Conventional blasting fractures rock well beyond the intended face** ← | ← |\n| **That shattered zone is weak, loose and permeable** ← | ← |\n| **So the cut face ravels, sheds blocks, and weathers rapidly** ← | ← |\n| **Requiring continual scaling, rockfall protection and maintenance** ← | ← |\n| **And OVERBREAK means more excavation and more spoil than designed** ← | ← |\n| **Which on a hillside means more spoil to dispose of, with all that follows** ← | ← |\n\n> **THE THIRD AND FOURTH ROWS DESCRIBE A RECURRING COST THAT LASTS THE ROAD'S WHOLE LIFE AND IT IS INCURRED IN A FEW SECONDS OF BLASTING: a shattered cut face on a Himalayan hillside sheds rock onto the road at every storm and every winter.**\n\n> **The maintenance burden of clearing it, and the accident risk from what is not cleared in time, both continue indefinitely.**\n\n> **A face produced by controlled blasting is largely intact rock and stands with far less attention.**\n\n> **So the extra cost of controlled blasting — more holes, more careful loading, slower progress — buys a permanent reduction in maintenance and risk, and comparing only the blasting costs misses the whole of the benefit.**\n\n**THE CONTROLLED BLASTING TECHNIQUES:**\n\n| Technique | Method |\n|---|---|\n| **PRE-SPLITTING** ← | **A line of closely spaced holes along the final face is fired FIRST, creating a crack that shields the rock beyond from the main blast** ← |\n| **SMOOTH BLASTING (contour blasting)** ← | **The perimeter holes are fired LAST, lightly loaded, trimming to the final line** ← |\n| **LINE DRILLING** ← | **Closely spaced unloaded holes forming a plane of weakness** ← |\n| **CUSHION BLASTING** ← | **Perimeter holes with decoupled charges and stemming to cushion the shock** ← |\n\n> **THE FIRST TWO ROWS DIFFER IN THEIR FIRING ORDER AND THAT IS THE KEY DISTINCTION TO HOLD: pre-splitting fires the perimeter FIRST, and smooth blasting fires it LAST.**\n\n> **Pre-splitting creates the crack before the main blast, so the main blast's energy is reflected at that crack and does not propagate beyond it.**\n\n> **Smooth blasting lets the main blast break out the bulk and then trims the face cleanly with a light perimeter round.**\n\n> **Both produce a sound face, and the choice depends on the rock — pre-splitting works well in massive homogeneous rock and less well in heavily jointed rock, where the crack follows the joints rather than the intended line.**\n\n> **THE COMMON FEATURE OF ALL FOUR TECHNIQUES IS WORTH NAMING BECAUSE IT IS THE PRINCIPLE RATHER THAN THE PROCEDURE: the perimeter holes are CLOSELY SPACED and LIGHTLY LOADED.**\n\n> **Close spacing means the cracks from adjacent holes link along the intended line rather than radiating outward.**\n\n> **Light loading, often with decoupled charges that do not fill the hole, means the shock at the hole wall is low enough to crack rather than to shatter.**\n\n> **So the technique works by making the rock fail in a controlled tensile crack between holes rather than by crushing — and understanding that makes the four variants recognisable as one idea applied in different sequences rather than four separate methods to memorise.**",
@@ -3245,7 +3245,7 @@
       "stem": "During construction of a bituminous layer, the most important field control test for ensuring the layer will perform as designed is:",
       "options": [
         "The penetration test on the binder delivered to site",
-        "Measurement of the FIELD DENSITY of the compacted layer",
+        "Measurement of the field density of the compacted layer",
         "Visual inspection of the surface texture",
         "Measurement of the air temperature during laying"
       ],
@@ -3312,7 +3312,7 @@
       "options": [
         "Is the responsibility of the client while quality assurance is the contractor's",
         "Applies only to materials while quality assurance applies only to workmanship",
-        "Comprises the OPERATIONAL techniques and activities used to check that the product meets requirements",
+        "Comprises the operational techniques and activities used to check that the product meets requirements",
         "Is carried out after completion while quality assurance is carried out during construction"
       ],
       "answerIndex": 2,
@@ -3346,7 +3346,7 @@
         "Widening the existing national highways to four lanes",
         "Constructing new roads to reach unserved areas",
         "Replacing all bituminous surfaces with concrete pavements",
-        "Keeping the DRAINAGE functioning"
+        "Keeping the drainage functioning"
       ],
       "answerIndex": 3,
       "solution": "**Keeping the DRAINAGE functioning — clearing side drains, culverts and catch drains before and during each monsoon** — since water is the dominant cause of pavement and slope failure, and drain clearing is among the cheapest activities available.\n\n**Why drainage dominates everything else:**\n\n| Failure mode | Water's role |\n|---|---|\n| **Pavement structural failure** ← | **Saturated subgrade loses strength; pumping destroys the base** ← |\n| **Potholes** ← | **Water entering cracks, as established earlier** ← |\n| **Stripping of bituminous mixes** ← | **Requires water at the aggregate interface** ← |\n| **Landslides and slope failures** ← | **Pore pressure reducing effective stress** ← |\n| **Erosion and gullying** ← | **Concentrated surface runoff** ← |\n| **Washouts at crossings** ← | **Inadequate or blocked waterway** ← |\n| **Embankment and shoulder failure** ← | **Saturation and erosion** ← |\n\n> **EVERY ROW OF THAT TABLE HAS WATER IN IT AND THAT IS THE OBSERVATION ON WHICH THE WHOLE ANSWER RESTS: essentially every mechanism by which a road deteriorates in Nepal involves water.**\n\n> **So a single class of activity — keeping water off the road and away from its structure — addresses all of them simultaneously.**\n\n> **No other intervention has that breadth, and none is remotely as cheap.**\n\n> **Clearing a side drain costs a few hours of labour and protects a pavement whose construction cost millions per kilometre, which is a return that no other maintenance activity approaches.**\n\n**THE PRACTICAL PROGRAMME IS SIMPLE AND ITS SIMPLICITY IS THE POINT:**\n\n| Activity | Timing |\n|---|---|\n| **Clear all side drains, catch drains and chutes** ← | **BEFORE the monsoon, and again during it** ← |\n| **Clear culverts and check their inlets and outlets** ← | **Before the monsoon — a blocked culvert washes out the road** ← |\n| **Repair damaged drain linings** ← | **Before the monsoon** ← |\n| **Clear debris from causeways and their approaches** ← | ← |\n| **Cut vegetation obstructing drains and sight lines** ← | ← |\n| **Seal cracks in the carriageway** ← | **Before the monsoon, so water cannot enter** ← |\n| **Reshape shoulders so they drain away from the carriageway** ← | ← |\n\n> **THE TIMING COLUMN IS ALMOST ENTIRELY 'BEFORE THE MONSOON' AND THAT CONCENTRATION IS BOTH THE PROGRAMME'S STRENGTH AND ITS ORGANISATIONAL DIFFICULTY: the work must be done in a defined window, before the rain arrives.**\n\n> **Done in April and May, it protects the network through the monsoon.**\n\n> **Done in August, it is too late for most of the damage it would have prevented.**\n\n> **So the maintenance year must be planned around the monsoon rather than around the financial year, and where the two conflict — as they do when budgets are released late — the network pays for the mismatch every single year.**\n\n> **THE SHOULDER REPROFILING IN THE LAST ROW DESERVES A SPECIFIC MENTION BECAUSE IT IS CHEAP AND ITS NEGLECT IS UNIVERSAL: a shoulder that has eroded lower than the carriageway drains water away, and one that has built up higher than it traps water against the pavement edge.**\n\n> **Built-up shoulders are extremely common, formed by material swept off the road and by vegetation growth over years.**\n\n> **They create a bund along the carriageway edge that ponds water exactly where the pavement is weakest.**\n\n> **Cutting them back to below the carriageway level is a grader operation costing very little, and it converts a water trap into a drainage path — which is perhaps the clearest single example in road maintenance of a trivial action preventing a serious and expensive failure.**",

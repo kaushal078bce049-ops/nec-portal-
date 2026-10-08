@@ -2826,7 +2826,7 @@
         "National Highway, Feeder Road, District Road and Urban Road",
         "Expressway, National Highway and Village Road",
         "Primary, Secondary and Tertiary Road only",
-        "Class I, Class II and Class III Road"
+        "Class I, Class II and Class iii Road"
       ],
       "answerIndex": 0,
       "solution": "**National Highway, Feeder Road, District Road and Urban Road.**\n\nThe Nepal Road Standard classifies the road network **functionally**, by the role each road plays in the system:\n\n| Class | Function | Designation |\n|---|---|---|\n| **National Highway** | Main arterial routes running the length and breadth of the country | H (e.g. H01 Mahendra Highway) |\n| **Feeder Road** | Connect district headquarters and important economic centres to the highways | F |\n| **District Road** | Serve traffic within a district | D |\n| **Urban Road** | Roads inside municipal areas | U |\n\nThis is distinct from the Indian (IRC/Nagpur) classification of Expressway, National Highway, State Highway, Major District Road, Other District Road and Village Road — which is what option (b) half-remembers.\n\nRoads are separately classified by **terrain**, which governs the geometric design standards applied: **Plain (up to 10% cross slope), Rolling (10–25%), Mountainous (25–60%) and Steep (over 60%)**. The same functional class carries different design speeds in different terrain — a national highway is designed for 120 km/h in the plains but as little as 40 km/h in steep terrain.\n\nRoads are also described by **surface type** — earthen, gravelled, or blacktopped/bituminous — which is a construction description rather than a classification of function.",

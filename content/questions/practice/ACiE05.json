@@ -79,7 +79,7 @@
         "No reduction is permitted under any circumstances",
         "A flat 25 per cent reduction irrespective of the number of floors",
         "50 per cent for every floor supported, without limit",
-        "10 PER CENT for each floor supported, subject to a MAXIMUM reduction of 50 per cent"
+        "10 per cent for each floor supported, subject to a maximum reduction of 50 per cent"
       ],
       "answerIndex": 3,
       "solution": "**10 PER CENT for each floor supported, subject to a maximum reduction of 50 per cent.**\n\n**The rule as applied:**\n\n| Floors carried by the column at that level | Reduction | Imposed load taken |\n|---|---|---|\n| **1 (the roof, or the topmost floor)** ← | **NIL** ← | **100 per cent** |\n| **2** | **10 %** ← | **90 %** |\n| **3** | **20 %** ← | **80 %** |\n| **4** | **30 %** | **70 %** |\n| **5** | **40 %** | **60 %** |\n| **6 or more** ← | **50 %, the CEILING** ← | **50 per cent, and no further reduction however many floors** ← |\n\n> **THE JUSTIFICATION IS PROBABILISTIC AND IT IS WORTH STATING PROPERLY, because the rule looks like an unprincipled discount if its basis is not understood.**\n\n> **The imposed load prescribed for a floor is a value that a single floor may credibly reach — a room genuinely crowded with people and furniture.**\n\n> **But a column at the base of a ten-storey building carries ten floors, and the probability that ALL TEN are simultaneously loaded to that full value is extremely small.**\n\n> **Designing the column for ten times the full floor load would therefore be designing for an event that will not occur, and the reduction corrects for that.**\n\n> **The 50 per cent ceiling exists because the argument, extended indefinitely, would eventually reduce the load to nothing — and beyond a certain number of floors the code declines to press the statistics further.**\n\n**WHERE THE REDUCTION MAY NOT BE APPLIED, WHICH IS AS IMPORTANT AS THE RULE ITSELF:**\n\n| Case | Reason |\n|---|---|\n| **BEAMS and SLABS of a single floor** ← | **One floor may certainly be fully loaded — there is no simultaneity argument to make** ← |\n| **Where the imposed load is a FIXED, CERTAIN load** ← | **Stored goods in a warehouse, fixed plant, water in a tank that is normally full — these do not vary independently** ← |\n| **Where the loading is specified as a definite quantity by the client** ← | **The client's stated load is a requirement, not a statistical estimate** ← |\n| **On the roof's own imposed load** ← | **Which is counted as one floor and gets no reduction** ← |\n\n> **THE SECOND ROW IS THE EXCEPTION MOST OFTEN OVERLOOKED AND IT MATTERS BECAUSE IT IS EXACTLY WHERE THE CONSEQUENCE OF ERROR IS GREATEST: a warehouse's imposed load is not a probabilistic crowd, it is pallets of goods that sit there permanently.**\n\n> **A ten-storey warehouse may genuinely be full on every floor at once — that is what a warehouse is for.**\n\n> **Applying a 50 per cent reduction to the columns of such a building halves the design load on a structure whose load will actually be present in full, which is not a conservative approximation but a straightforward error of a factor of two.**\n\n> **So the character of the imposed load must be examined before the reduction is applied, and the reduction belongs to buildings whose occupancy varies — dwellings, offices, hotels — rather than to those whose load is placed and left.**\n\n**A note on the SIMILAR reduction for beams, for completeness:**\n\n| Provision | Note |\n|---|---|\n| **A beam carrying a large FLOOR AREA may also take a reduced imposed load** ← | **The same simultaneity argument applied horizontally rather than vertically** ← |\n| **5 per cent for every 50 m² of floor area supported, up to 25 per cent** ← | **Applying to a beam or girder, not to a slab** ← |\n| **The two reductions are not compounded arbitrarily** ← | **The code's provisions are to be applied as written rather than multiplied together** ← |\n\n> **The third row is worth a caution: reductions of this kind are code provisions with defined scope, and stacking several of them because each is individually justified produces a total reduction that no code intended and that no probabilistic argument supports.**",
@@ -110,7 +110,7 @@
       "stem": "The BASIC WIND SPEED given in the wind maps of IS 875 (Part 3) and NBC 104 is defined as the:",
       "options": [
         "Annual average wind speed at the site",
-        "PEAK GUST speed averaged over about 3 SECONDS, at 10 m above mean ground level in open terrain, with a 50-year mean return period",
+        "Peak gust speed averaged over about 3 seconds, at 10 m above mean ground level in open terrain, with a 50-year mean return period",
         "Maximum wind speed ever recorded at the nearest meteorological station",
         "Hourly mean wind speed at the top of the proposed structure"
       ],
@@ -176,7 +176,7 @@
       "marks": 1,
       "stem": "SNOW LOAD on a roof, as treated in IS 875 (Part 4) and in Nepali practice, is characterised by the fact that it:",
       "options": [
-        "INCREASES with altitude, and is greater on a FLAT or shallow roof than on a steep one — since snow slides off a steep slope but accumulates on a flat one",
+        "Increases with altitude, and is greater on a flat or shallow roof than on a steep one — since snow slides off a steep slope but accumulates on a flat one",
         "Is independent of the roof's slope, being taken as a fixed intensity everywhere",
         "Is greater on a steep roof, because the snow is retained by the greater surface area",
         "Need never be considered in Nepal, snow being confined to uninhabited altitudes"
@@ -212,7 +212,7 @@
         "The building's total weight multiplied by the peak ground acceleration in g",
         "The building's total weight divided by the response reduction factor",
         "The imposed load on the building multiplied by the zone factor",
-        "V_B = A_h · W, where A_h is the design horizontal seismic coefficient and W the SEISMIC WEIGHT of the building"
+        "V_B = A_h · W, where A_h is the design horizontal seismic coefficient and W the seismic weight of the building"
       ],
       "answerIndex": 3,
       "solution": "**V_B = A_h · W**, where A_h is the design horizontal seismic coefficient and W the SEISMIC WEIGHT of the building.\n\n**The two quantities:**\n\n| Quantity | Definition |\n|---|---|\n| **A_h — the design horizontal seismic coefficient** ← | **A fraction of g, obtained as Z I (S_a/g) / (2R) in the IS 1893 formulation** ← |\n| **W — the SEISMIC WEIGHT** ← | **The full dead load PLUS a specified FRACTION of the imposed load** ← |\n\n**The seismic weight, which is where errors are made:**\n\n| Component | Included in W? |\n|---|---|\n| **Full DEAD load of the structure and all finishes** ← | **YES, entirely** ← |\n| **IMPOSED load up to 3 kN/m²** ← | **25 per cent of it** ← |\n| **Imposed load above 3 kN/m²** ← | **50 per cent of it** ← |\n| **Imposed load on the ROOF** ← | **NONE — the roof's imposed load is not counted** ← |\n| **Weight of permanent plant, tanks and their contents** | **Included as dead load** ← |\n\n> **THE PARTIAL INCLUSION OF IMPOSED LOAD IN THE SECOND AND THIRD ROWS IS THE FEATURE THAT DISTINGUISHES SEISMIC WEIGHT FROM GRAVITY LOAD, AND ITS LOGIC IS SPECIFIC: an earthquake force is an INERTIA force, proportional to the MASS that is actually present and actually attached to the structure.**\n\n> **The full imposed load is a value a floor may reach occasionally; the mass usually present is much less, and the probability of a design earthquake coinciding with a fully loaded building is small.**\n\n> **Furthermore, some imposed load is not attached to the structure at all — loose furniture and people slide and do not fully participate in the inertia.**\n\n> **Hence a fraction, and hence a larger fraction (50 per cent) where the imposed load is heavy and therefore likely to be goods in storage, which are present continuously and do move with the building.**\n\n> **THE ROOF EXCLUSION IN THE FOURTH ROW FOLLOWS THE SAME REASONING TAKEN TO ITS CONCLUSION: a roof's imposed load is a notional allowance for maintenance access, not a real mass that sits there, so none of it is counted.**\n\n> **A designer who includes it has added a mass at the TOP of the building, where it contributes most to the base shear and most to the overturning moment — so the error is in the conservative direction but is disproportionately large.**\n\n**Where the base shear then goes:**\n\n| Step | Note |\n|---|---|\n| **V_B is the TOTAL horizontal force at the base** ← | ← |\n| **It is DISTRIBUTED up the height in proportion to W_i h_i²** ← | **So the force is concentrated toward the TOP — reflecting the first mode's shape** ← |\n| **Each storey's share is applied at that floor level** ← | ← |\n| **The floors act as DIAPHRAGMS, distributing their force to the vertical elements** ← | **In proportion to stiffness, with a torsional component if the centres of mass and rigidity do not coincide** ← |\n| **Each vertical element then carries its share down to the foundation** | ← |\n\n> **THE h² IN THE SECOND ROW IS WORTH NOTING BECAUSE ITS EFFECT IS LARGE: the force at a level goes with the SQUARE of its height, so the top storey of a ten-storey building receives far more than a tenth of the base shear.**\n\n> **The distribution is roughly triangular in effect — small forces low down, large forces high up — which is why the upper storeys of a building whip during an earthquake and why appendages at roof level, such as water tanks and parapets, are so vulnerable.**\n\n> **A parapet or a tank at the top of a building experiences accelerations several times the ground acceleration, and its anchorage must be designed for that rather than for the base value.**\n\n> **Failures of roof-level water tanks, parapets and mumty walls are among the commonest earthquake damage in Nepal and among the easiest to prevent, and they follow directly from this distribution.**",
@@ -243,7 +243,7 @@
       "stem": "The RESPONSE REDUCTION FACTOR (R) in the seismic design of a building represents:",
       "options": [
         "The reduction in the design load permitted because an earthquake is unlikely during the building's life",
-        "The structure's capacity to DISSIPATE energy through DUCTILE inelastic deformation and its overstrength",
+        "The structure's capacity to dissipate energy through ductile inelastic deformation and its overstrength",
         "The reduction in the seismic weight because imposed loads are only partly included",
         "The ratio of the design earthquake's return period to the building's design life"
       ],
@@ -377,7 +377,7 @@
       "stem": "A structure is being checked for STABILITY AGAINST OVERTURNING under wind load. In this check, the DEAD LOAD of the structure should be:",
       "options": [
         "Multiplied by 1.5, as in every other ultimate limit state combination",
-        "Factored DOWN, typically to 0.9 of its characteristic value",
+        "Factored down, typically to 0.9 of its characteristic value",
         "Ignored entirely, since only the overturning forces matter",
         "Multiplied by 1.2, as when three loads act together"
       ],
@@ -412,7 +412,7 @@
         "The building is symmetrical in both plan directions",
         "The building's fundamental period is very short",
         "The floor slabs are too thin to act as rigid diaphragms",
-        "The CENTRE OF MASS and the CENTRE OF RIGIDITY of a storey do NOT COINCIDE"
+        "The centre of mass and the centre of rigidity of a storey do NOT coincide"
       ],
       "answerIndex": 3,
       "solution": "**The CENTRE OF MASS and the CENTRE OF RIGIDITY of a storey do NOT COINCIDE** — so the inertia force, acting through the centre of mass, exerts a moment about the centre of rigidity.\n\n**The mechanism:**\n\n| Element | Note |\n|---|---|\n| **The CENTRE OF MASS is where the storey's inertia force effectively acts** ← | **Determined by the distribution of weight** ← |\n| **The CENTRE OF RIGIDITY is the point about which the storey twists** ← | **Determined by the distribution of STIFFNESS — the columns and walls** ← |\n| **If they coincide, the storey translates without twisting** ← | **Every vertical element takes load in proportion to its stiffness** ← |\n| **If they are offset by a distance e, a TORSIONAL MOMENT of (force × e) acts** ← | **Twisting the storey in plan** ← |\n| **The twist ADDS displacement at the elements FARTHEST from the centre of rigidity** ← | **Which are usually the corner columns** ← |\n\n> **THE LAST ROW IS WHY TORSION IS SO DAMAGING AND IT IS WORTH SEEING THE GEOMETRY: the extra displacement from twisting is proportional to the distance from the centre of rigidity.**\n\n> **So the corner columns of a torsionally irregular building move much more than the average, and being displaced more they are strained more.**\n\n> **They fail first, and once a corner column fails the stiffness distribution changes, the centre of rigidity shifts further, and the twist increases — a progressive mechanism.**\n\n> **Corner column failures are a recognisable signature of torsional response in earthquake damage surveys.**\n\n**How the offset comes about in real buildings:**\n\n| Cause | Note |\n|---|---|\n| **A shear wall or a stair core placed at ONE END or in ONE CORNER** ← | **The commonest cause — the core is enormously stiffer than the frame, so the centre of rigidity moves to it while the mass stays central** ← |\n| **An L, T, U or cruciform PLAN** ← | **Re-entrant corners give an inherently eccentric geometry** ← |\n| **Infill walls on two sides only** ← | **A building open on the street frontage and walled at the back and sides — extremely common in commercial buildings** ← |\n| **Heavy elements concentrated on one side** ← | **A water tank, a library, a strongroom, a plant room** ← |\n| **Setbacks and irregular column layouts** | ← |\n\n> **THE FIRST ROW IS THE MOST IMPORTANT AND THE MOST FIXABLE, AND THE REMEDY IS PURELY A MATTER OF LAYOUT: shear walls and cores should be placed SYMMETRICALLY, and as far as possible toward the PERIMETER.**\n\n> **Two walls on opposite sides are vastly better than one wall at one end, and cost no more.**\n\n> **Placing them at the perimeter also maximises their lever arm, so they resist torsion effectively as well as not causing it — a wall near the centre of the plan resists translation but does little against twist.**\n\n> **This is one of the very few seismic improvements that is free: it is a decision about WHERE to put the same quantity of material.**\n\n> **THE THIRD ROW IS THE VERSION OF THE PROBLEM THAT DOMINATES NEPALI COMMERCIAL BUILDINGS AND IT IS USUALLY UNINTENTIONAL: a shop or showroom is left open at the front for display and access, while the other three sides are filled with brick.**\n\n> **The designer treats the infill as non-structural and ignores it, but the walls are stiff and they are on three sides only — so the real centre of rigidity is well behind the geometric centre, while the mass is central.**\n\n> **The building is therefore torsionally irregular in fact although the analysis showed it as symmetrical, and it will twist about a point the calculation never identified.**\n\n> **This is the second respect in which infill refuses to be ignored, alongside its effect on the period — and both errors arise from the same habit of treating a stiff, heavy, structurally significant material as though it were not there.**\n\n> **The code's response is to require a DESIGN ECCENTRICITY that is larger than the calculated one — commonly 1.5 times the static eccentricity plus an allowance of 5 per cent of the plan dimension — precisely because the real eccentricity is never quite what the drawing implies.**",
@@ -442,7 +442,7 @@
       "marks": 1,
       "stem": "An OPEN GROUND STOREY (soft storey) in a reinforced concrete building — a ground floor left free of infill walls for parking or shops while the upper storeys are fully infilled — is hazardous in an earthquake because:",
       "options": [
-        "The SUDDEN drop in stiffness and strength at that level concentrates the whole building's drift and inelastic demand into the ground storey columns",
+        "The sudden drop in stiffness and strength at that level concentrates the whole building's drift and inelastic demand into the ground storey columns",
         "The ground storey carries the least vertical load and is therefore the weakest",
         "The absence of walls increases the building's total seismic weight",
         "The columns at ground level are shorter than those above"
@@ -477,7 +477,7 @@
       "options": [
         "Columns be made of higher grade concrete than beams",
         "Beams be designed to remain elastic while the columns yield",
-        "At every beam-column joint, the sum of the columns' moment capacities EXCEED that of the beams",
+        "At every beam-column joint, the sum of the columns' moment capacities exceed that of the beams",
         "Columns be larger in cross-section than beams in every case"
       ],
       "answerIndex": 2,
@@ -509,7 +509,7 @@
       "stem": "The CHARACTERISTIC value of a load, as used in limit state design, is defined as the value:",
       "options": [
         "Obtained by averaging all recorded values of that load",
-        "Which has a 95 PER CENT probability of NOT BEING EXCEEDED during the life of the structure",
+        "Which has a 95 per cent probability of NOT being exceeded during the life of the structure",
         "Equal to the maximum value ever measured for that type of load",
         "Obtained by multiplying the working load by the partial safety factor"
       ],
@@ -544,7 +544,7 @@
         "Always added together, since both are lateral loads",
         "Combined at half their respective values in every lateral load case",
         "Taken as one load whose value is the greater of the two, multiplied by 1.5",
-        "NOT considered to act SIMULTANEOUSLY"
+        "NOT considered to act simultaneously"
       ],
       "answerIndex": 3,
       "solution": "**NOT considered to act SIMULTANEOUSLY** — each is combined separately with the gravity loads, and the design is governed by whichever combination proves more severe.\n\n**The reasoning:**\n\n| Point | Note |\n|---|---|\n| **Both are extreme, RARE events** ← | **A design wind and a design earthquake each have a long return period** ← |\n| **They are also INDEPENDENT of one another** ← | **There is no physical mechanism by which an earthquake causes a storm or vice versa** ← |\n| **So the probability of both reaching their design values at the same moment is the PRODUCT of two small probabilities** ← | **Which is negligible** ← |\n| **Designing for their sum would therefore be designing for an event that will not occur** ← | ← |\n| **Each is instead paired with the gravity loads and the worse case governs** ← | **Which is the code's requirement** ← |\n\n> **THE INDEPENDENCE IN THE SECOND ROW IS THE ESSENTIAL CONDITION AND IT IS WORTH STATING EXPLICITLY, because the rule does not extend to loads that are physically linked.**\n\n> **Wind and earthquake are unrelated phenomena, so their coincidence is a matter of pure chance and the product rule applies.**\n\n> **Where two loads ARE linked — a flood and the scour it causes, an earthquake and the liquefaction or landslide it triggers, a cyclone's wind and its accompanying rain — they MUST be considered together, because one causes the other and their coincidence is certain rather than improbable.**\n\n> **So the question to ask of any two loads is not merely whether both are rare, but whether they are INDEPENDENT — and a great many serious failures have followed from combining loads probabilistically that were in fact causally connected.**\n\n**Which of the two governs, in practice:**\n\n| Building type | Usually governed by |\n|---|---|\n| **LOW-RISE, heavy construction — masonry, RC** ← | **EARTHQUAKE, because seismic force is proportional to MASS and a heavy building attracts a large force while presenting little sail area** ← |\n| **TALL, SLENDER buildings** ← | **Often WIND, because wind pressure acts on a large exposed area with a long lever arm** ← |\n| **LIGHT structures — steel sheds, roofs, hoardings, towers** ← | **WIND, and usually wind UPLIFT, since there is little mass to attract seismic force** ← |\n| **Heavy structures in high seismic zones** ← | **EARTHQUAKE, decisively** ← |\n\n> **THE CONTRAST BETWEEN THE FIRST AND THIRD ROWS IS THE MOST USEFUL THING IN THIS ANSWER AND IT FOLLOWS FROM WHAT EACH LOAD IS PROPORTIONAL TO: seismic force goes with MASS, wind force with AREA.**\n\n> **So making a building heavier increases its earthquake demand and does nothing for its wind demand, while making it larger in exposed area increases its wind demand and not its seismic demand.**\n\n> **A light steel shed has almost no seismic force but a large sail area, and it is designed against wind uplift.**\n\n> **A squat masonry building has an enormous seismic force and hardly notices the wind.**\n\n> **This is one of the strongest arguments for LIGHT construction in a seismic region — reducing mass reduces the demand at source, which is a more fundamental improvement than strengthening to resist it.**\n\n> **It is why light roofs, hollow blocks and lightweight partitions are seismically beneficial, and why a heavy stone-and-mud building in a high seismic zone is inherently disadvantaged before any question of its strength arises.**\n\n> **In Nepal both loads must nevertheless be checked, because the country is in a high seismic zone AND experiences strong winds — and the light structures that are seismically favourable are precisely the ones for which wind then governs.**\n\n> **A designer who checks only the earthquake case on a light steel-roofed building in the hills, on the reasoning that Nepal is a seismic country, has omitted the case that actually governs.**",
@@ -575,7 +575,7 @@
       "stem": "For a MASS CONCRETE pour such as a large raft or a gravity dam block, the most appropriate cement is:",
       "options": [
         "Ordinary Portland cement of grade 53, for its high early strength",
-        "PORTLAND POZZOLANA CEMENT or a low-heat cement, because the HEAT OF HYDRATION is lower and is released more slowly",
+        "PORTLAND pozzolana cement or a low-heat cement, because the heat of hydration is lower and is released more slowly",
         "Rapid hardening Portland cement, so the formwork can be struck early",
         "White Portland cement, for its uniform appearance"
       ],
@@ -607,7 +607,7 @@
       "marks": 1,
       "stem": "Among the Bogue compounds of Portland cement, the one principally responsible for the EARLY strength gain in the first few days is:",
       "options": [
-        "TRICALCIUM SILICATE (C₃S)",
+        "Tricalcium silicate (C₃S)",
         "Dicalcium silicate (C₂S)",
         "Tricalcium aluminate (C₃A)",
         "Tetracalcium aluminoferrite (C₄AF)"
@@ -642,7 +642,7 @@
       "options": [
         "Increases both the workability and the strength",
         "Reduces the workability and increases the strength",
-        "Increases the WORKABILITY but REDUCES the strength and the durability",
+        "Increases the workability but reduces the strength and the durability",
         "Has no significant effect on either workability or strength"
       ],
       "answerIndex": 2,
@@ -707,7 +707,7 @@
       "stem": "The COMPACTING FACTOR of a fresh concrete is defined as the ratio of the:",
       "options": [
         "Volume of the compacted concrete to the volume of the mould",
-        "WEIGHT of the PARTIALLY compacted concrete to the weight of the FULLY compacted concrete in the same cylinder",
+        "Weight of the partially compacted concrete to the weight of the fully compacted concrete in the same cylinder",
         "Height of the slumped concrete to the height of the cone",
         "Weight of the coarse aggregate to the total weight of the mix"
       ],
@@ -739,7 +739,7 @@
       "marks": 1,
       "stem": "The grade designation M25 for concrete signifies that the concrete has a:",
       "options": [
-        "CHARACTERISTIC COMPRESSIVE STRENGTH of 25 N/mm² at 28 days, measured on 150 mm CUBES",
+        "Characteristic compressive strength of 25 N/mm² at 28 days, measured on 150 mm cubes",
         "Mean compressive strength of 25 N/mm² at 28 days on cubes",
         "Characteristic compressive strength of 25 N/mm² at 7 days",
         "Mix proportion of 1 part cement to 2 of sand to 5 of coarse aggregate"
@@ -808,7 +808,7 @@
         "For any grade of concrete, provided the site is properly supervised",
         "For grades above M25 only",
         "Never — every concrete must be a design mix",
-        "For grades UP TO M20, and even then design mix concrete is PREFERRED"
+        "For grades up to M20, and even then design mix concrete is preferred"
       ],
       "answerIndex": 3,
       "solution": "**For grades UP TO M20** — and even then design mix concrete is preferred, because a nominal mix takes no account of the actual materials and therefore wastes cement while giving less reliable strength.\n\n**The two ways of specifying a concrete:**\n\n| Approach | Basis |\n|---|---|\n| **NOMINAL MIX** ← | **Fixed PROPORTIONS by volume — 1:3:6 for M10, 1:2:4 for M15, 1:1.5:3 for M20** ← |\n| **DESIGN MIX** ← | **Proportions determined by TRIAL to achieve a target strength with the ACTUAL materials** ← |\n\n**Why the design mix is superior:**\n\n| Consideration | Nominal mix | Design mix |\n|---|---|---|\n| **Accounts for the actual aggregate GRADING and shape** ← | **NO** ← | **YES** ← |\n| **Accounts for the actual cement's strength** ← | **NO — a 43 grade and a 53 grade cement are treated alike** ← | **YES** ← |\n| **Accounts for the standard deviation achievable on site** ← | **NO** ← | **YES, through the target mean** ← |\n| **Cement content** ← | **Generous, since the proportions must be safe with poor materials** ← | **Optimised — commonly 10 to 20 per cent less cement for the same strength** ← |\n| **Reliability of the strength achieved** | **Variable** ← | **Demonstrated by trial** ← |\n| **Effort required** | **None** | **Trial mixes, testing, a competent laboratory** ← |\n\n> **THE FOURTH ROW CONTAINS THE ARGUMENT THAT SETTLES THE MATTER ON ANY JOB OF SIZE AND IT IS AN ECONOMIC ONE: a nominal mix must be safe with the WORST materials it might encounter, so it carries a margin for materials the site may not actually have.**\n\n> **With good aggregate and a 53 grade cement, a 1:1.5:3 mix will substantially exceed M20 — the extra strength being surplus, paid for in cement that was not needed.**\n\n> **A design mix identifies that surplus and removes it, so the saving in cement typically exceeds the cost of the trials many times over on any pour of consequence.**\n\n> **Which is why the nominal mix survives only for small quantities and low grades, where the cost of designing the mix would exceed the cement saved.**\n\n**THE 'BY VOLUME' BASIS IS THE NOMINAL MIX'S DEEPER WEAKNESS AND IT IS WORTH BEING EXPLICIT ABOUT WHY, because it is a genuine measurement problem rather than merely an approximation:**\n\n| Problem | Note |\n|---|---|\n| **Sand BULKS when damp** ← | **Moist sand occupies 20 to 30 per cent more volume than the same dry sand, because water films hold the grains apart** ← |\n| **So a box of damp sand contains substantially LESS sand than the same box of dry sand** ← | ← |\n| **A 1:2:4 mix batched by volume with damp sand is therefore RICHER in cement than intended** ← | **Wasteful, though not unsafe** ← |\n| **And the WATER carried in by the sand is unmeasured** ← | **Which raises the water-cement ratio by an unknown amount — this is the unsafe consequence** ← |\n| **Bulking is greatest at about 4 to 6 per cent moisture and disappears when the sand is saturated** ← | **So the error varies with the weather, which makes it impossible to allow for by a fixed adjustment** ← |\n\n> **THE FOURTH ROW IS THE SERIOUS ONE AND IT DEFEATS THE ENTIRE PURPOSE OF SPECIFYING A GRADE: the strength of concrete depends chiefly on the water-cement ratio, and volume batching with damp sand leaves the water content genuinely unknown.**\n\n> **The mixer operator adds water until the mix looks right, without knowing how much the sand already contributed, so the actual water-cement ratio varies from batch to batch with the sand's moisture and the operator's judgment.**\n\n> **This is why WEIGH BATCHING with a moisture correction is required for design mixes, and why it is the single most effective quality control measure on a concreting site.**\n\n> **It is also why the bulking test — measuring the volume of a sample of the sand loose and then inundated — is worth doing on any site that must batch by volume: it at least quantifies the error, and the sand allowance can be adjusted for the day's condition.**",
@@ -838,7 +838,7 @@
       "marks": 1,
       "stem": "IS 456 prescribes a MINIMUM CEMENT CONTENT and a MAXIMUM water-cement ratio for each EXPOSURE CONDITION, in addition to the strength requirement, because:",
       "options": [
-        "DURABILITY depends on the concrete's IMPERMEABILITY, which the strength requirement alone does not guarantee",
+        "Durability depends on the concrete's impermeability, which the strength requirement alone does not guarantee",
         "The strength requirement is too difficult to verify on site",
         "Cement content has no effect on strength and must therefore be specified separately",
         "The exposure condition determines the loads on the structure"
@@ -906,7 +906,7 @@
       "options": [
         "Cool the concrete so that thermal cracking is avoided",
         "Wash away the laitance from the surface",
-        "RETAIN sufficient MOISTURE in the concrete for HYDRATION to continue",
+        "Retain sufficient moisture in the concrete for hydration to continue",
         "Compact the surface layer so that it becomes wear-resistant"
       ],
       "answerIndex": 2,
@@ -940,7 +940,7 @@
         "The separation of the coarse aggregate from the mortar during handling",
         "The loss of workability with time after mixing",
         "The formation of a weak, dusty layer of fine material on the surface after finishing",
-        "The upward migration of MIXING WATER to the surface as the solids settle"
+        "The upward migration of mixing water to the surface as the solids settle"
       ],
       "answerIndex": 3,
       "solution": "**The upward migration of MIXING WATER to the surface as the solids settle** — leaving water-filled channels, weakened zones beneath aggregate particles and reinforcement, and a laitance on the surface.\n\n**The related defects, which are distinct and are constantly confused:**\n\n| Defect | Definition |\n|---|---|\n| **BLEEDING** ← | **WATER rising to the surface as the solids settle — this question** ← |\n| **SEGREGATION** ← | **Separation of the COARSE AGGREGATE from the mortar, so the mix is no longer uniform** ← (option a) |\n| **SLUMP LOSS** ← | **Progressive stiffening with time after mixing** ← (option b) |\n| **LAITANCE** ← | **The weak, dusty layer of fine material left on the surface — a CONSEQUENCE of bleeding, carried up by the rising water** ← (option c) |\n| **PLASTIC SETTLEMENT cracking** ← | **Cracks over reinforcement, where the concrete settles and the bar does not** ← |\n\n> **THE RELATIONSHIP BETWEEN THE FIRST AND FOURTH ROWS IS THE ONE TO GET RIGHT, since option (c) describes a real thing that is not the answer: laitance is what bleeding LEAVES BEHIND, not bleeding itself.**\n\n> **The rising water carries the finest particles — cement fines and silt — to the surface, where the water evaporates and the fines remain as a weak dusty film.**\n\n> **So laitance is the visible evidence of bleeding, and its presence on a construction joint is why such joints must be scabbled, wire-brushed or green-cut before the next lift is placed.**\n\n**The damage bleeding does, which is more than cosmetic:**\n\n| Consequence | Note |\n|---|---|\n| **CHANNELS are left where the water rose** ← | **Continuous vertical paths of high permeability through the concrete** ← |\n| **Water accumulates UNDER coarse aggregate particles and UNDER reinforcing bars** ← | **Leaving a void or a weak porous zone there when it is consumed or evaporates** ← |\n| **The BOND between concrete and reinforcement is weakened on the UNDERSIDE of horizontal bars** ← | **Which is a genuine structural consequence, particularly for top steel in a deep member** ← |\n| **LAITANCE forms a weak plane at the surface** ← | **Poor wear resistance on a floor, and a poor bond at a construction joint** ← |\n| **The top of a deep lift becomes richer in water and therefore WEAKER than the bottom** ← | **A strength gradient through the pour** ← |\n| **PLASTIC SETTLEMENT cracks appear over the bars** ← | **Where the settling concrete is locally restrained** ← |\n\n> **THE THIRD ROW IS THE CONSEQUENCE MOST OFTEN OVERLOOKED AND IT IS A REAL STRUCTURAL ONE: a horizontal bar high in a deep pour has bleed water collecting beneath it, so its lower half is bonded to porous, weak, water-formed concrete.**\n\n> **The bar's bond strength on that side is substantially reduced, which matters most for the top reinforcement of a deep beam — where the top steel is the tension steel over a support.**\n\n> **This is one reason codes limit the depth of a single lift and require deep members to be placed in layers with an interval, and it is why the phenomenon has a name of its own — 'top bar effect'.**\n\n**How bleeding is controlled:**\n\n| Measure | Note |\n|---|---|\n| **Reduce the WATER content** ← | **The direct cause is excess water; less water means less to bleed** ← |\n| **Increase the FINES — cement, fly ash, or finer sand** ← | **Fine particles hold water by surface area and impede its upward flow** ← |\n| **Use AIR ENTRAINMENT** ← | **The tiny bubbles obstruct the bleed channels remarkably effectively** ← |\n| **Avoid over-vibration** ← | **Prolonged vibration drives the solids down and the water up, causing both bleeding and segregation** ← |\n| **Place in shallower LIFTS** ← | **Less depth of solids to settle, so less water expelled** ← |\n| **Delay the FINISHING until bleeding has ceased** ← | **Finishing while bleed water is still on the surface works that water back into the top layer, which is the classic cause of a dusting, crazed floor** ← |\n\n> **THE LAST ROW IS THE COMMONEST WORKMANSHIP ERROR IN SLAB FINISHING AND IT IS ENTIRELY AVOIDABLE: trowelling a surface while bleed water stands on it mixes that water into the very layer that must be hardest and densest.**\n\n> **The result is a top few millimetres of extremely high water-cement ratio — soft, dusty, permeable and liable to craze and wear.**\n\n> **The correct practice is to wait for the bleed water to disappear by evaporation or to remove it, and only then to float and trowel — and never to sprinkle dry cement on a wet surface to absorb the water, which produces exactly the same defect in a more concentrated form.**",
@@ -970,7 +970,7 @@
       "marks": 1,
       "stem": "A SUPERPLASTICISER (high range water reducer) is used in concrete principally to:",
       "options": [
-        "Achieve a large increase in WORKABILITY at the same water content, or the same workability at a much REDUCED water content",
+        "Achieve a large increase in workability at the same water content, or the same workability at a much reduced water content",
         "Delay the setting time in hot weather",
         "Entrain fine air bubbles to improve frost resistance",
         "Accelerate the strength gain so that formwork can be struck early"
@@ -1004,7 +1004,7 @@
       "stem": "PLASTIC SHRINKAGE cracking of a concrete slab is distinguished from DRYING SHRINKAGE cracking in that plastic shrinkage cracking:",
       "options": [
         "Occurs only in concrete containing no reinforcement",
-        "Occurs within the FIRST FEW HOURS",
+        "Occurs within the first few hours",
         "Occurs only after the concrete has reached its full design strength",
         "Is caused by the chemical reaction of the cement rather than by moisture loss"
       ],
@@ -1038,7 +1038,7 @@
       "options": [
         "The instantaneous elastic deformation on first loading",
         "The contraction of the concrete as it loses moisture to the atmosphere, independent of any load",
-        "The gradual increase in STRAIN under a SUSTAINED load, continuing for years and reaching two to three times the initial elastic strain",
+        "The gradual increase in strain under a sustained load, continuing for years and reaching two to three times the initial elastic strain",
         "The reduction in strength of concrete under repeated cycles of loading"
       ],
       "answerIndex": 2,
@@ -1072,7 +1072,7 @@
         "Measures the concrete's compressive strength directly and definitively",
         "Measures the depth of carbonation of the cover concrete",
         "Determines the position and diameter of the reinforcement",
-        "Measures the SURFACE HARDNESS of the concrete, from which strength is inferred only APPROXIMATELY through a correlation"
+        "Measures the surface hardness of the concrete, from which strength is inferred only approximately through a correlation"
       ],
       "answerIndex": 3,
       "solution": "**It measures the SURFACE HARDNESS of the concrete**, from which strength is inferred only approximately through a correlation — making it a tool for comparing and screening areas rather than for establishing strength.\n\n**What the test does and what limits it:**\n\n| Aspect | Note |\n|---|---|\n| **A spring-driven mass strikes the surface and the REBOUND distance is measured** ← | **Reported as a rebound number** ← |\n| **The rebound depends on the surface's ELASTIC properties and hardness** ← | **Which correlate with strength, but only loosely** ← |\n| **It interrogates only the outer 30 mm or so** ← | **So it says nothing about the concrete deeper in the member** ← |\n| **CARBONATION of the surface raises the reading substantially** ← | **An old carbonated surface can read as much stronger than it is** ← |\n| **Surface MOISTURE, texture, and the presence of aggregate or a void just below the point all affect it** ← | **Which is why many readings are averaged and outliers discarded** ← |\n| **The hammer's ORIENTATION affects the reading** ← | **Horizontal, upward and downward each need a different correction** ← |\n| **Correlation must be established for the PARTICULAR concrete** ← | **A manufacturer's generic curve can be far out for a different aggregate or mix** ← |\n\n> **THE FOURTH ROW IS THE MOST SERIOUS SYSTEMATIC ERROR AND IT MATTERS MOST WHERE THE TEST IS MOST OFTEN USED: assessing OLD structures.**\n\n> **Carbonation hardens the surface layer, so an old concrete reads high — and an old structure is precisely the one whose strength is in doubt.**\n\n> **So the rebound hammer flatters exactly the concrete it is called upon to judge, and a favourable reading on a forty-year-old building is close to meaningless without a core to calibrate against.**\n\n**The non-destructive methods and what each is good for:**\n\n| Method | Measures | Best used for |\n|---|---|---|\n| **REBOUND HAMMER** ← | **Surface hardness** ← | **COMPARING areas, screening for weak zones, mapping uniformity** ← |\n| **ULTRASONIC PULSE VELOCITY (UPV)** ← | **The velocity of a sound pulse THROUGH the member** ← | **Detecting internal VOIDS, cracks, honeycombing and assessing overall quality; it interrogates the full thickness** ← |\n| **CORE test** ← | **Actual compressive strength of extracted concrete** ← | **The DEFINITIVE strength measure — semi-destructive** ← |\n| **COVER METER (rebar locator)** ← | **Position, depth and approximate diameter of bars** ← (option c) | **Verifying cover and locating steel before coring** ← |\n| **CARBONATION depth (phenolphthalein)** ← | **How far the alkalinity has been lost** ← (option b) | **Assessing corrosion risk** ← |\n| **HALF-CELL POTENTIAL** | **Electrochemical potential of the steel** | **Detecting ACTIVE corrosion** ← |\n| **Chloride content, by sampling and titration** | **Chloride at various depths** | **Assessing chloride-induced corrosion risk** ← |\n\n> **THE COMBINATION OF THE FIRST TWO ROWS IS THE STANDARD PRACTICE AND IT IS BETTER THAN EITHER ALONE, which is worth knowing as a method rather than as a fact:**\n\n> **The rebound hammer is quick, so it can cover a whole structure and identify which areas are anomalous.**\n\n> **UPV then examines those areas through their full thickness, distinguishing genuinely poor concrete from a merely poor surface.**\n\n> **Cores are then cut at the few locations that matter, calibrating the indirect measurements and settling the question.**\n\n> **That sequence — screen broadly, investigate selectively, confirm definitively — costs a fraction of coring everywhere and gives a better picture than coring at arbitrary points, since the cores go where the screening said to look.**\n\n> **THE UNDERLYING PRINCIPLE IS WORTH STATING GENERALLY: no non-destructive test measures strength.**\n\n> **Each measures some other property — hardness, pulse velocity, resonance — that correlates with strength through a relationship depending on the aggregate, the mix, the age, the moisture and the carbonation.**\n\n> **So a non-destructive result quoted as a strength in newtons per square millimetre, without a core correlation for that concrete, is an inference presented as a measurement — and it is the commonest misuse of these instruments in practice.**",
@@ -1137,7 +1137,7 @@
       "options": [
         "The working stress method uses higher grades of concrete",
         "The limit state method ignores the serviceability of the structure",
-        "The working stress method keeps stresses within a permissible fraction of the material strength under SERVICE loads using a SINGLE factor of safety",
+        "The working stress method keeps stresses within a permissible fraction of the material strength under service loads using a single factor of safety",
         "The limit state method applies only to steel structures and the working stress method only to concrete"
       ],
       "answerIndex": 2,
@@ -1270,7 +1270,7 @@
       "options": [
         "The clear span between the faces of the supports in all cases",
         "The centre-to-centre distance between the supports in all cases",
-        "The CLEAR SPAN plus the EFFECTIVE DEPTH, or the centre-to-centre distance between supports, whichever is LESS",
+        "The clear span plus the effective depth, or the centre-to-centre distance between supports, whichever is less",
         "The clear span plus the full width of both supports"
       ],
       "answerIndex": 2,
@@ -1304,7 +1304,7 @@
         "E_s / E_c, computed from the actual moduli of the two materials",
         "A constant value of 13.33 for all grades of concrete",
         "The ratio of the permissible steel stress to the permissible concrete stress",
-        "280 / (3 σ_cbc), which builds in an allowance for the long-term CREEP of the concrete and therefore gives a value HIGHER than the ratio of the short-term elastic moduli"
+        "280 / (3 σ_cbc), which builds in an allowance for the long-term creep of the concrete and therefore gives a value higher than the ratio of the short-term elastic moduli"
       ],
       "answerIndex": 3,
       "solution": "**280 / (3 σ_cbc)** — which builds in an allowance for the long-term CREEP of the concrete and therefore gives a value higher than the ratio of the short-term elastic moduli.\n\n**The values that result:**\n\n| Grade | σ_cbc (N/mm²) | m = 280/(3σ_cbc) |\n|---|---|---|\n| **M15** | **5.0** | **18.67** ← |\n| **M20** | **7.0** | **13.33** ← |\n| **M25** | **8.5** | **10.98** ← |\n| **M30** | **10.0** | **9.33** ← |\n\n> **OPTION (b) IS THE M20 VALUE, WHICH IS SO WIDELY USED THAT IT IS OFTEN MISTAKEN FOR A UNIVERSAL CONSTANT — AND IT IS NOT: m falls as the concrete grade rises, because a stronger concrete is stiffer and the steel is therefore relatively less dominant.**\n\n**Why the code's value differs from E_s/E_c, which is the substance of the question:**\n\n| Consideration | Note |\n|---|---|\n| **The short-term ratio would be E_s/E_c = 200,000 / 5,000√f_ck** ← | **For M20 that is 200,000/22,360 = 8.9** ← |\n| **The code's value for M20 is 13.33 — half again as large** ← | **A deliberate difference, not an approximation** ← |\n| **The difference accounts for CREEP** ← | **Under sustained load the concrete's effective modulus falls, so the steel takes a progressively larger share of the compression** ← |\n| **A larger m models exactly that redistribution** ← | **The transformed section places more emphasis on the steel** ← |\n| **Using the short-term ratio would UNDER-estimate the steel's long-term stress** ← | **Which is the unsafe direction** ← |\n\n> **THE FOURTH AND FIFTH ROWS ARE THE ESSENTIAL POINT AND IT IS A GOOD ILLUSTRATION OF WHAT A DESIGN CONSTANT DOES: m is not a material property, it is a modelling parameter chosen so that an elastic analysis predicts the long-term stresses correctly.**\n\n> **The real concrete creeps; the elastic analysis does not know how to creep; so the modular ratio is inflated to make the elastic answer come out where the creeping answer would.**\n\n> **This is the same device as the effective modulus method used for creep deflections in limit state design — E_c/(1 + θ) — approached from the other end.**\n\n> **Recognising both as the same idea is useful, and it removes the puzzle of why the working stress method's m looks wrong when checked against the moduli.**\n\n**How m is used, for completeness:**\n\n| Application | Note |\n|---|---|\n| **The TRANSFORMED SECTION** ← | **Steel of area A_s is replaced by an equivalent concrete area of m·A_s, so a single homogeneous elastic section can be analysed** ← |\n| **In the COMPRESSION zone, the equivalent area is (m − 1)A_sc** ← | **The −1 avoiding double-counting the concrete the bar displaces** ← |\n| **The neutral axis is found from the transformed section's centroid** ← | **First moments of area equated about it** ← |\n| **Stresses are then computed elastically and compared with the permissible values** ← | **σ_cbc for concrete, σ_st for steel** ← |\n\n> **THE (m − 1) IN THE SECOND ROW IS A DETAIL WORTH KEEPING STRAIGHT AND IT DISTINGUISHES THE TWO ZONES: in the TENSION zone the concrete is assumed cracked and to carry nothing, so the steel's transformed area is the full m·A_st — there is no concrete there to double-count.**\n\n> **In the COMPRESSION zone the concrete is intact and is already included in the gross area, so the bar's contribution is only the EXCESS over the concrete it replaces, hence (m − 1).**\n\n> **Using m instead of (m − 1) in the compression zone counts the displaced concrete twice, which over-estimates the section slightly — a small error, but a conceptual one that indicates the transformed section has not been properly understood.**",
@@ -1368,7 +1368,7 @@
       "marks": 1,
       "stem": "VERTICAL STIRRUPS resist shear in a reinforced concrete beam by:",
       "options": [
-        "CROSSING the inclined shear crack and carrying the DIAGONAL TENSION across it in the manner of the tension members of a truss",
+        "Crossing the inclined shear crack and carrying the diagonal tension across it in the manner of the tension members of a truss",
         "Increasing the beam's effective depth",
         "Preventing the longitudinal bars from buckling",
         "Confining the concrete so that its compressive strength is increased"
@@ -1402,7 +1402,7 @@
       "stem": "IS 456 requires MINIMUM shear reinforcement to be provided in a beam even where the nominal shear stress τ_v is less than τ_c, principally because:",
       "options": [
         "It is needed to hold the longitudinal bars in place and nothing more",
-        "It guards against a SUDDEN diagonal tension failure should the shear exceed the calculated value",
+        "It guards against a sudden diagonal tension failure should the shear exceed the calculated value",
         "The code requires it only for beams deeper than 750 mm",
         "It increases the beam's flexural capacity"
       ],
@@ -1436,7 +1436,7 @@
       "options": [
         "10 for cantilevers, 25 for simply supported and 30 for continuous members",
         "5 for cantilevers, 15 for simply supported and 20 for continuous members",
-        "7 for CANTILEVERS, 20 for SIMPLY SUPPORTED and 26 for CONTINUOUS members",
+        "7 for cantilevers, 20 for simply supported and 26 for continuous members",
         "12 for cantilevers, 24 for simply supported and 32 for continuous members"
       ],
       "answerIndex": 2,
@@ -1470,7 +1470,7 @@
         "It is supported on beams rather than on walls",
         "Its thickness exceeds 150 mm",
         "It carries a concentrated load at its centre",
-        "The ratio of its LONGER span to its SHORTER span EXCEEDS 2"
+        "The ratio of its longer span to its shorter span exceeds 2"
       ],
       "answerIndex": 3,
       "solution": "**When the ratio of its LONGER span to its SHORTER span EXCEEDS 2** — so that almost all the load is carried by bending in the shorter direction.\n\n**The distinction:**\n\n| Ratio L_y/L_x | Behaviour | Design as |\n|---|---|---|\n| **Up to 2** ← | **The slab bends in BOTH directions and shares the load between them** ← | **TWO-WAY slab** ← |\n| **Greater than 2** ← | **The long direction contributes so little that it may be ignored** ← | **ONE-WAY slab, spanning the short direction** ← |\n\n> **WHY THE THRESHOLD SITS AT 2 IS WORTH DERIVING, BECAUSE IT MAKES THE RULE INTELLIGIBLE RATHER THAN ARBITRARY:**\n\n| Step | Note |\n|---|---|\n| **Consider two orthogonal strips through the slab's centre, of spans L_x and L_y** ← | **Each carrying a share of the load, w_x and w_y** ← |\n| **At the centre both strips must have the SAME deflection** ← | **They are the same piece of slab** ← |\n| **Deflection goes as w L⁴, so w_x L_x⁴ = w_y L_y⁴** ← | ← |\n| **Therefore w_x/w_y = (L_y/L_x)⁴** ← | **The load divides as the FOURTH POWER of the span ratio** ← |\n| **At a ratio of 2, that gives w_x/w_y = 16** ← | **The short span carries 16 parts and the long span 1 — about 94 per cent against 6 per cent** ← |\n\n> **THE FOURTH POWER IN THE FOURTH ROW IS THE REASON THE THRESHOLD IS SO LOW, and it is a strikingly strong dependence: doubling the span ratio makes the load share sixteen times more lopsided.**\n\n> **Even at a ratio of 1.5 the split is 5:1, so the long span already carries only about 17 per cent.**\n\n> **By a ratio of 2 the long direction's contribution is a few per cent, which is within the accuracy of the whole calculation — so ignoring it costs nothing and simplifies the design greatly.**\n\n> **Being able to reconstruct that from the equal-deflection condition is far more useful than remembering the number 2, and it also explains why the two-way action is worth exploiting at all: a square panel splits the load 50:50 and therefore needs roughly half the moment capacity in each direction.**\n\n**The design consequences:**\n\n| Aspect | One-way slab | Two-way slab |\n|---|---|---|\n| **MAIN steel** | **In the SHORT direction only** ← | **In BOTH directions, both being main steel** ← |\n| **The other direction** | **DISTRIBUTION steel — a nominal minimum** ← | **Main steel, designed** ← |\n| **Moments** | **From simple beam analysis of a 1 m wide strip** ← | **From coefficients in IS 456 Tables 26 and 27, by panel type and ratio** ← |\n| **Economy** | **Thicker for the same span** ← | **Thinner and lighter — two-way action is efficient** ← |\n| **CORNER reinforcement** | **Not required** | **REQUIRED at corners where the slab is restrained but not held down, against uplift and torsion** ← |\n\n> **THE CORNER PROVISION IN THE LAST ROW IS THE ONE MOST OFTEN MISSED ON DRAWINGS AND IT ADDRESSES A REAL EFFECT: a two-way slab restrained along its edges tends to LIFT at its corners as it deflects.**\n\n> **The corners are subject to twisting moments, and if the slab is held down there — by a wall above, or by continuity — that restraint generates torsion that cracks the corner diagonally on both faces.**\n\n> **IS 456 accordingly requires torsion reinforcement at such corners: a mesh in the top and bottom over a fifth of the shorter span each way, at three-quarters of the midspan area.**\n\n> **Its omission produces the diagonal corner cracks visible on the soffit of many two-way slabs, which are unsightly and admit water to the reinforcement but are seldom structurally serious — a defect of detailing rather than of design, and entirely avoidable.**",
@@ -1570,7 +1570,7 @@
       "options": [
         "The full development length, in every case",
         "The effective depth only",
-        "The EFFECTIVE DEPTH or 12 times the bar diameter, whichever is GREATER",
+        "The effective depth or 12 times the bar diameter, whichever is greater",
         "Half the effective depth"
       ],
       "answerIndex": 2,
@@ -1604,7 +1604,7 @@
         "The flange is not strong enough to carry the compression over a greater width",
         "Only the portion of the flange directly above the web is reinforced",
         "The slab's own reinforcement runs in the wrong direction beyond a certain distance",
-        "The longitudinal compressive stress in the flange DIMINISHES with distance from the web, so beyond a certain width the slab contributes very little"
+        "The longitudinal compressive stress in the flange diminishes with distance from the web, so beyond a certain width the slab contributes very little"
       ],
       "answerIndex": 3,
       "solution": "**The longitudinal compressive stress in the flange DIMINISHES with distance from the web**, so beyond a certain width the slab contributes very little — and the effective width is the width of an equivalent flange carrying uniform stress.\n\n**The concept:**\n\n| Point | Note |\n|---|---|\n| **In a real T-beam, the compressive stress in the flange is HIGHEST over the web and falls off sideways** ← | **Because the flange is loaded by shear transferred from the web at its junction, and that shear takes distance to spread** ← |\n| **The true stress distribution is a curve, not a rectangle** ← | ← |\n| **Analysis with a varying stress would be laborious** ← | ← |\n| **So an EQUIVALENT width is defined, over which the PEAK stress is assumed UNIFORM** ← | **Chosen so the total force is the same as under the real distribution** ← |\n| **That equivalent width is the EFFECTIVE FLANGE WIDTH** ← | **A modelling device, exactly like the nominal shear stress and the modular ratio** ← |\n\n> **THE PHENOMENON UNDERLYING THIS IS CALLED SHEAR LAG, AND RECOGNISING IT BY NAME IS USEFUL BECAUSE IT APPEARS ELSEWHERE: the same effect limits the effective width of the deck acting with a bridge girder, the effective width of a plate acting with a stiffener in a steel structure, and the flange width of a box girder.**\n\n> **In every case a wide plate attached to a stiff rib cannot be fully mobilised, because the force must travel sideways through the plate's own shear stiffness and it diminishes as it goes.**\n\n> **So the effective width concept is not a peculiarity of T-beams but a general treatment of a general problem, and its form is always the same: replace a varying stress over the true width with a uniform stress over a reduced width.**\n\n**The limits IS 456 gives:**\n\n| Beam | Effective flange width b_f is the LEAST of |\n|---|---|\n| **T-BEAM** ← | **(i) b_w + 6 D_f + L_0/6, (ii) the actual width available — that is, the centre-to-centre distance to the adjacent beams** ← |\n| **ISOLATED T-beam** ← | **L_0/(L_0/b + 4) + b_w** ← |\n| **L-BEAM** ← | **(i) b_w + 3 D_f + L_0/12, (ii) b_w plus half the clear distance to the next beam** ← |\n| **Where L_0 is** ← | **The distance between points of ZERO MOMENT — which for a continuous beam is 0.7 times the effective span, NOT the full span** ← |\n\n> **THE DEFINITION OF L_0 IN THE LAST ROW IS THE DETAIL MOST OFTEN GOT WRONG AND IT MATTERS BECAUSE IT REDUCES THE FLANGE WIDTH BY NEARLY A THIRD IN CONTINUOUS BEAMS: L_0 is the distance between points of zero moment, not the span.**\n\n> **For a simply supported beam those coincide, and L_0 equals the effective span.**\n\n> **For a continuous beam the points of contraflexure are inboard of the supports, and the code permits L_0 to be taken as 0.7 times the effective span.**\n\n> **Using the full span for a continuous beam over-estimates the effective flange width, and therefore over-estimates the compression capacity — an error in the unsafe direction.**\n\n**AND THE MOST IMPORTANT PRACTICAL LIMITATION OF T-BEAM ACTION IS ONE OF SIGN, WHICH IS WORTH CLOSING ON:**\n\n| Situation | Flange in |\n|---|---|\n| **MIDSPAN of a beam, sagging moment** ← | **COMPRESSION — the flange is fully effective, and the T-beam is very efficient** ← |\n| **Over a SUPPORT of a continuous beam, hogging moment** ← | **TENSION — the flange is CRACKED and contributes NOTHING to the compression** ← |\n| **So the section over a support must be designed as a RECTANGULAR beam of width b_w** ← | **Much weaker than the T-section at midspan** ← |\n| **And the tension steel there must be spread across the flange** ← | **Within the effective width, so that the slab's cracking is controlled** ← |\n\n> **The second and third rows explain why the support region of a continuous T-beam is so often the critical section despite the flange being present: the flange is on the wrong side.**\n\n> **A designer who takes advantage of the T-section throughout, without recognising that the support section is a narrow rectangle, has over-estimated the capacity exactly where the moment is greatest — and the support of a continuous beam is where the largest moment usually occurs.**",
@@ -1634,7 +1634,7 @@
       "marks": 1,
       "stem": "The DISTRIBUTION (secondary) reinforcement placed perpendicular to the main steel in a one-way slab serves to:",
       "options": [
-        "DISTRIBUTE any concentrated load across several strips of the slab",
+        "Distribute any concentrated load across several strips of the slab",
         "Carry the principal bending moment in the long direction",
         "Provide shear resistance in the slab",
         "Increase the slab's effective depth"
@@ -1668,7 +1668,7 @@
       "stem": "In reinforced concrete, FLEXURAL bond stress differs from ANCHORAGE (local) bond stress in that flexural bond stress:",
       "options": [
         "Acts only on plain bars, anchorage bond only on deformed bars",
-        "Arises from the RATE OF CHANGE of the bar's force along its length",
+        "Arises from the rate of change of the bar's force along its length",
         "Is always larger than the anchorage bond stress",
         "Is measured in a pull-out test, whereas anchorage bond is measured in a beam test"
       ],
@@ -1703,7 +1703,7 @@
         "Exceeds 12 in either direction",
         "Is less than 3",
         "Exceeds 30",
-        "Is LESS than 12 in BOTH directions"
+        "Is less than 12 in both directions"
       ],
       "answerIndex": 3,
       "solution": "**When the ratio of effective length to least lateral dimension is LESS than 12 in BOTH directions.**\n\n**The classification:**\n\n| Condition | Column |\n|---|---|\n| **l_ex/D < 12 AND l_ey/b < 12** ← | **SHORT — designed for the axial load and the primary moments only** ← |\n| **Either ratio ≥ 12** ← | **SLENDER — additional moments from the lateral deflection must be included** ← |\n| **l_e/least dimension > 60, or > 100 b²/D for a cantilever column** ← | **NOT PERMITTED at all** ← |\n\n> **THE REQUIREMENT THAT BOTH DIRECTIONS SATISFY THE LIMIT IN THE FIRST ROW IS THE POINT THE QUESTION TURNS ON, and it is worth stating why: a column can be short about one axis and slender about the other.**\n\n> **A rectangular column 600 mm by 250 mm in a frame braced in one direction and unbraced in the other may have quite different effective lengths and quite different lateral dimensions in the two directions.**\n\n> **If it is slender in either, it must be treated as slender — the additional moments arise about whichever axis the slenderness permits it to buckle about, and being stocky in the other direction does not help.**\n\n> **So the check is made separately for each axis and the more onerous conclusion governs.**\n\n**Why 12, and what the distinction actually means physically:**\n\n| Point | Note |\n|---|---|\n| **A SHORT column fails by CRUSHING of the material** ← | **Its capacity is the material's capacity, and its length is irrelevant** ← |\n| **A SLENDER column deflects laterally under load, and that deflection creates an ADDITIONAL moment P·Δ** ← | **Which increases the deflection further — the second-order or P-delta effect** ← |\n| **The additional moment reduces the capacity below the material's value** ← | **Increasingly so as the slenderness grows** ← |\n| **Below a ratio of about 12 the effect is small enough to neglect** ← | **Within the accuracy of the rest of the calculation** ← |\n| **Above it the additional moment must be computed and added** ← | ← |\n\n> **THE SELF-REINFORCING CHARACTER OF THE SECOND ROW IS WHAT MAKES SLENDERNESS DANGEROUS AND IT IS WORTH SEEING CLEARLY: the deflection creates a moment, which increases the deflection, which increases the moment.**\n\n> **For a stocky column that loop converges quickly and the increase is trivial.**\n\n> **For a very slender one it may not converge at all, which is buckling — and the failure is sudden, occurring at a load well below the material's crushing capacity.**\n\n> **This is why the code sets an absolute ceiling of 60 in the third row of the first table: beyond that the behaviour is dominated by stability rather than strength, and the empirical additional-moment provisions cease to be reliable.**\n\n**AND THE MINIMUM ECCENTRICITY REQUIREMENT, WHICH APPLIES TO EVERY COLUMN INCLUDING A SHORT ONE:**\n\n| Provision | Note |\n|---|---|\n| **e_min = l/500 + D/30, subject to a minimum of 20 mm** ← | **In each direction** ← |\n| **No column is designed as PURELY axially loaded** ← | **Because no column is ever purely axially loaded in reality** ← |\n| **Construction tolerances, unequal spans, accidental loads and frame action all introduce moment** ← | **Even where the analysis shows none** ← |\n| **If the actual eccentricity exceeds e_min, the actual value is used** ← | **e_min is a floor, not a substitute** ← |\n| **Where e_min does not exceed 0.05 D, the simple axial formula may be used** ← | **Which is the condition for using P_u = 0.4 f_ck A_c + 0.67 f_y A_sc** ← |\n\n> **THE SECOND AND THIRD ROWS ARE THE JUSTIFICATION AND THEY DESERVE A MOMENT'S THOUGHT, because the provision is sometimes dismissed as a formality: a column built exactly where the drawing shows it, carrying exactly the loads the analysis assumed, would indeed be axially loaded.**\n\n> **No column is. It is built a few millimetres out of plumb, its beams frame in at slightly different levels, the slab on one side is loaded and the other is not, and the frame sways slightly under wind.**\n\n> **Each of those introduces a small moment, and a column designed for pure axial load has no capacity allocated to resist any of them.**\n\n> **The minimum eccentricity requirement reserves a modest capacity for the moments that certainly exist and cannot be calculated — which is a different kind of provision from a safety factor, and a sensible one.**",
@@ -1733,7 +1733,7 @@
       "marks": 1,
       "stem": "IS 456 requires the longitudinal reinforcement in a column to lie between:",
       "options": [
-        "0.8 per cent and 6 per cent of the GROSS cross-sectional area",
+        "0.8 per cent and 6 per cent of the gross cross-sectional area",
         "0.15 per cent and 2 per cent of the gross area",
         "0.4 per cent and 8 per cent of the gross area",
         "0.12 per cent and 4 per cent of the gross area"
@@ -1767,7 +1767,7 @@
       "stem": "The PITCH of the lateral ties in a reinforced concrete column must not exceed the LEAST of:",
       "options": [
         "300 mm, 12 times the tie diameter, or half the column dimension",
-        "The LEAST lateral dimension of the column, 16 times the smallest longitudinal bar diameter, or 300 mm",
+        "The least lateral dimension of the column, 16 times the smallest longitudinal bar diameter, or 300 mm",
         "The effective depth, 20 times the tie diameter, or 450 mm",
         "48 times the tie diameter or 600 mm"
       ],
@@ -1836,7 +1836,7 @@
         "Provides a larger area of steel for the same weight",
         "Is easier to place accurately and therefore has less variability",
         "Resists shear more effectively than rectangular ties",
-        "CONFINES the concrete core CONTINUOUSLY"
+        "Confines the concrete core continuously"
       ],
       "answerIndex": 3,
       "solution": "**Because the helix CONFINES the concrete core CONTINUOUSLY**, restraining its lateral expansion and so raising both its strength and its strain capacity.\n\n**The mechanism of confinement:**\n\n| Step | Note |\n|---|---|\n| **Concrete under axial compression tries to expand LATERALLY** ← | **By the Poisson effect, and increasingly so as it approaches failure and microcracks open** ← |\n| **A helix wrapped around it resists that expansion in HOOP TENSION** ← | ← |\n| **The concrete core is thus placed in TRIAXIAL compression** ← | **Axial compression plus radial confinement** ← |\n| **Triaxially confined concrete is both STRONGER and far more DUCTILE** ← | **Its strength rises with the confining pressure, and its ultimate strain can be several times the unconfined value** ← |\n| **A helix does this CONTINUOUSLY along the column's length** ← | **Whereas rectangular ties confine only at discrete levels** ← |\n\n> **THE CONTINUITY IN THE FIFTH ROW IS THE REASON THE HELIX EARNS ITS 5 PER CENT AND RECTANGULAR TIES DO NOT, and the geometry matters as much as the continuity:**\n\n| Aspect | Helix | Rectangular ties |\n|---|---|---|\n| **Along the length** | **CONTINUOUS confinement** ← | **Confinement only at each tie, arching between them** ← |\n| **In cross-section** | **CIRCULAR — pure hoop tension, uniform pressure all round** ← | **The tie's straight sides BEND outward, so confinement is effective only near the corners** ← |\n| **Effectiveness** | **High** | **Much lower, unless intermediate cross-ties are provided** ← |\n\n> **THE SECOND ROW IS THE MORE IMPORTANT DIFFERENCE AND IT IS PURELY GEOMETRIC: a circle under internal pressure carries it entirely in hoop tension, with no bending at all.**\n\n> **A rectangle under internal pressure must carry it in BENDING of its straight sides, and a thin tie bar bends very readily — so it bows outward and the confinement over the middle of each face is largely lost.**\n\n> **The effectively confined region of a tied column is therefore a set of arches springing from the corners, not the whole core, and this is why cross-ties and intermediate bars improve confinement so markedly: each one provides another point from which the arch can spring.**\n\n> **That is exactly why IS 13920 requires no bar to be more than 75 mm from a laterally restrained bar in a confining zone, and why a large column needs internal cross-ties rather than merely a perimeter tie.**\n\n**Where the helical column's other advantage lies, which is the more valuable one:**\n\n| Advantage | Note |\n|---|---|\n| **5 per cent higher axial capacity** ← | **The provision in this question — modest** ← |\n| **Very much greater DUCTILITY and toughness** ← | **The real benefit: a spirally reinforced column deforms greatly before losing capacity** ← |\n| **A GRADUAL failure rather than a sudden one** ← | **The cover spalls, the helix takes over, and the core continues to carry load at large strains** ← |\n| **Which is why bridge PIERS and columns in seismic regions are so often spirally reinforced** ← | ← |\n\n> **THE THIRD ROW DESCRIBES THE BEHAVIOUR THAT MAKES SPIRALS VALUABLE AND IT IS WORTH PICTURING: a tied column at failure spalls its cover, its bars buckle between ties, and it collapses.**\n\n> **A spirally reinforced column spalls its cover and then keeps going — the exposed helix continues to confine the core, and the column can sustain its load through very large axial strains before the helix itself yields and the core disintegrates.**\n\n> **That gives warning, and it gives a structure time to redistribute, which is worth far more than 5 per cent of capacity.**\n\n> **IS 456's condition for claiming the 1.05 factor reflects this: the volume of the helical reinforcement must satisfy a minimum ratio related to the core and gross areas, ensuring the helix is substantial enough to take over when the cover goes — a spiral too light to do that earns no increase.**",
@@ -1868,7 +1868,7 @@
       "options": [
         "The concrete's strength is reduced in a long member",
         "The reinforcement must be lapped more frequently over the greater height",
-        "The column DEFLECTS laterally under load",
+        "The column deflects laterally under load",
         "The wind load on a taller column is greater"
       ],
       "answerIndex": 2,
@@ -1933,7 +1933,7 @@
       "stem": "In the design of an isolated column footing, ONE-WAY shear and TWO-WAY (punching) shear differ in that punching shear is checked:",
       "options": [
         "Only in footings supporting circular columns",
-        "On a PERIMETER surrounding the column at a distance of d/2 from its face",
+        "On a perimeter surrounding the column at a distance of d/2 from its face",
         "At the edge of the footing rather than near the column",
         "Only where the footing is reinforced in one direction"
       ],
@@ -1967,7 +1967,7 @@
       "options": [
         "The factored (ultimate) column load divided by the ultimate bearing capacity of the soil",
         "The factored column load divided by the safe bearing capacity",
-        "The SERVICE (unfactored) column load, increased by an allowance for the footing's own weight and the soil above it, divided by the SAFE BEARING CAPACITY of the soil",
+        "The service (unfactored) column load, increased by an allowance for the footing's own weight and the soil above it, divided by the safe bearing capacity of the soil",
         "The service load divided by the ultimate bearing capacity"
       ],
       "answerIndex": 2,
@@ -2001,7 +2001,7 @@
         "The soil's bearing capacity is unusually high",
         "The columns carry equal loads",
         "A single large footing is always cheaper than two separate ones",
-        "The columns are so CLOSE that their individual footings would OVERLAP"
+        "The columns are so close that their individual footings would overlap"
       ],
       "answerIndex": 3,
       "solution": "**When the columns are so CLOSE that their individual footings would OVERLAP, or a column stands so near a PROPERTY LINE that a symmetrical footing cannot be built under it.**\n\n**The circumstances that call for a combined footing:**\n\n| Circumstance | Note |\n|---|---|\n| **Columns CLOSE together, so isolated footings would overlap** ← | **Which happens with closely spaced columns on weak soil, where each footing must be large** ← |\n| **A column near a PROPERTY LINE or an existing building** ← | **A symmetrical footing would trespass, so the footing must be eccentric to the column — and combining it with an interior column balances the eccentricity** ← |\n| **Weak soil requiring large footings generally** ← | **The larger the footings, the sooner they meet** ← |\n| **Columns of very unequal load close together** ← | **Where separate footings would settle differentially** ← |\n| **To reduce DIFFERENTIAL settlement between two columns** ← | **A common base settles as one** ← |\n\n> **THE PROPERTY LINE CASE IN THE SECOND ROW IS THE CLASSIC PROBLEM AND IT IS WORTH SEEING WHY IT NEEDS A SOLUTION AT ALL: a footing must be concentric with its column's load, or the soil pressure is non-uniform and the footing tilts.**\n\n> **A boundary column cannot have a concentric footing, because half of it would be on the neighbour's land.**\n\n> **An eccentric footing under it alone would rotate, so the column would tilt and its moment would have to be resisted by the frame above.**\n\n> **Combining it with the next interior column puts the two loads on one base whose centroid can be made to coincide with the resultant of the two loads — so the pressure is uniform and nothing tilts.**\n\n**The forms available:**\n\n| Form | Suited to |\n|---|---|\n| **RECTANGULAR combined footing** ← | **Two columns of roughly EQUAL load — the resultant falls near the middle** ← |\n| **TRAPEZOIDAL combined footing** ← | **Two columns of UNEQUAL load, where the resultant is closer to the heavier column — the footing is made wider under it** ← |\n| **STRAP (cantilever) footing** ← | **Two separate footings joined by a rigid beam that transfers moment — used where the columns are far apart and a full combined slab would be wasteful** ← |\n| **RAFT (mat) footing** ← | **All columns on one slab — for very weak soil or very heavy structures** ← |\n\n> **THE TRAPEZOIDAL FORM IN THE SECOND ROW EXISTS FOR A SPECIFIC GEOMETRIC REASON AND IT IS WORTH UNDERSTANDING: the footing's CENTROID must coincide with the RESULTANT of the column loads, so that the pressure is uniform.**\n\n> **With equal loads the resultant is midway between the columns, and a rectangle's centroid is also midway — so a rectangle serves.**\n\n> **With unequal loads the resultant shifts toward the heavier column, and a rectangle's centroid cannot be moved without extending the footing beyond the light column, which may not be possible or may be wasteful.**\n\n> **A trapezoid, being wider at one end, has its centroid displaced toward that end — so the widths can be chosen to place the centroid exactly under the resultant while the overall length stays within the space available.**\n\n> **That is the whole reason for the shape, and it also sets the limit of its usefulness: a trapezoid's centroid can be moved only between one-third and one-half of its length, so if the resultant lies outside that band a trapezoid cannot be made to work and a strap footing is needed instead.**\n\n**THE STRAP FOOTING IN THE THIRD ROW DESERVES A NOTE BECAUSE ITS ACTION IS DIFFERENT IN KIND:**\n\n| Point | Note |\n|---|---|\n| **The two footings remain SEPARATE and bear on the soil independently** ← | ← |\n| **A rigid STRAP BEAM connects the columns above them** ← | **And the beam must be stiff enough not to deflect appreciably** ← |\n| **The strap carries the MOMENT needed to make the boundary footing's pressure uniform** ← | **Transferring it to the interior footing** ← |\n| **The strap itself does NOT bear on the soil** ← | **It is deliberately kept clear of the ground, or the soil beneath it is loosened, so that it acts purely as a beam** ← |\n\n> **The last row is a detail that must be got right or the mechanism fails: if the strap bears on the soil, it picks up an upward pressure that was never in the analysis, and the moment transfer it was built to provide is disturbed.**\n\n> **Hence the drawing note requiring the ground beneath a strap beam to be excavated slightly and backfilled loose, or a compressible layer placed under it — a small provision that is essential to the design's logic and easily overlooked on site.**",
@@ -2031,7 +2031,7 @@
       "marks": 1,
       "stem": "The column bars projecting into a footing (starter or dowel bars) must extend into it far enough to:",
       "options": [
-        "DEVELOP their full design stress within the footing",
+        "Develop their full design stress within the footing",
         "Reach the bottom reinforcement mat, and no further",
         "Extend at least 300 mm below the top of the footing in every case",
         "Reach the mid-depth of the footing"
@@ -2065,7 +2065,7 @@
       "stem": "PRE-TENSIONING differs from POST-TENSIONING in that in pre-tensioning the:",
       "options": [
         "Tendons are tensioned after the concrete has hardened, and anchored at the ends",
-        "TENDONS are tensioned FIRST, against external abutments, and the concrete is then cast around them",
+        "Tendons are tensioned first, against external abutments, and the concrete is then cast around them",
         "Concrete is compressed by jacking against the abutments directly",
         "Tendons are left unbonded throughout the member's life"
       ],
@@ -2099,7 +2099,7 @@
       "options": [
         "Creep of concrete, shrinkage of concrete and relaxation of steel",
         "Friction only",
-        "ELASTIC SHORTENING of the concrete, FRICTION along the tendon, and ANCHORAGE SLIP",
+        "Elastic shortening of the concrete, friction along the tendon, and anchorage slip",
         "Shrinkage of concrete and anchorage slip"
       ],
       "answerIndex": 2,
@@ -2133,7 +2133,7 @@
         "Mild steel cannot be bent to the required tendon profiles",
         "High-strength steel bonds better to concrete",
         "Mild steel corrodes faster inside a duct",
-        "The LOSSES of prestress consume a roughly FIXED STRAIN"
+        "The losses of prestress consume a roughly fixed strain"
       ],
       "answerIndex": 3,
       "solution": "**Because the LOSSES of prestress consume a roughly FIXED STRAIN**, so a low initial stress would be almost entirely lost — a high initial stress is needed for a useful residual prestress to remain.\n\n**The argument, worked through with numbers:**\n\n| Step | Note |\n|---|---|\n| **The total loss from creep, shrinkage, elastic shortening and relaxation is a STRAIN of roughly 0.0006 to 0.0008** ← | **Largely set by the concrete's shrinkage and creep, which do not care what steel is used** ← |\n| **A strain loss of 0.0007 in steel of E = 200 GPa is a STRESS loss of about 140 N/mm²** ← | **0.0007 × 200,000** ← |\n| **MILD steel prestressed to its working stress of about 140 N/mm² would lose ALL of it** ← | **Nothing whatever would remain** ← |\n| **High-strength wire stressed to 1,200 N/mm² loses the same 140** ← | **Retaining about 1,060 — some 88 per cent** ← |\n| **So the SAME absolute loss is ruinous at low stress and modest at high stress** ← | **Which is the entire reason for high-strength steel** ← |\n\n> **THE THIRD ROW IS THE HISTORICAL FACT THAT DELAYED PRESTRESSED CONCRETE BY DECADES AND IT IS WORTH KNOWING: early attempts at prestressing in the nineteenth century failed, and nobody could explain why.**\n\n> **They used ordinary steel at ordinary stresses, and the prestress simply disappeared over the following months.**\n\n> **Freyssinet identified the cause in the 1920s — creep and shrinkage of the concrete — and drew the correct conclusion: prestressing requires steel stressed far higher than structural practice then allowed, which in turn requires high-strength steel.**\n\n> **So prestressed concrete was not merely an idea awaiting invention but an idea awaiting a MATERIAL, and it became possible only when high-strength wire could be made reliably.**\n\n**HIGH-STRENGTH CONCRETE IS EQUALLY NECESSARY, AND FOR SEVERAL SEPARATE REASONS:**\n\n| Reason | Note |\n|---|---|\n| **The prestress must be RESISTED — the concrete carries the full force in compression** ← | **Often 12 to 20 N/mm², applied at transfer when the concrete is young** ← |\n| **Higher strength concrete CREEPS and SHRINKS less** ← | **Reducing the very losses that made high-strength steel necessary** ← |\n| **It has a higher modulus, so the elastic shortening loss is smaller** ← | ← |\n| **BEARING stresses at the anchorages are intense** ← | **And must be carried locally** ← |\n| **Bond and transmission length in pre-tensioning improve with strength** ← | **Shortening the under-stressed end region** ← |\n| **IS 1343 requires a minimum of M30 for post-tensioned and M40 for pre-tensioned work** ← | **Pre-tensioning being the more demanding, since transfer relies on bond** ← |\n\n> **THE SECOND ROW SHOWS A PLEASING CIRCULARITY IN THE DESIGN LOGIC AND IT IS WORTH NOTING: high-strength concrete reduces the losses, which reduces the demand on the steel — so the two high-strength materials are not two independent requirements but a mutually reinforcing pair.**\n\n> **A prestressed member in weak concrete would suffer larger creep and shrinkage losses, needing an even higher initial steel stress, which would need still stronger concrete to carry it.**\n\n> **The technology therefore only works at the upper end of both materials' ranges, which is why prestressed concrete is inseparable from good quality control — it is not a technique that can be executed carelessly with ordinary materials at a slightly higher stress.**\n\n> **This is also why prestressing is executed by specialist subcontractors with their own equipment and procedures, and why the tendon force, the concrete strength at transfer and the grouting are all subject to hold points that must be witnessed rather than merely recorded.**",
@@ -2164,7 +2164,7 @@
       "marks": 1,
       "stem": "In the LOAD BALANCING approach to prestressed concrete design, a parabolic tendon is chosen so that:",
       "options": [
-        "The UPWARD force the curved tendon exerts on the concrete balances a chosen part of the applied load",
+        "The upward force the curved tendon exerts on the concrete balances a chosen part of the applied load",
         "The tendon's length is minimised",
         "The friction losses along the duct are minimised",
         "The tendon lies wholly within the section's kern"
@@ -2198,7 +2198,7 @@
       "stem": "In the classification of prestressed concrete members by IS 1343, a member of TYPE 2 is one in which:",
       "options": [
         "No tensile stress is permitted in the concrete at any stage",
-        "TENSILE stress is PERMITTED at service load, but no VISIBLE CRACKING is allowed",
+        "Tensile stress is permitted at service load, but no visible cracking is allowed",
         "Cracking is permitted, with the crack width limited to a specified value",
         "The tendons are left unbonded"
       ],
@@ -2232,7 +2232,7 @@
       "options": [
         "The concrete there is cast later and is therefore weaker",
         "The tendon must be developed by bond over that length",
-        "The concentrated anchorage force SPREADS into the section over a transition length",
+        "The concentrated anchorage force spreads into the section over a transition length",
         "The end of the member is subject to the largest bending moment"
       ],
       "answerIndex": 2,
@@ -2263,7 +2263,7 @@
       "marks": 1,
       "stem": "In the Indian designation of rolled steel sections, ISMB 400 denotes:",
       "options": [
-        "An Indian Standard MEDIUM WEIGHT BEAM of 400 mm overall DEPTH",
+        "An Indian Standard medium weight beam of 400 mm overall depth",
         "An Indian Standard beam of 400 mm flange width",
         "An Indian Standard beam weighing 400 N per metre",
         "An Indian Standard beam of 400 mm² cross-sectional area"
@@ -2298,7 +2298,7 @@
       "options": [
         "1.5 for yielding and 1.5 for ultimate rupture",
         "1.0 for both yielding and rupture, safety being provided on the loads alone",
-        "γ_m0 = 1.10 for YIELDING (and buckling), and γ_m1 = 1.25 for ULTIMATE RUPTURE of a section in tension",
+        "γ_m0 = 1.10 for yielding (and buckling), and γ_m1 = 1.25 for ultimate rupture of a section in tension",
         "1.15 for yielding and 1.0 for rupture"
       ],
       "answerIndex": 2,
@@ -2332,7 +2332,7 @@
         "Uses bolts of larger diameter for the same load",
         "Requires the holes to be drilled rather than punched, and nothing more",
         "Can only be used in tension, not in shear",
-        "Transfers shear by FRICTION between the clamped plate faces, developed by the bolt's high PRETENSION"
+        "Transfers shear by friction between the clamped plate faces, developed by the bolt's high PRETENSION"
       ],
       "answerIndex": 3,
       "solution": "**It transfers shear by FRICTION between the clamped plate faces, developed by the bolt's high PRETENSION** — so the bolt itself carries no shear and the plates do not slip.\n\n**The two mechanisms compared:**\n\n| Aspect | BEARING type | FRICTION type (HSFG) |\n|---|---|---|\n| **Load transfer** | **The plates SLIP until they bear on the bolt, which then carries SHEAR** ← | **FRICTION between the faying surfaces; no slip at all** ← |\n| **Bolt condition** | **Snug tightened** ← | **PRETENSIONED to a high proportion of its proof load** ← |\n| **Bolt loaded in** | **SHEAR and the plate in BEARING** ← | **TENSION only** ← |\n| **Slip** | **Occurs, of the order of the hole clearance** ← | **NONE, up to the slip load** ← |\n| **Stiffness of the joint** | **Lower — the slip is a real movement** ← | **HIGH — the joint is rigid until slip** ← |\n| **Behaviour under FATIGUE and reversal** | **POOR — the slip works back and forth, wearing the hole** ← | **EXCELLENT — nothing moves** ← |\n| **Cost and control** | **Cheap, simple** ← | **Dearer; the tension must be CONTROLLED and verified, and the surfaces prepared** ← |\n\n> **THE SIXTH ROW IS WHERE HSFG BOLTS EARN THEIR COST AND IT IS THE REASON THEY EXIST: a bearing-type joint under reversing load slips one way and then the other, every cycle.**\n\n> **That movement wears the hole, loosens the joint, and initiates fatigue cracks at the hole's edge — so a bearing joint is unsuitable wherever the load reverses or cycles many times.**\n\n> **An HSFG joint does not move at all, so there is nothing to wear and no relative displacement to concentrate strain.**\n\n> **This is why bridge girders, crane gantries, machine supports and any structure subject to repeated loading use friction-grip connections, while ordinary building frames — loaded essentially statically — use bearing-type bolts.**\n\n**WHAT MAKES AN HSFG CONNECTION WORK IN PRACTICE, AND THEREFORE WHAT CAN DEFEAT IT:**\n\n| Requirement | Note |\n|---|---|\n| **The BOLT TENSION must be achieved and verifiable** ← | **By torque wrench, by turn-of-nut, or by load-indicating washers — and torque is the least reliable of the three** ← |\n| **The FAYING SURFACES must be clean and unpainted, or coated only with an approved friction coating** ← | **Paint, oil, grease, mill scale and loose rust all reduce the slip factor** ← |\n| **The SLIP FACTOR μ is specified — typically 0.2 to 0.5** ← | **0.2 for untreated surfaces, up to 0.5 for grit-blasted** ← |\n| **The plies must be in close CONTACT** ← | **A gap means the clamping force is spent bending the plates rather than clamping them** ← |\n| **The tension must not RELAX** ← | **Which is why HSFG bolts must not be used through soft packing, gaskets or long grips without care** ← |\n\n> **THE SECOND ROW IS THE REQUIREMENT MOST OFTEN VIOLATED ON SITE AND IT IS AN INSTRUCTIVE PARADOX: an HSFG connection must NOT be painted on its contact surfaces.**\n\n> **Everything else about steelwork is painted for protection, so the instruction to leave a specific area bare runs against the grain of normal practice — and a painter who coats the whole member before erection has silently reduced the joint's capacity, perhaps by half.**\n\n> **The defect is invisible once the joint is assembled and it is not detectable by any subsequent inspection.**\n\n> **So the masking of faying surfaces before painting is a hold point on any project using friction-grip connections, and it is one of the clearest examples in construction of a quality requirement that is obvious to the designer, counter-intuitive to the tradesman, and undetectable afterwards.**\n\n> **The first row's warning about torque is worth carrying too: torque relates to tension only through a friction coefficient at the thread, which varies with lubrication, thread condition and washer type — so a torque wrench can be substantially out. Turn-of-nut and direct-tension-indicating washers measure the extension itself and are more dependable.**",
@@ -2363,7 +2363,7 @@
       "stem": "BLOCK SHEAR failure of a bolted connection is the mode in which:",
       "options": [
         "The bolt shears across its shank on one or more planes",
-        "A BLOCK of the connected plate TEARS OUT, failing in TENSION on one plane and in SHEAR on another perpendicular to it",
+        "A block of the connected plate tears out, failing in tension on one plane and in shear on another perpendicular to it",
         "The plate crushes locally where the bolt bears against the hole",
         "The bolt is pulled out of the plate in tension"
       ],
@@ -2395,7 +2395,7 @@
       "marks": 1,
       "stem": "As per IS 800:2007, the MINIMUM PITCH (centre-to-centre spacing along the line of force) of bolts is:",
       "options": [
-        "2.5 times the nominal bolt DIAMETER",
+        "2.5 times the nominal bolt diameter",
         "1.5 times the bolt diameter",
         "The hole diameter plus 5 mm",
         "5 times the bolt diameter"
@@ -2464,7 +2464,7 @@
       "options": [
         "A cavity in the weld caused by trapped gas",
         "A groove melted into the parent metal alongside the weld, left unfilled",
-        "A region at the weld ROOT where the weld metal has FAILED TO FUSE with the parent metal, leaving an unbonded crack-like discontinuity",
+        "A region at the weld root where the weld metal has failed to fuse with the parent metal, leaving an unbonded crack-like discontinuity",
         "Slag left between successive passes of a multi-pass weld"
       ],
       "answerIndex": 2,
@@ -2531,7 +2531,7 @@
         "Deducting all the holes in the plate, whatever their arrangement",
         "Deducting only the holes in the single row containing the most holes",
         "Using the gross area, since staggering eliminates the reduction entirely",
-        "Examining every possible ZIGZAG failure path and taking the one giving the LEAST net area"
+        "Examining every possible zigzag failure path and taking the one giving the least net area"
       ],
       "answerIndex": 3,
       "solution": "**By examining every possible ZIGZAG failure path and taking the one giving the LEAST net area** — each staggered step being credited with an addition of p_s²/(4g) to compensate for its inclination.\n\n**The rule:**\n\n| Element | Note |\n|---|---|\n| **A failure path may run straight across, or ZIGZAG from hole to hole** ← | **Whichever gives the least remaining material** ← |\n| **A zigzag path is LONGER than a straight one** ← | **So it has more material along it, other things being equal** ← |\n| **But it is inclined, so it is not purely in tension — it carries shear too** ← | ← |\n| **The empirical allowance p_s²/(4g) accounts for that** ← | **p_s being the STAGGER (pitch measured along the direction of force) and g the GAUGE (transverse spacing)** ← |\n| **Every credible path must be checked and the SMALLEST net area used** ← | **Which for a many-holed plate means several trials** ← |\n\n> **THE FORM OF THE CORRECTION IS WORTH READING FOR WHAT IT IMPLIES, since it explains when staggering is worth doing:**\n\n| Observation | Consequence |\n|---|---|\n| **The credit p_s²/(4g) grows with the SQUARE of the stagger** ← | **So a small stagger achieves very little, and a generous one achieves a great deal** ← |\n| **It falls as the gauge g increases** ← | **Widely separated rows benefit less from staggering** ← |\n| **A stagger large enough makes the zigzag path stronger than the straight path** ← | **At which point the straight path across a single row governs, and the staggering has done all it can** ← |\n\n> **THE FIRST ROW EXPLAINS A COMMON DETAILING ERROR AND IT IS WORTH BEING EXPLICIT ABOUT: a token stagger is worse than useless.**\n\n> **Offsetting alternate holes by a small amount produces a zigzag path that is barely longer than the straight one, while adding the complication of having to check it — and the net area is scarcely improved.**\n\n> **A stagger worth having is a substantial one, comparable with the gauge, and the purpose of staggering is precisely to prevent all the holes lying on one transverse plane.**\n\n> **So the detailer's choice is to stagger properly or not at all, and half-measures gain nothing.**\n\n**WHY THE HOLE DEDUCTION IS LARGER THAN THE BOLT, WHICH IS A DETAIL WORTH GETTING RIGHT:**\n\n| Point | Note |\n|---|---|\n| **The deduction uses the HOLE diameter, not the bolt diameter** ← | **Since it is the hole that removes material** ← |\n| **The hole is larger than the bolt by the clearance** ← | **1 mm for bolts up to 14 mm, 2 mm for 16 to 24 mm, 3 mm above 24 mm** ← |\n| **For PUNCHED holes, a further 2 mm is added** ← | **Because punching damages and work-hardens the metal around the hole, leaving a brittle rim** ← |\n| **So a 20 mm bolt in a punched hole deducts 20 + 2 + 2 = 24 mm** ← | **Twenty per cent more than the bolt's own diameter** ← |\n\n> **THE PUNCHING PENALTY IN THE THIRD ROW IS THE PROVISION MOST OFTEN OVERLOOKED AND IT REFLECTS REAL METALLURGICAL DAMAGE: punching a hole through steel plate tears the material rather than cutting it.**\n\n> **The rim of the hole is cold-worked, hardened and left with small tears — a condition that reduces its ductility and provides crack initiation sites.**\n\n> **For static loading the effect is modest and the 2 mm allowance covers it. For fatigue loading or for low-temperature service it is more serious, which is why punched holes are prohibited in bridges and in dynamically loaded structures, and holes are drilled or punched undersize and then reamed.**\n\n> **This is a good instance of a fabrication method affecting the design value: the same bolt in the same plate has a different net area depending on how the hole was made, and the drawing must therefore say which method is permitted rather than leaving it to the fabricator.**",
@@ -2561,7 +2561,7 @@
       "marks": 1,
       "stem": "IS 800:2007 assigns a steel compression member to one of four BUCKLING CLASSES (a, b, c, d) according to its cross-sectional shape, its thickness and its axis of buckling. The purpose of the classification is to account for:",
       "options": [
-        "The differing magnitudes of RESIDUAL STRESSES from rolling or welding and of geometric imperfections in different section types",
+        "The differing magnitudes of residual stresses from rolling or welding and of geometric imperfections in different section types",
         "The differing yield strengths of different sections",
         "The variation in the modulus of elasticity between hot-rolled and welded sections",
         "The different corrosion allowances required for different shapes"
@@ -2628,7 +2628,7 @@
       "stem": "For a given cross-sectional AREA, the most efficient shape for a long compression member is one that:",
       "options": [
         "Concentrates the material near the centroid, minimising the radius of gyration",
-        "DISTRIBUTES the material as FAR from the centroid as possible and EQUALLY about both axes — maximising the least radius of gyration",
+        "Distributes the material as far from the centroid as possible and equally about both axes — maximising the least radius of gyration",
         "Is solid rather than hollow, to avoid local buckling",
         "Has the greatest possible depth in one direction only"
       ],
@@ -2663,7 +2663,7 @@
         "The column is a hollow section",
         "The concrete pedestal is of high strength",
         "The column is short",
-        "The load is LARGE"
+        "The load is large"
       ],
       "answerIndex": 3,
       "solution": "**When the load is LARGE, so that a slab base would require an impracticably THICK plate** — the gussets stiffening the plate and spreading the load over a wider area.\n\n**The two types compared:**\n\n| Aspect | SLAB base | GUSSETED base |\n|---|---|---|\n| **Construction** | **A single thick plate, the column bearing directly on it** ← | **A thinner base plate stiffened by gusset plates and angles welded or bolted to the column** ← |\n| **Load transfer** | **Directly through the plate in BENDING** ← | **Through the gussets into the plate, which then spans between them** ← |\n| **Suited to** | **Light and moderate loads** ← | **HEAVY loads, and columns with significant moment** ← |\n| **Plate thickness** | **Grows rapidly with load, since the plate cantilevers from the column's perimeter** ← | **Much less, the gussets reducing the spans** ← |\n| **Cost** | **Cheap — one plate, minimal fabrication** ← | **Dearer — more plates, more welding, more fitting** ← |\n\n> **THE FOURTH ROW EXPLAINS WHY THE SLAB BASE RUNS OUT OF CAPACITY SO ABRUPTLY AND IT IS THE POINT OF THE QUESTION: a slab base plate acts as a CANTILEVER projecting from the column's outline, carrying the upward bearing pressure from the concrete.**\n\n> **Its bending moment therefore grows as the SQUARE of the projection, and the plate's thickness must grow roughly as the square root of that moment.**\n\n> **So a heavily loaded column, needing a large base area to spread its load onto the concrete, has a large projection and needs a very thick plate — 60, 80 or 100 mm, which is expensive, hard to obtain, and hard to drill and handle.**\n\n> **Gussets solve the problem by dividing that large projection into several short spans, so the plate's moments fall dramatically and a much thinner plate suffices.**\n\n> **It is the same device as putting stiffeners in any wide plate: reduce the span rather than increase the thickness.**\n\n**The design of a column base, in outline:**\n\n| Step | Note |\n|---|---|\n| **1. The base AREA from the concrete's bearing capacity** ← | **Area = factored load ÷ 0.6 f_ck for the concrete of the pedestal** ← |\n| **2. The plate THICKNESS from its bending as a cantilever** ← | **Or as a plate spanning between gussets** ← |\n| **3. HOLDING DOWN bolts** ← | **For uplift and moment; two bolts for a nominally pinned base, four or more for a moment base** ← |\n| **4. The connection of the column to the plate** ← | **Weld or bolts, and for a fully bearing column a machined contact face can transfer much of the load directly** ← |\n| **5. GROUT beneath the plate** ← | **A non-shrink cement grout filling the gap between the plate and the concrete, so the bearing is uniform** ← |\n\n> **THE GROUT IN THE LAST ROW IS THE STEP MOST OFTEN NEGLECTED ON SITE AND ITS OMISSION DEFEATS THE WHOLE DESIGN: a base plate is set on levelling nuts or shims, standing clear of the concrete, so that the column can be plumbed.**\n\n> **In that condition the entire load passes through a few small shims — a bearing area of perhaps a few thousand square millimetres instead of the design's hundreds of thousands.**\n\n> **The concrete beneath the shims is loaded to many times its capacity and crushes, and the plate bends around them.**\n\n> **The grout is what converts the temporary arrangement into the designed one, and it must be a NON-SHRINK grout completely filling the space, placed from one side so that air escapes rather than being trapped.**\n\n> **A column left un-grouted, or grouted with an ordinary shrinking mortar that pulls away as it dries, is carrying its load in a manner nobody designed — and since the defect is entirely concealed beneath the plate, it is not discoverable later without dismantling.**\n\n> **This is why grouting of base plates is a specified hold point on well-run steel erection, and why the grout's specification appears on the drawings rather than being left as a builder's item.**",
@@ -2693,7 +2693,7 @@
       "marks": 1,
       "stem": "In a BUILT-UP compression member consisting of two channels placed apart, the LACING (or battening) that joins them is designed to:",
       "options": [
-        "Carry a transverse SHEAR of 2.5 per cent of the axial load in the member, so that the two components act as ONE member rather than as two independent struts",
+        "Carry a transverse shear of 2.5 per cent of the axial load in the member, so that the two components act as ONE member rather than as two independent struts",
         "Carry half the axial load in the member",
         "Resist the full bending moment in the member",
         "Carry no force at all, being provided only to hold the components together during transport"
@@ -2728,7 +2728,7 @@
       "options": [
         "The corrosion protection required",
         "The grade of steel that may be used",
-        "Whether the section can develop its full PLASTIC moment and sustain the rotation needed for redistribution",
+        "Whether the section can develop its full plastic moment and sustain the rotation needed for redistribution",
         "The weld size required at the flange-web junction"
       ],
       "answerIndex": 2,
@@ -2760,7 +2760,7 @@
       "stem": "LATERAL TORSIONAL BUCKLING of a steel beam is the mode of failure in which the beam:",
       "options": [
         "Buckles locally in its compression flange without any overall movement",
-        "Deflects SIDEWAYS and TWISTS out of its plane of loading",
+        "Deflects sideways and twists out of its plane of loading",
         "Fails by shear buckling of the web panel",
         "Yields at its extreme fibre and forms a plastic hinge"
       ],
@@ -2826,7 +2826,7 @@
       "stem": "In timber, a SHAKE is distinguished from a CHECK in that a shake is:",
       "options": [
         "A knot formed where a branch joined the trunk",
-        "A separation of the fibres along the grain that occurred in the STANDING TREE or during felling",
+        "A separation of the fibres along the grain that occurred in the standing tree or during felling",
         "A twist of the timber out of its plane",
         "A fungal decay of the heartwood"
       ],
@@ -2858,7 +2858,7 @@
       "marks": 1,
       "stem": "SEASONING of timber is carried out in order to:",
       "options": [
-        "REDUCE the moisture content to a level in equilibrium with the timber's service environment",
+        "Reduce the moisture content to a level in equilibrium with the timber's service environment",
         "Increase the timber's density",
         "Remove knots and other defects",
         "Make the timber non-combustible"
@@ -2893,7 +2893,7 @@
       "options": [
         "Wet locations, since the timber is protected from drying stresses",
         "Outside locations, since the timber is well ventilated",
-        "INSIDE locations, where the timber is sheltered and its moisture content stays low and stable",
+        "Inside locations, where the timber is sheltered and its moisture content stays low and stable",
         "All three are equal, the location affecting only the durability requirement"
       ],
       "answerIndex": 2,
@@ -2927,7 +2927,7 @@
         "Bending stress at midspan",
         "Deflection under live load",
         "Buckling of the compression edge",
-        "BEARING (compression) PERPENDICULAR to the grain"
+        "Bearing (compression) perpendicular to the grain"
       ],
       "answerIndex": 3,
       "solution": "**BEARING (compression) PERPENDICULAR to the grain, where the beam sits on its support** — timber's strength across the grain being only a small fraction of that along it.\n\n**Timber's directional strengths, which is the fact behind the answer:**\n\n| Direction and action | Relative strength |\n|---|---|\n| **Compression PARALLEL to the grain** ← | **Strong — the fibres act as a bundle of columns** ← |\n| **Tension parallel to the grain** ← | **Strongest of all** ← |\n| **Bending (which combines the two)** ← | **Strong** ← |\n| **Compression PERPENDICULAR to the grain** ← | **WEAK — perhaps a fifth to a tenth of the parallel value; the fibres are crushed sideways like a bundle of straws** ← |\n| **Shear parallel to the grain** ← | **WEAK — the fibres slide past one another, and a beam can split horizontally** ← |\n| **Tension perpendicular to the grain** ← | **The WEAKEST of all — barely any strength, and it must never be relied upon** ← |\n\n> **THE LAST THREE ROWS ARE THE WEAKNESSES THAT GOVERN TIMBER DETAILING, AND EACH PRODUCES A CHARACTERISTIC FAILURE:**\n\n> **Bearing perpendicular to the grain crushes the timber where it rests on a support, so the beam sinks into its bearing and the structure settles.**\n\n> **Shear parallel to the grain splits a beam horizontally along its neutral axis near the supports — a longitudinal split rather than a diagonal crack.**\n\n> **Tension perpendicular to the grain simply tears the timber apart along the grain, and it is the mechanism behind almost every splitting failure at a joint or a fastening.**\n\n**THE BEARING CHECK IN PRACTICE:**\n\n| Point | Note |\n|---|---|\n| **The bearing stress is the reaction divided by the CONTACT area** ← | **Which is often small, since a joist's end may bear over only 75 or 100 mm** ← |\n| **Permissible compression perpendicular to the grain is low** ← | **Of the order of 2 to 6 N/mm² for common species** ← |\n| **A BEARING PLATE or a wall plate spreads the reaction** ← | **Which is the standard remedy, and the reason wall plates exist** ← |\n| **A longer bearing length also serves** ← | ← |\n| **Crushing at a bearing is a SERVICEABILITY failure as much as a strength one** ← | **The beam sinks, the floor slopes, and the finishes crack, without anything breaking** ← |\n\n> **THE WALL PLATE IN THE THIRD ROW IS ONE OF THOSE TRADITIONAL DETAILS WHOSE PURPOSE IS OFTEN FORGOTTEN AND IS PRECISELY THIS: a timber wall plate laid along the top of a masonry wall receives the joists and distributes each reaction over a length of wall.**\n\n> **It also protects the joist ends from the masonry's moisture, provides a level and straight bearing on an uneven wall, and gives something to fix to.**\n\n> **In a seismic context it does more still — a continuous wall plate ties the top of the wall together and distributes the roof's load, functioning as a rudimentary roof band.**\n\n> **So a single traditional member serves four purposes at once, which is characteristic of well-evolved vernacular detailing and a reason to understand such details before simplifying them away.**\n\n**THE SHEAR CHECK DESERVES A CLOSING NOTE, SINCE IT IS THE OTHER SUPPORT-REGION CHECK:**\n\n> **Shear stress in a rectangular timber beam is τ = 1.5 V/(bd), the parabolic maximum at the neutral axis — and unlike reinforced concrete, timber takes no factor-free nominal treatment: the actual maximum is used.**\n\n> **Permissible horizontal shear is low, so shear frequently governs SHORT, heavily loaded timber beams, where the moment is small but the reaction is large.**\n\n> **And notching a beam at its support — a common carpentry expedient to gain headroom — is particularly damaging, because it removes material exactly where the shear is greatest and creates a re-entrant corner from which a longitudinal split propagates.**\n\n> **Notches in the tension face near a support are therefore restricted or prohibited, and where a notch is unavoidable it is kept shallow, given a gradual taper rather than a square corner, and placed as near the support as possible.**",
@@ -2957,7 +2957,7 @@
       "marks": 1,
       "stem": "For the design of a solid timber COLUMN, IS 883 classifies the member as SHORT, INTERMEDIATE or LONG according to the ratio of its unsupported length to its LEAST lateral dimension. A column is classed as LONG when that ratio:",
       "options": [
-        "EXCEEDS 50",
+        "Exceeds 50",
         "Exceeds 11",
         "Is less than 11",
         "Exceeds 180"
@@ -2992,7 +2992,7 @@
       "stem": "In a bolted timber connection, the timber must be provided with adequate END DISTANCE and the bolt holes must be a close fit, principally because:",
       "options": [
         "The bolts would otherwise corrode",
-        "Timber is extremely weak in TENSION PERPENDICULAR to the grain",
+        "Timber is extremely weak in tension perpendicular to the grain",
         "The timber's bending strength would otherwise be reduced",
         "Loose bolts make the connection noisy"
       ],
@@ -3027,7 +3027,7 @@
         "Uses a cheaper preservative",
         "Does not require the timber to be seasoned first",
         "Leaves the timber's surface unstained",
-        "Forces the preservative DEEP into the timber's cells"
+        "Forces the preservative deep into the timber's cells"
       ],
       "answerIndex": 3,
       "solution": "**It forces the preservative DEEP into the timber's cells**, so that later cutting, drilling or surface damage does not expose untreated wood.\n\n**The methods of applying a preservative, in ascending order of effectiveness:**\n\n| Method | Penetration |\n|---|---|\n| **BRUSHING or SPRAYING** ← | **A surface film only — a millimetre or two at best** ← |\n| **DIPPING** ← | **A few millimetres** ← |\n| **HOT AND COLD (open tank) process** ← | **Moderate — the timber is heated in the preservative and allowed to cool in it, so the contracting air in the cells draws the liquid in** ← |\n| **PRESSURE impregnation (Bethell full-cell, Rueping and Lowry empty-cell)** ← | **DEEP, into the cell structure throughout the sapwood — this question** ← |\n| **DIFFUSION (boron, for green timber)** ← | **Deep over time, the salt diffusing through the timber's own moisture** ← |\n\n> **THE CRITICAL WEAKNESS OF THE SURFACE METHODS IS NOT THEIR THINNESS AS SUCH BUT WHAT HAPPENS AFTERWARDS, AND THIS IS THE POINT OF THE QUESTION:**\n\n| Point | Note |\n|---|---|\n| **A surface-treated member is protected only while its surface is INTACT** ← | ← |\n| **Every subsequent CUT, notch, drilled hole or mortise exposes untreated timber** ← | **And those are precisely the places where water collects and decay begins** ← |\n| **A cut end is the worst of all** ← | **End grain absorbs water many times faster than a face** ← |\n| **So a surface-treated post cut to length on site has an untreated foot** ← | **Standing in the ground, which is the most hostile location it could occupy** ← |\n| **Pressure-treated timber has preservative throughout its sapwood** ← | **So a cut exposes treated material** ← |\n\n> **THE FOURTH ROW DESCRIBES THE COMMONEST FAILURE OF TREATED TIMBER IN PRACTICE AND IT IS ENTIRELY A MATTER OF SEQUENCE: the treatment is applied at the yard and the cutting is done on site.**\n\n> **Even pressure-treated timber has a limit here — the heartwood may take up little preservative, and a deep cut can reach it.**\n\n> **The universal rule is therefore that all cut surfaces must be re-treated on site by brushing or soaking before the member is fixed, and that timber should be cut to length BEFORE treatment wherever the programme permits.**\n\n> **A specification that requires pressure treatment and says nothing about site cuts has left the most vulnerable surfaces unprotected, and it is worth adding the clause.**\n\n**THE PRESERVATIVES THEMSELVES:**\n\n| Type | Note |\n|---|---|\n| **CREOSOTE (tar oil)** ← | **Cheap, very effective, and used for sleepers, poles and marine work — but it stains, smells, cannot be painted over, and is now restricted for health reasons** ← |\n| **Water-borne salts — CCA (copper-chrome-arsenic), CCB (copper-chrome-boron), ACQ** ← | **Clean, paintable, odourless; CCA is now restricted in many uses because of its arsenic** ← |\n| **Organic solvent types** | **Clean and paintable, good for joinery** ← |\n| **BORON compounds** ← | **Low toxicity, applied by diffusion to green timber — but they LEACH OUT in wet conditions, so they suit interior use only** ← |\n\n> **THE LEACHING LIMITATION IN THE LAST ROW IS THE KEY TO SELECTING A PRESERVATIVE AND IT IS THE DISTINCTION THAT MATTERS MOST: a preservative must be FIXED in the timber if the timber will be wet.**\n\n> **CCA and its relatives react chemically with the wood and become insoluble, so they stay put even in ground contact.**\n\n> **Boron remains soluble, so it washes out of timber exposed to rain or in contact with damp earth — but it is cheap, low in toxicity, penetrates green timber readily, and is excellent against borers and termites indoors.**\n\n> **So the choice is governed by the service condition rather than by which preservative is 'best': boron for roof timbers and joinery, a fixed water-borne salt for exposed and ground-contact work, and creosote or its modern equivalents for the most severe exposures such as poles and marine piles.**\n\n> **And the whole exercise presupposes SEASONED timber, since a preservative cannot penetrate cells already full of water — which is why option (b) is wrong, and why treatment follows seasoning rather than replacing it.**",
@@ -3059,7 +3059,7 @@
       "options": [
         "Higher compressive strength and better bond",
         "Greater resistance to water and erosion",
-        "VERY LOW strength and NO resistance to water",
+        "Very low strength and no resistance to water",
         "Setting by hydration, in the same manner as cement"
       ],
       "answerIndex": 2,
@@ -3090,7 +3090,7 @@
       "marks": 1,
       "stem": "The compressive strength of a brick MASONRY assembly is:",
       "options": [
-        "LESS than the strength of the bricks themselves, and it increases only slowly with mortar strength",
+        "Less than the strength of the bricks themselves, and it increases only slowly with mortar strength",
         "Equal to the average of the brick strength and the mortar strength",
         "Greater than the strength of the bricks, because the mortar confines them",
         "Determined by the mortar strength alone, the bricks being much stronger"
@@ -3123,7 +3123,7 @@
       "marks": 1,
       "stem": "The SLENDERNESS RATIO of a load-bearing masonry wall is defined as the ratio of its:",
       "options": [
-        "EFFECTIVE HEIGHT to its EFFECTIVE THICKNESS",
+        "Effective height to its effective thickness",
         "Actual height to its actual thickness, in all cases",
         "Height to its length",
         "Length to its thickness only"
@@ -3158,7 +3158,7 @@
       "options": [
         "Replace structural design entirely for all buildings",
         "Provide guidance that a designer may follow or disregard at discretion",
-        "Give PRESCRIPTIVE, ready-to-use requirements",
+        "Give prescriptive, ready-to-use requirements",
         "Apply only to reinforced concrete framed buildings above four storeys"
       ],
       "answerIndex": 2,
@@ -3190,7 +3190,7 @@
       "stem": "The horizontal SEISMIC BANDS required in masonry buildings by the Nepal Building Code function principally to:",
       "options": [
         "Support the floor and roof loads, replacing the need for lintels",
-        "TIE the walls together into a BOX, providing the TENSILE continuity that masonry lacks",
+        "Tie the walls together into a box, providing the tensile continuity that masonry lacks",
         "Increase the compressive strength of the masonry below them",
         "Provide a level surface on which to continue building"
       ],
@@ -3225,7 +3225,7 @@
         "Are where the compressive stresses are greatest",
         "Need reinforcement only to support the lintels above",
         "Require reinforcement solely to fix door and window frames",
-        "Are where TENSILE stresses CONCENTRATE during shaking"
+        "Are where tensile stresses concentrate during shaking"
       ],
       "answerIndex": 3,
       "solution": "**Because these locations are where TENSILE stresses CONCENTRATE during shaking** — and a corner or a jamb without vertical steel splits open, after which the walls on either side are no longer connected.\n\n**Why these particular locations:**\n\n| Location | What happens without vertical steel |\n|---|---|\n| **CORNERS** ← | **The two walls pull apart as the building racks, and a vertical crack opens down the corner — after which each wall is free-standing** ← |\n| **Wall JUNCTIONS (T and cross junctions)** ← | **The same, and the cross-wall's restraint of the main wall is lost** ← |\n| **JAMBS of openings** ← | **The masonry pier between openings is slender and highly stressed; diagonal cracks radiate from the opening's corners and the jamb splits** ← |\n| **Free ENDS of walls** ← | **Unrestrained, and they topple** ← |\n\n> **THE CORNER IS THE MOST CRITICAL LOCATION OF ALL AND THE REASON IS WORTH SEEING GEOMETRICALLY: at a corner, two walls at right angles must remain attached while the building distorts.**\n\n> **Whichever way the ground moves, one of them is being loaded in plane and pulling the corner one way, while the other is being loaded out of plane and pulling it another.**\n\n> **Masonry bonded at a corner resists this only by the tensile bond of the mortar, which is negligible — so the corner opens.**\n\n> **Once it has opened, both walls have lost their end restraint simultaneously: the in-plane wall has lost its return, and the out-of-plane wall has lost its support.**\n\n> **So a single corner crack disables the box action on two sides at once, which is why corner reinforcement is mandatory even in the simplest rules and why corner failures are the signature damage pattern in unreinforced masonry earthquakes.**\n\n**HOW THE VERTICAL REINFORCEMENT WORKS WITH THE BANDS:**\n\n| Element | Duty |\n|---|---|\n| **HORIZONTAL bands** ← | **Tie the walls together in the horizontal plane, forming closed rings at several levels** ← |\n| **VERTICAL bars at corners and jambs** ← | **Tie those rings to one another and to the foundation, so the building is caged in three dimensions** ← |\n| **Together they form a CONFINING framework** ← | **Which is why the resulting construction is called CONFINED masonry** ← |\n| **The bars must be CONTINUOUS from foundation to roof band** ← | **Lapped properly, and anchored into the foundation and the top band** ← |\n| **They are placed in a cavity or a special unit and grouted** ← | **In brickwork, in a pocket formed by the bonding; in blockwork, in the hollow cores** ← |\n\n> **THE FOURTH ROW IS THE EXECUTION REQUIREMENT THAT DECIDES WHETHER ANY OF THIS WORKS AND IT IS ROUTINELY COMPROMISED: a vertical bar must run from the foundation to the roof band without interruption.**\n\n> **A bar that starts at the plinth band and stops at the sill has connected nothing to anything.**\n\n> **A bar that is not anchored into the foundation can be pulled out.**\n\n> **A bar that is not tied into the roof band leaves the top of the wall free.**\n\n> **And a bar placed in a pocket that is never properly grouted is a bar in a void, contributing nothing but the appearance of reinforcement — which is the most insidious of these failures, because it is invisible once the wall is plastered.**\n\n> **THE THIRD ROW IS WORTH DWELLING ON AS A CONCEPT, BECAUSE CONFINED MASONRY IS A GENUINELY GOOD SYSTEM RATHER THAN A COMPROMISE: it is not a frame with infill, and it is not unreinforced masonry with additions.**\n\n> **The masonry is built FIRST and the confining elements are cast against it, so the two are bonded together and act as a composite.**\n\n> **The masonry carries the vertical load and the in-plane shear; the confining elements provide the tensile continuity, hold the masonry together after it cracks, and prevent the cracks from opening.**\n\n> **The result performs very much better in earthquakes than either unreinforced masonry or a frame with masonry infill, at a cost only slightly above the former — and it is the system that the NBC's mandatory rules effectively prescribe.**",
@@ -3255,7 +3255,7 @@
       "marks": 1,
       "stem": "In an earthquake, the failure of an unreinforced masonry wall loaded OUT OF PLANE (perpendicular to its face) is more dangerous than IN-PLANE failure because:",
       "options": [
-        "The out-of-plane mechanism causes the WALL TO OVERTURN and COLLAPSE bodily, bringing down whatever it supports",
+        "The out-of-plane mechanism causes the wall to overturn and collapse bodily, bringing down whatever it supports",
         "In-plane failure never occurs in practice",
         "Out-of-plane loading produces higher compressive stresses",
         "The out-of-plane direction is where the reinforcement is placed"
@@ -3290,7 +3290,7 @@
       "options": [
         "Alternate headers and stretchers in every course",
         "Stretchers only, in every course",
-        "ALTERNATE COURSES entirely of headers and entirely of stretchers",
+        "Alternate courses entirely of headers and entirely of stretchers",
         "Headers only, in every course"
       ],
       "answerIndex": 2,
@@ -3322,7 +3322,7 @@
       "stem": "CONFINED MASONRY differs from a REINFORCED CONCRETE FRAME WITH MASONRY INFILL in that in confined masonry the:",
       "options": [
         "Masonry is unreinforced and carries no load",
-        "MASONRY is built FIRST and the confining concrete elements are cast against it",
+        "Masonry is built first and the confining concrete elements are cast against it",
         "Confining elements are made of steel rather than concrete",
         "Masonry panels are separated from the frame by a gap"
       ],
@@ -3357,7 +3357,7 @@
         "Windows near a corner are difficult to construct",
         "The lintel over a corner opening would be difficult to support",
         "Openings near a corner obstruct the view along the wall",
-        "The CORNER is where the wall's shear and tensile stresses are highest and where the two walls must remain tied"
+        "The corner is where the wall's shear and tensile stresses are highest and where the two walls must remain tied"
       ],
       "answerIndex": 3,
       "solution": "**Because the CORNER is where the wall's shear and tensile stresses are highest and where the two walls must remain tied** — so an opening there removes the masonry precisely where it is most needed.\n\n**The rules, in outline:**\n\n| Requirement | Typical limit |\n|---|---|\n| **Total length of openings in a wall** ← | **Not more than about half the wall's length between cross-walls (less in higher seismic conditions)** ← |\n| **Distance of an opening from a CORNER or a wall junction** ← | **At least a quarter of the storey height, and not less than 600 mm** ← |\n| **PIER width between two openings** ← | **At least half the height of the shorter opening, and not less than about 600 mm** ← |\n| **Vertical distance between two openings, one above the other** ← | **At least 600 mm, or half the width of the smaller opening** ← |\n| **Openings should be VERTICALLY ALIGNED from storey to storey** ← | **So that the piers between them are continuous** ← |\n| **Where an opening exceeds the limits, VERTICAL reinforcement at its jambs is required** ← | ← |\n\n> **THE CORNER RULE IN THE SECOND ROW FOLLOWS DIRECTLY FROM WHAT THE CORNER DOES, AND ONCE THAT IS SEEN THE RULE NEEDS NO MEMORISING:**\n\n> **The corner is where two walls tie to one another, and that tie is what gives the building its box action.**\n\n> **It is also where the in-plane shear in each wall is transferred into the return wall, so the shear stresses there are at their highest.**\n\n> **Putting a window 200 mm from a corner leaves a slender strip of masonry doing the most demanding job in the wall — and that strip cracks, the corner opens, and the box action is lost.**\n\n> **So the rule is not about buildability or convenience but about preserving the one element whose failure disables the whole system.**\n\n**THE PIER RULE IN THE THIRD ROW ADDRESSES A DIFFERENT AND EQUALLY IMPORTANT MECHANISM:**\n\n| Point | Note |\n|---|---|\n| **A wall with openings resists in-plane shear through the PIERS between them** ← | **The openings carry nothing** ← |\n| **A slender pier is weak in shear and prone to DIAGONAL cracking** ← | **The X-crack pattern that appears between every pair of windows in a damaged masonry building** ← |\n| **A slender pier also ROCKS on its bed joints under reversal** ← | ← |\n| **So a wall's shear capacity depends on the WIDTH of its piers, not on its total length** ← | **Which is why the total opening area and the individual pier widths are BOTH limited** ← |\n\n> **THE FOURTH ROW IS THE POINT THAT MAKES THE TWO RULES COMPLEMENTARY RATHER THAN REDUNDANT: limiting only the total opening area would permit one long window with narrow piers, and limiting only the pier width would permit a wall that was almost all openings.**\n\n> **Both are needed, because the wall's capacity depends on how much masonry there is AND on how it is distributed.**\n\n> **THE VERTICAL ALIGNMENT REQUIREMENT IN THE FIFTH ROW IS THE ONE MOST OFTEN SACRIFICED TO ARCHITECTURAL PREFERENCE AND IT IS WORTH DEFENDING: when openings in successive storeys line up, the piers between them line up too, forming continuous vertical strips of masonry from foundation to roof.**\n\n> **Those continuous piers carry the vertical load down a clear path and act as continuous shear elements over the building's height.**\n\n> **When the openings are staggered from storey to storey, a pier in one storey sits over an opening in the storey below — so its load must travel sideways through the lintel and the wall, and the shear path is broken.**\n\n> **The result is local overstress at every offset, and a building whose walls cannot act as continuous elements at all.**\n\n> **This is a case where a modest architectural constraint buys a large structural benefit, and where the cost of ignoring it is not obvious on the drawing but is entirely predictable in an earthquake.**",

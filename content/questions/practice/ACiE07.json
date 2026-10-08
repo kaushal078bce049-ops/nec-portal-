@@ -13,7 +13,7 @@
         "The consumptive use multiplied by the irrigation efficiency",
         "The consumptive use plus the conveyance losses in the canal system",
         "Always equal to the consumptive use",
-        "The consumptive use LESS the EFFECTIVE RAINFALL and any contribution from the soil moisture store or the groundwater"
+        "The consumptive use less the effective rainfall and any contribution from the soil moisture store or the groundwater"
       ],
       "answerIndex": 3,
       "solution": "**The consumptive use LESS the EFFECTIVE RAINFALL and any contribution from the soil moisture store or the groundwater** — that is, only the part that irrigation must actually supply.\n\n**The sequence of quantities, each derived from the one before:**\n\n| Quantity | Definition |\n|---|---|\n| **CONSUMPTIVE USE (evapotranspiration, ET)** ← | **The water the crop TRANSPIRES plus what EVAPORATES from the soil surface — the total demand, whatever supplies it** ← |\n| **CROP WATER REQUIREMENT** ← | **ET plus any special requirements — puddling and land preparation for paddy, leaching, and losses in the field** ← |\n| **NET IRRIGATION REQUIREMENT (NIR)** ← | **Crop water requirement MINUS effective rainfall, minus the contribution from soil moisture and from groundwater** ← |\n| **FIELD irrigation requirement** ← | **NIR ÷ the field APPLICATION efficiency** ← |\n| **GROSS irrigation requirement (GIR)** ← | **Field requirement ÷ the CONVEYANCE efficiency — the quantity that must be diverted at the head of the system** ← |\n\n> **THE PROGRESSION FROM THE FIRST ROW TO THE LAST IS THE WHOLE ARITHMETIC OF IRRIGATION PLANNING AND ITS DIRECTION IS WORTH NOTING: the quantity INCREASES at every step below the third, and DECREASES at the third.**\n\n> **Rainfall reduces what irrigation must supply; inefficiency increases what must be diverted to supply it.**\n\n> **So the gross requirement at the headworks can be two or three times the crop's actual consumptive use, and the difference is entirely rainfall on one side and losses on the other.**\n\n> **Getting the direction of each step right is the commonest arithmetic error in the subject: dividing where one should multiply, or subtracting the rainfall from the gross rather than from the crop requirement, produces an answer wrong by a large factor.**\n\n**THE SOIL MOISTURE AND GROUNDWATER CONTRIBUTIONS IN THE THIRD ROW ARE OFTEN NEGLECTED AND ARE SOMETIMES SUBSTANTIAL:**\n\n| Contribution | Note |\n|---|---|\n| **Moisture stored in the ROOT ZONE from the previous season** ← | **Particularly at the start of the rabi season, following the monsoon — the soil profile is full, and the first weeks may need no irrigation at all** ← |\n| **CAPILLARY RISE from a shallow water table** ← | **Where the water table is within 1 to 2 m of the root zone, it can supply a real fraction of the demand** ← |\n| **Neither appears in a simple ET calculation** ← | **So a requirement computed without them OVERSTATES the irrigation needed** ← |\n\n> **THE SECOND ROW HAS A CONSEQUENCE THAT CUTS BOTH WAYS AND IT IS WORTH FOLLOWING: in a waterlogged area the shallow water table supplies much of the crop's need, so the irrigation requirement is genuinely lower.**\n\n> **Continuing to irrigate at the full computed rate then adds water the crop does not need to a profile that is already too wet — which raises the water table further and worsens the waterlogging.**\n\n> **So the failure to account for capillary contribution actively drives the waterlogging problem, and it is one of the mechanisms by which an irrigation scheme damages its own command.**\n\n> **The remedy is to measure the water table and adjust the schedule, which requires observation wells and someone to read them — a modest provision that is regularly omitted.**\n\n**AND THE PADDY EXCEPTION IN THE SECOND ROW OF THE FIRST TABLE DESERVES A NOTE, SINCE IT DOMINATES NEPALI IRRIGATION:**\n\n> **Paddy is not irrigated to meet an evapotranspiration demand; it is PONDED, and the water requirement is dominated by PERCOLATION through the field's floor and by the puddling water used in land preparation.**\n\n> **So a paddy field's requirement may be 1,000 mm or more against an evapotranspiration of perhaps 500 mm, and the difference is water going into the ground.**\n\n> **That percolation is not entirely lost — it recharges the groundwater and may be pumped again downstream — which is why a basin-scale water accounting gives a very different picture of paddy's water use from a field-scale one.**\n\n> **A field's efficiency of 40 per cent may correspond to a basin efficiency of 80 per cent, because most of the 'loss' returns to the system; and this is why the pursuit of field-level efficiency can be misdirected if the returns are not traced.**",
@@ -78,7 +78,7 @@
       "stem": "EFFECTIVE RAINFALL, in the context of irrigation planning, means:",
       "options": [
         "The total rainfall recorded during the crop's growing season",
-        "That part of the rainfall which is actually STORED IN THE ROOT ZONE and available to the crop",
+        "That part of the rainfall which is actually stored in the root zone and available to the crop",
         "The rainfall that falls only during the daytime",
         "The rainfall measured at the nearest meteorological station"
       ],
@@ -147,7 +147,7 @@
         "The total area lying within the irrigation boundary, including villages, roads and barren land",
         "The area actually irrigated in a particular season",
         "The area that could be irrigated if unlimited water were available",
-        "That part of the GROSS COMMAND AREA which is CULTURABLE — the gross area less the land not fit for cultivation, such as villages, roads, ponds, rock and forest"
+        "That part of the gross command area which is culturable — the gross area less the land not fit for cultivation, such as villages, roads, ponds, rock and forest"
       ],
       "answerIndex": 3,
       "solution": "**That part of the GROSS COMMAND AREA which is CULTURABLE** — the gross area less the land not fit for cultivation, such as villages, roads, ponds, rock and forest.\n\n**The areas, from largest to smallest:**\n\n| Area | Definition |\n|---|---|\n| **GROSS COMMAND AREA (GCA)** ← | **The TOTAL area that the canal system could command by gravity — everything within its boundary, culturable or not** ← (option a) |\n| **CULTURABLE COMMAND AREA (CCA)** ← | **GCA MINUS the unculturable land — villages, roads, ponds, rock outcrop, forest, barren ground** ← |\n| **Culturable CULTIVATED area** ← | **The part of the CCA actually under cultivation** ← |\n| **Culturable UNCULTIVATED area** ← | **Culturable but left fallow** ← |\n| **INTENSITY OF IRRIGATION** ← | **The area actually IRRIGATED in a season, as a PERCENTAGE of the CCA** ← |\n\n> **THE DISTINCTION MATTERS BECAUSE EVERY IRRIGATION CALCULATION IS BASED ON THE CCA AND NOT THE GCA, AND CONFUSING THEM OVERSTATES THE DEMAND: the roads and villages within the command need no water.**\n\n> **The difference is not trivial — the unculturable fraction may be 15 to 25 per cent of the gross area in a settled plain, and more in broken country.**\n\n> **So a design based on the GCA sizes the canal a fifth too large, and one based on it for a benefit calculation overstates the area that will actually benefit.**\n\n**THE INTENSITY OF IRRIGATION IN THE LAST ROW IS THE FIGURE THAT DECIDES THE CANAL'S SIZE AND IT REPAYS UNDERSTANDING:**\n\n| Point | Note |\n|---|---|\n| **It is the percentage of the CCA irrigated in a given SEASON** ← | **So there is a kharif intensity and a rabi intensity, and an annual total** ← |\n| **It can EXCEED 100 per cent annually** ← | **Because the same land is irrigated in more than one season — 50 per cent in kharif and 50 in rabi gives an annual intensity of 100 per cent** ← |\n| **A well-served command may reach 150 or 180 per cent annually** ← | **With two crops on most of the land and three on some** ← |\n| **The canal is sized on the SEASONAL peak, not the annual total** ← | **Since the seasons do not overlap** ← |\n\n> **THE SECOND ROW IS WHERE THE CONFUSION USUALLY ARISES AND IT IS WORTH STATING PLAINLY: an intensity above 100 per cent does not mean more land than exists.**\n\n> **It means the same land is being cropped more than once a year, which is precisely what irrigation is for — converting a single rainfed monsoon crop into two or three irrigated ones.**\n\n> **So the intensity is a measure of how INTENSIVELY the land is used through the year, and raising it is the scheme's principal benefit.**\n\n> **A scheme that irrigates 100 per cent of its CCA in kharif and nothing in rabi has an annual intensity of 100 per cent and has achieved comparatively little, since kharif is the monsoon season when the crop would largely have grown anyway.**\n\n> **A scheme irrigating 40 per cent in kharif and 60 in rabi has the same annual intensity and has done far more good, because the rabi crop would not have existed without it.**\n\n> **WHICH IS WHY THE SEASONAL BREAKDOWN MATTERS MORE THAN THE ANNUAL TOTAL, AND IT IS THE FIGURE TO ASK FOR: the value of irrigation lies overwhelmingly in the DRY season, when it is the difference between a crop and no crop, rather than in the monsoon, when it is the difference between a crop and a slightly better one.**\n\n> **This has a direct consequence for scheme design in Nepal: a run-of-river irrigation intake with abundant monsoon flow and little dry-season flow delivers water when it is least valuable and fails when it is most — the same seasonal mismatch that afflicts run-of-river hydropower, arising from the same hydrology.**\n\n> **Storage, groundwater conjunctive use, or a source with a dependable dry-season yield are what convert such a scheme from a marginal benefit into a substantial one.**",
@@ -177,7 +177,7 @@
       "marks": 1,
       "stem": "The AVAILABLE MOISTURE in a soil, from the point of view of irrigation, is the moisture held between:",
       "options": [
-        "FIELD CAPACITY and the PERMANENT WILTING POINT",
+        "Field capacity and the permanent wilting point",
         "Saturation and field capacity",
         "Saturation and the permanent wilting point",
         "The hygroscopic coefficient and oven-dry condition"
@@ -245,7 +245,7 @@
       "stem": "The BLANEY-CRIDDLE method of estimating consumptive use differs from the PENMAN method in that Blaney-Criddle:",
       "options": [
         "Requires measurements of solar radiation, humidity and wind speed",
-        "Requires only TEMPERATURE and the day-length (latitude) data",
+        "Requires only temperature and the day-length (latitude) data",
         "Measures the consumptive use directly with a lysimeter",
         "Applies only to paddy"
       ],
@@ -280,7 +280,7 @@
         "The last watering given before harvest",
         "The water applied during land preparation and puddling",
         "The total water applied over the crop's whole base period",
-        "The FIRST watering given after the plants have grown a few centimetres, applied within a limited KOR PERIOD"
+        "The first watering given after the plants have grown a few centimetres, applied within a limited kor period"
       ],
       "answerIndex": 3,
       "solution": "**The FIRST watering given after the plants have grown a few centimetres, applied within a limited KOR PERIOD** — and it is the watering that determines the canal's PEAK capacity, since the whole command demands it at nearly the same time.\n\n**Why the kor watering governs the canal's design:**\n\n| Step | Note |\n|---|---|\n| **The kor watering must be given within a SHORT window — the kor period** ← | **Two to four weeks, depending on the crop** ← |\n| **If it is delayed beyond that window, the crop's yield suffers** ← | **So it cannot be spread out at the operator's convenience** ← |\n| **The whole command sows at about the same time, so it all needs the kor watering at about the same time** ← | ← |\n| **The demand is therefore CONCENTRATED, and it is the season's peak** ← | ← |\n| **The canal must be sized to deliver the kor depth over the whole area within the kor period** ← | **Which is the OUTLET DISCHARGE FACTOR calculation** ← |\n\n> **THE THIRD ROW IS THE ESSENTIAL POINT AND IT IS THE SAME SIMULTANEITY ARGUMENT MET IN WATER SUPPLY, HERE WORKING IN THE OPPOSITE DIRECTION: in a town, individual demands are staggered and the peak factor is modest.**\n\n> **In an irrigation command, the demands are SYNCHRONISED by the agricultural calendar — everyone sows within days of one another and everyone needs the kor watering within the same fortnight.**\n\n> **So there is no diversity to rely on, and the canal must carry very nearly the sum of all the individual peaks.**\n\n> **This is why an irrigation canal's capacity is set by a single agronomic event rather than by an average demand, and why the kor period and the kor depth are the two figures that decide it.**\n\n**THE KOR DEPTHS AND PERIODS, FOR REFERENCE:**\n\n| Crop | Kor depth | Kor period |\n|---|---|---|\n| **RICE** ← | **190 mm** | **2 weeks** ← |\n| **WHEAT** ← | **135 mm** | **4 weeks** ← |\n| **SUGARCANE** | **165 mm** | **4 weeks** |\n| **COTTON** | **100 mm** | **4 weeks** |\n| **Maize** | **100 mm** | **4 weeks** |\n\n> **RICE'S COMBINATION OF THE LARGEST DEPTH AND THE SHORTEST PERIOD IN THE FIRST ROW MAKES IT THE CROP THAT DICTATES CANAL CAPACITY WHEREVER IT IS GROWN, and the arithmetic shows why: 190 mm in 14 days demands twice the discharge that 135 mm in 28 days does.**\n\n> **So a command with a substantial rice area needs a canal roughly twice the size that the same area under wheat would need, for that period alone.**\n\n> **And since the canal is sized for its peak, that capacity sits largely unused for the rest of the year — which is one reason irrigation canals are so expensive relative to the water they deliver annually.**\n\n**THE OUTLET DISCHARGE FACTOR CALCULATION, WHICH FOLLOWS DIRECTLY:**\n\n| Step | Note |\n|---|---|\n| **The outlet factor is the DUTY at the outlet during the kor period** ← | ← |\n| **D = 8.64 × kor period in days ÷ kor depth in metres** ← | **The same relation as before, applied to the kor watering alone** ← |\n| **For rice: D = 8.64 × 14 / 0.190 = 637 hectares per cumec** ← | ← |\n| **For wheat: D = 8.64 × 28 / 0.135 = 1,792 hectares per cumec** ← | **Nearly three times as much land from the same discharge** ← |\n| **The canal's capacity is then the area to be served divided by the weighted outlet factor** ← | ← |\n\n> **The contrast between the third and fourth rows quantifies the point exactly: the same cumec serves 637 hectares of rice or 1,792 of wheat during the kor.**\n\n> **So the CROPPING PATTERN determines the canal's size almost as directly as the area does, and a shift in the pattern after the canal is built changes what it can serve.**\n\n> **This is the technical basis of the prescribed cropping pattern discussed earlier: it is not an interference for its own sake but the assumption on which the canal's capacity rests, and departing from it means the canal cannot deliver what the new pattern demands.**",
@@ -311,7 +311,7 @@
       "marks": 1,
       "stem": "Compared with SURFACE (flood, border or furrow) irrigation, DRIP irrigation:",
       "options": [
-        "Applies water SLOWLY and DIRECTLY to the root zone of each plant",
+        "Applies water slowly and directly to the root zone of each plant",
         "Requires a larger volume of water for the same crop",
         "Cannot be used on sloping ground",
         "Wets the whole soil surface uniformly"
@@ -346,7 +346,7 @@
       "options": [
         "The monsoon season, from June to October",
         "The short hot-weather season between the other two",
-        "The WINTER season, sown about October or November and harvested in March or April",
+        "The winter season, sown about October or November and harvested in March or April",
         "The season during which the land is left fallow"
       ],
       "answerIndex": 2,
@@ -378,7 +378,7 @@
       "stem": "In a canal system, SEEPAGE losses are distinguished from EVAPORATION losses in that seepage:",
       "options": [
         "Occurs only in lined canals",
-        "Is much the LARGER of the two",
+        "Is much the larger of the two",
         "Is negligible compared with evaporation in a hot climate",
         "Occurs only when the canal is running at full supply"
       ],
@@ -413,7 +413,7 @@
         "Each farmer takes water whenever the canal is running",
         "Water is sold by volume through a meter at each outlet",
         "Water is delivered continuously to every field at a small rate",
-        "Each landholding receives the water of the whole outlet for a FIXED TURN of a fixed duration on a fixed day of a weekly cycle"
+        "Each landholding receives the water of the whole outlet for a fixed turn of a fixed duration on a fixed day of a weekly cycle"
       ],
       "answerIndex": 3,
       "solution": "**Each landholding receives the water of the whole outlet for a FIXED TURN of a fixed duration on a fixed day of a weekly cycle**, the turn's length being proportional to the holding's area.\n\n**How the system works:**\n\n| Feature | Note |\n|---|---|\n| **The outlet runs CONTINUOUSLY at its designed discharge whenever the distributary is running** ← | ← |\n| **The whole of that flow goes to ONE farmer at a time** ← | **Not shared simultaneously** ← |\n| **Each farmer's TURN is a fixed number of hours per week** ← | **Proportional to his area — so many minutes per hectare** ← |\n| **The turns follow a fixed ROSTER, published and known to all** ← | **Same day, same hours, every week** ← |\n| **The cycle is typically SEVEN days** ← | ← |\n| **The farmer takes his turn whether he needs it or not** ← | **And gets nothing outside it** ← |\n\n> **THE SECOND ROW IS THE ESSENTIAL DESIGN IDEA AND IT IS WORTH SEEING WHY IT MATTERS: giving one farmer the whole flow for a short time is far better than giving every farmer a share of it continuously.**\n\n> **A large flow for a short period fills the field channels quickly, reaches the far end of the field, and wets the land efficiently.**\n\n> **A trickle to every field continuously loses most of itself in the channels, never reaches the tail of the field, and irrigates nothing properly.**\n\n> **So concentrating the flow in time is a genuine efficiency gain, and it is the same principle as running canals in rotation rather than all at part supply.**\n\n**WHAT WARABANDI ACHIEVES, WHICH IS MORE ABOUT EQUITY THAN EFFICIENCY:**\n\n| Achievement | Note |\n|---|---|\n| **EQUITY — every farmer gets a share proportional to his LAND, regardless of his influence** ← | **Which is its principal purpose** ← |\n| **PREDICTABILITY — a farmer knows exactly when his water will come** ← | **So he can prepare his field, arrange labour and plan his sowing** ← |\n| **It requires NO measurement, NO gates at each field and NO official present** ← | **The roster and the clock do the whole job** ← |\n| **And it distributes a SHORTAGE fairly** ← | **When the supply falls, every turn is shortened proportionally rather than the head-enders taking all of it** ← |\n\n> **THE THIRD ROW IS WHY THE SYSTEM HAS SURVIVED AND SPREAD, AND IT IS AN IMPORTANT PRACTICAL VIRTUE: warabandi requires almost no institutional capacity.**\n\n> **There are no meters to read, no valves to set, no water charges to compute by volume, and no official to be present or to be bribed.**\n\n> **A written roster and a functioning clock are sufficient, and the farmers themselves enforce it because each one's turn is threatened by anyone who overruns.**\n\n> **In a setting where the irrigation department cannot be present at every outlet every day — which is every setting — that self-enforcing quality is worth more than any technically superior arrangement that depends on supervision.**\n\n**ITS LIMITATIONS, WHICH ARE REAL AND WORTH STATING:**\n\n| Limitation | Note |\n|---|---|\n| **It is INFLEXIBLE — the turn comes when it comes, not when the crop needs water** ← | **A farmer whose crop needs water on Tuesday and whose turn is Friday must wait** ← |\n| **It takes NO account of the crop, the soil or the weather** ← | **Everyone gets the same rate per hectare whether they grow paddy or gram** ← |\n| **Which discourages high-value and water-sensitive crops** ← | **Since their requirements cannot be met on a fixed schedule** ← |\n| **It assumes the supply is RELIABLE enough for the roster to mean anything** ← | **A roster nobody can rely on is worse than none** ← |\n| **And it can entrench the disadvantage of TAIL-enders** ← | **If the channel losses mean the tail's turn delivers less water than the head's** ← |\n\n> **THE FIRST THREE ROWS TOGETHER DESCRIBE THE TRADE THAT WARABANDI MAKES AND IT IS WORTH BEING EXPLICIT: it purchases EQUITY and SIMPLICITY at the cost of FLEXIBILITY.**\n\n> **A demand-based system in which farmers order water when they need it is agronomically superior and requires an institutional capacity — measurement, communication, scheduling, enforcement — that few systems possess.**\n\n> **So warabandi is the right answer where that capacity is absent, and it becomes the wrong answer as agriculture intensifies and diversifies toward crops whose value justifies a more responsive service.**\n\n> **That transition is where many South Asian systems now find themselves, and it is a difficult one — because the institutional arrangements that a flexible service requires cannot simply be declared, and abandoning warabandi before they exist gives neither equity nor flexibility.**",
@@ -443,7 +443,7 @@
       "marks": 1,
       "stem": "CONJUNCTIVE USE of surface water and groundwater in an irrigated command means:",
       "options": [
-        "Managing the two sources TOGETHER as a single resource",
+        "Managing the two sources together as a single resource",
         "Using groundwater only where surface water is unavailable",
         "Mixing canal water and well water before application to improve its quality",
         "Abandoning surface irrigation in favour of tube wells"
@@ -478,7 +478,7 @@
       "options": [
         "The river's mean annual flow",
         "The river's monsoon peak flow",
-        "The DEPENDABLE dry-season flow at a stated exceedance probability",
+        "The dependable dry-season flow at a stated exceedance probability",
         "The flood of a 100-year return period"
       ],
       "answerIndex": 2,
@@ -510,7 +510,7 @@
       "stem": "The CROP FACTOR (crop coefficient) K_c used with a reference evapotranspiration ET₀:",
       "options": [
         "Is a constant for each crop throughout its growing season",
-        "VARIES through the crop's growth stages",
+        "Varies through the crop's growth stages",
         "Applies only to the reference grass crop",
         "Converts the actual evapotranspiration into the reference value"
       ],
@@ -545,7 +545,7 @@
         "Delivers a constant discharge regardless of the water levels on either side of it",
         "Delivers a discharge proportional to the distributary's discharge",
         "Automatically closes when the field is fully irrigated",
-        "Delivers a discharge that VARIES with the water levels BOTH upstream and downstream"
+        "Delivers a discharge that varies with the water levels both upstream and downstream"
       ],
       "answerIndex": 3,
       "solution": "**It delivers a discharge that VARIES with the water levels BOTH upstream and downstream** — such as a simple pipe or an open sluice, which is cheap but gives the cultivator no protection against fluctuation and can be tampered with.\n\n**The classification of outlets:**\n\n| Type | Discharge depends on |\n|---|---|\n| **NON-MODULAR** ← | **BOTH the upstream and downstream water levels — a simple submerged pipe or open sluice** ← |\n| **SEMI-MODULE (flexible module)** ← | **The UPSTREAM level only — the downstream level having no effect, provided the outlet runs free** ← |\n| **RIGID MODULE** ← | **NEITHER — the discharge is CONSTANT within a range of levels** ← (which is option a) |\n\n> **THE QUESTION'S PHRASING DELIBERATELY PAIRS TWO TERMS THAT ARE OFTEN CONFUSED, AND THE DISTINCTION MATTERS: 'rigid module' and 'non-modular' are OPPOSITES, not synonyms.**\n\n> **A rigid module gives a fixed discharge; a non-modular outlet gives a discharge that varies with everything.**\n\n> **The word 'module' refers to the outlet's ability to MODULATE — to hold its discharge steady against changing conditions — so 'non-modular' means it does not, and 'rigid module' means it does so completely.**\n\n**THE PRACTICAL BEHAVIOUR OF EACH, WHICH DECIDES WHERE IT IS USED:**\n\n| Type | Advantages | Disadvantages |\n|---|---|---|\n| **NON-MODULAR (pipe outlet)** ← | **Cheap, simple, no moving parts, easily built and repaired locally** ← | **Discharge varies with both levels, so the share is unpredictable; easily TAMPERED with by damming the watercourse below** ← |\n| **SEMI-MODULE (open flume, orifice semi-module)** ← | **Discharge independent of the downstream level, so tampering below is ineffective; still simple** ← | **Varies with the distributary's level, so the share falls when the canal runs low** ← |\n| **RIGID MODULE (Gibb's module)** ← | **Constant discharge whatever the levels — the fairest** ← | **Complex, expensive, needs maintenance, and it takes NO account of the distributary's actual availability** ← |\n\n> **THE LAST ROW CONTAINS A DISADVANTAGE OF THE RIGID MODULE THAT IS EASILY MISSED AND IS DECISIVE IN A SHORTAGE: a constant-discharge outlet takes its full share even when the canal is short of water.**\n\n> **So the head-end outlets draw their full entitlement and the tail of the distributary receives nothing at all.**\n\n> **A SEMI-MODULE, whose discharge falls as the distributary's level falls, distributes the shortage automatically — every outlet gets proportionally less, and the tail still gets something.**\n\n> **That self-adjusting property makes the semi-module the preferred type in practice despite the rigid module's theoretical superiority, and it is a good example of a device that performs worse under ideal conditions and better under real ones.**\n\n**THE TAMPERING POINT DESERVES ITS OWN NOTE BECAUSE IT DRIVES THE CHOICE MORE THAN ANY HYDRAULIC CONSIDERATION:**\n\n| Point | Note |\n|---|---|\n| **A non-modular outlet's discharge rises if the downstream level is LOWERED** ← | **By deepening or clearing the watercourse** ← |\n| **And it rises if the upstream level is RAISED** ← | **By placing an obstruction in the distributary just below the outlet** ← |\n| **Both are easily done with a shovel and are hard to detect** ← | **The obstruction is removed before the inspector arrives** ← |\n| **The water gained comes directly from the outlets DOWNSTREAM** ← | **So tampering is not a victimless act; it is a transfer from the tail-enders** ← |\n| **A semi-module removes half the opportunity and a rigid module all of it** ← | ← |\n\n> **THE FOURTH ROW IS WHY OUTLET DESIGN IS AS MUCH A SOCIAL QUESTION AS A HYDRAULIC ONE AND IT IS WORTH SEEING CLEARLY: in a canal running short of water, every litre one farmer takes above his share is a litre another farmer does not get.**\n\n> **The outlet is the point at which that competition is either governed or left open, and a design that can be manipulated will be.**\n\n> **So the case for the more expensive outlet is not hydraulic elegance but the protection of the tail-enders, who are invariably the poorest and least able to protest — and that is an argument that should be made in those terms rather than in terms of discharge coefficients.**",
@@ -575,7 +575,7 @@
       "marks": 1,
       "stem": "A canal aligned along the RIDGE (watershed) line of a tract, as distinct from a contour canal, has the advantage that it:",
       "options": [
-        "Can irrigate the land on BOTH SIDES by gravity, and it requires NO CROSS-DRAINAGE works",
+        "Can irrigate the land on both sides by gravity, and it requires no CROSS-DRAINAGE works",
         "Follows a shorter route between two points",
         "Requires less excavation than any other alignment",
         "Can be aligned without any survey"
@@ -709,7 +709,7 @@
       "marks": 1,
       "stem": "The TRACTIVE FORCE approach to designing a stable channel is based on:",
       "options": [
-        "The SHEAR STRESS that the flowing water exerts on the bed and banks",
+        "The shear stress that the flowing water exerts on the bed and banks",
         "The mean velocity of flow, compared with a critical velocity",
         "The regime relations derived from stable canals",
         "The discharge alone"
@@ -744,7 +744,7 @@
       "options": [
         "Loss of water by evaporation",
         "The canal running below its full supply level",
-        "WAVE action, a temporary rise from a sudden gate closure or an unforeseen inflow, SETTLEMENT of the banks, and accumulated silt raising the bed",
+        "Wave action, a temporary rise from a sudden gate closure or an unforeseen inflow, settlement of the banks, and accumulated silt raising the bed",
         "Erosion of the canal's bed"
       ],
       "answerIndex": 2,
@@ -778,7 +778,7 @@
         "The canal's velocity is exactly self-cleansing",
         "The seepage loss is a minimum",
         "The canal runs exactly at full supply level",
-        "The volume of EXCAVATION from the cutting exactly equals the volume of FILL required for the two banks"
+        "The volume of excavation from the cutting exactly equals the volume of fill required for the two banks"
       ],
       "answerIndex": 3,
       "solution": "**The depth at which the volume of EXCAVATION from the cutting exactly equals the volume of FILL required for the two banks** — so that no material need be borrowed and none disposed of.\n\n**Why it matters:**\n\n| Situation | Consequence |\n|---|---|\n| **Cutting SHALLOWER than the balancing depth** ← | **Not enough excavated material for the banks, so fill must be BORROWED and hauled — an extra cost, and it leaves borrow pits** ← |\n| **Cutting DEEPER than the balancing depth** ← | **Surplus material that must be DISPOSED of as spoil — an extra cost, and it creates the spoil bank problems noted earlier** ← |\n| **Cutting AT the balancing depth** ← | **The earthwork balances; the cheapest section** ← |\n\n> **THE PRINCIPLE IS SIMPLY THAT MOVING EARTH COSTS MONEY AND MOVING IT TWICE COSTS MORE, AND IT IS WORTH APPRECIATING HOW LARGE THAT COST IS IN A CANAL: earthwork is the dominant item in an unlined canal's construction.**\n\n> **A canal is a linear structure hundreds of kilometres long, and the earthwork quantity per kilometre is large.**\n\n> **So a section that balances saves both the borrowing and the disposal along that whole length, and the saving is substantial.**\n\n> **Equally, the balancing depth is a design target rather than a rule — the ground level varies along the alignment, so the actual cutting depth varies, and the aim is to balance the earthwork over a REACH rather than at every cross-section.**\n\n**HOW IT IS USED IN PRACTICE:**\n\n| Point | Note |\n|---|---|\n| **The canal's SECTION — bed width, depth, side slopes, bank widths — is fixed first** ← | **From the hydraulic design** ← |\n| **The balancing depth then follows from the geometry** ← | **The depth of cutting at which the cut area equals the fill area** ← |\n| **The canal's BED LEVEL is then set, where the ground permits, so that the cutting is at about that depth** ← | ← |\n| **Over a long reach, the ground rises and falls, so the canal alternates between deeper cutting and higher embankment** ← | ← |\n| **The MASS HAUL diagram is used to plan the movement of material along the alignment** ← | **Balancing a surplus in one reach against a deficit in the next, and minimising the haul distance** ← |\n\n> **THE MASS HAUL DIAGRAM IN THE LAST ROW IS THE TOOL THAT TURNS THE PRINCIPLE INTO A CONSTRUCTION PLAN AND IT IS WORTH KNOWING: it plots the CUMULATIVE volume of cut minus fill along the alignment.**\n\n> **Where the curve rises there is a surplus; where it falls, a deficit.**\n\n> **A horizontal line drawn across the curve gives a reach over which the earthwork balances, and the area between the line and the curve measures the HAUL — the volume times the distance it must be moved.**\n\n> **So the diagram lets the engineer see at a glance where material should be taken from and where it should go, how far it must be hauled, and where borrowing or disposal is unavoidable.**\n\n> **It is the same tool used in road earthwork, and the reasoning is identical.**\n\n**A CAUTION ON THE MATERIAL ITSELF, WHICH THE BALANCING CALCULATION DOES NOT ADDRESS:**\n\n| Point | Note |\n|---|---|\n| **The balancing depth is a VOLUME calculation** ← | **It assumes the excavated material is SUITABLE for the banks** ← |\n| **It frequently is not** ← | **Rock, gravel, organic soil, or a highly permeable sand may be excavated where a low-permeability bank material is wanted** ← |\n| **And the volumes are not equal in any case, since material BULKS on excavation and COMPACTS in the fill** ← | **A bulking factor and a compaction factor both apply, and they do not cancel** ← |\n| **So a nominal balance in bank measure may be a real surplus or deficit** ← | ← |\n\n> **The third row is a routine source of error in earthwork estimating generally: a cubic metre of soil in the ground is not a cubic metre in the truck nor a cubic metre in the compacted embankment.**\n\n> **Soil typically bulks 20 to 30 per cent on excavation and then compacts to perhaps 90 per cent of its in-situ volume in a well-compacted fill — so roughly 1.1 cubic metres of excavation is needed for each cubic metre of embankment.**\n\n> **Ignoring that gives a systematic shortfall of fill of around 10 per cent along the whole length, discovered when the banks are being built and material has to be found from somewhere.**",
@@ -811,7 +811,7 @@
         "A self-cleansing velocity",
         "Adequate freeboard",
         "A service road along the bank",
-        "PRESSURE RELIEF"
+        "Pressure relief"
       ],
       "answerIndex": 3,
       "solution": "**PRESSURE RELIEF — weep holes or a drainage layer beneath the lining** — to release any water pressure that builds up behind the lining, which would otherwise lift and destroy it when the canal is emptied.\n\n**The uplift mechanism, which is the lining's characteristic failure:**\n\n| Step | Note |\n|---|---|\n| **Water gets BEHIND the lining** ← | **Through cracks and joints, from rainfall on the banks, from the surrounding groundwater, or from leakage at structures** ← |\n| **While the canal is FULL, the water inside balances that pressure** ← | **So nothing happens and the problem is invisible** ← |\n| **When the canal is EMPTIED — for maintenance, or at the end of the season — the internal pressure disappears** ← | ← |\n| **The external water pressure is then unbalanced, and it acts UPWARD on the lining** ← | ← |\n| **A concrete lining is thin and has almost no weight to resist it** ← | **So it lifts, cracks, and breaks up** ← |\n| **The damage occurs during the DRAWDOWN and is discovered when the canal is inspected** ← | ← |\n\n> **THE THIRD ROW IS THE CRITICAL MOMENT AND IT IS WORTH STATING PLAINLY: a canal lining is most at risk when the canal is EMPTY, not when it is full.**\n\n> **This is counter-intuitive — the lining looks unloaded when there is no water in it — and it is why linings are so often damaged during the annual closure, which is precisely when the maintenance was supposed to be done.**\n\n> **It is also why RAPID DRAWDOWN is prohibited: emptying the canal slowly gives the water behind the lining time to drain away, so the pressure difference never develops.**\n\n> **A canal emptied quickly by opening the escapes fully can lose its lining over a long reach in a few hours, and the damage is entirely self-inflicted.**\n\n**THE PROVISIONS AGAINST IT:**\n\n| Provision | Note |\n|---|---|\n| **WEEP HOLES through the lining, with a filter behind them** ← | **Letting the external water in rather than allowing it to build pressure — and the filter prevents the soil washing through** ← |\n| **A DRAINAGE LAYER of granular material beneath the lining** ← | **Collecting the seepage and leading it to an outlet** ← |\n| **LONGITUDINAL and TRANSVERSE drains under the lining in a high water table** ← | ← |\n| **Controlled, SLOW drawdown** ← | **An operating rule rather than a construction provision, and it costs nothing** ← |\n| **PRESSURE RELIEF VALVES in the lining of large canals** ← | **Flap valves that open under external pressure** ← |\n| **Adequate lining WEIGHT where uplift cannot be avoided** ← | **A thicker slab, which is expensive** ← |\n\n> **THE FIRST ROW EMBODIES A PRINCIPLE WORTH GENERALISING: rather than resisting the water pressure, LET THE WATER THROUGH.**\n\n> **A weep hole deliberately breaches the lining's watertightness in order to preserve the lining, accepting a small leak to prevent a total failure.**\n\n> **That is the same reasoning as the drainage behind a retaining wall, the drainage gallery in a gravity dam and the filter beneath a revetment — in each case the structure is protected not by resisting the water but by giving it a path.**\n\n> **Recognising it as one principle across four applications is worth doing, because the instinct in each case is to seal more thoroughly, and the correct answer is the opposite.**\n\n**THE OTHER MATTERS PARTICULAR TO LINED CANALS, FOR COMPLETENESS:**\n\n| Matter | Note |\n|---|---|\n| **A lined canal can run at a HIGHER velocity** ← | **So it is smaller for the same discharge, and needs less land** ← |\n| **Its Manning's n is lower and CONSTANT with age** ← | **Unlike an unlined canal, which deteriorates** ← |\n| **JOINTS must be provided and sealed** ← | **To accommodate thermal and shrinkage movement; and the sealant deteriorates and must be renewed** ← |\n| **The lining must be protected from VEGETATION** ← | **Roots penetrating a joint will lift a slab** ← |\n| **And from LIVESTOCK and vehicles crossing it** ← | **Which requires designed crossings, or the lining is broken at every informal crossing point** ← |\n| **Repairs must be made PROMPTLY** ← | **A small crack admits water behind the lining and grows into a lifted slab; a lining deteriorates rapidly once it begins** ← |\n\n> **The last row is the operating discipline that determines a lining's life, and it follows directly from the uplift mechanism: every crack is a route for water to get behind, and behind is where the damage is done.**\n\n> **So a lined canal is not a maintenance-free canal — it is a canal whose maintenance is different, consisting of prompt crack sealing and joint renewal rather than desilting and weed clearance.**\n\n> **A scheme that lines its canals and then reduces its maintenance budget on the strength of it will find the lining failing within a decade, and replacing a lining costs more than laying it.**",
@@ -841,7 +841,7 @@
       "marks": 1,
       "stem": "When an alluvial canal is taken round a CURVE, the characteristic consequence is that:",
       "options": [
-        "SILT is deposited on the INSIDE (convex) bank while the OUTSIDE (concave) bank is SCOURED",
+        "Silt is deposited on the inside (convex) bank while the outside (concave) bank is scoured",
         "Silt is deposited uniformly around the curve",
         "The outside bank silts and the inside bank scours",
         "The curve has no effect on the distribution of silt"
@@ -874,7 +874,7 @@
       "marks": 1,
       "stem": "Lacey's relation for the regime WETTED PERIMETER of an alluvial channel, P = 4.75 √Q, is notable because:",
       "options": [
-        "It depends on the DISCHARGE ALONE",
+        "It depends on the discharge alone",
         "It applies only to lined channels",
         "It gives the perimeter in terms of the silt factor only",
         "It is valid only for discharges below 10 cumec"
@@ -910,7 +910,7 @@
       "options": [
         "Allow the cultivators an additional point of offtake",
         "Measure the discharge passing down the canal",
-        "Dispose of SURPLUS water from the canal into a natural drainage",
+        "Dispose of surplus water from the canal into a natural drainage",
         "Raise the water level upstream so that offtakes can command"
       ],
       "answerIndex": 2,
@@ -943,7 +943,7 @@
       "options": [
         "Increases with the discharge",
         "Is independent of the discharge",
-        "DECREASES as the discharge increases",
+        "Decreases as the discharge increases",
         "Depends only on the silt factor"
       ],
       "answerIndex": 2,
@@ -976,7 +976,7 @@
       "stem": "Among the types of canal lining, an EARTH or COMPACTED CLAY lining is chosen in preference to concrete chiefly because it:",
       "options": [
         "Withstands higher velocities than concrete",
-        "Is much CHEAPER and can be built with LOCAL material and unskilled labour",
+        "Is much cheaper and can be built with local material and unskilled labour",
         "Requires no maintenance",
         "Prevents weed growth entirely"
       ],
@@ -1008,7 +1008,7 @@
       "marks": 1,
       "stem": "In Lacey's regime theory, a channel is said to be in TRUE REGIME when:",
       "options": [
-        "Its discharge, its silt grade and its silt charge are constant, its boundary is composed of the SAME material as the sediment it transports, and it has adjusted its width, depth and slope so that it neither silts nor scours over a period",
+        "Its discharge, its silt grade and its silt charge are constant, its boundary is composed of the same material as the sediment it transports, and it has adjusted its width, depth and slope so that it neither silts nor scours over a period",
         "Its velocity everywhere exceeds the critical velocity",
         "It is fully lined so that its boundary cannot change",
         "Its bed slope equals the natural ground slope"
@@ -1044,7 +1044,7 @@
         "Its velocity is too low to be self-cleansing",
         "Evaporation losses are excessive at altitude",
         "The canal cannot be given an adequate freeboard",
-        "The SLOPE above it may deliver LANDSLIDE debris into the canal"
+        "The slope above it may deliver landslide debris into the canal"
       ],
       "answerIndex": 3,
       "solution": "**The SLOPE above it may deliver LANDSLIDE debris into the canal, blocking it or breaching it — and the canal's own SEEPAGE may saturate the slope below and trigger a slide that carries the canal away.**\n\n**The two directions of the hazard:**\n\n| Direction | Mechanism |\n|---|---|\n| **FROM ABOVE** ← | **Debris, rockfall and slide material from the slope above enters the canal; it blocks the section, the canal overtops, and the overtopping water erodes the outer bank and breaches it** ← |\n| **FROM THE CANAL ITSELF** ← | **Seepage from the canal saturates the slope BELOW; the increased pore pressure reduces the slope's stability; and the slope fails, taking the canal with it** ← |\n\n> **THE SECOND MECHANISM IS THE MORE INSIDIOUS AND IT DESERVES PARTICULAR ATTENTION BECAUSE THE CANAL CAUSES ITS OWN DESTRUCTION: an unlined canal on a hillside is a linear source of infiltration along the whole length of a slope.**\n\n> **The water enters the ground, raises the pore pressure in the slope below, and reduces the effective stress on which the slope's friction depends.**\n\n> **A slope that was marginally stable becomes unstable, and it fails — usually in the monsoon, when the canal is running full and the ground is already wet from rainfall.**\n\n> **The failure removes a length of the canal, and the debris often blocks or destroys whatever is below.**\n\n> **So a hill canal can be the CAUSE of the landslide that destroys it, which is a self-inflicted failure of a kind not met in the plains.**\n\n**THE DESIGN RESPONSES, WHICH ARE MOSTLY ABOUT WATER:**\n\n| Response | Note |\n|---|---|\n| **LINE the canal** ← | **The single most effective measure — it removes the seepage that destabilises the slope, and the case for it is slope stability more than water conservation** ← |\n| **A CATCH DRAIN above the canal, properly lined and outletted** ← | **Intercepting the hillside runoff before it enters the canal, and carrying it to a designed crossing** ← |\n| **CROSS-DRAINAGE at every gully, sized for a debris-laden flood** ← | **Not merely for the water — a super-passage that a boulder flow will block is no protection** ← |\n| **ESCAPES at intervals, so a blockage does not cause a breach** ← | ← |\n| **Avoid the alignments across ACTIVE slide zones and old slide debris** ← | **Which requires an engineering geological assessment of the whole alignment, not merely a survey of its level** ← |\n| **Provide for INSPECTION and prompt clearance during the monsoon** ← | **A blockage cleared within hours is an inconvenience; one left for a day is a breach** ← |\n\n> **THE FIFTH ROW IS THE MEASURE WITH THE LARGEST EFFECT AND THE ONE MOST OFTEN OMITTED FROM THE INVESTIGATION: the alignment should be chosen with the slope's stability in mind, and that requires someone competent to walk it and read the ground.**\n\n> **Old slide scars, hummocky ground, tension cracks, seepage lines, tilted trees and springs at the toe are all visible to a trained eye, and they mark the lengths where a canal will cause or suffer a failure.**\n\n> **A survey that establishes the level and the length, without an engineering geological appraisal, will produce an alignment that is hydraulically correct and passes through three active slide zones.**\n\n> **And realigning after construction is impossible — the canal is where it is — so the geological input has value only if it comes at the alignment stage.**\n\n> **THE LAST ROW IS THE OPERATIONAL COROLLARY AND IT IS WORTH STATING BECAUSE IT IS CHEAP: a hill canal needs to be WALKED during the monsoon, frequently.**\n\n> **A small slip that has half-blocked the section, cleared the same day, costs an hour's labour.**\n\n> **The same slip left until the canal overtops costs a breach, a suspended supply, and often a much larger slide initiated by the escaping water.**\n\n> **So the difference between a canal that survives a monsoon and one that does not is frequently a matter of whether anyone walked it — which is an institutional provision rather than an engineering one, and it should be written into the scheme's operating arrangements at design rather than left to be discovered.**",
@@ -1077,7 +1077,7 @@
         "Can command a larger area by gravity",
         "Requires less excavation",
         "Is easier to line",
-        "Cannot BREACH catastrophically"
+        "Cannot breach catastrophically"
       ],
       "answerIndex": 3,
       "solution": "**It cannot BREACH catastrophically — since there is no head of water above the surrounding ground to escape**, whereas a breached embankment discharges the whole canal onto the land below.\n\n**The two conditions compared:**\n\n| Aspect | In CUTTING | In EMBANKMENT |\n|---|---|---|\n| **Consequence of a bank failure** | **Minor — the water is at or below ground level and cannot run away** ← | **CATASTROPHIC — the canal's whole flow pours out onto the land below** ← |\n| **Area commanded** | **LESS — the water surface is low relative to the land** ← (so option a favours embankment) | **More** ← |\n| **Earthwork** | **EXCAVATION, which must be disposed of if surplus** ← | **FILL, which must be borrowed if there is a deficit** ← |\n| **Seepage** | **Into the ground, raising the local water table** ← | **Out through the banks, which also THREATENS the banks' stability** ← |\n| **Drainage of the adjoining land** | **The canal may INTERCEPT the drainage, acting as a drain** ← | **The canal BLOCKS the natural drainage, ponding water behind it** ← |\n| **Bank stability** | **The cutting's slopes may slip inward** ← | **The banks may fail outward, and they are loaded by the water** ← |\n\n> **THE FIRST ROW IS THE DECISIVE SAFETY CONSIDERATION AND IT IS WORTH STATING IN TERMS OF WHAT ACTUALLY HAPPENS: a breach in a canal running in embankment across a plain is a serious event.**\n\n> **The canal may be carrying tens of cumecs, and once the bank is cut the whole of it discharges through the gap.**\n\n> **The escaping flow rapidly enlarges the breach by erosion, so the discharge grows, and it floods the land below — which is often the land the canal was built to irrigate.**\n\n> **Crops are destroyed, houses may be lost, and the canal is out of service until the breach is closed, which in a large canal is a substantial work.**\n\n> **A canal in cutting cannot do this, because there is no head available: the water is below the surrounding ground and has nowhere to go.**\n\n**WHY CANALS ARE NEVERTHELESS BUILT IN EMBANKMENT, WHICH IS THE OTHER HALF OF THE ARGUMENT:**\n\n| Reason | Note |\n|---|---|\n| **To COMMAND the land** ← | **The whole purpose of an irrigation canal is to deliver water at a level from which it can flow onto the fields — and that requires the canal to be HIGH** ← |\n| **A canal in deep cutting commands nothing** ← | **The water cannot get out of it onto the land** ← |\n| **So the canal's level is set by the COMMAND requirement, not by the earthwork** ← | ← |\n| **And in a flat country, maintaining command over a long distance requires embankment** ← | **Since the canal's gentle slope soon leaves the falling ground behind** ← |\n\n> **THE THIRD ROW STATES THE GOVERNING CONSTRAINT AND IT RESOLVES THE APPARENT CONFLICT: the canal is not free to run in cutting.**\n\n> **Its bed level is dictated by the level at which its outlets must deliver water, and that is fixed by the land they serve.**\n\n> **So the designer's choice is not between cutting and embankment but between commanding the land and not commanding it — and where command requires embankment, embankment it must be.**\n\n> **What the designer CAN do is recognise the consequence and provide for it: adequate bank width and freeboard, well-compacted banks, escapes to shed a surplus, inspection to catch a burrow or a seepage before it becomes a breach, and a service road so that a developing failure can be reached.**\n\n> **THE PARTIAL CUTTING AND PARTIAL EMBANKMENT SECTION IS THE USUAL COMPROMISE AND IT IS WORTH NOTING: most canals run partly in cutting and partly in bank, which balances the earthwork (the balancing depth) and limits the head available to escape in a breach.**\n\n> **The depth of water above the surrounding ground is then modest, so a breach discharges less and does so more slowly — and the difference between a canal whose water surface is half a metre above the ground and one where it is three metres is the difference between a manageable failure and a disaster.**\n\n> **So minimising the height of the water above the ground, consistent with maintaining command, is a real design objective and not merely an earthwork economy.**",
@@ -1108,7 +1108,7 @@
       "stem": "In designing a canal by Kennedy's method, the CRITICAL VELOCITY RATIO m is introduced in order to:",
       "options": [
         "Convert the velocity from metres per second to other units",
-        "Account for the fact that the silt in a particular canal may be COARSER or FINER than that of the Upper Bari Doab canals on which Kennedy's original relation was based",
+        "Account for the fact that the silt in a particular canal may be coarser or finer than that of the Upper Bari Doab canals on which Kennedy's original relation was based",
         "Allow for the canal's side slopes",
         "Correct for the canal's bed slope"
       ],
@@ -1175,7 +1175,7 @@
       "options": [
         "Seepage occurs only beneath the vertical cut-offs",
         "The uplift pressure is uniform beneath the whole floor",
-        "The seeping water CREEPS along the contact surface between the floor and the soil",
+        "The seeping water creeps along the contact surface between the floor and the soil",
         "The seepage path is a series of concentric circles"
       ],
       "answerIndex": 2,
@@ -1209,7 +1209,7 @@
         "The floor will crack from thermal movement",
         "The upstream water level will rise excessively",
         "The floor will be lifted by uplift pressure",
-        "The seeping water emerging at the downstream end will DISLODGE the surface soil particles"
+        "The seeping water emerging at the downstream end will dislodge the surface soil particles"
       ],
       "answerIndex": 3,
       "solution": "**The seeping water emerging at the downstream end will DISLODGE the surface soil particles, and the resulting erosion works progressively BACKWARD beneath the floor** — the phenomenon of PIPING, which undermines and destroys the structure.\n\n**The mechanism of piping:**\n\n| Step | Note |\n|---|---|\n| **Water seeping beneath the floor emerges at the downstream end, flowing UPWARD** ← | ← |\n| **That upward flow exerts a SEEPAGE FORCE on the soil grains, opposing their weight** ← | ← |\n| **If the exit gradient is steep enough, the seepage force EXCEEDS the submerged weight and the grains are lifted** ← | **The QUICK condition** ← |\n| **Once grains are removed, the seepage concentrates through the resulting hollow** ← | **So the gradient there rises further** ← |\n| **The erosion works BACKWARD, forming a PIPE beneath the floor** ← | **Toward the upstream side** ← |\n| **When the pipe reaches the upstream water, the flow becomes unrestricted and the structure collapses** ← | ← |\n\n> **THE PROGRESSIVE, SELF-ACCELERATING CHARACTER IN THE FOURTH AND FIFTH ROWS IS WHAT MAKES PIPING SO DANGEROUS AND IT IS THE SAME PATTERN MET IN HYDRAULIC JACKING AND IN SEVERAL BIOLOGICAL UPSETS: the failure creates the condition that worsens it.**\n\n> **A small amount of erosion shortens the seepage path, which steepens the gradient, which erodes more.**\n\n> **So piping does not stabilise at a new equilibrium; once it begins it runs to completion, and it can do so in hours.**\n\n> **And it begins invisibly, beneath the structure, with the only outward sign being a small quantity of sand appearing in the water downstream — which is why sand boils downstream of a weir or an embankment are treated as an emergency rather than as an observation.**\n\n**THE CRITICAL GRADIENT AND THE FACTOR OF SAFETY:**\n\n| Point | Note |\n|---|---|\n| **The CRITICAL exit gradient, at which grains are just lifted, is i_c = (G − 1)/(1 + e)** ← | **G being the specific gravity of the grains and e the void ratio** ← |\n| **For typical values — G = 2.65, e = 0.6 — that gives i_c ≈ 1.0** ← | **A gradient of unity** ← |\n| **A FACTOR OF SAFETY of 4 to 6 is applied** ← | **A large factor, reflecting how sudden and complete the failure is** ← |\n| **So the permissible exit gradient is about 1/4 to 1/7, depending on the soil** ← | **1/4 to 1/5 for shingle, 1/5 to 1/6 for coarse sand, 1/6 to 1/7 for fine sand** ← |\n\n> **THE MAGNITUDE OF THE FACTOR IN THE THIRD ROW IS WORTH NOTING AND IT IS UNUSUALLY LARGE FOR A GEOTECHNICAL CHECK: four to six, against the two to three used for bearing capacity.**\n\n> **The reason is the character of the failure: a bearing capacity failure gives warning by settlement and is progressive over time, while piping is sudden, complete and unrecoverable.**\n\n> **Where a failure is brittle and catastrophic, the factor of safety is larger — the same reasoning that gives rupture a larger partial factor than yielding in steel design, and shear a larger margin than flexure in concrete.**\n\n> **Recognising that as a general principle is more useful than remembering the specific numbers.**\n\n**HOW THE EXIT GRADIENT IS CONTROLLED, WHICH IS THE DESIGN RESPONSE:**\n\n| Measure | Note |\n|---|---|\n| **A DOWNSTREAM CUT-OFF (sheet pile) at the floor's end** ← | **The most effective single measure — it forces the water to travel deeper and emerge further from the floor, flattening the gradient** ← |\n| **A LONGER impervious floor** ← | **Increasing the seepage path, though less effective than depth, as Khosla showed** ← |\n| **An INVERTED FILTER at the downstream end** ← | **Graded material that lets the water out and holds the soil in — the same filter criteria as everywhere else** ← |\n| **A LOADED APRON of concrete blocks over the filter** ← | **Adding weight to resist the uplift on the emerging grains** ← |\n| **Reducing the HEAD, where that is possible** ← | ← |\n\n> **THE FIRST ROW IS DECISIVE AND IT FOLLOWS FROM KHOSLA'S ANALYSIS: the exit gradient is governed almost entirely by the DEPTH of the downstream cut-off, and hardly at all by the floor's length.**\n\n> **Khosla's expression for the exit gradient contains the head, the floor length and the cut-off depth, and the cut-off depth dominates it — an exit gradient that cannot be brought within limits by any practicable floor length is brought within them by a modest increase in the cut-off's depth.**\n\n> **So the downstream cut-off is not an optional refinement but the principal defence against piping, and a headworks designed with a long floor and a shallow end cut-off has spent its money in the wrong place.**\n\n> **That conclusion is a direct product of Khosla's replacement of the uniform-creep assumption, and it is the clearest practical demonstration of why the theory mattered.**",
@@ -1274,7 +1274,7 @@
       "marks": 1,
       "stem": "KHOSLA'S theory differs fundamentally from Bligh's in that Khosla showed that:",
       "options": [
-        "The seepage beneath a floor is a two-dimensional POTENTIAL FLOW whose pressure distribution must be SOLVED, not assumed",
+        "The seepage beneath a floor is a two-dimensional potential flow whose pressure distribution must be solved, not assumed",
         "Seepage occurs only through the upstream half of the floor",
         "The creep length should be weighted, with vertical creep counted three times",
         "The exit gradient is independent of the cut-off depth"
@@ -1310,7 +1310,7 @@
         "Removes silt from the canal after it has entered, at a point some distance downstream",
         "Is a settling basin provided in the canal's first reach",
         "Chemically flocculates the silt so that it settles",
-        "Is placed in the RIVER, in the undersluice pocket UPSTREAM of the canal head regulator, and prevents the silt-laden BOTTOM water from entering the canal at all"
+        "Is placed in the river, in the undersluice pocket upstream of the canal head regulator, and prevents the silt-laden bottom water from entering the canal at all"
       ],
       "answerIndex": 3,
       "solution": "**It is placed in the RIVER, in the undersluice pocket UPSTREAM of the canal head regulator, and prevents the silt-laden BOTTOM water from entering the canal at all** — whereas an ejector is placed IN the canal, downstream of the regulator, and removes silt that has already entered.\n\n**The two devices compared:**\n\n| Aspect | SILT EXCLUDER | SILT EJECTOR (extractor) |\n|---|---|---|\n| **Location** | **In the RIVER, in the undersluice pocket, UPSTREAM of the regulator** ← | **In the CANAL, downstream of the regulator** ← |\n| **Principle** | **PREVENTS the silty bottom water from entering** ← | **REMOVES silt that has already entered** ← |\n| **Arrangement** | **A set of horizontal TUNNELS on the pocket floor, discharging through the undersluices** ← | **A tunnel or a diaphragm across the canal bed, with an escape channel to a drainage** ← |\n| **Water used** | **River water that would have gone downstream anyway** ← | **CANAL water, which is diverted supply and is therefore LOST** ← |\n| **Effectiveness** | **Good for the coarser fraction** | **Good, and it can be placed after the silt has had a reach to settle toward the bed** ← |\n\n> **THE FOURTH ROW IS THE DECISIVE PRACTICAL DIFFERENCE AND IT IS WORTH STATING PLAINLY: the excluder costs the river's water and the ejector costs the CANAL's water.**\n\n> **An excluder draws the silty bottom water off in the pocket and discharges it through the undersluices, back into the river — where it would have gone in any case.**\n\n> **An ejector takes water that has already been diverted into the canal, has been paid for in head and in entitlement, and throws it away with the silt — typically 10 to 20 per cent of the canal's discharge.**\n\n> **So the excluder is preferable wherever it can be made to work, and the ejector is the remedy where exclusion has proved insufficient.**\n\n> **Many headworks have both: the excluder removes what it can at the intake, and the ejector removes what got past it a few kilometres down the canal.**\n\n**HOW THE EXCLUDER WORKS, WHICH IS AN ELEGANT PIECE OF HYDRAULICS:**\n\n| Step | Note |\n|---|---|\n| **Sediment concentration is greatest near the BED and least at the surface** ← | **The whole basis of the device** ← |\n| **A set of horizontal tunnels is built on the pocket's floor, with their tops at about the regulator's sill level** ← | ← |\n| **The tunnels draw off the BOTTOM layer of water — the most silt-laden** ← | ← |\n| **And discharge it through the undersluices back to the river** ← | ← |\n| **The regulator, whose sill is above the tunnels' roof, draws the cleaner SURFACE water** ← | ← |\n| **The tunnels are made of DECREASING size away from the undersluices** ← | **So the velocity in each is maintained and none of them silts up** ← |\n\n> **THE SIXTH ROW IS THE DESIGN DETAIL THAT MAKES THE DEVICE WORK RATHER THAN MERELY EXIST AND IT IS WORTH NOTING: a set of tunnels of uniform size would carry unequal flows, and the furthest would run slowly and silt up.**\n\n> **Tapering them maintains the velocity in each, so each stays clear.**\n\n> **That is the same reasoning as the graded barrels of an inverted siphon and the tapered flocculator — matching the geometry to the varying duty rather than adopting a uniform section — and it is a recurring mark of competent hydraulic design.**\n\n**THE LIMITATION OF BOTH DEVICES SHOULD BE STATED AS A CLOSING POINT, SINCE IT IS OFTEN OVERLOOKED:**\n\n> **Both work on the COARSER sediment, which travels near the bed and can be separated by drawing off the bottom layer.**\n\n> **The FINE suspended fraction is distributed nearly uniformly through the depth, so drawing off the bottom water removes very little of it.**\n\n> **So an excluder and an ejector together may remove most of the sand and very little of the silt — and if the canal's problem is fine silt deposition in its lower reaches, neither device will solve it.**\n\n> **The remedy for the fine fraction is a SETTLING BASIN with a long detention, which is the hydropower solution, and it is far larger and more expensive than either device.**\n\n> **Knowing which fraction is causing the problem is therefore the first step, and it requires the canal's sediment to be sampled and graded rather than assumed — a modest investigation that determines whether the expensive remedy is necessary or whether the cheap one will serve.**",
@@ -1375,7 +1375,7 @@
       "stem": "The DIVIDE WALL at a diversion headworks is provided principally to:",
       "options": [
         "Divide the canal's discharge between two branches",
-        "SEPARATE the undersluice pocket from the weir proper",
+        "Separate the undersluice pocket from the weir proper",
         "Support the roadway carried over the barrage",
         "Divide the river's flood between two channels"
       ],
@@ -1408,7 +1408,7 @@
       "stem": "The CANAL HEAD REGULATOR at a diversion headworks is usually aligned at an angle of about 90 to 110 degrees to the axis of the weir, rather than in line with the river's flow, because this alignment:",
       "options": [
         "Reduces the length of the regulator",
-        "Helps to EXCLUDE SILT",
+        "Helps to exclude silt",
         "Makes the gates easier to operate",
         "Allows a longer bridge to be built over it"
       ],
@@ -1440,7 +1440,7 @@
       "marks": 1,
       "stem": "A BARRAGE is preferred to a WEIR at a diversion headworks principally because a barrage:",
       "options": [
-        "Controls the upstream water level by GATES on a LOW crest",
+        "Controls the upstream water level by gates on a low crest",
         "Costs less to build",
         "Requires no impervious floor",
         "Needs no operating staff"
@@ -1473,7 +1473,7 @@
       "marks": 1,
       "stem": "A FISH LADDER at a diversion headworks must be designed so that:",
       "options": [
-        "The head is dissipated in a SERIES OF SMALL STEPS or baffles",
+        "The head is dissipated in a series of small steps or baffles",
         "The water drops through it in a single fall",
         "The velocity through it is as high as possible, to attract the fish",
         "It operates only during the flood season"
@@ -1508,7 +1508,7 @@
       "options": [
         "Friction along the downstream apron",
         "Gradual widening of the channel",
-        "Forming a HYDRAULIC JUMP on the downstream glacis or in a stilling basin",
+        "Forming a hydraulic jump on the downstream glacis or in a stilling basin",
         "Allowing the water to fall freely into a plunge pool in every case"
       ],
       "answerIndex": 2,
@@ -1539,10 +1539,10 @@
       "marks": 1,
       "stem": "The UPSTREAM sheet pile (cut-off) at a weir serves a different primary purpose from the DOWNSTREAM one, in that the upstream pile chiefly:",
       "options": [
-        "Controls the EXIT GRADIENT and prevents piping",
+        "Controls the exit gradient and prevents piping",
         "Provides the working platform for construction",
         "Supports the weir's crest structure",
-        "Reduces the UPLIFT pressure beneath the floor by lengthening the seepage path at its start"
+        "Reduces the uplift pressure beneath the floor by lengthening the seepage path at its start"
       ],
       "answerIndex": 3,
       "solution": "**It reduces the UPLIFT pressure beneath the floor by lengthening the seepage path at its start** — whereas the downstream pile's chief function is to control the EXIT GRADIENT and to protect against undermining by scour.\n\n**The division of duties:**\n\n| Pile | Primary function | Secondary functions |\n|---|---|---|\n| **UPSTREAM cut-off** ← | **Reduces the UPLIFT pressure under the floor** ← | **Protects against upstream scour; reduces the total seepage; provides a construction cut-off** ← |\n| **DOWNSTREAM cut-off** ← | **Controls the EXIT GRADIENT — the piping check** ← (which is option a) | **Prevents undermining by the downstream scour hole; anchors the floor's end** ← |\n| **INTERMEDIATE piles** ← | **Little hydraulically, as Khosla showed** ← | **Break the floor into panels; provide a barrier if one panel fails; assist during construction** ← |\n\n> **THE REASON THE TWO ENDS DO DIFFERENT JOBS FOLLOWS FROM WHERE THE SEEPAGE IS IN ITS JOURNEY AND IT IS WORTH REASONING THROUGH:**\n\n> **At the UPSTREAM end the water is entering, and it still carries almost its full head — so anything that dissipates head there reduces the pressure under everything downstream of it.**\n\n> **A deep upstream cut-off therefore lowers the whole uplift diagram, and the floor can be thinner throughout.**\n\n> **At the DOWNSTREAM end the water is leaving, and the concern is no longer pressure but the VELOCITY with which it emerges and whether it will carry grains with it.**\n\n> **A deep downstream cut-off forces the water to travel further down and emerge further out, flattening the gradient at the exit.**\n\n> **So the same device serves two quite different purposes according to where it is placed, and the depths required for the two purposes are computed differently.**\n\n**WHICH GOVERNS IN PRACTICE, WHICH IS THE PRACTICAL CONCLUSION:**\n\n| Point | Note |\n|---|---|\n| **The DOWNSTREAM cut-off's depth is usually the governing one** ← | **Because the exit gradient requirement is demanding and the factor of safety is large** ← |\n| **It is also constrained by SCOUR — it must go below the anticipated scour level** ← | **Which is often deeper than the seepage requirement** ← |\n| **The upstream cut-off is generally shallower** ← | **Its uplift benefit being useful but less critical** ← |\n| **Both must go below the scour level appropriate to their position** ← | **Upstream scour is less severe than downstream scour** ← |\n| **So the sequence is: compute both scour depths, set the piles below them, then check the exit gradient and the uplift, and deepen the downstream pile if the gradient requires** ← | ← |\n\n> **THE FIFTH ROW IS THE DESIGN SEQUENCE AND IT IS WORTH FOLLOWING IN THAT ORDER, because the scour requirement is absolute — a pile above the scour level will be exposed and undermined whatever its hydraulic merit.**\n\n> **The seepage requirements are then checked against a geometry already fixed by scour, and only the downstream pile is likely to need deepening beyond it.**\n\n> **Reversing the order — designing for seepage and then discovering the scour requires more — wastes the calculation.**\n\n**AND THE INTERMEDIATE PILE'S CONTINUING USEFULNESS DESERVES A NOTE, SINCE KHOSLA SHOWED IT TO BE HYDRAULICALLY WEAK:**\n\n| Point | Note |\n|---|---|\n| **Hydraulically it contributes little, which is Khosla's finding** ← | ← |\n| **But it acts as a BARRIER if a panel of the floor is damaged or lifted** ← | **Confining the failure rather than letting the whole floor be undermined** ← |\n| **And it stiffens the floor and provides a construction joint** ← | ← |\n| **So it is retained for structural and robustness reasons rather than for seepage** ← | ← |\n\n> **The second row is a good example of a provision whose justification changed while the provision remained: intermediate piles were originally driven for their creep length under Bligh's theory, and Khosla showed that reason to be largely mistaken.**\n\n> **They continued to be provided because a different and better reason existed — the containment of a local failure — which is a case of a practice being right for a reason other than the one that established it.**\n\n> **That is worth recognising because the opposite also occurs: a practice may survive after its original justification has been disproved and no better one exists, and distinguishing the two requires asking what the provision actually does rather than why it was first adopted.**",
@@ -1572,7 +1572,7 @@
       "marks": 1,
       "stem": "The INVERTED FILTER provided at the downstream end of a weir's impervious floor consists of graded material laid so that:",
       "options": [
-        "The COARSEST material is at the BOTTOM, against the foundation soil, and the finest at the top",
+        "The coarsest material is at the bottom, against the foundation soil, and the finest at the top",
         "The finest material is at the bottom and the coarsest at the top",
         "All the layers are of uniform grading",
         "It is impermeable, to prevent any seepage emerging"
@@ -1608,7 +1608,7 @@
         "The maximum flood level of the river",
         "The natural bed level of the river at the site",
         "The height of the guide banks",
-        "The LEVEL required at the canal's head to command its designed area"
+        "The level required at the canal's head to command its designed area"
       ],
       "answerIndex": 3,
       "solution": "**The LEVEL required at the canal's head to command its designed area** — that is, the canal's full supply level at its head plus the head loss through the regulator, with a small margin.\n\n**How the pond level is arrived at, working backwards from the command:**\n\n| Step | Note |\n|---|---|\n| **Start at the FURTHEST and HIGHEST field the canal must command** ← | **The critical point of the command** ← |\n| **Add the depth of water needed on that field, and the head loss in the field channel and the outlet** ← | ← |\n| **Work back UP the canal, adding the head loss along every reach** ← | **The canal's own slope, plus the losses at every structure — falls, regulators, crossings** ← |\n| **This gives the FULL SUPPLY LEVEL required at the canal's head** ← | ← |\n| **Add the head loss through the HEAD REGULATOR itself** ← | **The working head across it** ← |\n| **Add a small MARGIN** ← | ← |\n| **The result is the POND LEVEL the weir or barrage must maintain** ← | ← |\n\n> **THE DIRECTION OF THAT CALCULATION IS THE POINT OF THE QUESTION AND IT IS WORTH STATING EXPLICITLY: the pond level is determined by the COMMAND, working backwards, and not by the river.**\n\n> **The river's bed level, its flood level and its natural water level are all facts about the site; they do not determine what the headworks must achieve.**\n\n> **What the headworks must achieve is to deliver water at a level from which it can reach the highest field at the far end of the command, and everything else follows from that.**\n\n> **So the design begins at the tail of the command and works upstream to the headworks — the reverse of the direction in which the water flows, and the reverse of the order in which the works are built.**\n\n**WHY THIS MATTERS, WHICH IS THE PRACTICAL CONSEQUENCE:**\n\n| Consequence | Note |\n|---|---|\n| **A HIGHER pond level commands MORE land** ← | **So there is a temptation to raise it** ← |\n| **But a higher pond level means a higher weir crest or higher gates** ← | **A larger structure** ← |\n| **And a greater AFFLUX, hence longer marginal bunds and more submergence** ← | ← |\n| **And a greater head across the structure, hence more seepage, more uplift and a longer floor** ← | ← |\n| **So every metre of pond level is expensive, and it must be JUSTIFIED by the command it adds** ← | ← |\n\n> **THE FIFTH ROW IS THE ECONOMIC DISCIPLINE THAT SHOULD GOVERN THE DECISION AND IT IS FREQUENTLY ABSENT: the pond level is often set by taking the command as given and computing what level it needs, without asking whether the last few hundred hectares are worth what they cost.**\n\n> **The marginal land — the highest and furthest — is the most expensive to command, because it sets the pond level for the whole scheme and every consequence of that level follows from it.**\n\n> **Excluding a small area of high land at the tail can sometimes lower the pond level by half a metre, which shortens the marginal bunds by kilometres, reduces the submergence, and shortens the impervious floor.**\n\n> **So the boundary of the command is a design variable and not a datum, and it should be examined rather than accepted — which requires the engineer to question the command's extent, a question that is often treated as belonging to somebody else.**\n\n> **THE OTHER LEVELS AT A HEADWORKS ARE WORTH LISTING ALONGSIDE, SINCE THEY ARE EASILY CONFUSED:**\n\n| Level | Determined by |\n|---|---|\n| **POND level** ← | **The command, as above** ← |\n| **CREST level of a weir** ← | **The pond level (the crest IS at pond level for a weir without shutters)** ← |\n| **Crest level of a BARRAGE** ← | **Set LOW, near the bed — the pond level being obtained by the gates** ← |\n| **HIGH FLOOD level** ← | **The design flood, passed over the structure** ← |\n| **AFFLUXED high flood level** ← | **The high flood level plus the afflux, which sets the marginal bunds and the guide banks' top** ← |\n| **Downstream floor and cistern level** ← | **The hydraulic jump requirement and the scour depth** ← |",
@@ -1640,7 +1640,7 @@
       "options": [
         "It covers the riverbed to a uniform thickness over the whole downstream reach",
         "It weighs enough to resist the uplift beneath the floor",
-        "There is sufficient material to PAVE the whole face of the SCOUR HOLE",
+        "There is sufficient material to pave the whole face of the scour hole",
         "It fills the anticipated scour hole completely"
       ],
       "answerIndex": 2,
@@ -1673,7 +1673,7 @@
       "stem": "Khosla's method requires three CORRECTIONS to the key point pressures read from his curves. These corrections are for:",
       "options": [
         "Temperature, humidity and wind",
-        "The floor's THICKNESS, the MUTUAL INTERFERENCE of the sheet piles, and the SLOPE of the floor",
+        "The floor's thickness, the mutual interference of the sheet piles, and the slope of the floor",
         "Discharge, velocity and depth",
         "Uplift, scour and seepage"
       ],
@@ -1707,7 +1707,7 @@
       "options": [
         "Improve the river for navigation at low flows",
         "Concentrate the low-flow channel for an intake",
-        "Provide safe passage of the FLOOD discharge and to protect the adjoining land from inundation",
+        "Provide safe passage of the flood discharge and to protect the adjoining land from inundation",
         "Reduce the river's sediment load"
       ],
       "answerIndex": 2,
@@ -1738,7 +1738,7 @@
       "marks": 1,
       "stem": "A SPUR (groyne) projecting into a river from its bank is classified as REPELLING, ATTRACTING or DEFLECTING according to:",
       "options": [
-        "The ANGLE at which it is set to the bank",
+        "The angle at which it is set to the bank",
         "The material of which it is built",
         "Its length relative to the river's width",
         "Whether it is submerged or not"
@@ -1807,7 +1807,7 @@
         "Constructing a series of low masonry weirs across the channel",
         "Dredging a navigation channel and maintaining it",
         "Planting vegetation along the bank to resist erosion",
-        "Placing a series of BAMBOO SCREENS"
+        "Placing a series of bamboo screens"
       ],
       "answerIndex": 3,
       "solution": "**Placing a series of BAMBOO SCREENS, inclined to the flow and supported on poles, which obstruct the SURFACE flow while allowing the BOTTOM flow through** — so that sediment is deposited behind them and the main channel is scoured deeper.\n\n**How bandalling works, which is a genuinely clever piece of traditional engineering:**\n\n| Step | Note |\n|---|---|\n| **A screen of bamboo matting is hung from poles, extending from the water surface DOWNWARD, but not to the bed** ← | **So it blocks the upper part of the flow and leaves the lower part open** ← |\n| **The screens are set at an angle to the flow, in a line along the channel** ← | ← |\n| **The obstructed SURFACE flow is deflected toward the main channel** ← | ← |\n| **The BOTTOM flow passes beneath the screens into the sheltered area behind them** ← | ← |\n| **That bottom flow is the most SEDIMENT-LADEN, and behind the screen it is slow** ← | **So it DEPOSITS its sediment there** ← |\n| **Meanwhile the main channel, now carrying a greater share of the flow, SCOURS deeper** ← | ← |\n| **So the subsidiary channel silts up and the main channel deepens — which is exactly what low water training seeks** ← | ← |\n\n> **THE ARRANGEMENT IN THE FIRST AND FIFTH ROWS IS THE INGENIOUS PART AND IT IS WORTH APPRECIATING: the screen is deliberately made to block the CLEAN water and pass the DIRTY water.**\n\n> **That is the reverse of what an intake tries to do, and it is the right way round for this purpose.**\n\n> **An intake wants clean water, so it draws from the surface and lets the bottom water pass.**\n\n> **A bandal wants to DEPOSIT sediment behind it, so it admits the bottom water and blocks the surface water.**\n\n> **Both exploit the same fact — that sediment concentration is greatest near the bed — and they use it in opposite directions for opposite purposes, which is a nice illustration of a principle being a tool rather than a rule.**\n\n**ITS PRACTICAL MERITS, WHICH EXPLAIN ITS LONG USE:**\n\n| Merit | Note |\n|---|---|\n| **Built entirely of LOCAL material — bamboo, matting and poles** ← | **No cement, no steel, no machinery** ← |\n| **Erected by local labour, quickly** ← | ← |\n| **Cheap enough to be rebuilt each season** ← | **Which is necessary, as the floods remove them** ← |\n| **It works WITH the river's sediment rather than against its force** ← | **Inducing deposition rather than resisting flow** ← |\n| **And it can be adjusted or moved as the channel responds** ← | **An adaptive rather than a fixed intervention** ← |\n\n> **THE FOURTH ROW IS THE CHARACTERISTIC THAT DISTINGUISHES THIS WHOLE FAMILY OF TRADITIONAL WORKS FROM ENGINEERED ONES AND IT IS WORTH DRAWING OUT: bandalling, permeable spurs, porcupines and brushwood fences all work by SLOWING water and letting it deposit, rather than by resisting its force.**\n\n> **A solid structure opposes the river and must be strong enough to survive the opposition; a permeable one lets the river through and uses the river's own sediment to build the protection.**\n\n> **The second requires far less material and far less strength, and it fails gracefully — a damaged bamboo screen is replaced, whereas a breached concrete spur is a construction project.**\n\n> **Its limitations are equally clear: it works only where there is sediment, it acts slowly, it cannot resist a severe attack, and it requires annual attention.**\n\n> **So it suits a sediment-laden river, a community that can maintain it, and a problem that can be addressed gradually — which describes a great deal of the Terai and very little of a major structure's protection.**\n\n> **THE HONEST CONCLUSION IS THAT THE TWO APPROACHES ARE COMPLEMENTARY RATHER THAN COMPETING: the engineered work protects the structure that must not fail, and the traditional work protects the agricultural land where a gradual and renewable intervention is adequate and affordable.**\n\n> **Dismissing the traditional technique as primitive, or proposing it where a structure's safety depends on the protection, are opposite errors and both are made.**",
@@ -1837,7 +1837,7 @@
       "marks": 1,
       "stem": "A CUT-OFF, either natural or artificially made across the neck of a meander loop:",
       "options": [
-        "SHORTENS the river's course between two points, thereby STEEPENING its slope over that reach",
+        "Shortens the river's course between two points, thereby steepening its slope over that reach",
         "Lengthens the river's course and reduces its slope",
         "Has no effect on the river's gradient",
         "Reduces the river's discharge"
@@ -1905,7 +1905,7 @@
       "options": [
         "Store water for irrigation",
         "Generate small quantities of hydropower",
-        "REDUCE the gully's gradient by trapping sediment behind each dam",
+        "Reduce the gully's gradient by trapping sediment behind each dam",
         "Provide crossings for livestock and people"
       ],
       "answerIndex": 2,
@@ -1937,9 +1937,9 @@
       "stem": "The CHURE (Siwalik) range is of particular concern in Nepal's watershed management because it:",
       "options": [
         "Is the highest and most glaciated range in the country",
-        "Is composed of ANCIENT, HARD crystalline rock that resists erosion",
+        "Is composed of ancient, hard crystalline rock that resists erosion",
         "Contains the country's principal hydropower reservoirs",
-        "Consists of YOUNG, WEAKLY CONSOLIDATED sandstone, mudstone and conglomerate, is steep and tectonically active"
+        "Consists of young, weakly consolidated sandstone, mudstone and conglomerate, is steep and tectonically active"
       ],
       "answerIndex": 3,
       "solution": "**It consists of YOUNG, WEAKLY CONSOLIDATED sandstone, mudstone and conglomerate, is steep and tectonically active, and therefore erodes rapidly** — supplying enormous quantities of sediment to the Terai rivers and to the aquifer recharge zone below it.\n\n**Why the Chure is so erodible:**\n\n| Factor | Note |\n|---|---|\n| **The rocks are GEOLOGICALLY YOUNG — the youngest in the Himalayan sequence** ← | **Deposited as the range's own erosion products, and only weakly cemented** ← |\n| **They are WEAK — friable sandstone, soft mudstone, and conglomerate that disaggregates readily** ← | ← |\n| **The range is being actively UPLIFTED** ← | **So it is steep, and streams cutting into it are steep and energetic** ← |\n| **It receives INTENSE monsoon rainfall** ← | **Often the highest in the country, since it is the first barrier the monsoon meets** ← |\n| **And it has been extensively DEFORESTED, quarried and cultivated** ← | **Removing the vegetation that held what cohesion the material had** ← |\n\n> **THE FIRST TWO ROWS ARE THE ESSENTIAL GEOLOGY AND THE POINT IS WORTH GRASPING RATHER THAN MEMORISING: the Chure is made of the eroded debris of the higher Himalaya, deposited, buried, weakly cemented, and then uplifted again.**\n\n> **So it is, in effect, a range made of sediment that has been through the erosion process once already and is now going through it again.**\n\n> **That material was never strong, and it has had no time to become so.**\n\n> **Which is why the Chure supplies sediment out of all proportion to its area — it is not merely eroding, it is disintegrating.**\n\n**WHY IT MATTERS DOWNSTREAM, WHICH IS THE PRACTICAL SIGNIFICANCE:**\n\n| Consequence | Note |\n|---|---|\n| **The Terai rivers carry enormous BED LOADS of Chure-derived gravel and sand** ← | **Which is why they are braided, aggrading and unstable** ← |\n| **That sediment AGGRADES the riverbeds in the Terai** ← | **Raising flood levels and causing the channels to shift** ← |\n| **It fills reservoirs, blocks intakes, buries irrigated land and destroys structures** ← | ← |\n| **The BHABAR zone at the Chure's foot is the principal RECHARGE area for the Terai's aquifers** ← | **The coarse debris being highly permeable** ← |\n| **So the Chure's condition affects both the SEDIMENT and the GROUNDWATER of the whole Terai** ← | ← |\n| **And it is where much of the country's population and agriculture is** ← | ← |\n\n> **THE FOURTH AND FIFTH ROWS TOGETHER MAKE THE CONSERVATION CASE AND IT IS A DUAL ONE THAT IS SOMETIMES ARGUED ONLY ON THE SEDIMENT SIDE: the Chure and its Bhabar apron are the recharge zone for the aquifers that supply the Terai's drinking water and its tube well irrigation.**\n\n> **Quarrying the riverbeds for construction aggregate, clearing the forest and converting the Bhabar to other uses affect the recharge as well as the erosion.**\n\n> **So a measure that reduces the sediment yield may also be a measure that protects the groundwater, and the two benefits should be counted together — which strengthens a case that on sediment alone competes against the immediate value of the aggregate and the land.**\n\n> **THE RIVERBED EXTRACTION POINT DESERVES ITS OWN NOTE BECAUSE IT IS AN ACUTE CURRENT ISSUE: the Chure rivers' gravel and sand are the country's principal source of construction aggregate, and demand has grown with construction.**\n\n> **Extraction from the beds lowers them, which — by the headward erosion mechanism discussed for cut-offs — propagates upstream, undermining bridges, intakes and bank protection.**\n\n> **It also lowers the water table in the adjoining land, since the river's bed is the local base level for the groundwater.**\n\n> **So unregulated extraction damages infrastructure and water supply simultaneously, and the damage appears at some distance from the extraction and some years later — which makes it difficult to attribute and easy to permit.**\n\n> **Regulating it requires knowing the river's sediment REPLENISHMENT rate and extracting no more than that, which is a measurable quantity and is very rarely measured.**",
@@ -1971,7 +1971,7 @@
       "options": [
         "Follows a single sinuous channel with a well-defined deep pool at each bend",
         "Flows in a straight, stable channel",
-        "Divides into MULTIPLE interlacing channels separated by bars and islands",
+        "Divides into multiple interlacing channels separated by bars and islands",
         "Has a bed of fine silt and cohesive banks"
       ],
       "answerIndex": 2,
@@ -2002,7 +2002,7 @@
       "marks": 1,
       "stem": "In a river's sediment transport, BED LOAD is distinguished from SUSPENDED LOAD in that bed load:",
       "options": [
-        "Moves along the bed by ROLLING",
+        "Moves along the bed by rolling",
         "Consists of the finest particles in the flow",
         "Is measured routinely at most gauging stations",
         "Travels faster than the water carrying it"
@@ -2037,7 +2037,7 @@
       "options": [
         "The gauge is read more accurately on the rising limb",
         "The river's cross-section changes during the flood",
-        "On the RISING limb the water surface slope is STEEPER than the bed slope (and flatter on the falling limb)",
+        "On the rising limb the water surface slope is steeper than the bed slope (and flatter on the falling limb)",
         "The sediment concentration is higher during the rise"
       ],
       "answerIndex": 2,
@@ -2105,7 +2105,7 @@
         "Has a higher peak and arrives earlier",
         "Is identical in shape and timing",
         "Has a higher peak arriving later",
-        "Has a LOWER peak, arriving LATER and spread over a LONGER time"
+        "Has a lower peak, arriving later and spread over a longer time"
       ],
       "answerIndex": 3,
       "solution": "**It has a LOWER peak, arriving LATER and spread over a LONGER time** — the reach's STORAGE absorbing part of the flood and releasing it gradually, which is ATTENUATION.\n\n**What routing accounts for:**\n\n| Effect | Cause |\n|---|---|\n| **ATTENUATION — the peak is reduced** ← | **Part of the inflow is stored in the reach as the flood rises, and released as it falls** ← |\n| **TRANSLATION — the peak arrives later** ← | **The wave takes time to travel the reach** ← |\n| **The hydrograph is BROADENED** ← | **Since the volume is conserved and the peak is lower, the base must be longer** ← |\n| **The VOLUME under both hydrographs is the SAME** ← | **Nothing is lost, only redistributed in time — which is a useful check on any routing computation** ← |\n\n> **THE FOURTH ROW IS THE CHECK WORTH APPLYING TO ANY ROUTING RESULT AND IT CATCHES MOST ERRORS: the areas under the inflow and outflow hydrographs must be equal.**\n\n> **Routing redistributes water in time; it does not create or destroy it.**\n\n> **So if a computed outflow hydrograph encloses a different volume from the inflow, the computation is wrong — and the discrepancy usually indicates an error in the storage relation or in the time step.**\n\n> **That check takes a minute with a planimeter or a simple summation and it should be made routinely.**\n\n**THE STORAGE THAT PRODUCES THE ATTENUATION:**\n\n| Type | Note |\n|---|---|\n| **PRISM storage** ← | **The volume in the reach corresponding to a uniform depth — a function of the outflow** ← |\n| **WEDGE storage** ← | **The additional wedge-shaped volume when the surface is not parallel to the bed — POSITIVE on the rising limb and NEGATIVE on the falling** ← |\n| **The MUSKINGUM method expresses the total as S = K[xI + (1 − x)O]** ← | **K being a travel time and x a weighting between inflow and outflow** ← |\n| **x = 0 gives pure reservoir (level pool) storage — maximum attenuation** ← | ← |\n| **x = 0.5 gives pure translation with NO attenuation** ← | ← |\n| **Natural river reaches typically have x between 0.2 and 0.3** ← | ← |\n\n> **THE FOURTH AND FIFTH ROWS BRACKET THE BEHAVIOUR AND THEY ARE WORTH UNDERSTANDING PHYSICALLY: a RESERVOIR attenuates strongly and a CHANNEL translates with little attenuation.**\n\n> **In a reservoir, the outflow depends only on the level, so a rising inflow raises the level slowly and the outflow lags and is much reduced.**\n\n> **In a steep channel, the wave passes through with its shape nearly intact, delayed but not much flattened.**\n\n> **A natural river reach lies between, and x measures where — a flat reach with a wide floodplain behaves more like a reservoir, and a confined steep reach more like a channel.**\n\n> **So a river that has been EMBANKED, losing access to its floodplain, moves toward the channel end of that range — its x rises, its attenuation falls, and the flood is passed downstream more nearly intact.**\n\n> **That is the quantitative expression of the point made earlier about levees increasing downstream peaks, and it is a satisfying convergence of two lines of reasoning on the same conclusion.**\n\n**THE PRACTICAL USES OF ROUTING, WHICH ARE WORTH LISTING:**\n\n| Use | Note |\n|---|---|\n| **FLOOD FORECASTING** ← | **A flood measured at an upstream gauge is routed down to predict the level and the timing at a town — which is the basis of a warning system** ← |\n| **Designing a SPILLWAY** ← | **Routing the design flood through the reservoir gives the outflow the spillway must pass, which is less than the inflow because the reservoir attenuates** ← |\n| **Assessing the effect of an EMBANKMENT or a channel change** ← | ← |\n| **Sizing flood STORAGE or detention basins** ← | ← |\n| **Estimating the flood at an ungauged point from a gauged one upstream** ← | ← |\n\n> **THE SECOND ROW IS A LARGE ECONOMY AND IT IS WORTH KNOWING: a spillway need not pass the full inflow peak, because the reservoir's storage attenuates it.**\n\n> **The attenuation depends on how much surcharge storage is available above the normal level and on the spillway's own characteristics, so the routing and the spillway design are interdependent and must be solved together.**\n\n> **A larger spillway passes the flood at a lower surcharge and attenuates less; a smaller one surcharges more and attenuates more.**\n\n> **So there is an economic optimum between spillway capacity and dam freeboard, and finding it requires the flood to be routed for each trial — which is why spillway design is an iterative computation rather than a direct one.**",
@@ -2135,7 +2135,7 @@
       "marks": 1,
       "stem": "The SEDIMENT DELIVERY RATIO of a catchment is:",
       "options": [
-        "The proportion of the GROSS EROSION occurring within the catchment that actually reaches its outlet",
+        "The proportion of the gross erosion occurring within the catchment that actually reaches its outlet",
         "The ratio of bed load to suspended load at the outlet",
         "The proportion of the sediment that a reservoir traps",
         "The ratio of the sediment concentration to the discharge"
@@ -2170,7 +2170,7 @@
       "options": [
         "The filter improves the pitching's appearance and the apron provides access",
         "The filter increases the pitching's weight and the apron reduces the wave height",
-        "Without a FILTER the bank material is washed out THROUGH the pitching, which then settles and fails",
+        "Without a filter the bank material is washed out through the pitching, which then settles and fails",
         "Both are required only in tidal rivers"
       ],
       "answerIndex": 2,
@@ -2202,7 +2202,7 @@
       "stem": "A community-based FLOOD EARLY WARNING SYSTEM on a Himalayan river faces a fundamental constraint, namely that:",
       "options": [
         "The rivers do not flood predictably enough for any warning to be given",
-        "The LEAD TIME is very SHORT",
+        "The lead time is very short",
         "Satellite communication is unavailable in the mountains",
         "Warnings cannot be issued at night"
       ],
@@ -2237,7 +2237,7 @@
         "Only the forested portions of the catchment",
         "The river channel alone, from source to outlet",
         "Engineering structures as the sole means of intervention",
-        "The WATERSHED as the planning UNIT, and its land, water, vegetation and people as one interacting system"
+        "The watershed as the planning unit, and its land, water, vegetation and people as one interacting system"
       ],
       "answerIndex": 3,
       "solution": "**The WATERSHED as the planning UNIT, and its land, water, vegetation and people as one interacting system** — so that upstream and downstream interests, and biophysical and social measures, are planned together rather than by separate agencies.\n\n**Why the watershed is the right unit:**\n\n| Point | Note |\n|---|---|\n| **A watershed is defined by the WATER's own boundaries** ← | **Everything within it drains to one outlet, and nothing outside it does** ← |\n| **So the effects of an action anywhere in it appear at the outlet** ← | **Which makes it the natural unit for accounting** ← |\n| **Administrative boundaries — districts, municipalities, provinces — cut ACROSS watersheds** ← | **So a management unit defined administratively splits the system that is being managed** ← |\n| **And sectoral agencies — forest, agriculture, irrigation, roads, water supply — each act on a part** ← | **Without seeing the whole** ← |\n\n> **THE THIRD AND FOURTH ROWS TOGETHER DESCRIBE THE PROBLEM THE APPROACH EXISTS TO SOLVE AND IT IS AN INSTITUTIONAL ONE RATHER THAN A TECHNICAL ONE: the system is one and the management is many.**\n\n> **The forest department manages the forest, the agriculture department the farming, the roads department the road that is destabilising the slope, and the irrigation department the intake that is silting up because of all three.**\n\n> **Each acts competently within its remit and the aggregate outcome is poor, because the interactions between them are nobody's responsibility.**\n\n> **So integrated watershed management is chiefly a proposal about how to ORGANISE, and its technical content — terracing, check dams, plantation, waterways, improved cultivation — is largely the conventional content of each sector.**\n\n> **That is worth being clear about, because it is often presented as a new set of techniques when it is a new arrangement of familiar ones.**\n\n**THE UPSTREAM-DOWNSTREAM RELATIONSHIP, WHICH IS THE SUBSTANTIVE ISSUE:**\n\n| Point | Note |\n|---|---|\n| **Actions UPSTREAM affect people DOWNSTREAM** ← | **Erosion, sediment, flood peaks, low flows and water quality all travel down** ← |\n| **But the upstream community bears the COST of conservation and the downstream community receives the BENEFIT** ← | ← |\n| **So there is no incentive for the upstream community to act** ← | **They are asked to farm less intensively, graze less and plant trees, for someone else's benefit** ← |\n| **And they are usually the POORER of the two** ← | **Hill farmers upstream, irrigated plains or a city downstream** ← |\n| **So a conservation programme that simply asks them to bear the cost will not be sustained** ← | ← |\n| **Which is the argument for PAYMENT FOR ENVIRONMENTAL SERVICES — the downstream beneficiary compensating the upstream provider** ← | ← |\n\n> **THE THIRD AND FOURTH ROWS TOGETHER ARE THE EQUITY PROBLEM AT THE HEART OF WATERSHED MANAGEMENT AND IT SHOULD BE STATED PLAINLY: the people asked to change their behaviour are the poorest and gain the least from doing so.**\n\n> **A programme that treats their land use as the problem, and their compliance as the solution, is asking a subsistence farmer to reduce his production to protect a downstream reservoir he will never benefit from.**\n\n> **Unsurprisingly, such programmes work while the project's payments continue and stop when they end.**\n\n> **A programme that instead identifies measures which improve the upstream farmer's OWN productivity — terracing that raises his yield, water harvesting that lets him grow a second crop, fodder that feeds his livestock — obtains the same conservation as a by-product of something he wants anyway, and it continues after the project ends.**\n\n> **That is the practical test of a watershed programme's design: does the upstream household benefit directly, or is it being asked to sacrifice?**\n\n> **The first is sustainable and the second is not, and the difference is visible in the choice of measures rather than in the programme's stated objectives.**\n\n> **NEPAL'S DEPARTMENT OF SOIL CONSERVATION AND WATERSHED MANAGEMENT HAS OPERATED ON THIS BASIS FOR DECADES, and the community forestry programme is the country's most successful instance of it — conservation achieved by giving the local users the ownership and the benefit, rather than by protecting the forest from them.**",
@@ -2270,7 +2270,7 @@
         "Two structures share the cost of a single foundation",
         "It allows the canal to be closed from either side",
         "One structure would be too large to build",
-        "The head regulator ADMITS the distributary's designed share"
+        "The head regulator admits the distributary's designed share"
       ],
       "answerIndex": 3,
       "solution": "**The head regulator ADMITS the distributary's designed share, while the cross regulator across the main canal just below it RAISES the upstream level** so that the head regulator can command that share even when the main canal runs at part supply.\n\n**The two working together:**\n\n| Structure | What it controls |\n|---|---|\n| **DISTRIBUTARY HEAD REGULATOR** ← | **The DISCHARGE entering the distributary** ← |\n| **CROSS REGULATOR (across the main canal, just downstream of the offtake)** ← | **The LEVEL in the main canal upstream of itself** ← |\n| **Together** ← | **The operator can set the distributary's discharge and the main canal's level INDEPENDENTLY** ← |\n\n> **THE INDEPENDENCE IN THE THIRD ROW IS THE WHOLE PURPOSE OF THE PAIRING AND IT IS WORTH SEEING WHY IT IS NEEDED: a head regulator's discharge depends on the HEAD across it, and that head depends on the main canal's level.**\n\n> **When the main canal runs at full supply the level is high and the distributary gets its share.**\n\n> **When the main canal runs at part supply — which it must whenever the river is low or the total demand is less than the design — the level falls and the distributary can no longer draw its share, however wide its gate is opened.**\n\n> **A cross regulator, partly closed, backs the water up and restores the level, so the distributary is served regardless of what is passing down the main canal.**\n\n> **Without it, the head-end distributaries would take what they could and the tail of the main canal would receive whatever was left — which is the outcome the pairing exists to prevent.**\n\n**WHAT THE PAIR MAKES POSSIBLE OPERATIONALLY, WHICH IS THE LARGER BENEFIT:**\n\n| Capability | Note |\n|---|---|\n| **ROTATIONAL operation of the distributaries** ← | **A group is run at FULL supply while others are closed, then the turn passes** ← |\n| **Which keeps every running channel at its SELF-CLEANSING velocity** ← | **Rather than all of them running slowly and silting** ← |\n| **And delivers a usable supply to the TAIL of each distributary during its turn** ← | **Rather than an inadequate supply to every tail all the time** ← |\n| **Isolation of a reach for MAINTENANCE while the upstream offtakes continue** ← | ← |\n| **And control of the SILT drawn into each offtake, by managing the level and the velocity in the reach** ← | ← |\n\n> **THE SECOND AND THIRD ROWS TOGETHER ARE THE ARGUMENT FOR ROTATION AND IT IS WORTH RESTATING BECAUSE IT IS COUNTER-INTUITIVE: when there is not enough water, giving everyone a little is worse than giving some people enough in turn.**\n\n> **A channel running at a quarter of its design discharge runs at perhaps half its design velocity, which is below self-cleansing, so it silts — and its capacity falls further.**\n\n> **Its water spreads thinly and never reaches the tail of the command, so the head-enders take it all and the tail-enders get nothing anyway.**\n\n> **Rotation instead runs each channel properly for a shorter time: it stays clean, its water reaches the tail, and every cultivator gets a proper turn.**\n\n> **The total water delivered is the same and the useful water delivered is far greater, and the difference is entirely in the arrangement.**\n\n**THE PRACTICAL REQUIREMENT THIS IMPOSES SHOULD BE NOTED AS A CLOSING POINT: rotation requires the cross regulators to be OPERATED, on a schedule, by someone who knows the roster.**\n\n> **A system with cross regulators that are never adjusted has the structures and not the benefit — the gates sit wherever they were last left, the levels are whatever they happen to be, and the distribution is determined by hydraulics rather than by policy.**\n\n> **So the pairing of structures is a means to an operational end, and building them without establishing the operating arrangement produces the cost and not the result.**\n\n> **That is a recurring theme in irrigation: the physical works are the smaller part of the system, and the arrangements for operating them are the larger part and the one that more often fails.**",
@@ -2336,7 +2336,7 @@
       "options": [
         "The canal must cross a natural drainage",
         "The canal's discharge must be measured",
-        "The NATURAL GROUND falls more steeply than the canal's designed bed slope",
+        "The natural ground falls more steeply than the canal's designed bed slope",
         "The canal must be closed for maintenance"
       ],
       "answerIndex": 2,
@@ -2369,7 +2369,7 @@
       "options": [
         "Require no energy dissipation downstream",
         "Are cheaper to construct than any other form",
-        "Can be shaped so that the fall behaves as a PROPORTIONAL module",
+        "Can be shaped so that the fall behaves as a proportional module",
         "Allow boats to pass the fall"
       ],
       "answerIndex": 2,
@@ -2403,7 +2403,7 @@
         "The drainage passes over the canal in a trough",
         "The canal and the drainage are allowed to mix in a common pool",
         "The drainage passes through barrels beneath the canal under pressure",
-        "The CANAL is carried OVER the drainage in a trough, with the drainage passing FREELY beneath it"
+        "The canal is carried over the drainage in a trough, with the drainage passing freely beneath it"
       ],
       "answerIndex": 3,
       "solution": "**The CANAL is carried OVER the drainage in a trough, with the drainage passing FREELY beneath it** — the canal's bed being above the drainage's high flood level.\n\n**The six types of cross-drainage work:**\n\n| Type | Arrangement |\n|---|---|\n| **AQUEDUCT** ← | **CANAL over the drainage; the drainage flows FREELY beneath, with clearance** ← |\n| **SYPHON AQUEDUCT** ← | **CANAL over the drainage, but the drainage passes beneath UNDER PRESSURE, its HFL being above the trough's soffit** ← (which is option c) |\n| **SUPER PASSAGE** ← | **DRAINAGE over the canal in a trough; the canal flows FREELY beneath** ← (option a) |\n| **CANAL SYPHON (syphon)** ← | **DRAINAGE over the canal, and the CANAL passes beneath under PRESSURE** ← |\n| **LEVEL CROSSING** ← | **The two are allowed to MIX in a common pool, with regulators controlling what each takes onward** ← (option b) |\n| **INLET and OUTLET** ← | **A small drainage is admitted INTO the canal at one point and let out at another** ← |\n\n> **THE NAMING FOLLOWS ONE SIMPLE RULE AND IT IS WORTH FIXING BECAUSE THE SIX ARE OTHERWISE EASILY CONFUSED: the name describes what happens to the CANAL, and 'syphon' means something is under PRESSURE.**\n\n| Element | Rule |\n|---|---|\n| **AQUEDUCT** ← | **From the Latin for carrying water — the CANAL is CARRIED over. So the canal is ON TOP** ← |\n| **SUPER PASSAGE** ← | **The DRAINAGE passes over — 'super' meaning above, referring to the drainage. So the canal is BELOW** ← |\n| **Adding 'SYPHON'** ← | **Means the LOWER of the two is flowing full and under pressure rather than freely** ← |\n| **'SYPHON AQUEDUCT'** ← | **Canal on top (aqueduct), drainage below under pressure (syphon)** ← |\n| **'CANAL SYPHON'** ← | **The CANAL is the one syphoning — so the canal is below and under pressure** ← |\n\n> **THE FOURTH AND FIFTH ROWS ARE THE PAIR MOST OFTEN CONFUSED AND THE RULE IN THE THIRD ROW RESOLVES THEM: in 'syphon aqueduct' the word aqueduct tells you the canal is on top, and syphon tells you the thing below is under pressure.**\n\n> **In 'canal syphon' the word canal tells you which element is syphoning, and a syphoning element is the lower one — so the canal is below.**\n\n> **Working the names out from that rule is more reliable than memorising four similar phrases, and it also makes the sixth type's name — level crossing — self-explanatory.**\n\n**HOW THE CHOICE BETWEEN THEM IS MADE, WHICH IS THE PRACTICAL QUESTION:**\n\n| Consideration | Note |\n|---|---|\n| **The RELATIVE LEVELS of the canal and the drainage decide most of it** ← | **Canal well above the drainage's HFL: aqueduct. Canal below the drainage's bed: super passage** ← |\n| **Where the levels are close, a SYPHON of one kind or the other is unavoidable** ← | ← |\n| **A SYPHON AQUEDUCT is generally preferred to a CANAL SYPHON** ← | **Because it is better to make the drainage flow under pressure occasionally in flood than to make the canal do so continuously** ← |\n| **A canal syphon silts and is hard to clean** ← | **Being a depressed section carrying the canal's silt load permanently — the inverted siphon problem** ← |\n| **A LEVEL CROSSING is used where the drainage is large and the levels are irreconcilable** ← | **It is cheap and it admits the drainage's silt and its floods into the canal, so it is a last resort** ← |\n| **INLET and OUTLET suit a small drainage whose flow the canal can absorb** ← | ← |\n\n> **THE THIRD AND FOURTH ROWS TOGETHER GIVE THE PREFERENCE THAT USUALLY DECIDES THE MATTER AND THE REASONING IS WORTH FOLLOWING: a syphon aqueduct puts the DRAINAGE under pressure, and the drainage flows only during storms.**\n\n> **So the pressurised condition occurs for a few days a year, and between times the barrels are dry and can be inspected and cleaned.**\n\n> **A canal syphon puts the CANAL under pressure, and the canal flows for most of the year carrying silt.**\n\n> **So its barrels run full and silty continuously, they cannot be cleaned without shutting the canal, and they silt up.**\n\n> **Given a choice, therefore, one makes the intermittent flow do the syphoning rather than the continuous one — which is a good instance of a design decision following from the OPERATING regime rather than from the hydraulics alone.**",
@@ -2433,7 +2433,7 @@
       "marks": 1,
       "stem": "In a SYPHON AQUEDUCT the drainage passes beneath the canal under pressure. The most important consequence for the design of the drainage barrels is that:",
       "options": [
-        "The barrel roof and the canal trough above are subject to UPLIFT when the drainage runs under pressure",
+        "The barrel roof and the canal trough above are subject to uplift when the drainage runs under pressure",
         "The barrels can be made smaller than for free flow",
         "No energy dissipation is required downstream",
         "The drainage's silt cannot enter the barrels"
@@ -2467,7 +2467,7 @@
       "stem": "A LEVEL CROSSING, in which a canal and a natural drainage are allowed to meet in a common pool with regulators on each outgoing channel, is adopted:",
       "options": [
         "As the preferred solution wherever a canal crosses a drainage",
-        "As a LAST RESORT",
+        "As a last resort",
         "Only where the drainage is very small",
         "Where the canal must be carried well above the drainage"
       ],
@@ -2500,7 +2500,7 @@
       "stem": "The TRANSITIONS provided at the entry and exit of an aqueduct's trough, where the canal contracts into the trough and expands out of it again, are shaped carefully because:",
       "options": [
         "They carry the roadway across the structure",
-        "An abrupt change of section causes eddies and a LARGE head loss",
+        "An abrupt change of section causes eddies and a large head loss",
         "They are the cheapest part of the structure to build",
         "They support the trough's side walls"
       ],
@@ -2535,7 +2535,7 @@
         "A pipe carrying the drainage beneath the canal",
         "A trough carrying the drainage over the canal",
         "A common pool with regulators on each outgoing channel",
-        "Admitting the small drainage INTO the canal at a suitable point"
+        "Admitting the small drainage into the canal at a suitable point"
       ],
       "answerIndex": 3,
       "solution": "**Admitting the small drainage INTO the canal at a suitable point, allowing its water to be carried along with the canal's, and releasing an equivalent quantity at an OUTLET further downstream into the drainage's continuation.**\n\n**When the arrangement is suitable:**\n\n| Condition | Note |\n|---|---|\n| **The drainage is SMALL — its discharge a modest fraction of the canal's** ← | **So the canal can absorb it without exceeding its capacity** ← |\n| **Its water is reasonably CLEAN, or at least not heavily silt-laden** ← | **Since whatever enters is carried in the canal** ← |\n| **The canal has spare CAPACITY, or an escape downstream** ← | ← |\n| **And the drainage's continuation on the far side can receive the outlet's discharge** ← | ← |\n| **The levels are such that the drainage can enter by gravity and leave by gravity** ← | ← |\n\n> **ITS ATTRACTION IS SIMPLICITY AND CHEAPNESS AND IT IS WORTH NOTING WHAT IT AVOIDS: no trough, no barrels, no long structure, no transitions — merely an inlet and an outlet, each a modest opening in the canal's bank with some protection.**\n\n> **For a small nala crossing a large canal, that is a sensible and proportionate solution, and building an aqueduct for such a crossing would be an absurdity.**\n\n> **So the choice of cross-drainage type is scaled to the drainage, and the six types together cover the range from a field ditch to a major river.**\n\n**ITS RISKS, WHICH LIMIT ITS USE:**\n\n| Risk | Note |\n|---|---|\n| **The drainage may bring more water than expected in a storm** ← | **Its catchment's runoff having been under-estimated, or the storm exceptional** ← |\n| **The canal is then over-supplied, and may overtop and breach** ← | ← |\n| **The drainage brings SILT and DEBRIS into the canal** ← | ← |\n| **And the canal's own regime is disturbed by the addition** ← | ← |\n| **The inlet is a permanent opening, so it cannot be closed against a flood unless it is gated** ← | ← |\n\n> **THE FIFTH ROW IS THE PROVISION THAT MATTERS AND IT IS WORTH SPECIFYING DELIBERATELY: an inlet may be a simple opening or a gated one.**\n\n> **A simple opening is cheaper and admits whatever the drainage brings.**\n\n> **A gated inlet can be closed when the drainage is in flood, which protects the canal — but it then requires an operator, which reintroduces the level crossing's weakness on a smaller scale.**\n\n> **The usual compromise is a simple inlet sized so that even the drainage's flood can be accommodated, together with a CANAL ESCAPE downstream capable of shedding the addition.**\n\n> **That makes the arrangement passive: the drainage comes in, and the surplus goes out over the escape's weir without anyone doing anything, which is the arrangement's proper form.**\n\n> **THE OUTLET'S FUNCTION DESERVES A CLOSING NOTE BECAUSE IT IS SOMETIMES MISUNDERSTOOD: the outlet is not there to return the same water that entered.**\n\n> **It is there because the drainage's channel continues on the far side of the canal, and the land it drains still needs a route to it.**\n\n> **Without an outlet, the canal has intercepted the drainage and its lower reach has lost its supply — while the land between the canal and the outlet has lost its drainage route entirely, and will waterlog.**\n\n> **So the outlet serves the DRAINAGE's continuity rather than the canal's water balance, and its position is chosen where the drainage's channel can be resumed rather than where the canal finds it convenient.**",
@@ -2565,7 +2565,7 @@
       "marks": 1,
       "stem": "The impervious FLOOR of a canal regulator or a vertical drop is designed for uplift using the same seepage theory as a weir, but with one important difference in the governing condition, namely that:",
       "options": [
-        "The worst uplift occurs when the water is PONDED to full supply level upstream and the downstream side is EMPTY",
+        "The worst uplift occurs when the water is ponded to full supply level upstream and the downstream side is empty",
         "The worst uplift occurs when both sides are at full supply level",
         "Seepage theory does not apply to canal structures",
         "The uplift is greatest during the monsoon flood"
@@ -2631,7 +2631,7 @@
       "marks": 1,
       "stem": "A VERTICAL DROP structure in a canal dissipates the falling water's energy chiefly by:",
       "options": [
-        "The IMPACT of the falling nappe into a CISTERN",
+        "The impact of the falling nappe into a cistern",
         "Friction along the downstream apron",
         "Gradual expansion of the channel below the drop",
         "Aeration of the nappe as it falls"
@@ -2665,7 +2665,7 @@
       "stem": "The GATES of a canal regulator are commonly VERTICAL LIFT gates rather than radial gates on small structures because vertical lift gates:",
       "options": [
         "Require less hoisting force for the same head and span",
-        "Are SIMPLE, cheap and easily fabricated and repaired locally",
+        "Are simple, cheap and easily fabricated and repaired locally",
         "Do not require any seals",
         "Can be operated without any hoisting arrangement"
       ],
@@ -2699,7 +2699,7 @@
       "options": [
         "An aqueduct, with the canal carried over",
         "A super passage",
-        "A CANAL SYPHON",
+        "A canal syphon",
         "A level crossing"
       ],
       "answerIndex": 2,
@@ -2731,7 +2731,7 @@
       "stem": "In designing the impervious floor of a canal regulator, the LENGTH of the floor downstream of the crest is governed principally by:",
       "options": [
         "The width of the roadway carried over the structure",
-        "The requirement to contain the HYDRAULIC JUMP and the turbulence that follows it",
+        "The requirement to contain the hydraulic jump and the turbulence that follows it",
         "The depth of the upstream cut-off",
         "The number of gate bays provided"
       ],
@@ -2767,7 +2767,7 @@
         "Increasing the floor's thickness",
         "Widening the structure",
         "Adding an intermediate sheet pile beneath the middle of the floor",
-        "PRESSURE RELIEF HOLES through the floor, with an inverted filter beneath them"
+        "Pressure relief holes through the floor, with an inverted filter beneath them"
       ],
       "answerIndex": 3,
       "solution": "**PRESSURE RELIEF HOLES through the floor, with an inverted filter beneath them** — which let the seepage OUT rather than resisting it, so no pressure can accumulate.\n\n**Why relief is more effective than resistance:**\n\n| Approach | Note |\n|---|---|\n| **RESISTING the uplift by thickening the floor** ← | **Requires t = h/(G − 1), so a 3 m head needs 2.4 m of concrete — enormously expensive over a large area** ← (option a) |\n| **RELIEVING the uplift by letting the water out** ← | **A hole and a filter cost almost nothing, and the pressure simply does not develop** ← |\n| **An INTERMEDIATE sheet pile** ← | **Contributes little, as Khosla showed** ← (option c) |\n| **So relief is by far the most economical measure where it can be used** ← | ← |\n\n> **THE PRINCIPLE IS THE SAME ONE MET IN A CANAL LINING'S WEEP HOLES, A RETAINING WALL'S DRAINAGE, A DAM'S DRAINAGE GALLERY AND AN INVERTED FILTER, AND IT IS WORTH STATING AS A GENERAL RULE: where water pressure threatens a structure, giving the water a path is nearly always cheaper than resisting it.**\n\n> **The instinct is to make the structure stronger or heavier; the better answer is usually to remove the reason for the load.**\n\n> **A relief hole converts a pressure problem into a small flow, and a small flow through a filter is harmless.**\n\n> **The cost is a permanent seepage — water is being let through rather than held back — but at a canal regulator the water lost is trivial and the structure saved is substantial.**\n\n**THE CONDITIONS UNDER WHICH RELIEF IS APPROPRIATE, WHICH LIMIT ITS USE:**\n\n| Condition | Note |\n|---|---|\n| **The seepage lost must be ACCEPTABLE** ← | **Which it is at a canal structure, and is not at a dam whose reservoir must be retained** ← |\n| **A proper FILTER must be provided, or the relief holes pipe the foundation out** ← | **Turning a pressure relief into an erosion path — which would be worse than the pressure** ← |\n| **The holes must not become BLOCKED** ← | **By sediment from above, or by the filter clogging from below — and a blocked relief hole restores the full uplift while appearing to be provided for** ← |\n| **And they must be placed where the pressure actually is** ← | **Toward the DOWNSTREAM end of the floor, where the residual head is greatest and the floor is thinnest** ← |\n\n> **THE THIRD ROW IS THE PROVISION'S WEAKNESS AND IT IS A REAL ONE: a relief hole is a small opening in a floor beneath turbulent water carrying sediment.**\n\n> **It will tend to block, and its blockage is invisible.**\n\n> **A floor designed on the assumption of relief, whose holes have blocked, has the uplift of an unrelieved floor and the thickness of a relieved one — which is the combination that lifts floors.**\n\n> **So relief holes should be designed to be inspectable and clearable where that is possible, and the floor should retain some margin against the unrelieved case rather than relying entirely on the relief.**\n\n> **That is a general principle for any provision whose failure is silent: do not let the structure's safety depend wholly on something whose functioning cannot be observed.**\n\n> **THE ALTERNATIVE MEASURES DESERVE A CLOSING SUMMARY, SINCE THE QUESTION ASKED FOR THE MOST EFFECTIVE WITHOUT LENGTHENING:**\n\n| Measure | Effect on uplift |\n|---|---|\n| **UPSTREAM cut-off, deepened** ← | **Reduces the pressure everywhere downstream of it — very effective** ← |\n| **Relief holes with a filter** ← | **Eliminates the pressure locally — most effective and cheapest** ← |\n| **A longer floor** ← | **Reduces the pressure, but the question excluded lengthening, and Khosla showed the middle of a long floor achieves little** ← |\n| **Thickening** ← | **Does not reduce the uplift at all; it merely resists it** ← |\n| **An intermediate pile** ← | **Little effect** ← |\n\n> **The fourth row states a distinction worth being precise about: thickening the floor does not REDUCE the uplift, it resists it.**\n\n> **The pressure beneath is unchanged; the floor is simply heavy enough to stay put.**\n\n> **Every other measure in the list actually lowers the pressure, which is a different and better kind of solution — and confusing 'resisting a load' with 'removing a load' is a distinction worth keeping sharp in any design.**",
@@ -2800,7 +2800,7 @@
         "Can be moved from one location to another",
         "Is built from standard precast components",
         "Serves exactly one hectare of command",
-        "Delivers a discharge that is INDEPENDENT of one or both of the water levels"
+        "Delivers a discharge that is independent of one or both of the water levels"
       ],
       "answerIndex": 3,
       "solution": "**A device that delivers a discharge that is INDEPENDENT of one or both of the water levels** — a semi-module being independent of the downstream level, and a rigid module of both.\n\n**The classification restated, since the terminology is the whole point:**\n\n| Type | Discharge depends on |\n|---|---|\n| **NON-MODULAR** ← | **BOTH the upstream and downstream levels** ← |\n| **SEMI-MODULE (flexible module)** ← | **The UPSTREAM level only** ← |\n| **RIGID MODULE** ← | **NEITHER — constant discharge within a working range** ← |\n\n> **THE WORD 'MODULE' REFERS TO THE DEVICE'S ABILITY TO MODULATE ITS DISCHARGE AGAINST CHANGING CONDITIONS, AND ONCE THAT IS SEEN THE THREE TERMS ARE SELF-EXPLANATORY: no modulation, partial modulation, full modulation.**\n\n> **The alternative reading — that a module is a standardised component — is the ordinary English meaning and is not what is meant here, which is why the term causes confusion.**\n\n**THE DESIGN QUALITIES BY WHICH OUTLETS ARE JUDGED, WHICH ARE WORTH KNOWING AS A SET:**\n\n| Quality | Meaning |\n|---|---|\n| **FLEXIBILITY** ← | **The ratio of the rate of change of the outlet's discharge to that of the parent channel — F = (dq/q)/(dQ/Q)** ← |\n| **PROPORTIONALITY** ← | **Flexibility EQUAL TO 1 — the outlet's share changes in exact proportion to the canal's discharge, so every outlet keeps its share whatever the supply** ← |\n| **HYPER-PROPORTIONAL** ← | **F greater than 1 — the outlet takes MORE than its share when the canal runs high and less when it runs low** ← |\n| **SUB-PROPORTIONAL** ← | **F less than 1 — the outlet takes less than its share when the canal is high** ← |\n| **SENSITIVITY** ← | **The rate of change of the outlet's discharge with the parent channel's water LEVEL** ← |\n| **SETTING** ← | **The ratio of the outlet's sill level above the canal's bed to the canal's depth — which is what determines the flexibility** ← |\n\n> **THE SECOND ROW IS THE PROPERTY MOST DESIRED IN AN IRRIGATION SYSTEM AND IT IS WORTH UNDERSTANDING WHY: a PROPORTIONAL outlet takes the same FRACTION of the canal's discharge whatever that discharge is.**\n\n> **So when the canal runs at half supply, every outlet gets half its designed share — and the shortage is distributed equally over the whole command without anyone having to do anything.**\n\n> **That is exactly the equitable outcome that a canal operator would want to achieve manually, obtained automatically by the outlets' geometry.**\n\n> **A hyper-proportional outlet, by contrast, takes more than its share in good times and less in bad — which favours whoever has one and disadvantages everyone else, and does so most in a shortage when it matters most.**\n\n**AND THE SETTING IS WHAT DETERMINES WHICH BEHAVIOUR AN OUTLET HAS, WHICH IS THE PRACTICAL LEVER:**\n\n| Setting | Behaviour |\n|---|---|\n| **A LOW sill, near the canal's bed** ← | **The outlet's head varies little as the canal's level falls, so it keeps taking nearly its full discharge — HYPER-proportional** ← |\n| **A HIGH sill** ← | **The outlet's head falls sharply as the canal's level falls, so its discharge falls faster than the canal's — SUB-proportional** ← |\n| **An intermediate setting** ← | **PROPORTIONAL** ← |\n\n> **THE FIRST ROW EXPLAINS WHY OUTLETS SET TOO LOW ARE SUCH A PROBLEM IN PRACTICE AND IT IS A COMMON DEFECT: a low sill also admits more SILT, as noted earlier, and it makes the outlet hyper-proportional.**\n\n> **So an outlet lowered — whether by design, by the bed rising around it, or by a cultivator deepening its approach — takes more than its share and more than its share of silt, both at the expense of everyone downstream.**\n\n> **The setting is therefore worth checking during any survey of a system that is distributing water inequitably, and it is frequently found to be the explanation.**\n\n> **Restoring the sill to its designed level is a cheap intervention with an immediate effect on the distribution, and it does not require a new structure — merely a measurement, a rebuilt sill, and someone with the authority to insist on it.**",
@@ -2830,7 +2830,7 @@
       "marks": 1,
       "stem": "Land is said to be WATERLOGGED, for agricultural purposes, when:",
       "options": [
-        "The WATER TABLE rises so close to the ground surface that the ROOT ZONE becomes saturated and the air in the soil is displaced",
+        "The water table rises so close to the ground surface that the root zone becomes saturated and the air in the soil is displaced",
         "Water stands on the surface to a depth of more than 300 mm",
         "The soil's moisture content exceeds its field capacity for more than a day",
         "The land floods during the monsoon"
@@ -2864,7 +2864,7 @@
       "stem": "SALINE and ALKALI (sodic) soils are distinguished in that a saline soil:",
       "options": [
         "Has a high pH, above 8.5, and a poor physical structure",
-        "Has an EXCESS of soluble salts",
+        "Has an excess of soluble salts",
         "Cannot be reclaimed by any means",
         "Is caused only by seawater intrusion"
       ],
@@ -2898,7 +2898,7 @@
       "options": [
         "The width of the fields and the convenience of cultivation",
         "The diameter of the pipes available",
-        "The SOIL's hydraulic conductivity",
+        "The soil's hydraulic conductivity",
         "The crop to be grown, alone"
       ],
       "answerIndex": 2,
@@ -2932,7 +2932,7 @@
         "Removes water that has already entered the soil profile",
         "Is used only in humid climates",
         "Requires no outfall",
-        "Removes EXCESS WATER STANDING ON or moving over the LAND SURFACE"
+        "Removes excess water standing on or moving over the land surface"
       ],
       "answerIndex": 3,
       "solution": "**It removes EXCESS WATER STANDING ON or moving over the LAND SURFACE — by land shaping, field ditches and collector drains** — and therefore addresses PONDING and inundation rather than a high water table.\n\n**The two systems compared:**\n\n| Aspect | SURFACE drainage | SUBSURFACE drainage |\n|---|---|---|\n| **What it removes** | **Water standing ON the land** ← | **Water WITHIN the soil profile — it lowers the WATER TABLE** ← (option a) |\n| **Components** | **Land grading and smoothing, field ditches, collector and main drains, outfall** ← | **Buried perforated laterals, collectors, a main and an outfall** ← |\n| **Addresses** | **Ponding after rain, inundation, and runoff from adjoining land** ← | **A high water table, waterlogging of the root zone, and salinity** ← |\n| **Cost** | **LOWER** ← | **Much higher** ← |\n| **Interference with cultivation** | **The ditches occupy land and obstruct machinery** ← | **NONE — the pipes are buried below plough depth** ← |\n| **Suited to** | **Flat land with heavy rainfall; soils of LOW permeability where subsurface drainage would need impracticably close spacing** ← | **Permeable soils with a high water table, and where salinity must be controlled** ← |\n\n> **THE LAST ROW CONTAINS THE TECHNICAL CRITERION THAT DECIDES BETWEEN THEM AND IT FOLLOWS FROM THE SPACING RELATION: in a soil of low permeability, subsurface drains must be placed impracticably close together to be effective.**\n\n> **A heavy clay may require a spacing of 5 or 10 m, at which the pipe length per hectare — and therefore the cost — is prohibitive.**\n\n> **So in such a soil the water cannot economically be removed from within the profile, and the practical objective becomes preventing it from entering: shaping the land so that rain runs OFF rather than standing, and providing ditches to take it away.**\n\n> **That is surface drainage, and in a heavy soil it is not an inferior substitute for subsurface drainage but the appropriate technique.**\n\n**THE COMPONENTS OF SURFACE DRAINAGE, IN ORDER OF IMPORTANCE:**\n\n| Component | Note |\n|---|---|\n| **LAND SHAPING and SMOOTHING** ← | **Giving the field a slight continuous grade so water runs off rather than ponding in hollows — much the most important, and the most neglected** ← |\n| **FIELD ditches (shallow, at the field's edge or within it)** ← | **Collecting the runoff** ← |\n| **COLLECTOR drains** ← | ← |\n| **MAIN drain and OUTFALL** ← | ← |\n| **And CROSS-DRAINAGE where the drains meet roads, canals and embankments** ← | ← |\n\n> **THE FIRST ROW IS WHERE MOST OF THE BENEFIT LIES AND IT IS WORTH ARGUING FOR: a field with hollows will pond in them however good the ditches at its edge, because the water in the hollow has no route to the ditch.**\n\n> **Smoothing out the hollows so the whole field drains to its edge is a one-time earthwork operation, it improves the irrigation's uniformity at the same time, and it costs far less than any pipework.**\n\n> **It is also the operation most often omitted, because it produces no visible structure and is easily deferred.**\n\n> **A drainage scheme that installs ditches without land shaping treats the symptom and leaves the cause, and the hollows continue to pond.**\n\n**AND THE OUTFALL, WHICH OPTION (c) DENIES AND WHICH IS THE PRECONDITION FOR BOTH SYSTEMS:**\n\n| Point | Note |\n|---|---|\n| **Every drainage system must DISCHARGE somewhere** ← | ← |\n| **The outfall must be LOWER than the drains, and available when they are flowing** ← | ← |\n| **A river in flood is higher than the drains, so the outfall is blocked at exactly the time it is needed** ← | **Requiring a flap valve and, if the flooding is prolonged, PUMPING** ← |\n| **In a flat command far from any river, there may be NO gravity outfall at all** ← | ← |\n| **Then the whole scheme depends on pumped drainage, with its permanent cost** ← | ← |\n| **And where neither exists, the land cannot be drained by any means** ← | ← |\n\n> **THE LAST ROW IS THE HARD CONSTRAINT AND IT SHOULD BE ESTABLISHED FIRST IN ANY DRAINAGE INVESTIGATION: before designing anything, find out where the water is to go.**\n\n> **A great deal of drainage design has been done for commands with no viable outfall, and the resulting systems collect water and deliver it to a point from which it cannot leave.**\n\n> **The outfall's availability, its level, and its condition when the drains are running are therefore the first questions, and if they cannot be answered satisfactorily the answer to the drainage problem may be a change of land use rather than a drainage scheme.**",
@@ -2963,7 +2963,7 @@
       "stem": "The LEACHING REQUIREMENT of an irrigated area is the:",
       "options": [
         "Depth of water that must be applied to bring the soil to field capacity",
-        "EXTRA depth of irrigation water",
+        "Extra depth of irrigation water",
         "Depth of water lost to deep percolation in a season",
         "Quantity of gypsum needed to reclaim a sodic soil"
       ],
@@ -2996,7 +2996,7 @@
       "marks": 1,
       "stem": "VERTICAL DRAINAGE — pumping from tube wells to lower a high water table — has an advantage over horizontal (tile) drainage in a suitable aquifer in that it:",
       "options": [
-        "PRODUCES A USABLE SUPPLY of irrigation water as a by-product of the drainage",
+        "Produces A usable supply of irrigation water as a by-product of the drainage",
         "Requires no energy to operate",
         "Works equally well in a clay soil",
         "Produces no effluent requiring disposal"
@@ -3031,7 +3031,7 @@
       "options": [
         "The ratio of the drained area to the total area",
         "The hydraulic conductivity of the soil divided by its porosity",
-        "The DEPTH of water, expressed in millimetres per day, that the system must be capable of REMOVING from the whole area it serves",
+        "The depth of water, expressed in millimetres per day, that the system must be capable of removing from the whole area it serves",
         "The proportion of rainfall that becomes runoff"
       ],
       "answerIndex": 2,
@@ -3095,7 +3095,7 @@
       "marks": 1,
       "stem": "A subsurface drainage system's MAIN DRAIN discharges into a river that is in flood for part of the monsoon, so that the outfall is submerged. The standard provision for this is:",
       "options": [
-        "A FLAP (non-return) valve at the outfall, which closes when the river is higher than the drain and opens when it falls",
+        "A flap (non-return) valve at the outfall, which closes when the river is higher than the drain and opens when it falls",
         "To raise the whole drainage system above the river's flood level",
         "To discharge the drainage into the irrigation canal instead",
         "To accept that the system cannot function and abandon it"
@@ -3128,7 +3128,7 @@
       "marks": 1,
       "stem": "MOLE DRAINAGE is a technique in which:",
       "options": [
-        "An unlined CHANNEL is formed in the subsoil by drawing a bullet-shaped plug through it behind a blade",
+        "An unlined channel is formed in the subsoil by drawing a bullet-shaped plug through it behind a blade",
         "Perforated pipes are laid in trenches at close spacing",
         "A mole plough is used to break up a compacted layer without forming any channel",
         "Vertical holes are bored to connect the topsoil to a permeable layer beneath"
@@ -3163,7 +3163,7 @@
       "options": [
         "Carry the canal's surplus water away when demand falls",
         "Provide a route for the canal's silt to be removed",
-        "INTERCEPT the SEEPAGE emerging from the canal before it reaches and raises the water table over the wider command",
+        "Intercept the seepage emerging from the canal before it reaches and raises the water table over the wider command",
         "Supply water to the fields nearest the canal"
       ],
       "answerIndex": 2,
@@ -3195,7 +3195,7 @@
       "stem": "OBSERVATION WELLS installed across an irrigated command are the basic instrument of drainage work because they:",
       "options": [
         "Provide an emergency water supply during a drought",
-        "Measure the DEPTH TO THE WATER TABLE and its variation with time",
+        "Measure the depth to the water table and its variation with time",
         "Measure the soil's salinity directly",
         "Allow the aquifer's yield to be tested"
       ],
@@ -3230,7 +3230,7 @@
         "Along the shortest straight line to the outfall",
         "Parallel to the irrigation canal that serves the command",
         "Along the boundaries of landholdings, to avoid dividing any field",
-        "ALONG the NATURAL DRAINAGE LINE"
+        "Along the natural drainage line"
       ],
       "answerIndex": 3,
       "solution": "**ALONG the NATURAL DRAINAGE LINE — the lowest ground, which the land already drains toward** — so that the collectors can reach it by gravity and the excavation is least.\n\n**Why the natural line is the right alignment:**\n\n| Reason | Note |\n|---|---|\n| **The land already SLOPES toward it** ← | **So every collector can reach it by gravity, from both sides** ← |\n| **It is the LOWEST ground, so the drain is shallowest there** ← | **Minimising the excavation, which is the main cost** ← |\n| **A natural channel often already exists** ← | **Which can be improved rather than excavated afresh** ← |\n| **And the outfall is at the natural line's own outlet** ← | **Which is where the land's water has always gone** ← |\n| **So the whole system works with the topography rather than against it** ← | ← |\n\n> **THE CONTRAST WITH AN IRRIGATION CANAL IS INSTRUCTIVE AND IT IS WORTH DRAWING EXPLICITLY: a canal is aligned along the RIDGE and a drain along the VALLEY.**\n\n> **A canal must be HIGH, to command the land by gravity, so it seeks the watershed.**\n\n> **A drain must be LOW, to receive the land's water by gravity, so it seeks the depression.**\n\n> **They are therefore aligned on opposite features of the same topography, and an irrigation and drainage system laid out together forms an interlocking pattern of canals on the ridges and drains in the hollows, each serving the land between.**\n\n> **That pattern is worth being able to picture, because it explains why the two networks must be planned together — and why planning the irrigation first and the drainage afterwards, which is what usually happens, leaves the drains with whatever alignments the canals have not taken.**\n\n**THE CONSEQUENCE OF NOT PLANNING THEM TOGETHER, WHICH IS THE COMMON SITUATION:**\n\n| Problem | Note |\n|---|---|\n| **Canals are built across the natural drainage lines** ← | **Blocking them, unless cross-drainage is provided** ← |\n| **Roads and spoil banks do the same** ← | ← |\n| **So the land's natural drainage is obstructed before any drainage system is contemplated** ← | ← |\n| **And by the time drainage is needed, the natural lines are broken and their outlets are blocked** ← | ← |\n| **Restoring them then costs far more than preserving them would have** ← | ← |\n\n> **THE FIFTH ROW IS THE ARGUMENT FOR PLANNING THE DRAINAGE AT THE OUTSET EVEN WHERE IT IS NOT YET NEEDED, and it is a modest requirement: the drainage lines must be IDENTIFIED and PRESERVED, with cross-drainage provided wherever anything crosses them.**\n\n> **The drains themselves need not be built until they are needed.**\n\n> **What must be done at the outset is to ensure that the routes remain available and unobstructed, which costs the price of some culverts and some restraint in tipping spoil.**\n\n> **A command in which that has been done can be drained when the need arises; one in which it has not requires the obstructions to be removed first, and many of them are roads and canals that cannot be removed.**\n\n> **So the phrase worth using is that drainage should be PROVIDED FOR at the outset even if it is not provided — and the distinction between the two is the difference between a modest foresight and a large later cost.**\n\n**AND THE PRACTICAL POINT ABOUT LANDHOLDINGS IN OPTION (c) DESERVES AN ANSWER, SINCE IT IS A REAL CONSIDERATION:**\n\n> **A drain along the natural line will inevitably cross some holdings and divide some fields, and the landowners will object.**\n\n> **Aligning it along the boundaries instead means it does not follow the lowest ground, so parts of the command cannot reach it by gravity and the excavation is deeper.**\n\n> **The usual resolution is to follow the natural line for the MAIN drain, where the hydraulic requirement is strict, and to follow the boundaries for the FIELD drains and the collectors, where there is more latitude.**\n\n> **That gives the hydraulics what it needs at the few places it matters most, and accommodates the landholding pattern everywhere else — which is a reasonable compromise and is usually acceptable to the landowners when the alternative is explained.**",
@@ -3260,7 +3260,7 @@
       "marks": 1,
       "stem": "In reclaiming land that has become both WATERLOGGED and SALINE, the correct order of measures is:",
       "options": [
-        "First establish DRAINAGE, then apply any chemical amendment needed, then LEACH",
+        "First establish drainage, then apply any chemical amendment needed, then leach",
         "First leach, then drain, then amend",
         "First amend, then drain, then leach",
         "Leaching alone is sufficient in every case"
@@ -3295,7 +3295,7 @@
       "options": [
         "Withstands greater external soil loads than clay",
         "Has a larger internal diameter for the same trench width",
-        "Comes in LONG COILS that can be laid CONTINUOUSLY by a trenching machine",
+        "Comes in long coils that can be laid continuously by a trenching machine",
         "Requires no envelope or filter material"
       ],
       "answerIndex": 2,
@@ -3327,7 +3327,7 @@
       "stem": "In assessing the economic justification for a drainage scheme, the benefit that is usually LARGEST and is most often overlooked is:",
       "options": [
         "The value of the drainage water itself, which can be sold",
-        "The AVOIDED FUTURE LOSS",
+        "The avoided future loss",
         "The employment created during construction",
         "The increase in the land's market value"
       ],
@@ -3362,7 +3362,7 @@
         "Excessive irrigation during the monsoon season",
         "Seepage from lined canals",
         "Salinity of the groundwater",
-        "DRAINAGE CONGESTION"
+        "Drainage congestion"
       ],
       "answerIndex": 3,
       "solution": "**DRAINAGE CONGESTION — the natural drainage lines being obstructed by roads, railway and canal embankments, and by the aggrading, embanked rivers themselves** — so that rainfall cannot escape and ponds on the land.\n\n**Why the Terai's problem is congestion rather than a rising table:**\n\n| Factor | Note |\n|---|---|\n| **The rainfall is INTENSE and concentrated in four months** ← | **So a great deal of water must leave in a short time** ← |\n| **The land is very FLAT, so the natural drainage is slow even unobstructed** ← | ← |\n| **The rivers are AGGRADING, so their beds rise and their capacity to receive drainage falls** ← | **The Chure sediment, arriving where the slope breaks** ← |\n| **Those rivers are EMBANKED, so the land beside them cannot drain into them at all except through sluices** ← | ← |\n| **And the whole plain is crossed by the EAST-WEST HIGHWAY, its feeder roads, the railway and the irrigation canals** ← | **Every one an embankment across the drainage** ← |\n| **So the water arrives quickly, moves slowly, and meets a series of barriers** ← | ← |\n\n> **THE FIFTH ROW IS THE ACCUMULATED EFFECT OF DECADES OF INFRASTRUCTURE AND IT IS NOBODY'S RESPONSIBILITY IN PARTICULAR, WHICH IS THE HEART OF THE PROBLEM: each embankment was built by a different agency for a good reason.**\n\n> **The highway department built the road, the railway the railway, the irrigation department the canals, and the flood control programme the river embankments.**\n\n> **Each provided some cross-drainage, sized for the drainage it could see at the time.**\n\n> **The cumulative effect — a plain subdivided into compartments by embankments, each compartment draining through a few culverts — is the product of all of them and the design of none.**\n\n> **And the culverts, sized decades ago for a catchment that has since been urbanised and whose runoff coefficient has doubled, are now inadequate.**\n\n> **So the flooding worsens without any single decision having caused it, which is a cumulative-impact problem of exactly the kind that project-by-project assessment cannot address.**\n\n**WHY THIS MATTERS FOR THE REMEDY, WHICH IS THE PRACTICAL POINT:**\n\n| If the cause is | The remedy is |\n|---|---|\n| **A rising GROUNDWATER table** ← | **Subsurface drainage, canal lining, irrigation management, tube well pumping** ← |\n| **DRAINAGE CONGESTION** ← | **Restoring and enlarging the SURFACE drainage — clearing the natural lines, enlarging the culverts, providing sluices through the embankments, and removing obstructions** ← |\n\n> **THE TWO REMEDIES ARE ENTIRELY DIFFERENT, AND THE DIAGNOSIS THEREFORE MATTERS A GREAT DEAL: installing subsurface drainage in a command whose problem is congestion achieves nothing, because the water it collects has nowhere to go either.**\n\n> **The observation wells discussed earlier are what distinguish the two: a command suffering congestion has a water table that rises sharply during the monsoon and recedes afterwards, while one with a rising table shows a trend across years.**\n\n> **And congestion shows itself as SURFACE ponding in the compartments between embankments, with the ponding pattern following the embankments rather than the topography.**\n\n> **That pattern is visible on a satellite image or an aerial photograph after a heavy rain, and it identifies the obstructions directly — which is a cheap and quick diagnosis that is well worth doing before any drainage design is contemplated.**\n\n> **THE INSTITUTIONAL REMEDY IS HARDER THAN THE PHYSICAL ONE AND IT DESERVES THE CLOSING WORD: enlarging a culvert under a highway requires the highway department to agree, to fund it and to close the road while it is done.**\n\n> **The benefit accrues to the farmers whose land is flooding, not to the highway department.**\n\n> **So the works that would relieve the congestion are in the gift of agencies that gain nothing from them, and they are consequently not done — which is the upstream-downstream incentive problem, appearing again in a different form.**\n\n> **Resolving it requires the drainage to be planned at the level of the whole plain, by a body with authority over all the obstructions — which is precisely what integrated basin management proposes and precisely what is hardest to establish.**",

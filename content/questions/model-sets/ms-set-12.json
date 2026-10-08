@@ -1417,7 +1417,7 @@
         "The domestic demand alone",
         "Domestic and industrial demand only",
         "Domestic demand plus a fixed allowance of 20 per cent for everything else",
-        "DOMESTIC, INDUSTRIAL, INSTITUTIONAL and COMMERCIAL, and PUBLIC (civic) demands, together with an allowance for LOSSES and WASTAGE"
+        "Domestic, industrial, institutional and commercial, and public (civic) demands, together with an allowance for losses and wastage"
       ],
       "answerIndex": 3,
       "solution": "**DOMESTIC, INDUSTRIAL, INSTITUTIONAL and COMMERCIAL, and PUBLIC demands, together with an allowance for LOSSES and WASTAGE** — the losses commonly being the largest single item after domestic use.\n\n**The components, with typical figures for an Indian or Nepali town:**\n\n| Component | Typical allowance (litres per capita per day) |\n|---|---|\n| **DOMESTIC — drinking, cooking, bathing, washing, flushing** ← | **135 for a piped supply with sewerage; 70 to 100 without** ← |\n| **INDUSTRIAL** ← | **20 to 25, or computed separately for a major industry** ← |\n| **INSTITUTIONAL and COMMERCIAL — schools, offices, hospitals, hotels, markets** ← | **20 to 25** ← |\n| **PUBLIC (civic) — street washing, gardens, public fountains, public toilets** ← | **10 to 15** ← |\n| **FIRE fighting** ← | **1 to 5, though the demand is instantaneous rather than continuous** ← |\n| **LOSSES and WASTAGE — leakage, theft, unmetered use, meter error** ← | **15 to 25 per cent of the total — often the largest item after domestic use** ← |\n| **TOTAL** | **About 200 to 270 lpcd for a fully served town** ← |\n\n> **THE LOSSES IN THE SIXTH ROW ARE THE ITEM MOST WORTH THINKING ABOUT AND THEY ARE ROUTINELY UNDER-ESTIMATED IN DESIGN AND UNDER-ATTENDED IN OPERATION:**\n\n| Point | Note |\n|---|---|\n| **The design allowance of 15 to 25 per cent is a DESIGN target, not a description of reality** ← | ← |\n| **Actual NON-REVENUE WATER in many South Asian systems is 30 to 50 per cent** ← | **And in some Nepali towns higher still** ← |\n| **So a system designed for 20 per cent losses and operating at 45 per cent is short of water from the day it opens** ← | **The shortfall being invisible in the design and unmistakable at the tap** ← |\n\n> **THE THIRD ROW DESCRIBES A REAL AND COMMON OUTCOME AND IT LEADS TO AN IMPORTANT CONCLUSION ABOUT PRIORITIES: reducing losses is almost always cheaper than augmenting supply.**\n\n> **A town losing 40 per cent of its water can recover more supply by leak detection and repair than by building a new intake, at a fraction of the cost and without any new source, land acquisition or treatment capacity.**\n\n> **Yet augmentation is politically visible and leak repair is not, so the harder and cheaper option is regularly deferred in favour of the easier and dearer one.**\n\n> **This is one of the clearest instances in public infrastructure where the engineering judgment and the political incentive point in opposite directions, and it is worth being able to state the case plainly.**\n\n**HOW THE DOMESTIC FIGURE DIVIDES, WHICH IS USEFUL FOR JUDGING WHETHER AN ALLOWANCE IS REASONABLE:**\n\n| Use | Litres per capita per day |\n|---|---|\n| **Drinking** ← | **About 5 — a tiny fraction of the total** ← |\n| **Cooking** | **5** |\n| **Bathing** ← | **55 — the largest single domestic use** ← |\n| **WC flushing** ← | **30 — and this is why sewered towns need much more water than unsewered ones** ← |\n| **Washing clothes** | **20** |\n| **Washing utensils** | **10** |\n| **House cleaning** | **10** |\n| **TOTAL domestic** | **135** ← |\n\n> **THE DRINKING FIGURE IN THE FIRST ROW IS WORTH NOTING FOR THE PERSPECTIVE IT GIVES: only about 4 per cent of a domestic supply is actually drunk.**\n\n> **Everything else is used for washing, flushing and cleaning, for which drinking-quality water is not strictly necessary.**\n\n> **That observation is the basis of DUAL SUPPLY proposals — a treated supply for drinking and cooking and an untreated or reclaimed supply for flushing and irrigation — which are attractive in principle and rarely built, because two pipe networks cost far more than one and the risk of cross-connection is serious.**\n\n> **It is nevertheless the reason RAINWATER HARVESTING and greywater reuse are worth pursuing for the non-potable uses, since those uses account for the overwhelming majority of the demand and have no quality requirement to speak of.**",
@@ -1448,7 +1448,7 @@
       "stem": "Among the methods of forecasting a town's future population, the GEOMETRIC INCREASE method:",
       "options": [
         "Assumes a constant absolute increase in each decade",
-        "Assumes a constant PERCENTAGE rate of growth, so the population grows exponentially",
+        "Assumes a constant percentage rate of growth, so the population grows exponentially",
         "Assumes the rate of increase itself changes by a constant amount each decade",
         "Fits an S-shaped curve approaching a saturation population"
       ],
@@ -1482,7 +1482,7 @@
       "options": [
         "Pumps are more likely to be stolen",
         "Pumping plant is not essential to the scheme",
-        "The PUMP has a short physical LIFE and can be REPLACED or ADDED TO cheaply and without disturbing anything else",
+        "The pump has a short physical life and can be replaced or added to cheaply and without disturbing anything else",
         "Dams do not deteriorate"
       ],
       "answerIndex": 2,
@@ -1547,7 +1547,7 @@
       "marks": 1,
       "stem": "The TEMPORARY (carbonate) hardness of water differs from PERMANENT (non-carbonate) hardness in that temporary hardness:",
       "options": [
-        "Is caused by the BICARBONATES of calcium and magnesium and can be removed by simple BOILING",
+        "Is caused by the bicarbonates of calcium and magnesium and can be removed by simple boiling",
         "Is caused by sodium and potassium salts",
         "Cannot be removed by any treatment",
         "Is measured in different units"
@@ -1582,7 +1582,7 @@
       "options": [
         "Is a direct measure of the water's hardness",
         "Indicates the concentration of dissolved oxygen",
-        "Measures the water's capacity to NEUTRALISE ACID",
+        "Measures the water's capacity to neutralise acid",
         "Determines the water's turbidity"
       ],
       "answerIndex": 2,
@@ -1646,7 +1646,7 @@
       "marks": 1,
       "stem": "In the classification of water-related diseases, CHOLERA and TYPHOID are WATER-BORNE, whereas TRACHOMA and SCABIES are classified as WATER-WASHED. The distinction is that a water-washed disease is prevented principally by:",
       "options": [
-        "Increasing the QUANTITY of water available for personal and domestic HYGIENE",
+        "Increasing the quantity of water available for personal and domestic hygiene",
         "Boiling the drinking water",
         "Chlorinating the supply",
         "Filtering the water to remove the pathogen"
@@ -1680,7 +1680,7 @@
       "stem": "Excessive FLUORIDE in drinking water is of concern because it causes:",
       "options": [
         "Immediate gastrointestinal illness",
-        "DENTAL FLUOROSIS (mottling of the teeth) and",
+        "Dental fluorosis (mottling of the teeth) and",
         "Blue baby syndrome in infants",
         "Skin lesions and keratosis"
       ],
@@ -1808,7 +1808,7 @@
       "marks": 1,
       "stem": "The NET IRRIGATION REQUIREMENT of a crop differs from its CONSUMPTIVE USE in that the net irrigation requirement is:",
       "options": [
-        "The consumptive use LESS the EFFECTIVE RAINFALL and any contribution from the soil moisture store or the groundwater",
+        "The consumptive use less the effective rainfall and any contribution from the soil moisture store or the groundwater",
         "The consumptive use multiplied by the irrigation efficiency",
         "The consumptive use plus the conveyance losses in the canal system",
         "Always equal to the consumptive use"
@@ -1877,7 +1877,7 @@
       "options": [
         "The total rainfall recorded during the crop's growing season",
         "The rainfall that falls only during the daytime",
-        "That part of the rainfall which is actually STORED IN THE ROOT ZONE and available to the crop",
+        "That part of the rainfall which is actually stored in the root zone and available to the crop",
         "The rainfall measured at the nearest meteorological station"
       ],
       "answerIndex": 2,
@@ -1943,7 +1943,7 @@
       "stem": "In irrigation terminology, the CULTURABLE COMMAND AREA (CCA) is:",
       "options": [
         "The total area lying within the irrigation boundary, including villages, roads and barren land",
-        "That part of the GROSS COMMAND AREA which is CULTURABLE — the gross area less the land not fit for cultivation, such as villages, roads, ponds, rock and forest",
+        "That part of the gross command area which is culturable — the gross area less the land not fit for cultivation, such as villages, roads, ponds, rock and forest",
         "The area actually irrigated in a particular season",
         "The area that could be irrigated if unlimited water were available"
       ],
@@ -1977,7 +1977,7 @@
       "options": [
         "Saturation and field capacity",
         "Saturation and the permanent wilting point",
-        "FIELD CAPACITY and the PERMANENT WILTING POINT",
+        "Field capacity and the permanent wilting point",
         "The hygroscopic coefficient and oven-dry condition"
       ],
       "answerIndex": 2,
@@ -2041,7 +2041,7 @@
       "marks": 1,
       "stem": "A RUN-OF-RIVER (ROR) hydropower plant is distinguished from a storage plant chiefly in that it:",
       "options": [
-        "HAS LITTLE OR NO STORAGE",
+        "Has little or no storage",
         "Always generates more energy per unit of installed capacity",
         "Requires no diversion structure at all",
         "Can only be built on rivers with a very small catchment"
@@ -2076,7 +2076,7 @@
       "options": [
         "The plant's maximum output at full gate opening",
         "The average power delivered over the year",
-        "The power the plant can be relied upon to deliver AT ALL TIMES",
+        "The power the plant can be relied upon to deliver at ALL times",
         "The power delivered during the monsoon months only"
       ],
       "answerIndex": 2,
@@ -2110,7 +2110,7 @@
         "Discharge against time in chronological order through the year",
         "Cumulative volume against time",
         "Discharge against the corresponding water level",
-        "DISCHARGE against the PERCENTAGE OF TIME that discharge is equalled or exceeded"
+        "Discharge against the percentage of time that discharge is equalled or exceeded"
       ],
       "answerIndex": 3,
       "solution": "**DISCHARGE against the PERCENTAGE OF TIME that discharge is equalled or exceeded** — which discards the chronological order and answers instead how often each flow is available.\n\n**How it is constructed and what it shows:**\n\n| Step | Note |\n|---|---|\n| **1. Take the daily (or ten-daily) flow record over as many years as exist** ← | **Twenty years or more is desirable** ← |\n| **2. RANK every value from largest to smallest, ignoring when it occurred** ← | ← |\n| **3. Assign each an exceedance percentage: P = m/(N+1) × 100, m being the rank** ← | ← |\n| **4. Plot discharge against P** ← | **Conventionally with discharge on the vertical axis** ← |\n| **The result descends from left to right** ← | **High flows rare on the left, low flows common on the right** ← |\n\n> **THE SECOND STEP IS THE CURVE'S ESSENTIAL PROPERTY AND ITS ESSENTIAL LIMITATION AT THE SAME TIME: the chronological order is thrown away.**\n\n> **The curve tells you that a flow of 5 m³/s is exceeded 60 per cent of the time; it does not tell you whether those 60 per cent are a continuous six-month wet season or are scattered through the year.**\n\n> **For an ROR plant with no storage that does not matter, because the plant simply takes what arrives each day and the curve captures exactly that.**\n\n> **For a plant with STORAGE it matters entirely, because storage works by moving water from one time to another, and a curve with no time axis cannot represent that.**\n\n> **So the flow duration curve is the correct tool for ROR planning and the WRONG tool for reservoir sizing — which requires the chronological hydrograph, or a mass curve derived from it.**\n\n**WHAT THE CURVE'S SHAPE REVEALS:**\n\n| Shape | Meaning |\n|---|---|\n| **STEEP curve** ← | **Highly variable flow — flashy catchment, little groundwater or snow contribution** ← |\n| **FLAT curve** ← | **Well-regulated flow — large groundwater storage, snowmelt, or an upstream lake** ← |\n| **A flat TAIL on the right** ← | **A good sustained dry-season flow, which is what firm power depends on** ← |\n\n> **THE THIRD ROW IS WHAT A HYDROPOWER PLANNER LOOKS AT FIRST AND IT IS WORTH SAYING WHY: the right-hand end of the curve determines the firm power, and the firm power determines much of the revenue.**\n\n> **Two catchments with the same mean annual flow can have very different tails — one draining a snowfed high catchment with a sustained spring melt, the other a rain-fed hill catchment that nearly dries.**\n\n> **The snowfed one is much the better hydropower site, though the two look identical on an annual water balance.**\n\n> **So the mean annual flow is almost useless for site selection and the flow duration curve is almost sufficient, which is why the curve is drawn before anything else is decided.**\n\n**AND THE DESIGN DISCHARGE IS CHOSEN ON THIS CURVE, WHICH IS ITS OTHER MAIN USE:**\n\n| Consideration | Note |\n|---|---|\n| **A design flow at Q40 gives a large plant that runs at full output only 40 per cent of the time** ← | **High capacity, low capacity factor, high capital cost** ← |\n| **A design flow at Q80 gives a small plant that runs at full output most of the year** ← | **Low capacity, high capacity factor, low capital cost** ← |\n| **The optimum is where the marginal energy gained stops paying for the marginal capacity added** ← | ← |\n| **In Nepal, Q40 to Q50 is a common choice for an ROR scheme** ← | **Though it depends on the tariff structure and the curve's own shape** ← |\n\n> **The third row is the optimisation and it is genuinely an economic calculation rather than a rule: each increment of installed capacity costs a known amount and earns the energy lying under that slice of the curve.**\n\n> **Where the slice is thin — far to the left, where the high flows are rare — the energy earned is small and the capacity still costs full price.**\n\n> **So the curve is worked leftward until the increments stop paying, and where that point falls depends on the curve's steepness and on what the energy is worth.**",
@@ -2140,7 +2140,7 @@
       "marks": 1,
       "stem": "The CAPACITY FACTOR (plant factor) of a hydropower plant is defined as:",
       "options": [
-        "The ratio of the ACTUAL ENERGY generated in a period to the energy that would have been generated had the plant run at its INSTALLED CAPACITY throughout that period",
+        "The ratio of the actual energy generated in a period to the energy that would have been generated had the plant run at its installed capacity throughout that period",
         "Peak output divided by firm output",
         "Installed capacity divided by the maximum demand on the system",
         "The ratio of firm power to installed capacity"
@@ -2174,7 +2174,7 @@
       "stem": "In the sequence of studies for a hydropower project, a PRE-FEASIBILITY STUDY differs from a FEASIBILITY STUDY principally in that the pre-feasibility study:",
       "options": [
         "Includes the detailed design drawings and the tender documents",
-        "Uses EXISTING and rapidly-collected data to compare ALTERNATIVES and establish whether the project merits further study",
+        "Uses existing and rapidly-collected data to compare alternatives and establish whether the project merits further study",
         "Is carried out after construction has begun",
         "Is required only for projects above 100 MW"
       ],
@@ -2209,7 +2209,7 @@
         "The developer's own assessment of the likely impacts",
         "Whether the project is publicly or privately financed",
         "The length of the transmission line only",
-        "The project's INSTALLED CAPACITY, together with whether it lies in a protected area"
+        "The project's installed capacity, together with whether it lies in a protected area"
       ],
       "answerIndex": 3,
       "solution": "**The project's INSTALLED CAPACITY, together with whether it lies in a protected area** — with an IEE for smaller projects and a full EIA for larger ones or for any project in a sensitive area.\n\n**How the threshold system works:**\n\n| Element | Note |\n|---|---|\n| **The Environment Protection Act and its Rules SCHEDULE the projects requiring each level** ← | ← |\n| **Schedule 1 lists projects requiring a BRIEF ENVIRONMENTAL STUDY or an IEE** ← | **Initial Environmental Examination** ← |\n| **Schedule 2 lists those requiring a full EIA** ← | ← |\n| **For hydropower the criterion is INSTALLED CAPACITY in MW** ← | **With the thresholds set in the Rules and revised from time to time** ← |\n| **And ANY project within a national park, reserve or conservation area requires an EIA** ← | **Regardless of its size** ← |\n\n> **THE LAST ROW IS AN OVERRIDE THAT CATCHES DEVELOPERS OUT AND IT IS WORTH CHECKING EARLY: a 2 MW scheme that would otherwise need only an IEE requires a full EIA if it falls inside a protected area.**\n\n> **Nepal's protected areas cover a substantial part of the country and much of it is precisely the steep high-head terrain that suits hydropower.**\n\n> **So the boundary check is a first-day task on any site, and it changes the study's cost and duration by a large factor — an EIA takes a year or more where an IEE may take a few months.**\n\n> **Discovering the requirement late, after an IEE has been prepared, wastes that work entirely and delays the project by the EIA's full duration.**\n\n**THE DIFFERENCE BETWEEN THE TWO STUDIES IN PRACTICE:**\n\n| Aspect | IEE | EIA |\n|---|---|---|\n| **Scoping** | **Not required separately** ← | **A scoping document and Terms of Reference must be APPROVED first** ← |\n| **Public participation** | **A public notice and local consultation** ← | **Public notice, public hearing, and wider consultation** ← |\n| **Baseline data** | **Largely existing data with limited field survey** ← | **A full seasonal baseline — often a year's data** ← |\n| **Approving authority** | **The concerned ministry** ← | **The Ministry of Forests and Environment** ← |\n| **Typical duration** | **A few months** ← | **A year or more** ← |\n\n> **THE THIRD ROW IS THE LARGEST DRIVER OF AN EIA'S DURATION AND IT IS THE ONE MOST OFTEN UNDERESTIMATED IN A PROJECT PROGRAMME: a seasonal biological baseline cannot be compressed.**\n\n> **Aquatic life, migratory fish, breeding birds and the seasonal use of the river by people all require observation across the year, and no amount of resource shortens it.**\n\n> **A programme that allows three months for an EIA has not understood this, and the project will wait.**\n\n> **The way to protect the programme is to start the baseline collection EARLY — during pre-feasibility, before the EIA is formally commissioned — so that when the study begins the data already exists.**\n\n> **That is a small expenditure made a year before it is needed, and it is one of the few ways to genuinely shorten a project's development period rather than merely compressing its later stages.**\n\n**AND THE ENVIRONMENTAL STUDY'S OUTPUT DESERVES A NOTE, SINCE ITS PURPOSE IS OFTEN MISCONCEIVED AS A PERMIT:**\n\n> **An approved EIA is not merely a clearance; it contains an ENVIRONMENTAL MANAGEMENT PLAN with commitments that become binding obligations.**\n\n> **Riparian releases, fish passage, spoil disposal locations, dust and noise limits, restoration of borrow areas, and a monitoring and reporting regime.**\n\n> **Those commitments cost money to honour and they must be in the project's budget and its contracts, not merely in its EIA report.**\n\n> **A common and serious failure is an EIA whose commitments were never transmitted to the construction contract — so the contractor is not required to do what the project promised, and the project is in breach through nobody's deliberate decision.**",
@@ -2239,7 +2239,7 @@
       "marks": 1,
       "stem": "A PUMPED STORAGE plant is best described as a scheme that:",
       "options": [
-        "PUMPS water from a lower to an upper reservoir using cheap off-peak energy and generates from it at peak",
+        "Pumps water from a lower to an upper reservoir using cheap off-peak energy and generates from it at peak",
         "Pumps groundwater to supplement a river's dry-season flow",
         "Uses a pump instead of a turbine to generate power",
         "Pumps water over a ridge into an adjacent, steeper catchment"
@@ -2273,7 +2273,7 @@
       "stem": "In Nepal's hydropower licensing regime administered by the Department of Electricity Development, a SURVEY LICENSE:",
       "options": [
         "Permits construction to begin while the studies are completed in parallel",
-        "Grants the exclusive right to INVESTIGATE a specified river reach for a limited period",
+        "Grants the exclusive right to investigate a specified river reach for a limited period",
         "Is issued only after the environmental study has been approved",
         "Grants the holder permanent water rights over the river reach"
       ],
@@ -2307,7 +2307,7 @@
       "options": [
         "The tailrace depth only",
         "The turbine's mechanical losses",
-        "ALL HYDRAULIC LOSSES in the water conveyance system",
+        "ALL hydraulic losses in the water conveyance system",
         "The generator's electrical losses"
       ],
       "answerIndex": 2,
@@ -2612,7 +2612,7 @@
       "stem": "In a structural drawing, a SECTION is distinguished from an ELEVATION in that a section:",
       "options": [
         "Is always drawn at a larger scale than an elevation",
-        "Shows the object as it would appear if CUT THROUGH along a specified plane",
+        "Shows the object as it would appear if cut through along a specified plane",
         "Shows only the foundations",
         "Is drawn in perspective rather than orthographically"
       ],
@@ -2677,7 +2677,7 @@
       "marks": 1,
       "stem": "In the DIMENSIONING of an engineering drawing, the fundamental rule is that:",
       "options": [
-        "Each dimension should be given ONCE ONLY, on the view that shows the feature most clearly",
+        "Each dimension should be given once only, on the view that shows the feature most clearly",
         "Every dimension should be given at least twice, for confirmation",
         "Dimensions should be given only in millimetres, never in metres",
         "All dimensions should be placed inside the outline of the object"
@@ -2711,7 +2711,7 @@
       "stem": "In an ISOMETRIC drawing, the three axes are drawn at:",
       "options": [
         "90 degrees to one another, as in an orthographic view",
-        "120 DEGREES apart, with the two horizontal axes each at 30 degrees to the horizontal and the vertical axis vertical",
+        "120 degrees apart, with the two horizontal axes each at 30 degrees to the horizontal and the vertical axis vertical",
         "30 degrees, 60 degrees and 90 degrees to the horizontal respectively",
         "Arbitrary angles chosen for the clearest appearance"
       ],
@@ -2745,7 +2745,7 @@
       "options": [
         "Only the drawing's title and the date",
         "The designer's signature alone",
-        "The drawing TITLE and NUMBER",
+        "The drawing title and number",
         "The company logo and the client's address"
       ],
       "answerIndex": 2,
@@ -2810,7 +2810,7 @@
       "stem": "BUILDING INFORMATION MODELLING (BIM) differs from conventional CAD principally in that BIM:",
       "options": [
         "Produces drawings more quickly but is otherwise the same",
-        "Builds a single coordinated MODEL of the asset in which elements carry DATA as well as geometry",
+        "Builds a single coordinated model of the asset in which elements carry data as well as geometry",
         "Can only be used for buildings, not for infrastructure",
         "Requires no training to use effectively"
       ],
@@ -2844,7 +2844,7 @@
       "options": [
         "Equal distance from a fixed reference point",
         "Equal ground slope",
-        "Equal ELEVATION above a datum",
+        "Equal elevation above a datum",
         "Equal soil bearing capacity"
       ],
       "answerIndex": 2,
@@ -2878,7 +2878,7 @@
         "The drawings always take precedence over the specification",
         "The contractor may choose whichever is cheaper to build",
         "The conflict may be ignored as both documents are advisory",
-        "The contract should state an ORDER OF PRECEDENCE among the documents"
+        "The contract should state an order of precedence among the documents"
       ],
       "answerIndex": 3,
       "solution": "**The contract should state an ORDER OF PRECEDENCE among the documents, and in its absence the conflict must be referred to the engineer for a decision** — since the documents are intended to be complementary, and a conflict indicates an error that someone must resolve.\n\n**How the documents divide the work between them:**\n\n| Document | Conveys |\n|---|---|\n| **DRAWINGS** ← | **WHERE things go, their geometry, dimensions and relationships** ← |\n| **SPECIFICATION** ← | **WHAT things are made of, and the standard of materials and workmanship** ← |\n| **BILL OF QUANTITIES** ← | **HOW MUCH of each item, for pricing and payment** ← |\n| **CONDITIONS OF CONTRACT** ← | **The parties' rights, obligations and procedures** ← |\n\n> **THE FIRST TWO ROWS DESCRIBE A DIVISION OF LABOUR THAT IS WORTH MAINTAINING DELIBERATELY: drawings show geometry and specifications state quality.**\n\n> **Putting specification text on a drawing — 'concrete to be grade 25' — duplicates the specification and creates exactly the conflict risk this question addresses.**\n\n> **When the specification is revised and the drawing note is not, the two disagree.**\n\n> **So the discipline is to keep each kind of information in one document only, and to reference rather than repeat — the same 'state it once' principle that governs dimensioning, applied at the level of the document set.**\n\n**A TYPICAL ORDER OF PRECEDENCE IS WORTH KNOWING SINCE IT IS FAIRLY STANDARD:**\n\n| Rank | Document |\n|---|---|\n| **1** | **The Contract Agreement** ← |\n| **2** | **Letter of Acceptance** ← |\n| **3** | **The Tender** ← |\n| **4** | **Particular Conditions** ← |\n| **5** | **General Conditions** ← |\n| **6** | **Specification** ← |\n| **7** | **Drawings** ← |\n| **8** | **Schedules and other documents** ← |\n\n> **THE SPECIFICATION RANKING ABOVE THE DRAWINGS IN MOST STANDARD FORMS SURPRISES PEOPLE AND IT IS WORTH KNOWING RATHER THAN ASSUMING THE REVERSE: many engineers assume drawings govern because drawings are what they work from.**\n\n> **In FIDIC and in most standard forms, the specification takes precedence.**\n\n> **The rationale is that the specification is the more carefully drafted contractual document, while drawings are revised frequently and may carry casual annotations.**\n\n> **So an engineer who assumes their drawing note overrides the specification may be wrong, and the safe course is to check the contract's own precedence clause rather than to rely on a general impression.**\n\n> **THE PRINCIPLE BEHIND ALL OF THIS DESERVES THE CLOSING NOTE AND IT MATTERS MORE THAN THE RANKING: the documents are intended to be COMPLEMENTARY and MUTUALLY EXPLANATORY.**\n\n> **A conflict between them is not a feature to be resolved by rule but an ERROR in the documents, and the precedence clause exists to prevent that error from halting the work while it is sorted out.**\n\n> **So invoking precedence should be a last resort, and the first response to a discovered conflict is to establish what was actually intended and to issue a clarification.**\n\n> **A contractor who proceeds on the precedence rule without raising the conflict, knowing the documents contradict one another, is on weak ground — most standard forms impose a duty to give notice of any error or discrepancy discovered, precisely so that these are resolved by decision rather than by rule.**",

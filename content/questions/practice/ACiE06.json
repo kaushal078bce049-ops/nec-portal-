@@ -13,7 +13,7 @@
         "The domestic demand alone",
         "Domestic and industrial demand only",
         "Domestic demand plus a fixed allowance of 20 per cent for everything else",
-        "DOMESTIC, INDUSTRIAL, INSTITUTIONAL and COMMERCIAL, and PUBLIC (civic) demands, together with an allowance for LOSSES and WASTAGE"
+        "Domestic, industrial, institutional and commercial, and public (civic) demands, together with an allowance for losses and wastage"
       ],
       "answerIndex": 3,
       "solution": "**DOMESTIC, INDUSTRIAL, INSTITUTIONAL and COMMERCIAL, and PUBLIC demands, together with an allowance for LOSSES and WASTAGE** — the losses commonly being the largest single item after domestic use.\n\n**The components, with typical figures for an Indian or Nepali town:**\n\n| Component | Typical allowance (litres per capita per day) |\n|---|---|\n| **DOMESTIC — drinking, cooking, bathing, washing, flushing** ← | **135 for a piped supply with sewerage; 70 to 100 without** ← |\n| **INDUSTRIAL** ← | **20 to 25, or computed separately for a major industry** ← |\n| **INSTITUTIONAL and COMMERCIAL — schools, offices, hospitals, hotels, markets** ← | **20 to 25** ← |\n| **PUBLIC (civic) — street washing, gardens, public fountains, public toilets** ← | **10 to 15** ← |\n| **FIRE fighting** ← | **1 to 5, though the demand is instantaneous rather than continuous** ← |\n| **LOSSES and WASTAGE — leakage, theft, unmetered use, meter error** ← | **15 to 25 per cent of the total — often the largest item after domestic use** ← |\n| **TOTAL** | **About 200 to 270 lpcd for a fully served town** ← |\n\n> **THE LOSSES IN THE SIXTH ROW ARE THE ITEM MOST WORTH THINKING ABOUT AND THEY ARE ROUTINELY UNDER-ESTIMATED IN DESIGN AND UNDER-ATTENDED IN OPERATION:**\n\n| Point | Note |\n|---|---|\n| **The design allowance of 15 to 25 per cent is a DESIGN target, not a description of reality** ← | ← |\n| **Actual NON-REVENUE WATER in many South Asian systems is 30 to 50 per cent** ← | **And in some Nepali towns higher still** ← |\n| **So a system designed for 20 per cent losses and operating at 45 per cent is short of water from the day it opens** ← | **The shortfall being invisible in the design and unmistakable at the tap** ← |\n\n> **THE THIRD ROW DESCRIBES A REAL AND COMMON OUTCOME AND IT LEADS TO AN IMPORTANT CONCLUSION ABOUT PRIORITIES: reducing losses is almost always cheaper than augmenting supply.**\n\n> **A town losing 40 per cent of its water can recover more supply by leak detection and repair than by building a new intake, at a fraction of the cost and without any new source, land acquisition or treatment capacity.**\n\n> **Yet augmentation is politically visible and leak repair is not, so the harder and cheaper option is regularly deferred in favour of the easier and dearer one.**\n\n> **This is one of the clearest instances in public infrastructure where the engineering judgment and the political incentive point in opposite directions, and it is worth being able to state the case plainly.**\n\n**HOW THE DOMESTIC FIGURE DIVIDES, WHICH IS USEFUL FOR JUDGING WHETHER AN ALLOWANCE IS REASONABLE:**\n\n| Use | Litres per capita per day |\n|---|---|\n| **Drinking** ← | **About 5 — a tiny fraction of the total** ← |\n| **Cooking** | **5** |\n| **Bathing** ← | **55 — the largest single domestic use** ← |\n| **WC flushing** ← | **30 — and this is why sewered towns need much more water than unsewered ones** ← |\n| **Washing clothes** | **20** |\n| **Washing utensils** | **10** |\n| **House cleaning** | **10** |\n| **TOTAL domestic** | **135** ← |\n\n> **THE DRINKING FIGURE IN THE FIRST ROW IS WORTH NOTING FOR THE PERSPECTIVE IT GIVES: only about 4 per cent of a domestic supply is actually drunk.**\n\n> **Everything else is used for washing, flushing and cleaning, for which drinking-quality water is not strictly necessary.**\n\n> **That observation is the basis of DUAL SUPPLY proposals — a treated supply for drinking and cooking and an untreated or reclaimed supply for flushing and irrigation — which are attractive in principle and rarely built, because two pipe networks cost far more than one and the risk of cross-connection is serious.**\n\n> **It is nevertheless the reason RAINWATER HARVESTING and greywater reuse are worth pursuing for the non-potable uses, since those uses account for the overwhelming majority of the demand and have no quality requirement to speak of.**",
@@ -43,7 +43,7 @@
       "marks": 1,
       "stem": "Among the methods of forecasting a town's future population, the GEOMETRIC INCREASE method:",
       "options": [
-        "Assumes a constant PERCENTAGE rate of growth, so the population grows exponentially",
+        "Assumes a constant percentage rate of growth, so the population grows exponentially",
         "Assumes a constant absolute increase in each decade",
         "Assumes the rate of increase itself changes by a constant amount each decade",
         "Fits an S-shaped curve approaching a saturation population"
@@ -77,7 +77,7 @@
       "stem": "The DESIGN PERIOD adopted for the various components of a water supply scheme differs from one component to another. The reason a PUMPING PLANT is given a shorter design period than a STORAGE DAM or a transmission main is that:",
       "options": [
         "Pumps are more likely to be stolen",
-        "The PUMP has a short physical LIFE and can be REPLACED or ADDED TO cheaply and without disturbing anything else",
+        "The pump has a short physical life and can be replaced or added to cheaply and without disturbing anything else",
         "Pumping plant is not essential to the scheme",
         "Dams do not deteriorate"
       ],
@@ -146,7 +146,7 @@
         "Is caused by sodium and potassium salts",
         "Cannot be removed by any treatment",
         "Is measured in different units",
-        "Is caused by the BICARBONATES of calcium and magnesium and can be removed by simple BOILING"
+        "Is caused by the bicarbonates of calcium and magnesium and can be removed by simple boiling"
       ],
       "answerIndex": 3,
       "solution": "**It is caused by the BICARBONATES of calcium and magnesium and can be removed by simple BOILING** — whereas permanent hardness, from the sulphates and chlorides of those metals, cannot.\n\n**The two kinds:**\n\n| Type | Caused by | Removed by |\n|---|---|---|\n| **TEMPORARY (carbonate) hardness** ← | **Ca(HCO₃)₂ and Mg(HCO₃)₂ — the BICARBONATES** ← | **BOILING, which drives off CO₂ and precipitates the carbonate; or lime softening** ← |\n| **PERMANENT (non-carbonate) hardness** ← | **CaSO₄, MgSO₄, CaCl₂, MgCl₂ — sulphates and chlorides** ← | **Lime-SODA softening, or ion exchange (zeolite) — boiling has no effect** ← |\n\n> **THE MECHANISM BY WHICH BOILING WORKS IS WORTH KNOWING BECAUSE IT EXPLAINS BOTH THE NAME AND A FAMILIAR NUISANCE:**\n\n| Step | Note |\n|---|---|\n| **Bicarbonate is only stable in the presence of dissolved CO₂** ← | ← |\n| **Boiling drives the CO₂ out of solution** ← | ← |\n| **The bicarbonate then decomposes: Ca(HCO₃)₂ → CaCO₃ + H₂O + CO₂** ← | ← |\n| **Calcium carbonate is INSOLUBLE, so it precipitates** ← | **As the white SCALE in a kettle, a boiler or a hot water pipe** ← |\n| **The hardness has therefore been removed from the water — onto the vessel** ← | **Which is the problem: the same reaction that softens the water fouls the equipment** ← |\n\n> **THE LAST ROW IS THE PRACTICAL SIGNIFICANCE OF CARBONATE HARDNESS IN INDUSTRY AND IT IS WHY BOILER FEED WATER IS SOFTENED: scale in a boiler is a thermal insulator, so the tube metal overheats while the water on the other side stays cool.**\n\n> **A scale layer of a few millimetres can raise tube temperatures enough to cause failure, and it also wastes a substantial amount of fuel by impeding heat transfer.**\n\n> **So boiler water must be softened before use, and the softening must remove permanent hardness too — which is why lime-soda or ion exchange, and not merely deaeration, is used.**\n\n**THE UNITS AND CLASSIFICATION, WHICH ARE WORTH HAVING:**\n\n| Point | Note |\n|---|---|\n| **Hardness is expressed as mg/l of CaCO₃ EQUIVALENT** ← | **So that calcium and magnesium salts of different molecular weights can be added together** ← |\n| **Soft** | **Below 75 mg/l** ← |\n| **Moderately hard** | **75 to 150 mg/l** ← |\n| **Hard** | **150 to 300 mg/l** ← |\n| **Very hard** | **Above 300 mg/l** ← |\n| **NDWQS limit for drinking water in Nepal** ← | **500 mg/l as CaCO₃ — a generous limit, hardness being an aesthetic and economic nuisance rather than a health hazard** ← |\n\n> **THE LAST ROW IS THE POINT THAT PUTS HARDNESS IN PERSPECTIVE AND IS OFTEN MISUNDERSTOOD: hard water is not unhealthy.**\n\n> **There is no established health harm from hardness at ordinary levels, and some epidemiological evidence suggests a modest cardiovascular benefit from calcium and magnesium in drinking water.**\n\n> **What hardness does is waste SOAP — reacting with it to form an insoluble scum instead of a lather — deposit scale in pipes, kettles and heaters, stain fittings, and spoil laundry.**\n\n> **So softening a public supply is an economic and amenity decision rather than a public health one, and it is justified by the soap and the scale it saves rather than by any disease it prevents.**\n\n> **That is quite different from the treatment of turbidity or bacteriological contamination, which are health matters, and it explains why the drinking water standard for hardness is set so much more loosely than for those parameters.**\n\n> **A useful corollary: in a scheme with limited resources, hardness removal is the item to defer, and disinfection is the item that cannot be.**",
@@ -176,7 +176,7 @@
       "marks": 1,
       "stem": "The ALKALINITY of water is important in water treatment principally because it:",
       "options": [
-        "Measures the water's capacity to NEUTRALISE ACID",
+        "Measures the water's capacity to neutralise acid",
         "Is a direct measure of the water's hardness",
         "Indicates the concentration of dissolved oxygen",
         "Determines the water's turbidity"
@@ -243,7 +243,7 @@
       "stem": "In the classification of water-related diseases, CHOLERA and TYPHOID are WATER-BORNE, whereas TRACHOMA and SCABIES are classified as WATER-WASHED. The distinction is that a water-washed disease is prevented principally by:",
       "options": [
         "Boiling the drinking water",
-        "Increasing the QUANTITY of water available for personal and domestic HYGIENE",
+        "Increasing the quantity of water available for personal and domestic hygiene",
         "Chlorinating the supply",
         "Filtering the water to remove the pathogen"
       ],
@@ -278,7 +278,7 @@
         "Immediate gastrointestinal illness",
         "Blue baby syndrome in infants",
         "Skin lesions and keratosis",
-        "DENTAL FLUOROSIS (mottling of the teeth) and"
+        "Dental fluorosis (mottling of the teeth) and"
       ],
       "answerIndex": 3,
       "solution": "**DENTAL FLUOROSIS (mottling of the teeth) and, at higher concentrations and longer exposure, SKELETAL FLUOROSIS** — while a DEFICIENCY of fluoride causes dental caries, so the acceptable range is narrow.\n\n**The dose-response relationship, which is unusual among water quality parameters:**\n\n| Fluoride concentration | Effect |\n|---|---|\n| **Below about 0.5 mg/l** ← | **Increased incidence of DENTAL CARIES (tooth decay) — a deficiency** ← |\n| **0.5 to 1.0 mg/l** ← | **The OPTIMUM — maximum protection against caries with no visible fluorosis** ← |\n| **1.0 to 1.5 mg/l** ← | **The permissible upper range; mild dental mottling may appear** ← |\n| **1.5 to 4 mg/l** ← | **DENTAL FLUOROSIS — brown mottling and pitting of the enamel; permanent and cosmetic** ← |\n| **Above about 4 to 10 mg/l, over years** ← | **SKELETAL FLUOROSIS — the fluoride is deposited in bone, causing stiffness, pain, calcification of ligaments and eventually crippling deformity** ← |\n\n> **THE FACT THAT BOTH TOO LITTLE AND TOO MUCH ARE HARMFUL MAKES FLUORIDE UNIQUE AMONG THE COMMON WATER QUALITY PARAMETERS AND IT IS THE POINT OF THE QUESTION:**\n\n> **For turbidity, arsenic, coliforms and nearly everything else, less is better and zero is ideal.**\n\n> **For fluoride there is an OPTIMUM, and the standard therefore has a lower bound in effect as well as an upper one.**\n\n> **This is why some countries deliberately ADD fluoride to supplies that are deficient — fluoridation — while others must remove it from supplies that have too much: DEFLUORIDATION.**\n\n> **The same element, the same public health objective, and opposite treatment processes, depending only on the source's natural concentration.**\n\n**THE OTHER OPTIONS ARE ALL REAL CONDITIONS AND WORTH DISTINGUISHING:**\n\n| Condition | Cause |\n|---|---|\n| **BLUE BABY SYNDROME (methaemoglobinaemia)** ← | **NITRATE, above about 45 to 50 mg/l — the nitrate is reduced to nitrite in an infant's gut, which converts haemoglobin to methaemoglobin and impairs oxygen transport** ← (option b) |\n| **SKIN LESIONS and KERATOSIS** ← | **ARSENIC — arsenicosis** ← (option c) |\n| **Immediate gastrointestinal illness** ← | **Bacteriological contamination, or an acute chemical dose** ← (option a) |\n| **Discolouration and staining of fittings and laundry** | **IRON and MANGANESE, above 0.3 and 0.1 mg/l** ← |\n| **Dental and skeletal fluorosis** ← | **FLUORIDE — this question** ← |\n\n> **THE NITRATE CONDITION IN THE FIRST ROW DESERVES A NOTE BECAUSE IT SPECIFICALLY THREATENS INFANTS AND NOT ADULTS, which is unusual: an adult's stomach is acidic enough to prevent the bacterial reduction of nitrate to nitrite, and an adult's enzyme system reconverts any methaemoglobin formed.**\n\n> **A young infant's stomach is less acidic and its enzyme system immature, so the reduction proceeds and the methaemoglobin accumulates.**\n\n> **Hence a nitrate concentration entirely harmless to the rest of the household can be dangerous to a bottle-fed baby — and the danger is greatest where the formula is MADE UP with the water, since that is the infant's whole fluid intake.**\n\n> **Nitrate in groundwater usually indicates contamination from sewage, latrines or fertiliser, so a high nitrate reading is also a warning that the well may be bacteriologically contaminated — which makes it doubly significant as an indicator.**\n\n> **THE DEFLUORIDATION METHODS, FOR COMPLETENESS: the NALGONDA technique — coagulation with alum and lime followed by settling — is the cheapest and most widely used in South Asia; activated alumina adsorption, bone char and reverse osmosis are the alternatives.**\n\n> **All of them are more troublesome than the alternative of BLENDING with a low-fluoride source or switching source entirely, which is why the first response to a fluoride problem is always to look for another well rather than to build a treatment plant.**",
@@ -308,7 +308,7 @@
       "marks": 1,
       "stem": "Compared with a surface water source, GROUNDWATER is generally characterised by:",
       "options": [
-        "LOWER turbidity and bacteriological contamination but HIGHER dissolved mineral content",
+        "Lower turbidity and bacteriological contamination but higher dissolved mineral content",
         "Higher turbidity and lower dissolved solids",
         "Greater seasonal variation in both quality and quantity",
         "A higher dissolved oxygen content"
@@ -343,7 +343,7 @@
       "options": [
         "Line the spring's outlet channel with concrete",
         "Chlorinate the spring water at its point of emergence",
-        "Construct a SPRING BOX enclosing the point of emergence",
+        "Construct a spring box enclosing the point of emergence",
         "Deepen the spring by excavation until the flow increases"
       ],
       "answerIndex": 2,
@@ -375,7 +375,7 @@
       "stem": "COLLOIDAL impurities in water are distinguished from suspended and dissolved impurities in that colloids:",
       "options": [
         "Can be removed by plain sedimentation within a few hours",
-        "Are too FINE to settle out in any practicable time and carry a surface ELECTRICAL CHARGE that keeps them mutually repelling",
+        "Are too fine to settle out in any practicable time and carry a surface electrical charge that keeps them mutually repelling",
         "Are removed by boiling",
         "Consist entirely of dissolved salts"
       ],
@@ -410,7 +410,7 @@
         "Increases the reservoir's storage capacity",
         "Reduces the water's hardness",
         "Has no effect on treatment, being purely an ecological matter",
-        "Produces ALGAL BLOOMS that cause TASTE and ODOUR"
+        "Produces algal blooms that cause taste and odour"
       ],
       "answerIndex": 3,
       "solution": "**It produces ALGAL BLOOMS that cause TASTE and ODOUR, CLOG the filters, consume chlorine, may release TOXINS, and on dying deplete the DISSOLVED OXYGEN** — which in turn releases iron, manganese and phosphorus from the bed sediments.\n\n**The process:**\n\n| Step | Note |\n|---|---|\n| **NUTRIENTS — chiefly PHOSPHORUS, and also nitrogen — enter the water body** ← | **From sewage, detergents, fertiliser runoff and animal waste** ← |\n| **Algae and aquatic plants multiply explosively** ← | **A BLOOM, often visible as a green scum** ← |\n| **The bloom shades the deeper water, and eventually the algae DIE** ← | ← |\n| **Their decomposition CONSUMES dissolved oxygen** ← | **Which can drive the lower layers ANOXIC** ← |\n| **Anoxic conditions at the bed RELEASE iron, manganese and more PHOSPHORUS from the sediment** ← | **Which feeds the next bloom — a self-sustaining cycle** ← |\n| **Fish and other aerobic life die** ← | ← |\n\n> **THE FEEDBACK IN THE FIFTH ROW IS WHAT MAKES EUTROPHICATION SO DIFFICULT TO REVERSE AND IT IS WORTH UNDERSTANDING: once a lake has become eutrophic, its OWN SEDIMENTS become a nutrient source.**\n\n> **Phosphorus accumulated in the bed over years is bound to iron oxides while the water above is oxygenated.**\n\n> **When the bed goes anoxic, that iron is reduced and the phosphorus is released back into the water — so the lake fertilises itself.**\n\n> **This is called INTERNAL LOADING, and it means that cutting off the external nutrient supply may not restore the lake for many years, because the accumulated store must be exhausted first.**\n\n> **The practical consequence is that eutrophication is far cheaper to PREVENT than to cure, and that the time to act is before the bloom rather than after it.**\n\n**THE TREATMENT PROBLEMS ALGAE CAUSE, WHICH IS THE ENGINEER'S IMMEDIATE CONCERN:**\n\n| Problem | Note |\n|---|---|\n| **TASTE and ODOUR** ← | **Geosmin and MIB, produced by blue-green algae, are detectable at nanogram concentrations and are the commonest cause of consumer complaint** ← |\n| **Filter CLOGGING** ← | **Algal cells and filaments blind a rapid sand filter quickly, shortening the run between backwashes drastically** ← |\n| **High CHLORINE demand** ← | **The organic matter consumes disinfectant, so more must be added to leave a residual** ← |\n| **DISINFECTION BY-PRODUCTS** ← | **The organic matter reacts with chlorine to form trihalomethanes, which are themselves a health concern** ← |\n| **CYANOTOXINS** ← | **Some blue-green algae release toxins (microcystin) that conventional treatment does not remove** ← |\n| **pH rise during the day** ← | **Photosynthesis strips CO₂, raising the pH and upsetting the coagulation** ← |\n\n> **THE FOURTH ROW CONTAINS A GENUINELY AWKWARD DILEMMA AND IT IS WORTH STATING BECAUSE IT IS COUNTER-INTUITIVE: treating an organically rich water with more chlorine creates a different health risk.**\n\n> **Chlorine reacting with natural organic matter forms trihalomethanes and other by-products which are suspected carcinogens on long exposure.**\n\n> **So the operator faces a trade between microbiological risk, which is immediate and certain, and by-product risk, which is remote and statistical.**\n\n> **The resolution is not to reduce disinfection — the immediate risk always dominates — but to REMOVE THE ORGANIC MATTER BEFORE chlorinating, by good coagulation, by activated carbon, or by using an alternative disinfectant.**\n\n> **THE PREVENTIVE MEASURES ARE ALL IN THE CATCHMENT RATHER THAN THE PLANT, WHICH IS THE CLOSING POINT: intercept sewage before it reaches the reservoir, control fertiliser and animal waste in the catchment, maintain a vegetated buffer strip around the water body, and where possible draw water from a DEPTH below the algal zone by means of a multi-level intake.**\n\n> **The multi-level intake is the one measure available to the engineer after the fact, and it is a valuable one: it allows the operator to select the best water available at any season — avoiding the surface bloom in summer and the anoxic bottom layer when the lake is stratified — which is why any reservoir intake worth building has more than one draw-off level.**",
@@ -440,7 +440,7 @@
       "marks": 1,
       "stem": "The removal of dissolved IRON from groundwater is normally achieved by:",
       "options": [
-        "AERATION to oxidise the soluble ferrous iron to insoluble ferric hydroxide",
+        "Aeration to oxidise the soluble ferrous iron to insoluble ferric hydroxide",
         "Ion exchange with a sodium zeolite",
         "Adding lime to raise the pH above 11",
         "Reverse osmosis"
@@ -475,7 +475,7 @@
       "options": [
         "Weighs the residue after evaporating a known volume",
         "Measures the depth at which a standard printed target ceases to be legible",
-        "Measures the intensity of light SCATTERED at 90 degrees to an incident beam",
+        "Measures the intensity of light scattered at 90 degrees to an incident beam",
         "Measures the electrical conductivity of the sample"
       ],
       "answerIndex": 2,
@@ -507,7 +507,7 @@
       "stem": "A RESIDUAL CHLORINE of 0.1 to 0.2 mg/l is required at the consumer's tap principally to:",
       "options": [
         "Improve the taste of the water",
-        "Demonstrate that the water was disinfected AND provide a continuing safeguard against any CONTAMINATION entering the distribution system between the plant and the tap",
+        "Demonstrate that the water was disinfected AND provide a continuing safeguard against any contamination entering the distribution system between the plant and the tap",
         "Prevent scale forming in the pipes",
         "Reduce the water's hardness"
       ],
@@ -542,7 +542,7 @@
         "A yield independent of the roof area",
         "Water requiring no treatment whatever",
         "A constant supply throughout the year",
-        "A yield proportional to the ROOF AREA and the RAINFALL"
+        "A yield proportional to the roof area and the rainfall"
       ],
       "answerIndex": 3,
       "solution": "**A yield proportional to the ROOF AREA and the RAINFALL, requiring STORAGE to bridge the dry season** — with the FIRST FLUSH needing to be diverted and the stored water still requiring disinfection.\n\n**The yield calculation:**\n\n| Element | Note |\n|---|---|\n| **Yield = roof PLAN area × rainfall × RUNOFF coefficient** ← | ← |\n| **The runoff coefficient is 0.8 to 0.9 for a metal or tiled roof** ← | **Lower for a thatched or porous roof, which absorbs and evaporates a substantial part** ← |\n| **A 100 m² roof in a place receiving 1,500 mm of rain yields about 120 to 135 m³ a year** ← | **100 × 1.5 × 0.85 = 127 m³** ← |\n| **Which at 20 lpcd would serve a family of five for about three and a half years' worth of that ration** ← | **So the annual volume is generally ample; the difficulty is entirely one of TIMING** ← |\n\n> **THE LAST ROW IS THE POINT ON WHICH RAINWATER HARVESTING TURNS AND IT IS WORTH STATING PLAINLY: the annual quantity is usually more than sufficient and the seasonal distribution is the problem.**\n\n> **In Nepal, some 80 per cent of the rain falls in four monsoon months, and the driest period may be five or six months long.**\n\n> **So the yield arrives when it is least needed and is absent when it is most needed — and the STORAGE required to bridge that gap is the whole cost of the system.**\n\n> **A tank to carry a family through a six-month dry season at 20 lpcd is about 18 m³, which is a substantial structure — and it is the tank, not the roof or the gutters, that determines whether the scheme is affordable.**\n\n> **This is why rainwater harvesting is often designed as a SUPPLEMENTARY source, reducing the demand on a stressed main supply during and after the monsoon, rather than as a sole source requiring full seasonal storage.**\n\n**THE QUALITY CONSIDERATIONS, WHICH ARE WHY OPTION (b) IS WRONG:**\n\n| Contaminant | Note |\n|---|---|\n| **BIRD and animal droppings on the roof** ← | **The principal bacteriological hazard, and it is a real one** ← |\n| **DUST, leaves, insects and debris** ← | ← |\n| **Roofing material itself** ← | **Asbestos, lead flashing, bitumen and some paints can contaminate; a metal or tile roof is preferred** ← |\n| **Atmospheric deposition** ← | **Near an industrial area or a busy road** ← |\n| **Growth within the TANK** ← | **Algae if light enters, and mosquito breeding if it is not sealed** ← |\n\n> **THE FIRST FLUSH DIVERTER IS THE SINGLE MOST EFFECTIVE QUALITY MEASURE AND ITS PRINCIPLE IS SIMPLE: the first few millimetres of rain wash the accumulated droppings and dust off the roof, and that water is by far the dirtiest.**\n\n> **Diverting the first one or two millimetres of each storm — a few tens of litres from a domestic roof — removes the great majority of the contamination for the loss of a very small part of the yield.**\n\n> **The device can be as simple as a vertical standpipe that fills first and is emptied manually, or a tipping bucket, and it costs almost nothing.**\n\n> **Its omission, or its failure to be emptied between storms, is the commonest reason a rainwater system delivers poor water — and since it requires a small routine action by the householder, it is a maintenance-dependent measure and must be explained rather than merely installed.**\n\n**THE OTHER ESSENTIALS OF A SOUND SYSTEM, IN BRIEF:**\n\n| Element | Note |\n|---|---|\n| **A leaf SCREEN on the gutter and the inlet** ← | ← |\n| **A DARK, SEALED tank with a screened overflow and vent** ← | **Excluding light stops algae; sealing excludes mosquitoes, which is important in dengue and malaria areas** ← |\n| **A DRAW-OFF above the tank floor, and a washout at the floor** ← | **So the settled sediment is not drawn into the supply** ← |\n| **Household DISINFECTION before drinking — boiling, chlorination or SODIS** ← | **Rainwater is not sterile and the tank is not a treatment plant** ← |\n| **A means of using the water within a reasonable time** ← | **Water stored for many months in a warm tank deteriorates** ← |\n\n> **The sealed tank in the second row deserves emphasis in a Nepali and South Asian context because of a hazard unconnected with drinking water: an open water storage tank is an ideal breeding site for Aedes mosquitoes, and dengue has spread widely in Nepal in recent years.**\n\n> **So a rainwater tank that is not properly screened can create a vector-borne disease risk while solving a water supply problem — an instance of the water-related insect vector category from the disease classification, arising directly from a public health intervention.**",
@@ -573,7 +573,7 @@
       "marks": 1,
       "stem": "In siting the INTAKE for a river water supply, the intake is best located:",
       "options": [
-        "On the OUTER bank of a bend",
+        "On the outer bank of a bend",
         "On the inner bank of a bend, where deposition keeps the bed level",
         "Immediately downstream of the town, where the flow is greatest",
         "At the centre of a straight reach, on the bed"
@@ -607,7 +607,7 @@
       "stem": "HDPE (high density polyethylene) pipe is particularly favoured for water supply in Nepal's hill areas because it:",
       "options": [
         "Withstands higher internal pressures than steel",
-        "Is LIGHT, FLEXIBLE and available in long coils",
+        "Is light, flexible and available in long coils",
         "Requires no bedding or cover",
         "Is immune to damage by rodents and by ultraviolet light"
       ],
@@ -641,7 +641,7 @@
       "options": [
         "Allows flow in one direction only",
         "Automatically releases air from the pipeline",
-        "Is operated to OPEN, CLOSE or THROTTLE the line at will",
+        "Is operated to open, close or throttle the line at will",
         "Reduces the downstream pressure to a set value"
       ],
       "answerIndex": 2,
@@ -675,7 +675,7 @@
         "Store water for the peak hourly demand",
         "Allow sediment to settle out of the flow",
         "Provide a point at which the pipeline can be disinfected",
-        "LIMIT the static head in the pipeline below it by exposing the water to ATMOSPHERE"
+        "Limit the static head in the pipeline below it by exposing the water to atmosphere"
       ],
       "answerIndex": 3,
       "solution": "**To LIMIT the static head in the pipeline below it by exposing the water to ATMOSPHERE** — so that a pipe of lower pressure rating can be used and the fittings and taps downstream are not over-pressurised.\n\n**The problem it solves:**\n\n| Step | Note |\n|---|---|\n| **A gravity scheme in the hills may have a source several hundred metres above the village** ← | **Which is what makes the scheme possible** ← |\n| **The STATIC head in a continuous pipeline equals that full elevation difference** ← | **300 m of elevation gives 30 bar of static pressure at the bottom when no water is flowing** ← |\n| **No ordinary HDPE or GI pipe, and certainly no tap or fitting, will withstand that** ← | ← |\n| **A BREAK PRESSURE TANK interrupts the hydraulic continuity** ← | **The water enters, its surface is at atmospheric pressure, and it leaves through a separate outlet** ← |\n| **So the static head below the tank is only the drop from THAT tank, not from the source** ← | ← |\n| **Tanks are placed at intervals to keep each reach's static head within the pipe's rating** ← | **Commonly every 60 to 100 m of fall** ← |\n\n> **THE 'STATIC' QUALIFICATION IN THE SECOND ROW IS THE POINT MOST WORTH UNDERSTANDING AND IT IS WHERE THE DANGER LIES: the pressure in a pipeline is greatest when NOTHING IS FLOWING.**\n\n> **When water is flowing, friction consumes much of the head, and the pressure at any point is the elevation difference MINUS the friction loss to that point — which may be modest.**\n\n> **When every tap is closed, the friction loss is zero and the pressure everywhere is the full static head.**\n\n> **So a pipeline can operate perfectly for months and burst at night when the last tap is closed — and a designer who checks the pressure under flowing conditions only has checked the wrong case.**\n\n> **The static head is always the governing case for pipe pressure rating, and it must be computed from the hydraulic grade line with NO flow.**\n\n**THE DESIGN OF THE TANK ITSELF:**\n\n| Feature | Note |\n|---|---|\n| **Small — its purpose is to break the pressure, not to store** ← | **A few hundred litres to a cubic metre is usual, giving a short detention** ← (which is why option a is wrong) |\n| **The INLET discharges above the water surface, or is otherwise vented** ← | **So that the hydraulic continuity is genuinely broken; a submerged inlet with no vent does not break the pressure** ← |\n| **The OUTLET is set above the floor, with a washout below it** ← | **So sediment can be removed without entering the supply** ← |\n| **An OVERFLOW sized for the full inflow** ← | **Since the tank will overflow whenever the downstream demand is less than the inflow, which is most of the time** ← |\n| **A watertight, lockable COVER and a screened vent** ← | **The tank is an opening into the supply and a point of contamination** ← |\n| **A float valve is sometimes fitted to stop the inflow when full** ← | **Which avoids wasting the source's water, but introduces a mechanism that can fail** ← |\n\n> **THE OVERFLOW IN THE FOURTH ROW IS AN ASPECT OF BREAK PRESSURE TANKS THAT IS OFTEN MISUNDERSTOOD AND HAS A REAL CONSEQUENCE: unless a float valve stops the inflow, the tank overflows continuously whenever demand is below the source's yield.**\n\n> **That is not a fault — the water was flowing down the hill anyway — but it means the overflow must be piped away properly to a safe discharge point.**\n\n> **An overflow allowed to discharge onto the ground beside the tank saturates the soil, and on a steep hillside a continuously saturated patch is precisely how a landslide begins.**\n\n> **So the overflow's discharge arrangement is a slope stability matter as much as a hydraulic one, and a break pressure tank that has quietly been irrigating a hillside for ten years is a recognised cause of failure of both the slope and the pipeline crossing it.**\n\n> **THE SECOND ROW'S WARNING IS WORTH REPEATING AS A CHECK: a tank whose inlet pipe is submerged and whose cover is sealed with no vent has NOT broken the pressure — the water column is continuous and the full static head is transmitted straight through it.**\n\n> **The break depends on a free water surface open to the atmosphere, and that is a detail to verify rather than assume.**",
@@ -706,7 +706,7 @@
       "stem": "The BALANCING (storage) capacity of a service reservoir is most rigorously determined by:",
       "options": [
         "Taking it as one-third of the maximum daily demand, as a rule of thumb",
-        "Plotting the CUMULATIVE inflow and the CUMULATIVE demand against time over the design day (a MASS DIAGRAM) and measuring the greatest vertical separation between them",
+        "Plotting the cumulative inflow and the cumulative demand against time over the design day (a mass diagram) and measuring the greatest vertical separation between them",
         "Multiplying the peak hourly demand by four hours",
         "Taking it as the volume required for fire fighting alone"
       ],
@@ -740,7 +740,7 @@
       "options": [
         "It requires a shorter total length of pipe",
         "It is simpler to design and to analyse",
-        "Water can reach any point by MORE THAN ONE ROUTE",
+        "Water can reach any point by more than ONE route",
         "It needs no valves"
       ],
       "answerIndex": 2,
@@ -772,7 +772,7 @@
       "stem": "In the HARDY CROSS method of analysing a looped water distribution network, the flows are adjusted iteratively until, in every loop:",
       "options": [
         "The velocity is the same in every pipe",
-        "The algebraic sum of the HEAD LOSSES around the loop is ZERO",
+        "The algebraic sum of the head losses around the loop is zero",
         "The diameter of every pipe is the same",
         "The total length of pipe in each loop is equal"
       ],
@@ -838,7 +838,7 @@
       "marks": 1,
       "stem": "THRUST BLOCKS are provided at bends, tees and dead ends of a pressurised water main in order to:",
       "options": [
-        "RESIST the UNBALANCED HYDRAULIC THRUST that arises wherever the flow changes direction or the pipe terminates",
+        "Resist the unbalanced hydraulic thrust that arises wherever the flow changes direction or the pipe terminates",
         "Support the weight of the pipe and its contents",
         "Prevent the pipe from floating when the ground is waterlogged",
         "Provide access for maintenance of the fitting"
@@ -872,7 +872,7 @@
       "marks": 1,
       "stem": "WATER HAMMER in a pumping main is most severe when:",
       "options": [
-        "A valve is closed RAPIDLY, or a pump STOPS suddenly",
+        "A valve is closed rapidly, or a pump stops suddenly",
         "The pump is started gradually",
         "The pipeline is very short and the velocity low",
         "An air valve is left open at a summit"
@@ -908,7 +908,7 @@
       "options": [
         "At the pump's maximum efficiency, whatever the pipeline",
         "At the shut-off head of the pump",
-        "Where the pump's HEAD-DISCHARGE characteristic INTERSECTS the SYSTEM (pipeline) characteristic",
+        "Where the pump's HEAD-DISCHARGE characteristic intersects the system (pipeline) characteristic",
         "At the point of maximum discharge the pump can deliver"
       ],
       "answerIndex": 2,
@@ -939,7 +939,7 @@
       "marks": 1,
       "stem": "CAVITATION in a centrifugal pump occurs when:",
       "options": [
-        "The absolute pressure at the impeller INLET falls to the water's VAPOUR PRESSURE",
+        "The absolute pressure at the impeller inlet falls to the water's vapour pressure",
         "The pump is run at too low a speed",
         "Air is deliberately introduced to prime the pump",
         "The delivery head is lower than the pump's rating"
@@ -976,7 +976,7 @@
         "Deliver twice the discharge at the same head",
         "Deliver the same head and the same discharge as one pump alone",
         "Deliver half the head and half the discharge",
-        "Deliver approximately TWICE the HEAD at a given discharge"
+        "Deliver approximately twice the head at a given discharge"
       ],
       "answerIndex": 3,
       "solution": "**Deliver approximately TWICE the HEAD at a given discharge** — whereas in parallel they deliver approximately twice the DISCHARGE at a given head.\n\n**The two arrangements:**\n\n| Arrangement | Effect | Used when |\n|---|---|---|\n| **SERIES — the delivery of one feeds the suction of the next** ← | **HEADS ADD at the same discharge** ← | **The HEAD required exceeds what one pump can generate — a high lift** ← |\n| **PARALLEL — both draw from the same suction and deliver into the same main** ← | **DISCHARGES ADD at the same head** ← | **The FLOW required exceeds what one pump can deliver, or standby and part-load flexibility is wanted** ← |\n\n> **THE WORD 'APPROXIMATELY' IN BOTH CASES IS IMPORTANT AND IT IS THE PART MOST OFTEN MISSED, so it is worth explaining why the doubling is never exact:**\n\n| Point | Note |\n|---|---|\n| **The combined curve is drawn by adding heads (series) or flows (parallel) at each point** ← | ← |\n| **But the OPERATING POINT is still the intersection with the SYSTEM curve** ← | **And the system curve has not changed** ← |\n| **In PARALLEL, the higher flow means MORE FRICTION in the common main** ← | **So the system curve rises, and the combined operating point is at a HIGHER head and LESS than twice the flow** ← |\n| **The steeper the system curve, the LESS parallel pumping gains** ← | **On a friction-dominated system, adding a second pump in parallel may increase the flow by only 30 or 40 per cent** ← |\n| **In SERIES, the higher head means more flow, hence more friction, so again less than the arithmetic sum** ← | ← |\n\n> **THE FOURTH ROW IS THE PRACTICAL WARNING AND IT IS A COMMON DISAPPOINTMENT IN OPERATION: a utility installs a second identical pump in parallel expecting to double its output, and obtains a third more.**\n\n> **The reason is entirely in the pipeline: doubling the flow quadruples the friction loss, which consumes most of the second pump's contribution.**\n\n> **So a parallel pump is effective on a system dominated by STATIC lift, where the system curve is flat, and disappointing on one dominated by friction.**\n\n> **A utility wanting to double its delivery through an existing main must usually enlarge the main as well as adding a pump — and the main is the greater part of the cost, which is why 'just add another pump' rarely works as hoped.**\n\n**THE PRACTICAL CONSIDERATIONS FOR EACH ARRANGEMENT:**\n\n| Arrangement | Considerations |\n|---|---|\n| **SERIES** | **The second pump's casing must withstand the FULL combined pressure — its suction is already at the first pump's delivery pressure** ← |\n| ← | **A MULTISTAGE pump is series operation within one casing, and is the normal solution for a high head** ← |\n| ← | **If one pump fails, the other cannot deliver against the full head, so there is no partial redundancy** ← |\n| **PARALLEL** | **Each pump needs its own NON-RETURN valve, or the running pump will drive water backwards through the idle one** ← |\n| ← | **Pumps of DISSIMILAR characteristics in parallel can conflict — the weaker one may deliver nothing, or be driven backwards** ← |\n| ← | **Gives genuine STANDBY and allows the number running to be matched to the demand** ← |\n\n> **THE NON-RETURN VALVE IN THE FOURTH ROW IS AN ABSOLUTE REQUIREMENT AND ITS OMISSION HAS AN IMMEDIATE CONSEQUENCE: with two pumps on a common delivery and one running, the delivery pressure acts on the idle pump's outlet.**\n\n> **Water then flows backwards through the idle pump, spinning its impeller in reverse — so the running pump is pumping in a circle and delivering far less than it should, while the idle pump is being driven as a turbine.**\n\n> **The utility sees a pump running and an inexplicably low delivery, and the cause is not visible from outside.**\n\n> **THE DISSIMILAR-PUMP WARNING IN THE FIFTH ROW IS THE OTHER COMMON ERROR AND IT ARISES NATURALLY OVER TIME: pumps are replaced one at a time as they fail, and a station that began with three identical sets ends with three different ones.**\n\n> **If their shut-off heads differ substantially, the pump with the lower shut-off head cannot deliver at all when the stronger one is running — its non-return valve simply stays shut.**\n\n> **So it consumes power, gets hot, and delivers nothing, while the operator believes two pumps are working.**\n\n> **Matching pump characteristics when replacing one of a parallel set is therefore not a preference but a requirement, and it is worth recording the original curves in the station so the requirement can be met years later.**",
@@ -1007,7 +1007,7 @@
       "stem": "A DISTRICT METERED AREA (DMA) is established in a water distribution network in order to:",
       "options": [
         "Increase the pressure available to consumers in that area",
-        "ISOLATE a discrete zone hydraulically and METER all flow into and out of it",
+        "Isolate a discrete zone hydraulically and meter all flow into and out of it",
         "Allow the area to be supplied from a different source",
         "Provide a point at which the water can be re-chlorinated"
       ],
@@ -1041,7 +1041,7 @@
       "options": [
         "An excessive pressure to develop in the mains",
         "Air to be drawn into the pipeline at high points",
-        "BACKFLOW of contaminated water into the potable supply",
+        "Backflow of contaminated water into the potable supply",
         "Loss of the chlorine residual by chemical reaction"
       ],
       "answerIndex": 2,
@@ -1072,7 +1072,7 @@
       "marks": 1,
       "stem": "In a town water distribution network, both a MINIMUM and a MAXIMUM pressure are specified. The MAXIMUM is limited because excessive pressure:",
       "options": [
-        "INCREASES LEAKAGE and the frequency of BURSTS, wastes water at every tap",
+        "Increases leakage and the frequency of bursts, wastes water at every tap",
         "Reduces the water's chlorine residual",
         "Causes the water to become turbid",
         "Prevents the water reaching upper floors"
@@ -1108,7 +1108,7 @@
         "The meter that records the consumer's consumption",
         "The valve on the consumer's side of the boundary",
         "The pipe connecting the meter to the house",
-        "The SMALL VALVE or fitting tapped directly into the distribution main"
+        "The small valve or fitting tapped directly into the distribution main"
       ],
       "answerIndex": 3,
       "solution": "**The SMALL VALVE or fitting tapped directly into the distribution main**, forming the start of the service connection and allowing it to be shut off at the main.\n\n**The parts of a house service connection, in order from the main:**\n\n| Component | Function |\n|---|---|\n| **FERRULE** ← | **Tapped into the main; the connection's origin, and it can be closed to isolate the service without shutting the main** ← |\n| **GOOSE NECK (a short flexible or curved length)** ← | **An S-shaped bend immediately after the ferrule, which absorbs relative movement between the main and the service pipe** ← |\n| **SERVICE (communication) PIPE** ← | **Running from the main to the property boundary** ← |\n| **STOP COCK at the boundary, in a surface box** ← | **The utility's isolating valve, and the usual limit of its responsibility** ← |\n| **WATER METER** ← | **Recording the consumption** ← (option a) |\n| **Consumer's STOP VALVE** ← | **Under the consumer's control** ← (option b) |\n| **SUPPLY PIPE within the property** ← | ← (option c) |\n\n> **THE GOOSE NECK IN THE SECOND ROW IS THE COMPONENT WHOSE PURPOSE IS LEAST OBVIOUS AND MOST WORTH KNOWING: it is a deliberate loop of slack in the pipe.**\n\n> **A main and a service pipe move independently — the main is large and rigid and settles with the road, while the service pipe is small and is disturbed by the footway, by the property's own settlement and by traffic vibration.**\n\n> **A rigid connection between them concentrates that relative movement at the tapping, which is a small threaded hole in the main's wall and the weakest point in the arrangement.**\n\n> **The goose neck absorbs the movement in bending instead, so the tapping is not stressed.**\n\n> **Service connection leaks at the ferrule are among the commonest leaks in any network, and a missing or straightened goose neck is a frequent reason.**\n\n**WHY SERVICE CONNECTIONS MATTER MORE THAN THEIR SIZE SUGGESTS, WHICH IS THE PRACTICAL POINT:**\n\n| Point | Note |\n|---|---|\n| **A network has ONE service connection per property — thousands of them** ← | **Each with a tapping, a ferrule, joints, a stopcock and a meter** ← |\n| **So the great majority of the network's JOINTS and fittings are in its service connections** ← | ← |\n| **And a large share of total LEAKAGE is there rather than in the mains** ← | **Commonly half or more in an older network** ← |\n| **Yet they are small, shallow, numerous and individually trivial** ← | **So they receive far less attention than a trunk main** ← |\n| **Their leaks are also the hardest to find** ← | **Small flows, often running into a drain or a soakaway without surfacing** ← |\n\n> **THE THIRD ROW IS THE CONCLUSION THAT SHOULD DIRECT A LEAKAGE PROGRAMME AND IT IS ROUTINELY MISSED: most of the water lost is lost from the smallest pipes.**\n\n> **A programme concentrating on the mains, which are visible, mapped and substantial, may address the minority of the loss.**\n\n> **The service connections, which are unmapped, undocumented and often installed informally over decades, hold the majority — and the only economic way to deal with them in a badly deteriorated network is often wholesale REPLACEMENT of the service pipes rather than repair.**\n\n> **That is expensive and unglamorous and it is frequently what the technical evidence points to.**\n\n**A CLOSING NOTE ON METERING, SINCE IT SITS IN THIS LIST:**\n\n| Point | Note |\n|---|---|\n| **A meter records CONSUMPTION and thereby permits volumetric charging** ← | ← |\n| **Metered consumers use substantially LESS water than unmetered ones** ← | **Typically 15 to 30 per cent less, and the reduction persists** ← |\n| **Meters also localise loss** ← | **The difference between the zone's inflow and the sum of its meters is the loss** ← |\n| **But a meter UNDER-registers at very low flows** ← | **So a slow leak inside the property may pass unrecorded, and a network's apparent loss includes meter error** ← |\n| **And a meter is a maintenance liability** ← | **It must be read, tested, and replaced periodically** ← |\n\n> **The second row is the strongest argument for metering and it is a behavioural rather than a technical one: a consumer who pays by volume uses less, and continues to use less.**\n\n> **That reduction is obtained without any works, and it is the largest single demand-side saving available to a utility — which is why metering is treated as a supply augmentation measure as much as a revenue measure.**",
@@ -1139,7 +1139,7 @@
       "stem": "The conventional treatment train for a turbid surface water is, in the correct order:",
       "options": [
         "Filtration, coagulation, sedimentation, disinfection",
-        "SCREENING, then AERATION where required, then COAGULATION and FLOCCULATION, then SEDIMENTATION, then FILTRATION, then DISINFECTION",
+        "Screening, then aeration where required, then coagulation and flocculation, then sedimentation, then filtration, then disinfection",
         "Disinfection, screening, sedimentation, filtration",
         "Coagulation, filtration, sedimentation, screening, disinfection"
       ],
@@ -1174,7 +1174,7 @@
         "Is placed after the sedimentation tank",
         "Is made of woven wire mesh",
         "Removes dissolved impurities",
-        "Has openings of the order of 50 to 100 mm and stops LARGE floating objects"
+        "Has openings of the order of 50 to 100 mm and stops large floating objects"
       ],
       "answerIndex": 3,
       "solution": "**It has openings of the order of 50 to 100 mm and stops LARGE floating objects — logs, branches and animals** — while a fine screen with openings of 5 to 20 mm removes smaller debris, leaves and fish.\n\n**The screens, in the order water meets them:**\n\n| Screen | Opening | Removes |\n|---|---|---|\n| **TRASH RACK / COARSE screen (bar rack)** ← | **50 to 100 mm** ← | **Logs, branches, drifting timber, dead animals, large rubbish** ← |\n| **MEDIUM screen** | **20 to 50 mm** | **Smaller branches, plastic, rags** ← |\n| **FINE screen** ← | **5 to 20 mm** ← | **Leaves, twigs, fish, weed** ← |\n| **MICROSTRAINER (rotating drum, 20 to 60 micron fabric)** ← | **Microns** ← | **ALGAE and fine suspended matter, in place of or ahead of coagulation on a low-turbidity water** ← |\n\n> **THE PROGRESSION FROM COARSE TO FINE IS ESSENTIAL AND ITS LOGIC IS THE SAME AS FOR THE TREATMENT TRAIN AS A WHOLE: each screen protects the next.**\n\n> **A fine screen presented with a log would be destroyed by it; a coarse screen alone would pass everything a pump could choke on.**\n\n> **So the screens are graded, and the coarse one takes the mechanical punishment while the fine one does the detailed work.**\n\n**THE DESIGN CONSIDERATIONS FOR A SCREEN, WHICH ARE MORE INTERESTING THAN THE OPENING SIZES:**\n\n| Consideration | Note |\n|---|---|\n| **The approach VELOCITY must be low — about 0.6 to 1.0 m/s** ← | **Too high and the debris is pressed against the bars and cannot be raked off; too low and silt deposits in the approach channel** ← |\n| **The screen is INCLINED at 45 to 60 degrees to the horizontal** ← | **So that the rake can drag the debris up and out, and so the effective opening area is greater than the channel's section** ← |\n| **A HEAD LOSS develops across the screen and INCREASES as it blocks** ← | **Which is why the differential head is monitored — it is the indicator that cleaning is due** ← |\n| **The screen must be CLEANABLE, by hand rake or mechanically** ← | ← |\n| **The debris must go SOMEWHERE** ← | **A screening handling and disposal arrangement is part of the design, not an afterthought** ← |\n| **A blocked screen can cause the upstream level to rise and OVERTOP the channel** ← | **Or, on an intake, starve the plant entirely** ← |\n\n> **THE THIRD ROW IS THE MOST USEFUL OPERATIONAL POINT AND IT IS THE BASIS OF SCREEN CONTROL: the head loss across a screen is a direct measure of how blocked it is.**\n\n> **A clean screen loses a few centimetres; a blocked one can lose a metre or more.**\n\n> **So a simple pair of level gauges either side of the screen tells the operator when to clean it, and on a mechanically raked screen that differential is what triggers the rake automatically.**\n\n> **It is a good example of a measurement that requires no instrument beyond a scale on a wall and yet controls the process reliably.**\n\n> **THE SIXTH ROW DESCRIBES THE FAILURE THAT MAKES SCREENS IMPORTANT OUT OF PROPORTION TO THEIR SIMPLICITY, and it is a monsoon problem: a river in flood carries an extraordinary quantity of floating debris.**\n\n> **A screen that copes all year can be blanketed within minutes by a raft of vegetation, and the plant's inflow stops at exactly the moment the river is at its most abundant.**\n\n> **So screen capacity and cleaning arrangements must be sized for the flood condition and not for the average, and a manually raked screen on a Himalayan river in the monsoon needs staff present rather than a periodic visit.**\n\n> **The corollary is that a plant should have some means of continuing briefly when the screens block — a bypass with a coarser screen, or storage ahead of the plant — because the alternative is an interruption to the town's supply caused by an excess rather than a shortage of water, which is both avoidable and hard to explain.**\n\nLogs, branches and animals — while a fine screen with openings of 5 to 20 mm removes smaller debris, leaves and fish.",
@@ -1240,7 +1240,7 @@
       "options": [
         "Replace the primary coagulant entirely",
         "Raise the pH into the optimum range for coagulation",
-        "STRENGTHEN and enlarge the floc so that it settles faster and resists breaking up",
+        "Strengthen and enlarge the floc so that it settles faster and resists breaking up",
         "Disinfect the water before filtration"
       ],
       "answerIndex": 2,
@@ -1272,7 +1272,7 @@
       "stem": "The JAR TEST is carried out in a water treatment plant in order to:",
       "options": [
         "Measure the turbidity of the raw water",
-        "Determine the OPTIMUM COAGULANT DOSE and pH for the water being treated on that day",
+        "Determine the optimum coagulant dose and pH for the water being treated on that day",
         "Test the strength of the concrete in the treatment tanks",
         "Measure the residual chlorine in the treated water"
       ],
@@ -1307,7 +1307,7 @@
         "It determines the tank's structural thickness",
         "It fixes the coagulant dose required",
         "It measures the chlorine demand of the water",
-        "It measures the total number of PARTICLE COLLISIONS the water experiences"
+        "It measures the total number of particle collisions the water experiences"
       ],
       "answerIndex": 3,
       "solution": "**It measures the total number of PARTICLE COLLISIONS the water experiences** — enough collisions being needed to grow the floc, while too high a G tears the floc apart.\n\n**The two quantities and their roles:**\n\n| Quantity | Meaning | Typical value |\n|---|---|---|\n| **G — the VELOCITY GRADIENT, in s⁻¹** ← | **The rate of shear in the water; it measures how vigorously adjacent parcels of water move past one another, and hence the RATE of particle collisions** ← | **20 to 75 s⁻¹ for flocculation** ← |\n| **t — the DETENTION time** ← | **How long the water is subjected to that shear** ← | **20 to 40 minutes** ← |\n| **Gt — their product, dimensionless** ← | **The TOTAL number of collisions — the cumulative opportunity for floc growth** ← | **30,000 to 150,000** ← |\n| **G for RAPID mixing (coagulation), by contrast** ← | **Very much higher** ← | **500 to 1,000 s⁻¹ for 30 to 60 seconds** ← |\n\n> **THE CONTRAST BETWEEN THE FIRST AND FOURTH ROWS QUANTIFIES THE DISTINCTION BETWEEN COAGULATION AND FLOCCULATION AND IT IS THE MOST USEFUL THING IN THIS ANSWER: rapid mixing uses a G an order of magnitude higher for a time two orders of magnitude shorter.**\n\n> **High G disperses the coagulant instantly, which is what coagulation needs.**\n\n> **Low G for a long period grows the floc gently, which is what flocculation needs.**\n\n> **And the reason flocculation cannot simply use a high G to save time is the second half of the answer: shear both BUILDS and BREAKS floc.**\n\n**THE COMPETING EFFECTS, WHICH ARE THE WHOLE OF FLOCCULATOR DESIGN:**\n\n| Effect of increasing G | Note |\n|---|---|\n| **MORE collisions per second, so faster floc growth** ← | **The beneficial effect** ← |\n| **But greater SHEAR STRESS on the flocs already formed** ← | **The harmful effect** ← |\n| **Below about 20 s⁻¹, collisions are too few and flocculation is impracticably slow** ← | ← |\n| **Above about 75 s⁻¹, the flocs are torn apart as fast as they grow** ← | **And beyond that the floc size actually DECREASES with more energy** ← |\n| **So there is an OPTIMUM G, and it is a maximum rather than a direction** ← | ← |\n\n> **THE FIFTH ROW IS THE STRUCTURAL FEATURE OF THE PROBLEM AND IT RECURS THROUGHOUT THIS SUBJECT: more energy is not better beyond a point.**\n\n> **This is why a flocculator's paddles turn slowly — a tip speed of only 0.2 to 0.7 m/s — and why a flocculator that is stirred too vigorously produces a fine, slow-settling floc that looks like a coagulation failure.**\n\n> **An operator diagnosing poor floc should therefore check the flocculator SPEED as well as the chemical dose, and reducing the speed is as likely to help as increasing the dose.**\n\n**TAPERED FLOCCULATION IS THE REFINEMENT THAT FOLLOWS FROM ALL THIS, AND IT IS WORTH KNOWING:**\n\n| Point | Note |\n|---|---|\n| **Early in the flocculator, the particles are SMALL and numerous** ← | **They are not fragile, and they need many collisions — so a HIGH G is appropriate** ← |\n| **Later, the flocs are LARGE and delicate** ← | **They break easily, and need only gentle contact — so a LOW G is appropriate** ← |\n| **So the flocculator is divided into compartments with DECREASING paddle speeds** ← | **Perhaps 50, 35 and 20 s⁻¹ in three stages** ← |\n| **This grows the floc faster AND delivers it intact** ← | **Better than any single uniform G could achieve** ← |\n\n> **Tapered flocculation is a genuinely elegant piece of process design: it recognises that the optimum condition CHANGES as the process proceeds, and it varies the condition to match rather than compromising on a single average.**\n\n> **The same idea appears in the flow from the flocculator to the clarifier, which must be as gentle as the last flocculation stage — so the connecting channel is sized for a low velocity and the inlet to the clarifier is baffled rather than being a jet.**\n\n> **A plant with beautifully tapered flocculation and a sharp bend or a pump between the flocculator and the clarifier has destroyed its floc on the way, and the clarifier will underperform for a reason that no examination of either unit would reveal.**",
@@ -1339,7 +1339,7 @@
       "options": [
         "Flocculation and filtration are carried out in one structure",
         "Coagulation and disinfection occur simultaneously",
-        "FLOCCULATION takes place in a central compartment and SEDIMENTATION in a surrounding annular zone of the same circular tank",
+        "Flocculation takes place in a central compartment and sedimentation in a surrounding annular zone of the same circular tank",
         "Sludge is thickened before disposal"
       ],
       "answerIndex": 2,
@@ -1404,7 +1404,7 @@
       "stem": "In a rapid gravity sand filter, BACKWASHING is carried out by:",
       "options": [
         "Draining the filter and scraping the top layer of sand away",
-        "Reversing the flow UPWARD through the bed at a rate high enough to EXPAND (fluidise) it",
+        "Reversing the flow upward through the bed at a rate high enough to expand (fluidise) it",
         "Adding a chemical to dissolve the accumulated solids",
         "Increasing the downward flow rate to flush the solids through the underdrain"
       ],
@@ -1436,7 +1436,7 @@
       "marks": 1,
       "stem": "When chlorine is added to water, the disinfecting species formed are HYPOCHLOROUS ACID (HOCl) and the HYPOCHLORITE ion (OCl⁻). Their relative proportions and effectiveness are such that:",
       "options": [
-        "HOCl is some 80 to 100 times more effective as a disinfectant than OCl⁻, and it PREDOMINATES at LOW pH",
+        "HOCl is some 80 to 100 times more effective as a disinfectant than OCl⁻, and it predominates at low pH",
         "OCl⁻ is the more effective, and it predominates below pH 7",
         "Both are equally effective, so pH does not matter",
         "Neither disinfects; the disinfection is done by the chloride ion"
@@ -1471,7 +1471,7 @@
       "options": [
         "The water is very soft and low in alkalinity",
         "The water contains excessive fluoride",
-        "A LARGE chlorine dose is needed to overcome a heavy chlorine demand or to deal with a badly contaminated water",
+        "A large chlorine dose is needed to overcome a heavy chlorine demand or to deal with a badly contaminated water",
         "The water must be softened before distribution"
       ],
       "answerIndex": 2,
@@ -1502,7 +1502,7 @@
       "marks": 1,
       "stem": "Compared with chlorination, disinfection by ULTRAVIOLET (UV) irradiation has the fundamental limitation that it:",
       "options": [
-        "Leaves NO RESIDUAL disinfectant",
+        "Leaves no residual disinfectant",
         "Is ineffective against bacteria",
         "Produces large quantities of disinfection by-products",
         "Raises the water's temperature substantially"
@@ -1537,8 +1537,8 @@
       "options": [
         "It raises the pH further than lime can",
         "It acts as a coagulant for the precipitated sludge",
-        "It removes the CARBONATE hardness that lime cannot",
-        "LIME alone removes only CARBONATE (temporary) hardness"
+        "It removes the carbonate hardness that lime cannot",
+        "Lime alone removes only carbonate (temporary) hardness"
       ],
       "answerIndex": 3,
       "solution": "**LIME alone removes only CARBONATE (temporary) hardness** — the soda ash is needed to convert the NON-CARBONATE (permanent) hardness into a removable carbonate form.\n\n**What each chemical does:**\n\n| Chemical | Removes |\n|---|---|\n| **LIME, Ca(OH)₂** ← | **CARBONATE hardness — the bicarbonates of calcium and magnesium — by converting them to insoluble CaCO₃ and Mg(OH)₂, which precipitate** ← |\n| **SODA ASH, Na₂CO₃** ← | **NON-CARBONATE hardness — the sulphates and chlorides — by supplying the CARBONATE ion that precipitates the calcium as CaCO₃, leaving sodium sulphate or chloride in solution** ← |\n\n> **THE ESSENTIAL DIFFERENCE IS WHAT EACH CHEMICAL SUPPLIES AND IT IS WORTH SEEING CLEARLY:**\n\n> **Bicarbonate hardness already CONTAINS the carbonate needed to precipitate it — it need only be converted from bicarbonate to carbonate, and adding lime (a base) does exactly that.**\n\n> **Sulphate and chloride hardness contains NO carbonate at all, so no amount of lime will precipitate it — the carbonate ion must be brought in from outside, and soda ash brings it.**\n\n> **Hence the division of labour: lime for what is already half-way there, soda ash for what is not.**\n\n> **A useful check on any softening calculation is that the soda ash requirement should be proportional to the NON-carbonate hardness alone — if a calculation shows soda ash needed for a water with no permanent hardness, something has gone wrong.**\n\n**THE PRACTICAL FEATURES OF THE PROCESS:**\n\n| Feature | Note |\n|---|---|\n| **The process is carried out at a HIGH pH — 9.5 to 10.5, or above 11 for magnesium removal** ← | **Magnesium hydroxide needs a higher pH than calcium carbonate to precipitate** ← |\n| **EXCESS LIME is added where magnesium must be removed** ← | **The 'excess lime' process** ← |\n| **The water leaves at a high pH and must be RECARBONATED** ← | **By bubbling CO₂ through it, to bring the pH down and to stabilise the remaining carbonate — otherwise scale deposits in the mains** ← |\n| **A LARGE volume of sludge is produced** ← | **Calcium carbonate and magnesium hydroxide — its disposal is a substantial part of the process's cost** ← |\n| **It cannot achieve zero hardness** ← | **A residual of 30 to 50 mg/l remains, limited by the solubility of the precipitates themselves** ← |\n| **It also removes iron, manganese, some heavy metals and many bacteria** ← | **Incidental benefits of a high-pH precipitation process** ← |\n\n> **THE RECARBONATION IN THE THIRD ROW IS NOT OPTIONAL AND ITS OMISSION HAS TWO CONSEQUENCES, both of which matter:**\n\n> **First, water leaving at pH 10.5 will DEPOSIT the calcium carbonate that is still on the point of precipitating, and it does so in the distribution mains — scaling and eventually blocking them.**\n\n> **Second, as the pH question established, chlorine at pH 10.5 is almost entirely present as the ineffective hypochlorite ion, so disinfection would fail.**\n\n> **So recarbonation is required for the mains' sake and for the disinfection's, and a softening plant without it produces water that is neither stable nor safely disinfectable.**\n\n**THE ALTERNATIVE PROCESS, FOR COMPARISON:**\n\n| Process | Note |\n|---|---|\n| **LIME-SODA** ← | **Chemical precipitation; suited to LARGE plants and HIGH hardness; produces sludge; leaves 30-50 mg/l residual hardness** ← |\n| **ION EXCHANGE (zeolite / resin)** ← | **Calcium and magnesium are exchanged for SODIUM on a resin bed; achieves essentially ZERO hardness; no sludge** ← |\n| **Ion exchange's regeneration** ← | **The resin is regenerated with brine (common salt), producing a concentrated BRINE waste that must be disposed of** ← |\n| **And it adds SODIUM to the water** ← | **Which matters for anyone on a low-sodium diet, and it makes the water unsuitable for irrigation** ← |\n\n> **THE THIRD AND FOURTH ROWS ARE THE PRICE OF ION EXCHANGE'S NEATNESS AND THEY DECIDE WHERE IT IS APPROPRIATE: it produces no sludge but does produce a brine, and a brine is harder to dispose of than a sludge.**\n\n> **A calcium carbonate sludge is inert and can be landfilled or even used; a concentrated sodium chloride brine cannot be put anywhere without harming soil, groundwater or a watercourse — the same disposal difficulty met with reverse osmosis reject.**\n\n> **And the sodium it adds is a genuine consideration: softening a hard water by ion exchange can raise its sodium substantially, which is why whole-house softening is often applied only to the hot water supply and the drinking tap left hard.**\n\n> **So the two processes are not simply large-scale and small-scale versions of the same thing: they leave different residues, produce different treated waters, and suit different circumstances.**",
@@ -1569,7 +1569,7 @@
       "stem": "POWDERED or GRANULAR ACTIVATED CARBON is used in water treatment principally to remove:",
       "options": [
         "Suspended solids and turbidity",
-        "TASTE, ODOUR, COLOUR, and dissolved ORGANIC compounds including pesticides and algal toxins",
+        "Taste, odour, colour, and dissolved organic compounds including pesticides and algal toxins",
         "Dissolved calcium and magnesium hardness",
         "Bacteria and viruses"
       ],
@@ -1603,7 +1603,7 @@
       "options": [
         "Microfiltration (MF)",
         "Ultrafiltration (UF)",
-        "REVERSE OSMOSIS (RO)",
+        "Reverse osmosis (RO)",
         "Nanofiltration (NF), which removes salts completely"
       ],
       "answerIndex": 2,
@@ -1634,7 +1634,7 @@
       "marks": 1,
       "stem": "The SLUDGE produced by a conventional water treatment plant consists principally of:",
       "options": [
-        "The METAL HYDROXIDE floc from the coagulant together with the silt and organic matter removed from the raw water",
+        "The metal hydroxide floc from the coagulant together with the silt and organic matter removed from the raw water",
         "Sewage solids",
         "Pure calcium carbonate",
         "Spent activated carbon only"
@@ -1701,7 +1701,7 @@
       "stem": "In estimating the quantity of SANITARY SEWAGE for the design of a sewer, the flow is normally taken as:",
       "options": [
         "The full water supply rate, since all the water supplied returns as sewage",
-        "About 70 to 80 PER CENT of the water supplied, plus an allowance for GROUNDWATER INFILTRATION",
+        "About 70 to 80 per cent of the water supplied, plus an allowance for groundwater infiltration",
         "Twice the water supply rate",
         "The rainfall on the catchment area alone"
       ],
@@ -1733,7 +1733,7 @@
       "marks": 1,
       "stem": "A SEPARATE sewerage system is generally preferred to a COMBINED system principally because:",
       "options": [
-        "The treatment plant need be sized only for the SANITARY flow",
+        "The treatment plant need be sized only for the sanitary flow",
         "It requires a shorter total length of pipe",
         "Storm water requires treatment as thorough as sewage does",
         "Combined sewers cannot be laid in urban streets"
@@ -1836,7 +1836,7 @@
         "It is easier and cheaper to manufacture than a circular pipe",
         "It resists external earth pressure better than any other shape",
         "It provides a larger cross-sectional area for the same amount of material",
-        "The NARROW INVERT keeps the DEPTH of flow"
+        "The narrow invert keeps the depth of flow"
       ],
       "answerIndex": 3,
       "solution": "**The NARROW INVERT keeps the DEPTH of flow — and hence the velocity — higher at the small DRY WEATHER flow**, so the sewer remains self-cleansing despite being sized for a much larger storm flow.\n\n**The problem it solves:**\n\n| Step | Note |\n|---|---|\n| **A combined sewer must carry a storm flow perhaps 50 times its dry weather flow** ← | **So it is large** ← |\n| **In a large CIRCULAR sewer, a small flow spreads across a wide invert** ← | **Giving a very shallow depth, a small hydraulic radius, and a low velocity** ← |\n| **So it deposits its solids in dry weather — the difficulty identified earlier** ← | ← |\n| **An EGG-SHAPED section has a narrow, deep invert** ← | **So the same small flow occupies a narrow channel and is DEEPER** ← |\n| **A greater depth means a greater hydraulic radius and a higher velocity** ← | **So self-cleansing is maintained at low flow** ← |\n| **While the wide upper portion provides the capacity for the storm flow** ← | ← |\n\n> **THE SHAPE IS THEREFORE A DIRECT RESPONSE TO THE COMBINED SEWER'S CENTRAL DIFFICULTY, AND IT IS AN ELEGANT ONE: it varies its own hydraulic character with the depth of flow.**\n\n> **At low flow it behaves like a small sewer, and at high flow like a large one — which is precisely what a combined sewer needs and what no single circular diameter can provide.**\n\n> **This is the same design idea as tapered flocculation and multi-level intakes: where the required condition changes, vary the geometry to match rather than compromising on an average.**\n\n**WHY EGG-SHAPED SEWERS ARE NO LONGER BUILT, WHICH IS WORTH KNOWING:**\n\n| Reason | Note |\n|---|---|\n| **They must be built IN SITU in brickwork or concrete, or specially moulded** ← | **A circular pipe is mass-produced and cheap** ← (which is why option a is inverted) |\n| **They are structurally WEAKER than a circle under external pressure** ← | **A circle is the ideal shape for resisting uniform external load** ← (option b is inverted) |\n| **They need careful construction and skilled bricklaying** ← | ← |\n| **And SEPARATE systems have largely replaced combined ones** ← | **Removing the problem the shape existed to solve** ← |\n| **Where a large combined sewer is still needed, a circular pipe with a CUNETTE is used instead** ← | **A small narrow channel formed in the invert, which achieves the same effect within a circular section** ← |\n\n> **THE CUNETTE IN THE LAST ROW IS THE MODERN EQUIVALENT AND IT IS A NEAT SOLUTION: a small semicircular or V-shaped channel is formed in benching along the bottom of a large circular sewer.**\n\n> **The dry weather flow runs in that channel, concentrated and therefore fast; the storm flow overtops it and uses the full section.**\n\n> **So a mass-produced circular pipe is given the hydraulic behaviour of an egg-shaped one by a modest addition of concrete after laying, and the structural and manufacturing advantages of the circle are retained.**\n\n**THE OTHER SEWER SECTIONS AND THEIR USES, FOR COMPLETENESS:**\n\n| Section | Used for |\n|---|---|\n| **CIRCULAR** ← | **The great majority — mass produced, structurally efficient, hydraulically efficient when reasonably full** ← |\n| **EGG-SHAPED (ovoid)** ← | **Old combined sewers — this question** ← |\n| **HORSESHOE** ← | **Large sewers and tunnels, where headroom for access matters and the flat invert suits construction** ← |\n| **RECTANGULAR (box)** ← | **Large storm drains, often cast in situ; simple to build and easy to inspect** ← |\n| **U-shaped, and open channels** ← | **Storm drains in streets, where an open section can be cleaned by hand — the common arrangement in Nepali towns** ← |\n| **SEMI-ELLIPTICAL** | **Very large sewers on good ground** ← |\n\n> **The fifth row deserves a note in a Nepali context because it is what actually exists in most towns: an open or slab-covered rectangular street drain, carrying both storm water and sewage.**\n\n> **Its hydraulic performance at low flow is poor for exactly the reason discussed — a wide flat invert — and it is cleaned by manual labour rather than by velocity.**\n\n> **Providing even a rudimentary cunette in such drains, or simply giving them a proper longitudinal gradient and a defined invert, would greatly reduce the standing sewage and the associated nuisance — which is a modest and unglamorous intervention with a large effect on the immediate urban environment.**",
@@ -1866,7 +1866,7 @@
       "marks": 1,
       "stem": "STONEWARE (salt-glazed vitrified clay) pipes have long been used for small sewers because they are:",
       "options": [
-        "Highly resistant to the ACIDS and the sulphide attack found in sewage, and smooth-bored",
+        "Highly resistant to the acids and the sulphide attack found in sewage, and smooth-bored",
         "Light, flexible and available in long coils",
         "Immune to breakage under any handling",
         "Suitable for large diameters and high external loads"
@@ -1933,7 +1933,7 @@
       "stem": "An INVERTED SIPHON (depressed sewer) is used where a sewer must:",
       "options": [
         "Be raised over an obstruction such as a bridge",
-        "PASS BENEATH an obstruction",
+        "Pass beneath an obstruction",
         "Be flushed periodically by stored water",
         "Discharge into a watercourse during storms"
       ],
@@ -1968,7 +1968,7 @@
         "Prevents groundwater from entering the sewer",
         "Allows the sewer to be laid to a steeper gradient",
         "Reduces the quantity of excavation required",
-        "DISTRIBUTES the load over a wider arc of the pipe and provides UNIFORM, CONTINUOUS support"
+        "Distributes the load over a wider arc of the pipe and provides uniform, continuous support"
       ],
       "answerIndex": 3,
       "solution": "**Because the bedding DISTRIBUTES the load over a wider arc of the pipe and provides UNIFORM, CONTINUOUS support** — so the pipe is not stressed by point contact on stones or by soft spots in the trench bottom.\n\n**Why uniform support matters so much:**\n\n| Point | Note |\n|---|---|\n| **A pipe resting on a hard point carries its whole load at that point** ← | **A stone left in the trench bottom is a knife edge under a rigid pipe** ← |\n| **A rigid pipe (clay, concrete) fails in BENDING or by cracking at such a point** ← | **Its strength depends entirely on being uniformly supported** ← |\n| **A soft spot in the trench bottom leaves the pipe SPANNING between firmer points** ← | **Bending it as a beam, which it was never designed to be** ← |\n| **Bedding replaces the variable trench bottom with a uniform, compactible layer** ← | **So the support is continuous and predictable** ← |\n| **And the wider the arc of support, the LOWER the stress in the pipe wall** ← | **Which is the basis of the bedding CLASSES** ← |\n\n> **THE FIFTH ROW IS THE QUANTITATIVE POINT AND IT IS WORTH KNOWING BECAUSE IT AFFECTS THE PIPE CLASS SPECIFIED:**\n\n| Bedding class | Support | Load factor |\n|---|---|---|\n| **Class D — flat trench bottom, no bedding** ← | **Point or narrow support** ← | **1.1 — barely better than the worst case** ← |\n| **Class C — shaped bedding, granular** | **Supported over about 90 degrees** | **1.5** ← |\n| **Class B — granular bedding, well compacted around the lower part** ← | **Supported over about 120 to 180 degrees** ← | **1.9** ← |\n| **Class A — concrete cradle or full surround** ← | **Supported over a wide arc and encased** ← | **2.2 to 3.4** ← |\n\n> **THE LOAD FACTOR COLUMN MEANS THAT A PIPE ON CLASS B BEDDING CAN CARRY NEARLY TWICE THE EXTERNAL LOAD OF THE SAME PIPE ON A FLAT TRENCH BOTTOM, AND THAT IS AN IMPORTANT PRACTICAL LEVER: the pipe's strength can be effectively doubled by how it is laid rather than by buying a stronger pipe.**\n\n> **Granular bedding is cheap, and a stronger class of pipe is not — so improving the bedding is usually the economical way to satisfy a heavy loading condition.**\n\n> **Conversely a pipe of adequate class laid straight onto a rough trench bottom may fail under a load it was nominally strong enough for, and the failure will be attributed to the pipe rather than to the laying.**\n\n**THE OTHER REQUIREMENTS OF SEWER LAYING, WHICH GO WITH THE BEDDING:**\n\n| Requirement | Note |\n|---|---|\n| **The bedding must be brought up and COMPACTED around the lower half of the pipe** ← | **Merely placing the pipe on a layer of gravel achieves little — the material must be worked in under the haunches, which is the part most often skipped** ← |\n| **The trench must be laid to the correct GRADIENT, checked with sight rails and a boning rod, or a laser** ← | **A sewer's gradient is the whole of its hydraulic design; a reversed fall between manholes is a permanent defect** ← |\n| **The pipe must be laid UPHILL, socket facing upstream** ← | **So the spigot enters the socket in the direction of flow and the joint does not present a lip to the solids** ← |\n| **Joints must be made properly, and TESTED before backfilling** ← | **After backfill nothing can be corrected** ← |\n| **BACKFILL over the pipe must be placed in layers and compacted, but not by ramming directly on the pipe** ← | **A cushion of at least 300 mm before mechanical compaction passes over it** ← |\n| **The trench must be kept DEWATERED while the pipe is laid and jointed** ← | ← |\n\n> **THE FIRST ROW DESCRIBES THE SINGLE COMMONEST DEFICIENCY IN SEWER LAYING AND IT IS WORTH LOOKING FOR ON ANY SITE: the material under the pipe's HAUNCHES — the lower quadrants either side of the invert — must be worked in and compacted.**\n\n> **A pipe simply lowered onto a bed of loose gravel bears on a narrow strip along its bottom, with voids to either side, and it has Class D support however good the material is.**\n\n> **Achieving Class B requires someone to push and compact the bedding into those haunches with a tool, which is awkward, unrewarding and invisible once complete.**\n\n> **So the specification's bedding class is achieved by a workman's diligence at a point where nobody will ever check, which is exactly the situation in which supervision matters most — and it is why sewer laying is inspected during the work rather than certified afterwards.**",
@@ -1998,7 +1998,7 @@
       "marks": 1,
       "stem": "A newly laid gravity sewer is tested for WATERTIGHTNESS before backfilling. The test is essential because leakage would:",
       "options": [
-        "Permit EXFILTRATION of sewage into the ground",
+        "Permit exfiltration of sewage into the ground",
         "Reduce the sewer's structural strength",
         "Cause the sewer to float in waterlogged ground",
         "Increase the velocity in the sewer"
@@ -2033,7 +2033,7 @@
       "options": [
         "Cool the sewage and slow its decomposition",
         "Allow rainwater to enter the system",
-        "Remove the FOUL and EXPLOSIVE GASES that accumulate",
+        "Remove the foul and explosive gases that accumulate",
         "Increase the velocity of flow in the sewer"
       ],
       "answerIndex": 2,
@@ -2065,7 +2065,7 @@
       "stem": "The WATER SEAL in a trap of a house drainage system may be lost by SIPHONAGE. Self-siphonage differs from induced siphonage in that self-siphonage is caused by:",
       "options": [
         "Evaporation of the seal during a long period of disuse",
-        "The DISCHARGE FROM THE FITTING'S OWN outflow running full and drawing the seal out behind it",
+        "The discharge from the fitting's own outflow running full and drawing the seal out behind it",
         "The wind blowing across the top of the vent pipe",
         "Back pressure from a surcharged sewer forcing the seal upward"
       ],
@@ -2100,7 +2100,7 @@
         "Rainwater and sewage are carried in separate pipes",
         "Hot and cold water are supplied through separate pipes",
         "The drainage is carried in two pipes for redundancy in case one blocks",
-        "SOIL wastes (from WCs and urinals) and WASTE wastes (from baths"
+        "Soil wastes (from WCs and urinals) and waste wastes (from baths"
       ],
       "answerIndex": 3,
       "solution": "**SOIL wastes (from WCs and urinals) and WASTE wastes (from baths, basins and sinks) are carried in SEPARATE stacks**, the waste stack discharging through a trapped gully rather than directly into the drain.\n\n**The systems of house drainage:**\n\n| System | Arrangement |\n|---|---|\n| **TWO-PIPE (dual) system** ← | **Separate SOIL and WASTE stacks, each with its own vent stack — so up to FOUR vertical pipes** ← |\n| **ONE-PIPE system** ← | **A SINGLE stack takes both soil and waste, with a separate VENT stack — two vertical pipes** ← |\n| **SINGLE STACK system** ← | **ONE stack only, taking everything, with NO separate vent — the stack itself is sized and detailed to ventilate** ← |\n| **PARTIALLY VENTILATED single stack** | **A single stack with vents only to the fittings that need them** ← |\n\n> **THE PROGRESSION DOWN THAT LIST IS HISTORICAL AND IT IS A PROGRESSION OF SIMPLIFICATION, WHICH IS WORTH UNDERSTANDING:**\n\n| Point | Note |\n|---|---|\n| **The TWO-PIPE system arose from a belief that waste water and soil water must never mix inside a building** ← | **And that waste water should reach the drain only through an open trapped gully in the open air** ← |\n| **It requires up to four stacks and is expensive, bulky and ugly** ← | ← |\n| **The ONE-PIPE system recognised that a properly sealed and vented system is safe** ← | **Halving the pipework** ← |\n| **The SINGLE STACK system went further, showing that a stack of adequate diameter with careful branch detailing needs no separate vent at all** ← | **Because the stack carries the discharge as an annular film down its wall, leaving an air core through its centre** ← |\n| **So modern practice is single stack for buildings up to a considerable height** ← | ← |\n\n> **THE ANNULAR FLOW MECHANISM IN THE FOURTH ROW IS THE INSIGHT THAT MADE THE SINGLE STACK POSSIBLE AND IT IS WORTH KNOWING: water discharged into a vertical stack does NOT fall down the middle.**\n\n> **It clings to the wall and spirals down as a film, and a central core of air remains open all the way from the top of the stack to the drain.**\n\n> **That air core is the ventilation, provided nothing blocks it — so the stack ventilates itself, and a separate vent pipe is unnecessary.**\n\n> **What blocks it is a discharge large enough to form a PLUG across the stack, which happens if too many fittings discharge at once into too small a stack, or if a branch enters in a way that throws water across the bore.**\n\n> **Hence the single stack system's rules: a minimum stack diameter, limits on the number of fittings, swept entries at branch connections, a large-radius bend at the foot of the stack, and no branch connection within a specified distance of that bend.**\n\n**THE FOOT-OF-STACK RULE IN PARTICULAR IS WORTH KNOWING BECAUSE ITS REASON IS NOT OBVIOUS:**\n\n| Point | Note |\n|---|---|\n| **At the bottom of the stack the falling water must turn from vertical to horizontal** ← | ← |\n| **In doing so it slows abruptly and runs FULL for a short distance** ← | ← |\n| **That full-bore flow COMPRESSES the air ahead of it and behind it** ← | **Producing a pressure PULSE at the base of the stack** ← |\n| **Any trap connected near the foot experiences that pressure and can be BLOWN OUT** ← | **The back-pressure mechanism** ← |\n| **So no branch may connect within about 450 mm of the bend in a low building, and much more in a tall one** ← | **And the ground floor fittings are often taken to the drain separately for this reason** ← |\n\n> **The last row explains a detail seen in many buildings and often assumed to be arbitrary: the ground floor WC discharges to its own drain rather than joining the stack.**\n\n> **It is the fitting most exposed to the foot-of-stack pressure pulse, and connecting it separately removes the problem entirely — a small change in layout preventing a nuisance that would otherwise be intermittent, unpleasant and very hard to diagnose after the event.**",
@@ -2166,7 +2166,7 @@
       "options": [
         "Reduce the velocity of the storm flow",
         "Provide access for cleaning the drain",
-        "RETAIN the GRIT, road detritus and litter washed off the road",
+        "Retain the grit, road detritus and litter washed off the road",
         "Measure the quantity of storm runoff"
       ],
       "answerIndex": 2,
@@ -2198,7 +2198,7 @@
       "stem": "A SEPTIC TANK provides which of the following forms of treatment?",
       "options": [
         "Complete treatment, so its effluent may be discharged directly to a watercourse",
-        "PRIMARY treatment only",
+        "Primary treatment only",
         "Aerobic biological treatment equivalent to an activated sludge plant",
         "Disinfection of the wastewater"
       ],
@@ -2233,7 +2233,7 @@
         "The sewage requires aeration before treatment",
         "The flow must be measured accurately",
         "The sewage must be screened before treatment",
-        "The GROUND FALLS the wrong way"
+        "The ground falls the wrong way"
       ],
       "answerIndex": 3,
       "solution": "**Where the GROUND FALLS the wrong way, or gravity flow would require an impracticably DEEP sewer** — the sewage being lifted so that gravity flow can resume from a higher level.\n\n**Where pumping becomes necessary:**\n\n| Situation | Note |\n|---|---|\n| **The treatment works or the outfall is HIGHER than the collection area** ← | **Or across a ridge** ← |\n| **The sewer would otherwise become EXCESSIVELY DEEP** ← | **A sewer falling continuously across a flat town reaches great depth at its lower end; beyond about 6 m, excavation and shoring costs rise steeply** ← |\n| **A low-lying area or a basement must be drained** ← | ← |\n| **An isolated development must be connected to a distant system** ← | ← |\n| **A river or a valley must be crossed and a siphon is unsuitable** ← | ← |\n\n> **THE SECOND ROW IS THE COMMONEST REASON IN A FLAT TOWN AND IT IS WORTH QUANTIFYING: a sewer at 1 in 300 falling across 3 km descends 10 metres.**\n\n> **Add the initial depth and the sewer's lower end is 12 or 13 metres down — which requires heavy shoring or a tunnel, and manholes of a depth that are dangerous to enter and expensive to build.**\n\n> **A pumping station part way along lifts the sewage back to a shallow depth and allows the gravity sewer to start again, so the maximum depth anywhere is modest.**\n\n> **The comparison is therefore between the CAPITAL cost of deep excavation and the CAPITAL AND OPERATING cost of a pumping station for ever — and the pumping station usually wins on capital and loses on operation, so the decision turns on how long a view is taken.**\n\n> **A common conclusion is that pumping should be avoided where it reasonably can be, because a gravity sewer costs nothing to run and cannot fail, while a pumping station is a permanent liability.**\n\n**WHAT A SEWAGE PUMPING STATION REQUIRES, WHICH IS MORE THAN A WATER PUMPING STATION:**\n\n| Requirement | Note |\n|---|---|\n| **A WET WELL to receive and store the incoming flow** ← | **Sized so the pumps start and stop at a reasonable frequency — not so small that they cycle constantly, not so large that the sewage goes septic while stored** ← |\n| **SCREENS or a comminutor ahead of the pumps** ← | **Or rags will block them — and rags are the dominant cause of sewage pump failure** ← |\n| **NON-CLOG or submersible pumps with a large free passage** ← | **A sewage pump must pass solids; a clean-water impeller would block immediately** ← |\n| **STANDBY pumps and standby POWER** ← | **A sewage pumping station that stops does not merely cease to deliver — sewage backs up and overflows** ← |\n| **An EMERGENCY OVERFLOW or storage** ← | **For the failure that will eventually occur** ← |\n| **ODOUR and ventilation provision** ← | ← |\n| **A rising main, with attention to SEPTICITY and to surge** ← | ← |\n\n> **THE FOURTH ROW STATES THE ASYMMETRY THAT MAKES SEWAGE PUMPING MORE CRITICAL THAN WATER PUMPING AND IT IS WORTH BEING EXPLICIT: when a water pumping station stops, consumers gradually run short.**\n\n> **When a sewage pumping station stops, sewage continues to arrive at exactly the same rate and has nowhere to go.**\n\n> **Within an hour or two the wet well is full, and thereafter sewage backs up into the lowest connected properties or overflows into a watercourse.**\n\n> **So the consequences of failure are immediate and unpleasant rather than gradual and tolerable, and the standby provision must be correspondingly more robust — duty and standby pumps, standby power, telemetry alarms, and a defined emergency response.**\n\n> **THE SEVENTH ROW POINTS AT A PROBLEM PARTICULAR TO RISING MAINS AND WORTH KNOWING: sewage in a rising main is held in a full pipe with no air, so it goes ANAEROBIC quickly.**\n\n> **A long rising main with a modest flow can have a retention time of hours, and the sewage discharging at its far end is septic, black and laden with hydrogen sulphide.**\n\n> **That sulphide then attacks the receiving gravity sewer's crown and creates an odour nuisance at the discharge manhole — so a rising main can export a corrosion and odour problem to a point some distance from the pumping station, where its cause is not obvious.**\n\n> **The remedies are to keep the retention time short by pumping more frequently, to dose the main with nitrate or ferric salts, or to design the discharge manhole for the aggressive conditions it will receive — and the problem should be anticipated at design rather than diagnosed later.**",
@@ -2266,7 +2266,7 @@
         "Is black in colour and smells strongly of hydrogen sulphide",
         "Contains no dissolved oxygen at all",
         "Has a much higher BOD than stale sewage",
-        "Is GREYISH in colour, has a faint musty odour, and still contains some DISSOLVED OXYGEN"
+        "Is greyish in colour, has a faint musty odour, and still contains some dissolved oxygen"
       ],
       "answerIndex": 3,
       "solution": "**It is GREYISH in colour, has a faint musty odour, and still contains some DISSOLVED OXYGEN** — whereas stale sewage has gone anaerobic, is BLACK, and smells of hydrogen sulphide.\n\n**The two conditions compared:**\n\n| Property | FRESH sewage | STALE (septic) sewage |\n|---|---|---|\n| **Colour** | **Greyish, cloudy** ← | **BLACK or dark grey** ← |\n| **Odour** | **Faint, musty, soapy** ← | **Strongly offensive — hydrogen sulphide, 'rotten eggs'** ← |\n| **Dissolved oxygen** | **Some present, though little** ← | **NONE — it has all been consumed** ← |\n| **Condition** | **AEROBIC decomposition proceeding** ← | **ANAEROBIC decomposition** ← |\n| **Age** | **Hours** ← | **Longer, or held in a warm sewer, a rising main or a wet well** ← |\n\n> **THE BLACKNESS IN THE FIRST ROW HAS A SPECIFIC CHEMICAL CAUSE THAT IS WORTH KNOWING: it is FERROUS SULPHIDE.**\n\n> **Anaerobic bacteria reduce sulphate to sulphide; the sulphide reacts with iron present in the sewage; and ferrous sulphide is black and finely divided, so it colours the whole liquid.**\n\n> **So the colour and the smell have the same origin — both are products of sulphate reduction — and the appearance of either is a reliable indication that the sewage has gone anaerobic.**\n\n> **That is useful diagnostically: an operator seeing black sewage arriving at a works knows the collection system is holding it too long somewhere, and can look for the long rising main, the flat sewer or the oversized wet well responsible.**\n\n**THE CHARACTERISTICS OF TYPICAL DOMESTIC SEWAGE, WHICH ARE WORTH HAVING AS FIGURES:**\n\n| Parameter | Typical value (medium-strength sewage) |\n|---|---|\n| **Total SOLIDS** | **About 700 to 750 mg/l — of which some 99.9 per cent of the sewage is WATER** ← |\n| **Suspended solids** | **200 to 250 mg/l** ← |\n| **BOD₅** ← | **200 to 250 mg/l** ← |\n| **COD** ← | **400 to 500 mg/l** ← |\n| **Total NITROGEN** | **40 mg/l** ← |\n| **Total PHOSPHORUS** | **8 to 10 mg/l** ← |\n| **pH** | **6.5 to 8.0 — near neutral** ← |\n| **Chlorides** | **50 mg/l above the water supply's own** ← |\n\n> **THE FIRST ROW CONTAINS THE OBSERVATION MOST WORTH CARRYING AWAY FROM THIS LIST AND IT REFRAMES THE WHOLE SUBJECT: sewage is 99.9 per cent water.**\n\n> **The entire apparatus of sewerage and treatment exists to deal with a tenth of one per cent of impurity, and the other 99.9 per cent is transported, pumped, treated and discharged along with it.**\n\n> **That is the fundamental inefficiency of waterborne sanitation, and it is the argument that motivates dry and low-water sanitation systems — an ecological sanitation or composting toilet deals with the 0.1 per cent and leaves the water out of the problem entirely.**\n\n> **Whether that is practical depends on the setting, and it is far more so for a scattered rural population than for a dense city — but the observation is worth holding, because it explains why sewerage is so expensive relative to what it actually removes.**\n\n**AND THE STRENGTH CLASSIFICATION, FOR REFERENCE:**\n\n| Strength | BOD₅ |\n|---|---|\n| **WEAK** | **About 100 to 150 mg/l** ← |\n| **MEDIUM** | **About 200 to 250 mg/l** ← |\n| **STRONG** | **About 350 to 400 mg/l and above** ← |\n\n> **A town's sewage strength depends chiefly on its WATER CONSUMPTION: the same load of waste in less water is stronger sewage.**\n\n> **So a town with a low per capita supply produces strong sewage, and one with an abundant supply produces weak sewage — even though the pollution LOAD per person is much the same.**\n\n> **This matters for treatment design because some processes are sensitive to concentration rather than to load, and it means a strength figure quoted from another town cannot be transferred without knowing its water consumption.**\n\n> **It also means that reducing water consumption CONCENTRATES the sewage, which is generally good for treatment — anaerobic processes in particular work better on strong sewage — while heavy infiltration DILUTES it, which is bad for treatment as well as wasteful of capacity.**",
@@ -2331,7 +2331,7 @@
       "stem": "For a given wastewater, the COD is almost always GREATER than the BOD because:",
       "options": [
         "The COD test is carried out at a higher temperature",
-        "CHEMICAL oxidation attacks essentially ALL the oxidisable matter",
+        "Chemical oxidation attacks essentially ALL the oxidisable matter",
         "The COD test uses a longer incubation period",
         "COD includes the oxygen dissolved in the sample"
       ],
@@ -2365,7 +2365,7 @@
       "options": [
         "Produces methane, which can be recovered as fuel",
         "Produces much more sludge per unit of BOD removed and is therefore avoided",
-        "Requires OXYGEN, is FASTER, produces ODOURLESS end products (CO₂, water, nitrate and sulphate) and MORE cell mass",
+        "Requires oxygen, is faster, produces odourless end products (CO₂, water, nitrate and sulphate) and more cell mass",
         "Occurs only at temperatures above 35 °C"
       ],
       "answerIndex": 2,
@@ -2399,7 +2399,7 @@
         "Is the maximum the incoming sewer can deliver",
         "Prevents the grit from entering the chamber at all",
         "Is required to keep the sewage aerobic",
-        "Is HIGH enough to keep the lighter ORGANIC matter in suspension so it passes on to treatment"
+        "Is high enough to keep the lighter organic matter in suspension so it passes on to treatment"
       ],
       "answerIndex": 3,
       "solution": "**Because that velocity is HIGH enough to keep the lighter ORGANIC matter in suspension so it passes on to treatment, and LOW enough to let the heavier inorganic GRIT settle out.**\n\n**The grit chamber's purpose is SELECTIVE settlement, which is what distinguishes it from every other settling unit:**\n\n| Point | Note |\n|---|---|\n| **A primary sedimentation tank settles EVERYTHING it can** ← | **The more it removes, the better** ← |\n| **A grit chamber must settle the GRIT and NOT the organics** ← | **It is a separator, not a clarifier** ← |\n| **Grit — sand, gravel, eggshell, coffee grounds, bone — has a specific gravity of about 2.65** ← | **Heavy and inert** ← |\n| **Organic matter has a specific gravity of about 1.02 to 1.2** ← | **Barely denser than water** ← |\n| **So a velocity exists at which the first settles and the second does not** ← | **And 0.3 m/s is that velocity** ← |\n\n> **THE REASON THE ORGANICS MUST BE KEPT MOVING IS WORTH SPELLING OUT, SINCE IT IS NOT OBVIOUS THAT SETTLING THEM WOULD BE A PROBLEM:**\n\n| Consequence of settling organics in the grit chamber | Note |\n|---|---|\n| **The grit becomes mixed with putrescible organic matter** ← | **So it SMELLS, attracts flies, and cannot simply be tipped or landfilled** ← |\n| **The grit's disposal becomes a sewage sludge problem rather than an inert waste problem** ← | **A much more expensive and regulated matter** ← |\n| **And the organic matter is REMOVED from the treatment process** ← | **Where it was wanted, since the biological processes downstream feed on it** ← |\n\n> **THE FIRST ROW IS THE PRACTICAL POINT AND IT DETERMINES WHETHER A GRIT CHAMBER IS A NUISANCE OR NOT: clean grit is an inert material that can be washed, drained and disposed of as fill.**\n\n> **Grit contaminated with organics is offensive, must be handled as sludge, and makes the grit chamber the smelliest part of the works.**\n\n> **Which is why a grit WASHING or CLASSIFYING step is often provided after the chamber — to return any organics that did settle to the flow and leave the grit clean.**\n\n**WHY REMOVING GRIT MATTERS AT ALL, WHICH IS THE UNDERLYING JUSTIFICATION:**\n\n| Reason | Note |\n|---|---|\n| **Grit ABRADES pumps, pipes and mechanical equipment** ← | **The same abrasive wear mechanism as in a turbine or a steep sewer** ← |\n| **It DEPOSITS in channels, digesters and tanks, occupying volume that was designed for treatment** ← | **A digester half full of grit has half its digestion capacity** ← |\n| **It is very difficult to remove once it has settled in a digester or an aeration tank** ← | **Requiring the unit to be emptied and dug out** ← |\n| **And it interferes with sludge pumps and heat exchangers** ← | ← |\n\n> **THE SECOND AND THIRD ROWS TOGETHER MAKE THE CASE AND IT IS AN ECONOMIC ONE: grit is cheap to remove at the head of the works and enormously expensive to remove from anywhere else.**\n\n> **A grit chamber is a simple channel with a means of extracting the deposit; digging grit out of a digester requires taking it out of service, emptying it, entering a confined space, and excavating a compacted mass by hand.**\n\n> **So the grit chamber is a piece of protective infrastructure for everything downstream, and its cost is trivial against what it prevents.**\n\n**HOW THE CONSTANT VELOCITY IS MAINTAINED, WHICH IS THE DESIGN PROBLEM:**\n\n| Point | Note |\n|---|---|\n| **The flow to a works varies through the day by a factor of two or three** ← | ← |\n| **In an ordinary rectangular channel, a varying flow means a varying velocity** ← | **Which would settle organics at low flow and carry grit through at high flow** ← |\n| **So a PROPORTIONAL FLOW WEIR or a PARSHALL FLUME is placed at the channel's outlet** ← | **Shaped so that the depth in the channel varies with the flow in exactly the way that keeps the velocity constant** ← |\n| **A parabolic or trapezoidal channel section is used with such a control** ← | ← |\n| **Alternatively an AERATED grit chamber or a VORTEX grit separator is used** ← | **In which a controlled spiral or rotational flow does the separation, and the velocity control is inherent** ← |\n\n> **The third row is an elegant piece of hydraulic design worth appreciating: the outlet control's SHAPE is chosen so that the channel's velocity is independent of the discharge.**\n\n> **A rectangular weir would give a depth varying as Q^(2/3), and a proportional flow weir is shaped to give a depth varying as Q directly — so with a rectangular channel the area varies as Q and the velocity Q/A is constant.**\n\n> **It achieves automatic control with no moving parts, no power and no instruments, purely by the geometry of an opening — which is the kind of solution worth recognising and reaching for.**",
@@ -2429,7 +2429,7 @@
       "marks": 1,
       "stem": "A PRIMARY SEDIMENTATION TANK at a sewage works typically removes:",
       "options": [
-        "About 50 to 60 per cent of the SUSPENDED SOLIDS and 30 to 35 per cent of the BOD",
+        "About 50 to 60 per cent of the suspended solids and 30 to 35 per cent of the BOD",
         "Essentially all of the suspended solids and BOD",
         "About 90 per cent of the BOD",
         "Only the grit, the finer solids passing through"
@@ -2464,7 +2464,7 @@
       "options": [
         "Straining of the solids by the stone or plastic media",
         "Chemical reaction between the sewage and the media",
-        "The BIOLOGICAL SLIME (biofilm) that grows on the surface of the media",
+        "The biological slime (biofilm) that grows on the surface of the media",
         "Adsorption of the organic matter onto the media's surface"
       ],
       "answerIndex": 2,
@@ -2496,7 +2496,7 @@
       "stem": "In the ACTIVATED SLUDGE PROCESS, the RETURN of settled sludge from the secondary clarifier to the aeration tank is essential because it:",
       "options": [
         "Reduces the quantity of sludge requiring disposal",
-        "MAINTAINS the concentration of active MICRO-ORGANISMS in the aeration tank far above what the incoming sewage would provide",
+        "Maintains the concentration of active micro-organisms in the aeration tank far above what the incoming sewage would provide",
         "Dilutes the incoming sewage",
         "Provides the oxygen required by the process"
       ],
@@ -2531,7 +2531,7 @@
         "Mechanical aeration of the pond's contents",
         "Filtration through the pond's earth bottom",
         "Chemical precipitation of the organic matter",
-        "A SYMBIOSIS between BACTERIA"
+        "A symbiosis between bacteria"
       ],
       "answerIndex": 3,
       "solution": "**A SYMBIOSIS between BACTERIA, which oxidise the organic matter and release carbon dioxide, and ALGAE, which use that carbon dioxide and sunlight to photosynthesise and release the OXYGEN the bacteria need.**\n\n**The cycle:**\n\n| Organism | Consumes | Produces |\n|---|---|---|\n| **BACTERIA** ← | **Organic matter and OXYGEN** ← | **CO₂, water, nutrients** ← |\n| **ALGAE** ← | **CO₂, nutrients and SUNLIGHT** ← | **OXYGEN and more algae** ← |\n\n> **EACH SUPPLIES WHAT THE OTHER NEEDS, WHICH IS WHY THE ARRANGEMENT WORKS WITH NO EXTERNAL ENERGY AT ALL — and that is the whole attraction of the process.**\n\n> **The oxygen that an activated sludge plant buys from a blower, an oxidation pond obtains from algae, free, using sunlight.**\n\n> **So the pond has no mechanical equipment, no power supply, no chemicals and virtually no operating cost — which makes it uniquely suited to a warm, sunny country with cheap land and limited resources.**\n\n> **Its price is LAND: a pond system needs perhaps 20 to 50 times the area of a conventional works for the same population, because the process is slow and depends on sunlight falling on a surface.**\n\n**THE POND SERIES, WHICH IS HOW A REAL SYSTEM IS ARRANGED:**\n\n| Pond | Depth | Detention | Function |\n|---|---|---|---|\n| **ANAEROBIC pond** ← | **2 to 5 m — DEEP, so light does not penetrate and no algae grow** ← | **1 to 5 days** ← | **Settles solids and digests them anaerobically; removes 50 to 70 per cent of BOD in a small area** ← |\n| **FACULTATIVE pond** ← | **1 to 2 m** ← | **5 to 30 days** ← | **The main treatment: AEROBIC at the surface where the algae are, ANAEROBIC at the bottom where the sludge is** ← |\n| **MATURATION pond** ← | **1 to 1.5 m — SHALLOW** ← | **5 to 10 days each, often in series** ← | **PATHOGEN removal above all — sunlight, high pH and high dissolved oxygen kill the bacteria and viruses** ← |\n\n> **THE MATURATION POND IN THE THIRD ROW IS THE PART OF THE SYSTEM WHOSE VALUE IS MOST UNDERAPPRECIATED AND IT IS WORTH STATING CLEARLY: waste stabilisation ponds are the best PATHOGEN removal process in ordinary use.**\n\n> **A conventional activated sludge works removes perhaps 90 to 99 per cent of faecal bacteria, and its effluent still requires disinfection to be safe.**\n\n> **A properly designed pond series removes 99.99 per cent or more, and removes helminth eggs essentially completely by simple settlement — which chlorination does not do at all.**\n\n> **The mechanisms are sunlight (ultraviolet), the high pH produced by intense algal photosynthesis stripping CO₂, the high dissolved oxygen, and simply the long retention time during which the organisms die of starvation and predation.**\n\n> **So for a scheme whose effluent will be used for IRRIGATION — where helminths and bacteria are the whole concern and BOD matters little — ponds are not a cheap approximation to a proper works but the technically superior choice.**\n\n**THE FACULTATIVE POND'S DUAL NATURE IN THE SECOND ROW DESERVES EXPLANATION, SINCE THE NAME IS OPAQUE:**\n\n| Layer | Condition |\n|---|---|\n| **The upper layer, in the light** ← | **AEROBIC — algae photosynthesising, oxygen abundant by day** ← |\n| **The bottom layer and the sludge** ← | **ANAEROBIC — no light, no oxygen, sludge digesting** ← |\n| **The middle** ← | **FACULTATIVE — organisms that can work either way, according to the conditions at that moment** ← |\n| **And the whole pond STRATIFIES by day and may mix at night** ← | **The oxygen concentration and the pH swinging widely over 24 hours** ← |\n\n> **THE DIURNAL SWING IN THE LAST ROW IS A REAL OPERATING CHARACTERISTIC AND IT MATTERS FOR SAMPLING: a facultative pond's surface may be supersaturated with oxygen at pH 9 in the afternoon and anoxic at pH 7.5 before dawn.**\n\n> **So a single sample tells you the time of day as much as the pond's condition, and monitoring must either be continuous or taken at a consistent time.**\n\n> **The high afternoon pH is also the mechanism that kills much of the bacterial population, so the swing is part of how the process works rather than an instability to be corrected — which is worth knowing before anyone proposes to stabilise it.**",
@@ -2561,7 +2561,7 @@
       "marks": 1,
       "stem": "The SECONDARY CLARIFIER of an activated sludge plant performs two duties simultaneously, namely:",
       "options": [
-        "CLARIFICATION",
+        "Clarification",
         "Aeration and settlement",
         "Disinfection and clarification",
         "Grit removal and clarification"
@@ -2596,7 +2596,7 @@
       "options": [
         "Trickles downward over a bed of stone media",
         "Is aerated vigorously in a deep tank",
-        "Flows UPWARD through a BLANKET of dense anaerobic sludge granules that it fluidises",
+        "Flows upward through a blanket of dense anaerobic sludge granules that it fluidises",
         "Passes horizontally through a series of shallow ponds"
       ],
       "answerIndex": 2,
@@ -2628,7 +2628,7 @@
       "stem": "In the ANAEROBIC DIGESTION of sewage sludge, the process is commonly described in three stages. The final METHANOGENIC stage is the rate-limiting one because the methane-forming bacteria are:",
       "options": [
         "Present in far greater numbers than the acid formers",
-        "SLOW-GROWING and highly SENSITIVE to pH, temperature and toxic substances",
+        "SLOW-GROWING and highly sensitive to pH, temperature and toxic substances",
         "Able to work only in the presence of oxygen",
         "Unaffected by the temperature of the digester"
       ],
@@ -2663,7 +2663,7 @@
         "Mechanical pressing between filter cloths",
         "Centrifugal separation",
         "Chemical conditioning followed by settlement",
-        "DRAINAGE of the free water downward through a sand and gravel bed"
+        "Drainage of the free water downward through a sand and gravel bed"
       ],
       "answerIndex": 3,
       "solution": "**DRAINAGE of the free water downward through a sand and gravel bed, followed by EVAPORATION of the remainder from the surface** — the first being the faster and more important of the two.\n\n**How the bed works:**\n\n| Stage | Note |\n|---|---|\n| **Sludge at 4 to 8 per cent solids is run onto the bed to a depth of 200 to 300 mm** ← | ← |\n| **DRAINAGE begins at once, the free water passing down through the sand into the underdrains** ← | **This removes the bulk of the water within a DAY or two** ← |\n| **A crust forms and the sludge CRACKS as it shrinks** ← | **Which is beneficial — the cracks expose more surface and let air in** ← |\n| **EVAPORATION then removes the remaining water more slowly** ← | **Over one to three weeks in dry weather, and far longer in the monsoon** ← |\n| **The cake, at 25 to 40 per cent solids, is lifted off by hand or by a loader** ← | ← |\n| **The bed is then raked, topped up with sand, and reused** ← | ← |\n\n> **THE RELATIVE IMPORTANCE OF THE TWO MECHANISMS IN THE SECOND AND FOURTH ROWS IS THE POINT OF THE QUESTION AND IT IS OFTEN GOT BACKWARDS: most of the water leaves by DRAINAGE, not by evaporation.**\n\n> **Drainage removes perhaps two-thirds of the water in the first day or two; evaporation removes the last third over the following weeks.**\n\n> **That has a practical consequence: the bed's performance depends far more on whether the SAND drains freely than on the weather.**\n\n> **A bed whose sand has clogged with fines, or whose underdrains have silted, will not drain — and it then relies on evaporation alone, which takes many times longer and makes the bed's area quite inadequate.**\n\n> **So the commonest cause of drying bed failure is a clogged bed rather than a wet climate, and the remedy is to replace the top sand periodically rather than to build more beds.**\n\n**WHY DIGESTION MUST PRECEDE DRYING, WHICH IS WORTH KNOWING:**\n\n| Point | Note |\n|---|---|\n| **RAW sludge on a drying bed putrefies, smells strongly and attracts flies** ← | **It is an intolerable nuisance in any populated area** ← |\n| **DIGESTED sludge is stabilised, so it does not putrefy further** ← | **And its odour is comparatively inoffensive** ← |\n| **Digestion also improves the sludge's DEWATERING characteristics markedly** ← | **The gas produced during digestion floats fine particles clear and the structure changes** ← |\n| **And it destroys most pathogens, particularly at thermophilic temperatures** ← | ← |\n\n> **THE FIRST TWO ROWS TOGETHER MAKE DIGESTION A PREREQUISITE RATHER THAN AN IMPROVEMENT: drying beds are open to the air, so whatever is on them is in contact with the neighbourhood.**\n\n> **A works that digests its sludge can dry it beside the plant; one that does not must either dispose of wet raw sludge or create a nuisance that will eventually close the works.**\n\n> **This is why the sludge line — thickening, digestion, dewatering, disposal — is a system rather than a series of options, and why omitting the digester to save capital creates a problem at the drying beds that no amount of operational care will solve.**\n\n**THE ALTERNATIVES TO DRYING BEDS, AND WHEN THEY ARE USED:**\n\n| Method | Note |\n|---|---|\n| **DRYING BEDS** ← | **Simple, cheap, no power, no chemicals, no skill — but a LARGE area and slow, and useless in prolonged wet weather** ← |\n| **BELT FILTER PRESS** ← | **Continuous, moderate power and polymer use; produces 18 to 25 per cent cake** ← (option a, broadly) |\n| **CENTRIFUGE** ← | **Compact, high power and polymer use, high throughput; 20 to 30 per cent cake** ← (option b) |\n| **FILTER (plate and frame) PRESS** ← | **Batch, produces the DRIEST cake at 30 to 45 per cent, with lime and ferric conditioning** ← |\n| **REED BED / sludge treatment wetland** ← | **Sludge applied to a planted gravel bed over years; the reeds' roots keep it permeable and the sludge mineralises in place — emptied every 8 to 10 years** ← |\n\n> **THE FIRST ROW'S LIMITATION IS THE DECISIVE ONE IN NEPAL AND IT MUST BE FACED HONESTLY: drying beds do not work during the monsoon.**\n\n> **Rain rewets the bed, drainage cannot keep pace, and for three or four months the beds are effectively out of service — while the works continues to produce sludge at the same rate.**\n\n> **So a bed area calculated on dry-weather performance is inadequate, and either the area must be increased substantially, the beds must be COVERED with a transparent roof, or storage must be provided for the monsoon's sludge.**\n\n> **Covered beds are the usual answer and they are not expensive — a simple translucent roof on light framing, open at the sides for ventilation — and they roughly double the beds' annual capacity by making them available all year.**\n\n> **Omitting the roof to save a modest capital sum and then finding the beds unusable for a third of the year is a false economy that appears in the first monsoon.**",
@@ -2693,7 +2693,7 @@
       "marks": 1,
       "stem": "The OXYGEN SAG CURVE describing a river downstream of a sewage discharge results from the interaction of:",
       "options": [
-        "DEOXYGENATION, as the organic matter is oxidised and consumes dissolved oxygen, and REAERATION, as oxygen is absorbed from the atmosphere",
+        "Deoxygenation, as the organic matter is oxidised and consumes dissolved oxygen, and reaeration, as oxygen is absorbed from the atmosphere",
         "Photosynthesis and respiration of aquatic plants only",
         "The river's temperature and its velocity only",
         "Sedimentation and resuspension of the discharged solids"
@@ -2729,7 +2729,7 @@
       "options": [
         "Requires the sewage to be fully treated and disinfected first",
         "Can be practised on any soil regardless of its permeability",
-        "Uses the soil as a natural TREATMENT medium and the crop as a nutrient sink",
+        "Uses the soil as a natural treatment medium and the crop as a nutrient sink",
         "Is unaffected by the season or the rainfall"
       ],
       "answerIndex": 2,
@@ -2761,7 +2761,7 @@
       "stem": "Biological removal of NITROGEN from wastewater requires two distinct steps carried out under different conditions, namely:",
       "options": [
         "Aerobic oxidation followed by chemical precipitation",
-        "NITRIFICATION",
+        "Nitrification",
         "Adsorption onto activated carbon followed by filtration",
         "Settlement followed by disinfection"
       ],
@@ -2796,7 +2796,7 @@
         "Uptake of the pollutants by the reeds themselves, which are harvested and removed",
         "Simple filtration of the wastewater through the gravel",
         "Evaporation of the wastewater from the plants' leaves",
-        "The BIOFILM growing on the gravel and on the plants' ROOTS"
+        "The biofilm growing on the gravel and on the plants' roots"
       ],
       "answerIndex": 3,
       "solution": "**The BIOFILM growing on the gravel and on the plants' ROOTS** — the plants' main contribution being to supply OXYGEN to the root zone and to keep the bed permeable.\n\n**What the plants actually do, which is not what is usually assumed:**\n\n| Contribution | Note |\n|---|---|\n| **Transporting OXYGEN from the leaves down to the ROOTS and releasing it there** ← | **Creating aerobic microsites in an otherwise anaerobic bed, so both aerobic and anaerobic processes can proceed side by side** ← |\n| **Providing SURFACE AREA on the roots and rhizomes for the biofilm** ← | ← |\n| **Keeping the bed PERMEABLE** ← | **The roots and rhizomes penetrate the medium and prevent it clogging, and their seasonal growth and decay maintain the pore structure** ← |\n| **Insulating the bed's surface in winter** ← | ← |\n| **Some direct nutrient UPTAKE** ← | **Real but MODEST — typically under 10 per cent of the nitrogen load, and only if the plants are harvested and removed** ← (which is why option a overstates it) |\n| **And they make the installation look like a marsh rather than a works** ← | **A genuine advantage in an amenity-sensitive location** ← |\n\n> **THE FIFTH ROW CORRECTS THE COMMONEST MISCONCEPTION ABOUT THESE SYSTEMS AND IT IS WORTH STATING PLAINLY: the reeds are not eating the pollution.**\n\n> **Plant uptake accounts for a small fraction of the treatment, and unless the plants are cut and carted away, whatever they took up returns to the bed when they die back.**\n\n> **The treatment is done by BACTERIA, as in every other biological process — the wetland is a biofilm reactor whose medium happens to be planted.**\n\n> **Understanding that changes how the system is designed and operated: the design parameters are hydraulic loading, retention time and medium surface area, exactly as for any biofilm process, and the plant species matters much less than the bed's hydraulics.**\n\n**THE TWO CONFIGURATIONS:**\n\n| Type | Arrangement | Suited to |\n|---|---|---|\n| **SURFACE FLOW (free water surface)** ← | **Water flows OVER the soil surface among emergent plants — essentially a shallow marsh** ← | **Polishing an already treated effluent; wildlife value; but it exposes the water, so there is a mosquito and contact risk** ← |\n| **SUBSURFACE FLOW (horizontal or vertical)** ← | **Water flows THROUGH a gravel bed, BELOW the surface — no open water at all** ← | **Higher-strength wastewater; no mosquito breeding and no public contact; a smaller area, and the usual choice for sewage** ← |\n\n> **THE SUBSURFACE TYPE'S FREEDOM FROM MOSQUITOES IN THE SECOND ROW IS A DECISIVE ADVANTAGE IN A DENGUE-PRONE REGION AND IT IS WORTH WEIGHING PROPERLY: a surface flow wetland is, in vector terms, a designed and permanent mosquito habitat.**\n\n> **A subsurface bed has no standing water accessible to an insect at all — the water level is kept 50 to 100 mm below the gravel's surface for exactly this reason.**\n\n> **So the choice between the two is not merely one of loading and area but of whether an open water body is acceptable in that location, and in most Nepali settings it is not.**\n\n> **Maintaining that water level below the surface is therefore an operating requirement rather than a detail: a subsurface bed that has clogged and is surcharging, with water ponding on top, has become a surface flow wetland by accident, with all the vector consequences.**\n\n**THEIR PLACE AMONG TREATMENT OPTIONS:**\n\n| Advantage | Limitation |\n|---|---|\n| **NO energy, no chemicals, no mechanical equipment** ← | **A LARGE area — though less than waste stabilisation ponds** ← |\n| **Very simple operation; tolerant of intermittent flow** ← | **CLOGGING of the medium over years, particularly if the influent solids are not removed first** ← |\n| **Robust and long-lived** ← | **Limited NITROGEN removal in a horizontal bed, since it is largely anoxic** ← |\n| **Attractive, and can be integrated into a park or landscape** ← | **Performance falls in cold weather** ← |\n| **Well suited to small communities, institutions and single buildings** ← | **Requires PRIMARY treatment ahead of it — a septic tank or settler — without which it clogs quickly** ← |\n\n> **THE LAST ROW IS THE REQUIREMENT MOST OFTEN OMITTED AND ITS OMISSION IS FATAL TO THE SYSTEM: a reed bed must be preceded by settlement.**\n\n> **Suspended solids entering the gravel accumulate in the pores at the inlet end, and once the pores are blocked the water cannot enter — so it flows over the surface instead, short-circuiting the bed entirely and ponding.**\n\n> **A clogged inlet zone cannot be cleaned in place; the gravel must be dug out and washed or replaced.**\n\n> **So a septic tank or a simple settler ahead of the bed is not an optional refinement but the thing that determines whether the bed lasts twenty years or three — and the inlet zone should in any case be built with coarser stone and made accessible, on the assumption that it will eventually need attention.**",
@@ -2826,7 +2826,7 @@
       "marks": 1,
       "stem": "Under Nepal's environmental assessment system, an INITIAL ENVIRONMENTAL EXAMINATION (IEE) differs from an ENVIRONMENTAL IMPACT ASSESSMENT (EIA) in that an IEE is:",
       "options": [
-        "The LESS detailed study, required for projects of SMALLER scale or lesser expected impact",
+        "The less detailed study, required for projects of smaller scale or lesser expected impact",
         "A study of the project's financial viability rather than its environmental effects",
         "Carried out after construction is complete",
         "Required only for projects funded from abroad"
@@ -2860,7 +2860,7 @@
       "stem": "SCOPING, as a stage of the environmental assessment process, is the exercise of:",
       "options": [
         "Deciding whether an assessment is required at all",
-        "Identifying which of the many possible impacts are SIGNIFICANT and therefore warrant detailed study",
+        "Identifying which of the many possible impacts are significant and therefore warrant detailed study",
         "Measuring the existing environmental conditions at the site",
         "Monitoring the project's effects after it is built"
       ],
@@ -2894,7 +2894,7 @@
       "options": [
         "Demonstrate that the assessment team visited the site",
         "Satisfy the terms of reference",
-        "Provide the REFERENCE STATE against which the project's predicted impacts are measured",
+        "Provide the reference state against which the project's predicted impacts are measured",
         "Describe the region's history and culture for the report's introduction"
       ],
       "answerIndex": 2,
@@ -2928,7 +2928,7 @@
         "Compensate, then mitigate, then minimise, then avoid",
         "Mitigate first, and avoid only if mitigation proves impossible",
         "Compensate the affected parties financially, which addresses any impact",
-        "AVOID the impact, then MINIMISE it, then MITIGATE or restore what remains, and only as a last resort COMPENSATE or offset the residual"
+        "Avoid the impact, then minimise it, then mitigate or restore what remains, and only as a last resort compensate or offset the residual"
       ],
       "answerIndex": 3,
       "solution": "**AVOID the impact, then MINIMISE it, then MITIGATE or restore what remains, and only as a last resort COMPENSATE or offset the residual.**\n\n**The hierarchy, with an example of each:**\n\n| Step | Meaning | Example |\n|---|---|---|\n| **1. AVOID** ← | **Do not cause the impact at all** ← | **Realign the road around the forest instead of through it; site the works away from the wetland** ← |\n| **2. MINIMISE** ← | **Reduce the impact's magnitude, extent or duration** ← | **Reduce the cut width; work outside the breeding season; use silt fences and staged clearance** ← |\n| **3. MITIGATE / RESTORE** ← | **Repair or rehabilitate what could not be avoided** ← | **Replant the cleared area, restore the spoil tips, re-establish the drainage** ← |\n| **4. COMPENSATE / OFFSET** ← | **Provide an equivalent elsewhere, or pay** ← | **Afforest a comparable area; compensate the landowners; fund a habitat elsewhere** ← |\n\n> **THE ORDER IS NOT A PREFERENCE BUT A REQUIREMENT, AND THE REASON IS WORTH STATING: each step down the hierarchy is LESS CERTAIN than the one above it.**\n\n> **Avoidance is certain — an impact that does not occur cannot fail to be prevented.**\n\n> **Minimisation is fairly reliable.**\n\n> **Restoration is uncertain: a replanted forest is not the forest that was cleared, and it may take fifty years to resemble one, if it ever does.**\n\n> **Compensation is the least certain of all, because it substitutes something different in a different place for what was lost — and the substitution frequently fails or is never delivered.**\n\n> **So working down the hierarchy is working from certainty toward hope, and each step should be taken only when the one above has been genuinely exhausted.**\n\n**WHY COMPENSATION IS SO OFTEN UNSATISFACTORY, WHICH IS WORTH BEING CLEAR ABOUT:**\n\n| Problem | Note |\n|---|---|\n| **The compensating asset is elsewhere, so the LOCAL loss is not made good** ← | **A forest planted in another district does nothing for the village that lost its own** ← |\n| **A new plantation is not equivalent to a mature forest** ← | **In biodiversity, in soil, in hydrology or in the services it provided** ← |\n| **Delivery is often DEFERRED and then neglected** ← | **The impact happens at once and the compensation over decades, if at all** ← |\n| **Financial compensation may not reach those who actually bore the loss** ← | **The tenant, the landless user of common land, and the woman who collected from it may have no title to compensate** ← |\n| **And some things cannot be compensated at all** ← | **A sacred site, an endemic species, a community's cohesion after resettlement** ← |\n\n> **THE FOURTH ROW IS A PARTICULARLY IMPORTANT POINT IN A NEPALI AND SOUTH ASIAN CONTEXT AND IT DESERVES ITS EMPHASIS: compensation follows TITLE, and use does not always follow title.**\n\n> **Common land, forest used under customary rights, riverbanks, grazing and gathering areas support the poorest households precisely because they need no title — and when such land is taken, there is nobody with a document to compensate.**\n\n> **The registered landowner receives payment for the field; the household that grazed a goat on the common and gathered fodder from the forest receives nothing, and it is that household whose livelihood is most damaged in proportion.**\n\n> **So an assessment that counts affected parties by land title systematically under-counts the affected people, and does so in a way biased against the poorest.**\n\n> **Identifying the users of a resource rather than its owners is therefore a specific requirement of a competent social assessment, and it is the point at which such assessments most often fail.**\n\n> **THE FIFTH ROW IS THE HONEST LIMIT OF THE WHOLE FRAMEWORK AND IT SHOULD NOT BE GLOSSED OVER: some losses are not substitutable.**\n\n> **Where an impact falls into that category, the hierarchy's answer is the first step and not the last — avoidance — and if avoidance is impossible then the honest conclusion may be that the project should not proceed in that form.**\n\n> **An assessment that reaches for compensation because avoidance is inconvenient has inverted the hierarchy, and the resulting approval rests on a promise that cannot be kept.**",
@@ -2958,7 +2958,7 @@
       "marks": 1,
       "stem": "An ENVIRONMENTAL MANAGEMENT PLAN (EMP) forming part of an approved EIA is:",
       "options": [
-        "The document that translates the assessment's recommendations into SPECIFIC actions with an assigned RESPONSIBILITY",
+        "The document that translates the assessment's recommendations into specific actions with an assigned responsibility",
         "A statement of the project's environmental policy",
         "A summary of the EIA report for public circulation",
         "A record of the monitoring results after construction"
@@ -2993,7 +2993,7 @@
       "options": [
         "Occur only during the construction phase",
         "Affect more than one environmental component at the same time",
-        "Arise from the COMBINATION of the project's effects with those of OTHER past",
+        "Arise from the combination of the project's effects with those of other past",
         "Accumulate in the tissues of organisms over time"
       ],
       "answerIndex": 2,
@@ -3026,7 +3026,7 @@
       "stem": "In the DISASTER MANAGEMENT CYCLE, the phase called MITIGATION consists of:",
       "options": [
         "The immediate provision of relief, rescue and shelter after a disaster",
-        "Measures taken BEFORE an event to REDUCE or ELIMINATE its impact",
+        "Measures taken before an event to reduce or eliminate its impact",
         "The restoration of services and reconstruction after the event",
         "Warning the population that an event is imminent"
       ],
@@ -3061,7 +3061,7 @@
         "A glacier melts gradually, increasing a river's flow through the summer",
         "Heavy rainfall falls directly on a glacier's surface",
         "An avalanche blocks a river and forms a temporary lake",
-        "The MORAINE DAM impounding a glacial lake FAILS suddenly"
+        "The moraine dam impounding a glacial lake fails suddenly"
       ],
       "answerIndex": 3,
       "solution": "**When the MORAINE DAM impounding a glacial lake FAILS suddenly** — often triggered by an avalanche or icefall into the lake — releasing a very large volume of water as a catastrophic flood down the valley.\n\n**How a glacial lake forms and why it is dangerous:**\n\n| Step | Note |\n|---|---|\n| **A retreating glacier leaves a MORAINE — a ridge of unconsolidated debris — across the valley** ← | ← |\n| **Meltwater ponds behind it, forming a glacial lake** ← | **And the lakes have grown markedly as glaciers have retreated** ← |\n| **The moraine is LOOSE rock and sediment, often containing buried ICE** ← | **It is not an engineered dam and has no spillway, no core and no compaction** ← |\n| **Melting of that buried ice, seepage, overtopping or a wave can breach it** ← | ← |\n| **A common TRIGGER is an ice avalanche or a rockfall INTO the lake** ← | **Generating a wave that overtops the moraine and erodes a channel through it** ← |\n| **Once breached, the moraine erodes rapidly and the lake empties in HOURS** ← | ← |\n\n> **THE THIRD ROW IS THE HEART OF THE HAZARD AND IT IS WORTH STATING PLAINLY: a moraine dam has none of the features that make an engineered dam safe.**\n\n> **It has no spillway, so it must overtop to pass a surplus — and overtopping an unconsolidated embankment is precisely how such an embankment fails.**\n\n> **It has no impervious core and no filter, so seepage can pipe through it.**\n\n> **It may contain buried ice which is melting, so it is losing strength and volume with time.**\n\n> **And it impounds a large volume at a great height above a populated valley — so the energy available is enormous.**\n\n> **A structure with those characteristics would never be approved if anyone proposed to build it, and there are a considerable number of them in the Himalaya, growing.**\n\n**WHAT A GLOF DOES, WHICH IS DIFFERENT IN KIND FROM AN ORDINARY FLOOD:**\n\n| Characteristic | Note |\n|---|---|\n| **A very high peak discharge, arriving with little or no warning** ← | **Many times the river's natural flood** ← |\n| **It ENTRAINS enormous quantities of sediment and boulders** ← | **Becoming a debris flow rather than a water flood, with far greater destructive power** ← |\n| **It scours the valley floor and undercuts the slopes** ← | **Triggering further landslides along its path** ← |\n| **It destroys everything in the valley bottom** ← | **Bridges, roads, hydropower headworks, settlements and agricultural land** ← |\n| **Its effects extend HUNDREDS of kilometres downstream** ← | **Across borders** ← |\n| **And the source is remote and uninhabited** ← | **So there is nobody there to observe the failure and raise the alarm** ← |\n\n> **THE SIXTH ROW IS WHAT MAKES EARLY WARNING SO DIFFICULT AND SO VALUABLE: the event begins in an uninhabited high valley and the people at risk are hours downstream.**\n\n> **Those hours are the whole opportunity — a flood travelling down a valley takes real time to reach the settlements, and an automatic sensor at the lake with a radio link can give a warning that saves lives.**\n\n> **Such systems have been installed on several Nepali lakes, and they are cheap relative to what they protect.**\n\n> **Their difficulty is maintenance: an instrument at 5,000 m, unattended for years, must still work on the one day it matters — which requires a maintenance regime and a power supply that survive, and a community that still knows what the siren means after ten quiet years.**\n\n**THE MITIGATION MEASURES AVAILABLE:**\n\n| Measure | Note |\n|---|---|\n| **INVENTORY and monitoring of the lakes, by satellite and by field survey** ← | **Identifying which are growing and which moraines are weakening** ← |\n| **LOWERING the lake level artificially** ← | **By cutting a controlled channel or siphoning — done at Tsho Rolpa, reducing the level by three metres** ← |\n| **EARLY WARNING systems** ← | **As above** ← |\n| **LAND USE control in the valley below** ← | **Keeping settlements and critical infrastructure off the flood path — the cheapest measure of all, and the one requiring the most political will** ← |\n| **Designing infrastructure for the GLOF case** ← | **Bridges, intakes and powerhouses in such valleys set above the anticipated GLOF level, or accepted as expendable** ← |\n\n> **THE FIFTH ROW IS THE DESIGN QUESTION AN ENGINEER ACTUALLY FACES AND IT IS AN UNCOMFORTABLE ONE: a hydropower scheme in a GLOF-prone valley must decide whether to design for the event or to accept the risk.**\n\n> **Designing for it may be prohibitively expensive, since the flood may be many times the design flood.**\n\n> **Ignoring it means the scheme may be destroyed, as has happened — and the 1985 Dig Tsho GLOF destroyed the nearly complete Namche small hydropower plant along with bridges and trails.**\n\n> **The honest approach is to assess the probability, state it, design the elements that can reasonably be protected, and make the decision on the risk explicitly rather than by omission — which is a good instance of the general principle that a risk consciously accepted is manageable and a risk not identified is not.**",
@@ -3091,7 +3091,7 @@
       "marks": 1,
       "stem": "In the management of municipal SOLID WASTE, the '3R' hierarchy places the options in the order:",
       "options": [
-        "REDUCE, then REUSE, then RECYCLE",
+        "Reduce, then reuse, then recycle",
         "Recycle, reuse, reduce",
         "Reuse, recycle, reduce",
         "Recycle first, since it recovers materials"
@@ -3124,7 +3124,7 @@
       "marks": 1,
       "stem": "A SANITARY LANDFILL differs from an open dump principally in that a sanitary landfill:",
       "options": [
-        "Is ENGINEERED",
+        "Is engineered",
         "Receives only non-hazardous waste",
         "Is located further from the town",
         "Is operated by the municipality rather than privately"
@@ -3159,7 +3159,7 @@
       "options": [
         "Strong winds carry pollution in from surrounding districts",
         "Heavy rainfall washes pollutants out of the atmosphere and into the air at ground level",
-        "A TEMPERATURE INVERSION forms — a layer of warm air overlying cooler air near the ground",
+        "A temperature inversion forms — a layer of warm air overlying cooler air near the ground",
         "The valley's altitude reduces the oxygen available to disperse the pollutants"
       ],
       "answerIndex": 2,
@@ -3227,7 +3227,7 @@
         "Satisfy a procedural requirement so that the report can be submitted",
         "Explain the project to the community so that opposition is reduced",
         "Allow the developer to demonstrate the project's benefits",
-        "Give the AFFECTED PEOPLE an opportunity to raise concerns and provide LOCAL KNOWLEDGE that the assessment may have missed"
+        "Give the affected people an opportunity to raise concerns and provide local knowledge that the assessment may have missed"
       ],
       "answerIndex": 3,
       "solution": "**To give the AFFECTED PEOPLE an opportunity to raise concerns and provide LOCAL KNOWLEDGE that the assessment may have missed** — and to have those concerns recorded and answered before the decision is taken.\n\n**What a public hearing is for, and what it is not for:**\n\n| It IS for | It is NOT for |\n|---|---|\n| **Obtaining information the assessment team does not have** ← | **Persuading the community to accept a decision already made** ← (option b) |\n| **Identifying who is actually affected, and how** ← | **Marketing the project's benefits** ← (option c) |\n| **Testing the assessment's findings against local experience** ← | **Discharging a procedural box** ← (option a) |\n| **Recording concerns so that they must be ANSWERED** ← | ← |\n| **Establishing a relationship before construction begins** ← | ← |\n\n> **THE FIRST ROW IN THE 'IS FOR' COLUMN IS THE SUBSTANTIVE JUSTIFICATION AND IT IS THE ONE MOST OFTEN FORGOTTEN: the community holds information the assessment cannot otherwise obtain.**\n\n> **They know the history of the site over decades, not the fortnight the survey team spent there.**\n\n> **They know where the water comes from, which slope moved in 1993, where the landslide debris reached, which fields flood, who uses the forest and on what terms, and what happened the last time somebody built something there.**\n\n> **A consultant's baseline study cannot discover most of that, and the hearing is the mechanism by which it enters the assessment.**\n\n> **So a hearing treated as a presentation, in which the developer speaks and the community listens, has inverted the purpose — the information is supposed to flow the other way.**\n\n**WHAT MAKES A HEARING GENUINE RATHER THAN NOMINAL:**\n\n| Requirement | Note |\n|---|---|\n| **Adequate NOTICE, in the local language, by means people actually see** ← | **A notice in a national newspaper is not notice to a village** ← |\n| **The information made available BEFOREHAND, in a form people can use** ← | **A 400-page English report is not disclosure; a summary in Nepali is** ← |\n| **Held at a place and TIME people can attend** ← | **Not in the district headquarters on a working morning** ← |\n| **Conducted so that people can actually SPEAK** ← | **Which requires the officials to listen more than they talk, and requires the socially quieter groups — women, the landless, lower castes — to have a genuine opportunity** ← |\n| **A RECORD kept of what was said** ← | ← |\n| **And a documented RESPONSE to each substantive point** ← | **Whether accepted, and if not, why** ← |\n| **Held BEFORE the decision, with the decision genuinely open** ← | ← |\n\n> **THE FOURTH ROW IS THE HARDEST TO ACHIEVE AND THE MOST OFTEN MISSING, AND IT MATTERS BECAUSE OF WHO IS AFFECTED: a public meeting is dominated by those accustomed to speaking in public meetings.**\n\n> **The people most affected by a project — those without land title, those who use common resources, women whose water collection route is disrupted — are frequently the least likely to speak in a formal gathering with officials present.**\n\n> **So a hearing that is procedurally correct can systematically miss the concerns of the most affected, and a competent process supplements it with separate smaller discussions with those groups.**\n\n> **That is more work and it produces information the formal hearing would not, which is precisely the point.**\n\n> **THE SIXTH ROW IS WHAT DISTINGUISHES CONSULTATION FROM A FORMALITY AND IT IS WORTH INSISTING ON: every substantive point raised should be answered in writing in the final report.**\n\n> **Not necessarily agreed to — many points cannot be accommodated — but recorded, considered, and answered with a reason.**\n\n> **A community whose concerns are recorded and reasonably refused has been consulted; one whose concerns are recorded and ignored has not, and it will know the difference.**\n\n> **And the practical consequence of the difference appears later: unanswered concerns become obstruction during construction, and the cost of dealing with them then, with plant standing idle, exceeds by a wide margin the cost of answering them at the hearing.**",
@@ -3257,7 +3257,7 @@
       "marks": 1,
       "stem": "ENVIRONMENTAL AUDITING, as required after a project has been implemented, is carried out in order to:",
       "options": [
-        "CHECK whether the predicted impacts actually occurred",
+        "Check whether the predicted impacts actually occurred",
         "Calculate the project's financial return",
         "Prepare the environmental impact assessment report",
         "Determine whether an EIA was required in the first place"
@@ -3292,7 +3292,7 @@
       "options": [
         "A polluter should be fined an amount equal to the profit made from polluting",
         "Pollution is acceptable provided a fee is paid for it",
-        "The COST of preventing pollution and of remedying the damage it causes should be borne by the PARTY RESPONSIBLE",
+        "The cost of preventing pollution and of remedying the damage it causes should be borne by the party responsible",
         "The government should pay to clean up pollution and recover the cost through general taxation"
       ],
       "answerIndex": 2,
@@ -3324,7 +3324,7 @@
       "stem": "For a project in Nepal requiring an EIA, the report is submitted through the concerned ministry and the APPROVAL is granted by:",
       "options": [
         "The local municipality or rural municipality",
-        "The MINISTRY responsible for the ENVIRONMENT",
+        "The ministry responsible for the environment",
         "The Department of Roads in every case",
         "The project proponent's own board"
       ],
@@ -3359,7 +3359,7 @@
         "Average annual temperatures are rising",
         "Glaciers are retreating in the high Himalaya",
         "Average annual rainfall totals are changing slowly",
-        "RAINFALL is becoming more INTENSE and more variable"
+        "Rainfall is becoming more intense and more variable"
       ],
       "answerIndex": 3,
       "solution": "**RAINFALL is becoming more INTENSE and more variable** — so that the intensity-duration-frequency relationships on which drainage design depends are no longer STATIONARY, and a structure designed to a historic return period may face that event far more often.\n\n**Why the loss of stationarity matters so much:**\n\n| Point | Note |\n|---|---|\n| **All conventional hydrological design assumes STATIONARITY** ← | **That the statistics of the past describe the future — so a 50-year flood computed from 40 years of record will remain a 50-year flood** ← |\n| **Every frequency analysis, every IDF curve and every design storm rests on that assumption** ← | ← |\n| **A changing climate breaks it** ← | **The distribution itself is shifting, so the past record is no longer a sample of the future** ← |\n| **A culvert designed for a historic 1-in-25-year storm may now face it every 10 or 15 years** ← | **Without anything about the culvert having changed** ← |\n| **And the design method offers no way to allow for this from the record alone** ← | **Since the record is precisely what has stopped being representative** ← |\n\n> **THE FIFTH ROW IS THE GENUINE METHODOLOGICAL DIFFICULTY AND IT SHOULD BE STATED HONESTLY RATHER THAN GLOSSED OVER: the standard tools assume the very thing that is no longer true.**\n\n> **Extending the record does not help, because the older data is drawn from a different climate.**\n\n> **The practical responses available are to apply a deliberate uplift factor to the design rainfall, to design to a longer return period than the standard requires, to favour designs that fail SAFELY when exceeded, and to build in the capacity to be enlarged later.**\n\n> **None of those is theoretically satisfying and all of them are better than proceeding as though nothing had changed.**\n\n**THE PRACTICAL DESIGN RESPONSES, WHICH ARE WORTH KNOWING AS A SET:**\n\n| Response | Note |\n|---|---|\n| **Apply an ALLOWANCE to the design rainfall intensity** ← | **Many jurisdictions now specify an uplift of 10 to 40 per cent on peak rainfall for the structure's design life** ← |\n| **Design for GRACEFUL failure** ← | **A culvert that overtops onto a properly protected road embankment survives; one that washes the embankment away does not — and the difference is a scour apron and a designed overflow path** ← |\n| **Provide for future ENLARGEMENT** ← | **Headwalls and abutments set so a second barrel can be added; land reserved beside a drain** ← |\n| **Favour measures that are ROBUST to uncertainty** ← | **Catchment management, retention, and green infrastructure degrade gracefully, while a fixed-capacity pipe does not** ← |\n| **Review the design life** ← | **A structure with a 100-year life faces far more change than one with a 25-year life, and warrants a larger allowance** ← |\n\n> **THE SECOND ROW IS THE MOST VALUABLE AND THE LEAST COSTLY OF THESE AND IT DESERVES EMPHASIS: designing for what happens when the capacity IS exceeded costs very little and changes the consequence completely.**\n\n> **Every drainage structure will be exceeded eventually, climate change or not — the return period says so.**\n\n> **The question is whether the exceedance causes an inconvenience or a catastrophe, and that is settled by whether an overflow route was designed, whether the embankment is protected, and whether the failure is progressive or sudden.**\n\n> **A designer who cannot know the future intensity can still ensure that being wrong is survivable, and that is the appropriate engineering response to an uncertainty that cannot be resolved.**\n\n**THE OTHER EFFECTS IN THE OPTIONS ARE REAL AND EACH MATTERS ELSEWHERE, WHICH IS WORTH ACKNOWLEDGING:**\n\n| Effect | Where it matters most |\n|---|---|\n| **Glacier RETREAT** ← | **Long-term dry-season river flows, and the GROWTH of glacial lakes and hence GLOF risk — a hydropower and a hazard issue** ← |\n| **Rising TEMPERATURE** ← | **Water demand, crop water requirements, pavement design temperatures, and the range of vector-borne disease moving up in altitude** ← |\n| **Changing annual TOTALS** ← | **Water resource availability and irrigation planning** ← |\n| **Increasing INTENSITY and variability** ← | **DRAINAGE and hydraulic structure design — this question, and the most immediate for ordinary practice** ← |\n\n> **THE FIRST ROW CONNECTS BACK TO THE GLOF QUESTION AND IS WORTH DRAWING OUT: glacier retreat is not only a long-term water resource issue but an immediate HAZARD issue, because the retreating glaciers are creating and enlarging the very lakes whose moraine dams may fail.**\n\n> **So the hazard is growing rather than static, and a GLOF risk assessment based on a lake inventory ten years old understates the present position.**\n\n> **The second row's last item is also worth noting because it is often missed in an engineering context: the altitude limit of malaria and dengue transmission is rising as temperatures rise, so valleys that were historically free of them are no longer — which affects the design of water storage and drainage in exactly the ways discussed under rainwater tanks and road gullies.**",

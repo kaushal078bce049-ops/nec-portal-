@@ -12,7 +12,7 @@
       "marks": 1,
       "stem": "PLYWOOD is always made up of an ODD number of veneer plies, with the grain of successive plies at right angles, principally so that:",
       "options": [
-        "The board is BALANCED about its central ply and the two faces have their grain in the SAME direction",
+        "The board is balanced about its central ply and the two faces have their grain in the same direction",
         "Less adhesive is required",
         "The board can be cut more easily",
         "The plies can be of different timber species"
@@ -47,7 +47,7 @@
       "options": [
         "Sets faster than cement, giving higher early strength",
         "Increases the water demand of the mix",
-        "Reacts POZZOLANICALLY with the CALCIUM HYDROXIDE liberated by cement hydration to form additional binding gel",
+        "Reacts POZZOLANICALLY with the calcium hydroxide liberated by cement hydration to form additional binding gel",
         "Acts as an inert filler with no chemical effect"
       ],
       "answerIndex": 2,
@@ -112,7 +112,7 @@
       "stem": "The SPLIT TENSILE STRENGTH test on concrete is carried out by:",
       "options": [
         "Pulling a cylinder apart with grips at each end",
-        "Applying a COMPRESSIVE line load along the length of a cylinder laid on its SIDE",
+        "Applying a compressive line load along the length of a cylinder laid on its side",
         "Loading a beam at its third points until it cracks",
         "Applying a torque to a cylindrical specimen"
       ],
@@ -146,7 +146,7 @@
       "options": [
         "24 hours",
         "7 days",
-        "14 DAYS for the props to the span",
+        "14 days for the props to the span",
         "60 days"
       ],
       "answerIndex": 2,
@@ -278,7 +278,7 @@
       "options": [
         "Compute the area enclosed by a traverse",
         "Correct for local attraction of the compass",
-        "DISTRIBUTE the CLOSING ERROR of a traverse among its legs IN PROPORTION TO THEIR LENGTHS",
+        "Distribute the closing error of a traverse among its legs in proportion to their lengths",
         "Determine the true bearing from the magnetic bearing"
       ],
       "answerIndex": 2,
@@ -312,7 +312,7 @@
         "Is prepared before the detailed estimate",
         "Is prepared when the original estimate is found to be arithmetically wrong",
         "Replaces the original estimate entirely",
-        "Is prepared for ADDITIONAL WORK found necessary while the original work is in progress"
+        "Is prepared for additional work found necessary while the original work is in progress"
       ],
       "answerIndex": 3,
       "solution": "**A supplementary estimate covers ADDITIONAL WORK found necessary while the original work is in progress**, and it is submitted alongside the original estimate as an addition to it.\n\n**The two compared:**\n\n| Aspect | REVISED estimate | SUPPLEMENTARY estimate |\n|---|---|---|\n| **Prepared when** | **The original estimate is EXCEEDED, or is likely to be, by more than a stated percentage (commonly 5 %)** ← | **ADDITIONAL work, not in the original scope, becomes necessary** ← |\n| **Covers** | **The SAME work, at a revised cost** ← | **NEW work, in addition to the original** ← |\n| **Relationship to the original** | **REPLACES it** ← | **ADDS to it — the two are considered TOGETHER** ← |\n| **Must be accompanied by** | **A comparative statement showing the original and revised figures item by item, WITH REASONS for each excess** ← | **A full description of why the additional work is needed** ← |\n| **Cause** | **Rate increases, quantity variations, design changes, delay** ← | **Genuine additional requirement discovered during execution** ← |\n\n> **THE THIRD ROW IS THE CLEANEST WAY TO REMEMBER THE DIFFERENCE: a REVISED estimate replaces; a SUPPLEMENTARY estimate is added.**\n\n> **Option (b) describes neither — an arithmetical error is corrected, not made the subject of a new estimate.**\n\n**The COMPARATIVE STATEMENT in the fourth row deserves emphasis, because it is the point of the whole procedure:**\n\n> **A revised estimate is not merely a larger number. It must show, item by item, what was originally allowed, what is now required, and WHY.**\n\n> **That requirement exists so that the approving authority can distinguish between legitimate causes — a genuine rise in material prices, ground conditions worse than could have been foreseen, a change of scope directed by the client — and illegitimate ones, principally an original estimate that was too low.**\n\n> **The first three are nobody's fault. The fourth is, and it will not be identified unless the comparison is set out.**\n\n**The full family of estimates, so this pair is in context:**\n\n| Estimate | Purpose |\n|---|---|\n| **PRELIMINARY (approximate, rough cost)** | **At the planning stage, to decide whether to proceed — by plinth area, cubic content or per unit** ← |\n| **PLINTH AREA / cube rate estimate** | **A form of the above** |\n| **DETAILED estimate** ← | **Item by item, from the drawings and the schedule of rates — the basis of sanction and of tendering** ← |\n| **REVISED estimate** | **When the sanctioned amount is exceeded** ← |\n| **SUPPLEMENTARY estimate** | **For additional work — this question** ← |\n| **ANNUAL REPAIR / maintenance estimate** ← | **The yearly provision to keep an existing asset in order** ← |\n| **COMPLETE estimate** | **Covering all ancillary items as well as the main work** |\n| **EXTENSION AND IMPROVEMENT estimate** | **For enlarging or upgrading existing works** ← |\n\n> **THE ANNUAL REPAIR ESTIMATE IN THE SIXTH ROW IS WORTH ENDING ON, because it is the one that is most often cut and least often defended:**\n\n> **It is the routine yearly provision for keeping an existing road, building or irrigation system serviceable, and it produces nothing new or visible.**\n\n> **It is therefore the first item reduced when a budget is tight, and the consequence — as with road maintenance, canal maintenance and drainage — appears years later as a rehabilitation estimate several times larger.**\n\n> **The estimating framework itself contains no defence against that. It is a matter of institutional discipline, and the strongest practical protection is the one adopted for roads: a dedicated maintenance fund, ring-fenced from the annual budget negotiation, so that the money cannot be moved to new construction.**\n\n> **The recurring theme is worth stating plainly, since it has appeared in road maintenance, canal drainage and reservoir sedimentation alike: the works that fail are rarely the ones that were badly designed. They are the ones that were not maintained.**\n\nSubmitted TOGETHER WITH the original estimate as an addition to it.",
@@ -343,7 +343,7 @@
       "stem": "In the Unified (and IS) soil classification system, a soil designated SP is:",
       "options": [
         "A well-graded sand",
-        "A POORLY GRADED (uniform) SAND",
+        "A poorly graded (uniform) sand",
         "A silty sand",
         "A sandy clay of low plasticity"
       ],
@@ -378,7 +378,7 @@
         "A higher permeability and greater swelling potential",
         "A flocculated structure and greater brittleness",
         "Identical properties, since the dry density is the same",
-        "A DISPERSED (oriented) structure"
+        "A dispersed (oriented) structure"
       ],
       "answerIndex": 3,
       "solution": "**A DISPERSED, oriented structure** — with lower permeability, lower swelling potential and more ductile behaviour, but lower strength at small strains.\n\n**The two structures:**\n\n| Aspect | Compacted DRY of optimum | Compacted WET of optimum |\n|---|---|---|\n| **Particle arrangement** | **FLOCCULATED — particles randomly oriented, edge-to-face** ← | **DISPERSED — particles ORIENTED parallel to one another** ← |\n| **Why** | **Little water, so the electrical repulsion between particles is suppressed and they clump** ← | **More water, thicker double layers, particles repel and slide into a parallel arrangement under the compactive effort** ← |\n| **PERMEABILITY** | **HIGHER — the random structure leaves larger interconnected voids** ← | **LOWER, often by an order of magnitude** ← |\n| **SWELLING potential** | **HIGHER — the soil is water-deficient and will take up more** ← | **LOWER — it is already near its equilibrium water content** ← |\n| **SHRINKAGE on drying** | **LOWER** | **HIGHER** ← |\n| **Strength at LOW strain** | **HIGHER — stiffer and stronger initially** ← | **LOWER** ← |\n| **Strength at LARGE strain** | **Similar or lower** | **Similar** |\n| **Stress-strain behaviour** | **BRITTLE — a peak followed by a drop** ← | **DUCTILE — deforms without a sharp peak** ← |\n| **Compressibility at high stress** | **HIGHER** | **Lower** |\n\n> **THE SAME SOIL AT THE SAME DRY DENSITY BEHAVES QUITE DIFFERENTLY DEPENDING ON WHICH SIDE OF OPTIMUM IT WAS COMPACTED, which is why option (c) is wrong and why this is worth knowing at all.**\n\n> **Dry density is only one measure of a compacted soil's state. The STRUCTURE — how the particles are arranged — is a second, independent one, and it governs permeability, swelling and ductility more than the density does.**\n\n**Choosing the side of optimum deliberately:**\n\n| Application | Compact | Why |\n|---|---|---|\n| **CORE of an earth dam; a canal or landfill LINER** ← | **WET of optimum** ← | **LOW PERMEABILITY is the objective, and ductility lets the core deform with settlement WITHOUT CRACKING** ← |\n| **SHELLS of an earth dam; a road SUBGRADE; structural fill** ← | **DRY of optimum, or at optimum** ← | **STRENGTH and STIFFNESS are wanted, and permeability does not matter** ← |\n| **Under a floor slab in an expansive clay** | **WET of optimum** | **To minimise subsequent swelling** ← |\n| **Where the fill must be trafficked immediately** | **Dry of optimum** | **A wet-compacted clay is unworkable under construction traffic** ← |\n\n> **THE FIRST ROW IS THE MOST IMPORTANT APPLICATION AND THE DUCTILITY REASON IS THE ONE USUALLY OMITTED, so it is worth expanding:**\n\n> **An earth dam's core sits on a foundation that settles, between shells that settle by different amounts, and the whole embankment deforms over the years.**\n\n> **A core compacted dry of optimum is strong and BRITTLE — it resists the deformation until it CRACKS, and a crack through the core of a dam is a concentrated leakage path and a piping failure waiting to happen.**\n\n> **A core compacted wet of optimum is weaker and DUCTILE — it deforms with the settlement, and it does not crack.**\n\n> **The weaker material makes the safer dam, which is a genuinely counter-intuitive result and one of the more instructive conclusions in earthwork engineering.**\n\n**And why the compaction curve has a peak at all, since it underlies all of this:**\n\n| Water content | What happens |\n|---|---|\n| **Very DRY** | **High friction between particles; the compactive effort cannot rearrange them, so the density is low** ← |\n| **Increasing** | **Water LUBRICATES the particles, they pack more closely, and the dry density RISES** ← |\n| **At OPTIMUM** | **The best compromise — maximum dry density for that compactive effort** ← |\n| **Beyond optimum** | **The extra water occupies VOLUME that soil solids could have occupied, and air cannot be expelled fast enough — the dry density FALLS** ← |\n| **The ZERO AIR VOIDS line** | **The theoretical maximum, at 100 % saturation — the curve approaches it but can never reach or cross it** ← |\n\n> **The last row gives a valuable check on any laboratory compaction curve: a plotted point lying ON or ABOVE the zero air voids line is impossible, and indicates an error in the specific gravity used or in the measurements themselves.**",
@@ -408,9 +408,9 @@
       "marks": 1,
       "stem": "CONSOLIDATION differs from COMPACTION of a soil in that consolidation is:",
       "options": [
-        "The GRADUAL reduction in volume of a SATURATED soil under a sustained load",
+        "The gradual reduction in volume of a saturated soil under a sustained load",
         "The instantaneous densification of a soil by mechanical energy",
-        "A reduction in volume caused by the expulsion of AIR",
+        "A reduction in volume caused by the expulsion of air",
         "Only applicable to sands and gravels"
       ],
       "answerIndex": 0,
@@ -443,7 +443,7 @@
       "options": [
         "Is quicker to perform",
         "Requires no boreholes",
-        "Measures the permeability of a LARGE MASS of soil IN PLACE",
+        "Measures the permeability of a large mass of soil in place",
         "Gives a lower and therefore safer value"
       ],
       "answerIndex": 2,
@@ -475,7 +475,7 @@
       "stem": "The RESIDUAL shear strength of an over-consolidated clay is:",
       "options": [
         "The strength measured immediately after sampling",
-        "The strength remaining after VERY LARGE shear displacement",
+        "The strength remaining after very large shear displacement",
         "The strength at zero effective stress",
         "The average of the peak and the undrained strengths"
       ],
@@ -510,7 +510,7 @@
         "Increases the weight of the sliding mass",
         "Allows sunlight to reach the failure surface",
         "Reduces the slope angle",
-        "SHORTENS the length of the failure surface over which shear strength can act, and"
+        "Shortens the length of the failure surface over which shear strength can act, and"
       ],
       "answerIndex": 3,
       "solution": "**It shortens the failure surface over which shear strength acts, and if it fills with water it adds a horizontal HYDROSTATIC THRUST driving the slide.**\n\n**The two effects, each significant on its own:**\n\n| Effect | Note |\n|---|---|\n| **1. The RESISTING arc is SHORTENED** ← | **No shear strength can be mobilised across an open crack — so the length of surface contributing resistance is reduced by the crack's depth** ← |\n| **2. WATER filling the crack exerts a horizontal FORCE** ← | **P_w = ½ γ_w z_c², acting at z_c/3 above the crack's base and pushing the mass outward** ← |\n| **The disturbing moment increases and the resisting moment decreases — simultaneously** ← | **Both terms of the factor of safety move the wrong way** ← |\n\n> **THE SIMULTANEITY IN THE THIRD ROW IS WHY A WATER-FILLED TENSION CRACK IS SO DAMAGING: most influences on slope stability affect either the driving side or the resisting side. This one attacks both at once.**\n\n**THE ARITHMETIC OF THE WATER THRUST IS WORTH DOING, because the magnitude surprises people:**\n\n| Crack depth | Water thrust per metre run |\n|---|---|\n| **2 m** | **½ × 9.81 × 4 = 19.6 kN/m** |\n| **3 m** | **½ × 9.81 × 9 = 44.1 kN/m** ← |\n| **5 m** | **½ × 9.81 × 25 = 123 kN/m** ← |\n\n> **The force goes as the SQUARE of the depth, so a deep crack full of water applies an enormous horizontal push — comparable with the entire resisting force on a marginal slope.**\n\n> **This is the direct mechanical explanation of why slope failures occur DURING or immediately after heavy rain, and often within hours of a storm: a crack that has been open and dry all season fills in a few hours, and the thrust appears almost instantly.**\n\n**THE THEORETICAL DEPTH of a tension crack:**\n\n| Relation | Note |\n|---|---|\n| **z_c = 2c / (γ √K_a)** ← | **For a cohesive soil behind a vertical face** ← |\n| **The soil above this depth is in TENSION** | **And soil has essentially no tensile strength, so it cracks** ← |\n| **Which is also why an unsupported vertical cut can stand to a limited height** ← | **H_c = 4c/(γ √K_a) = 2 z_c — twice the tension crack depth** ← |\n\n> **THE RELATION IN THE LAST ROW IS ELEGANT AND WORTH KNOWING: the critical height of an unsupported vertical cut in clay is exactly TWICE the depth of the tension crack.**\n\n> **And it carries a serious practical warning: that critical height is a THEORETICAL collapse height with a factor of safety of exactly 1.0.**\n\n> **It also relies on the clay's COHESION, which is a temporary property — it depends on suction in the unsaturated soil, and it is lost when the soil wets up.**\n\n> **A trench that stood open perfectly well for a week can collapse without warning after rain, and trench collapses kill more construction workers than almost any other single cause, because a cubic metre of soil weighs about two tonnes and a buried worker cannot be dug out in time.**\n\n> **Which is why trench support is required by depth (typically beyond 1.2 m) regardless of how stable the ground appears — the rule deliberately ignores the engineer's judgement about cohesion, because that judgement has been wrong too often.**\n\n**And what to do about tension cracks in practice:**\n\n| Measure | Note |\n|---|---|\n| **SEAL the crack — fill it with clay, or cover it with polythene** ← | **The cheapest and most effective emergency measure on a moving slope, and it can be done in an afternoon** ← |\n| **Provide surface drainage to divert water AWAY from the crest** ← | **So the crack does not fill** ← |\n| **Monitor crack width and length** | **A widening or lengthening crack is a moving slope, and it is the clearest warning available** ← |\n| **Unload the crest, or load the toe** | **The classic geometric remedies** ← |\n| **Include the crack in the stability analysis** ← | **Both effects — the shortened arc and, in the design case, a FULL crack of water** ← |\n\n> **THE FIRST ROW IS THE MOST VALUABLE PIECE OF PRACTICAL ADVICE HERE AND IT IS OFTEN OVERLOOKED IN AN EMERGENCY: when tension cracks appear above a slope, sealing them against rainfall is immediate, cheap, requires no design, and removes the single largest destabilising force.**\n\n> **It buys the time in which a proper investigation and remedy can be arranged, and on a Nepali hillside during the monsoon that time is worth a great deal.**\n\nIf it FILLS WITH WATER — adds a horizontal HYDROSTATIC THRUST driving the slide.",
@@ -540,7 +540,7 @@
       "marks": 1,
       "stem": "COULOMB'S theory of earth pressure differs from RANKINE'S in that Coulomb's theory:",
       "options": [
-        "TAKES ACCOUNT of the FRICTION between the wall and the soil",
+        "Takes account of the friction between the wall and the soil",
         "Assumes the wall is frictionless and vertical",
         "Applies only to cohesive soils",
         "Gives the same result as Rankine's in every case"
@@ -575,7 +575,7 @@
       "options": [
         "The bending strength of the precast facing panels",
         "A massive concrete gravity section behind the panels",
-        "FRICTION between horizontal reinforcing strips or geogrids and the compacted granular fill",
+        "Friction between horizontal reinforcing strips or geogrids and the compacted granular fill",
         "A row of piles driven behind the facing"
       ],
       "answerIndex": 2,
@@ -607,7 +607,7 @@
       "stem": "A STATIC PILE LOAD TEST is regarded as a more reliable measure of a pile's capacity than a dynamic driving formula because it:",
       "options": [
         "Can be performed more quickly",
-        "MEASURES the pile's actual load-settlement behaviour under a SUSTAINED static load",
+        "Measures the pile's actual load-settlement behaviour under a sustained static load",
         "Requires no reaction system",
         "Is applicable only to bored piles"
       ],
@@ -642,7 +642,7 @@
         "Normally consolidated",
         "Under-consolidated",
         "Sensitive",
-        "OVER-CONSOLIDATED"
+        "Over-consolidated"
       ],
       "answerIndex": 3,
       "solution": "**OVER-CONSOLIDATED**, with an over-consolidation ratio (OCR) greater than 1.\n\n**The definitions:**\n\n| State | Definition | OCR |\n|---|---|---|\n| **NORMALLY CONSOLIDATED (NC)** | **The present effective stress is the HIGHEST the soil has ever carried** ← | **OCR = 1** ← |\n| **OVER-CONSOLIDATED (OC)** | **The soil has carried a HIGHER stress in the past** ← | **OCR > 1** ← |\n| **UNDER-CONSOLIDATED** | **The soil is still consolidating under its present overburden — it has not yet reached equilibrium** ← | **OCR < 1** ← |\n\n> **OCR = preconsolidation pressure (p_c) ÷ present effective overburden pressure (p₀).**\n\n**What causes over-consolidation:**\n\n| Cause | Note |\n|---|---|\n| **EROSION of overlying soil** ← | **The classic case — the load was there and has been removed** ← |\n| **Melting of an ICE SHEET** | **Which pressed down on the soil during a glaciation** ← |\n| **A FALL and subsequent RISE of the water table** ← | **A low water table raises the effective stress; when it rises again the effective stress falls, leaving the soil over-consolidated** ← |\n| **DESICCATION — drying of the surface** ← | **Suction in the drying soil acts as an effective stress, and it can be very large — which is why the crust of almost every clay deposit is over-consolidated** ← |\n| **AGEING and secondary compression** | **Producing an apparent preconsolidation without any past load** ← |\n| **Removal of a structure** | ← |\n\n> **THE DESICCATED CRUST IN THE FOURTH ROW IS THE MOST COMMONLY ENCOUNTERED CASE AND IT HAS A PRACTICAL CONSEQUENCE THAT MISLEADS PEOPLE: almost every soft clay deposit has a stiff, over-consolidated crust a metre or two thick at the surface.**\n\n> **A trial pit or a shallow investigation encounters that crust, finds a satisfactory stiff clay, and reports good ground.**\n\n> **Beneath it lies soft, normally consolidated clay of much lower strength and much higher compressibility, and a foundation whose stress bulb reaches into it will settle badly.**\n\n> **The crust is a trap for shallow investigation, and it is one more argument for boring to a depth related to the loaded WIDTH rather than to a fixed figure.**\n\n**Why the distinction matters so much:**\n\n| Behaviour | NORMALLY consolidated | OVER-consolidated |\n|---|---|---|\n| **COMPRESSIBILITY** | **HIGH — every increment of load causes substantial settlement** ← | **LOW, until the preconsolidation pressure is exceeded** ← |\n| **Settlement under a new load** | **Large** | **SMALL — while the total stress stays below p_c** ← |\n| **Strength** | **Lower** | **Higher** ← |\n| **Behaviour in shear** | **CONTRACTS; generates POSITIVE pore pressure** ← | **DILATES; generates NEGATIVE pore pressure and shows a peak strength followed by softening** ← |\n| **K₀ (at rest pressure coefficient)** | **1 − sin φ′, typically about 0.5** ← | **HIGHER, and can EXCEED 1 at high OCR — the soil pushes sideways harder than it does downward** ← |\n\n> **THE SECOND ROW GIVES THE MOST IMPORTANT DESIGN CONSEQUENCE AND IT IS WHY THE PRECONSOLIDATION PRESSURE IS DETERMINED AT ALL: an over-consolidated clay settles very little while the applied stress keeps the total below p_c, and settles a great deal once p_c is exceeded.**\n\n> **The settlement calculation therefore has a KINK in it: use the recompression index C_r for the part of the load below p_c, and the much larger compression index C_c for whatever lies above it.**\n\n> **Using C_c throughout grossly overestimates the settlement of an over-consolidated clay; using C_r throughout grossly underestimates it once p_c is passed. Both errors are large, and finding p_c from the consolidation test — by Casagrande's construction — is what avoids them.**\n\n> **THE HIGH K₀ IN THE LAST ROW IS A LESS FAMILIAR BUT IMPORTANT CONSEQUENCE: a heavily over-consolidated clay retains locked-in horizontal stresses from the load it once carried.**\n\n> **A retaining wall or a basement in such a clay may attract lateral pressures far above the active value — approaching or exceeding the at-rest value, and in extreme cases the vertical stress itself.**\n\n> **Designing such a wall for Rankine active pressure, on the assumption that it will move enough to relieve the stress, can be seriously unsafe, and this is one of the situations in which the difference between active and at-rest pressure genuinely matters.**\n\nAn over-consolidation ratio greater than 1.",
@@ -705,7 +705,7 @@
       "marks": 1,
       "stem": "A fluid whose apparent viscosity INCREASES as the rate of shear increases — such as a dense suspension of sand in water — is described as:",
       "options": [
-        "DILATANT (shear-thickening)",
+        "Dilatant (shear-thickening)",
         "Pseudoplastic (shear-thinning)",
         "Newtonian",
         "An ideal fluid"
@@ -738,7 +738,7 @@
       "marks": 1,
       "stem": "For a plane surface submerged in a liquid, the CENTRE OF PRESSURE always lies BELOW the centroid of the area because:",
       "options": [
-        "The pressure INCREASES with depth",
+        "The pressure increases with depth",
         "The liquid is denser at greater depth",
         "The surface is always inclined",
         "Of the surface tension acting at the free surface"
@@ -806,7 +806,7 @@
       "options": [
         "Its roughness projections have been polished away entirely",
         "The pipe is made of plastic rather than steel",
-        "The surface ROUGHNESS projections are SUBMERGED within the LAMINAR SUB-LAYER",
+        "The surface roughness projections are submerged within the laminar sub-layer",
         "The Reynolds number exceeds 4,000"
       ],
       "answerIndex": 2,
@@ -837,7 +837,7 @@
       "marks": 1,
       "stem": "The maximum height of the SUMMIT of a siphon above the upstream water surface is limited in practice to about 7 to 8 metres because:",
       "options": [
-        "Above that height the pressure at the summit would fall to the water's VAPOUR PRESSURE",
+        "Above that height the pressure at the summit would fall to the water's vapour pressure",
         "The pipe would burst under the internal pressure",
         "The friction loss becomes infinite",
         "The flow would become supercritical"
@@ -873,7 +873,7 @@
         "Assuming the flow in all three pipes is equal",
         "Assuming the friction factor is the same in all three pipes",
         "Ignoring the middle reservoir entirely",
-        "ASSUMING a piezometric HEAD at the junction"
+        "Assuming a piezometric head at the junction"
       ],
       "answerIndex": 3,
       "solution": "**By assuming a piezometric HEAD at the junction**, computing the flow in each pipe from the head difference, and adjusting the assumed head by trial until the flows balance — that is, until continuity is satisfied.\n\n**The procedure:**\n\n| Step | Note |\n|---|---|\n| **1. ASSUME a piezometric head H_J at the junction** ← | **A sensible first guess is the level of the MIDDLE reservoir** ← |\n| **2. For each pipe, the head difference is (reservoir level − H_J)** ← | **POSITIVE means flow INTO the junction; negative means flow OUT of it** ← |\n| **3. Compute each flow from the Darcy or Hazen-Williams equation** | ← |\n| **4. Check CONTINUITY: Σ(inflow) must equal Σ(outflow)** ← | **The junction stores nothing** ← |\n| **5. If they do not balance, ADJUST H_J and repeat** ← | **Too much inflow means H_J was too low; raise it** ← |\n| **6. Converge** | **Usually in three or four trials, or graphically by plotting the imbalance against H_J** ← |\n\n> **THE KEY QUESTION THE PROBLEM TURNS ON, AND WHY THE FIRST GUESS IS THE MIDDLE RESERVOIR'S LEVEL:**\n\n| If H_J is... | Then the middle reservoir |\n|---|---|\n| **BELOW the middle reservoir's level** | **SUPPLIES water to the junction — flow is OUT of it** ← |\n| **ABOVE the middle reservoir's level** | **RECEIVES water from the junction — flow is INTO it** ← |\n| **EXACTLY at its level** | **NO FLOW in that pipe at all** ← |\n\n> **THE DIRECTION OF FLOW IN THE MIDDLE PIPE IS THEREFORE NOT KNOWN IN ADVANCE, and that is the whole difficulty of the problem — it must emerge from the solution rather than being assumed at the start.**\n\n> **The highest reservoir always supplies and the lowest always receives; the middle one may do either.**\n\n> **Starting the trial AT the middle reservoir's level is efficient precisely because it immediately settles the question: compute the other two flows at that head, and if the higher reservoir's inflow exceeds the lower one's outflow, H_J must rise and the middle reservoir must be receiving.**\n\n**What makes the problem instructive rather than merely tedious:**\n\n| Aspect | Note |\n|---|---|\n| **Two governing conditions** | **CONTINUITY at the junction, and a consistent piezometric head at the junction shared by all three pipes** ← |\n| **These are exactly the conditions of any pipe NETWORK** ← | **Junction continuity, and a single head at each junction** ← |\n| **So the three-reservoir problem is the smallest possible pipe network** ← | **And its trial-and-error solution is the germ of the Hardy Cross method and of every modern network solver** ← |\n\n> **THE THIRD ROW IS WHY THE PROBLEM IS STILL TAUGHT: it contains, in a form small enough to solve by hand, exactly the structure of a real distribution network analysis.**\n\n> **Hardy Cross's method applies the same two conditions to a network of loops, correcting the assumed flows iteratively instead of a single assumed head.**\n\n> **And a modern solver does the same thing with a matrix and hundreds of junctions.**\n\n> **Understanding why the three-reservoir problem cannot be solved directly — because the flow direction in one pipe is unknown until the head is known, and the head is unknown until the flows are known — is understanding why network analysis is iterative in principle rather than merely in practice.**\n\n**And a practical note on where the arrangement arises:**\n\n| Situation | Note |\n|---|---|\n| **A service reservoir connected into a transmission main between two others** ← | **Filling at night when demand is low and the head is high; supplying by day when it falls** ← |\n| **A break-pressure tank on a gravity main with branches** | ← |\n| **A pumped supply into a network with elevated storage** ← | **The tank floats on the system, absorbing and releasing according to the pressure** ← |\n\n> **THE FIRST AND THIRD ROWS DESCRIBE THE NORMAL OPERATION OF AN ELEVATED SERVICE RESERVOIR AND IT IS EXACTLY THE THREE-RESERVOIR PROBLEM IN PRACTICE: the tank's flow reverses twice a day as the network's piezometric head rises above and falls below the tank's water level.**\n\n> **That is what a balancing reservoir is FOR — it absorbs the mismatch between a steady supply and a varying demand, and it does so automatically, with no valve and no operator, simply because the junction head moves relative to its own level.**\n\nComputing the flow in each pipe, and adjusting that head by trial until CONTINUITY is satisfied at the junction.",
@@ -938,7 +938,7 @@
       "options": [
         "Rise, because the bed has risen",
         "Remain at the same level",
-        "DROP",
+        "Drop",
         "Become supercritical immediately"
       ],
       "answerIndex": 2,
@@ -972,7 +972,7 @@
         "That rainfall is uniform in intensity and that the catchment is circular",
         "That the catchment is impermeable and that base flow is zero",
         "That the storm duration equals the time of concentration and that the runoff coefficient is 1.0",
-        "LINEARITY (the ordinates are proportional to the rainfall excess) and TIME INVARIANCE (the same catchment gives the same unit hydrograph shape for storms of the same duration)"
+        "Linearity (the ordinates are proportional to the rainfall excess) and time invariance (the same catchment gives the same unit hydrograph shape for storms of the same duration)"
       ],
       "answerIndex": 3,
       "solution": "**LINEARITY** — the direct runoff ordinates are proportional to the depth of rainfall excess — and **TIME INVARIANCE**, that the same catchment always produces the same unit hydrograph shape for a storm of the same duration.\n\n**The definition, first:**\n\n> **A D-hour UNIT HYDROGRAPH is the direct runoff hydrograph resulting from ONE UNIT (1 cm, or 1 inch) of rainfall EXCESS falling UNIFORMLY over the whole catchment in D hours.**\n\n| Element of the definition | Note |\n|---|---|\n| **One UNIT of rainfall EXCESS** ← | **Excess, not total rainfall — the losses have already been deducted** ← |\n| **DIRECT runoff** ← | **Base flow has been separated out and is NOT part of the unit hydrograph** ← |\n| **UNIFORMLY over the whole catchment** | **Both in space and, within the duration D, in time** ← |\n| **In D hours** | **The duration is part of the definition — a 6-hour UH differs from a 2-hour UH for the same catchment** ← |\n\n> **THE FIRST TWO ROWS CONTAIN THE TWO THINGS MOST OFTEN GOT WRONG: the unit hydrograph relates EXCESS rainfall to DIRECT runoff.**\n\n> **Total rainfall and total streamflow do not enter into it, and forgetting to deduct losses or to separate base flow makes every subsequent calculation wrong.**\n\n**The two assumptions and what they permit:**\n\n| Assumption | Meaning | What it permits |\n|---|---|---|\n| **LINEARITY (proportionality)** ← | **3 cm of excess produces ordinates 3 times those for 1 cm** ← | **SCALING the unit hydrograph to any rainfall depth** ← |\n| **SUPERPOSITION (a consequence of linearity)** ← | **The runoff from successive rainfall blocks can be ADDED, each lagged by its own start time** ← | **Building the hydrograph for a complex, multi-block storm** ← |\n| **TIME INVARIANCE** ← | **The catchment's response does not change from storm to storm** ← | **Using a UH derived from one storm to predict another** ← |\n\n> **SUPERPOSITION IS WHAT MAKES THE METHOD USEFUL RATHER THAN MERELY DESCRIPTIVE, and it is worth seeing clearly: a real storm is not one uniform block of rain.**\n\n> **It is a sequence of blocks of differing intensity. Linearity lets each block's contribution be computed by scaling the unit hydrograph, and superposition lets them be added with the appropriate lags.**\n\n> **So a single unit hydrograph, derived once, can generate the flood hydrograph for any storm pattern whatever — which is the whole point of the technique.**\n\n**Where the assumptions fail, stated honestly:**\n\n| Failure | Note |\n|---|---|\n| **Catchments are NOT truly linear** ← | **A large flood travels faster and its peak is proportionately higher than linearity predicts — the response is genuinely non-linear** ← |\n| **Rainfall is never uniform over a large catchment** ← | **Which is why the method is limited to catchments below about 5,000 km², and preferably much smaller** ← |\n| **Storm MOVEMENT matters** | **A storm travelling downstream produces a sharper peak than one travelling upstream — and the UH cannot distinguish them** ← |\n| **The catchment CHANGES over time** | **Urbanisation, deforestation, reservoirs — so an old unit hydrograph may no longer apply** ← |\n| **Antecedent conditions vary** | **Affecting the losses, which the UH does not address at all** ← |\n\n> **THE FOURTH ROW IS THE ONE MOST RELEVANT TO NEPAL AND SOUTH ASIA AND IT UNDERMINES TIME INVARIANCE DIRECTLY: a unit hydrograph derived from records of the 1970s describes a catchment that no longer exists.**\n\n> **Deforestation, terracing, road building and urban expansion all make a catchment respond FASTER — a higher, earlier peak from the same rainfall.**\n\n> **So an old unit hydrograph systematically UNDERESTIMATES the flood peak of a developed catchment, and a design based on it is unsafe in exactly the direction that matters.**\n\n> **Checking whether the catchment has changed materially since the record was gathered is therefore part of using the method properly, and it is routinely skipped because the records are what they are and re-deriving is expensive.**\n\n> **Despite all of this, the unit hydrograph remains the most widely used flood estimation tool for gauged catchments, because it is simple, it uses data that actually exist, and its errors are understood — which is a fair summary of why approximate methods survive in engineering long after their limitations are known.**",
@@ -1038,7 +1038,7 @@
         "Increases the beam's bending capacity at that point",
         "Prevents the beam from deflecting",
         "Transfers no shear force across the section",
-        "Provides ONE ADDITIONAL EQUATION of condition"
+        "Provides ONE additional equation of condition"
       ],
       "answerIndex": 3,
       "solution": "**It provides one additional EQUATION OF CONDITION** — that the bending moment at the hinge is ZERO — which reduces the degree of static indeterminacy by one.\n\n**What a hinge does and does not transmit:**\n\n| Action | Transmitted across an internal hinge? |\n|---|---|\n| **SHEAR force** | **YES** ← (so option (c) is false) |\n| **AXIAL force** | **YES** ← |\n| **BENDING MOMENT** | **NO — it is zero by definition** ← |\n| **Rotation** | **The two sides rotate INDEPENDENTLY** ← |\n\n> **THE COMBINATION IN THE FIRST AND THIRD ROWS IS THE POINT: a hinge is a connection that carries FORCE but not MOMENT.**\n\n> **It is not a break in the beam — the two parts stay connected and shear passes freely — but the beam can kink there, so no bending moment can develop.**\n\n**How the equation of condition works:**\n\n| Aspect | Note |\n|---|---|\n| **Static indeterminacy D_s = (number of unknown reactions) − (equilibrium equations available)** ← | **Three equations in a plane** ← |\n| **Each internal hinge ADDS one equation: ΣM = 0 for all forces on one side of it** ← | ← |\n| **So D_s = r − 3 − (number of equations of condition)** ← | ← |\n\n| Example | Reactions | Hinges | D_s |\n|---|---|---|---|\n| **A two-span continuous beam on 4 simple supports** | **4** | **0** | **4 − 3 = 1, INDETERMINATE** ← |\n| **The same beam with ONE internal hinge** | **4** | **1** | **4 − 3 − 1 = 0, DETERMINATE** ← |\n| **A propped cantilever (fixed + roller)** | **4** | **0** | **1** |\n| **The same with a hinge** | **4** | **1** | **0 — determinate** ← |\n\n> **THAT IS THE ANALYTICAL VALUE OF A HINGE, and it is why the three-hinged arch is so much easier to analyse than a two-hinged one: three hinges provide the extra condition that makes it determinate, so it can be solved by statics alone.**\n\n**Why hinges are provided in REAL structures, which is the more important question:**\n\n| Reason | Note |\n|---|---|\n| **To make the structure INSENSITIVE to support SETTLEMENT** ← | **A determinate structure develops NO stress from a settlement — it simply moves. An indeterminate one develops large forces** ← |\n| **To eliminate stresses from TEMPERATURE change** ← | **The same argument** ← |\n| **To allow for shrinkage and creep** | ← |\n| **The GERBER (cantilever) BEAM** ← | **A continuous beam with hinges placed so it is determinate — used in bridges precisely to avoid settlement stresses on poor foundations** ← |\n| **To simplify construction and erection** | **Each determinate segment can be erected independently** ← |\n\n> **THE FIRST ROW IS THE ENGINEERING REASON THAT MATTERS MOST AND IT IS A GENUINE DESIGN CHOICE WITH A REAL TRADE-OFF:**\n\n> **An INDETERMINATE structure is more efficient — it redistributes load, has redundancy against local failure, and generally uses less material.**\n\n> **But it is also SENSITIVE: a support that settles 20 mm, or a temperature change of 30 °C, induces forces that were never part of the applied loading and can be large.**\n\n> **A DETERMINATE structure is less efficient and completely indifferent to both. Settle its support and it rotates; heat it and it expands; no stress arises in either case.**\n\n> **So on poor, variable or unpredictable foundations, a determinate structure is often the right answer despite using more material — which is why the Gerber beam was invented and why three-hinged arches were used where two-hinged ones would have been lighter.**\n\n> **THE REDUNDANCY POINT DESERVES THE COUNTER-ARGUMENT THOUGH: a determinate structure has NO alternative load path.**\n\n> **Remove one member and it collapses, because there is by definition nothing spare. An indeterminate structure can lose a member and redistribute, which is the whole basis of ROBUSTNESS and of resistance to progressive collapse.**\n\n> **Modern practice therefore tends to prefer indeterminacy and to deal with settlement and temperature by analysis, rather than to design them away by releases — but the older reasoning remains valid where the foundations genuinely cannot be predicted.**\n\nThat the bending moment there is ZERO — which can make an otherwise indeterminate beam statically determinate.",
@@ -1068,7 +1068,7 @@
       "marks": 1,
       "stem": "A load applied SUDDENLY to an elastic bar (placed on it with zero initial velocity and released) produces a maximum stress that is:",
       "options": [
-        "TWICE that produced by the same load applied GRADUALLY",
+        "Twice that produced by the same load applied gradually",
         "Equal to that produced by a gradually applied load",
         "Half that of a gradually applied load",
         "Four times that of a gradually applied load"
@@ -1135,7 +1135,7 @@
       "stem": "The SHEAR CENTRE of a thin-walled open section such as a CHANNEL is:",
       "options": [
         "Always coincident with the centroid",
-        "The point through which a transverse load must pass if the member is to bend WITHOUT TWISTING",
+        "The point through which a transverse load must pass if the member is to bend without twisting",
         "The point of maximum shear stress in the section",
         "The centroid of the web only"
       ],
@@ -1170,7 +1170,7 @@
         "1.67 MPa compressive on both faces",
         "3.33 MPa compressive and 3.33 MPa tensile",
         "2.50 and 0.83 MPa, both compressive",
-        "3.33 MPa compressive and ZERO on the opposite face"
+        "3.33 MPa compressive and zero on the opposite face"
       ],
       "answerIndex": 3,
       "solution": "**3.33 MPa compressive on one face and exactly ZERO on the other.**\n\n**The computation:**\n\n| Step | Working |\n|---|---|\n| **Area** | **A = 200 × 300 = 60,000 mm²** |\n| **Section modulus about the bending axis** | **Z = b d²/6 = 200 × 300²/6 = 3.0 × 10⁶ mm³** ← |\n| **DIRECT stress** | **P/A = 100,000/60,000 = 1.667 N/mm²** ← |\n| **BENDING stress** | **P e / Z = 100,000 × 50 / 3.0 × 10⁶ = 1.667 N/mm²** ← |\n| **Maximum** | **1.667 + 1.667 = 3.33 MPa compressive** ← |\n| **Minimum** | **1.667 − 1.667 = ZERO** ← |\n\n> **THE TWO COMPONENTS COME OUT EXACTLY EQUAL, WHICH IS NOT A COINCIDENCE: the eccentricity of 50 mm is precisely d/6 for a 300 mm depth.**\n\n> **That is the boundary of the MIDDLE THIRD, and it is the eccentricity at which the stress on the far face falls exactly to zero.**\n\n**The MIDDLE THIRD RULE, which this question illustrates:**\n\n| Eccentricity | Stress distribution |\n|---|---|\n| **e = 0** | **Uniform compression P/A across the whole section** ← |\n| **0 < e < d/6** | **Compression everywhere, but varying — trapezoidal** ← |\n| **e = d/6 EXACTLY** ← | **Compression varying linearly from 2P/A at one face to ZERO at the other — this question** ← |\n| **e > d/6** | **TENSION develops on the far face** ← |\n\n> **The condition for no tension is therefore that the load lie within the MIDDLE THIRD of the depth — that is, within d/6 either side of the centre.**\n\n> **For bending about both axes, the load must lie within the KERN (core) of the section, which for a rectangle is a rhombus with diagonals d/3 and b/3.**\n\n**Why the rule matters, and where:**\n\n| Application | Note |\n|---|---|\n| **MASONRY and plain concrete, which cannot take tension** ← | **A tensile stress means a crack opens — so the resultant must stay within the middle third** ← |\n| **GRAVITY DAMS** ← | **The resultant of all forces must stay within the middle third of the base, for no tension at the heel** ← |\n| **Retaining wall bases** | **Same requirement** ← |\n| **Chimneys, piers and pedestals in masonry** | ← |\n| **NOT a constraint for reinforced concrete or steel** ← | **Which can carry tension — the rule applies to materials that cannot** ← |\n\n> **THE LAST ROW IS THE QUALIFICATION THAT KEEPS THE RULE IN PROPORTION: the middle third rule is not a general principle of structural mechanics.**\n\n> **It is a consequence of using a material with no tensile strength, and it disappears entirely for a reinforced section.**\n\n> **Applying it to a reinforced concrete column would be pointlessly restrictive, and forgetting it for a masonry pier is a genuine error.**\n\n**And the kern's shape for other sections, worth knowing:**\n\n| Section | Kern |\n|---|---|\n| **RECTANGLE b × d** | **A rhombus with diagonals d/3 and b/3 — the \"middle third\"** ← |\n| **SOLID CIRCLE of diameter D** | **A concentric circle of diameter D/4 — so e must be less than D/8** ← |\n| **HOLLOW circular section** | **A circle of diameter (D² + d²)/(4D)** ← |\n\n> **THE CIRCLE'S RESULT IS WORTH NOTING BECAUSE IT IS OFTEN MISQUOTED: for a solid circle the limiting eccentricity is D/8, not D/6.**\n\n> **The kern is the \"middle QUARTER\" in diameter terms, which is a tighter limit than the rectangle's middle third — because a circle has proportionately less material at its extremes to resist the bending.**\n\n> **Which is a small illustration of a general point: the kern is a property of the section's SHAPE, expressed as Z/A, and each shape has its own.**",
@@ -1200,7 +1200,7 @@
       "marks": 1,
       "stem": "A THREE-HINGED PARABOLIC arch carrying a uniformly distributed load over its entire horizontal span develops:",
       "options": [
-        "ZERO bending moment at every section — the arch is in pure axial compression throughout",
+        "Zero bending moment at every section — the arch is in pure axial compression throughout",
         "A maximum bending moment at the crown",
         "A maximum bending moment at the quarter points",
         "Uniform bending moment along its whole length"
@@ -1267,7 +1267,7 @@
       "stem": "MOHR'S SECOND moment-area theorem states that the vertical DEVIATION of a point A on the elastic curve from the TANGENT drawn at another point B is equal to:",
       "options": [
         "The area of the M/EI diagram between A and B",
-        "The MOMENT of the area of the M/EI diagram between A and B, taken ABOUT the point A",
+        "The moment of the area of the M/EI diagram between A and B, taken about the point A",
         "The slope of the M/EI diagram at A",
         "The area of the bending moment diagram divided by the span"
       ],
@@ -1302,7 +1302,7 @@
         "Produces no stress, since the beam simply follows the support down",
         "Reduces the bending moments everywhere",
         "Affects only the settled support",
-        "Induces ADDITIONAL BENDING MOMENTS and reactions throughout the beam"
+        "Induces additional bending moments and reactions throughout the beam"
       ],
       "answerIndex": 3,
       "solution": "**It induces ADDITIONAL bending moments and reactions throughout the beam**, whose magnitude is proportional to EI and can be substantial.\n\n**Why an indeterminate structure is affected and a determinate one is not:**\n\n| Structure | Effect of a support settlement |\n|---|---|\n| **DETERMINATE (e.g. a simply supported beam)** | **NO STRESS — the beam simply rotates and follows the support down, with the reactions unchanged** ← |\n| **INDETERMINATE (e.g. a continuous beam)** | **The beam is FORCED to bend to accommodate the movement, because the other supports hold it — and bending means moment** ← |\n\n> **THE ESSENTIAL IDEA: in a determinate structure there are just enough restraints to hold it, so any imposed movement is accommodated by rigid-body motion.**\n\n> **In an indeterminate structure the extra restraints FIGHT the movement, and the resulting internal forces are the price of that resistance.**\n\n**The magnitude, which is where the danger lies:**\n\n| Case | Induced moment |\n|---|---|\n| **A propped cantilever of span L with the prop settling by Δ** | **M = 3 E I Δ / L²** ← |\n| **A fixed-ended beam of span L with one support settling by Δ** | **M = 6 E I Δ / L²** ← |\n\n> **THE FORM OF THESE EXPRESSIONS CARRIES THE WHOLE LESSON AND EACH TERM MATTERS:**\n\n| Term | Consequence |\n|---|---|\n| **Proportional to EI** ← | **A STIFFER beam attracts MORE moment from the same settlement — stiffness is a LIABILITY here, not an asset** ← |\n| **Proportional to Δ** | **Directly — a settlement twice as large gives twice the moment** ← |\n| **INVERSELY proportional to L²** ← | **SHORT spans are far worse than long ones — halving the span QUADRUPLES the induced moment** ← |\n\n> **THE FIRST ROW IS COUNTER-INTUITIVE AND IMPORTANT: in every other context a stiffer member is better, and here it is worse.**\n\n> **A settlement imposes a DEFORMATION, not a force. The structure must accommodate that deformation, and the force required to bend a stiff member into the required shape is larger than for a flexible one.**\n\n> **So a heavy, stiff continuous beam on poor foundations is more vulnerable to settlement than a light flexible one — which reverses the usual instinct entirely.**\n\n> **THE THIRD ROW IS THE ONE WITH THE MOST PRACTICAL CONSEQUENCE: a short-span continuous structure on settling foundations is in serious trouble.**\n\n> **A 30 mm settlement under a 20 m span is a rotation of 1.5 in 1,000 and is easily absorbed. The same 30 mm under a 4 m span is 7.5 in 1,000 and induces 25 times the moment.**\n\n> **This is why short, stiff, continuous structures on poor ground crack, and why the same settlement causes visible damage in a small building and none in a long-span bridge.**\n\n**What is done about it:**\n\n| Measure | Note |\n|---|---|\n| **Design the FOUNDATIONS to limit differential settlement** | **The first and best answer** ← |\n| **Make the structure DETERMINATE where settlement cannot be predicted** ← | **Gerber beams, three-hinged arches, simply supported spans** ← |\n| **Use a stiff RAFT so the whole structure settles together** | **Converting differential settlement into uniform settlement** ← |\n| **INCLUDE the estimated settlement in the analysis as a load case** ← | **Which is standard for bridges on compressible ground** ← |\n| **Provide for JACKING at the bearings** ← | **So the settlement can be corrected during the structure's life** ← |\n| **Rely on CREEP and cracking to relieve the moments** ← | **Real in concrete — sustained settlement moments relax substantially over time, which is why the effect is less damaging than the elastic calculation suggests** ← |\n\n> **THE LAST ROW IS A GENUINE AND IMPORTANT MITIGATION IN CONCRETE STRUCTURES AND IT IS WORTH UNDERSTANDING RATHER THAN RELYING ON BLINDLY: the elastic formula assumes the settlement is applied instantly to a linear elastic beam.**\n\n> **In reality settlement occurs slowly, over months or years, and concrete CREEPS under sustained stress.**\n\n> **The induced moments therefore RELAX — often to half the elastic value or less — because the beam gradually deforms to accommodate the movement instead of resisting it.**\n\n> **This is why continuous concrete structures survive settlements that an elastic calculation says should have cracked them severely, and it is why codes permit a reduced effective E for the settlement load case.**\n\n> **It also carries a warning: a settlement that occurs SUDDENLY — a foundation failure, a washout, a seismic event — gets none of that relief, and the full elastic moments do develop.**",
@@ -1332,7 +1332,7 @@
       "marks": 1,
       "stem": "The design philosophy underlying modern seismic codes is that a structure should:",
       "options": [
-        "Resist MINOR shaking without damage, resist MODERATE shaking with repairable non-structural damage, and resist SEVERE shaking without COLLAPSE",
+        "Resist minor shaking without damage, resist moderate shaking with repairable non-structural damage, and resist severe shaking without collapse",
         "Remain entirely undamaged under the strongest possible earthquake",
         "Be designed for the largest recorded ground acceleration with a factor of safety of 3",
         "Be made as stiff as possible so that it does not move"
@@ -1398,7 +1398,7 @@
       "marks": 1,
       "stem": "The principal difficulty in HOT WEATHER concreting is that a high ambient temperature:",
       "options": [
-        "ACCELERATES setting and increases the rate of evaporation",
+        "Accelerates setting and increases the rate of evaporation",
         "Prevents the cement from hydrating at all",
         "Reduces the water demand of the mix",
         "Has no effect provided the concrete is covered"
@@ -1432,7 +1432,7 @@
       "stem": "CREEP of concrete differs from SHRINKAGE in that creep is:",
       "options": [
         "A volume change caused by loss of moisture, occurring whether or not the concrete is loaded",
-        "The continuing INCREASE IN STRAIN with time under a SUSTAINED STRESS, occurring only while the concrete is loaded",
+        "The continuing increase in strain with time under a sustained stress, occurring only while the concrete is loaded",
         "An instantaneous elastic deformation on loading",
         "A change in volume caused by a change in temperature"
       ],
@@ -1466,7 +1466,7 @@
       "options": [
         "Less steel is required, so the beam is cheaper",
         "The concrete reaches its full strength before the steel",
-        "The STEEL YIELDS FIRST",
+        "The steel yields first",
         "The neutral axis lies below the centroid"
       ],
       "answerIndex": 2,
@@ -1500,7 +1500,7 @@
         "4 times the bar diameter",
         "16 times the bar diameter, subject to a maximum of 20 times",
         "The full development length",
-        "8 TIMES the bar diameter for each 45° of bend, subject to a maximum of 16 times the diameter"
+        "8 times the bar diameter for each 45° of bend, subject to a maximum of 16 times the diameter"
       ],
       "answerIndex": 3,
       "solution": "**8 times the bar diameter for each 45° of bend, subject to a maximum of 16 times the diameter** — so a standard 90° bend is worth 16φ.\n\n**The anchorage values:**\n\n| Detail | Anchorage value |\n|---|---|\n| **Each 45° of BEND** | **8φ** ← |\n| **A 90° bend** | **2 × 8φ = 16φ** ← |\n| **Maximum for any bend, however sharp** | **16φ** ← |\n| **A standard U-HOOK (180° turn)** | **16φ** ← |\n| **The straight length beyond the bend** | **ADDED to the above, at its actual length** ← |\n\n> **THE MAXIMUM IN THE THIRD ROW IS THE DETAIL THAT MAKES THE ANSWER COMPLETE AND IS OFTEN OMITTED: bending the bar further than 90° gains nothing.**\n\n> **A 135° or 180° bend is still worth only 16φ, because beyond a right angle the additional turn contributes little extra bearing against the concrete and mainly increases the risk of splitting.**\n\n> **So a U-hook is not worth twice a 90° bend, and the extra steel is spent on convenience of fixing rather than on anchorage.**\n\n**How bends provide anchorage at all:**\n\n| Mechanism | Note |\n|---|---|\n| **A straight bar anchors by BOND along its surface** ← | **Requiring the full development length L_d** ← |\n| **A BENT bar adds MECHANICAL bearing** ← | **The concrete inside the bend is compressed, and it resists the bar being pulled through** ← |\n| **The bend radius must be adequate** ← | **Too tight and the concrete inside the bend is crushed and split — minimum 4φ internal radius for mild steel, more for high yield** ← |\n| **Bends are ineffective in COMPRESSION bars** ← | **A hook does nothing for a bar in compression — it simply straightens under load — so compression anchorage must be by straight length alone** ← |\n\n> **THE LAST ROW IS AN IMPORTANT RESTRICTION THAT IS FREQUENTLY BREACHED: hooks and bends count for anchorage in TENSION only.**\n\n> **A compression bar hooked at its end gains nothing from the hook, and providing one gives a false sense that the anchorage is adequate. Compression bars need their full straight development length.**\n\n**DEVELOPMENT LENGTH itself, for context:**\n\n| Aspect | Note |\n|---|---|\n| **L_d = φ σ_s / (4 τ_bd)** ← | **The bar's force divided by the bond capacity of its surface** ← |\n| **For deformed bars, τ_bd is increased by 60 per cent** ← | **The ribs provide mechanical interlock, not just adhesion** ← |\n| **In COMPRESSION, τ_bd is increased by a further 25 per cent** | **Because the bar's end bears on the concrete, and there is no splitting from tension** ← |\n| **Typical value for Fe 415 in M20** | **About 47φ in tension — some 750 mm for a 16 mm bar** ← |\n| **L_d is proportional to φ** ← | **So LARGER bars need proportionately longer anchorage** ← |\n\n> **THE LAST ROW HAS A DESIGN CONSEQUENCE WORTH KNOWING: since L_d ∝ φ while a bar's AREA goes as φ², using several small bars instead of a few large ones gives the same steel area with a much shorter anchorage requirement.**\n\n> **In a congested joint, or where the available anchorage length is short, switching from 25 mm bars to 16 mm bars can solve an anchorage problem entirely — at the cost of more bars to fix.**\n\n> **That is one of the standard ways out of a detailing difficulty, and it is worth reaching for before resorting to mechanical anchors or couplers.**\n\n**And a closing practical caution:**\n\n> **Anchorage and lap failures are among the commonest causes of structural failure in reinforced concrete, and they are almost always DETAILING failures rather than design ones — a bar stopped short, a lap in the wrong place, a hook that could not be fitted and was quietly omitted.**\n\n> **The calculation is straightforward; the difficulty is that the bar must physically FIT, be fixable by hand, and allow the concrete to pass around it.**\n\n> **A detail that cannot be built as drawn will be built as something else, and nobody will record what.**",
@@ -1530,7 +1530,7 @@
       "marks": 1,
       "stem": "In a FLAT SLAB construction, a DROP PANEL is provided principally to:",
       "options": [
-        "INCREASE the slab's thickness locally around the column",
+        "Increase the slab's thickness locally around the column",
         "Improve the appearance of the soffit",
         "Reduce the slab's span",
         "Carry the services below the slab"
@@ -1563,8 +1563,8 @@
       "marks": 1,
       "stem": "In the design of a reinforced concrete DOG-LEGGED staircase spanning between landing beams, the loading on the inclined WAIST SLAB is computed by:",
       "options": [
-        "Applying the load per square metre of the SLOPING surface directly",
-        "Converting the self-weight of the waist and steps to a load per square metre of the HORIZONTAL PLAN area",
+        "Applying the load per square metre of the sloping surface directly",
+        "Converting the self-weight of the waist and steps to a load per square metre of the horizontal plan area",
         "Ignoring the weight of the steps",
         "Using half the live load, since only half the tread is occupied"
       ],
@@ -1598,7 +1598,7 @@
       "options": [
         "By the bolts bearing against the sides of their holes",
         "By welding in addition to the bolts",
-        "By FRICTION between the clamped plate surfaces",
+        "By friction between the clamped plate surfaces",
         "Only in tension along the bolt axis"
       ],
       "answerIndex": 2,
@@ -1632,7 +1632,7 @@
         "The timber begins to decay",
         "The timber is completely saturated with water",
         "Timber is safe to use structurally",
-        "The CELL CAVITIES are free of water but the CELL WALLS are still fully saturated"
+        "The cell cavities are free of water but the cell walls are still fully saturated"
       ],
       "answerIndex": 3,
       "solution": "**The moisture content at which the cell CAVITIES are empty of free water but the cell WALLS remain saturated** — about 25 to 30 per cent — and below which timber begins to shrink and to gain strength.\n\n**The two kinds of water in timber:**\n\n| Water | Where | Effect of removing it |\n|---|---|---|\n| **FREE water** | **In the CELL CAVITIES (the lumens)** ← | **NO shrinkage and NO change in strength — it is simply drained away** ← |\n| **BOUND water** | **Held within the CELL WALLS** ← | **SHRINKAGE occurs, and the STRENGTH RISES markedly** ← |\n\n> **THE FIBRE SATURATION POINT IS THE BOUNDARY BETWEEN THE TWO — the moment when all the free water has gone and the removal of bound water is about to begin.**\n\n> **That is why it is such an important threshold: ABOVE it, drying changes nothing but the weight; BELOW it, every property changes.**\n\n**What happens below the fibre saturation point:**\n\n| Property | Change |\n|---|---|\n| **SHRINKAGE** | **Begins, and continues in proportion as the moisture falls** ← |\n| **STRENGTH** | **RISES substantially — roughly 4 to 6 per cent for each 1 per cent reduction in moisture content** ← |\n| **Stiffness** | **Rises** |\n| **Weight** | **Continues to fall** |\n| **Susceptibility to FUNGAL DECAY** | **FALLS — fungi need above about 20 per cent moisture to grow** ← |\n\n> **THE STRENGTH FIGURE IN THE SECOND ROW IS STRIKING AND IS WHY SEASONING MATTERS SO MUCH: drying timber from 30 per cent down to 12 per cent can nearly DOUBLE its strength.**\n\n> **Green timber is not merely heavy and unstable — it is genuinely weak, and using it structurally means using perhaps half the material's capacity.**\n\n> **Which is why permissible stresses in timber codes are specified for a stated moisture condition, and why using them for green timber without correction is unsafe.**\n\n**SHRINKAGE, which is the other consequence and is markedly ANISOTROPIC:**\n\n| Direction | Shrinkage from green to oven dry |\n|---|---|\n| **LONGITUDINAL (along the grain)** | **0.1 to 0.3 % — negligible** ← |\n| **RADIAL (toward the pith)** | **About 4 %** ← |\n| **TANGENTIAL (around the growth rings)** | **About 8 % — roughly TWICE the radial** ← |\n\n> **THE TANGENTIAL-TO-RADIAL RATIO OF ABOUT 2:1 IS THE CAUSE OF ALMOST EVERY DRYING DEFECT IN TIMBER, and it makes them predictable:**\n\n> **Because a board shrinks twice as much around the rings as across them, it distorts as it dries, and the way it distorts depends on where in the log it was cut.**\n\n| Defect | Cause |\n|---|---|\n| **CUPPING — a flat board curving across its width** ← | **The face nearer the bark shrinks more tangentially than the face nearer the pith, so the board curls AWAY from the heart** ← |\n| **CHECKS and SPLITS at the ends** ← | **The ends dry faster than the middle, and the tangential shrinkage tears them open** ← |\n| **A log drying whole develops radial splits** | **The circumference must shrink more than the radius, and the only way is to crack** ← |\n\n> **QUARTER-SAWN timber — cut so the growth rings run roughly perpendicular to the face — is far more stable in width than plain-sawn, precisely because its width shrinks RADIALLY rather than tangentially.**\n\n> **It wastes more of the log and costs more, and it is worth it for flooring, joinery and anything where dimensional stability matters.**\n\n**And the EQUILIBRIUM moisture content, which is the practical target:**\n\n| Aspect | Note |\n|---|---|\n| **Timber continually exchanges moisture with the air until it reaches EQUILIBRIUM with the ambient humidity** ← | **It never stops responding** ← |\n| **Typical EMC: 12 to 16 % outdoors in a temperate climate; 8 to 10 % in a heated interior** ← | **Higher in a humid monsoon climate** ← |\n| **Timber must be SEASONED to approximately its service EMC before installation** ← | **Or it will move afterwards** ← |\n\n> **THE LAST ROW IS THE PRACTICAL RULE AND ITS VIOLATION IS THE COMMONEST CAUSE OF JOINERY FAILURE: a door or a floor installed at 20 per cent moisture in a building that will settle at 10 per cent will shrink after installation.**\n\n> **Gaps open between floorboards, panels split, joints pull apart, and doors that fitted perfectly develop gaps.**\n\n> **The reverse also happens — timber seasoned too dry and installed in a humid environment swells, and doors jam and floors buckle.**\n\n> **Neither is a defect in the timber. Both are a failure to match the moisture content to the environment it will live in, and the remedy is simply to condition the material on site before fixing it — which takes a week and costs nothing.**\n\nAbout 25 to 30 per cent — BELOW which the timber begins to SHRINK and to GAIN strength.",
@@ -1663,7 +1663,7 @@
       "stem": "FLUORIDE in drinking water is unusual among the quality parameters in that:",
       "options": [
         "It has no effect on health at any concentration",
-        "TOO LITTLE causes dental CARIES while TOO MUCH causes dental and skeletal FLUOROSIS",
+        "Too little causes dental caries while too much causes dental and skeletal fluorosis",
         "It is removed completely by ordinary sand filtration",
         "It is only present in surface water, never in groundwater"
       ],
@@ -1698,7 +1698,7 @@
         "Assumes a constant percentage rate of growth",
         "Uses the population of similar neighbouring towns",
         "Fits an S-shaped curve to the recorded data",
-        "Adds to the average increase a further allowance for the average INCREMENT of that increase"
+        "Adds to the average increase a further allowance for the average increment of that increase"
       ],
       "answerIndex": 3,
       "solution": "**It adds, to the average increase per decade, a further allowance for the average INCREMENT of that increase** — allowing for the growth rate itself to change.\n\n**The three simple methods compared:**\n\n| Method | Assumption | Formula | Suits |\n|---|---|---|---|\n| **ARITHMETICAL increase** | **Constant ABSOLUTE increase per decade** ← | **P_n = P + n x̄, with x̄ the average increase** ← | **Large, OLD, saturated cities** ← |\n| **GEOMETRICAL increase** | **Constant PERCENTAGE rate of growth** ← (option a) | **P_n = P (1 + r/100)ⁿ** ← | **YOUNG, rapidly expanding towns** ← |\n| **INCREMENTAL increase** | **The increase itself changes by a constant amount** ← | **P_n = P + n x̄ + [n(n+1)/2] ȳ, with ȳ the average increment** ← | **A COMPROMISE — the most generally useful of the three** ← |\n\n> **THE INCREMENTAL METHOD SITS BETWEEN THE OTHER TWO AND THAT IS ITS VIRTUE: the arithmetical method assumes growth never accelerates, and the geometrical method assumes it accelerates forever.**\n\n> **Neither is true of a real town over several decades. The incremental method allows the growth to accelerate or decelerate at a steady rate, which is closer to what actually happens.**\n\n> **Note that ȳ can be NEGATIVE — for a town whose growth is slowing, the increments are negative and the forecast bends downward, which the geometrical method can never do.**\n\n**The comparison of the results, which is worth knowing:**\n\n| Method | Tends to give |\n|---|---|\n| **Arithmetical** | **The LOWEST forecast** ← |\n| **Incremental increase** | **Intermediate** ← |\n| **Geometrical** | **The HIGHEST forecast — and it grows without limit** ← |\n\n> **THE GEOMETRICAL METHOD'S UNBOUNDED GROWTH IS ITS FUNDAMENTAL WEAKNESS AND IT SHOWS UP CLEARLY OVER LONG PERIODS: at 3 per cent per annum a town doubles every 23 years, so over a 50-year design period it grows by a factor of four and a half.**\n\n> **Extended far enough it exceeds any conceivable population, which no real town does.**\n\n> **Real settlements grow slowly at first, then rapidly, then slowly again as they saturate — which is an S-shaped curve.**\n\n**THE LOGISTIC CURVE, which is option (c) and is the honest description:**\n\n| Aspect | Note |\n|---|---|\n| **An S-shaped (sigmoid) curve with an upper SATURATION population** ← | **P_s, the maximum the area can support** ← |\n| **Growth is slow, then rapid, then slows again as P approaches P_s** ← | **Which matches observed urban growth well** ← |\n| **Its difficulty** | **P_s must be ESTIMATED, and it is not observable from the data — so the method's realism comes with a substantial guess built in** ← |\n\n> **THE LAST ROW IS WHY THE SIMPLER METHODS SURVIVE: the logistic curve is the most realistic model and it requires the one parameter nobody can determine.**\n\n> **An estimate of the saturation population is a judgement about land availability, planning policy, economic prospects and migration over fifty years, and getting it wrong makes the curve worse than a simple straight-line extrapolation.**\n\n**And the caution that applies to every one of these methods:**\n\n| Caution | Note |\n|---|---|\n| **All of them EXTRAPOLATE the past** ← | **And assume the future resembles it** ← |\n| **A single event can invalidate every one** ← | **A new highway, an industrial estate, a university, an administrative reorganisation, a disaster, or a change in migration policy** ← |\n| **Kathmandu's growth was driven by factors no demographic method would have forecast** ← | **The conflict of the 1996-2006 period drove rural-to-urban migration that no trend line contained** ← |\n| **So the forecast should be a RANGE, and the design STAGEABLE** ← | **Rather than a single number treated as a prediction** ← |\n\n> **THE LAST ROW IS THE PRACTICAL CONCLUSION AND IT CONNECTS BACK TO THE DESIGN PERIOD QUESTION: since the forecast cannot be reliable over 30 years, the sensible response is not a better forecast but a design that can be extended.**\n\n> **Reserve the land, size the trunk mains generously because they cannot be duplicated cheaply, and stage the treatment works and pumps that can.**\n\n> **A scheme that can grow with its town is worth more than one sized precisely for a population that was guessed.**\n\nThat is, it allows for the rate of growth itself CHANGING.",
@@ -1728,7 +1728,7 @@
       "marks": 1,
       "stem": "THRUST BLOCKS are provided at bends, tees and reducers in a buried pressure pipeline in order to:",
       "options": [
-        "Resist the UNBALANCED HYDRAULIC FORCE that arises where the flow changes direction or the pipe's section changes",
+        "Resist the unbalanced hydraulic force that arises where the flow changes direction or the pipe's section changes",
         "Support the weight of the pipe",
         "Protect the pipe from traffic loading",
         "Prevent the pipe from floating when the trench is flooded"
@@ -1795,7 +1795,7 @@
       "stem": "FLOCCULATION, as distinct from coagulation, is the process in which:",
       "options": [
         "A coagulant chemical is rapidly dispersed through the raw water",
-        "GENTLE, prolonged STIRRING brings the destabilised particles into CONTACT with one another so that they AGGREGATE into larger, settleable FLOCS",
+        "Gentle, prolonged stirring brings the destabilised particles into contact with one another so that they aggregate into larger, settleable flocs",
         "The pH of the water is adjusted before treatment",
         "Chlorine is added to oxidise organic matter"
       ],
@@ -1830,7 +1830,7 @@
         "Bacteria and viruses",
         "Suspended solids and turbidity",
         "Dissolved calcium and magnesium hardness",
-        "TASTE, ODOUR, colour and dissolved ORGANIC compounds, including pesticides and disinfection by-product precursors, by ADSORPTION"
+        "Taste, odour, colour and dissolved organic compounds, including pesticides and disinfection by-product precursors, by adsorption"
       ],
       "answerIndex": 3,
       "solution": "**Taste, odour, colour and dissolved ORGANIC compounds** — including pesticides, industrial chemicals and the natural organic matter that forms disinfection by-products — by ADSORPTION.\n\n**How adsorption differs from the other removal mechanisms:**\n\n| Mechanism | Removes | Example process |\n|---|---|---|\n| **STRAINING / filtration** | **SUSPENDED particles too large to pass** ← | **Sand filters, screens** ← (option b) |\n| **SEDIMENTATION** | **Particles denser than water, given time** | Settling tanks |\n| **COAGULATION** | **Colloids, by destabilising them** | ← |\n| **DISINFECTION** | **Living organisms, by killing them** ← | Chlorine, UV, ozone ← (option a) |\n| **PRECIPITATION / ion exchange** | **DISSOLVED ions such as hardness** ← | Lime-soda softening ← (option c) |\n| **ADSORPTION** ← | **DISSOLVED MOLECULES, which ADHERE to a solid surface** ← | **Activated carbon** ← |\n\n> **THE DISTINCTION THAT MATTERS IS BETWEEN PARTICLES AND DISSOLVED MOLECULES: filtration and sedimentation remove things suspended IN the water; adsorption removes things dissolved in it.**\n\n> **A dissolved organic molecule causing an earthy taste will pass through any filter, however fine, because it is not a particle at all — it is part of the solution.**\n\n> **Only a process that acts at the molecular level can remove it, and adsorption onto a very large surface is the practical one.**\n\n**Why activated carbon works so well:**\n\n| Property | Note |\n|---|---|\n| **An ENORMOUS internal surface area** ← | **500 to 1,500 m² per GRAM — a handful has the surface area of several football fields** ← |\n| **Created by ACTIVATION** ← | **Charring a carbon source (coconut shell, coal, wood) and then partially oxidising it with steam to open a vast network of micropores** ← |\n| **Organic molecules are HYDROPHOBIC and prefer the carbon surface to the water** ← | **Which is why adsorption is spontaneous** ← |\n| **The pore SIZE distribution must suit the molecule** | **Micropores for small molecules, mesopores for larger ones** ← |\n\n> **THE SURFACE AREA FIGURE IN THE FIRST ROW IS THE WHOLE REASON THE MATERIAL IS USED AND IT IS WORTH APPRECIATING: adsorption capacity is proportional to available surface, and no other cheap material comes close.**\n\n> **Coconut shell carbon, which is abundant in South Asia, produces a particularly fine micropore structure and is widely used.**\n\n**The two forms and their applications:**\n\n| Form | Use |\n|---|---|\n| **POWDERED activated carbon (PAC)** ← | **Dosed into the water intermittently, when a taste or odour episode occurs, and removed with the sludge — cheap, flexible, no capital plant** ← |\n| **GRANULAR activated carbon (GAC)** ← | **A permanent bed the water passes through, like a filter — continuous treatment, but it must be REGENERATED or replaced when exhausted** ← |\n\n> **THE PAC OPTION IS THE PRACTICAL ONE FOR AN OCCASIONAL PROBLEM AND IS UNDERUSED: an algal bloom in a reservoir produces an earthy-musty taste for a few weeks a year, and dosing powdered carbon during those weeks costs a fraction of installing a permanent GAC contactor.**\n\n> **The carbon is simply added to the raw water, adsorbs the offending compounds, and is removed in the clarifier sludge along with the coagulant floc.**\n\n> **A permanent GAC bed is justified where the contamination is continuous — an industrial catchment, high natural organic matter, or a requirement to control disinfection by-products year-round.**\n\n**THE BREAKTHROUGH PROBLEM, which governs GAC operation:**\n\n| Aspect | Note |\n|---|---|\n| **A carbon bed has a FINITE capacity** ← | **Unlike a sand filter, which is cleaned and restored by backwashing** ← |\n| **As it saturates, an ADSORPTION WAVE moves down the bed** ← | **The upper layers exhaust first** ← |\n| **When the wave reaches the outlet, BREAKTHROUGH occurs** ← | **And the contaminant appears in the treated water, without warning** ← |\n| **Backwashing does NOT restore capacity** ← | **It only removes trapped particles; the adsorbed molecules remain** ← |\n| **Regeneration requires thermal treatment at high temperature** | **Usually done off-site, and some carbon is lost each cycle** ← |\n\n> **THE FOURTH ROW IS THE MISCONCEPTION MOST WORTH CORRECTING: a GAC bed looks like a sand filter, is backwashed like a sand filter, and is not restored by it.**\n\n> **An operator who treats a carbon bed as a filter will backwash it faithfully and be surprised when the taste returns — because the carbon has been full for months and the backwashing did nothing about it.**\n\n> **Carbon exhaustion must be tracked by monitoring the OUTLET water quality, not by the headloss across the bed, and the replacement interval is a consumable cost that must be budgeted from the outset.**",
@@ -1860,7 +1860,7 @@
       "marks": 1,
       "stem": "A COMBINED SEWER OVERFLOW (CSO) is:",
       "options": [
-        "A structure that allows the DILUTED excess flow in a combined sewer to spill to a watercourse during heavy rain",
+        "A structure that allows the diluted excess flow in a combined sewer to spill to a watercourse during heavy rain",
         "A tank storing sewage during power failures",
         "The overflow from a septic tank",
         "A device that separates grit from sewage"
@@ -1895,7 +1895,7 @@
       "options": [
         "An opening in a manhole cover for ventilation",
         "A chamber where a street gully discharges into the sewer",
-        "A small vertical SHAFT from ground level down to the sewer",
+        "A small vertical shaft from ground level down to the sewer",
         "A pit for collecting grit"
       ],
       "answerIndex": 2,
@@ -1927,7 +1927,7 @@
       "stem": "SLUDGE DRYING BEDS dewater digested sewage sludge principally by:",
       "options": [
         "Mechanical pressing between filter cloths",
-        "DRAINAGE of water downward through a sand and gravel bed",
+        "Drainage of water downward through a sand and gravel bed",
         "Centrifugal separation",
         "Chemical precipitation of the water"
       ],
@@ -1960,9 +1960,9 @@
       "stem": "In a SANITARY LANDFILL, the LEACHATE that must be collected and treated is:",
       "options": [
         "The gas generated by anaerobic decomposition of the waste",
-        "Rainwater that has run OFF the capped surface without entering the waste",
+        "Rainwater that has run off the capped surface without entering the waste",
         "Groundwater flowing beneath the site",
-        "The contaminated LIQUID formed when water percolates THROUGH the waste, dissolving and carrying away soluble and suspended contaminants"
+        "The contaminated liquid formed when water percolates through the waste, dissolving and carrying away soluble and suspended contaminants"
       ],
       "answerIndex": 3,
       "solution": "**The contaminated liquid formed when water percolates THROUGH the waste**, dissolving and carrying away soluble and suspended contaminants.\n\n> **Option (a) describes LANDFILL GAS — the other principal emission, and a quite separate problem.**\n\n**Where leachate comes from and what it contains:**\n\n| Source of the liquid | Note |\n|---|---|\n| **RAINFALL infiltrating the waste** ← | **By far the largest source — which is why the CAP matters so much** ← |\n| **Moisture in the waste itself** | **Food and organic waste is mostly water** ← |\n| **Water produced by the decomposition reactions** | ← |\n| **Groundwater entering, if the liner has failed** | ← |\n\n| Contaminant | Note |\n|---|---|\n| **Very high BOD and COD** ← | **Young leachate can exceed 20,000 mg/L BOD — some forty times raw sewage** ← |\n| **AMMONIA nitrogen** | **Persistent, and the parameter that remains problematic longest** ← |\n| **HEAVY METALS, chlorides, sulphates** | ← |\n| **Organic micropollutants** | ← |\n\n> **THE STRENGTH FIGURE IN THE FIRST ROW IS THE THING TO REMEMBER: leachate is not dilute contaminated water, it is an extremely strong liquid waste.**\n\n> **Discharging it untreated to a watercourse deoxygenates the water completely and kills everything in it, and even a small volume does substantial damage.**\n\n> **It also CHANGES with the landfill's age — young leachate is high in BOD and readily biodegradable, while old leachate is lower in BOD but high in ammonia and recalcitrant organics, and needs a quite different treatment process.**\n\n> **A treatment plant designed for a new landfill will be treating a different liquid in twenty years, which is a real design problem for a facility whose leachate must be managed for decades after closure.**\n\n**The engineered barriers of a sanitary landfill:**\n\n| Element | Function |\n|---|---|\n| **A LINER at the base and sides** ← | **Compacted clay, a geomembrane, or both — preventing leachate reaching the groundwater** ← |\n| **A LEACHATE COLLECTION layer above the liner** ← | **Graded stone with perforated pipes, draining to a sump for pumping out** ← |\n| **DAILY COVER of soil over the day's waste** ← | **Controlling odour, vermin, birds, blowing litter and fire** ← |\n| **A low-permeability CAP on completion** ← | **Excluding rainfall, which is the principal control on leachate VOLUME** ← |\n| **GAS collection wells and pipework** | **Landfill gas is about 50 % methane** ← |\n| **Groundwater MONITORING boreholes up- and down-gradient** ← | **The only way to know whether the liner is working** ← |\n\n> **THE CAP IN THE FOURTH ROW IS THE MOST EFFECTIVE SINGLE LEACHATE CONTROL AND THE LOGIC IS WORTH STATING: leachate is produced by water entering the waste, so the way to reduce leachate is to keep the water out.**\n\n> **Treating leachate is expensive and permanent; excluding rainfall with a capping layer and shedding it as clean surface runoff is cheap and passive.**\n\n> **A well-capped closed landfill produces a small fraction of the leachate of an open one, and the difference persists for the whole aftercare period.**\n\n> **This is the same principle met throughout environmental engineering: preventing contamination is far cheaper than treating it, and the intervention that reduces the VOLUME requiring treatment is worth more than an improvement in the treatment itself.**\n\n**LANDFILL GAS, since it is the other half of the problem:**\n\n| Aspect | Note |\n|---|---|\n| **Roughly 50 % METHANE and 50 % carbon dioxide** ← | **From anaerobic decomposition of the organic fraction** ← |\n| **EXPLOSIVE between about 5 and 15 % methane in air** ← | **And it MIGRATES laterally through the ground into nearby basements and services — landfill gas explosions have destroyed buildings** ← |\n| **Methane is a greenhouse gas some 25 times more potent than CO₂** ← | **So uncontrolled release matters globally as well as locally** ← |\n| **Can be collected and BURNT for power, or flared** ← | **Flaring converts methane to CO₂, cutting the climate impact by a factor of 25 even when the energy is not used** ← |\n\n> **THE MIGRATION HAZARD IN THE SECOND ROW IS THE MOST IMMEDIATE DANGER AND IS OFTEN UNDERESTIMATED: gas does not simply rise from the surface, it travels sideways through permeable strata and along service trenches, and it can accumulate in a confined space hundreds of metres from the site.**\n\n> **That is why gas monitoring extends beyond the landfill's boundary, why building on or near a former landfill requires gas protection measures, and why the location of closed and unrecorded dumps is a genuine planning issue in growing cities.**\n\n> **In Nepal, where much municipal waste has historically gone to unengineered dumps in river valleys with no liner, no cap and no gas control, both the leachate and the gas are released entirely uncontrolled — and the first task is not to improve those sites' treatment but to stop creating new ones.**",
@@ -1992,7 +1992,7 @@
       "marks": 1,
       "stem": "Among the methods of applying irrigation water to a field, the one giving the HIGHEST application efficiency is:",
       "options": [
-        "DRIP (trickle) irrigation, at about 90 per cent",
+        "Drip (trickle) irrigation, at about 90 per cent",
         "Wild flooding, at about 80 per cent",
         "Furrow irrigation, at about 95 per cent",
         "Check basin flooding, at about 90 per cent"
@@ -2058,7 +2058,7 @@
       "marks": 1,
       "stem": "A SIDE-SLOPE canal is one which is aligned:",
       "options": [
-        "ROUGHLY AT RIGHT ANGLES TO THE CONTOURS, running down the natural slope of the ground",
+        "Roughly at right angles to the contours, running down the natural slope of the ground",
         "Along a watershed or ridge line",
         "Along a contour, at a gentle gradient across the slope",
         "In a deep cutting through a ridge"
@@ -2093,7 +2093,7 @@
       "options": [
         "The horizontal shelf left between the cutting and the embankment",
         "The strip of land from which earth was excavated for the embankment",
-        "A small SUBSIDIARY BANK provided along the INNER EDGE of the service road on top of the canal bank",
+        "A small subsidiary bank provided along the inner edge of the service road on top of the canal bank",
         "The spoil left over after forming the section"
       ],
       "answerIndex": 2,
@@ -2160,7 +2160,7 @@
         "Equal to the canal's full supply level",
         "At the highest flood level of the river",
         "At the crest level of the weir",
-        "SUFFICIENTLY ABOVE the canal's full supply level to provide the working head needed across the canal head regulator"
+        "Sufficiently above the canal's full supply level to provide the working head needed across the canal head regulator"
       ],
       "answerIndex": 3,
       "solution": "**Sufficiently ABOVE the canal's full supply level** to provide the working head needed across the canal head regulator, together with the losses through it.\n\n**The reasoning:**\n\n| Step | Note |\n|---|---|\n| **The canal must be supplied at its designed FULL SUPPLY LEVEL (FSL)** ← | **Which is fixed by the command it must serve** ← |\n| **Water flows into the canal through the head regulator, which is essentially an ORIFICE or a gated opening** ← | ← |\n| **An orifice requires a HEAD DIFFERENCE to pass its discharge** ← | **No head, no flow** ← |\n| **So the pond level must exceed the canal FSL by that working head plus the entry and friction losses** ← | **Typically 1.0 to 1.5 m in total** ← |\n\n> **Option (a) is the intuitive but impossible answer — with the pond level EQUAL to the canal FSL there would be no head across the regulator and no flow at all.**\n\n> **That is the point of the question: water does not flow from one level into the same level.**\n\n**How the levels are fixed, in sequence:**\n\n| Step | Note |\n|---|---|\n| **1. The canal's FSL at its head is determined by the COMMAND** ← | **Working backward from the highest land to be irrigated, adding the canal's slope and losses** ← |\n| **2. Add the working head required across the regulator** | **Giving the POND LEVEL** ← |\n| **3. The weir CREST is set at or just below the pond level** ← | **The difference being made up by SHUTTERS or GATES, which are raised in the dry season and lowered or removed in flood** ← |\n| **4. The AFFLUX and the flood levels follow from the waterway and the crest level** | ← |\n\n> **THE SHUTTERS IN THE THIRD ROW ARE THE KEY DEVICE AND THE REASON THE CREST IS NOT SIMPLY BUILT AT THE POND LEVEL, and the logic is worth following:**\n\n> **In the DRY SEASON the river's flow is small, and the pond level must still be maintained to feed the canal — so the crest must be high.**\n\n> **In FLOOD, a high crest would raise the upstream water level greatly, increasing the afflux and flooding land far upstream.**\n\n> **The resolution is a LOW crest with SHUTTERS or gates on top: the shutters are raised in the dry season to hold the pond level, and dropped in flood so the flood passes over the low crest with minimal afflux.**\n\n> **That single arrangement reconciles two irreconcilable requirements, and it is the reason barrages — which are entirely gated — have progressively replaced weirs with shutters on large rivers.**\n\n**The consequence for the choice between a weir and a barrage:**\n\n| Structure | Crest and control | Afflux |\n|---|---|---|\n| **WEIR with falling shutters** | **A relatively HIGH masonry or concrete crest, with shutters adding the last metre or so** ← | **Larger, since the crest itself obstructs the flood** ← |\n| **BARRAGE** | **A LOW crest with tall GATES providing the whole of the ponding** ← | **MUCH SMALLER — the gates are lifted clear and the flood passes almost unobstructed** ← |\n| **Cost** | Weir cheaper to build | **Barrage more expensive, and it requires reliable operation** ← |\n| **Control** | Limited | **Full control of the upstream level at all discharges** ← |\n\n> **THE AFFLUX ROW IS THE DECIDING CONSIDERATION ON A LARGE RIVER IN FLAT COUNTRY AND IT IS AN ECONOMIC ONE RATHER THAN A TECHNICAL ONE: afflux raises the flood level upstream, and in flat terrain a rise of even half a metre inundates a great deal of land.**\n\n> **The cost of the land submerged, the marginal bunds needed to protect it, and the drainage problems created can far exceed the extra cost of a barrage over a weir.**\n\n> **So on a large alluvial river in the plains the barrage is generally chosen, and on a smaller or steeper river where the afflux affects little land the weir remains appropriate.**\n\n> **It is a good example of a structural choice determined almost entirely by the SURROUNDING TOPOGRAPHY rather than by the structure's own requirements — and of why the land acquisition and inundation assessment must be done before the type of structure is settled, not after.**\n\nPlus the losses through it.",
@@ -2190,7 +2190,7 @@
       "marks": 1,
       "stem": "REVETMENT (bank pitching) as a river training measure differs from a series of SPURS in that revetment:",
       "options": [
-        "ARMOURS the bank surface in place along its whole length",
+        "Armours the bank surface in place along its whole length",
         "Is placed in the middle of the river channel",
         "Is used only on the inner bank of a bend",
         "Requires no launching apron"
@@ -2224,7 +2224,7 @@
       "stem": "In the conventional hierarchy of an irrigation canal system, the channel that takes off from a DISTRIBUTARY and delivers water to the outlets is called a:",
       "options": [
         "Main canal",
-        "MINOR",
+        "Minor",
         "Branch canal",
         "Watercourse"
       ],
@@ -2258,7 +2258,7 @@
       "options": [
         "Buried perforated clay or PVC pipes laid in a trench",
         "Open ditches excavated across the field",
-        "UNLINED CHANNELS formed in the subsoil by dragging a torpedo-shaped device through it",
+        "Unlined channels formed in the subsoil by dragging a torpedo-shaped device through it",
         "Vertical wells sunk into the aquifer"
       ],
       "answerIndex": 2,
@@ -2292,7 +2292,7 @@
         "Using surface water in the monsoon and abandoning it thereafter",
         "Using groundwater exclusively, to avoid canal seepage",
         "Mixing canal water with groundwater to improve its quality",
-        "Operating the canal and the groundwater as a SINGLE PLANNED SYSTEM"
+        "Operating the canal and the groundwater as a single planned system"
       ],
       "answerIndex": 3,
       "solution": "**Operating the canal supply and the groundwater as a SINGLE PLANNED SYSTEM** — canal water in the wet season, pumped groundwater in the dry, with the canal's seepage recharging the aquifer that is later pumped.\n\n**Why the combination works so well:**\n\n| Advantage | Note |\n|---|---|\n| **The canal's SEEPAGE, otherwise a pure loss, becomes RECHARGE** ← | **The water \"lost\" from the canal is stored in the aquifer and recovered by pumping — so it is not lost at all** ← |\n| **The aquifer acts as a free, enormous RESERVOIR** ← | **With no dam, no submergence, no resettlement, no evaporation and no sedimentation** ← |\n| **Pumping LOWERS the water table, preventing WATERLOGGING and salinity** ← | **The problem the canal itself created is solved by the pumping** ← |\n| **Groundwater is available ON DEMAND** | **Unlike a canal turn, which arrives when the rotation dictates** ← |\n| **The canal supplies the wet season's bulk demand cheaply; the wells supply the dry season's reliability** | **Each does what it is best at** ← |\n\n> **THE FIRST AND THIRD ROWS TOGETHER MAKE THIS ONE OF THE MOST ELEGANT IDEAS IN WATER RESOURCES ENGINEERING, and it is worth setting out plainly:**\n\n> **An unlined canal has two problems — it LOSES water to seepage, and that seepage WATERLOGS the command.**\n\n> **Conjunctive use turns both into benefits. The seepage becomes aquifer storage, and pumping that storage out lowers the water table and cures the waterlogging.**\n\n> **The two defects cancel each other, and the scheme ends with more usable water and a lower water table than either component alone would give.**\n\n> **It is a rare case in which the right answer to two problems is to let them solve each other rather than to fix either.**\n\n**The AQUIFER AS A RESERVOIR comparison, which is the strongest argument:**\n\n| Aspect | Surface reservoir | Aquifer storage |\n|---|---|---|\n| **Capital cost** | **Very high — a dam** ← | **NIL — it exists already** ← |\n| **Land submerged** | **Large; and resettlement** ← | **NONE** ← |\n| **EVAPORATION loss** | **Substantial — metres per year from the surface** ← | **NEGLIGIBLE** ← |\n| **SEDIMENTATION** | **Progressive, and it destroys the storage** ← | **NONE** ← |\n| **Distribution** | **Requires a canal network** | **The water is already beneath the point of use** ← |\n| **Recovery cost** | **Gravity — nearly free** ← | **PUMPING energy — the one real disadvantage** ← |\n| **Risk of catastrophic failure** | **Dam break** ← | **NONE** ← |\n\n> **THE ONLY COLUMN IN WHICH THE SURFACE RESERVOIR WINS IS THE RECOVERY COST, and that is a genuine and continuing expense — but it is set against every other item favouring the aquifer.**\n\n> **In a region with a suitable aquifer, storing water underground is very often the better engineering, and the fact that it requires no visible structure has probably delayed its adoption more than any technical objection.**\n\n**The requirement that makes or breaks it:**\n\n| Requirement | Note |\n|---|---|\n| **Pumping must be BALANCED against recharge over the long term** ← | **Otherwise the water table falls year on year and the resource is mined rather than used** ← |\n| **Which requires MONITORING of water levels across the command** ← | **The essential feedback, and the item usually missing** ← |\n| **And REGULATION of pumping — which is very hard** ← | **Thousands of individual private tube wells, each rational in isolation, collectively over-abstracting** ← |\n| **The energy for pumping must be affordable but not free** ← | **Free or heavily subsidised power removes any restraint on abstraction and guarantees over-pumping** ← |\n\n> **THE LAST TWO ROWS DESCRIBE WHY CONJUNCTIVE USE SO OFTEN FAILS IN PRACTICE DESPITE BEING TECHNICALLY EXCELLENT, and it is a tragedy of the commons in its textbook form:**\n\n> **The aquifer is a shared resource. Each farmer's own pumping has a negligible effect on the water table and a large effect on their own crop, so each rationally pumps as much as they can.**\n\n> **Collectively they exhaust it, and the falling water table then raises everyone's pumping cost until the shallow wells fail and only those who can afford to deepen continue — which is inequitable as well as unsustainable.**\n\n> **Subsidised electricity makes it worse by removing the only self-limiting mechanism.**\n\n> **The engineering is sound and the institutions are the binding constraint — which is the same conclusion reached about waterlogging, about watercourse maintenance, and about road maintenance funding, and it is probably the most important recurring lesson in the whole of water resources practice.**\n\nPumping groundwater in the dry season and relying on canal supply in the wet, so that canal seepage RECHARGES the aquifer that is later pumped.",
@@ -2323,7 +2323,7 @@
       "stem": "During the construction of a dam across a river, a DIVERSION TUNNEL together with upstream and downstream COFFERDAMS is provided in order to:",
       "options": [
         "Store water for the construction works",
-        "Carry the river's flow AROUND the dam site and keep the foundation excavation DRY while the dam is being built",
+        "Carry the river's flow around the dam site and keep the foundation excavation dry while the dam is being built",
         "Generate power during construction",
         "Dispose of the excavated spoil"
       ],
@@ -2358,7 +2358,7 @@
         "The tariff at which the power is actually sold",
         "The capital cost divided by the installed capacity",
         "The annual operating cost divided by the annual energy generated",
-        "The PRESENT VALUE of all costs over the project's life DIVIDED by the present value of all the energy generated"
+        "The present value of all costs over the project's life divided by the present value of all the energy generated"
       ],
       "answerIndex": 3,
       "solution": "**The present value of all COSTS over the project's life divided by the present value of all the ENERGY generated** — giving a single cost per kWh comparable between technologies.\n\n**What it includes and why:**\n\n| Included | Note |\n|---|---|\n| **Capital cost, including interest during construction** ← | **Discounted to present value** ← |\n| **All operating, maintenance and replacement costs over the life** | ← |\n| **Fuel, where applicable** | **Zero for hydro, solar and wind — which is their central advantage** ← |\n| **Decommissioning** | ← |\n| **DIVIDED BY the discounted energy output over the whole life** ← | **Note that the ENERGY is discounted too, which surprises people** ← |\n\n> **THE DISCOUNTING OF THE ENERGY IN THE LAST ROW IS ESSENTIAL AND IS OFTEN OMITTED IN CARELESS CALCULATIONS: a kWh generated in year 30 is worth less in present-value terms than one generated in year 1, exactly as a rupee is.**\n\n> **Dividing discounted costs by UNDISCOUNTED energy understates the LCOE substantially, and it flatters long-lived projects in particular — which is precisely the class that hydropower belongs to.**\n\n**Option (b) — capital cost per kW — is the figure most often quoted and it is a poor basis for comparison:**\n\n| Comparison | Capital cost per kW | LCOE |\n|---|---|---|\n| **Hydropower** | **HIGH — perhaps 1,500 to 3,000 US$/kW** ← | **LOW, because there is no fuel and the plant lasts 50 to 100 years** ← |\n| **Diesel generation** | **LOW — a few hundred US$/kW** ← | **VERY HIGH, because fuel dominates the whole-life cost** ← |\n| **Solar PV** | **Moderate and falling** | **Moderate; but the CAPACITY FACTOR is low, so the energy per kW installed is small** ← |\n\n> **THE CONTRAST IN THE FIRST TWO ROWS IS THE REASON LCOE EXISTS: ranking these technologies by capital cost per kW puts diesel first and hydro last, and ranking them by LCOE reverses the order entirely.**\n\n> **A diesel set is cheap to buy and ruinous to run. A hydropower plant is expensive to build and nearly free to operate for a century.**\n\n> **Only a whole-life measure captures that, and any comparison based on capital cost alone will systematically favour the technology with the highest running cost — which is exactly the wrong answer, and exactly the decision that a shortage of capital pushes people toward.**\n\n**The parameters LCOE is most sensitive to:**\n\n| Parameter | Effect |\n|---|---|\n| **The DISCOUNT RATE** ← | **The single most influential assumption for a capital-intensive, long-lived project** ← |\n| **The CAPACITY FACTOR (or annual energy)** | **Directly in the denominator** ← |\n| **The economic LIFE assumed** ← | **And for hydro, whether the CONCESSION period or the physical life is used makes an enormous difference** ← |\n| **Construction TIME and cost overrun** | **Interest during construction compounds, so delay is very expensive** ← |\n| **Fuel price, where applicable** | ← |\n\n> **THE DISCOUNT RATE'S DOMINANCE IN THE FIRST ROW IS WORTH UNDERSTANDING BECAUSE IT DECIDES ARGUMENTS RATHER THAN INFORMING THEM: a hydropower project's costs are almost all incurred at the start and its benefits spread over decades.**\n\n> **A HIGH discount rate makes those distant benefits nearly worthless and the immediate costs fully weighted, so it makes hydropower look expensive.**\n\n> **A LOW discount rate does the opposite.**\n\n> **Comparing hydro against a gas turbine at 12 per cent and at 6 per cent can reverse the ranking, without a single physical fact changing — which is why the discount rate used must be stated with any LCOE figure, and why LCOE comparisons quoted without it should be treated with suspicion.**\n\n> **THE CONCESSION PERIOD POINT IN THE THIRD ROW MATTERS PARTICULARLY IN NEPAL, and it connects to the licensing question: the plant physically lasts a century, and the developer has 35 years.**\n\n> **Computing LCOE over 35 years gives a much higher figure than over 100, and the tariff must be set on the 35-year basis because that is the developer's horizon.**\n\n> **So the transferred asset's remaining 65 years of nearly free generation is a large benefit accruing to the state, and it does not appear in the tariff calculation at all — which is a fair way to view the arrangement, and one that makes the tariff look less expensive than it first appears.**\n\nGiving a cost per kWh that can be compared directly between technologies.",
@@ -2388,7 +2388,7 @@
       "marks": 1,
       "stem": "The MASS CURVE (Rippl diagram) of inflow is used in reservoir planning to determine:",
       "options": [
-        "The STORAGE CAPACITY required to meet a given demand",
+        "The storage capacity required to meet a given demand",
         "The peak flood discharge for spillway design",
         "The sediment load entering the reservoir",
         "The evaporation loss from the reservoir surface"
@@ -2455,7 +2455,7 @@
       "stem": "In checking the stability of a concrete gravity dam against SLIDING, the SHEAR FRICTION FACTOR is used in preference to the simple sliding factor because it:",
       "options": [
         "Ignores the uplift pressure, giving a simpler calculation",
-        "Accounts for the SHEAR STRENGTH (cohesion) of the concrete-rock contact and of the rock itself",
+        "Accounts for the shear strength (cohesion) of the concrete-rock contact and of the rock itself",
         "Applies only to dams founded on soil",
         "Is always more conservative than the sliding factor"
       ],
@@ -2490,7 +2490,7 @@
         "Is built entirely of a single well-graded material",
         "Uses a thin upstream concrete or asphalt membrane as its water barrier",
         "Has no internal drainage",
-        "Has a relatively IMPERVIOUS CENTRAL CORE flanked by more PERVIOUS SHELLS"
+        "Has a relatively impervious central core flanked by more pervious shells"
       ],
       "answerIndex": 3,
       "solution": "**It has a relatively IMPERVIOUS central core flanked by more PERVIOUS shells** — placing each material where its properties are most useful.\n\n**The three types of embankment dam:**\n\n| Type | Construction | Suits |\n|---|---|---|\n| **HOMOGENEOUS** | **A single material throughout, usually with a small internal drain or a rock toe** ← | **LOW dams (below about 10 m) where only one material is available** ← |\n| **ZONED (composite)** ← | **An impervious CORE, transition/filter zones, and pervious SHELLS** ← | **Most large embankment dams — the standard type** ← |\n| **DIAPHRAGM type** ← | **A pervious embankment with a thin impervious MEMBRANE — concrete, asphalt or geomembrane — on the upstream face or as an internal wall** ← (option b) | **Where no suitable clay exists on site** ← |\n\n> **THE ZONED DAM IS THE STANDARD FOR ANY SUBSTANTIAL EMBANKMENT AND THE REASON IS A DIVISION OF LABOUR BETWEEN THE MATERIALS, which is worth setting out:**\n\n| Zone | Material | Its job |\n|---|---|---|\n| **CORE** | **Clay or a well-graded material with clay fines — IMPERVIOUS** ← | **Stops the water. It contributes little to stability, being weak** ← |\n| **FILTER / TRANSITION zones** | **Graded sand and gravel, satisfying the filter criteria** ← | **Prevents the core's fines from migrating into the shell, and controls seepage safely** ← |\n| **SHELLS** | **Rockfill, gravel or sand — PERVIOUS and STRONG** ← | **Provides the STABILITY and the weight. It holds no water back at all** ← |\n| **Riprap / slope protection** | Rock on the upstream face | **Against wave action** ← |\n\n> **THE CONTRAST BETWEEN THE FIRST AND THIRD ROWS IS THE WHOLE IDEA: the material that stops water is weak, and the material that provides strength is permeable.**\n\n> **A homogeneous dam must use one material for both jobs, so it is a compromise: permeable enough to be strong and stable is too permeable to hold water, and impervious enough to hold water is too weak for steep slopes.**\n\n> **Zoning lets each material do the job it is good at — the clay core holds the water and needs no strength because the shells support it, and the rockfill shells provide steep stable slopes and need no imperviousness because the core handles that.**\n\n> **The result is a dam with a smaller cross-section, steeper slopes and less material than a homogeneous dam of the same height, built from materials that are individually unsuitable.**\n\n**The FILTER ZONES in the second row are the critical detail:**\n\n| Aspect | Note |\n|---|---|\n| **Without a filter, the core's fine particles migrate into the coarse shell under the seepage gradient** ← | **PIPING — and it hollows out the core from within** ← |\n| **The filter must satisfy both criteria — retain the core's fines, and pass the water freely** ← | **The same two conditions met at the chimney drain, behind a retaining wall, and beneath a revetment** ← |\n| **Several graded layers may be needed between a fine core and a coarse rockfill** ← | **No single grading can bridge the gap** ← |\n| **The transition also prevents the shell's stones puncturing into the soft core** | **A mechanical function as well as a hydraulic one** ← |\n\n> **THIS IS THE FOURTH APPEARANCE OF THE FILTER CRITERIA IN THIS CHAPTER'S SUBJECT MATTER, and the repetition is the point: whenever water flows from a fine material into a coarse one, a filter is required, and the two conditions are always the same.**\n\n> **It is one of the small number of ideas in geotechnical engineering that recurs in almost every application, and recognising it as one idea rather than several saves a great deal of memorising.**\n\n**The CORE's position, which is a genuine design choice:**\n\n| Position | Advantages | Disadvantages |\n|---|---|---|\n| **CENTRAL vertical core** | **Higher contact pressure between core and foundation, so less risk of leakage there; shorter core; access to both shells during construction** ← | **The core must be placed simultaneously with the shells, so construction is more complex** ← |\n| **INCLINED or upstream core** ← | **The shells can be built FIRST and the core placed later; the downstream shell stays dry, so it is fully effective; and the phreatic line is drawn far forward** ← | **A longer core; lower contact pressure; and it is more vulnerable to a drawdown** ← |\n\n> **THE CONSTRUCTION SEQUENCE ADVANTAGE OF THE INCLINED CORE IN THE SECOND ROW IS OFTEN DECISIVE IN PRACTICE AND IS WORTH KNOWING: clay core placement is weather-dependent and slow, and rockfill placement is neither.**\n\n> **An inclined core lets the rockfill shells be placed through a monsoon while the core waits for dry weather, whereas a central core must keep pace with the shells and holds up the whole embankment.**\n\n> **On a Himalayan site with a four-month wet season, that difference can be a whole construction year — which is a scheduling consideration determining a structural configuration, and a good illustration of how buildability shapes design on large civil works.**\n\nEach material is placed where its properties are most useful.",
@@ -2520,7 +2520,7 @@
       "marks": 1,
       "stem": "A CONTINUOUS-FLUSHING settling basin at a run-of-river hydropower headworks differs from an intermittently flushed one in that the continuous type:",
       "options": [
-        "Has a system of HOPPERS and FLUSHING DUCTS that carry the deposited sediment away WITHOUT interrupting the plant's operation",
+        "Has a system of hoppers and flushing ducts that carry the deposited sediment away without interrupting the plant's operation",
         "Requires the plant to be shut down for cleaning",
         "Removes only the coarse gravel fraction",
         "Needs no flushing arrangement at all"
@@ -2555,7 +2555,7 @@
       "options": [
         "Increases the net head and hence the power output",
         "Has no effect, since the head is measured at the intake",
-        "REDUCES the NET HEAD and therefore the power output",
+        "Reduces the net head and therefore the power output",
         "Increases the discharge through the turbine"
       ],
       "answerIndex": 2,
@@ -2622,7 +2622,7 @@
         "Reduces both the speed rise and the water hammer pressure",
         "Has no effect on the penstock pressure",
         "Increases the speed rise and reduces the water hammer",
-        "Limits the machine's SPEED RISE on load rejection, but INCREASES the WATER HAMMER pressure in the penstock"
+        "Limits the machine's speed rise on load rejection, but increases the water hammer pressure in the penstock"
       ],
       "answerIndex": 3,
       "solution": "**A shorter closing time limits the SPEED RISE on load rejection, but increases the WATER HAMMER pressure in the penstock.**\n\n**The two competing requirements:**\n\n| Requirement | Wants the closure to be | Because |\n|---|---|---|\n| **Limit the SPEED RISE when the load is suddenly lost** ← | **FAST** ← | **With no electrical load, the water's energy accelerates the runner; the longer the water keeps flowing, the higher the overspeed** ← |\n| **Limit the WATER HAMMER pressure in the penstock** ← | **SLOW** ← | **The faster the flow is stopped, the greater the pressure rise — a sudden stop generates the full Joukowsky pressure** ← |\n\n> **THE TWO ARE DIRECTLY OPPOSED, AND THAT IS THE WHOLE PROBLEM: the mechanical safety of the machine wants a fast closure, and the structural safety of the penstock wants a slow one.**\n\n> **The governor's closing time must therefore be chosen to satisfy both, and neither can be optimised alone.**\n\n**The two limits quantified:**\n\n| Limit | Note |\n|---|---|\n| **Permissible SPEED RISE** | **Commonly 30 to 60 per cent above normal on full load rejection** ← |\n| **RUNAWAY speed, if the governor fails entirely** | **1.8 to 2.0 times normal — the machine must be able to survive it structurally** ← |\n| **Permissible PRESSURE RISE** | **Commonly 25 to 50 per cent above the static head** ← |\n| **Typical closing times** | **2 to 8 seconds, depending on the plant's size and the penstock's length** ← |\n\n> **THE PENSTOCK'S LENGTH IS THE CRITICAL VARIABLE AND IT IS WORTH SEEING WHY: the water hammer pressure depends on whether the closure is \"rapid\" or \"slow\" COMPARED WITH the pressure wave's travel time.**\n\n> **The wave takes 2L/a seconds to travel to the reservoir and back, where L is the penstock's length and a the wave speed of about 1,000 m/s.**\n\n> **A closure completed in LESS than 2L/a is RAPID, and it generates the full Joukowsky pressure rise ρaV — the maximum possible.**\n\n> **A closure taking LONGER than 2L/a is SLOW: the returning wave arrives while the valve is still moving and partly relieves the pressure, so the rise is less.**\n\n> **For a 1,000 m penstock, 2L/a is 2 seconds — so a 3-second closure is \"slow\" and gets some relief. For a 200 m penstock it is 0.4 seconds, and almost any closure is \"slow\".**\n\n> **This is why long penstocks are the problem: the longer the pipe, the longer a closure must be to count as slow, and the longer the closure, the greater the speed rise.**\n\n**How the conflict is RESOLVED, which is the interesting part:**\n\n| Device | How it helps |\n|---|---|\n| **A SURGE TANK or a forebay close to the turbine** ← | **It shortens the effective length L of the pressurised conduit, so the wave's travel time falls and a given closing time becomes \"slow\" — decoupling the penstock from the tunnel entirely** ← |\n| **A FLYWHEEL, or a generator with a large rotating inertia** ← | **More inertia means a slower speed rise for the same energy input — so a longer closing time becomes acceptable** ← |\n| **A PRESSURE RELIEF valve** | **Opening as the main valve closes, so the flow is diverted rather than stopped** ← |\n| **A DEFLECTOR on a Pelton wheel** ← | **The jet is deflected AWAY from the buckets almost instantly, cutting the power off at once, while the needle closes slowly behind it** ← |\n| **A bypass or synchronous bypass valve** | ← |\n\n> **THE PELTON DEFLECTOR IN THE FOURTH ROW IS THE MOST ELEGANT SOLUTION TO THIS PROBLEM AND IT DESERVES ADMIRATION: it separates the two requirements completely rather than compromising between them.**\n\n> **The deflector plate swings into the jet within a fraction of a second, turning the water away from the buckets. The power input to the runner stops almost immediately, so there is no overspeed.**\n\n> **The needle valve then closes over several seconds, so the FLOW in the penstock is reduced slowly and there is no water hammer.**\n\n> **The machine is protected in a fraction of a second and the pipeline in several seconds, and both requirements are met in full.**\n\n> **The cost is that the deflected water is wasted for those few seconds — which is a trivial price, and it is why every Pelton installation of any size has a deflector.**\n\n> **The general lesson is worth taking: where two requirements genuinely conflict, the best answer is often not a compromise between them but a device that SEPARATES them, so each can be satisfied independently.**",
@@ -2652,7 +2652,7 @@
       "marks": 1,
       "stem": "In highway land-width control, the BUILDING LINE and the CONTROL LINE differ in that:",
       "options": [
-        "The BUILDING LINE is the nearer boundary, WITHIN which no building may be erected",
+        "The building line is the nearer boundary, within which no building may be erected",
         "The control line is inside the building line",
         "Both coincide with the boundary of the right of way",
         "They apply only in urban areas"
@@ -2687,7 +2687,7 @@
       "options": [
         "The altitude above sea level",
         "The average rainfall of the area",
-        "The GENERAL SLOPE of the ground measured ACROSS the road's alignment (the cross slope of the country)",
+        "The general slope of the ground measured across the road's alignment (the cross slope of the country)",
         "The type of soil encountered"
       ],
       "answerIndex": 2,
@@ -2718,7 +2718,7 @@
       "marks": 1,
       "stem": "Where superelevation is attained by ROTATING the pavement cross-section about the INNER EDGE rather than about the CENTRE LINE, the principal advantage is that:",
       "options": [
-        "The centre line's PROFILE is raised throughout the transition",
+        "The centre line's profile is raised throughout the transition",
         "Less earthwork is required in every case",
         "The curve can be made sharper",
         "No transition curve is needed"
@@ -2785,7 +2785,7 @@
       "stem": "Compared with BITUMEN, road TAR differs in that tar:",
       "options": [
         "Is obtained from the fractional distillation of crude petroleum",
-        "Is obtained by the DESTRUCTIVE DISTILLATION of COAL or wood",
+        "Is obtained by the destructive distillation of coal or wood",
         "Is more resistant to temperature change than bitumen",
         "Contains no volatile constituents at all"
       ],
@@ -2820,7 +2820,7 @@
         "Resistance to crushing under a static load",
         "Resistance to abrasion by traffic",
         "Resistance to impact",
-        "Resistance to DISINTEGRATION under the action of WEATHERING"
+        "Resistance to disintegration under the action of weathering"
       ],
       "answerIndex": 3,
       "solution": "**Resistance to DISINTEGRATION under WEATHERING** — the repeated crystallisation of salts within its pores, and by extension freezing and thawing and wetting and drying.\n\n**How the test simulates weathering:**\n\n| Step | Note |\n|---|---|\n| **The aggregate is immersed in a saturated solution of sodium or magnesium SULPHATE** ← | **The solution penetrates the pores** ← |\n| **It is then dried, so the salt CRYSTALLISES within the pores** ← | **And crystallisation exerts pressure, just as freezing water does** ← |\n| **The cycle is repeated — commonly 5 cycles** | ← |\n| **The LOSS IN WEIGHT of the sample is measured** ← | **Typically limited to 12 per cent with sodium sulphate, or 18 per cent with magnesium sulphate** ← |\n\n> **THE SALT CRYSTALLISATION IS A DELIBERATE SUBSTITUTE FOR FREEZE-THAW, and the substitution is a sensible one: both mechanisms work by generating pressure inside the aggregate's pores, and the salt test can be run in any laboratory without a freezing cabinet, in a few days rather than many cycles.**\n\n> **It is also directly relevant in its own right wherever salts are present — in coastal work, in de-icing salt use, and in saline soils.**\n\n**The aggregate tests and what each measures — the distinction the question rests on:**\n\n| Test | Measures | Typical limit |\n|---|---|---|\n| **CRUSHING value (ACV)** | **Resistance to gradual CRUSHING under a static load** ← (option a) | **30 % for surface courses; 45 % for other work** ← |\n| **IMPACT value (AIV)** | **Resistance to sudden IMPACT or shock** ← (option c) | **30 % for surfacing; 35-45 % for base courses** ← |\n| **LOS ANGELES ABRASION** | **Resistance to ABRASION and attrition** ← (option b) | **30 % for surfacing; 40-50 % for base** ← |\n| **SOUNDNESS (sulphate)** | **Resistance to WEATHERING and disintegration** ← | **12 % (Na₂SO₄) or 18 % (MgSO₄)** ← |\n| **WATER ABSORPTION** | **Porosity — an indirect indicator of durability** ← | **Not more than 2 per cent generally** ← |\n| **FLAKINESS and ELONGATION indices** | **Particle SHAPE** ← | **Combined index not more than 30 %** ← |\n| **SPECIFIC GRAVITY** | For mix design calculations | 2.6 to 2.9 |\n| **POLISHED STONE VALUE (PSV)** | **Resistance to POLISHING under traffic — hence the surface's SKID RESISTANCE** ← | **Higher is better; 55-60 for surfacing** ← |\n\n> **ALL FOUR OF THE FIRST ROWS TEST STRENGTH OR DURABILITY IN DIFFERENT MODES, AND THEY ARE NOT INTERCHANGEABLE — an aggregate can pass the crushing test and fail the soundness test, because static strength and weathering resistance are different properties.**\n\n> **A hard but POROUS rock — some vesicular basalts, or a weathered granite — may crush well and disintegrate within a few seasons of weathering.**\n\n**THE WATER ABSORPTION LIMIT IN THE FIFTH ROW IS THE QUICKEST AND MOST USEFUL DURABILITY SCREEN, and it is worth knowing why:**\n\n> **Nearly every durability problem in aggregate — freeze-thaw, salt crystallisation, wetting and drying, and stripping — requires WATER to get INSIDE the stone.**\n\n> **A dense aggregate with low absorption admits little water and is therefore durable against all of those mechanisms at once.**\n\n> **So a simple absorption test, which needs nothing but a balance and an oven, screens out most of the problem aggregates — and a result above 2 per cent should prompt the full soundness test rather than being accepted.**\n\n> **THE POLISHED STONE VALUE IN THE LAST ROW IS THE ONE MOST OFTEN OMITTED FROM SPECIFICATIONS AND IT MATTERS FOR SAFETY RATHER THAN DURABILITY: a hard, strong, sound aggregate can polish to a glassy smoothness under traffic, and the road then loses its skid resistance in the wet.**\n\n> **Limestone polishes readily; quartzite and gritstone do not.**\n\n> **So an aggregate that passes every strength test can still produce an unsafe surface, and PSV must be specified separately for the wearing course — particularly at junction approaches and on bends, where braking and cornering demand the most friction.**\n\nParticularly the repeated crystallisation of salts, freezing and thawing, and wetting and drying.",
@@ -2850,7 +2850,7 @@
       "marks": 1,
       "stem": "The SIGHT TRIANGLE at an uncontrolled or priority-controlled road intersection is:",
       "options": [
-        "The TRIANGULAR AREA formed by the sight lines between the two approaching drivers",
+        "The triangular area formed by the sight lines between the two approaching drivers",
         "The triangular island provided at the centre of the junction",
         "The area painted with yellow hatching at the junction",
         "The triangle formed by the three approach roads of a T-junction"
@@ -2884,7 +2884,7 @@
       "stem": "In a flexible pavement, the principal function of the SUB-BASE course is to:",
       "options": [
         "Provide the skid resistance of the running surface",
-        "SPREAD the wheel load further",
+        "Spread the wheel load further",
         "Carry the tensile stresses at the bottom of the pavement",
         "Provide the waterproofing of the pavement structure"
       ],
@@ -2918,7 +2918,7 @@
       "options": [
         "Half the total load carried by the two wheels",
         "The sum of the loads on both wheels",
-        "The load on a SINGLE wheel that would produce the SAME stress or deflection at a specified DEPTH in the pavement as the dual assembly does",
+        "The load on a single wheel that would produce the same stress or deflection at a specified depth in the pavement as the dual assembly does",
         "The load at which one of the two tyres fails"
       ],
       "answerIndex": 2,
@@ -2952,7 +2952,7 @@
         "The roughness of the road surface",
         "The skid resistance of the wearing course",
         "The thickness of the bituminous layers",
-        "The REBOUND DEFLECTION of the pavement surface under a standard wheel load"
+        "The rebound deflection of the pavement surface under a standard wheel load"
       ],
       "answerIndex": 3,
       "solution": "**The REBOUND DEFLECTION of the pavement surface under a standard wheel load** — from which the structural condition and the required overlay thickness are assessed.\n\n**How the test is done:**\n\n| Step | Note |\n|---|---|\n| **A truck with a standard REAR AXLE LOAD is positioned over the test point** ← | **Commonly 8.17 tonnes with a specified tyre pressure** ← |\n| **The beam's probe is inserted BETWEEN the dual tyres, resting on the pavement** ← | **The beam's own supports rest outside the deflected zone** ← |\n| **An initial dial reading is taken** | ← |\n| **The truck is driven SLOWLY FORWARD and the pavement REBOUNDS** ← | **The dial reading changes as it recovers** ← |\n| **The REBOUND deflection is the difference** | **Typically 0.5 to 2.5 mm** ← |\n| **Corrections are applied for TEMPERATURE and for the SEASON (subgrade moisture)** ← | **Both affect the deflection substantially** ← |\n\n> **THE CORRECTIONS IN THE LAST ROW ARE ESSENTIAL AND ARE THE PART MOST OFTEN SKIPPED: a bituminous pavement is far more flexible when hot, and the subgrade far weaker when wet.**\n\n> **The same pavement measured at 20 °C in the dry season and at 40 °C after the monsoon gives quite different deflections — differing by a factor approaching two.**\n\n> **An overlay design based on an uncorrected reading taken at a favourable time will be too thin, and one taken at an unfavourable time too thick.**\n\n> **So the standard requires both a temperature correction and a seasonal correction to a defined reference condition, and the survey should ideally be conducted in the post-monsoon period when the subgrade is at its weakest — the condition the pavement must survive.**\n\n**What the deflection tells you:**\n\n| Deflection | Interpretation |\n|---|---|\n| **LOW (below about 1 mm)** | **A structurally strong pavement with substantial residual life** ← |\n| **HIGH** | **A weak pavement, or a weak subgrade, approaching the end of its structural life** ← |\n| **The CHARACTERISTIC deflection (mean + 2 standard deviations)** ← | **Used for design, not the mean — because the pavement fails at its weakest points, not on average** ← |\n| **The overlay thickness is read from a design chart** ← | **Against the characteristic deflection and the projected traffic in MSA** ← |\n\n> **THE USE OF MEAN PLUS TWO STANDARD DEVIATIONS IN THE THIRD ROW IS A GOOD PIECE OF STATISTICAL REASONING AND IT IS THE SAME IDEA AS CHARACTERISTIC STRENGTH IN CONCRETE: a pavement does not fail at its average condition.**\n\n> **It fails at the weak spots, and those spots then spread. So the design must address the weak tail of the distribution rather than the middle of it.**\n\n> **This also means the VARIABILITY matters as much as the mean: a uniform pavement of moderate deflection needs a thinner overlay than a variable one with the same average, because its weak tail is closer to its mean.**\n\n> **Where the variability is very high, the right answer is usually to divide the road into homogeneous sections and design each separately, rather than to apply one thick overlay everywhere.**\n\n**Its limitations, and what has replaced it:**\n\n| Limitation | Note |\n|---|---|\n| **SLOW — each point takes several minutes, and a truck and crew are needed** ← | **So only a small sample of a network can be tested** ← |\n| **It measures only the PEAK deflection at one point** ← | **It gives no information about the SHAPE of the deflected basin, which is what distinguishes a weak subgrade from weak bituminous layers** ← |\n| **Operator-dependent** | ← |\n| **The FALLING WEIGHT DEFLECTOMETER (FWD) has largely replaced it** ← | **A dropped weight simulates a moving wheel, and several geophones record the whole deflection BASIN in a second — allowing the layer moduli to be BACK-CALCULATED individually** ← |\n\n> **THE SECOND ROW IS THE DECISIVE TECHNICAL LIMITATION AND IT MATTERS FOR THE REMEDY CHOSEN: a peak deflection of 1.8 mm might arise from a sound pavement on a weak subgrade, or from weak, cracked bituminous layers on a good subgrade.**\n\n> **The two need completely different treatments — the first needs a thick structural overlay or subgrade improvement, the second needs the bituminous layers milled out and replaced.**\n\n> **A single deflection reading cannot distinguish them, and the FWD's deflection basin can: a broad shallow basin indicates a weak subgrade, and a narrow deep one indicates weak upper layers.**\n\n> **That is the same diagnostic distinction met with structural versus instability rutting, and it recurs because the underlying question is always the same — is the problem at the surface or beneath it? — and answering it correctly is what separates effective maintenance from wasted expenditure.**\n\nFrom which the pavement's structural condition and the required OVERLAY thickness are assessed.",
@@ -2983,7 +2983,7 @@
       "stem": "In engineering drawing, a HALF SECTION is one in which:",
       "options": [
         "The object is cut along a plane that is offset to pass through several features",
-        "ONE QUARTER of the object is removed, so that HALF the view appears in section and the other half as an external view",
+        "ONE quarter of the object is removed, so that half the view appears in section and the other half as an external view",
         "A small local part of the object is broken away to reveal an interior detail",
         "The cut portion is rotated into the plane of the drawing"
       ],
@@ -3018,7 +3018,7 @@
         "Makes the drawing look untidy",
         "Takes longer to draw",
         "Increases the cost of printing the drawing",
-        "Creates an AMBIGUITY when the dimensions conflict"
+        "Creates an ambiguity when the dimensions conflict"
       ],
       "answerIndex": 3,
       "solution": "**Because a redundant dimension creates an AMBIGUITY as soon as the dimensions conflict** — which they will once tolerances are applied — leaving the workman uncertain which to work to.\n\n**Why redundancy is a real fault and not merely untidiness:**\n\n| Consideration | Note |\n|---|---|\n| **Every dimension carries a TOLERANCE, stated or implied** ← | **Nothing is made exactly** ← |\n| **If three dimensions are given for two independent lengths and their total, they CANNOT all be met** ← | **The tolerances accumulate, and the sum of the parts will not equal the stated whole** ← |\n| **The workman must then choose which dimension to honour** ← | **And different workmen will choose differently** ← |\n| **The decision has moved from the DESIGNER to the SHOP FLOOR** ← | **Which is exactly what a drawing exists to prevent** ← |\n\n> **THE FOURTH ROW IS THE HEART OF THE MATTER: the designer knows which dimension is functionally critical and the workman does not.**\n\n> **If the overall length must be exact because the part fits into an opening, the designer should dimension the overall length and leave one intermediate dimension to be the \"slack\" one — either omitted, or marked as auxiliary in brackets.**\n\n> **Giving all three dimensions surrenders that choice, and the part may be made correct in every dimension except the one that mattered.**\n\n**The rules of dimensioning, gathered:**\n\n| Rule | Note |\n|---|---|\n| **Each dimension ONCE only, on the view that shows the feature most clearly** ← | ← |\n| **No REDUNDANT dimensions** ← | **This question — mark any duplicate as AUXILIARY, in brackets and not to be worked to** ← |\n| **Dimension from a FUNCTIONAL datum, not from an arbitrary edge** ← | **So that the tolerances accumulate where they can be tolerated and not where they matter** ← |\n| **Place dimensions OUTSIDE the outline where possible** | **And never on the object where it can be avoided** ← |\n| **Dimension lines should not CROSS** | **And the shorter dimensions are placed nearer the outline** ← |\n| **Do not dimension to a HIDDEN line** ← | **Add a section instead** ← |\n| **All dimensions needed to make and inspect the part must be present** | **Nothing left to be scaled off the drawing** ← |\n\n> **THE DATUM RULE IN THE THIRD ROW IS THE MOST IMPORTANT PRACTICAL ONE AND IT DESERVES EXPANSION, because it is where the tolerance question is actually settled:**\n\n| Method | Effect |\n|---|---|\n| **CHAIN dimensioning — each feature dimensioned from the previous one** ← | **Tolerances ACCUMULATE along the chain, so the last feature's position is very uncertain** ← |\n| **PARALLEL (datum) dimensioning — every feature dimensioned from ONE datum** ← | **Each feature's position carries only ONE tolerance, so nothing accumulates** ← |\n| **Which to use** | **Chain where the SPACING between adjacent features matters; datum where each feature's ABSOLUTE position matters** ← |\n\n> **THE CHOICE BETWEEN THE TWO IS A DESIGN DECISION ABOUT WHAT MATTERS, and it is one of the clearest cases where a drawing convention carries engineering content rather than merely presentation.**\n\n> **A row of ten holes dimensioned as a chain may have its last hole several tolerances out of position; the same row dimensioned from a datum will not.**\n\n> **But if what matters is that adjacent holes are exactly one pitch apart — for a chain drive, say — then chain dimensioning is correct and datum dimensioning would allow the pitch to vary.**\n\n> **So the dimensioning scheme must express the FUNCTIONAL requirement, and a draughtsman who dimensions for convenience rather than for function has quietly changed what the part must achieve.**\n\n> **THE LAST ROW OF THE RULES TABLE CONNECTS TO THE \"NOT TO SCALE\" CONVENTION AND IS WORTH A CLOSING NOTE: nothing should ever be scaled off a drawing.**\n\n> **Drawings are reproduced, reduced, photocopied and printed at whatever size a plotter is set to, and the scale is unreliable by the time the drawing reaches site.**\n\n> **Every dimension needed must be written on it — and a dimension that has been changed without redrawing must be marked NTS so that nobody measures it.**\n\nAs they will once tolerances are applied — leaving the workman uncertain which one to work to.",
@@ -3048,7 +3048,7 @@
       "marks": 1,
       "stem": "When the NET PRESENT VALUE and the INTERNAL RATE OF RETURN rank two mutually exclusive projects DIFFERENTLY, the criterion that should generally be preferred is:",
       "options": [
-        "NET PRESENT VALUE",
+        "Net present value",
         "IRR, because a percentage is easier to compare",
         "The simple payback period, as a tie-breaker",
         "Neither — the projects should both be rejected"
@@ -3083,7 +3083,7 @@
       "options": [
         "The machine can no longer be repaired",
         "The machine's market value falls to zero",
-        "The EQUIVALENT ANNUAL COST of owning and operating it is at a MINIMUM",
+        "The equivalent annual cost of owning and operating it is at a minimum",
         "The manufacturer's warranty expires"
       ],
       "answerIndex": 2,
@@ -3150,7 +3150,7 @@
         "A single unique structure with many interdependent activities",
         "Research and development projects with uncertain durations",
         "Projects with a large number of unrelated activities",
-        "REPETITIVE work — a row of identical houses, a pipeline, a road"
+        "Repetitive work — a row of identical houses, a pipeline, a road"
       ],
       "answerIndex": 3,
       "solution": "**REPETITIVE work** — identical houses, a pipeline, a road, or many identical floors — where the same sequence of activities is repeated in each unit or location.\n\n**How it works and why it suits repetition:**\n\n| Feature | Note |\n|---|---|\n| **The chart plots UNITS (or chainage) against TIME** ← | **Rather than activities against time as a bar chart does** ← |\n| **Each activity appears as a SLOPING LINE** ← | **Its slope is the activity's RATE of progress — units per week, or metres per day** ← |\n| **Parallel lines mean the crews are progressing at matched rates** ← | **Which is the objective** ← |\n| **CONVERGING lines mean one crew is catching up with the one ahead** ← | **And where they meet, the following crew is HELD UP — an interference** ← |\n| **The vertical gap between two lines is the BUFFER between the trades** | ← |\n\n> **THE SLOPE INTERPRETATION IS WHAT MAKES THE TECHNIQUE POWERFUL AND IT IS WHY A NETWORK DIAGRAM IS THE WRONG TOOL FOR THIS WORK:**\n\n> **A critical path network for 50 identical houses would contain 50 copies of every activity and thousands of dependencies — unreadable, and it would obscure the one thing that actually matters.**\n\n> **What matters in repetitive work is the RATE of each trade, and whether the rates are BALANCED.**\n\n> **The line of balance shows that at a glance: if the plasterers advance at 3 houses a week and the painters behind them at 2, the gap closes and the painters will be idle. Equalising the rates — by adjusting crew sizes — is the whole art of it, and it is the meaning of the word \"balance\".**\n\n**Why rate balancing matters so much:**\n\n| Consequence of unbalanced rates | Note |\n|---|---|\n| **A FASTER following trade catches up and then waits** ← | **Intermittent working, crews standing idle, and repeated demobilisation and remobilisation** ← |\n| **A SLOWER following trade falls behind indefinitely** ← | **Work in progress accumulates ahead of it, tying up capital and space** ← |\n| **BALANCED rates give continuous work for every crew** ← | **Which is the most efficient and the cheapest way to build repetitive work** ← |\n| **And the LEARNING CURVE reinforces it** ← | **A crew doing the same task 50 times gets faster; keeping them continuously employed on it captures that** ← |\n\n> **THE LEARNING CURVE IN THE LAST ROW IS A REAL AND SUBSTANTIAL EFFECT IN REPETITIVE CONSTRUCTION AND IT IS ONE OF THE STRONGEST ARGUMENTS FOR CONTINUOUS WORKING: a crew's productivity on the tenth identical unit may be 20 to 30 per cent better than on the first.**\n\n> **That gain is captured only if the crew works continuously on the repetition. A crew that does three units, is stood down for a fortnight, and returns loses much of what it had learned and much of its rhythm.**\n\n> **So continuity of work is worth more than its scheduling convenience suggests, and it is the principal reason for balancing the rates rather than merely sequencing the activities.**\n\n**The comparison with the other techniques:**\n\n| Technique | Best for |\n|---|---|\n| **BAR (Gantt) chart** | **Presentation and simple projects; it shows no dependencies** ← |\n| **CPM / precedence network** | **A UNIQUE structure with complex interdependence** ← (option a) |\n| **PERT** | **Uncertain durations — research and one-off development work** ← (option b) |\n| **LINE OF BALANCE** | **REPETITIVE work — this question** ← |\n| **TIME-CHAINAGE (time-location) diagram** ← | **The same idea applied to LINEAR work — roads, railways, tunnels, pipelines — where the vertical axis is chainage rather than unit number** ← |\n\n> **THE TIME-CHAINAGE DIAGRAM IN THE LAST ROW IS THE FORM MOST USEFUL FOR NEPALI ROAD AND PIPELINE PROJECTS, and it has one further advantage worth noting: because both axes are physical, it shows SPATIAL conflicts directly.**\n\n> **Two activities whose lines cross are two crews trying to occupy the same chainage at the same time — a clash that a bar chart cannot reveal at all, since a bar chart has no representation of location.**\n\n> **On a linear project where access is along the works itself, that spatial information is often more valuable than the dependency logic, and it is why time-chainage charts are standard for tunnels and highways despite being unfamiliar elsewhere.**\n\nA row of identical houses, a pipeline, a road, or many floors of the same building — where the same sequence of activities is repeated in each unit or location.",
@@ -3180,7 +3180,7 @@
       "marks": 1,
       "stem": "Under a BUILD-OPERATE-TRANSFER (BOT) arrangement for an infrastructure project, the private concessionaire:",
       "options": [
-        "FINANCES, builds and OPERATES the facility for a concession period, recovering its investment from the REVENUE the facility generates",
+        "Finances, builds and operates the facility for a concession period, recovering its investment from the revenue the facility generates",
         "Is paid by the government in instalments as construction proceeds",
         "Builds the facility and hands it over immediately on completion",
         "Only operates and maintains an existing government facility"
@@ -3215,7 +3215,7 @@
       "options": [
         "Immediate litigation in the courts, followed by arbitration if unsuccessful",
         "Arbitration first, then a reference to the Engineer",
-        "The ENGINEER's (or employer's representative's) DECISION",
+        "The engineer's (or employer's representative's) decision",
         "Mediation only, with no further recourse"
       ],
       "answerIndex": 2,
@@ -3247,7 +3247,7 @@
       "stem": "An engineer discovers that their employer has been issuing FALSIFIED concrete cube test certificates for work already built. The engineer's proper course is to:",
       "options": [
         "Say nothing, since the engineer did not falsify the certificates personally",
-        "Raise the matter internally in WRITING at the appropriate level and",
+        "Raise the matter internally in writing at the appropriate level and",
         "Correct the certificates quietly and continue",
         "Resign without explanation and take no further action"
       ],
@@ -3282,7 +3282,7 @@
         "Granted once and valid for life, requiring no further action",
         "Valid only while the engineer remains with the employer named at registration",
         "Required only for engineers working in government service",
-        "Granted for a defined PERIOD and must be RENEWED before it expires, on payment of the prescribed fee"
+        "Granted for a defined period and must be renewed before it expires, on payment of the prescribed fee"
       ],
       "answerIndex": 3,
       "solution": "**Granted for a defined period and must be RENEWED before it expires**, on payment of the prescribed fee — and an engineer whose registration has lapsed is not entitled to practise.\n\n**Why registration is time-limited rather than permanent:**\n\n| Reason | Note |\n|---|---|\n| **It keeps the REGISTER accurate and current** ← | **A permanent register accumulates the retired, the emigrated and the deceased, and becomes useless as a record of who is actually in practice** ← |\n| **It provides a point at which CONDUCT and standing can be reviewed** ← | **Renewal can be withheld** ← |\n| **It funds the Council's regulatory work** | **Registration and renewal fees are its principal income** ← |\n| **It provides a mechanism for requiring CONTINUING PROFESSIONAL DEVELOPMENT** ← | **Increasingly tied to renewal in many jurisdictions** ← |\n| **It confirms the registrant's current contact details and place of practice** | ← |\n\n> **THE CPD LINK IN THE FOURTH ROW IS THE MOST IMPORTANT DEVELOPMENT IN PROFESSIONAL REGULATION AND IT IS WORTH UNDERSTANDING THE ARGUMENT FOR IT:**\n\n> **An engineer registered on the strength of a degree obtained twenty-five years ago has been certified against the knowledge of a generation past.**\n\n> **In that time the codes have been revised, seismic design has been transformed, limit state design has displaced working stress, new materials and methods have arrived, and the profession's understanding of durability, safety and environmental obligation has changed substantially.**\n\n> **Competence is therefore not a permanent property conferred by an examination. It is a current state that must be maintained — which is exactly what the competence clause in the code of ethics implies, and which a once-for-life registration does not support.**\n\n> **Tying renewal to demonstrated continuing development converts the ethical obligation into a verifiable requirement, which is why regulators are moving that way.**\n\n**The consequences of practising while unregistered or lapsed:**\n\n| Consequence | Note |\n|---|---|\n| **It is an OFFENCE under the Act** ← | **Punishable by fine, and the Act provides for it explicitly** ← |\n| **Drawings and certificates signed while unregistered may be INVALID** ← | **Which can invalidate a building permit, and expose the client** ← |\n| **PROFESSIONAL INDEMNITY insurance is likely to be void** ← | **Insurers require the insured to be properly qualified and registered** ← |\n| **The Council has no jurisdiction to discipline an unregistered person** ← | **Which means the public has no recourse to it — the point made earlier about registration as an accountability mechanism** ← |\n\n> **THE INSURANCE POINT IN THE THIRD ROW IS THE ONE THAT MOST OFTEN BRINGS A LAPSE TO LIGHT, AND IT DOES SO AT THE WORST MOMENT: a lapse is usually inadvertent — a renewal notice missed, a fee not paid, an address not updated.**\n\n> **Nothing happens for years. Then a claim arises, the insurer examines the position, discovers the registration had lapsed at the relevant date, and declines the claim.**\n\n> **The engineer is then personally exposed to a liability that the insurance existed to cover, for want of a form and a fee.**\n\n> **Which makes keeping registration current a matter of self-protection quite as much as of compliance, and it is the reason renewal dates should be diarised rather than left to a notice arriving at an old address.**\n\n**And the wider point, on which this paper may fairly close:**\n\n| Element of the system | Purpose |\n|---|---|\n| **An accredited DEGREE** | **Establishes the foundation of knowledge** ← |\n| **The LICENSING EXAMINATION** ← | **Establishes that the knowledge is present and current at the point of entry — which is what this paper is for** ← |\n| **REGISTRATION** | **Brings the engineer within a system of accountability** ← |\n| **The CODE OF ETHICS and the disciplinary process** | **Defines and enforces the obligations** ← |\n| **RENEWAL and continuing development** ← | **Keeps the competence current over a working life** ← |\n\n> **EACH ELEMENT ADDRESSES A DIFFERENT MOMENT — entry, practice, and the whole span of a career — and none substitutes for another.**\n\n> **Their common purpose is the one stated at the outset: that when a member of the public relies on an engineer's judgement about something they cannot themselves assess, that reliance should be justified.**\n\n> **Everything in this syllabus serves that end, and the examination is only the first of the checks.**",
