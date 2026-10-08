@@ -61,10 +61,10 @@
       "marks": 1,
       "stem": "The function of a forebay in a hydropower scheme is to:",
       "options": [
-        "Dissipate the energy of the tailrace flow",
-        "Remove the dissolved load from the water",
+        "Dissipate the energy of the water leaving the draft tube into the tailrace",
+        "Remove the dissolved mineral load from the water before it reaches the runner",
         "Balance short-term fluctuations between the headrace supply and the turbine demand",
-        "Increase the gross head of the scheme"
+        "Increase the gross head of the scheme by raising the level of the headrace"
       ],
       "answerIndex": 2,
       "solution": "**Balance short-term fluctuations between the headrace supply and the turbine demand.** It holds a small volume so that a sudden increase in turbine demand is met at once while the headrace catches up.",
@@ -326,9 +326,9 @@
       "stem": "Whistle-blowing by an engineer is done to:",
       "options": [
         "Disclose a danger to the public that the employer will not address",
-        "Negotiate a better contract",
-        "Protect the employer's reputation",
-        "Delay a project lawfully"
+        "Strengthen the engineer’s position when negotiating a better contract",
+        "Protect the employer’s reputation by keeping a problem out of the press",
+        "Delay a project lawfully while a commercial dispute is being settled"
       ],
       "answerIndex": 0,
       "solution": "**Disclose a danger to the public that the employer will not address.** It is justified when there is serious, probable harm, when internal channels have failed, and when the engineer has good evidence.",
@@ -757,10 +757,10 @@
       "marks": 1,
       "stem": "In a waterlogged area, capillary rise:",
       "options": [
-        "Lowers the water table",
-        "Improves the soil structure",
+        "Lowers the water table by drawing water upward and out of the profile",
+        "Improves the structure of the soil by bringing fine particles to the surface",
         "Brings salts to the surface and leaves them there as the water evaporates",
-        "Increases the permeability of the soil"
+        "Increases the permeability of the soil by opening the pores as water moves"
       ],
       "answerIndex": 2,
       "solution": "**Brings salts to the surface and leaves them there as the water evaporates.** Water drawn up by capillarity evaporates at the surface and leaves its dissolved salts behind, so the land becomes saline as well as waterlogged.",
@@ -1141,10 +1141,10 @@
       "marks": 1,
       "stem": "Stoneware sewer pipes are jointed using:",
       "options": [
-        "Welding",
-        "Threaded couplings",
+        "A continuous fillet weld run around the circumference of the pipe",
+        "A screwed and threaded coupling tightened with a pipe wrench",
         "A cement mortar collar joint with a tarred gasket",
-        "Flanged bolted joints"
+        "A bolted flange with a rubber gasket between the two faces"
       ],
       "answerIndex": 2,
       "solution": "**A cement mortar collar joint with a tarred gasket.** The spigot is centred in the socket on a jute or tarred gasket and the remaining space filled with cement mortar.",
@@ -1261,10 +1261,10 @@
       "marks": 1,
       "stem": "In a reinforced concrete member, steel and concrete act together mainly because:",
       "options": [
-        "They have equal strength",
+        "They have equal strength, so neither fails before the other under load",
         "Their coefficients of thermal expansion are nearly equal and bond develops between them",
-        "They have the same modulus of elasticity",
-        "They have the same density"
+        "They have the same modulus of elasticity and therefore share stress equally",
+        "They have the same density, so the composite member has a uniform weight"
       ],
       "answerIndex": 1,
       "solution": "**Their coefficients of thermal expansion are nearly equal and bond develops between them.** Nearly equal thermal expansion (about 12 × 10⁻⁶ /°C) means temperature changes do not break the bond, and the bond makes them strain together.",
@@ -1333,10 +1333,10 @@
       "marks": 1,
       "stem": "On the stress-strain curve of mild steel, the point immediately after the ultimate stress is:",
       "options": [
-        "The breaking (rupture) point",
-        "The yield point",
-        "The elastic limit",
-        "The proportional limit"
+        "The breaking (rupture) point, reached after necking",
+        "The upper yield point, where the curve first becomes horizontal",
+        "The elastic limit, beyond which strain is no longer recoverable",
+        "The limit of proportionality, where the curve ceases to be straight"
       ],
       "answerIndex": 0,
       "solution": "**The breaking (rupture) point, reached after necking.** Past the ultimate stress the specimen necks, the true area falls rapidly, and the nominal stress declines until fracture.",
@@ -1718,9 +1718,9 @@
       "stem": "Alkalinity in natural water is chiefly due to:",
       "options": [
         "Bicarbonates, carbonates and hydroxides",
-        "Chlorides",
-        "Sulphates",
-        "Nitrates"
+        "Chlorides of sodium and potassium dissolved from the surrounding rock",
+        "Sulphates of calcium and magnesium leached out of gypsum deposits",
+        "Nitrates washed in from agricultural fertiliser applied on the catchment"
       ],
       "answerIndex": 0,
       "solution": "**Bicarbonates, carbonates and hydroxides.** These three ions give water its capacity to neutralise acid, and bicarbonate dominates at normal pH.",
@@ -1765,9 +1765,9 @@
       "marks": 1,
       "stem": "In the conventional activated sludge process, the returned sludge is about:",
       "options": [
-        "1-5%",
-        "100%",
-        "200%",
+        "1-5% of the incoming sewage flow, enough to seed the tank",
+        "100% of the incoming sewage flow, matching it litre for litre",
+        "200% of the incoming sewage flow, twice the volume being treated",
         "25-50% of the incoming sewage flow"
       ],
       "answerIndex": 3,
@@ -1813,10 +1813,10 @@
       "marks": 1,
       "stem": "The irrigation interval (frequency) is equal to:",
       "options": [
-        "The base period divided by the delta",
+        "The base period of the crop divided by the delta of water applied to it",
         "The net depth of water available in the root zone divided by the peak daily consumptive use",
-        "The delta multiplied by the duty",
-        "The duty divided by the base period"
+        "The delta of the crop multiplied by the duty of the water supplying it",
+        "The duty of the water divided by the base period of the crop grown"
       ],
       "answerIndex": 1,
       "solution": "**The net depth of water available in the root zone divided by the peak daily consumptive use.** The soil holds a certain depth of readily available water; dividing by the rate at which the crop uses it gives the days between waterings.",
@@ -2149,10 +2149,10 @@
       "marks": 1,
       "stem": "The exit head loss at a submerged outlet from a pipe into a large reservoir is:",
       "options": [
-        "0.5V²/2g",
-        "Zero",
-        "0.1V²/2g",
-        "V²/2g"
+        "0.5V²/2g — half the velocity head, as at a sharp-edged entrance",
+        "Zero, since the water simply joins the still water of the reservoir",
+        "0.1V²/2g — a small loss, as the jet spreads gradually into the body",
+        "V²/2g — the whole velocity head is lost"
       ],
       "answerIndex": 3,
       "solution": "**V²/2g — the whole velocity head is lost.** The jet dissipates in the still water of the reservoir, so all the kinetic energy it carried is lost.",
@@ -2269,10 +2269,10 @@
       "marks": 1,
       "stem": "In highway planning, the saturation system considers:",
       "options": [
-        "Only the construction cost",
-        "The utility of each road to the area it serves",
-        "Only the existing traffic volume",
-        "The number of bridges required"
+        "Only the cost of constructing each road, so the cheapest is built first",
+        "The utility of each road to the area it serves, scored by population and produce",
+        "Only the traffic already using the alignment before the road is improved",
+        "The number of major bridges and culverts each alignment would require"
       ],
       "answerIndex": 1,
       "solution": "**The utility of each road to the area it serves, scored by population and produce.** Each proposed road is scored by the population served and the agricultural and industrial produce carried, and the roads are built in order of merit.",
@@ -2293,10 +2293,10 @@
       "marks": 1,
       "stem": "A person may practise engineering in Nepal only after:",
       "options": [
-        "Graduating from any university",
-        "Joining a professional society",
+        "Graduating from any university recognised by the government of Nepal",
+        "Joining a professional society and paying its annual subscription",
         "Obtaining registration and a certificate from the Nepal Engineering Council",
-        "Completing five years in practice"
+        "Completing five years of practice under a registered senior engineer"
       ],
       "answerIndex": 2,
       "solution": "**Obtaining registration and a certificate from the Nepal Engineering Council.** The NEC Act makes registration a precondition of practice; a degree alone is not sufficient.",

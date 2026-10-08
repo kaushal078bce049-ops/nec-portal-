@@ -613,9 +613,9 @@
       "marks": 1,
       "stem": "Space is left at the top of a sewer pipe mainly to:",
       "options": [
-        "Reduce the cost of the pipe",
-        "Allow inspection from inside",
-        "Increase the velocity of flow",
+        "Reduce the cost of the pipe by using a smaller diameter than needed",
+        "Allow a person to enter and inspect the sewer from the inside",
+        "Increase the velocity of flow by narrowing the cross-section of flow",
         "Allow for peak and future flows and let foul gases escape"
       ],
       "answerIndex": 3,
@@ -853,9 +853,9 @@
       "marks": 1,
       "stem": "The function of a guide bund is to:",
       "options": [
-        "Raise the water level upstream",
-        "Trap bed load",
-        "Dissipate flood energy",
+        "Raise the water level upstream so the canal can draw its full supply",
+        "Trap the bed load before it reaches the intake and enters the canal",
+        "Dissipate the energy of the flood flow as it passes over the structure",
         "Confine the river to a defined width and lead it centrally through the works"
       ],
       "answerIndex": 3,
@@ -925,9 +925,9 @@
       "marks": 1,
       "stem": "The Registrar of the Nepal Engineering Council must be:",
       "options": [
-        "A civil servant of any background",
-        "A member of parliament",
-        "A university professor",
+        "A civil servant of any background appointed by the responsible ministry",
+        "A member of parliament nominated by the house for a fixed term",
+        "A university professor of engineering nominated by the universities",
         "A registered engineer with the prescribed qualification and experience"
       ],
       "answerIndex": 3,
@@ -1213,10 +1213,10 @@
       "marks": 1,
       "stem": "What distinguishes a profession from an occupation?",
       "options": [
-        "A higher salary",
-        "Working indoors",
+        "A higher salary than the one an ordinary occupation commands",
+        "Work carried out indoors rather than on a construction site",
         "Specialised knowledge, formal training and a code of conduct",
-        "Membership of a trade union"
+        "Compulsory membership of a trade union that negotiates on your behalf"
       ],
       "answerIndex": 2,
       "solution": "**Specialised knowledge, formal training and a code of conduct.** A profession rests on a body of specialised knowledge, a required qualification, a duty to the public and self-regulation through a code of conduct.",
@@ -1334,9 +1334,9 @@
       "stem": "The scour depth around a bridge pier is estimated using Lacey's formula, which is based on:",
       "options": [
         "The silt factor of the bed material and the discharge",
-        "The suspended load only",
-        "The pier shape only",
-        "The flood level only"
+        "The suspended sediment load carried past the pier during the flood",
+        "The shape of the pier nose and the angle at which the flow meets it",
+        "The highest flood level recorded at the site over the design period"
       ],
       "answerIndex": 0,
       "solution": "**The silt factor of the bed material and the discharge.** R = 0.47(Q/f)^(1/3), where f is the silt factor of the bed material — so the bed sediment and the discharge govern the regime scour depth.",
@@ -1741,10 +1741,10 @@
       "marks": 1,
       "stem": "A trench weir (Tyrolean intake) is especially suited to:",
       "options": [
-        "Wide plains rivers",
-        "Lakes",
+        "Wide rivers in the plains where the bed is flat and the flow is slow",
+        "Lakes and reservoirs where there is no current to carry sediment",
         "Steep mountain streams carrying heavy bed load",
-        "Tidal estuaries"
+        "Tidal estuaries where the direction of flow reverses twice a day"
       ],
       "answerIndex": 2,
       "solution": "**Steep mountain streams carrying heavy bed load.** Water drops through a screen laid in the stream bed while boulders and gravel pass over the top, which suits a steep boulder-bearing torrent.",
@@ -1790,9 +1790,9 @@
       "stem": "In a doubly reinforced beam, compression steel is provided when:",
       "options": [
         "The section cannot resist the moment as a singly reinforced section of that depth",
-        "The shear force is high",
-        "The span is short",
-        "The cover is inadequate"
+        "The shear force at the support exceeds what the stirrups can carry",
+        "The span is short enough for the beam to behave as a deep beam",
+        "The cover to the tension steel is inadequate for the exposure condition"
       ],
       "answerIndex": 0,
       "solution": "**The section cannot resist the moment as a singly reinforced section of that depth.** When the depth is restricted and the moment exceeds the limiting value, steel is added in the compression zone to make up the balance.",
@@ -2269,10 +2269,10 @@
       "marks": 1,
       "stem": "The penetration test on bitumen measures its:",
       "options": [
-        "Resistance to abrasion",
+        "Resistance to abrasion under the repeated passage of traffic",
         "Hardness or consistency at a standard temperature",
-        "Specific gravity",
-        "Flash point"
+        "Specific gravity relative to that of water at the same temperature",
+        "Flash point, the temperature at which its vapour ignites momentarily"
       ],
       "answerIndex": 1,
       "solution": "**Hardness or consistency at a standard temperature.** A standard needle under a 100 g load for 5 seconds at 25 °C penetrates the sample, and the depth in tenths of a millimetre is the penetration value.",
@@ -2293,10 +2293,10 @@
       "marks": 1,
       "stem": "A trickling filter treats sewage by:",
       "options": [
-        "Straining out solids mechanically",
-        "Chemical precipitation",
+        "Straining out the suspended solids mechanically through a fine medium",
+        "Precipitating the organic matter chemically with an added coagulant",
         "Passing it over a bed of media on which a biological film grows",
-        "Reverse osmosis"
+        "Forcing the sewage through a semi-permeable membrane under pressure"
       ],
       "answerIndex": 2,
       "solution": "**Passing it over a bed of media on which a biological film grows.** Despite its name it does not filter: the micro-organisms in the film oxidise the organic matter as the sewage trickles past.",
@@ -2318,9 +2318,9 @@
       "stem": "Differential settlement is more damaging than uniform settlement because it:",
       "options": [
         "Induces additional stresses and distortion in the structure",
-        "Is always larger in magnitude",
-        "Occurs more quickly",
-        "Affects only the foundation"
+        "Is always larger in magnitude than the total settlement of the building",
+        "Occurs far more quickly, leaving no time for the structure to adjust",
+        "Affects only the foundation and never reaches the superstructure above"
       ],
       "answerIndex": 0,
       "solution": "**Induces additional stresses and distortion in the structure.** A building that settles evenly simply moves down; one that settles unevenly is forced out of shape, which cracks walls and overstresses members.",

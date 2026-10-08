@@ -85,9 +85,9 @@
       "marks": 1,
       "stem": "In a cavity wall where both leaves are load-bearing, the effective thickness is taken as:",
       "options": [
-        "The sum of both leaves",
-        "The thinner leaf alone",
-        "Half the sum of both leaves",
+        "The sum of both leaves, as though the cavity between them were solid",
+        "The thinner of the two leaves alone, ignoring the stronger one entirely",
+        "Half the sum of both leaves, allowing for the width of the cavity",
         "The greater of the stronger leaf alone or two-thirds of the sum of both"
       ],
       "answerIndex": 3,
@@ -398,9 +398,9 @@
       "stem": "The safe bearing capacity is obtained from the net ultimate bearing capacity by:",
       "options": [
         "Dividing by the factor of safety and adding the overburden pressure",
-        "Multiplying by the factor of safety",
-        "Subtracting the overburden pressure",
-        "Dividing by the shape factor"
+        "Multiplying by the factor of safety and subtracting the overburden pressure",
+        "Subtracting the overburden pressure that acted before the footing was built",
+        "Dividing by the shape factor appropriate to the plan form of the footing"
       ],
       "answerIndex": 0,
       "solution": "**Dividing by the factor of safety and adding the overburden pressure.** The net ultimate value is reduced by the factor of safety, then the overburden the soil already carried is added back to give a gross safe pressure.",
@@ -1117,10 +1117,10 @@
       "marks": 1,
       "stem": "Curing of concrete should normally continue for at least:",
       "options": [
-        "1 day",
+        "1 day, after which the surface is firm enough to walk on",
         "7 days for ordinary Portland cement",
-        "28 days",
-        "3 days"
+        "28 days, the age at which the characteristic strength is measured",
+        "3 days, by which time the initial set is thoroughly complete"
       ],
       "answerIndex": 1,
       "solution": "**7 days for ordinary Portland cement.** Seven days of moist curing for OPC and ten to fourteen for blended cements; the strength at 28 days is the design figure, not the curing period.",
@@ -1189,10 +1189,10 @@
       "marks": 1,
       "stem": "Development length of a reinforcing bar is required to:",
       "options": [
-        "Allow for thermal expansion",
+        "Allow for the thermal expansion of the bar relative to the concrete",
         "Transfer the bar force to the surrounding concrete by bond",
-        "Provide cover to the bar",
-        "Resist shear at the support"
+        "Provide the nominal cover that protects the bar from corrosion",
+        "Resist the shear force that is greatest in the region of the support"
       ],
       "answerIndex": 1,
       "solution": "**Transfer the bar force to the surrounding concrete by bond.** Ld = φσs/(4τbd) — the length over which bond stress can develop the full design stress in the bar.",
@@ -1381,9 +1381,9 @@
       "marks": 1,
       "stem": "Breakpoint chlorination is the dose at which:",
       "options": [
-        "The chlorine demand is zero",
-        "Chlorine first contacts the water",
-        "Taste and odour are at a maximum",
+        "The chlorine demand of the water has fallen to zero and none is consumed",
+        "Chlorine first comes into contact with the water entering the plant",
+        "The taste and odour produced by chlorine reach their greatest intensity",
         "All ammonia has been oxidised and free residual chlorine begins to appear"
       ],
       "answerIndex": 3,
@@ -1550,9 +1550,9 @@
       "stem": "The depth of a tile drain below the ground surface is governed by:",
       "options": [
         "The depth of the root zone to be kept free of water",
-        "The height of the crop",
-        "The canal bed level",
-        "The rainfall intensity"
+        "The height to which the crop above it is expected to grow",
+        "The bed level of the nearest irrigation canal serving the field",
+        "The intensity of the design rainfall falling on the catchment"
       ],
       "answerIndex": 0,
       "solution": "**The depth of the root zone to be kept free of water.** The drain must hold the water table below the root zone, so its depth follows the crop's rooting depth and the required freeboard.",
@@ -1645,10 +1645,10 @@
       "marks": 1,
       "stem": "A run-of-river hydropower plant:",
       "options": [
-        "Stores water across seasons",
+        "Stores water across the seasons, holding the monsoon flow for the dry months",
         "Has little or no storage and depends on the river flow",
-        "Operates only at peak hours",
-        "Requires a high dam"
+        "Operates only during the evening peak and shuts down for the rest of the day",
+        "Requires a high dam to create the head under which its turbines operate"
       ],
       "answerIndex": 1,
       "solution": "**Has little or no storage and depends on the river flow.** Generation follows the hydrograph, so output falls in the dry season; pondage may give a few hours of daily regulation.",
@@ -1741,10 +1741,10 @@
       "marks": 1,
       "stem": "A surge tank is NOT required when:",
       "options": [
-        "The head is high",
-        "The discharge is large",
+        "The head on the plant is high, because the pipe is thick enough to resist it",
+        "The discharge is large, because the momentum is spread over a wide section",
         "The headrace is a short open channel or the penstock is very short",
-        "The plant operates at base load"
+        "The plant runs at base load, because the gates are never operated suddenly"
       ],
       "answerIndex": 2,
       "solution": "**The headrace is a short open channel or the penstock is very short.** Surge protection is needed when a long pressurised conduit must decelerate; a short penstock or a free-surface channel has nowhere to build a surge.",
@@ -2029,10 +2029,10 @@
       "marks": 1,
       "stem": "A contraction joint in a rigid pavement is provided to:",
       "options": [
-        "Allow the slab to expand",
+        "Allow the slab to expand freely in hot weather without buckling upwards",
         "Control cracking caused by shrinkage and temperature fall",
-        "Transfer load between lanes",
-        "Provide drainage"
+        "Transfer the wheel load from one lane to the next across the joint",
+        "Provide a path for surface water to drain away through the pavement"
       ],
       "answerIndex": 1,
       "solution": "**Control cracking caused by shrinkage and temperature fall.** A groove about a quarter of the slab depth creates a plane of weakness so the inevitable crack forms where it can be sealed.",
@@ -2125,10 +2125,10 @@
       "marks": 1,
       "stem": "The purpose of a bar bending schedule is to:",
       "options": [
-        "Show the architectural layout",
-        "Record concrete test results",
+        "Show the architectural layout of the rooms the member passes through",
+        "Record the results of the cube tests taken from each concrete pour",
         "List the shape, size, length and number of every reinforcing bar",
-        "Schedule the labour force"
+        "Set out the labour force required on site for each week of the works"
       ],
       "answerIndex": 2,
       "solution": "**List the shape, size, length and number of every reinforcing bar.** It lets the steel be cut and bent off site, gives an accurate quantity for ordering and payment, and prevents waste.",
@@ -2293,10 +2293,10 @@
       "marks": 1,
       "stem": "Conflict of interest arises when an engineer:",
       "options": [
-        "Disagrees with a colleague",
-        "Works on two projects at once",
+        "Disagrees with a colleague about the right solution to a technical problem",
+        "Works on two separate projects for two different clients at the same time",
         "Has a personal interest that could influence professional judgement",
-        "Changes employer"
+        "Changes employer and takes general professional experience to the new firm"
       ],
       "answerIndex": 2,
       "solution": "**Has a personal interest that could influence professional judgement.** The duty is to disclose the interest and withdraw from the decision; the conflict exists whether or not the judgement is actually affected.",
@@ -2365,10 +2365,10 @@
       "marks": 1,
       "stem": "The main consequence of a rising water table in an irrigated area is:",
       "options": [
-        "Increased soil strength",
-        "Lower salinity",
+        "Increased soil strength, because the saturated soil becomes denser",
+        "Lower salinity, because the extra water dilutes the salts in the profile",
         "Reduced aeration of the root zone and falling crop yield",
-        "Improved drainage"
+        "Improved drainage, because the higher water encourages lateral flow"
       ],
       "answerIndex": 2,
       "solution": "**Reduced aeration of the root zone and falling crop yield.** Roots need air as well as water; once the water table reaches the root zone the soil is saturated and the crop suffers.",
@@ -2389,9 +2389,9 @@
       "marks": 1,
       "stem": "In the third twenty-year road development plan, roads are classified by:",
       "options": [
-        "Pavement type alone",
-        "Width alone",
-        "Construction cost",
+        "The type of pavement alone, whether bituminous, concrete or gravel",
+        "The width of the carriageway alone, measured between the kerb lines",
+        "The cost of construction per kilometre at the time the road was built",
         "Function and the administrative authority responsible"
       ],
       "answerIndex": 3,

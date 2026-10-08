@@ -1402,9 +1402,9 @@
       "q": "The design discharge of the under-sluices should be:",
       "o": [
         "About double the canal discharge, and able to pass the winter flow",
-        "Equal to the canal discharge",
-        "About 1% of the flood discharge",
-        "Zero during floods"
+        "Equal to the canal discharge, so the two structures match in capacity",
+        "About 1% of the maximum flood discharge of the river at that site",
+        "Zero during floods, with the gates kept closed until the flood passes"
       ],
       "a": 0,
       "s": "Under-sluices are sized at roughly twice the canal discharge so they can scour the pocket, and they must carry the whole dry-weather flow.",

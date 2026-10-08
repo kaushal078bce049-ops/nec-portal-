@@ -42,9 +42,9 @@
       "q": "The function of a forebay in a hydropower scheme is to:",
       "o": [
         "Balance short-term fluctuations between the headrace supply and the turbine demand",
-        "Dissipate the energy of the tailrace flow",
-        "Remove the dissolved load from the water",
-        "Increase the gross head of the scheme"
+        "Dissipate the energy of the water leaving the draft tube into the tailrace",
+        "Remove the dissolved mineral load from the water before it reaches the runner",
+        "Increase the gross head of the scheme by raising the level of the headrace"
       ],
       "a": 0,
       "s": "It holds a small volume so that a sudden increase in turbine demand is met at once while the headrace catches up.",
@@ -218,9 +218,9 @@
       "q": "Whistle-blowing by an engineer is done to:",
       "o": [
         "Disclose a danger to the public that the employer will not address",
-        "Negotiate a better contract",
-        "Protect the employer's reputation",
-        "Delay a project lawfully"
+        "Strengthen the engineer’s position when negotiating a better contract",
+        "Protect the employer’s reputation by keeping a problem out of the press",
+        "Delay a project lawfully while a commercial dispute is being settled"
       ],
       "a": 0,
       "s": "It is justified when there is serious, probable harm, when internal channels have failed, and when the engineer has good evidence.",
@@ -506,9 +506,9 @@
       "q": "In a waterlogged area, capillary rise:",
       "o": [
         "Brings salts to the surface and leaves them there as the water evaporates",
-        "Lowers the water table",
-        "Improves the soil structure",
-        "Increases the permeability of the soil"
+        "Lowers the water table by drawing water upward and out of the profile",
+        "Improves the structure of the soil by bringing fine particles to the surface",
+        "Increases the permeability of the soil by opening the pores as water moves"
       ],
       "a": 0,
       "s": "Water drawn up by capillarity evaporates at the surface and leaves its dissolved salts behind, so the land becomes saline as well as waterlogged.",
@@ -762,9 +762,9 @@
       "q": "Stoneware sewer pipes are jointed using:",
       "o": [
         "A cement mortar collar joint with a tarred gasket",
-        "Welding",
-        "Threaded couplings",
-        "Flanged bolted joints"
+        "A continuous fillet weld run around the circumference of the pipe",
+        "A screwed and threaded coupling tightened with a pipe wrench",
+        "A bolted flange with a rubber gasket between the two faces"
       ],
       "a": 0,
       "s": "The spigot is centred in the socket on a jute or tarred gasket and the remaining space filled with cement mortar.",
@@ -842,9 +842,9 @@
       "q": "In a reinforced concrete member, steel and concrete act together mainly because:",
       "o": [
         "Their coefficients of thermal expansion are nearly equal and bond develops between them",
-        "They have equal strength",
-        "They have the same modulus of elasticity",
-        "They have the same density"
+        "They have equal strength, so neither fails before the other under load",
+        "They have the same modulus of elasticity and therefore share stress equally",
+        "They have the same density, so the composite member has a uniform weight"
       ],
       "a": 0,
       "s": "Nearly equal thermal expansion (about 12 × 10⁻⁶ /°C) means temperature changes do not break the bond, and the bond makes them strain together.",
@@ -890,9 +890,9 @@
       "q": "On the stress-strain curve of mild steel, the point immediately after the ultimate stress is:",
       "o": [
         "The breaking (rupture) point, reached after necking",
-        "The yield point",
-        "The elastic limit",
-        "The proportional limit"
+        "The upper yield point, where the curve first becomes horizontal",
+        "The elastic limit, beyond which strain is no longer recoverable",
+        "The limit of proportionality, where the curve ceases to be straight"
       ],
       "a": 0,
       "s": "Past the ultimate stress the specimen necks, the true area falls rapidly, and the nominal stress declines until fracture.",
@@ -1146,9 +1146,9 @@
       "q": "Alkalinity in natural water is chiefly due to:",
       "o": [
         "Bicarbonates, carbonates and hydroxides",
-        "Chlorides",
-        "Sulphates",
-        "Nitrates"
+        "Chlorides of sodium and potassium dissolved from the surrounding rock",
+        "Sulphates of calcium and magnesium leached out of gypsum deposits",
+        "Nitrates washed in from agricultural fertiliser applied on the catchment"
       ],
       "a": 0,
       "s": "These three ions give water its capacity to neutralise acid, and bicarbonate dominates at normal pH.",
@@ -1178,9 +1178,9 @@
       "q": "In the conventional activated sludge process, the returned sludge is about:",
       "o": [
         "25-50% of the incoming sewage flow",
-        "1-5%",
-        "100%",
-        "200%"
+        "1-5% of the incoming sewage flow, enough to seed the tank",
+        "100% of the incoming sewage flow, matching it litre for litre",
+        "200% of the incoming sewage flow, twice the volume being treated"
       ],
       "a": 0,
       "s": "Returning a quarter to a half of the flow maintains the mixed liquor suspended solids at the design concentration.",
@@ -1210,9 +1210,9 @@
       "q": "The irrigation interval (frequency) is equal to:",
       "o": [
         "The net depth of water available in the root zone divided by the peak daily consumptive use",
-        "The base period divided by the delta",
-        "The delta multiplied by the duty",
-        "The duty divided by the base period"
+        "The base period of the crop divided by the delta of water applied to it",
+        "The delta of the crop multiplied by the duty of the water supplying it",
+        "The duty of the water divided by the base period of the crop grown"
       ],
       "a": 0,
       "s": "The soil holds a certain depth of readily available water; dividing by the rate at which the crop uses it gives the days between waterings.",
@@ -1434,9 +1434,9 @@
       "q": "The exit head loss at a submerged outlet from a pipe into a large reservoir is:",
       "o": [
         "V²/2g — the whole velocity head is lost",
-        "0.5V²/2g",
-        "Zero",
-        "0.1V²/2g"
+        "0.5V²/2g — half the velocity head, as at a sharp-edged entrance",
+        "Zero, since the water simply joins the still water of the reservoir",
+        "0.1V²/2g — a small loss, as the jet spreads gradually into the body"
       ],
       "a": 0,
       "s": "The jet dissipates in the still water of the reservoir, so all the kinetic energy it carried is lost.",
@@ -1514,9 +1514,9 @@
       "q": "In highway planning, the saturation system considers:",
       "o": [
         "The utility of each road to the area it serves, scored by population and produce",
-        "Only the construction cost",
-        "Only the existing traffic volume",
-        "The number of bridges required"
+        "Only the cost of constructing each road, so the cheapest is built first",
+        "Only the traffic already using the alignment before the road is improved",
+        "The number of major bridges and culverts each alignment would require"
       ],
       "a": 0,
       "s": "Each proposed road is scored by the population served and the agricultural and industrial produce carried, and the roads are built in order of merit.",
@@ -1530,9 +1530,9 @@
       "q": "A person may practise engineering in Nepal only after:",
       "o": [
         "Obtaining registration and a certificate from the Nepal Engineering Council",
-        "Graduating from any university",
-        "Joining a professional society",
-        "Completing five years in practice"
+        "Graduating from any university recognised by the government of Nepal",
+        "Joining a professional society and paying its annual subscription",
+        "Completing five years of practice under a registered senior engineer"
       ],
       "a": 0,
       "s": "The NEC Act makes registration a precondition of practice; a degree alone is not sufficient.",

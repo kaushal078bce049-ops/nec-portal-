@@ -373,10 +373,10 @@
       "marks": 1,
       "stem": "The velocity of a pressure wave in water hammer depends mainly on:",
       "options": [
-        "The flow velocity only",
-        "The pipe length only",
+        "The velocity of the flow and the length of the pipeline alone",
+        "The time taken to close the valve and the operator who closes it",
         "The bulk modulus and density of the fluid and the pipe elasticity",
-        "The valve closure time only"
+        "The roughness of the pipe wall and the number of bends in the line"
       ],
       "answerIndex": 2,
       "solution": "**The bulk modulus and density of the fluid and the pipe elasticity.** C = √(K/ρ) for a rigid pipe, reduced when the pipe wall can stretch. For water in a rigid pipe this is about 1440 m/s.",
@@ -1213,10 +1213,10 @@
       "marks": 1,
       "stem": "The major difference between a weir and a barrage is that a barrage:",
       "options": [
-        "Is always built of masonry",
-        "Cannot pass floods",
+        "Is built of masonry while a weir is always built of concrete",
+        "Cannot pass a flood and must be bypassed during the monsoon",
         "Raises the water level mainly by gates rather than by a raised crest",
-        "Has no head regulator"
+        "Needs no head regulator because the canal draws directly from it"
       ],
       "answerIndex": 2,
       "solution": "**Raises the water level mainly by gates rather than by a raised crest.** A barrage has a low crest and large gates, so the level is controlled by gate operation; a weir raises the level with its crest and has little gated capacity.",

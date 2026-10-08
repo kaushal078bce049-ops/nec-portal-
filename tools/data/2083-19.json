@@ -410,9 +410,9 @@
       "q": "Space is left at the top of a sewer pipe mainly to:",
       "o": [
         "Allow for peak and future flows and let foul gases escape",
-        "Reduce the cost of the pipe",
-        "Allow inspection from inside",
-        "Increase the velocity of flow"
+        "Reduce the cost of the pipe by using a smaller diameter than needed",
+        "Allow a person to enter and inspect the sewer from the inside",
+        "Increase the velocity of flow by narrowing the cross-section of flow"
       ],
       "a": 0,
       "s": "Sewers are designed to run about three-quarters full at peak, leaving a free space for ventilation and for flows above the estimate.",
@@ -570,9 +570,9 @@
       "q": "The function of a guide bund is to:",
       "o": [
         "Confine the river to a defined width and lead it centrally through the works",
-        "Raise the water level upstream",
-        "Trap bed load",
-        "Dissipate flood energy"
+        "Raise the water level upstream so the canal can draw its full supply",
+        "Trap the bed load before it reaches the intake and enters the canal",
+        "Dissipate the energy of the flood flow as it passes over the structure"
       ],
       "a": 0,
       "s": "Guide bunds prevent the river outflanking the structure and keep the approach flow straight and central.",
@@ -618,9 +618,9 @@
       "q": "The Registrar of the Nepal Engineering Council must be:",
       "o": [
         "A registered engineer with the prescribed qualification and experience",
-        "A civil servant of any background",
-        "A member of parliament",
-        "A university professor"
+        "A civil servant of any background appointed by the responsible ministry",
+        "A member of parliament nominated by the house for a fixed term",
+        "A university professor of engineering nominated by the universities"
       ],
       "a": 0,
       "s": "The Act requires the Registrar to be an engineer registered with the Council and to hold the qualification and experience its regulations prescribe.",
@@ -810,9 +810,9 @@
       "q": "What distinguishes a profession from an occupation?",
       "o": [
         "Specialised knowledge, formal training and a code of conduct",
-        "A higher salary",
-        "Working indoors",
-        "Membership of a trade union"
+        "A higher salary than the one an ordinary occupation commands",
+        "Work carried out indoors rather than on a construction site",
+        "Compulsory membership of a trade union that negotiates on your behalf"
       ],
       "a": 0,
       "s": "A profession rests on a body of specialised knowledge, a required qualification, a duty to the public and self-regulation through a code of conduct.",
@@ -890,9 +890,9 @@
       "q": "The scour depth around a bridge pier is estimated using Lacey's formula, which is based on:",
       "o": [
         "The silt factor of the bed material and the discharge",
-        "The suspended load only",
-        "The pier shape only",
-        "The flood level only"
+        "The suspended sediment load carried past the pier during the flood",
+        "The shape of the pier nose and the angle at which the flow meets it",
+        "The highest flood level recorded at the site over the design period"
       ],
       "a": 0,
       "s": "R = 0.47(Q/f)^(1/3), where f is the silt factor of the bed material — so the bed sediment and the discharge govern the regime scour depth.",
@@ -1162,9 +1162,9 @@
       "q": "A trench weir (Tyrolean intake) is especially suited to:",
       "o": [
         "Steep mountain streams carrying heavy bed load",
-        "Wide plains rivers",
-        "Lakes",
-        "Tidal estuaries"
+        "Wide rivers in the plains where the bed is flat and the flow is slow",
+        "Lakes and reservoirs where there is no current to carry sediment",
+        "Tidal estuaries where the direction of flow reverses twice a day"
       ],
       "a": 0,
       "s": "Water drops through a screen laid in the stream bed while boulders and gravel pass over the top, which suits a steep boulder-bearing torrent.",
@@ -1194,9 +1194,9 @@
       "q": "In a doubly reinforced beam, compression steel is provided when:",
       "o": [
         "The section cannot resist the moment as a singly reinforced section of that depth",
-        "The shear force is high",
-        "The span is short",
-        "The cover is inadequate"
+        "The shear force at the support exceeds what the stirrups can carry",
+        "The span is short enough for the beam to behave as a deep beam",
+        "The cover to the tension steel is inadequate for the exposure condition"
       ],
       "a": 0,
       "s": "When the depth is restricted and the moment exceeds the limiting value, steel is added in the compression zone to make up the balance.",
@@ -1514,9 +1514,9 @@
       "q": "The penetration test on bitumen measures its:",
       "o": [
         "Hardness or consistency at a standard temperature",
-        "Resistance to abrasion",
-        "Specific gravity",
-        "Flash point"
+        "Resistance to abrasion under the repeated passage of traffic",
+        "Specific gravity relative to that of water at the same temperature",
+        "Flash point, the temperature at which its vapour ignites momentarily"
       ],
       "a": 0,
       "s": "A standard needle under a 100 g load for 5 seconds at 25 °C penetrates the sample, and the depth in tenths of a millimetre is the penetration value.",
@@ -1530,9 +1530,9 @@
       "q": "A trickling filter treats sewage by:",
       "o": [
         "Passing it over a bed of media on which a biological film grows",
-        "Straining out solids mechanically",
-        "Chemical precipitation",
-        "Reverse osmosis"
+        "Straining out the suspended solids mechanically through a fine medium",
+        "Precipitating the organic matter chemically with an added coagulant",
+        "Forcing the sewage through a semi-permeable membrane under pressure"
       ],
       "a": 0,
       "s": "Despite its name it does not filter: the micro-organisms in the film oxidise the organic matter as the sewage trickles past.",
@@ -1546,9 +1546,9 @@
       "q": "Differential settlement is more damaging than uniform settlement because it:",
       "o": [
         "Induces additional stresses and distortion in the structure",
-        "Is always larger in magnitude",
-        "Occurs more quickly",
-        "Affects only the foundation"
+        "Is always larger in magnitude than the total settlement of the building",
+        "Occurs far more quickly, leaving no time for the structure to adjust",
+        "Affects only the foundation and never reaches the superstructure above"
       ],
       "a": 0,
       "s": "A building that settles evenly simply moves down; one that settles unevenly is forced out of shape, which cracks walls and overstresses members.",
