@@ -128,7 +128,7 @@ health.
 | Model sets | 10 sets × 100 |
 | Quick revision | 413 cards |
 
-**3,520 questions**, every one with a worked solution and an exam tip. All free
+**4,220 questions**, every one with a worked solution and an exam tip. All free
 to anyone with an account.
 
 ---

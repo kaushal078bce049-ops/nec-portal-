@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s · NEC Civil License Portal',
   },
   description:
-    'Complete preparation portal for the Nepal Engineering Council civil engineering registration examination: official syllabus, chapterwise theory, 15 past paper sets, 12 model sets, daily capsule and quick revision — with worked solutions for every question.',
+    'Complete preparation portal for the Nepal Engineering Council civil engineering registration examination: official syllabus, chapterwise theory, 20 past paper sets, 12 model sets, daily capsule and quick revision — with worked solutions for every question.',
   applicationName: 'NEC Civil License Portal',
   keywords: [
     'NEC', 'Nepal Engineering Council', 'civil engineering', 'license examination',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     title: 'NEC Civil License Portal',
     description:
-      'Syllabus, chapterwise theory and questions, 15 past papers, 12 model sets, discussion forum, daily capsule and quick revision for the NEC civil engineering license examination.',
+      'Syllabus, chapterwise theory and questions, 20 past papers, 12 model sets, discussion forum, daily capsule and quick revision for the NEC civil engineering license examination.',
   },
   twitter: {
     card: 'summary_large_image',

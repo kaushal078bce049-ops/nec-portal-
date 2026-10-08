@@ -104,14 +104,14 @@ export async function sendConfirmationEmail(
     'Confirm your email — NEC Civil License Portal',
     `${greeting}\n\nConfirm your email address to finish creating your account:\n\n${link}\n\n`
     + 'The portal has the full NEC civil syllabus, theory for all 60 subchapters, '
-    + '15 past papers, 12 model sets and 3,720 questions with worked solutions.\n\n'
+    + '20 past papers, 12 model sets and 4,220 questions with worked solutions.\n\n'
     + 'If you did not create this account you can ignore this message.\n',
     wrap(
       'Confirm your email address',
       `<p style="margin:0 0 12px">${greeting}</p>
        <p style="margin:0 0 12px">One click and your account is ready.</p>
        <p style="margin:0;color:#475569;font-size:14px">Inside: the full NEC civil syllabus,
-       theory for all 60 subchapters, 15 past papers, 12 model sets, and 3,720 questions
+       theory for all 60 subchapters, 20 past papers, 12 model sets, and 4,220 questions
        with worked solutions.</p>`,
       { href: link, label: 'Confirm my email' },
     ),

@@ -173,7 +173,7 @@ parts B and C do, with buttons.
 ## D — Set up the database (Supabase)
 
 Supabase provides accounts, the forum, saved progress and the admin area.
-Everything else — syllabus, theory, all 3,520 questions, the exam interface —
+Everything else — syllabus, theory, all 4,220 questions, the exam interface —
 works without it.
 
 ### D1. Create the project

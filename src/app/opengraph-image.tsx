@@ -62,7 +62,7 @@ export default async function OpengraphImage() {
 
         <div style={{ display: 'flex', gap: 46, color: '#8ea0bb', fontSize: 27 }}>
           <div style={{ display: 'flex' }}>10 chapters · 60 subchapters</div>
-          <div style={{ display: 'flex' }}>15 past papers · 12 model sets</div>
+          <div style={{ display: 'flex' }}>20 past papers · 12 model sets</div>
           <div style={{ display: 'flex' }}>3,500+ solved questions</div>
         </div>
       </div>
