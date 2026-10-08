@@ -378,7 +378,7 @@
   {
     "id": "QR-ACiE06-048",
     "chapter": "ACiE06",
-    "fact": "The rate of filtration in rapid sand filtration is 3000 to 6000 l /hr/m 2.",
+    "fact": "The rate of filtration in rapid sand filtration is 3000 to 6000 l /hr/m².",
     "verification": {
       "status": "verified"
     }
@@ -394,7 +394,7 @@
   {
     "id": "QR-ACiE06-050",
     "chapter": "ACiE06",
-    "fact": "Surface overflow rate (SOR) of plain sedimentation tank is 12000 to 18000 lit/day/m 2.",
+    "fact": "Surface overflow rate (SOR) of plain sedimentation tank is 12000 to 18000 lit/day/m².",
     "verification": {
       "status": "verified"
     }

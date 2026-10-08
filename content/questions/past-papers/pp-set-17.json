@@ -1,0 +1,2410 @@
+{
+  "slug": "pp-set-17",
+  "kind": "past_paper",
+  "title": "NEC Past Paper - Set 17 (2083 Asoj 18, 2nd shift)",
+  "examDate": "2083 Asoj 18 BS (2nd shift)",
+  "tier": "free",
+  "order": 17,
+  "questions": [
+    {
+      "id": "PP17-Q001",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0102",
+      "marks": 1,
+      "stem": "The initial setting time of ordinary Portland cement is:",
+      "options": [
+        "30 minutes",
+        "45 minutes",
+        "10 minutes",
+        "600 minutes"
+      ],
+      "answerIndex": 0,
+      "solution": "**30 minutes.** IS 269 requires at least 30 minutes before initial set, so there is time to mix, transport and place the concrete.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "45 minutes is the initial setting time quoted for some blended cements, and 600 minutes is the final set for OPC.",
+        "trick": "Initial is a floor, final is a ceiling.",
+        "mnemonic": "30 in, 600 out."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q002",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0104",
+      "marks": 1,
+      "stem": "The polar moment of inertia of a hollow circular section of outer diameter D and inner diameter d is:",
+      "options": [
+        "π(D⁴ − d⁴)/64",
+        "π(D⁴ − d⁴)/32",
+        "π(D⁴ − d⁴)/16",
+        "π(D³ − d³)/32"
+      ],
+      "answerIndex": 1,
+      "solution": "**π(D⁴ − d⁴)/32.** The polar value J is twice the diametral value I, so π(D⁴ − d⁴)/64 becomes π(D⁴ − d⁴)/32.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "/64 is the *diametral* moment of inertia and is the better-remembered of the two.",
+        "trick": "J = Ixx + Iyy = 2I for a circle, so the denominator halves.",
+        "mnemonic": "64 about a diameter, 32 about the pole."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q003",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0105",
+      "marks": 1,
+      "stem": "The arithmetic check for the rise and fall method of levelling is:",
+      "options": [
+        "ΣBS − ΣFS = last RL + first RL",
+        "ΣBS + ΣFS = Σrise + Σfall",
+        "ΣBS − ΣFS = Σrise − Σfall = last RL − first RL",
+        "ΣBS − ΣFS = Σrise + Σfall"
+      ],
+      "answerIndex": 2,
+      "solution": "**ΣBS − ΣFS = Σrise − Σfall = last RL − first RL.** All three quantities must give the same number; any disagreement means an arithmetic error in the booking.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Adding the sights instead of subtracting them gives a plausible-looking identity that checks nothing.",
+        "trick": "Every term in the check is a *difference*, so every sign is a minus.",
+        "mnemonic": "Back minus fore, rise minus fall, last minus first."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q004",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0106",
+      "marks": 1,
+      "stem": "In the long wall-short wall method, the length of the long wall is the centre-line length plus:",
+      "options": [
+        "The full breadth at each end",
+        "One quarter of the breadth at each end",
+        "Nothing — it equals the centre line",
+        "Half the breadth at each end"
+      ],
+      "answerIndex": 3,
+      "solution": "**Half the breadth at each end.** The long wall runs out to the outer face at both ends, so half a breadth is added at each end; the short wall correspondingly loses half a breadth at each end.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Adding the full breadth double-counts the corner, which is exactly what this method exists to avoid.",
+        "trick": "What the long wall gains, the short wall loses — the corner is counted once.",
+        "mnemonic": "Long adds half, short deducts half."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q005",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0102",
+      "marks": 1,
+      "stem": "The maximum percentage of magnesia permitted in ordinary Portland cement is:",
+      "options": [
+        "2%",
+        "6%",
+        "4%",
+        "10%"
+      ],
+      "answerIndex": 1,
+      "solution": "**6%.** IS 269 limits magnesia (MgO) to 6%. In excess it hydrates long after setting and causes unsoundness.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Lime, silica and alumina are present in much larger proportions, which makes the small limits easy to mix up.",
+        "trick": "The two unsoundness limits are magnesia 6% and sulphur trioxide about 3%.",
+        "mnemonic": "Magnesia six, SO₃ three."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q006",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0201",
+      "marks": 1,
+      "stem": "The shrinkage limit of a soil is the water content at which:",
+      "options": [
+        "The soil starts to behave as a liquid",
+        "The soil changes from plastic to semi-solid",
+        "Further loss of water causes no further reduction in volume",
+        "The soil has zero shear strength"
+      ],
+      "answerIndex": 2,
+      "solution": "**Further loss of water causes no further reduction in volume.** Below the shrinkage limit the voids no longer close as water leaves, so the volume stays constant while the soil keeps drying.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The plastic limit is the plastic-to-semi-solid boundary and is the neighbouring Atterberg limit.",
+        "trick": "It is the only limit defined by volume rather than by consistency.",
+        "mnemonic": "Shrinking stops at the shrinkage limit."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q007",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0202",
+      "marks": 1,
+      "stem": "Which of the following is NOT affected by a change in effective stress?",
+      "options": [
+        "Compressibility",
+        "Shear strength",
+        "Permeability",
+        "Particle density"
+      ],
+      "answerIndex": 3,
+      "solution": "**Particle density.** Effective stress rearranges the grains — changing void ratio and therefore strength, compressibility and permeability. The density of the mineral grains themselves does not change.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Density\" suggests the bulk density of the soil, which certainly does change; the question says particle density.",
+        "trick": "Effective stress acts between grains; it cannot alter what a grain is made of.",
+        "mnemonic": "Grains rearrange, grains do not change."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q008",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0205",
+      "marks": 1,
+      "stem": "For a site of clay with low bearing capacity, the most suitable foundation is a:",
+      "options": [
+        "Pile foundation",
+        "Isolated footing",
+        "Mat foundation",
+        "Strap footing"
+      ],
+      "answerIndex": 0,
+      "solution": "**Pile foundation.** Piles carry the load through the weak clay to a firmer stratum below, or develop it in skin friction over a long length.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A mat also suits weak soil by spreading the load, and is right when the weak layer is deep and uniform — piles are the general answer when capacity is low.",
+        "trick": "Weak soil: spread the load (raft) or go past it (piles). The weaker it is, the more you must go past it.",
+        "mnemonic": "Low capacity, go deep."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q009",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0402",
+      "marks": 1,
+      "stem": "The plane carrying the maximum shear stress makes what angle with the principal planes?",
+      "options": [
+        "30°",
+        "60°",
+        "45°",
+        "90°"
+      ],
+      "answerIndex": 2,
+      "solution": "**45°.** The maximum shear points lie 90° from the principal points on Mohr's circle, which is 45° in the material.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "90° is the angle measured on the circle and is offered to catch anyone who forgets the factor of two.",
+        "trick": "Angles on Mohr's circle are double the real ones.",
+        "mnemonic": "Halve whatever the circle tells you."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q010",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0203",
+      "marks": 1,
+      "stem": "The unsupported height of a vertical cut in clay is given by:",
+      "options": [
+        "2c/γ",
+        "c/γ",
+        "8c/γ",
+        "4c/γ"
+      ],
+      "answerIndex": 3,
+      "solution": "**4c/γ.** The critical height Hc = 4c/γ for a pure clay with φ = 0; the tension crack accounts for half of it.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "2c/γ is the depth of the tension crack alone — exactly half the critical height, and the commonest wrong answer.",
+        "trick": "Tension crack 2c/γ, unsupported cut twice that.",
+        "mnemonic": "Crack at 2, collapse at 4."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q011",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0304",
+      "marks": 1,
+      "stem": "The head loss due to sudden expansion in a pipe is:",
+      "options": [
+        "(V1 − V2)²/2g",
+        "(V1 + V2)²/2g",
+        "V1²/2g",
+        "(V2 − V1)²/g"
+      ],
+      "answerIndex": 0,
+      "solution": "**(V1 − V2)²/2g.** Applying momentum and energy across the expansion leaves the loss as the velocity head of the *difference* in velocities.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Writing the sum instead of the difference gives a loss even when nothing changes, which cannot be right.",
+        "trick": "If V1 = V2 there is no expansion and the loss must vanish — only the difference form does that.",
+        "mnemonic": "Loss on the difference, squared."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q012",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0301",
+      "marks": 1,
+      "stem": "When a shear stress is applied to a fluid, the fluid undergoes:",
+      "options": [
+        "A finite deformation",
+        "Continuous deformation",
+        "No deformation",
+        "Elastic recovery"
+      ],
+      "answerIndex": 1,
+      "solution": "**Continuous deformation.** That is the definition of a fluid: it cannot sustain a shear stress at rest and keeps deforming for as long as the stress is applied.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A solid gives a finite deformation and then stops, which is the picture most candidates carry from strength of materials.",
+        "trick": "Ask whether it ever stops moving — a solid does, a fluid does not.",
+        "mnemonic": "Fluids flow, and keep flowing."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q013",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0305",
+      "marks": 1,
+      "stem": "If the sequent depth ratio in a hydraulic jump is 5, the jump formed is:",
+      "options": [
+        "A weak jump",
+        "An oscillating jump",
+        "A strong jump",
+        "A steady jump"
+      ],
+      "answerIndex": 3,
+      "solution": "**A steady jump.** A ratio of about 5 corresponds to a Froude number of roughly 4.5-9, which is the steady jump — well-defined and the best energy dissipator.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Strong\" sounds like the most vigorous and so the one with the largest ratio; strong jumps need Fr above about 9.",
+        "trick": "Steady is the design jump — stilling basins aim at it.",
+        "mnemonic": "Undular, weak, oscillating, steady, strong."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q014",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0304",
+      "marks": 1,
+      "stem": "The power of a centrifugal pump is directly proportional to:",
+      "options": [
+        "D⁵",
+        "D³",
+        "D²",
+        "D"
+      ],
+      "answerIndex": 0,
+      "solution": "**D⁵.** By the affinity laws head varies as D² and discharge as D³, so power — their product — varies as D⁵ at constant speed.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "D³ is the discharge relation and is the most quoted of the affinity laws.",
+        "trick": "Multiply the head law by the discharge law to get the power law.",
+        "mnemonic": "Q∝D³, H∝D², P∝D⁵."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q015",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0303",
+      "marks": 1,
+      "stem": "Flow in a uniformly tapering pipe carrying a constant discharge is:",
+      "options": [
+        "Steady and uniform",
+        "Steady and non-uniform",
+        "Unsteady and uniform",
+        "Unsteady and non-uniform"
+      ],
+      "answerIndex": 1,
+      "solution": "**Steady and non-uniform.** Constant discharge makes it steady in time; the changing cross-section makes the velocity change along the pipe, so it is non-uniform in space.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Constant discharge\" suggests uniform flow, but uniformity is about position, not time.",
+        "trick": "Steady = no change with time. Uniform = no change with distance.",
+        "mnemonic": "Time steady, space uniform."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q016",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0304",
+      "marks": 1,
+      "stem": "The velocity of a pressure wave in water hammer depends mainly on:",
+      "options": [
+        "The flow velocity only",
+        "The pipe length only",
+        "The bulk modulus and density of the fluid and the pipe elasticity",
+        "The valve closure time only"
+      ],
+      "answerIndex": 2,
+      "solution": "**The bulk modulus and density of the fluid and the pipe elasticity.** C = √(K/ρ) for a rigid pipe, reduced when the pipe wall can stretch. For water in a rigid pipe this is about 1440 m/s.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Valve closure time decides whether the closure is rapid or slow, and so the *pressure rise* — but not the wave speed.",
+        "trick": "Wave speed is a property of the medium, not of what you do to it.",
+        "mnemonic": "Wave speed C = √(K/ρ), about 1440 m/s in water."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q017",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0701",
+      "marks": 1,
+      "stem": "With a water application efficiency of 80% and a conveyance loss of 20%, the water required at the outlet to store 5 cm at the root zone is:",
+      "options": [
+        "7.81 cm",
+        "6.25 cm",
+        "6.00 cm",
+        "5.00 cm"
+      ],
+      "answerIndex": 0,
+      "solution": "**7.81 cm.** Divide by both efficiencies in turn: 5/0.8 = 6.25 cm at the field, then 6.25/0.8 = 7.81 cm at the outlet (a 20% conveyance loss leaves 80%).",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "6.25 cm applies only the application efficiency — the single most common half-finished answer.",
+        "trick": "Work backwards from the root zone, dividing once for each loss.",
+        "mnemonic": "Two losses, two divisions."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q018",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0503",
+      "marks": 1,
+      "stem": "Compared with a balanced section, the depth of the neutral axis in an under-reinforced section is:",
+      "options": [
+        "Greater",
+        "Less",
+        "Equal",
+        "Zero"
+      ],
+      "answerIndex": 1,
+      "solution": "**Less.** With less steel, less compression is needed to balance the tension, so the neutral axis rises. The steel yields before the concrete crushes, which gives a ductile warning.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Over-reinforced sections have a *deeper* neutral axis, and the two cases are easily swapped.",
+        "trick": "Less steel → less compressive force needed → smaller compression block.",
+        "mnemonic": "Under-reinforced, under the balanced depth."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q019",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0401",
+      "marks": 1,
+      "stem": "A simply supported beam has equal overhangs carrying equal point loads at both ends. The bending moment between the supports is:",
+      "options": [
+        "Zero throughout",
+        "Maximum at mid-span",
+        "Constant and non-zero",
+        "Varying uniformly"
+      ],
+      "answerIndex": 2,
+      "solution": "**Constant and non-zero.** Between the supports there is no shear, and a zero shear force means a constant bending moment — the classic pure-bending arrangement.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Maximum at mid-span\" is true for almost every other loading, so it is the habitual answer.",
+        "trick": "dM/dx = V; zero shear means the moment cannot change.",
+        "mnemonic": "No shear, no change in moment."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q020",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0406",
+      "marks": 1,
+      "stem": "The deflection at the centre of a simply supported beam carrying a central point load P is:",
+      "options": [
+        "PL³/192EI",
+        "5PL³/384EI",
+        "PL³/3EI",
+        "PL³/48EI"
+      ],
+      "answerIndex": 3,
+      "solution": "**PL³/48EI.** The standard case: PL³/48EI, the largest of the simply supported deflections for a given load.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "PL³/192EI is the same load on a *fixed* beam — four times stiffer.",
+        "trick": "Simple 48, fixed 192 — a factor of four for the fixity.",
+        "mnemonic": "Point load simple: 48."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q021",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0402",
+      "marks": 1,
+      "stem": "The strain energy stored in a cantilever of length L carrying a point load P at its free end, due to bending alone, is:",
+      "options": [
+        "P²L³/4EI",
+        "P²L³/6EI",
+        "P²L³/8EI",
+        "P²L³/24EI"
+      ],
+      "answerIndex": 1,
+      "solution": "**P²L³/6EI.** U = ∫M²dx/2EI with M = Px gives P²L³/6EI.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "All four options share P²L³/EI and differ only in the denominator, so the integration must actually be done.",
+        "trick": "Integrating x² over the length brings the 3 in the denominator, and 2EI brings the other factor of 2.",
+        "mnemonic": "Cantilever point load: six."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q022",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0404",
+      "marks": 1,
+      "stem": "A three-hinged arch is:",
+      "options": [
+        "Statically indeterminate to degree one",
+        "Statically indeterminate to degree two",
+        "Statically determinate",
+        "A mechanism"
+      ],
+      "answerIndex": 2,
+      "solution": "**Statically determinate.** Four reaction components with three equations of equilibrium plus the condition that the moment at the crown hinge is zero — four equations, four unknowns.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A two-hinged arch is indeterminate to degree one, and the two are constantly swapped.",
+        "trick": "Each extra hinge removes one redundancy; three hinges make it determinate.",
+        "mnemonic": "Three hinges, three equations plus one."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q023",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0503",
+      "marks": 1,
+      "stem": "Shear reinforcement in a beam is provided to resist:",
+      "options": [
+        "Vertical flexural cracks at mid-span",
+        "Shrinkage cracks on the top surface",
+        "Cracks caused by corrosion of the main steel",
+        "Inclined (diagonal tension) cracks starting near the supports"
+      ],
+      "answerIndex": 3,
+      "solution": "**Inclined (diagonal tension) cracks starting near the supports.** Shear is greatest at the supports, where the principal tension acts at about 45° and opens a diagonal crack. Stirrups cross that crack.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Vertical cracks at mid-span are flexural and are resisted by the main longitudinal steel.",
+        "trick": "Shear is maximum where the moment is minimum — at the supports.",
+        "mnemonic": "Diagonal crack, diagonal tension, stirrups."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q024",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0402",
+      "marks": 1,
+      "stem": "The maximum energy a material can absorb without undergoing permanent deformation is called:",
+      "options": [
+        "Proof resilience",
+        "Modulus of resilience",
+        "Toughness",
+        "Proof stress"
+      ],
+      "answerIndex": 0,
+      "solution": "**Proof resilience.** Proof resilience is the strain energy stored up to the elastic limit. Divided by the volume it becomes the modulus of resilience.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The modulus of resilience is the same quantity *per unit volume* — a true statement about a different quantity.",
+        "trick": "Proof resilience is total; modulus of resilience is per volume.",
+        "mnemonic": "Proof = whole body, modulus = per unit."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q025",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0403",
+      "marks": 1,
+      "stem": "Which of the following can be obtained directly from the flexure equation M/I = σ/y = E/R?",
+      "options": [
+        "The depth of the neutral axis",
+        "The shear stress distribution",
+        "The bending stress at any depth",
+        "The deflection at mid-span"
+      ],
+      "answerIndex": 2,
+      "solution": "**The bending stress at any depth.** Given M, I and y the equation returns σ at once. The neutral axis position is needed *before* I can be computed, and shear and deflection need other relations.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Depth of neutral axis\" is tempting because the equation is written about that axis — but it is an input, not an output.",
+        "trick": "Ask what each symbol in the equation already assumes you know.",
+        "mnemonic": "Flexure gives stress, not shear and not deflection."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q026",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0406",
+      "marks": 1,
+      "stem": "In moment distribution, the distribution factor for a member at a joint is:",
+      "options": [
+        "The moment in that member divided by the total applied moment",
+        "The length of that member divided by the total length",
+        "The inertia of that member divided by the total inertia",
+        "The stiffness of that member divided by the total stiffness at the joint"
+      ],
+      "answerIndex": 3,
+      "solution": "**The stiffness of that member divided by the total stiffness at the joint.** The unbalanced moment is shared in proportion to stiffness k = I/L, so DF = k/Σk.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Moment carried divided by total moment\" is the *result* of applying the factor, offered as if it were the definition.",
+        "trick": "The factor must be computable before any moment is known.",
+        "mnemonic": "Distribution factor = k/Σk, stiffness over total stiffness."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q027",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0502",
+      "marks": 1,
+      "stem": "The grade of concrete generally used for a damp-proof course at plinth level is:",
+      "options": [
+        "M15",
+        "M5",
+        "M10",
+        "M30"
+      ],
+      "answerIndex": 0,
+      "solution": "**M15.** A 1:2:4 (M15) mix, usually 75 mm thick with a waterproofing compound, is the standard DPC at plinth level.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "M20 is the minimum for reinforced work, which makes it the reflex answer for any concrete question.",
+        "trick": "A DPC is plain concrete, so the grade is below the RCC minimum.",
+        "mnemonic": "DPC = M15, 1:2:4."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q028",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0505",
+      "marks": 1,
+      "stem": "The Indian Standard code for general construction in steel is:",
+      "options": [
+        "IS 456",
+        "IS 800",
+        "IS 875",
+        "IS 1893"
+      ],
+      "answerIndex": 1,
+      "solution": "**IS 800.** IS 800 is the code of practice for general construction in steel; IS 456 is for plain and reinforced concrete.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "IS 875 and IS 1893 are also steel-relevant — they give the loads, not the design of the steelwork.",
+        "trick": "800 for steel, 456 for concrete, 875 for loads, 1893 for earthquake.",
+        "mnemonic": "IS 800 steel, IS 456 concrete, IS 875 loads."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q029",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0501",
+      "marks": 1,
+      "stem": "The Indian Standard code that gives dead loads on buildings is:",
+      "options": [
+        "IS 875 Part 2",
+        "IS 875 Part 3",
+        "IS 456",
+        "IS 875 Part 1"
+      ],
+      "answerIndex": 3,
+      "solution": "**IS 875 Part 1.** IS 875 is in five parts: Part 1 dead loads, Part 2 imposed loads, Part 3 wind, Part 4 snow and Part 5 combinations.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Part 2 (imposed loads) is used far more often in design and is the one most candidates recall.",
+        "trick": "The parts run in the order the loads are applied: dead first.",
+        "mnemonic": "1 dead, 2 live, 3 wind, 4 snow, 5 combine."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q030",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0102",
+      "marks": 1,
+      "stem": "The consistency of cement is determined by:",
+      "options": [
+        "The Vicat apparatus",
+        "The Le Chatelier apparatus",
+        "The Blaine air permeability apparatus",
+        "The compression testing machine"
+      ],
+      "answerIndex": 0,
+      "solution": "**The Vicat apparatus.** The Vicat apparatus with a 10 mm plunger gives the standard consistency; the same apparatus with different needles gives the setting times.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Le Chatelier is also a cement test — for soundness, not consistency.",
+        "trick": "Vicat does consistency and both setting times; Le Chatelier does soundness.",
+        "mnemonic": "Vicat for the needle tests."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q031",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0505",
+      "marks": 1,
+      "stem": "A high-strength friction-grip bolt is designed primarily for:",
+      "options": [
+        "Shear",
+        "Friction",
+        "Bearing",
+        "Tension in the plate"
+      ],
+      "answerIndex": 1,
+      "solution": "**Friction.** Pre-tensioning clamps the plies together and the load is carried by friction at the faying surfaces before the bolt shank is ever engaged.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Ordinary bolts are designed for shear and bearing, and that calculation is the one practised most.",
+        "trick": "The name states the mechanism.",
+        "mnemonic": "Friction grip grips by friction."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q032",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0403",
+      "marks": 1,
+      "stem": "Euler's buckling load for a column with both ends hinged is:",
+      "options": [
+        "2π²EI/L²",
+        "4π²EI/L²",
+        "π²EI/L²",
+        "π²EI/4L²"
+      ],
+      "answerIndex": 2,
+      "solution": "**π²EI/L².** The effective length equals the actual length for pinned ends, so the formula takes its basic form.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "4π²EI/L² is the both-ends-fixed case, four times stronger.",
+        "trick": "Hinged-hinged is the reference case with multiplier 1.",
+        "mnemonic": "Both hinged: plain π²EI/L²."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q033",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0602",
+      "marks": 1,
+      "stem": "Which distribution system suits a town that has grown outwards from a central point?",
+      "options": [
+        "Radial system",
+        "Dead end system",
+        "Grid iron system",
+        "Ring system"
+      ],
+      "answerIndex": 0,
+      "solution": "**Radial system.** The town is divided into zones, each with a central tank from which mains radiate outwards — fast, high-pressure delivery with simple calculation.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The ring system also suits a well-planned town; it surrounds rather than radiates.",
+        "trick": "Radial means from the centre outwards, like spokes.",
+        "mnemonic": "Centre out = radial."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q034",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0604",
+      "marks": 1,
+      "stem": "Compared with a conservancy system, the water carriage system needs:",
+      "options": [
+        "Less initial cost",
+        "A much larger quantity of water",
+        "More manual handling",
+        "Less underground space"
+      ],
+      "answerIndex": 1,
+      "solution": "**A much larger quantity of water.** Sewage is carried away in flowing water, so a large and dependable supply is essential; that is why the system fails where water is scarce.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "It does reduce manual handling and that is its main advantage — the question asks what it *needs*, not what it gives.",
+        "trick": "Water carriage carries waste with water, so water is the requirement.",
+        "mnemonic": "Carriage by water needs water."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q035",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0604",
+      "marks": 1,
+      "stem": "Manhole covers are normally made of:",
+      "options": [
+        "Mild steel",
+        "Aluminium",
+        "Cast iron",
+        "Timber"
+      ],
+      "answerIndex": 2,
+      "solution": "**Cast iron.** Cast iron resists the corrosive sewer atmosphere and carries wheel loads in compression, where it is strong.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Mild steel is stronger in tension and is the general structural choice, but it corrodes quickly over a sewer.",
+        "trick": "The cover sits in a wet, corrosive, compression-only duty — exactly cast iron's niche.",
+        "mnemonic": "Sewers eat steel; cast iron survives."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q036",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0601",
+      "marks": 1,
+      "stem": "The saturation dissolved oxygen content of water at standard conditions is about:",
+      "options": [
+        "5.00 mg/l",
+        "14.6 mg/l",
+        "4.00 mg/l",
+        "9.08 mg/l"
+      ],
+      "answerIndex": 3,
+      "solution": "**9.08 mg/l.** At 20 °C and one atmosphere, water holds about 9.08 mg/l of dissolved oxygen; the value falls as temperature rises.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "14.6 mg/l is the saturation value at 0 °C and 4 mg/l is the minimum needed to keep fish alive.",
+        "trick": "Cold water holds more oxygen — 14.6 at freezing, about 9 at room temperature.",
+        "mnemonic": "20 °C → 9.08 mg/l."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q037",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0601",
+      "marks": 1,
+      "stem": "The permissible concentration of arsenic in drinking water in Nepal is:",
+      "options": [
+        "0.01 mg/l",
+        "0.05 mg/l",
+        "0.1 mg/l",
+        "1.0 mg/l"
+      ],
+      "answerIndex": 1,
+      "solution": "**0.05 mg/l.** The Nepal National Drinking Water Quality Standard sets arsenic at 0.05 mg/l; the WHO guideline is the stricter 0.01 mg/l.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "0.01 mg/l is quoted by almost every international text, and it is the WHO figure rather than the Nepali one.",
+        "trick": "Nepal's standard is five times the WHO guideline for arsenic.",
+        "mnemonic": "Nepal 0.05, WHO 0.01."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q038",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0603",
+      "marks": 1,
+      "stem": "The rate of filtration in a rapid sand filter is about:",
+      "options": [
+        "0.1-0.2 m³/m²/hour",
+        "30-60 m³/m²/hour",
+        "3-6 m³/m²/hour",
+        "0.5-1 m³/m²/hour"
+      ],
+      "answerIndex": 2,
+      "solution": "**3-6 m³/m²/hour.** Rapid sand filters operate at roughly 3-6 cubic metres per square metre per hour, some thirty times the slow sand filter rate.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "0.1-0.2 m³/m²/hour is the slow sand filter rate, and the two rates are the classic pairing.",
+        "trick": "Rapid is about thirty times slow.",
+        "mnemonic": "Slow 0.1, rapid 5."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q039",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0702",
+      "marks": 1,
+      "stem": "A canal drop is provided when:",
+      "options": [
+        "The ground slope is flatter than the canal bed slope",
+        "The two slopes are equal",
+        "The canal crosses a drainage line",
+        "The ground slope is steeper than the designed canal bed slope"
+      ],
+      "answerIndex": 3,
+      "solution": "**The ground slope is steeper than the designed canal bed slope.** Steeper ground means surplus height to be lost; it is taken out in a vertical drop rather than in continuous steep (and scouring) canal slope.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A canal crossing a drainage line calls for an aqueduct or a super-passage, not a drop.",
+        "trick": "Surplus fall must be shed somewhere.",
+        "mnemonic": "Ground steeper than canal → drop."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q040",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0906",
+      "marks": 1,
+      "stem": "When lateral sub-surface drainage is provided in one direction only and longitudinal drains collect the water, the road also requires:",
+      "options": [
+        "Intercepting drains",
+        "A wider carriageway",
+        "Additional superelevation",
+        "A thicker wearing course"
+      ],
+      "answerIndex": 0,
+      "solution": "**Intercepting drains.** An intercepting drain cuts off the seepage arriving from the uphill side before it reaches the pavement structure.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Extra surface drainage sounds like the complementary measure, but the problem described is sub-surface flow.",
+        "trick": "Water coming from one side must be intercepted on that side.",
+        "mnemonic": "Cut it off before it arrives."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q041",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0605",
+      "marks": 1,
+      "stem": "The usual depth of a facultative oxidation (stabilisation) pond is:",
+      "options": [
+        "0.3-0.5 m",
+        "3-4 m",
+        "1.0-1.5 m",
+        "6-8 m"
+      ],
+      "answerIndex": 2,
+      "solution": "**1.0-1.5 m.** About a metre to a metre and a half keeps the upper layer aerobic through algal photosynthesis while the bottom stays anaerobic.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A deeper pond would store more, but light would not reach far enough to keep the top aerobic.",
+        "trick": "The depth is set by how far sunlight penetrates.",
+        "mnemonic": "Facultative pond: about 1.5 m."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q042",
+      "chapter": "AALL10",
+      "subchapter": "AALL1004",
+      "marks": 1,
+      "stem": "A risk that arises outside the project but can significantly affect its scope is called:",
+      "options": [
+        "Financial risk",
+        "Operational risk",
+        "Strategic risk",
+        "Contextual risk"
+      ],
+      "answerIndex": 3,
+      "solution": "**Contextual risk.** Contextual (external) risk comes from the political, legal, social or environmental setting and is outside the project's control.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Strategic risk is also \"big picture\" but concerns the organisation's own choices rather than its surroundings.",
+        "trick": "Context = the world around the project.",
+        "mnemonic": "Contextual = comes from outside."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q043",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0606",
+      "marks": 1,
+      "stem": "The first step in the environmental impact assessment process in Nepal is:",
+      "options": [
+        "Scoping",
+        "Preparing the terms of reference",
+        "The public hearing",
+        "Preparing the EIA report"
+      ],
+      "answerIndex": 0,
+      "solution": "**Scoping.** Scoping identifies the significant issues to be studied; the terms of reference are then written from the scoping document and approved.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The terms of reference are approved first by the ministry, so they feel like the beginning — but they are drafted from the scoping result.",
+        "trick": "You cannot write terms of reference until you know what is in scope.",
+        "mnemonic": "Scope it, then ToR it."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q044",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0602",
+      "marks": 1,
+      "stem": "The distribution main of a water supply system is designed for:",
+      "options": [
+        "The average daily demand",
+        "The maximum hourly demand",
+        "The maximum daily demand",
+        "The annual average demand"
+      ],
+      "answerIndex": 1,
+      "solution": "**The maximum hourly demand.** Distribution mains must cope with the peak hour; the pumping main and treatment works are sized on the maximum daily demand.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Maximum daily demand is the design figure for almost every other component, so it is the habitual answer.",
+        "trick": "The nearer to the tap, the shorter the peak that matters.",
+        "mnemonic": "Mains for the hour, works for the day."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q045",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0101",
+      "marks": 1,
+      "stem": "Which of the following is an organic insulating material?",
+      "options": [
+        "Asbestos",
+        "Glass wool",
+        "Mineral wool",
+        "Wood pulp"
+      ],
+      "answerIndex": 3,
+      "solution": "**Wood pulp.** Wood pulp comes from a living source and so is organic; asbestos, glass wool and mineral wool are all mineral in origin.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "All four insulate well, so the question turns entirely on the word \"organic\".",
+        "trick": "Organic means it once grew.",
+        "mnemonic": "If it grew, it is organic."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q046",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0603",
+      "marks": 1,
+      "stem": "The chemical formula of bleaching powder is:",
+      "options": [
+        "CaOCl₂",
+        "Ca(OH)₂",
+        "CaCl₂",
+        "NaOCl"
+      ],
+      "answerIndex": 0,
+      "solution": "**CaOCl₂.** Calcium oxychloride, CaOCl₂, carries about 30-35% available chlorine when fresh.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "CaCl₂ differs by a single oxygen and is a completely different compound with no disinfecting power.",
+        "trick": "Bleaching needs oxygen and chlorine together.",
+        "mnemonic": "Ca-O-Cl₂: the O is the whole point."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q047",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0203",
+      "marks": 1,
+      "stem": "The sensitivity of a clay is:",
+      "options": [
+        "Remoulded strength divided by undisturbed strength",
+        "Undisturbed strength divided by remoulded strength",
+        "The difference between the two strengths",
+        "Strength divided by water content"
+      ],
+      "answerIndex": 1,
+      "solution": "**Undisturbed strength divided by remoulded strength.** Remoulding destroys the structure, so the undisturbed strength is the larger; sensitivity is therefore at least 1.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Inverting the ratio gives a number less than one, which no sensitivity classification uses.",
+        "trick": "Sensitivity must be ≥ 1, so the bigger strength goes on top.",
+        "mnemonic": "Undisturbed over remoulded."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q048",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0702",
+      "marks": 1,
+      "stem": "Which canal is preferred when the cultivable command area lies on one side only?",
+      "options": [
+        "Ridge canal",
+        "Watershed canal",
+        "Contour canal",
+        "Side slope canal"
+      ],
+      "answerIndex": 2,
+      "solution": "**Contour canal.** A contour canal runs along a contour with the land falling away on one side, so it can irrigate on that side only.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A ridge (watershed) canal runs along the ridge line and commands land on *both* sides — the opposite case.",
+        "trick": "On a ridge you can irrigate both ways; on a hillside only downhill.",
+        "mnemonic": "Ridge = both sides, contour = one side."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q049",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0705",
+      "marks": 1,
+      "stem": "The structure provided to discharge surplus water out of a canal is a:",
+      "options": [
+        "Canal escape",
+        "Canal inlet",
+        "Cross regulator",
+        "Canal outlet"
+      ],
+      "answerIndex": 0,
+      "solution": "**Canal escape.** An escape disposes of excess water into a natural drain, protecting the canal banks from overtopping.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A canal inlet does exactly the reverse — it admits drainage water into the canal.",
+        "trick": "Escape lets water escape.",
+        "mnemonic": "Escape out, inlet in."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q050",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0206",
+      "marks": 1,
+      "stem": "Which statement about bearing capacity theories is correct?",
+      "options": [
+        "Terzaghi's theory is applicable to deep foundations",
+        "Meyerhof's theory is applicable to deep foundations",
+        "Skempton's theory applies to cohesionless soil",
+        "Terzaghi's theory ignores the depth of the footing"
+      ],
+      "answerIndex": 1,
+      "solution": "**Meyerhof's theory is applicable to deep foundations.** Meyerhof extended bearing capacity analysis to deep foundations by including the shear strength of the soil above the base. Terzaghi's theory is for shallow footings and Skempton's for saturated clay.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Terzaghi is the best-known name, so it is attached to whatever the question asks about.",
+        "trick": "Terzaghi shallow, Meyerhof deep, Skempton clay.",
+        "mnemonic": "Meyerhof goes deeper."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q051",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0703",
+      "marks": 1,
+      "stem": "The major difference between a weir and a barrage is that a barrage:",
+      "options": [
+        "Is always built of masonry",
+        "Cannot pass floods",
+        "Raises the water level mainly by gates rather than by a raised crest",
+        "Has no head regulator"
+      ],
+      "answerIndex": 2,
+      "solution": "**Raises the water level mainly by gates rather than by a raised crest.** A barrage has a low crest and large gates, so the level is controlled by gate operation; a weir raises the level with its crest and has little gated capacity.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Both structures divert water and both have head regulators, so the distinction must be found in how the afflux is created.",
+        "trick": "Gates mean control; a crest means no control.",
+        "mnemonic": "Barrage = gates, weir = crest."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q052",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0703",
+      "marks": 1,
+      "stem": "In a weir founded on a pervious foundation, the uplift pressure is a maximum at the:",
+      "options": [
+        "Downstream end of the floor",
+        "Centre of the floor",
+        "Junction of the pile and the concrete base",
+        "Upstream end of the floor"
+      ],
+      "answerIndex": 3,
+      "solution": "**Upstream end of the floor.** Seepage enters upstream at full head and loses head as it travels, so the residual uplift is greatest where it enters.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The exit gradient is critical at the *downstream* end, which makes that end feel like the dangerous one — it is, for piping, not for uplift.",
+        "trick": "Uplift follows the head, and the head is highest where the seepage starts.",
+        "mnemonic": "Uplift upstream, piping downstream."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q053",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0704",
+      "marks": 1,
+      "stem": "Which of the following is NOT a river training structure?",
+      "options": [
+        "Launching apron",
+        "Contour bund",
+        "Spur",
+        "Guide bund"
+      ],
+      "answerIndex": 1,
+      "solution": "**Contour bund.** A contour bund is a soil conservation measure on agricultural land. Spurs, guide bunds and launching aprons all train a river.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A contour bund is an earthwork that controls water, so it belongs to the same general family — just not to rivers.",
+        "trick": "Ask whether it is built in or beside a river channel.",
+        "mnemonic": "Contour bund farms, the rest train rivers."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q054",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0704",
+      "marks": 1,
+      "stem": "An impermeable spur:",
+      "options": [
+        "Allows flow through it to reduce velocity",
+        "Is built of loose boulders only",
+        "Attracts, repels or deflects the current to control erosion",
+        "Is used only for navigation"
+      ],
+      "answerIndex": 2,
+      "solution": "**Attracts, repels or deflects the current to control erosion.** A solid (impermeable) spur deflects the current away from the bank; depending on its orientation it is classed as attracting, repelling or deflecting.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Allowing flow through to reduce velocity is what a *permeable* spur does — the exact opposite construction.",
+        "trick": "Impermeable means the water must go round it.",
+        "mnemonic": "Solid deflects, permeable slows."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q055",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0801",
+      "marks": 1,
+      "stem": "Pharping (1911) was Nepal's first hydropower plant. Sundarijal followed after about:",
+      "options": [
+        "20 years",
+        "25 years",
+        "28 years",
+        "22 years"
+      ],
+      "answerIndex": 3,
+      "solution": "**22 years.** Sundarijal was commissioned in 1934, twenty-two years after Pharping.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The round number 20 is the natural guess and is offered immediately beside the correct one.",
+        "trick": "1911 and 1934 — subtract rather than estimate.",
+        "mnemonic": "Pharping 1911, Sundarijal 1934."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q056",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0803",
+      "marks": 1,
+      "stem": "The recommended top width of a low earthen dam of height H is:",
+      "options": [
+        "0.2H + 3 m",
+        "0.1H + 3 m",
+        "0.5H + 3 m",
+        "H/3"
+      ],
+      "answerIndex": 0,
+      "solution": "**0.2H + 3 m.** The empirical rule gives a top width of 0.2H + 3 metres, with a practical minimum for access of about 3 m.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The other coefficients produce reasonable-looking widths for a typical height, so the formula must actually be remembered.",
+        "trick": "Even at zero height the rule leaves 3 m — the width of a vehicle track.",
+        "mnemonic": "One-fifth of the height, plus three."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q057",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0803",
+      "marks": 1,
+      "stem": "The live storage of a reservoir is the volume between:",
+      "options": [
+        "The maximum and the minimum pool levels",
+        "The minimum pool level and the bed level",
+        "The minimum pool level and the full reservoir level",
+        "The full reservoir level and the maximum water level"
+      ],
+      "answerIndex": 2,
+      "solution": "**The minimum pool level and the full reservoir level.** Live (useful) storage lies between the lowest level from which water can be drawn and full reservoir level. Below the minimum pool level is dead storage.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Between full reservoir level and maximum water level is the *surcharge* storage, used only during floods.",
+        "trick": "Dead below, live in the middle, surcharge on top.",
+        "mnemonic": "Live storage is what you can actually use."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q058",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0803",
+      "marks": 1,
+      "stem": "Which type of earthen embankment dam is suited to an impervious foundation?",
+      "options": [
+        "Diaphragm dam",
+        "Zoned dam",
+        "Rock-fill dam",
+        "Homogeneous dam"
+      ],
+      "answerIndex": 3,
+      "solution": "**Homogeneous dam.** If the foundation itself stops seepage, a single material throughout is sufficient and cheapest; zoned and diaphragm sections exist to control seepage.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A zoned dam with a clay core looks like the \"best\" dam, so it is picked when the question is really about economy.",
+        "trick": "If the ground is already impervious, there is nothing for a core to do.",
+        "mnemonic": "Tight foundation, simple dam."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q059",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0902",
+      "marks": 1,
+      "stem": "When the reduced level increases along the length of a road, the gradient is:",
+      "options": [
+        "A rising (positive) gradient",
+        "A falling gradient",
+        "A level gradient",
+        "A ruling gradient"
+      ],
+      "answerIndex": 0,
+      "solution": "**A rising (positive) gradient.** An increase in reduced level means the road is climbing, which is a rising or positive gradient.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Ruling gradient\" is a design limit rather than a direction, and is the best-known term in the chapter.",
+        "trick": "Reduced level is height, so rising level means rising road.",
+        "mnemonic": "RL up = gradient up."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q060",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0902",
+      "marks": 1,
+      "stem": "The angle measured where two gradients meet at a vertical intersection is the:",
+      "options": [
+        "Deflection angle",
+        "Deviation angle",
+        "Angle of repose",
+        "Angle of friction"
+      ],
+      "answerIndex": 1,
+      "solution": "**Deviation angle.** The deviation angle is the algebraic difference between the two grades and governs the length of the vertical curve.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The deflection angle is the equivalent quantity in *horizontal* curves, and the two are routinely swapped.",
+        "trick": "Deflection turns left or right; deviation goes up or down.",
+        "mnemonic": "Deviation for vertical, deflection for horizontal."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q061",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0905",
+      "marks": 1,
+      "stem": "As recommended by the Department of Roads, the CBR value for a design traffic above 20 million ESAL is taken at the:",
+      "options": [
+        "85th percentile",
+        "90th percentile",
+        "50th percentile",
+        "98th percentile"
+      ],
+      "answerIndex": 3,
+      "solution": "**98th percentile.** Heavier traffic demands a more conservative subgrade value, so the 98th percentile is used above 20 msa.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The 90th percentile applies to intermediate traffic and the 85th to light traffic, so all three appear credible.",
+        "trick": "The heavier the traffic, the higher the percentile.",
+        "mnemonic": "More traffic, more caution."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q062",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0903",
+      "marks": 1,
+      "stem": "The impact value of a road aggregate is determined by:",
+      "options": [
+        "The aggregate impact test",
+        "The Los Angeles abrasion test",
+        "The crushing value test",
+        "The soundness test"
+      ],
+      "answerIndex": 0,
+      "solution": "**The aggregate impact test.** A 13.5 kg hammer is dropped fifteen times through 380 mm, and the impact value is the percentage of fines produced.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The Los Angeles abrasion test also measures toughness, but by abrasion in a rotating drum rather than by impact.",
+        "trick": "Impact value comes from the impact test — the resistance measured is to sudden shock.",
+        "mnemonic": "Hammer blows = impact value."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q063",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0904",
+      "marks": 1,
+      "stem": "The number of vehicles passing a section of road per unit time is called the traffic:",
+      "options": [
+        "Capacity",
+        "Volume",
+        "Basic capacity",
+        "Density"
+      ],
+      "answerIndex": 1,
+      "solution": "**Volume.** Volume is the count actually observed; capacity is the maximum the road could carry under given conditions.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Capacity is also expressed in vehicles per hour, so the units do not distinguish them.",
+        "trick": "Volume is what happens, capacity is what could happen.",
+        "mnemonic": "Count it and it is volume."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q064",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0905",
+      "marks": 1,
+      "stem": "Tie bars in a rigid pavement are provided:",
+      "options": [
+        "Across transverse joints to transfer load",
+        "At the pavement edge to prevent settlement",
+        "Across longitudinal joints to hold the slabs together",
+        "Under the slab to resist uplift"
+      ],
+      "answerIndex": 2,
+      "solution": "**Across longitudinal joints to hold the slabs together.** Tie bars are deformed bars that hold adjacent lanes in contact across a longitudinal joint. They are not designed to transfer wheel load.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Dowel bars do the load transfer, at transverse joints, and are plain and greased so they can slide.",
+        "trick": "Tie bars tie; dowel bars transfer.",
+        "mnemonic": "Tie = longitudinal, dowel = transverse."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q065",
+      "chapter": "AALL10",
+      "subchapter": "AALL1001",
+      "marks": 1,
+      "stem": "Isometric projection is a type of:",
+      "options": [
+        "Axonometric projection",
+        "Oblique projection",
+        "Perspective projection",
+        "Orthographic elevation"
+      ],
+      "answerIndex": 0,
+      "solution": "**Axonometric projection.** Axonometric projection covers isometric, dimetric and trimetric, in which the object is rotated so that three faces show in one view.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Oblique projection also shows three faces, but it keeps one face true and projects the depth at an angle.",
+        "trick": "Isometric is the special axonometric case where all three axes are equally foreshortened.",
+        "mnemonic": "Iso = equal, and it is axonometric."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q066",
+      "chapter": "AALL10",
+      "subchapter": "AALL1006",
+      "marks": 1,
+      "stem": "The Nepal Engineering Council Act was enacted in:",
+      "options": [
+        "2050 BS",
+        "2055 BS",
+        "2057 BS",
+        "2063 BS"
+      ],
+      "answerIndex": 1,
+      "solution": "**2055 BS.** The NEC Act 2055 established the Council to register engineers and regulate the profession.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "2056 is the year of the NEC Regulation, made under the Act, so the two dates sit one apart.",
+        "trick": "Act 2055, Regulation 2056.",
+        "mnemonic": "Act first, rules the year after."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q067",
+      "chapter": "AALL10",
+      "subchapter": "AALL1003",
+      "marks": 1,
+      "stem": "In resource smoothing, the binding constraint is:",
+      "options": [
+        "The quantity of resources available",
+        "The project cost",
+        "The project completion time",
+        "The number of activities"
+      ],
+      "answerIndex": 2,
+      "solution": "**The project completion time.** Smoothing keeps the completion date fixed and uses float to even out the resource histogram. Levelling does the reverse — it fixes the resource limit and lets the duration stretch.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Resource levelling is the better-known technique and has exactly the opposite constraint.",
+        "trick": "Smoothing smooths within the time you have.",
+        "mnemonic": "Smooth the resources, keep the date."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q068",
+      "chapter": "AALL10",
+      "subchapter": "AALL1004",
+      "marks": 1,
+      "stem": "In procurement, QCBS stands for:",
+      "options": [
+        "Quality Control Bid System",
+        "Quantity and Cost Based Selection",
+        "Qualified Contractor Bidding System",
+        "Quality and Cost Based Selection"
+      ],
+      "answerIndex": 3,
+      "solution": "**Quality and Cost Based Selection.** QCBS scores technical quality and price together, usually weighting quality around 80% for consultancy services.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Quantity\" differs from \"quality\" by two letters and reads plausibly in a procurement context.",
+        "trick": "The method balances how good against how much.",
+        "mnemonic": "Quality and Cost, together."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q069",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0603",
+      "marks": 1,
+      "stem": "The primary force responsible for the settling of particles in a sedimentation tank is:",
+      "options": [
+        "Centrifugal force",
+        "Gravitational force",
+        "Buoyant force",
+        "Electrostatic force"
+      ],
+      "answerIndex": 1,
+      "solution": "**Gravitational force.** Particles settle because they are denser than water; Stokes' law balances the gravitational force against drag and buoyancy.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Buoyancy and drag both act, but they *oppose* settling — gravity is what drives it.",
+        "trick": "Remove gravity and nothing settles.",
+        "mnemonic": "Plain sedimentation = plain gravity."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q070",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0302",
+      "marks": 1,
+      "stem": "An object weighs 5 kN in air and 2 kN when immersed in water. The upthrust is:",
+      "options": [
+        "2 kN",
+        "5 kN",
+        "3 kN",
+        "7 kN"
+      ],
+      "answerIndex": 2,
+      "solution": "**3 kN.** The apparent loss of weight is the buoyant force: 5 − 2 = 3 kN, equal to the weight of water displaced.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "2 kN is the weight *in* water, and is what the question hands you rather than what it asks for.",
+        "trick": "Upthrust is always the difference between the two weights.",
+        "mnemonic": "Loss of weight is the upthrust."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q071",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0103",
+      "marks": 1,
+      "stem": "The band of concrete provided below a window frame in a masonry building is called a:",
+      "options": [
+        "Lintel band",
+        "Plinth band",
+        "Roof band",
+        "Sill band"
+      ],
+      "answerIndex": 3,
+      "solution": "**Sill band.** The sill band runs at window sill level and controls the cracking that starts at the lower corners of openings in an earthquake.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The lintel band is the better-known of the two and sits directly *above* the opening.",
+        "trick": "Sill below, lintel above.",
+        "mnemonic": "Sill is the sill."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q072",
+      "chapter": "AALL10",
+      "subchapter": "AALL1005",
+      "marks": 1,
+      "stem": "Which of the following is a negative impact of technology on society?",
+      "options": [
+        "Environmental degradation",
+        "Acquisition of new skills",
+        "Improved communication",
+        "Higher productivity"
+      ],
+      "answerIndex": 0,
+      "solution": "**Environmental degradation.** Technological development consumes resources and produces waste and emissions; the other three are benefits.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Replacement of labour by machines is also offered in some versions and is genuinely double-edged; environmental damage is unambiguously negative.",
+        "trick": "Pick the one nobody would list as a benefit.",
+        "mnemonic": "Technology costs the environment."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q073",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0204",
+      "marks": 1,
+      "stem": "Grouting can be used to stabilise all of the following EXCEPT:",
+      "options": [
+        "Fissured rock",
+        "Loose sand",
+        "Stable, hard rock",
+        "Gravel deposits"
+      ],
+      "answerIndex": 2,
+      "solution": "**Stable, hard rock.** Grout fills voids, fissures and pores. Sound rock has none to fill, so there is nothing for the grout to do.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Rock appears twice in the options, once sound and once fissured, and only one of them needs treating.",
+        "trick": "No voids, no grouting.",
+        "mnemonic": "Grout fills gaps; hard rock has none."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q074",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0104",
+      "marks": 1,
+      "stem": "The centre of gravity of a solid sphere lies at a distance from every point on its surface of:",
+      "options": [
+        "D/3",
+        "D/4",
+        "2D/3",
+        "D/2"
+      ],
+      "answerIndex": 3,
+      "solution": "**D/2.** The centre of gravity is at the geometric centre, which is one radius — that is, D/2 — from every surface point.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "3R/8 is the centre of gravity of a *hemisphere* and is the figure drilled in most revision notes.",
+        "trick": "A full sphere is symmetrical, so its centroid can only be at the centre.",
+        "mnemonic": "Sphere: centre is the centre."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q075",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0801",
+      "marks": 1,
+      "stem": "The Kulekhani storage hydropower project was constructed with assistance from:",
+      "options": [
+        "Japan",
+        "India",
+        "China",
+        "Norway"
+      ],
+      "answerIndex": 0,
+      "solution": "**Japan.** Kulekhani I and II were built with Japanese assistance together with the World Bank and other partners.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "India and China have financed many Nepali schemes, which makes both plausible for any such question.",
+        "trick": "Kulekhani is the Japanese-assisted storage project.",
+        "mnemonic": "Kulekhani — Japan."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q076",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0703",
+      "marks": 1,
+      "stem": "Which of the following is NOT a component of a diversion headworks?",
+      "options": [
+        "Head regulator",
+        "Aqueduct",
+        "Divide wall",
+        "Fish ladder"
+      ],
+      "answerIndex": 1,
+      "solution": "**Aqueduct.** An aqueduct is a cross-drainage work that carries a canal over a natural drain, well away from the headworks.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "All four are irrigation structures, so the question turns on where each one stands.",
+        "trick": "The headworks sits on the river; the aqueduct sits on the canal.",
+        "mnemonic": "Aqueduct crosses, headworks diverts."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q077",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0704",
+      "marks": 1,
+      "stem": "Which of the following is NOT a river training work?",
+      "options": [
+        "Marginal bund",
+        "Launching apron",
+        "Guide bund",
+        "Canal bund"
+      ],
+      "answerIndex": 3,
+      "solution": "**Canal bund.** A canal bund retains water in a canal. Marginal bunds, guide bunds and launching aprons all control a river.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Canal bund\" and \"guide bund\" share the word bund, and both are embankments.",
+        "trick": "Training works act on a river, not on a canal.",
+        "mnemonic": "Canal bund belongs to the canal."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q078",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0105",
+      "marks": 1,
+      "stem": "At a turning point in levelling, which readings are taken?",
+      "options": [
+        "Both a fore sight and a back sight",
+        "A back sight only",
+        "A fore sight only",
+        "An intermediate sight only"
+      ],
+      "answerIndex": 0,
+      "solution": "**Both a fore sight and a back sight.** The fore sight is taken before the instrument is moved and the back sight after it is set up again, so the turning point carries both.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A change point feels like an ordinary station where one reading would do; it is the only point with two.",
+        "trick": "The turning point is the link between two instrument positions, so it must be read from both.",
+        "mnemonic": "Change point, two readings."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q079",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0203",
+      "marks": 1,
+      "stem": "The unconfined compression test gives:",
+      "options": [
+        "The drained shear strength of sand",
+        "The undrained shear strength of clay",
+        "The angle of internal friction",
+        "The coefficient of consolidation"
+      ],
+      "answerIndex": 1,
+      "solution": "**The undrained shear strength of clay.** With no confining pressure and no drainage, cu = qu/2 for a saturated clay. The test cannot be performed on sand, which will not stand unsupported.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The triaxial test also gives undrained strength, which makes the distinguishing feature the *unconfined* condition.",
+        "trick": "No cell pressure means no friction can be mobilised, so only cohesion is measured.",
+        "mnemonic": "Unconfined: cu = qu/2, cohesion only, φ = 0."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q080",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0201",
+      "marks": 1,
+      "stem": "In a standard Proctor test, the maximum dry density occurs at:",
+      "options": [
+        "The liquid limit",
+        "The plastic limit",
+        "The optimum moisture content",
+        "The shrinkage limit"
+      ],
+      "answerIndex": 2,
+      "solution": "**The optimum moisture content.** Below the optimum there is not enough water to lubricate the grains; above it, water occupies space the solids could have filled.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The Atterberg limits are also water contents, which makes any of them a plausible-looking answer.",
+        "trick": "The compaction curve has one peak, and the water content at that peak is what it is named for.",
+        "mnemonic": "Peak of the curve = OMC."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q081",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0202",
+      "marks": 1,
+      "stem": "Which geological formation both stores and transmits water in significant quantity?",
+      "options": [
+        "Aquifer",
+        "Aquiclude",
+        "Aquifuge",
+        "Aquitard"
+      ],
+      "answerIndex": 0,
+      "solution": "**Aquifer.** An aquifer is both porous and permeable. An aquiclude stores but will not transmit, an aquitard transmits slowly and an aquifuge does neither.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "An aquiclude also holds water, which is half the requirement — the question asks for both properties.",
+        "trick": "Storage needs porosity; transmission needs permeability. Only one formation has both.",
+        "mnemonic": "Aquifer gives water; the rest keep it."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q082",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0504",
+      "marks": 1,
+      "stem": "The minimum grade of concrete for reinforced work under normal exposure as per IS 456 is:",
+      "options": [
+        "M15",
+        "M20",
+        "M25",
+        "M30"
+      ],
+      "answerIndex": 1,
+      "solution": "**M20.** IS 456 requires M20 as the minimum for reinforced concrete in mild exposure; higher grades are required as exposure worsens.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "M15 is the minimum for *plain* concrete and is the figure attached to the lean mixes used in blinding and DPC.",
+        "trick": "Plain M15, reinforced M20.",
+        "mnemonic": "Reinforce it, raise it to 20."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q083",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0806",
+      "marks": 1,
+      "stem": "The specific speed of a Pelton wheel with a single jet is of the order of:",
+      "options": [
+        "60-300",
+        "300-600",
+        "10-30",
+        "600-1000"
+      ],
+      "answerIndex": 2,
+      "solution": "**10-30.** A single-jet Pelton has the lowest specific speed of all turbines; Francis runs about 60-300 and Kaplan above 300.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Adding jets raises the specific speed, so a multi-jet Pelton reaches 30-50 and blurs the boundary.",
+        "trick": "High head goes with low specific speed.",
+        "mnemonic": "Pelton low, Kaplan high."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q084",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0901",
+      "marks": 1,
+      "stem": "The road pattern in which roads radiate from a centre and are joined by concentric rings is the:",
+      "options": [
+        "Grid iron pattern",
+        "Hexagonal pattern",
+        "Minimum travel pattern",
+        "Radial and circular pattern"
+      ],
+      "answerIndex": 3,
+      "solution": "**Radial and circular pattern.** Radial roads carry traffic to and from the centre and the rings distribute it without passing through the middle.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The grid iron pattern is the best-known layout and is the default answer for any road pattern question.",
+        "trick": "Radiating lines plus rings is exactly what the name describes.",
+        "mnemonic": "Spokes and rings."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q085",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0306",
+      "marks": 1,
+      "stem": "A hyetograph is a plot of:",
+      "options": [
+        "Discharge against time",
+        "Rainfall intensity against time",
+        "Rainfall against discharge",
+        "Cumulative rainfall against time"
+      ],
+      "answerIndex": 1,
+      "solution": "**Rainfall intensity against time.** A hyetograph shows how the intensity of a storm varies through its duration; the hydrograph is the corresponding plot of runoff.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The hydrograph differs by two letters and is the far commoner term.",
+        "trick": "Hyeto- is rain, hydro- is water in the channel.",
+        "mnemonic": "Hyetograph rains, hydrograph flows."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q086",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0506",
+      "marks": 1,
+      "stem": "In a masonry wall, the vertical joints in successive courses should be:",
+      "options": [
+        "Aligned vertically",
+        "Omitted entirely",
+        "Staggered",
+        "Twice as thick as the bed joints"
+      ],
+      "answerIndex": 2,
+      "solution": "**Staggered.** Breaking the vertical joints spreads the load across the wall; continuous vertical joints create a plane of weakness the wall can split along.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Aligned joints look neater and are easier to lay, which is why the rule has to be taught.",
+        "trick": "A continuous vertical joint is a ready-made crack.",
+        "mnemonic": "Break the joint, bond the wall."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q087",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0405",
+      "marks": 1,
+      "stem": "In a determinate truss, the member forces are found by the method of:",
+      "options": [
+        "Moment distribution",
+        "Slope deflection",
+        "Three moments",
+        "Joints or sections"
+      ],
+      "answerIndex": 3,
+      "solution": "**Joints or sections.** Equilibrium alone is enough for a determinate truss, so the method of joints and the method of sections both suffice.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Moment distribution, slope deflection and the three-moment equation are all methods for *indeterminate* structures.",
+        "trick": "Determinate means equilibrium is sufficient — no compatibility needed.",
+        "mnemonic": "Determinate: joints and sections."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q088",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0605",
+      "marks": 1,
+      "stem": "The sludge returned to the aeration tank in the conventional activated sludge process is about:",
+      "options": [
+        "25-50% of the sewage flow",
+        "5-10% of the sewage flow",
+        "100% of the sewage flow",
+        "150% of the sewage flow"
+      ],
+      "answerIndex": 0,
+      "solution": "**25-50% of the sewage flow.** Returning roughly a quarter to a half of the flow maintains the concentration of micro-organisms needed to treat the incoming sewage.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Extended aeration uses much higher return ratios, which makes the larger figures look defensible.",
+        "trick": "The return keeps the biomass up; it is a fraction of the flow, not a multiple.",
+        "mnemonic": "Conventional return: a quarter to a half."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q089",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0902",
+      "marks": 1,
+      "stem": "The ruling gradient for a road in plain terrain as per Nepal Road Standard is about:",
+      "options": [
+        "5%",
+        "7%",
+        "3.3%",
+        "10%"
+      ],
+      "answerIndex": 2,
+      "solution": "**3.3%.** The ruling (design) gradient in plain and rolling terrain is around 3.3% (1 in 30); mountainous terrain allows considerably steeper.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "7% is the limiting gradient in hilly terrain and is the figure most often memorised.",
+        "trick": "Flat ground gets the gentlest gradient.",
+        "mnemonic": "Plain terrain 1 in 30 (3.3%); hilly far steeper."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q090",
+      "chapter": "AALL10",
+      "subchapter": "AALL1002",
+      "marks": 1,
+      "stem": "The time at which the present worth of a project's benefits equals the present worth of its costs is the:",
+      "options": [
+        "Service life",
+        "Design period",
+        "Economic life",
+        "Payback period"
+      ],
+      "answerIndex": 3,
+      "solution": "**Payback period.** The payback period is the time taken for cumulative returns to recover the investment; a shorter payback means a quicker return of capital.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Economic life is when the asset should be replaced, which is a different question about the same cash flows.",
+        "trick": "Payback asks when you get your money back.",
+        "mnemonic": "Pay it back, then profit."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q091",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0101",
+      "marks": 1,
+      "stem": "The timber defect caused by a separation of the annual rings from one another is called:",
+      "options": [
+        "Cup shake",
+        "Heart shake",
+        "Star shake",
+        "Rind gall"
+      ],
+      "answerIndex": 0,
+      "solution": "**Cup shake.** A cup shake is a curved split that follows an annual ring; heart and star shakes run radially from the centre.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "All three \"shakes\" are splits in the same log, differing only in direction.",
+        "trick": "A cup is curved, like the ring it follows.",
+        "mnemonic": "Cup follows the ring, star and heart cross it."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q092",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0303",
+      "marks": 1,
+      "stem": "The continuity equation for steady incompressible flow in a pipe is:",
+      "options": [
+        "A1/V1 = A2/V2",
+        "A1V1 = A2V2",
+        "A1V1² = A2V2²",
+        "A1 + V1 = A2 + V2"
+      ],
+      "answerIndex": 1,
+      "solution": "**A1V1 = A2V2.** The volume passing each section per second must be the same, so the product of area and velocity is constant.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "For compressible flow the densities enter as ρ1A1V1 = ρ2A2V2; dropping them is valid only when the density is constant.",
+        "trick": "Narrow the pipe and the water must speed up, so area and velocity are inversely related.",
+        "mnemonic": "AV is constant."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q093",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0504",
+      "marks": 1,
+      "stem": "The clear cover to the main reinforcement in a slab under mild exposure is generally:",
+      "options": [
+        "15 mm",
+        "25 mm",
+        "40 mm",
+        "20 mm"
+      ],
+      "answerIndex": 3,
+      "solution": "**20 mm.** IS 456 gives 20 mm nominal cover for a slab in mild exposure; beams take 25 mm, columns 40 mm and footings 50 mm.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "15 mm is the cover for a slab with bars of 12 mm or less in very mild conditions, and is the lower figure quoted in some tables.",
+        "trick": "Cover increases as the member gets closer to the ground: slab, beam, column, footing.",
+        "mnemonic": "Cover: slab 20, beam 25, column 40, footing 50 mm."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q094",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0205",
+      "marks": 1,
+      "stem": "A foundation is classed as shallow when:",
+      "options": [
+        "The depth is not greater than the width",
+        "The depth is at least four times the width",
+        "The width is at least four times the depth",
+        "The depth exceeds 3 m"
+      ],
+      "answerIndex": 0,
+      "solution": "**The depth is not greater than the width.** Terzaghi's classification takes Df ≤ B as shallow, so that the shear strength of the soil above the base can reasonably be ignored.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The ratio is easy to invert, and \"D/B > 4\" is offered as the definition of a *deep* foundation.",
+        "trick": "Shallow means not deep: the depth must be the smaller dimension.",
+        "mnemonic": "Df ≤ B is shallow."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q095",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0805",
+      "marks": 1,
+      "stem": "The function of a forebay in a run-of-river scheme is to:",
+      "options": [
+        "Dissipate the energy of the flow",
+        "Act as a small balancing reservoir before the penstock",
+        "Trap bed load from the river",
+        "Regulate the river level at the intake"
+      ],
+      "answerIndex": 1,
+      "solution": "**Act as a small balancing reservoir before the penstock.** The forebay stores a small volume to absorb short-term fluctuations in demand and keeps the penstock supplied at a steady level.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A settling basin traps sediment and sits just upstream of the forebay, so the two are easily confused.",
+        "trick": "The forebay is the last pond before the pressure pipe.",
+        "mnemonic": "Fore-bay: the bay before the penstock."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q096",
+      "chapter": "AALL10",
+      "subchapter": "AALL1003",
+      "marks": 1,
+      "stem": "The float of an activity that lies on the critical path is:",
+      "options": [
+        "Equal to its duration",
+        "Always positive",
+        "Zero",
+        "Undefined"
+      ],
+      "answerIndex": 2,
+      "solution": "**Zero.** The critical path is the longest path through the network; any delay on it delays the project, which is exactly what zero float means.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Always positive\" is true of every *non*-critical activity, which is the larger group.",
+        "trick": "If it had float, it would not be critical.",
+        "mnemonic": "Critical means no slack."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q097",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0904",
+      "marks": 1,
+      "stem": "The daily traffic averaged over a 30-day survey within a year is reported as:",
+      "options": [
+        "ADT",
+        "AADT",
+        "DHV",
+        "PCU"
+      ],
+      "answerIndex": 0,
+      "solution": "**ADT.** Only a count covering the full 365 days can be called the annual average; anything shorter is simply average daily traffic.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "AADT is the term used in design and so is the one that comes to mind first.",
+        "trick": "The first A in AADT demands a whole year.",
+        "mnemonic": "No full year, no second A."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q098",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0601",
+      "marks": 1,
+      "stem": "The hardness of water is chiefly caused by:",
+      "options": [
+        "Sodium and potassium salts",
+        "Calcium and magnesium salts",
+        "Iron and manganese",
+        "Dissolved carbon dioxide"
+      ],
+      "answerIndex": 1,
+      "solution": "**Calcium and magnesium salts.** Calcium and magnesium bicarbonates give temporary hardness; their sulphates and chlorides give permanent hardness.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Iron and manganese cause staining and taste but not hardness.",
+        "trick": "Hardness is measured as calcium carbonate, which names the culprit.",
+        "mnemonic": "Ca and Mg make it hard."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q099",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0401",
+      "marks": 1,
+      "stem": "The point in a beam where the bending moment changes sign is called the point of:",
+      "options": [
+        "Inflexion of shear",
+        "Maximum deflection",
+        "Contraflexure",
+        "Zero shear"
+      ],
+      "answerIndex": 2,
+      "solution": "**Contraflexure.** At a point of contraflexure the moment passes through zero and the curvature reverses; no reinforcement is needed for moment there.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The point of zero *shear* is where the moment is a maximum — the neighbouring and opposite condition.",
+        "trick": "Zero shear → maximum moment. Zero moment → contraflexure.",
+        "mnemonic": "Contraflexure: the beam changes its mind."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP17-Q100",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0806",
+      "marks": 1,
+      "stem": "The overall efficiency of a hydropower plant is the product of the:",
+      "options": [
+        "Turbine efficiency and the hydraulic efficiency only",
+        "Generator efficiency and the transmission efficiency only",
+        "Volumetric efficiency and the mechanical efficiency only",
+        "Turbine efficiency and the generator efficiency"
+      ],
+      "answerIndex": 3,
+      "solution": "**Turbine efficiency and the generator efficiency.** Overall efficiency is the ratio of electrical output to the water power available, so it combines what the turbine converts with what the generator delivers.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Hydraulic, volumetric and mechanical efficiencies are all stages *inside* the turbine efficiency, so quoting them again double-counts.",
+        "trick": "Follow the energy: water to shaft is the turbine, shaft to wire is the generator.",
+        "mnemonic": "Overall = turbine × generator."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    }
+  ]
+}

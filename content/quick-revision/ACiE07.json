@@ -466,7 +466,7 @@
   {
     "id": "QR-ACiE07-059",
     "chapter": "ACiE07",
-    "fact": "According to Khosla's theory, the exit gradient formula is H d  l.",
+    "fact": "According to Khosla's theory, the exit gradient is GE = (H/d)·(1/π√λ).",
     "verification": {
       "status": "verified"
     }
@@ -986,7 +986,7 @@
   {
     "id": "QR-ACiE07-124",
     "chapter": "ACiE07",
-    "fact": "In a Sarda type fall, a rectangular crest is generally used for canal discharge up to 14 m 3 /s.",
+    "fact": "In a Sarda type fall, a rectangular crest is generally used for canal discharge up to 14 m³ /s.",
     "verification": {
       "status": "verified"
     }
@@ -994,7 +994,7 @@
   {
     "id": "QR-ACiE07-125",
     "chapter": "ACiE07",
-    "fact": "In a Sarda type fall, a triangular crest is generally used for canal discharge up to 85 m 3 /s.",
+    "fact": "In a Sarda type fall, a triangular crest is generally used for canal discharge up to 85 m³ /s.",
     "verification": {
       "status": "verified"
     }

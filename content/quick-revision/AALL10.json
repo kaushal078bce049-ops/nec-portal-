@@ -10,7 +10,7 @@
   {
     "id": "QR-AALL10-002",
     "chapter": "AALL10",
-    "fact": "The Aspect ratio (a proportional relationship between width and height) of Letter and Number is 1: 2 and 1: 3 respectively.",
+    "fact": "The Aspect ratio (a proportional relationship between width and height) of Letter and Number is 1:2 and 1:3 respectively.",
     "verification": {
       "status": "verified"
     }
@@ -34,7 +34,7 @@
   {
     "id": "QR-AALL10-005",
     "chapter": "AALL10",
-    "fact": "The Area of A 0 size paper is 1 m 2.",
+    "fact": "The Area of A 0 size paper is 1 m².",
     "verification": {
       "status": "verified"
     }
@@ -98,7 +98,7 @@
   {
     "id": "QR-AALL10-013",
     "chapter": "AALL10",
-    "fact": "Side view additional 3 rd view on orthographic projection in general for simple objects.",
+    "fact": "Side view additional 3rd view on orthographic projection in general for simple objects.",
     "verification": {
       "status": "verified"
     }
@@ -258,7 +258,7 @@
   {
     "id": "QR-AALL10-033",
     "chapter": "AALL10",
-    "fact": "The formula of effective annual interest rate \"I\" is     1 + r m m – 1. [\"r\" is the nominal annual interest rate, and \"m\" is the number of compounding periods per year]",
+    "fact": "The formula of effective annual interest rate \"i\" is i = (1 + r/m)^m − 1. [\"r\" is the nominal annual interest rate, and \"m\" is the number of compounding periods per year]",
     "verification": {
       "status": "verified"
     }
@@ -602,7 +602,7 @@
   {
     "id": "QR-AALL10-076",
     "chapter": "AALL10",
-    "fact": "Er. Ram Babu Sharma is the first president of NEC and 1 st registrar is Bindeshwar Yadav.",
+    "fact": "Er. Ram Babu Sharma is the first president of NEC and 1st registrar is Bindeshwar Yadav.",
     "verification": {
       "status": "verified"
     }
@@ -1058,7 +1058,7 @@
   {
     "id": "QR-AALL10-133",
     "chapter": "AALL10",
-    "fact": "The reducing scale among 2: 1, 5: 1, 20: 1 and 1: 10 is 1: 10.",
+    "fact": "The reducing scale among 2:1, 5:1, 20:1 and 1:10 is 1:10.",
     "verification": {
       "status": "verified"
     }
@@ -1282,7 +1282,7 @@
   {
     "id": "QR-AALL10-161",
     "chapter": "AALL10",
-    "fact": "Quorum required to conduct a meeting of the NEA: More than 50 and above 1. In water mills, the type of material used as turbine to rotate the flow is wheel of wood. 2. The main problem caused by the use of pesticides is their residue persists in water and other components of the environment. 3. The truss bridge is preferred for span range upto 32 m. 4. The essential things to be built during farm house construction as residential building is kitchen + bathroom + store house + farm. 5. The number of cups used to extract milk from cow through mechanical means are 4. 6. The favorable condition for crop preferred for intercultural operation is before harvesting. 7. As structural component, suspension bridges utilize vertical struts, vertical cantilever and vertical column. 8. The green road concept focuses on (a) conserving the delicate mountain ecology, (b) protecting vegetation cover and (c) promoting labor based and affordable trial. 9. The approximate storage temperature of fish is – 25°C 10. The structure used traditionally to harvest rain water in rural area is called step well. 11. In biomethane, the percentage of carbon dioxide is 32 to 43%. 12. Structures used for restraining animal when carrying out livestock routine practices like spraying and milking is called as crushes. 13. The average width of green road phase 1 st is 1.25 m. 14. The design capacity of a village road in Terai in both direction (Vehicle per day) is 200. 15. In general, wind guy arrangement is not required for trail bridges with span upto 120 m. 16. The footbath at the entrance of a poultry farm is placed is to prevent the spread of diseases. 17. Suspended trail bridge is also called as D - types. 18. The minimum free board in trail bridge is 5 m. 19. The principal of mechanical milking is to use a vacuum to extract milk from the cow's teat. 20. If a temperature 30 – 35°C for more than 5 hours a day, then orientation of animal housing is E – W orientation. 21. In septic tank, slope is given towards inlet side. 22. The bottom of sewage inlet chamber of septic tank is laid as outward slope of 1 in 10.",
+    "fact": "Quorum required to conduct a meeting of the NEA: more than 50 percent.",
     "verification": {
       "status": "verified"
     }

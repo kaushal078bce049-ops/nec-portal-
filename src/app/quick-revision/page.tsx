@@ -10,13 +10,33 @@ export const metadata: Metadata = {
     'High-yield one-liners, formulas and code values for the NEC civil engineering license examination, organised by syllabus chapter — for the final days before the exam.',
 };
 
+/**
+ * Sections of the revision capsule that are not examination chapters.
+ *
+ * The capsule closes with "Civil and Rural Engineering", which the NEC civil
+ * syllabus does not list as one of its ten chapters — so it has no theory, no
+ * practice bank and no share of the hundred questions, and adding it to
+ * syllabus.json would unbalance the blueprint that divides a paper ten ways.
+ * It still gets asked, which is why the capsule carries it, so it is shown here
+ * after Project Planning exactly as the source has it.
+ */
+const EXTRA_SECTIONS = [
+  { code: 'ACRE11', no: 11, title: 'Civil and Rural Engineering', notes: false },
+];
+
 export default function QuickRevisionPage() {
   const syllabus = getSyllabus();
 
-  const chapters = syllabus.chapters.map((chapter) => ({
-    ...chapter,
-    cards: getRevisionCards(chapter.code),
-  }));
+  const chapters = [
+    ...syllabus.chapters.map((chapter) => ({
+      code: chapter.code,
+      no: chapter.no,
+      title: chapter.title,
+      notes: true,
+      cards: getRevisionCards(chapter.code),
+    })),
+    ...EXTRA_SECTIONS.map((s) => ({ ...s, cards: getRevisionCards(s.code) })),
+  ];
 
   const total = chapters.reduce((n, c) => n + c.cards.length, 0);
   const ready = chapters.filter((c) => c.cards.length > 0);
@@ -68,9 +88,11 @@ export default function QuickRevisionPage() {
               <h2 className="text-2xl">
                 <span className="text-muted">{chapter.no}.</span> {chapter.title}
               </h2>
-              <Link href={`/chapters/${chapter.code}`} className="text-sm accent hover:underline">
-                Full notes →
-              </Link>
+              {chapter.notes && (
+                <Link href={`/chapters/${chapter.code}`} className="text-sm accent hover:underline">
+                  Full notes →
+                </Link>
+              )}
             </div>
 
             <ol className="mt-4 space-y-2.5">
@@ -109,10 +131,9 @@ export default function QuickRevisionPage() {
       </div>
 
       <p className="mt-12 rounded-xl border border-soft bg-sunken p-4 text-xs leading-relaxed text-muted">
-        Every card is checked against the code or textbook named in its reference list. Cards
-        outlined in red correct a value that is wrong in the collections circulating among
-        candidates — the original error and the correction are both stated, so you can recognise it
-        if you meet it elsewhere.
+        Every card is transcribed from the NEC Quick Revision Capsule (4th edition) and checked
+        against the code or textbook it comes from. Where a value circulating among candidates was
+        wrong, only the corrected statement is given.
       </p>
     </div>
   );

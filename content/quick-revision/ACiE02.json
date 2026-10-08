@@ -186,7 +186,7 @@
   {
     "id": "QR-ACiE02-024",
     "chapter": "ACiE02",
-    "fact": "Relative compaction is defined as  d  ‚ ax.",
+    "fact": "Relative compaction is defined as γd/γd,max.",
     "verification": {
       "status": "verified"
     }
@@ -450,7 +450,7 @@
   {
     "id": "QR-ACiE02-057",
     "chapter": "ACiE02",
-    "fact": "The relationship between major principal stress and normal stress from two - dimensional stress system is given by  x +  y 2 +        x –  y 2 2 +  x 2 y.",
+    "fact": "The major principal stress in a two-dimensional stress system is σ₁ = (σx + σy)/2 + √[((σx − σy)/2)² + τxy²].",
     "verification": {
       "status": "verified"
     }
@@ -474,7 +474,7 @@
   {
     "id": "QR-ACiE02-060",
     "chapter": "ACiE02",
-    "fact": "In the unconfined compression test, the corrected area of cross section (A C) at any strain can be calculated by A C = A 0 1 –  (where, A 0 = Original area of cross section,  = Strain)",
+    "fact": "In the unconfined compression test, the corrected area of cross-section at any strain is Ac = A₀/(1 − ε), where A₀ = original area of cross-section and ε = axial strain.",
     "verification": {
       "status": "verified"
     }
@@ -490,7 +490,7 @@
   {
     "id": "QR-ACiE02-062",
     "chapter": "ACiE02",
-    "fact": "The formula for shear strength from Vane shear test is S = T  D 2     H 2 + D 6.",
+    "fact": "The shear strength from the vane shear test is S = T/[πD²(H/2 + D/6)].",
     "verification": {
       "status": "verified"
     }
@@ -498,7 +498,7 @@
   {
     "id": "QR-ACiE02-063",
     "chapter": "ACiE02",
-    "fact": "The angle subtended by rigid cone below foundation with respect to horizontal is 45° +  2.",
+    "fact": "The angle subtended by the rigid cone below a foundation with respect to the horizontal is 45° + φ/2.",
     "verification": {
       "status": "verified"
     }
@@ -538,7 +538,7 @@
   {
     "id": "QR-ACiE02-068",
     "chapter": "ACiE02",
-    "fact": "An anl θ in h hyical ln i n on 2  Mohr's circle.",
+    "fact": "An angle θ in the physical element is represented on 2θ in Mohr's circle.",
     "verification": {
       "status": "verified"
     }
@@ -546,7 +546,7 @@
   {
     "id": "QR-ACiE02-069",
     "chapter": "ACiE02",
-    "fact": "The formula for area ratio is D 2 2 – D 1 2 D 1 2 × 100.",
+    "fact": "The formula for area ratio is (D₂² − D₁²)/D₁² × 100.",
     "verification": {
       "status": "verified"
     }
@@ -578,7 +578,7 @@
   {
     "id": "QR-ACiE02-073",
     "chapter": "ACiE02",
-    "fact": "Coulomb's equation for shear strength is given by: c = s –  tan .",
+    "fact": "Coulomb's equation for shear strength is c = s − σ·tanφ.",
     "verification": {
       "status": "verified"
     }
@@ -650,7 +650,7 @@
   {
     "id": "QR-ACiE02-082",
     "chapter": "ACiE02",
-    "fact": "The relation of active earth pressure in cohesive soil is K a ×  z – 2C K a.",
+    "fact": "The active earth pressure in cohesive soil is Ka·γz − 2C√Ka.",
     "verification": {
       "status": "verified"
     }
@@ -674,7 +674,7 @@
   {
     "id": "QR-ACiE02-085",
     "chapter": "ACiE02",
-    "fact": "The formula for Active earth pressure coefficient is 1 – sin  1 + sin .",
+    "fact": "The active earth pressure coefficient is Ka = (1 − sinφ)/(1 + sinφ).",
     "verification": {
       "status": "verified"
     }
@@ -682,7 +682,7 @@
   {
     "id": "QR-ACiE02-086",
     "chapter": "ACiE02",
-    "fact": "The maximum shear stress on a Mohr's circle is equal to  1 –  3 2.",
+    "fact": "The maximum shear stress on a Mohr's circle is (σ₁ − σ₃)/2.",
     "verification": {
       "status": "verified"
     }
@@ -706,7 +706,7 @@
   {
     "id": "QR-ACiE02-089",
     "chapter": "ACiE02",
-    "fact": "If poisons ratio of a soil is 0.4, its coefficient of earth pressure at rest is K 0 =  1 –  = 0.4 1 – 0. 4 = 0.67.",
+    "fact": "If Poisson's ratio of a soil is 0.4, its coefficient of earth pressure at rest is K₀ = μ/(1 − μ) = 0.4/(1 − 0.4) = 0.67.",
     "verification": {
       "status": "verified"
     }
@@ -714,7 +714,7 @@
   {
     "id": "QR-ACiE02-090",
     "chapter": "ACiE02",
-    "fact": "The coefficient of passive earth pressure is K p = 1 + sin  1 – sin .",
+    "fact": "The coefficient of passive earth pressure is Kp = (1 + sinφ)/(1 − sinφ).",
     "verification": {
       "status": "verified"
     }
@@ -722,7 +722,7 @@
   {
     "id": "QR-ACiE02-091",
     "chapter": "ACiE02",
-    "fact": "The parameter  in coulomb's equation \"S = c +  tan  \", represents angle of internal friction.",
+    "fact": "The parameter φ in Coulomb's equation \"S = c + σ·tanφ\" represents the angle of internal friction.",
     "verification": {
       "status": "verified"
     }
@@ -866,7 +866,7 @@
   {
     "id": "QR-ACiE02-109",
     "chapter": "ACiE02",
-    "fact": "For purely cohesive soil, the bearing capacity isq f = 5.7 c +  ¯.",
+    "fact": "For a purely cohesive soil, the bearing capacity is qf = 5.7c + σ̄.",
     "verification": {
       "status": "verified"
     }
@@ -874,7 +874,7 @@
   {
     "id": "QR-ACiE02-110",
     "chapter": "ACiE02",
-    "fact": "Soft rocks bearing capacity is 440 kN/m 2.",
+    "fact": "Soft rocks bearing capacity is 440 kN/m².",
     "verification": {
       "status": "verified"
     }
@@ -882,7 +882,7 @@
   {
     "id": "QR-ACiE02-111",
     "chapter": "ACiE02",
-    "fact": "Bearing capacity of square footing is Q u = 1.3cN c +  DN q + 0.4  BN .",
+    "fact": "Bearing capacity of a square footing is Qu = 1.3cNc + γDNq + 0.4γBNγ.",
     "verification": {
       "status": "verified"
     }
@@ -906,7 +906,7 @@
   {
     "id": "QR-ACiE02-114",
     "chapter": "ACiE02",
-    "fact": "Bearing capacity of circular footing is calculated as Q u = 1.3cN c +  DN q + 0.3  N .",
+    "fact": "Bearing capacity of a circular footing is Qu = 1.3cNc + γDNq + 0.3γBNγ.",
     "verification": {
       "status": "verified"
     }
@@ -946,7 +946,7 @@
   {
     "id": "QR-ACiE02-119",
     "chapter": "ACiE02",
-    "fact": "The Terzaghi's ultimate bearing capacity formula of rectangular footing isq nu =     1 + 0.3 B L CN C + q (N q – 1) +     1 + 0.2 B L + 0.5B  N .",
+    "fact": "Terzaghi's ultimate bearing capacity for a rectangular footing is qnu = (1 + 0.3B/L)cNc + q(Nq − 1) + (1 + 0.2B/L)·0.5BγNγ.",
     "verification": {
       "status": "verified"
     }
@@ -954,7 +954,7 @@
   {
     "id": "QR-ACiE02-120",
     "chapter": "ACiE02",
-    "fact": "In Taylors stability number, S n = C m  H, the term C mis mobilized Cohesion.",
+    "fact": "In Taylor's stability number, Sn = Cm/(γH), the term Cm is the mobilised cohesion.",
     "verification": {
       "status": "verified"
     }
@@ -1146,7 +1146,7 @@
   {
     "id": "QR-ACiE02-144",
     "chapter": "ACiE02",
-    "fact": "Immediate settlement of cohesive soil is given by qB       1 +  2 Es.",
+    "fact": "Immediate settlement of a cohesive soil is given by qB(1 − μ²)/Es.",
     "verification": {
       "status": "verified"
     }
@@ -1170,7 +1170,7 @@
   {
     "id": "QR-ACiE02-147",
     "chapter": "ACiE02",
-    "fact": "According to the Rankine's theory, the formula to calculate the minimum depth of a shallow foundation (D f) is D f = P        1 – sin  1 + sin  2.",
+    "fact": "According to Rankine's theory, the minimum depth of a shallow foundation is Df = (P/γ)·[(1 − sinφ)/(1 + sinφ)]².",
     "verification": {
       "status": "verified"
     }

@@ -1,0 +1,2410 @@
+{
+  "slug": "pp-set-18",
+  "kind": "past_paper",
+  "title": "NEC Past Paper - Set 18 (2083 Asoj 18, 1st shift)",
+  "examDate": "2083 Asoj 18 BS (1st shift)",
+  "tier": "free",
+  "order": 18,
+  "questions": [
+    {
+      "id": "PP18-Q001",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0804",
+      "marks": 1,
+      "stem": "A Bheri-type settling basin in a run-of-river scheme is used to:",
+      "options": [
+        "Settle out suspended sediment before the water enters the penstock",
+        "Store water to meet the evening peak",
+        "Dissipate the energy of the diverted flow",
+        "Measure the discharge entering the headrace"
+      ],
+      "answerIndex": 0,
+      "solution": "**Settle out suspended sediment before the water enters the penstock.** The flow is slowed in a widened basin so that sand above the design particle size falls out before it can abrade the turbine runner.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A forebay is also a widened pond on the waterway, but it balances supply and demand rather than removing sediment.",
+        "trick": "Slow the water down and the sand drops out.",
+        "mnemonic": "Settling basin settles sand."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q002",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0805",
+      "marks": 1,
+      "stem": "The minimum velocity kept in a high-head penstock is governed by the need to:",
+      "options": [
+        "Prevent water hammer",
+        "Keep sediment in suspension and avoid deposition",
+        "Reduce the friction loss",
+        "Limit the thickness of the steel shell"
+      ],
+      "answerIndex": 1,
+      "solution": "**Keep sediment in suspension and avoid deposition.** Too low a velocity lets silt settle inside the pipe. The upper limit is set by friction loss and surge, which is the opposite consideration.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Friction loss and water hammer both argue for a *lower* velocity, so they set the maximum, not the minimum.",
+        "trick": "Minimum velocity is always about keeping solids moving.",
+        "mnemonic": "Too slow, it silts."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q003",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0805",
+      "marks": 1,
+      "stem": "The function of a forebay in a hydropower scheme is to:",
+      "options": [
+        "Dissipate the energy of the tailrace flow",
+        "Remove the dissolved load from the water",
+        "Balance short-term fluctuations between the headrace supply and the turbine demand",
+        "Increase the gross head of the scheme"
+      ],
+      "answerIndex": 2,
+      "solution": "**Balance short-term fluctuations between the headrace supply and the turbine demand.** It holds a small volume so that a sudden increase in turbine demand is met at once while the headrace catches up.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A surge tank also absorbs transients, but on a pressure tunnel rather than at the end of an open channel.",
+        "trick": "Forebay for an open headrace, surge tank for a pressure tunnel.",
+        "mnemonic": "Forebay buffers the flow."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q004",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0806",
+      "marks": 1,
+      "stem": "In which turbine is all the available pressure energy converted into kinetic energy before the water strikes the runner?",
+      "options": [
+        "Francis turbine",
+        "Kaplan turbine",
+        "Propeller turbine",
+        "Pelton (impulse) turbine"
+      ],
+      "answerIndex": 3,
+      "solution": "**Pelton (impulse) turbine.** The nozzle converts the whole head into a free jet at atmospheric pressure; the runner then changes only the momentum of that jet.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Francis and Kaplan are reaction turbines in which pressure continues to drop *through* the runner.",
+        "trick": "Impulse converts first, reaction converts throughout.",
+        "mnemonic": "Pelton: all kinetic at the nozzle."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q005",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0205",
+      "marks": 1,
+      "stem": "A spread foundation distributes the structural load by:",
+      "options": [
+        "Transferring the load to a deeper stratum",
+        "Increasing the bearing area so the pressure on the soil is reduced",
+        "Developing skin friction along its sides",
+        "Anchoring the structure against uplift"
+      ],
+      "answerIndex": 1,
+      "solution": "**Increasing the bearing area so the pressure on the soil is reduced.** Pressure is load divided by area, so a wider base brings the bearing pressure within the safe value of the soil immediately beneath it.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Transferring load to a deeper stratum is what a *pile* does, and both are foundations for weak ground.",
+        "trick": "Spread means spread out sideways, not down.",
+        "mnemonic": "Spread the load, drop the pressure."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q006",
+      "chapter": "AALL10",
+      "subchapter": "AALL1002",
+      "marks": 1,
+      "stem": "Corporate income tax in Nepal is levied on a company's:",
+      "options": [
+        "Gross turnover",
+        "Paid-up capital",
+        "Net taxable profit",
+        "Total assets"
+      ],
+      "answerIndex": 2,
+      "solution": "**Net taxable profit.** Tax is charged on income after allowable expenses and depreciation have been deducted, not on the money that passes through the business.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Value added tax is charged on turnover, which makes gross revenue the natural but wrong basis here.",
+        "trick": "Income tax taxes income, and income is what is left after costs.",
+        "mnemonic": "Profit, not turnover."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q007",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0703",
+      "marks": 1,
+      "stem": "The most likely mode of failure of a weir founded on a pervious foundation is:",
+      "options": [
+        "Crushing of the masonry crest",
+        "Overturning about the downstream toe",
+        "Sliding on the upstream face",
+        "Piping caused by undermining of the subsoil"
+      ],
+      "answerIndex": 3,
+      "solution": "**Piping caused by undermining of the subsoil.** Seepage emerging at the downstream end carries soil particles away; as the channel works backwards the floor loses support and the structure settles.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Overturning and sliding govern gravity dams on rock, where seepage through the foundation is not the issue.",
+        "trick": "Pervious foundation means seepage, and seepage means piping.",
+        "mnemonic": "Pervious → piping."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q008",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0203",
+      "marks": 1,
+      "stem": "In Taylor's stability number Sn = Cm/(γH), the term Cm is:",
+      "options": [
+        "The mobilised cohesion",
+        "The cohesion at failure",
+        "The compression index",
+        "The coefficient of consolidation"
+      ],
+      "answerIndex": 0,
+      "solution": "**The mobilised cohesion.** Cm is the cohesion actually required to keep the slope standing — the available cohesion divided by the factor of safety.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Cohesion at failure is the *available* value c; the mobilised value is what the slope is calling on.",
+        "trick": "Mobilised means in use, not in reserve.",
+        "mnemonic": "Mobilised = c/F."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q009",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0203",
+      "marks": 1,
+      "stem": "The shear strength of a saturated clay under undrained conditions is governed by:",
+      "options": [
+        "The angle of internal friction alone",
+        "Both cohesion and friction equally",
+        "Cohesion alone, with φ = 0",
+        "The effective overburden pressure"
+      ],
+      "answerIndex": 2,
+      "solution": "**Cohesion alone, with φ = 0.** Under rapid loading no drainage occurs, so the pore pressure takes the whole stress increase and the strength envelope is horizontal: s = cu.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The long-term (drained) strength of the same clay does have a friction angle, which makes \"both\" look safe.",
+        "trick": "No drainage, no change in effective stress, no friction mobilised.",
+        "mnemonic": "Undrained clay: φ = 0."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q010",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0206",
+      "marks": 1,
+      "stem": "The allowable bearing capacity of a soil is also known as the:",
+      "options": [
+        "Ultimate bearing capacity",
+        "Net ultimate bearing capacity",
+        "Gross bearing pressure",
+        "Safe bearing capacity considering settlement"
+      ],
+      "answerIndex": 3,
+      "solution": "**Safe bearing capacity considering settlement.** It is the lesser of the safe bearing capacity (strength, with a factor of safety) and the pressure that keeps settlement within tolerable limits.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Safe bearing capacity accounts only for shear failure; allowable adds the settlement check, which often governs.",
+        "trick": "Allowable must satisfy both strength and settlement.",
+        "mnemonic": "Allowable = safe AND settlement-safe."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q011",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0302",
+      "marks": 1,
+      "stem": "The metacentric height of a floating body is given by:",
+      "options": [
+        "GM = I/V − BG",
+        "GM = I/V + BG",
+        "GM = V/I − BG",
+        "GM = BG − I/V"
+      ],
+      "answerIndex": 0,
+      "solution": "**GM = I/V − BG.** BM = I/V is the distance from the centre of buoyancy to the metacentre; subtracting BG gives the metacentric height measured from the centre of gravity.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Adding BG instead of subtracting it would make every body more stable the higher its centre of gravity.",
+        "trick": "Raising G must reduce GM, so BG has to be subtracted.",
+        "mnemonic": "GM = BM − BG, with BM = I/V. Positive means stable."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q012",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0305",
+      "marks": 1,
+      "stem": "The condition Q²T/(gA³) = 1 in an open channel describes:",
+      "options": [
+        "Uniform flow",
+        "Critical flow",
+        "Laminar flow",
+        "Steady flow"
+      ],
+      "answerIndex": 1,
+      "solution": "**Critical flow.** That expression is the Froude number squared written in terms of discharge; equal to one means critical flow and minimum specific energy.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Uniform flow is defined by the slope relation, not by this one, and is the commoner term.",
+        "trick": "Fr = 1 is critical, by definition.",
+        "mnemonic": "Q²T/gA³ = 1 ⇒ critical."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q013",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0402",
+      "marks": 1,
+      "stem": "On a Mohr's circle, the minimum normal stress is:",
+      "options": [
+        "The maximum shear stress",
+        "Zero",
+        "The average of σ₁ and σ₃",
+        "The minor principal stress σ₃"
+      ],
+      "answerIndex": 3,
+      "solution": "**The minor principal stress σ₃.** The circle runs between σ₃ and σ₁ on the normal-stress axis, so its leftmost point is the minimum normal stress — the minor principal stress.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The average of the two principal stresses is the *centre* of the circle, not its minimum.",
+        "trick": "Principal stresses are the extremes of normal stress, by definition.",
+        "mnemonic": "Left of the circle = σ₃."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q014",
+      "chapter": "AALL10",
+      "subchapter": "AALL1005",
+      "marks": 1,
+      "stem": "Whistle-blowing by an engineer is done to:",
+      "options": [
+        "Disclose a danger to the public that the employer will not address",
+        "Negotiate a better contract",
+        "Protect the employer's reputation",
+        "Delay a project lawfully"
+      ],
+      "answerIndex": 0,
+      "solution": "**Disclose a danger to the public that the employer will not address.** It is justified when there is serious, probable harm, when internal channels have failed, and when the engineer has good evidence.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Protecting the employer is the usual professional duty; whistle-blowing is the case where a higher duty overrides it.",
+        "trick": "The test is harm to the public, not advantage to anyone.",
+        "mnemonic": "Public safety outranks the employer."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q015",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0405",
+      "marks": 1,
+      "stem": "The influence line diagram for the reaction at a support of a simply supported beam is:",
+      "options": [
+        "A parabola",
+        "A triangle with unit ordinate at that support",
+        "A rectangle of unit height",
+        "A circle"
+      ],
+      "answerIndex": 1,
+      "solution": "**A triangle with unit ordinate at that support.** When the unit load stands over the support, that support carries all of it; when it stands at the far end, it carries none — so the diagram falls linearly from 1 to 0.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Bending moment influence lines are also triangular, but with the peak under the section rather than at a support.",
+        "trick": "Place the unit load at each end and join the two values.",
+        "mnemonic": "Reaction ILD: 1 at its own support, 0 at the other."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q016",
+      "chapter": "AALL10",
+      "subchapter": "AALL1003",
+      "marks": 1,
+      "stem": "The float of an activity is:",
+      "options": [
+        "The duration of the activity",
+        "The time between its early and late start of the project",
+        "The time it can be delayed without delaying the project",
+        "The time saved by crashing it"
+      ],
+      "answerIndex": 2,
+      "solution": "**The time it can be delayed without delaying the project.** Total float is the latest finish minus the earliest finish; using it does not move the project completion date.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Free float is the delay that does not disturb the *following activity* — a stricter and smaller quantity.",
+        "trick": "Float is spare time, measured against the project end.",
+        "mnemonic": "Float = spare time."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q017",
+      "chapter": "AALL10",
+      "subchapter": "AALL1003",
+      "marks": 1,
+      "stem": "The total float of an activity on the critical path is:",
+      "options": [
+        "Zero",
+        "Equal to the project duration",
+        "Equal to the activity duration",
+        "Always greater than zero"
+      ],
+      "answerIndex": 0,
+      "solution": "**Zero.** The critical path has no spare time anywhere along it; that is what makes it critical and what makes it the longest path.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Free float is also zero on the critical path, so both statements are true — but total float is what is asked.",
+        "trick": "Any float at all and the activity cannot be critical.",
+        "mnemonic": "Critical = zero float."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q018",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0905",
+      "marks": 1,
+      "stem": "The California bearing ratio test is carried out to assess:",
+      "options": [
+        "The compressive strength of concrete",
+        "The strength of a subgrade for pavement thickness design",
+        "The bitumen content of a mix",
+        "The gradation of an aggregate"
+      ],
+      "answerIndex": 1,
+      "solution": "**The strength of a subgrade for pavement thickness design.** CBR compares the load to penetrate a soil sample with that for standard crushed stone and is the basis of empirical pavement thickness design.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The plate load test also measures subgrade support, but gives the modulus of subgrade reaction used for *rigid* pavements.",
+        "trick": "CBR for flexible pavements, k-value for rigid.",
+        "mnemonic": "CBR sizes the layers."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q019",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0502",
+      "marks": 1,
+      "stem": "The maximum compressive strain in concrete at the limit state of collapse in bending is taken as:",
+      "options": [
+        "0.002",
+        "0.0020",
+        "0.0035",
+        "0.0050"
+      ],
+      "answerIndex": 2,
+      "solution": "**0.0035.** IS 456 fixes the extreme fibre compressive strain at 0.0035 in flexure; the strain at the onset of the constant-stress part of the curve is 0.002.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "0.002 is the strain at which the design stress block reaches its maximum, so it appears in the same diagram.",
+        "trick": "0.002 is where the curve flattens, 0.0035 is where it ends.",
+        "mnemonic": "Flexure: 0.0035."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q020",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0903",
+      "marks": 1,
+      "stem": "The maximum permissible aggregate impact value for a bituminous wearing course is:",
+      "options": [
+        "45%",
+        "50%",
+        "10%",
+        "30%"
+      ],
+      "answerIndex": 3,
+      "solution": "**30%.** A wearing course takes the direct wheel impact, so the limit is the strictest at 30%; base courses are allowed 45% or more.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "45% is the limit for the lower layers and is the figure most often quoted.",
+        "trick": "The nearer the surface, the stronger the aggregate must be.",
+        "mnemonic": "Wearing course 30, base 45."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q021",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0702",
+      "marks": 1,
+      "stem": "The critical shear stress required to move a particle on a canal bed is expressed through the dimensionless Shields parameter, whose value for coarse sediment is about:",
+      "options": [
+        "0.56",
+        "0.056",
+        "5.6",
+        "0.0056"
+      ],
+      "answerIndex": 1,
+      "solution": "**0.056.** Shields' curve flattens to roughly 0.056 for fully rough turbulent flow, and that constant is used in tractive force design.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The decimal point is the entire question — all four options carry the same digits.",
+        "trick": "The Shields parameter is a small fraction, a little above one twentieth.",
+        "mnemonic": "Shields ≈ 0.056."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q022",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0905",
+      "marks": 1,
+      "stem": "Failure of a flexible pavement that originates in the subgrade appears at the surface as:",
+      "options": [
+        "Longitudinal cracking at the edge",
+        "Loss of surface texture",
+        "Rutting along the wheel path",
+        "Bleeding of bitumen"
+      ],
+      "answerIndex": 2,
+      "solution": "**Rutting along the wheel path.** Excessive vertical strain at the top of the subgrade accumulates with repeated loading and shows as a depression in the wheel track.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Fatigue cracking is the other subgrade-related criterion, but it is caused by tensile strain at the bottom of the bituminous layer.",
+        "trick": "Subgrade criterion = vertical strain = rutting.",
+        "mnemonic": "Weak subgrade, deep ruts."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q023",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0505",
+      "marks": 1,
+      "stem": "Slenderness ratio is considered in the design of a steel compression member because it governs:",
+      "options": [
+        "The tensile capacity of the member",
+        "The bearing strength of the bolts",
+        "The weld size required",
+        "The buckling strength of the member"
+      ],
+      "answerIndex": 3,
+      "solution": "**The buckling strength of the member.** A slender column fails by buckling long before the material yields, so the permissible stress falls as the slenderness ratio rises.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Slenderness has no effect on tensile capacity, because a tension member cannot buckle.",
+        "trick": "Slenderness only matters when the force pushes.",
+        "mnemonic": "Slender in compression, buckles."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q024",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0101",
+      "marks": 1,
+      "stem": "Portland pozzolana cement is particularly resistant to attack by:",
+      "options": [
+        "Sulphates",
+        "Chlorides",
+        "Alkalis in the aggregate",
+        "Carbon dioxide"
+      ],
+      "answerIndex": 0,
+      "solution": "**Sulphates.** The pozzolana consumes free lime and reduces C3A, which is what sulphates attack; PPC is therefore preferred for marine and sewage works.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "PPC also helps with the alkali-aggregate reaction, which makes that option partly right — its defining advantage is sulphate resistance.",
+        "trick": "Less free lime and less C3A means less for sulphate to attack.",
+        "mnemonic": "PPC resists sulphate."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q025",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0102",
+      "marks": 1,
+      "stem": "The minimum compressive strength of a first-class brick is:",
+      "options": [
+        "3.5 N/mm²",
+        "7.5 N/mm²",
+        "10.5 N/mm²",
+        "17.5 N/mm²"
+      ],
+      "answerIndex": 2,
+      "solution": "**10.5 N/mm².** A first-class brick must reach at least 10.5 N/mm²; a second-class brick 7.5 N/mm², and the common building brick 3.5 N/mm².",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "3.5 N/mm² is the minimum for *any* burnt clay brick and is widely quoted, which makes it the usual wrong answer.",
+        "trick": "The class numbers run down as the strength does: 10.5, 7.5, 3.5.",
+        "mnemonic": "First class, 10.5."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q026",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0306",
+      "marks": 1,
+      "stem": "An aquifer that is bounded above and below by impervious layers and is under pressure is called:",
+      "options": [
+        "An unconfined aquifer",
+        "A perched aquifer",
+        "A leaky aquifer",
+        "A confined aquifer"
+      ],
+      "answerIndex": 3,
+      "solution": "**A confined aquifer.** Water in a confined aquifer stands above the top of the formation when a well is sunk, because it is under pressure greater than atmospheric.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A leaky (semi-confined) aquifer has a partly permeable boundary, so it is confined only in part.",
+        "trick": "Confined above and below, and therefore pressurised.",
+        "mnemonic": "Confined = under pressure."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q027",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0501",
+      "marks": 1,
+      "stem": "In seismic design, the importance factor for a hospital or other lifeline structure is:",
+      "options": [
+        "Greater than that for an ordinary building",
+        "Equal to that for an ordinary building",
+        "Less than that for an ordinary building",
+        "Taken as zero"
+      ],
+      "answerIndex": 0,
+      "solution": "**Greater than that for an ordinary building.** Lifeline buildings must remain serviceable after an earthquake, so the design force is raised by an importance factor of 1.5 against 1.0 for ordinary buildings.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A larger factor feels like a penalty on the designer; it is a deliberate increase in required performance.",
+        "trick": "The more important the building, the larger the design force.",
+        "mnemonic": "Hospital 1.5, house 1.0."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q028",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0503",
+      "marks": 1,
+      "stem": "A concentrated load applied to the flange of a steel beam is assumed to disperse into the web at:",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answerIndex": 1,
+      "solution": "**45°.** The dispersion of a concentrated load through the flange into the web is taken at 1:1, which is 45° — the basis of the web crippling check.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Load dispersion through a concrete slab is often taken at 30° or 1:2, which is the number carried across from the other material.",
+        "trick": "Steel disperses at 45°; concrete at 1:2.",
+        "mnemonic": "Through steel, one to one."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q029",
+      "chapter": "AALL10",
+      "subchapter": "AALL1001",
+      "marks": 1,
+      "stem": "In an isometric drawing, the height of an object is measured along the:",
+      "options": [
+        "Horizontal axis at 30°",
+        "Line of sight",
+        "Diagonal of the isometric cube",
+        "Vertical isometric axis"
+      ],
+      "answerIndex": 3,
+      "solution": "**Vertical isometric axis.** The three isometric axes are one vertical and two at 30° to the horizontal; height is always set out on the vertical one.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The two 30° axes carry length and width, and they are the ones that make the drawing look isometric.",
+        "trick": "Height is vertical in every projection, isometric included.",
+        "mnemonic": "Up is up, even in isometric."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q030",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0105",
+      "marks": 1,
+      "stem": "In a surveying telescope, the real inverted image is formed:",
+      "options": [
+        "At the plane of the diaphragm (cross hairs)",
+        "At the objective lens",
+        "Behind the eyepiece",
+        "At infinity"
+      ],
+      "answerIndex": 0,
+      "solution": "**At the plane of the diaphragm (cross hairs).** The objective forms a real image in the plane of the cross hairs, and the eyepiece then magnifies image and hairs together.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Forming the image at the eyepiece would mean the cross hairs could never be in focus with it.",
+        "trick": "The image must coincide with the hairs, or there would be parallax.",
+        "mnemonic": "Image on the hairs — no parallax."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q031",
+      "chapter": "AALL10",
+      "subchapter": "AALL1004",
+      "marks": 1,
+      "stem": "Project risk management consists of:",
+      "options": [
+        "Purchasing insurance for the project",
+        "Identifying, analysing, responding to and monitoring risk",
+        "Transferring all risk to the contractor",
+        "Avoiding all risky activities"
+      ],
+      "answerIndex": 1,
+      "solution": "**Identifying, analysing, responding to and monitoring risk.** It is a continuous cycle: identify what could go wrong, assess likelihood and impact, plan a response, then monitor as the project proceeds.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Insurance and transfer are *responses* to risk, so each is one part of the third step rather than the whole process.",
+        "trick": "Risk management is a process, not a product you can buy.",
+        "mnemonic": "Identify, analyse, respond, monitor."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q032",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0706",
+      "marks": 1,
+      "stem": "In a waterlogged area, capillary rise:",
+      "options": [
+        "Lowers the water table",
+        "Improves the soil structure",
+        "Brings salts to the surface and leaves them there as the water evaporates",
+        "Increases the permeability of the soil"
+      ],
+      "answerIndex": 2,
+      "solution": "**Brings salts to the surface and leaves them there as the water evaporates.** Water drawn up by capillarity evaporates at the surface and leaves its dissolved salts behind, so the land becomes saline as well as waterlogged.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Capillary rise does bring moisture to the root zone, which sounds beneficial until the salt is accounted for.",
+        "trick": "The water leaves; the salt does not.",
+        "mnemonic": "Rise, evaporate, salinise."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q033",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0301",
+      "marks": 1,
+      "stem": "Capillary rise in a fine tube is caused by:",
+      "options": [
+        "Surface tension together with adhesion to the tube wall",
+        "Viscosity of the liquid",
+        "The compressibility of the liquid",
+        "Atmospheric pressure alone"
+      ],
+      "answerIndex": 0,
+      "solution": "**Surface tension together with adhesion to the tube wall.** h = 4σcosθ/(ρgd) — the rise is proportional to surface tension and inversely proportional to the tube diameter.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Viscosity governs how fast the liquid rises, not how far — a common conflation.",
+        "trick": "Narrower tube, higher rise; that points straight at surface tension.",
+        "mnemonic": "Capillarity is surface tension at work."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q034",
+      "chapter": "AALL10",
+      "subchapter": "AALL1006",
+      "marks": 1,
+      "stem": "To be registered as a professional engineer with the NEC, a person must hold:",
+      "options": [
+        "Any bachelor's degree",
+        "A recognised engineering degree and the prescribed professional experience",
+        "A diploma in engineering only",
+        "Only a certificate of practice from an employer"
+      ],
+      "answerIndex": 1,
+      "solution": "**A recognised engineering degree and the prescribed professional experience.** Registration requires a degree from an institution recognised by the Council together with the experience its regulations prescribe for the category.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A diploma qualifies a person as an associate or sub-engineer, not a professional engineer.",
+        "trick": "The category of registration follows the level of qualification.",
+        "mnemonic": "Degree plus experience."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q035",
+      "chapter": "AALL10",
+      "subchapter": "AALL1005",
+      "marks": 1,
+      "stem": "The Sustainable Development Goals comprise:",
+      "options": [
+        "8 goals with 21 targets",
+        "17 goals with 230 targets",
+        "17 goals with 169 targets",
+        "15 goals with 169 targets"
+      ],
+      "answerIndex": 2,
+      "solution": "**17 goals with 169 targets.** The 2030 Agenda sets 17 goals and 169 targets; the indicators that measure them number about 230.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "230 is the number of *indicators*, offered beside the targets to see whether the two are told apart.",
+        "trick": "Goals 17, targets 169, indicators about 230.",
+        "mnemonic": "SDGs: 17 goals, 169 targets, about 230 indicators."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q036",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0902",
+      "marks": 1,
+      "stem": "The stopping sight distance for a design speed of 80 km/h on a level road is about:",
+      "options": [
+        "60 m",
+        "180 m",
+        "90 m",
+        "120 m"
+      ],
+      "answerIndex": 3,
+      "solution": "**120 m.** SSD = 0.278Vt + V²/(254f) with t = 2.5 s and f = 0.35 gives roughly 120 m at 80 km/h.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Doubling the speed does not double the distance — the braking term is proportional to V², which is why estimates come out low.",
+        "trick": "The braking term grows with the square of the speed.",
+        "mnemonic": "80 km/h ⇒ about 120 m."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q037",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0902",
+      "marks": 1,
+      "stem": "The distance travelled between the moment a driver sees an object and the moment the brakes are applied is the:",
+      "options": [
+        "Braking distance",
+        "Lag distance",
+        "Stopping sight distance",
+        "Overtaking distance"
+      ],
+      "answerIndex": 1,
+      "solution": "**Lag distance.** Lag (reaction) distance is the speed multiplied by the perception-reaction time, usually 2.5 s. Adding the braking distance gives the stopping sight distance.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Braking distance is the part after the brakes bite, and together the two make up the SSD.",
+        "trick": "Lag first, brake second, SSD is the sum.",
+        "mnemonic": "Lag then brake."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q038",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0904",
+      "marks": 1,
+      "stem": "Time headway is measured in:",
+      "options": [
+        "Metres",
+        "Vehicles per hour",
+        "Seconds",
+        "Metres per second"
+      ],
+      "answerIndex": 2,
+      "solution": "**Seconds.** Time headway is the interval between successive vehicles passing a point; space headway, measured in metres, is the distance between them.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Space headway is the related quantity measured in metres, and the word \"headway\" alone does not say which is meant.",
+        "trick": "Time headway is a time, so it is in seconds.",
+        "mnemonic": "Time headway, seconds; space headway, metres."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q039",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0402",
+      "marks": 1,
+      "stem": "The strain energy stored in a member of length L subjected to a constant bending moment M is:",
+      "options": [
+        "M²L/EI",
+        "ML²/2EI",
+        "M²L²/2EI",
+        "M²L/2EI"
+      ],
+      "answerIndex": 3,
+      "solution": "**M²L/2EI.** U = ∫M²dx/2EI; with M constant the integral is simply M²L/2EI.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "ML²/2EI has the right look but the wrong powers — it is dimensionally not an energy.",
+        "trick": "Strain energy always carries the load squared.",
+        "mnemonic": "M squared L over 2EI."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q040",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0405",
+      "marks": 1,
+      "stem": "For a series of moving wheel loads on a simply supported girder, the absolute maximum bending moment occurs:",
+      "options": [
+        "Under a load, near mid-span",
+        "Always exactly at mid-span",
+        "At the supports",
+        "At the quarter point"
+      ],
+      "answerIndex": 0,
+      "solution": "**Under a load, near mid-span.** It occurs under the load that is placed so that the centre line of the span bisects the distance between that load and the resultant of the whole system.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Mid-span is where the maximum sits for a single central load, so it is the answer carried over by habit.",
+        "trick": "The maximum always occurs *under a load*, not in the gap between them.",
+        "mnemonic": "Bisect between the load and the resultant."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q041",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0906",
+      "marks": 1,
+      "stem": "A level crossing is the intersection of a road with:",
+      "options": [
+        "Another road at a different level",
+        "A canal",
+        "A railway at the same level",
+        "A footpath"
+      ],
+      "answerIndex": 2,
+      "solution": "**A railway at the same level.** It is a road-rail intersection at grade, controlled by gates or signals because the two cannot pass at the same time.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A road-over-road intersection at the same level is simply an at-grade junction, not a level crossing.",
+        "trick": "\"Level\" refers to the grade; the crossing is with a railway.",
+        "mnemonic": "Level crossing = road meets rail."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q042",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0705",
+      "marks": 1,
+      "stem": "An aqueduct is a cross-drainage work in which:",
+      "options": [
+        "The drainage is carried over the canal",
+        "The two flows are allowed to mix",
+        "The canal passes under the drainage in a barrel",
+        "The canal is carried over the drainage"
+      ],
+      "answerIndex": 3,
+      "solution": "**The canal is carried over the drainage.** Canal over drain is an aqueduct; drain over canal is a super-passage; mixing them is a level crossing.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A super-passage is the mirror image and the two names give no clue which way round they go.",
+        "trick": "Think of a Roman aqueduct — the water channel is carried up on arches.",
+        "mnemonic": "Aqueduct: canal on top."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q043",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0404",
+      "marks": 1,
+      "stem": "The kinematic indeterminacy of a plane truss joint is:",
+      "options": [
+        "2 (two translations)",
+        "1 (one translation)",
+        "3 (two translations and a rotation)",
+        "0"
+      ],
+      "answerIndex": 0,
+      "solution": "**2 (two translations).** Truss members carry axial force only, so joint rotation is not a degree of freedom; each free joint has two translations in a plane.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A plane *frame* joint has three degrees of freedom, and that figure is carried across to the truss.",
+        "trick": "No moment at a pin, so no rotational freedom to count.",
+        "mnemonic": "Truss joint: 2. Frame joint: 3."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q044",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0506",
+      "marks": 1,
+      "stem": "In a nailed timber joint, the minimum spacing of nails along the grain in a tension member is about:",
+      "options": [
+        "4 times the shank diameter",
+        "10 times the shank diameter",
+        "2 times the shank diameter",
+        "20 times the shank diameter"
+      ],
+      "answerIndex": 1,
+      "solution": "**10 times the shank diameter.** Tension members need wider nail spacing than compression members — about 10d along the grain against roughly 5d in compression — because splitting is the governing failure.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The compression spacing is smaller, so quoting it here under-spaces the joint and invites a split.",
+        "trick": "Tension splits timber, so the fasteners must be kept further apart.",
+        "mnemonic": "Tension 10d, compression 5d."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q045",
+      "chapter": "AALL10",
+      "subchapter": "AALL1005",
+      "marks": 1,
+      "stem": "A professional engineer should NOT:",
+      "options": [
+        "Keep up to date with technical developments",
+        "Report a danger to public safety",
+        "Decline work for which they are not qualified",
+        "Accept work outside their field of competence"
+      ],
+      "answerIndex": 3,
+      "solution": "**Accept work outside their field of competence.** Every code of conduct limits an engineer to work within their competence; accepting work beyond it endangers the public and the profession.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The other three are positive duties, written to look like candidate prohibitions.",
+        "trick": "Only one of the four would harm anyone.",
+        "mnemonic": "Stay within your competence."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q046",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0602",
+      "marks": 1,
+      "stem": "Which valve is provided at a summit in a pipeline to release accumulated air?",
+      "options": [
+        "Air valve",
+        "Sluice valve",
+        "Reflux valve",
+        "Scour valve"
+      ],
+      "answerIndex": 0,
+      "solution": "**Air valve.** Air collects at high points and throttles the flow; an air valve lets it escape. A scour valve at the low points removes sediment.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The scour valve is the exact counterpart at the bottom of the profile, and the pair are routinely swapped.",
+        "trick": "Air rises, sediment sinks — valve each at its own end.",
+        "mnemonic": "Air at the top, scour at the bottom."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q047",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0602",
+      "marks": 1,
+      "stem": "Which pipe material is preferred for high-pressure water mains?",
+      "options": [
+        "Cast iron",
+        "Steel",
+        "Asbestos cement",
+        "Vitrified clay"
+      ],
+      "answerIndex": 1,
+      "solution": "**Steel.** Steel has high tensile strength and ductility, so it carries high internal pressure in thinner walls than brittle materials can.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Cast iron is the traditional water main material, but it is brittle and limited to moderate pressures.",
+        "trick": "High pressure means hoop tension, and tension means steel.",
+        "mnemonic": "Pressure needs ductility."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q048",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0604",
+      "marks": 1,
+      "stem": "Stoneware sewer pipes are jointed using:",
+      "options": [
+        "Welding",
+        "Threaded couplings",
+        "A cement mortar collar joint with a tarred gasket",
+        "Flanged bolted joints"
+      ],
+      "answerIndex": 2,
+      "solution": "**A cement mortar collar joint with a tarred gasket.** The spigot is centred in the socket on a jute or tarred gasket and the remaining space filled with cement mortar.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Flanged and welded joints belong to metal pipes, which cannot be used for the corrosive contents of a sewer.",
+        "trick": "A brittle ceramic pipe can only take a packed joint.",
+        "mnemonic": "Stoneware: gasket and mortar."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q049",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0604",
+      "marks": 1,
+      "stem": "A separate sewerage system is preferred where:",
+      "options": [
+        "Rainfall is heavy and sewage must be treated",
+        "Rainfall is negligible",
+        "The town has a flat gradient",
+        "The sewage is highly diluted"
+      ],
+      "answerIndex": 0,
+      "solution": "**Rainfall is heavy and sewage must be treated.** Keeping storm water out keeps the treatment works small; in a combined system every storm would swamp it.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A combined system is cheaper to build, which makes it the right answer to the *cost* question but not to this one.",
+        "trick": "Treatment capacity is what decides it: never pay to treat rainwater.",
+        "mnemonic": "Heavy rain, separate it."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q050",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0704",
+      "marks": 1,
+      "stem": "A guide bund is provided to:",
+      "options": [
+        "Store flood water temporarily",
+        "Confine and guide the river flow through a bridge or weir opening",
+        "Raise the water level for diversion",
+        "Trap sediment upstream of the intake"
+      ],
+      "answerIndex": 1,
+      "solution": "**Confine and guide the river flow through a bridge or weir opening.** Guide bunds hold the river to a defined width across the structure and prevent it outflanking the works.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A spur also protects a bank, but it projects into the flow instead of guiding it along a prepared line.",
+        "trick": "Guide bunds guide; spurs deflect.",
+        "mnemonic": "Guide the river through the gap."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q051",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0904",
+      "marks": 1,
+      "stem": "The main effect of installing a traffic signal at an intersection is to:",
+      "options": [
+        "Increase the capacity of every approach",
+        "Eliminate all delay",
+        "Separate conflicting movements in time and reduce right-angle collisions",
+        "Remove the need for road markings"
+      ],
+      "answerIndex": 2,
+      "solution": "**Separate conflicting movements in time and reduce right-angle collisions.** Signals assign right of way by time rather than by driver judgement. Total delay often rises even as serious collisions fall.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Increases capacity\" is the expectation, but a signal gives each approach only part of the time and can reduce total capacity.",
+        "trick": "Signals trade delay for safety.",
+        "mnemonic": "Signals separate in time."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q052",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0902",
+      "marks": 1,
+      "stem": "Which of the following is NOT considered in the geometric design of a highway?",
+      "options": [
+        "The design speed",
+        "Sight distance",
+        "Camber and superelevation",
+        "The thickness of the pavement layers"
+      ],
+      "answerIndex": 3,
+      "solution": "**The thickness of the pavement layers.** Geometric design settles the shape of the road — alignment, cross-section, sight distance. Layer thickness belongs to pavement design.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Both are part of designing a road, which makes the boundary between them the whole question.",
+        "trick": "Geometry is what you would see on a drawing of the road surface.",
+        "mnemonic": "Shape is geometric, thickness is structural."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q053",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0502",
+      "marks": 1,
+      "stem": "In a reinforced concrete member, steel and concrete act together mainly because:",
+      "options": [
+        "They have equal strength",
+        "Their coefficients of thermal expansion are nearly equal and bond develops between them",
+        "They have the same modulus of elasticity",
+        "They have the same density"
+      ],
+      "answerIndex": 1,
+      "solution": "**Their coefficients of thermal expansion are nearly equal and bond develops between them.** Nearly equal thermal expansion (about 12 × 10⁻⁶ /°C) means temperature changes do not break the bond, and the bond makes them strain together.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Their moduli differ by a factor of about eight, which is precisely why the modular ratio exists.",
+        "trick": "If the expansions differed, the first hot day would destroy the bond.",
+        "mnemonic": "Same expansion, good bond."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q054",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0402",
+      "marks": 1,
+      "stem": "The property by which a material regains its original shape after the load is removed is:",
+      "options": [
+        "Plasticity",
+        "Ductility",
+        "Elasticity",
+        "Malleability"
+      ],
+      "answerIndex": 2,
+      "solution": "**Elasticity.** Elasticity is complete recovery on unloading; plasticity is the retention of deformation after the load is taken off.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Ductility is the ability to be drawn into a wire, which also involves deformation but permanent deformation.",
+        "trick": "Recovery means elastic; retention means plastic.",
+        "mnemonic": "Elastic springs back."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q055",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0402",
+      "marks": 1,
+      "stem": "The property by which strain continues to disappear slowly after the load has been removed is called:",
+      "options": [
+        "Creep",
+        "Fatigue",
+        "Hysteresis",
+        "Elastic after-effect"
+      ],
+      "answerIndex": 3,
+      "solution": "**Elastic after-effect.** The elastic after-effect is the time lag in recovering the strain; creep is the opposite, a slow increase in strain while the load is sustained.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Creep happens under constant load, after-effect happens after unloading — the two are mirror images.",
+        "trick": "Ask whether the load is still on.",
+        "mnemonic": "Load on: creep. Load off: after-effect."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q056",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0402",
+      "marks": 1,
+      "stem": "On the stress-strain curve of mild steel, the point immediately after the ultimate stress is:",
+      "options": [
+        "The breaking (rupture) point",
+        "The yield point",
+        "The elastic limit",
+        "The proportional limit"
+      ],
+      "answerIndex": 0,
+      "solution": "**The breaking (rupture) point, reached after necking.** Past the ultimate stress the specimen necks, the true area falls rapidly, and the nominal stress declines until fracture.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Yield, elastic limit and proportional limit all come *before* the ultimate stress, not after it.",
+        "trick": "Only one point on the curve lies beyond the peak.",
+        "mnemonic": "Peak, neck, break."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q057",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0201",
+      "marks": 1,
+      "stem": "The shrinkage limit of a soil is:",
+      "options": [
+        "The water content at which the soil flows",
+        "The water content at which the soil crumbles when rolled",
+        "The water content below which no further volume reduction occurs on drying",
+        "The maximum water content a soil can hold"
+      ],
+      "answerIndex": 2,
+      "solution": "**The water content below which no further volume reduction occurs on drying.** At and below the shrinkage limit the voids stay the same size while water continues to leave, so the volume is constant.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Rolling into a thread defines the plastic limit, which is the next Atterberg limit above it.",
+        "trick": "It is the only limit defined by a change in volume rather than in behaviour.",
+        "mnemonic": "Below SL, volume stops shrinking."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q058",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0406",
+      "marks": 1,
+      "stem": "For a two-hinged semicircular arch carrying a point load, the locus of the reaction at a support is:",
+      "options": [
+        "A circle",
+        "A parabola",
+        "An ellipse",
+        "A straight line"
+      ],
+      "answerIndex": 3,
+      "solution": "**A straight line.** The horizontal and vertical components vary in fixed proportion as the load moves, so the resultant reaction traces a straight line.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The arch is semicircular, which tempts the eye towards a circular locus.",
+        "trick": "A locus of a resultant of two linearly related components is always straight.",
+        "mnemonic": "Linear components, straight locus."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q059",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0104",
+      "marks": 1,
+      "stem": "For a semicircular lamina, the centre of gravity lies:",
+      "options": [
+        "Inside the lamina, on the axis of symmetry",
+        "Outside the lamina",
+        "On the curved boundary",
+        "At the centre of the full circle"
+      ],
+      "answerIndex": 0,
+      "solution": "**Inside the lamina, on the axis of symmetry.** It lies on the axis of symmetry at 4R/3π from the diameter, which is inside the material.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The centroid of a *ring* or an angle section can indeed fall outside the material, which is where this idea comes from.",
+        "trick": "For any solid convex shape, the centroid must lie within it.",
+        "mnemonic": "Semicircle: 4R/3π, and inside."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q060",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0104",
+      "marks": 1,
+      "stem": "The centre of gravity of a quadrant of a circle of radius R lies from each straight edge at:",
+      "options": [
+        "2R/3π",
+        "4R/3π",
+        "4R/3",
+        "R/2"
+      ],
+      "answerIndex": 1,
+      "solution": "**4R/3π.** By symmetry it is 4R/3π from both radii — the same distance as the semicircular lamina from its diameter.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "2R/3π is half the right value and appears in the same family of results.",
+        "trick": "The quadrant shares the semicircle's centroidal distance, taken about both edges.",
+        "mnemonic": "4R over 3π, twice over."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q061",
+      "chapter": "AALL10",
+      "subchapter": "AALL1002",
+      "marks": 1,
+      "stem": "In the sum-of-years-digits method of depreciation over a 4-year life, the sum of the digits is:",
+      "options": [
+        "4",
+        "16",
+        "24",
+        "10"
+      ],
+      "answerIndex": 3,
+      "solution": "**10.** 1 + 2 + 3 + 4 = 10, so the first year's depreciation is 4/10 of the depreciable value and the last year's is 1/10.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "24 is 4 factorial and 16 is 4 squared — both plausible-looking arithmetic on the number 4.",
+        "trick": "n(n+1)/2 = 4 × 5/2 = 10.",
+        "mnemonic": "Add the years, do not multiply them."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q062",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0205",
+      "marks": 1,
+      "stem": "An open (shallow) foundation is used where:",
+      "options": [
+        "Firm soil of adequate capacity is available at a shallow depth",
+        "The soil is weak for a great depth",
+        "The structure is subject to large uplift",
+        "The water table is very high"
+      ],
+      "answerIndex": 0,
+      "solution": "**Firm soil of adequate capacity is available at a shallow depth.** It is excavated in open cut and built in place, which is only economical while the bearing stratum is near the surface.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Weak soil to great depth is exactly the case that forces a *deep* foundation instead.",
+        "trick": "Open means dug out in the open, which limits how deep it can go.",
+        "mnemonic": "Good soil near the top, open footing."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q063",
+      "chapter": "AALL10",
+      "subchapter": "AALL1005",
+      "marks": 1,
+      "stem": "Effective communication in a construction project is important mainly because it:",
+      "options": [
+        "Replaces the need for written contracts",
+        "Prevents misunderstanding between the parties and reduces disputes",
+        "Reduces the cost of materials",
+        "Shortens the design period"
+      ],
+      "answerIndex": 1,
+      "solution": "**Prevents misunderstanding between the parties and reduces disputes.** Most construction disputes begin as a misunderstanding of scope, instruction or expectation, which clear and recorded communication prevents.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Communication supports a contract; it never replaces one.",
+        "trick": "The benefit is fewer disputes, not cheaper materials.",
+        "mnemonic": "Talk clearly, argue less."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q064",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0306",
+      "marks": 1,
+      "stem": "Watershed deterioration is caused mainly by:",
+      "options": [
+        "Afforestation",
+        "Contour ploughing",
+        "Deforestation and unplanned land use",
+        "Construction of check dams"
+      ],
+      "answerIndex": 2,
+      "solution": "**Deforestation and unplanned land use.** Removing vegetation exposes the soil, so runoff and erosion rise and the catchment loses its ability to regulate flow.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The other three options are all *remedies* for the same problem, offered as if they were causes.",
+        "trick": "Pick the one that removes vegetation rather than adds it.",
+        "mnemonic": "Lose the trees, lose the watershed."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q065",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0702",
+      "marks": 1,
+      "stem": "A canal is designed for a velocity that is:",
+      "options": [
+        "Non-silting and non-scouring",
+        "As high as possible",
+        "As low as possible",
+        "Equal to the critical velocity of the flow"
+      ],
+      "answerIndex": 0,
+      "solution": "**Non-silting and non-scouring.** Too low and sediment settles; too high and the bed and banks erode. Kennedy's and Lacey's theories both aim at the regime between the two.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "\"Critical velocity\" in Kennedy's sense is the non-silting velocity, which is only half the requirement.",
+        "trick": "The design velocity is a band, not a maximum or a minimum.",
+        "mnemonic": "Neither silt nor scour."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q066",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0204",
+      "marks": 1,
+      "stem": "A piston sampler is used to obtain:",
+      "options": [
+        "Disturbed samples of gravel",
+        "Undisturbed samples of soft clay",
+        "Rock cores",
+        "Water samples from a borehole"
+      ],
+      "answerIndex": 1,
+      "solution": "**Undisturbed samples of soft clay.** The piston keeps the tube sealed on the way down and holds the sample by suction on the way up, which is what soft clay needs.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A split-spoon sampler is the familiar one from the SPT, and it returns a *disturbed* sample.",
+        "trick": "Undisturbed sampling of soft soil needs a thin wall and a piston.",
+        "mnemonic": "Piston for soft, undisturbed clay."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q067",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0204",
+      "marks": 1,
+      "stem": "The coefficient of earth pressure at rest K₀ for a normally consolidated soil is given by:",
+      "options": [
+        "1 + sinφ",
+        "(1 − sinφ)/(1 + sinφ)",
+        "1 − sinφ",
+        "(1 + sinφ)/(1 − sinφ)"
+      ],
+      "answerIndex": 2,
+      "solution": "**1 − sinφ.** Jaky's expression K₀ = 1 − sinφ applies when there has been no lateral strain at all.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "(1 − sinφ)/(1 + sinφ) is the *active* coefficient, which applies only after the wall has yielded away from the soil.",
+        "trick": "At rest means nothing has moved, so Ka does not apply.",
+        "mnemonic": "At rest: 1 − sinφ."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q068",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0202",
+      "marks": 1,
+      "stem": "When total stress on a saturated clay is increased rapidly, the immediate effect is:",
+      "options": [
+        "The effective stress rises by the whole increment",
+        "Both rise equally",
+        "Neither changes",
+        "The pore water pressure rises by the whole increment"
+      ],
+      "answerIndex": 3,
+      "solution": "**The pore water pressure rises by the whole increment.** Water cannot escape at once, so it carries the whole of the increase; effective stress rises only as the excess pore pressure dissipates.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "In sand the pore pressure dissipates almost instantly, so the intuition from granular soils gives the wrong answer here.",
+        "trick": "Water is incompressible and cannot leave quickly, so it takes the load first.",
+        "mnemonic": "Load first to the water, then to the grains."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q069",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0702",
+      "marks": 1,
+      "stem": "Kennedy's critical velocity ratio depends on:",
+      "options": [
+        "The bed slope of the canal",
+        "The type and grade of the silt carried",
+        "The side slope of the canal",
+        "The command area served"
+      ],
+      "answerIndex": 1,
+      "solution": "**The type and grade of the silt carried.** The critical velocity ratio m adjusts Kennedy's formula for silt coarser or finer than the Upper Bari Doab material it was derived from.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Bed slope governs the velocity itself, so it is easily mistaken for what the ratio corrects.",
+        "trick": "The ratio corrects for the sediment, not for the geometry.",
+        "mnemonic": "CVR follows the silt."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q070",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0103",
+      "marks": 1,
+      "stem": "In a stair, the handrail is connected to the:",
+      "options": [
+        "Tread only",
+        "Riser only",
+        "Newel post and the balusters",
+        "Stringer soffit"
+      ],
+      "answerIndex": 2,
+      "solution": "**Newel post and the balusters.** The balusters stand on the string or the treads and carry the handrail, which terminates against the newel post at each change of direction.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Treads and risers are the walking surfaces and carry no part of the rail.",
+        "trick": "Follow the load path: rail to baluster to string or newel.",
+        "mnemonic": "Newel and balusters hold the rail."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q071",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0605",
+      "marks": 1,
+      "stem": "Night soil is another name for:",
+      "options": [
+        "Sullage from kitchens",
+        "Industrial effluent",
+        "Storm water",
+        "Human excreta collected without water carriage"
+      ],
+      "answerIndex": 3,
+      "solution": "**Human excreta collected without water carriage.** It is the excreta collected in a conservancy system, so called because it was removed at night.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Sullage is the waste water from kitchens and baths and contains no excreta, which is precisely the distinction.",
+        "trick": "Sullage has no faecal matter; sewage and night soil do.",
+        "mnemonic": "Night soil is excreta; sullage is wash water."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q072",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0601",
+      "marks": 1,
+      "stem": "Alkalinity in natural water is chiefly due to:",
+      "options": [
+        "Bicarbonates, carbonates and hydroxides",
+        "Chlorides",
+        "Sulphates",
+        "Nitrates"
+      ],
+      "answerIndex": 0,
+      "solution": "**Bicarbonates, carbonates and hydroxides.** These three ions give water its capacity to neutralise acid, and bicarbonate dominates at normal pH.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Chlorides and sulphates contribute to hardness and to taste, but neither buffers acid.",
+        "trick": "Alkalinity is an acid-neutralising capacity, so it must come from basic ions.",
+        "mnemonic": "Bicarbonate, carbonate, hydroxide."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q073",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0603",
+      "marks": 1,
+      "stem": "The lime-soda process is used for:",
+      "options": [
+        "Disinfecting water",
+        "Removing turbidity",
+        "Softening hard water",
+        "Removing colour"
+      ],
+      "answerIndex": 2,
+      "solution": "**Softening hard water.** Lime removes carbonate hardness and soda ash removes non-carbonate hardness, both by precipitating calcium and magnesium.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Alum removes turbidity and chlorine disinfects — each stage of a treatment works has its own chemical.",
+        "trick": "Lime and soda both target hardness ions.",
+        "mnemonic": "Lime-soda softens."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q074",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0605",
+      "marks": 1,
+      "stem": "In the conventional activated sludge process, the returned sludge is about:",
+      "options": [
+        "1-5%",
+        "100%",
+        "200%",
+        "25-50% of the incoming sewage flow"
+      ],
+      "answerIndex": 3,
+      "solution": "**25-50% of the incoming sewage flow.** Returning a quarter to a half of the flow maintains the mixed liquor suspended solids at the design concentration.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Extended aeration and other modifications use far higher return ratios, so larger figures are not absurd.",
+        "trick": "The return keeps the biomass up without doubling the tank throughput.",
+        "mnemonic": "Return a quarter to a half."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q075",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0302",
+      "marks": 1,
+      "stem": "The piezometric head at a point is equal to:",
+      "options": [
+        "The pressure head plus the datum head",
+        "The velocity head plus the datum head",
+        "The total head",
+        "The pressure head alone"
+      ],
+      "answerIndex": 0,
+      "solution": "**The pressure head plus the datum head.** It is the level to which water rises in a piezometer, which measures pressure and elevation but not velocity.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Total head adds the velocity head, and in a slow-moving flow the two are nearly equal — but not identical.",
+        "trick": "A piezometer is open and still, so it cannot register velocity head.",
+        "mnemonic": "Piezometric = p/γ + z."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q076",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0701",
+      "marks": 1,
+      "stem": "The irrigation interval (frequency) is equal to:",
+      "options": [
+        "The base period divided by the delta",
+        "The net depth of water available in the root zone divided by the peak daily consumptive use",
+        "The delta multiplied by the duty",
+        "The duty divided by the base period"
+      ],
+      "answerIndex": 1,
+      "solution": "**The net depth of water available in the root zone divided by the peak daily consumptive use.** The soil holds a certain depth of readily available water; dividing by the rate at which the crop uses it gives the days between waterings.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Delta, duty and base period are related to one another by their own formula, which is a different relation entirely.",
+        "trick": "Interval is a storage divided by a rate, so it comes out in days.",
+        "mnemonic": "Available depth over daily use."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q077",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0703",
+      "marks": 1,
+      "stem": "The crest of the under-sluices is kept:",
+      "options": [
+        "Higher than the crest of the head regulator",
+        "At the same level as the head regulator",
+        "At pond level",
+        "Lower than the crest of the head regulator"
+      ],
+      "answerIndex": 3,
+      "solution": "**Lower than the crest of the head regulator.** Keeping the under-sluice crest low forms a still pocket in front of the head regulator, so the coarse sediment settles there and is scoured away through the sluices.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Setting both crests level would let the bed load travel straight into the canal.",
+        "trick": "Sediment collects at the lowest point, so put the scouring outlet there.",
+        "mnemonic": "Sluice low, regulator high."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q078",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0802",
+      "marks": 1,
+      "stem": "A power plant with a high operating cost but great flexibility is best used for:",
+      "options": [
+        "Peak load",
+        "Base load",
+        "Continuous industrial supply",
+        "Pumped storage charging"
+      ],
+      "answerIndex": 0,
+      "solution": "**Peak load.** Peaking plant runs for only a few hours a day, so a high running cost matters little; what matters is how quickly it can start and stop.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Base load plant is the opposite case: low running cost, poor flexibility, run continuously.",
+        "trick": "Few hours of operation make capital and flexibility matter more than fuel cost.",
+        "mnemonic": "Flexible and dear → peak."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q079",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0802",
+      "marks": 1,
+      "stem": "The main factor in selecting a plant for peak load service is its:",
+      "options": [
+        "Lowest cost per unit generated",
+        "Ability to start and change output quickly",
+        "Largest installed capacity",
+        "Highest annual load factor"
+      ],
+      "answerIndex": 1,
+      "solution": "**Ability to start and change output quickly.** A peaking plant must come on line within minutes and follow a rapidly changing demand.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Lowest cost per unit is exactly the criterion for *base* load plant, which runs all the time.",
+        "trick": "Peaking is about speed of response, not economy.",
+        "mnemonic": "Peaking plant is chosen for speed, base load for cheapness."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q080",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0802",
+      "marks": 1,
+      "stem": "The area under a daily load curve represents:",
+      "options": [
+        "The maximum demand",
+        "The load factor",
+        "The total energy generated in the day",
+        "The installed capacity"
+      ],
+      "answerIndex": 2,
+      "solution": "**The total energy generated in the day.** Power multiplied by time is energy, so the area beneath the curve is the number of units supplied over the day.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The maximum demand is the *peak* of the curve, a single ordinate rather than an area.",
+        "trick": "Area under a power-time plot is always energy.",
+        "mnemonic": "Area = energy, peak = demand."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q081",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0306",
+      "marks": 1,
+      "stem": "A double mass curve is used to:",
+      "options": [
+        "Check the consistency of a rainfall record",
+        "Estimate the peak flood",
+        "Find the time of concentration",
+        "Route a flood through a reservoir"
+      ],
+      "answerIndex": 0,
+      "solution": "**Check the consistency of a rainfall record.** Plotting the cumulative rainfall of one station against the cumulative mean of surrounding stations gives a straight line; a change in slope shows the record has been disturbed.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A mass curve on its own is used for reservoir storage calculations, which is a different plot with a similar name.",
+        "trick": "\"Double\" means two cumulative totals plotted against each other.",
+        "mnemonic": "Double mass, double-check the record."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q082",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0803",
+      "marks": 1,
+      "stem": "A gravity dam is preferred on a foundation of:",
+      "options": [
+        "Soft clay",
+        "Sound rock",
+        "Loose sand",
+        "Fissured shale"
+      ],
+      "answerIndex": 1,
+      "solution": "**Sound rock.** The whole weight of the dam is carried on a narrow base, so the foundation must take high bearing pressure and resist sliding — which only sound rock does.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "An earthen dam is the one that can be founded on soil, and that flexibility is easy to transfer to the wrong dam type.",
+        "trick": "Concrete dam, rock foundation; earth dam, soil foundation.",
+        "mnemonic": "Gravity needs rock."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q083",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0905",
+      "marks": 1,
+      "stem": "A newly laid rigid (cement concrete) pavement is normally opened to traffic after:",
+      "options": [
+        "7 days",
+        "14 days",
+        "28 days",
+        "3 days"
+      ],
+      "answerIndex": 2,
+      "solution": "**28 days.** Concrete reaches its characteristic strength at 28 days, and only then can the slab carry its design wheel load.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "7 days is the usual curing period, after which the surface is firm — but the concrete has only about two-thirds of its strength.",
+        "trick": "Curing period and opening time are not the same thing.",
+        "mnemonic": "Cure 7, open 28."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q084",
+      "chapter": "ACiE04",
+      "subchapter": "ACiE0401",
+      "marks": 1,
+      "stem": "The rate of change of bending moment with respect to distance along a beam is equal to:",
+      "options": [
+        "The load intensity",
+        "The deflection",
+        "The slope",
+        "The shear force"
+      ],
+      "answerIndex": 3,
+      "solution": "**The shear force.** dM/dx = V, and differentiating once more gives dV/dx = −w.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "The load intensity is the derivative of the *shear force*, one step further along the same chain.",
+        "trick": "Load → shear → moment, each by one integration.",
+        "mnemonic": "dM/dx = V, dV/dx = −w."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q085",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0304",
+      "marks": 1,
+      "stem": "The flow in a penstock or any large pressure pipe is almost always:",
+      "options": [
+        "Laminar",
+        "Turbulent",
+        "Transitional",
+        "Steady and laminar"
+      ],
+      "answerIndex": 1,
+      "solution": "**Turbulent.** Reynolds numbers in a penstock run into the millions, far above the transition value of about 2000.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Laminar flow is the case analysed first in every textbook, so it is the more familiar word.",
+        "trick": "Large diameter and high velocity both drive Re up.",
+        "mnemonic": "Big pipe, fast water, turbulent."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q086",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0906",
+      "marks": 1,
+      "stem": "In a mass haul diagram, a falling (negative) ordinate indicates:",
+      "options": [
+        "Cut",
+        "A borrow pit",
+        "Fill",
+        "A spoil heap"
+      ],
+      "answerIndex": 2,
+      "solution": "**Fill.** The curve accumulates cut as positive and fill as negative, so a falling section means earth is being placed rather than removed.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Cut and fill are offered together and the sign convention is the entire question.",
+        "trick": "Rising means earth is being won; falling means it is being used.",
+        "mnemonic": "Up is cut, down is fill."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q087",
+      "chapter": "ACiE06",
+      "subchapter": "ACiE0602",
+      "marks": 1,
+      "stem": "A pressure relief valve in a pipeline is provided to:",
+      "options": [
+        "Maintain a minimum flow",
+        "Remove sediment",
+        "Admit air during emptying",
+        "Protect the pipe from excessive internal pressure"
+      ],
+      "answerIndex": 3,
+      "solution": "**Protect the pipe from excessive internal pressure.** It opens automatically when the pressure exceeds a set value and discharges enough water to bring it back down.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Admitting air during emptying is the duty of an air valve, which also sits at the top of the main.",
+        "trick": "A relief valve relieves pressure.",
+        "mnemonic": "Over-pressure, open up."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q088",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0302",
+      "marks": 1,
+      "stem": "When a floating block of ice melts in a container of water, the water level:",
+      "options": [
+        "Remains unchanged",
+        "Rises",
+        "Falls",
+        "Rises then falls"
+      ],
+      "answerIndex": 0,
+      "solution": "**Remains unchanged.** Floating ice displaces its own weight of water, and on melting it produces exactly that weight of water, so the volume displaced is unchanged.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Ice is less dense, so it looks as though melting must reduce the volume and lower the level.",
+        "trick": "Compare weights, not volumes: the displaced weight equals the ice weight either way.",
+        "mnemonic": "Floating ice melts to its own displacement."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q089",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0503",
+      "marks": 1,
+      "stem": "Minimum shear reinforcement in a beam is provided in the form of:",
+      "options": [
+        "Extra longitudinal bars at the bottom",
+        "Bent-up bars alone",
+        "Vertical stirrups at a prescribed maximum spacing",
+        "Additional cover to the main steel"
+      ],
+      "answerIndex": 2,
+      "solution": "**Vertical stirrups at a prescribed maximum spacing.** IS 456 requires Asv/(b·sv) ≥ 0.4/0.87fy, so that a beam always has some stirrups even where the calculated shear is small.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Bent-up bars can carry shear but are never allowed to provide more than half of it, so they cannot supply the minimum alone.",
+        "trick": "The minimum is about guaranteeing stirrups everywhere.",
+        "mnemonic": "Minimum shear steel = stirrups."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q090",
+      "chapter": "ACiE03",
+      "subchapter": "ACiE0304",
+      "marks": 1,
+      "stem": "The exit head loss at a submerged outlet from a pipe into a large reservoir is:",
+      "options": [
+        "0.5V²/2g",
+        "Zero",
+        "0.1V²/2g",
+        "V²/2g"
+      ],
+      "answerIndex": 3,
+      "solution": "**V²/2g — the whole velocity head is lost.** The jet dissipates in the still water of the reservoir, so all the kinetic energy it carried is lost.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "0.5V²/2g is the *entrance* loss for a sharp-edged pipe, the mirror case at the other end.",
+        "trick": "Entry costs half a velocity head, exit costs a whole one.",
+        "mnemonic": "In 0.5, out 1.0."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q091",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0101",
+      "marks": 1,
+      "stem": "The hardening of cement is due to:",
+      "options": [
+        "Hydration of the cement compounds",
+        "Evaporation of the mixing water",
+        "Carbonation by atmospheric CO₂",
+        "Crystallisation of the aggregate"
+      ],
+      "answerIndex": 0,
+      "solution": "**Hydration of the cement compounds.** Water reacts chemically with the silicates and aluminates to form the hydrated gel that binds the mix. Drying out stops the reaction.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Concrete does dry as it hardens, which makes evaporation look like the cause rather than an unwanted side effect.",
+        "trick": "If evaporation hardened concrete, curing would not require keeping it wet.",
+        "mnemonic": "Hydration, not dehydration."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q092",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0106",
+      "marks": 1,
+      "stem": "The value of a property estimated without dismantling or physically testing it is called:",
+      "options": [
+        "Salvage value",
+        "Valuation by inspection and comparison",
+        "Scrap value",
+        "Book value"
+      ],
+      "answerIndex": 1,
+      "solution": "**Valuation by inspection and comparison.** A valuer forms an opinion from inspection, measurement and comparison with similar properties; nothing is taken apart.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Scrap value is what the materials fetch after demolition — the opposite situation.",
+        "trick": "Scrap and salvage both assume the building has come down.",
+        "mnemonic": "Valuation standing, scrap demolished."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q093",
+      "chapter": "ACiE02",
+      "subchapter": "ACiE0201",
+      "marks": 1,
+      "stem": "The degree of saturation of a fully saturated soil is:",
+      "options": [
+        "0%",
+        "50%",
+        "Greater than 100%",
+        "100%"
+      ],
+      "answerIndex": 3,
+      "solution": "**100%.** All the voids are filled with water, so the volume of water equals the volume of voids and S = 1.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A saturation above 100% is impossible, since water cannot exceed the space available.",
+        "trick": "S is a ratio of water volume to void volume, so it can never exceed one.",
+        "mnemonic": "Saturated = voids full = 100%."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q094",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0504",
+      "marks": 1,
+      "stem": "The minimum percentage of tension reinforcement in an RCC beam as per IS 456 is:",
+      "options": [
+        "0.85/fy of the effective area",
+        "0.12% of the gross area",
+        "0.20% of the gross area",
+        "1% of the gross area"
+      ],
+      "answerIndex": 0,
+      "solution": "**0.85/fy of the effective area.** As/(bd) shall not be less than 0.85/fy, which gives about 0.205% for Fe415 steel.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "0.12% is the minimum for a *slab* with high-strength deformed bars, a figure from the same code and the same chapter.",
+        "trick": "Beams use a formula in fy; slabs use a flat percentage.",
+        "mnemonic": "Beam 0.85/fy, slab 0.12%."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q095",
+      "chapter": "ACiE09",
+      "subchapter": "ACiE0901",
+      "marks": 1,
+      "stem": "In highway planning, the saturation system considers:",
+      "options": [
+        "Only the construction cost",
+        "The utility of each road to the area it serves",
+        "Only the existing traffic volume",
+        "The number of bridges required"
+      ],
+      "answerIndex": 1,
+      "solution": "**The utility of each road to the area it serves, scored by population and produce.** Each proposed road is scored by the population served and the agricultural and industrial produce carried, and the roads are built in order of merit.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Cost and existing traffic are inputs to many planning methods, but the saturation system is built on utility units.",
+        "trick": "It saturates the area with the roads that serve the most people and goods.",
+        "mnemonic": "Utility per road decides the order."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q096",
+      "chapter": "AALL10",
+      "subchapter": "AALL1006",
+      "marks": 1,
+      "stem": "A person may practise engineering in Nepal only after:",
+      "options": [
+        "Graduating from any university",
+        "Joining a professional society",
+        "Obtaining registration and a certificate from the Nepal Engineering Council",
+        "Completing five years in practice"
+      ],
+      "answerIndex": 2,
+      "solution": "**Obtaining registration and a certificate from the Nepal Engineering Council.** The NEC Act makes registration a precondition of practice; a degree alone is not sufficient.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "A degree is a *requirement for* registration, which makes it look sufficient on its own.",
+        "trick": "Qualification and license are two separate steps.",
+        "mnemonic": "Degree, then registration, then practice."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q097",
+      "chapter": "ACiE01",
+      "subchapter": "ACiE0103",
+      "marks": 1,
+      "stem": "As per NBC, the standard size of a brick in Nepal is:",
+      "options": [
+        "240 mm × 115 mm × 57 mm",
+        "230 mm × 110 mm × 55 mm",
+        "200 mm × 100 mm × 50 mm",
+        "250 mm × 120 mm × 60 mm"
+      ],
+      "answerIndex": 0,
+      "solution": "**240 mm × 115 mm × 57 mm.** The Nepal Building Code gives 240 × 115 × 57 mm, which with a 10 mm joint makes a modular 250 × 125 × 67 mm.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "230 × 110 × 55 mm is the Indian standard brick, and the two differ by only a few millimetres.",
+        "trick": "Add the 10 mm mortar joint and the Nepali brick comes to a round 250 mm.",
+        "mnemonic": "Nepal 240, India 230."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q098",
+      "chapter": "ACiE05",
+      "subchapter": "ACiE0502",
+      "marks": 1,
+      "stem": "The relationship between the flexural strength and the characteristic compressive strength of concrete as per IS 456 is:",
+      "options": [
+        "fcr = 5000√fck",
+        "fcr = 0.7√fck",
+        "fcr = 0.35√fck",
+        "fcr = 0.7fck"
+      ],
+      "answerIndex": 1,
+      "solution": "**fcr = 0.7√fck.** The modulus of rupture is taken as 0.7√fck in newtons per square millimetre, which is used in the deflection and cracking checks.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "5000√fck is the modulus of elasticity — the same square root in the same code, but a stiffness rather than a strength.",
+        "trick": "0.7 for rupture, 5000 for elasticity.",
+        "mnemonic": "Rupture 0.7, E 5000."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q099",
+      "chapter": "ACiE08",
+      "subchapter": "ACiE0802",
+      "marks": 1,
+      "stem": "The theoretical power in kilowatts available from a discharge Q in m³/s under a net head H in metres is:",
+      "options": [
+        "1000 QH",
+        "0.00981 QH",
+        "9.81 QH",
+        "98.1 QH"
+      ],
+      "answerIndex": 2,
+      "solution": "**9.81 QH.** P = ρgQH = 1000 × 9.81 × Q × H watts, which is 9.81QH kilowatts before efficiency is applied.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "1000QH forgets g; the other two options move the decimal point by a factor of ten in each direction.",
+        "trick": "Divide the watt expression by 1000 and ρ cancels against it, leaving g.",
+        "mnemonic": "Power in kilowatts is 9.81 QH, before efficiency."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    },
+    {
+      "id": "PP18-Q100",
+      "chapter": "ACiE07",
+      "subchapter": "ACiE0703",
+      "marks": 1,
+      "stem": "According to Khosla’s theory, the exit gradient in the absence of a downstream cut-off is:",
+      "options": [
+        "Zero",
+        "Unity",
+        "Equal to the critical gradient",
+        "Infinite"
+      ],
+      "answerIndex": 3,
+      "solution": "**Infinite.** With no vertical cut-off the seepage path ends abruptly at the floor, and the mathematics returns an infinite exit gradient — which is why a downstream cut-off is always provided.",
+      "difficulty": "medium",
+      "examTip": {
+        "trap": "Zero is the intuitive answer for “nothing there”, but removing the cut-off makes the condition worse, not safer.",
+        "trick": "The cut-off is what makes the exit gradient finite.",
+        "mnemonic": "No cut-off, infinite gradient."
+      },
+      "verification": {
+        "status": "verified"
+      }
+    }
+  ]
+}

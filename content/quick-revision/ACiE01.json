@@ -18,7 +18,7 @@
   {
     "id": "QR-ACiE01-003",
     "chapter": "ACiE01",
-    "fact": "Early strength of cement is due to the compound C 3 S [tricalcium silicate].",
+    "fact": "Early strength of cement is due to the compound C₃S [tricalcium silicate].",
     "verification": {
       "status": "verified"
     }
@@ -138,7 +138,7 @@
   {
     "id": "QR-ACiE01-018",
     "chapter": "ACiE01",
-    "fact": "The minimum density of medium - density fiberboard is 600 to 800 kg/m³. [Prefer 960 kg/m³ in exam]",
+    "fact": "The minimum density of medium-density fiberboard is 600 to 800 kg/m³. [Prefer 960 kg/m³ in exam]",
     "verification": {
       "status": "verified"
     }
@@ -274,7 +274,7 @@
   {
     "id": "QR-ACiE01-035",
     "chapter": "ACiE01",
-    "fact": "The compressive strength of 1 st class brick should not be less than 10.5 N/mm 2.",
+    "fact": "The compressive strength of 1st class brick should not be less than 10.5 N/mm².",
     "verification": {
       "status": "verified"
     }
@@ -290,7 +290,7 @@
   {
     "id": "QR-ACiE01-037",
     "chapter": "ACiE01",
-    "fact": "For 1 st class bricks, the water absorption should not be more than 15%.",
+    "fact": "For 1st class bricks, the water absorption should not be more than 15%.",
     "verification": {
       "status": "verified"
     }
@@ -298,7 +298,7 @@
   {
     "id": "QR-ACiE01-038",
     "chapter": "ACiE01",
-    "fact": "For a compressive test of brick, the mortar placed in the frog should be in ratio of 1: 1 [Cement: Sand]",
+    "fact": "For a compressive test of brick, the mortar placed in the frog should be in ratio of 1:1 [Cement: Sand]",
     "verification": {
       "status": "verified"
     }
@@ -362,7 +362,7 @@
   {
     "id": "QR-ACiE01-046",
     "chapter": "ACiE01",
-    "fact": "In case of cavity walls where both walls are load bearing, the effective thickness is larger of thickness of stronger wall or 2 3 rd of sum of thickness of both walls.",
+    "fact": "In case of cavity walls where both walls are load bearing, the effective thickness is larger of thickness of stronger wall or two-thirds of the sum of the thicknesses of both walls.",
     "verification": {
       "status": "verified"
     }
@@ -458,7 +458,7 @@
   {
     "id": "QR-ACiE01-058",
     "chapter": "ACiE01",
-    "fact": "Second moment of area of triangle about its base is, I = bh 3 12.",
+    "fact": "Second moment of area of triangle about its base is, I = bh³/12.",
     "verification": {
       "status": "verified"
     }
@@ -474,7 +474,7 @@
   {
     "id": "QR-ACiE01-060",
     "chapter": "ACiE01",
-    "fact": "Section modulus of a hollow circular section is Z =  (D 4 – d 4) 32D.",
+    "fact": "Section modulus of a hollow circular section is Z = π(D⁴ − d⁴)/32D.",
     "verification": {
       "status": "verified"
     }
@@ -482,7 +482,7 @@
   {
     "id": "QR-ACiE01-061",
     "chapter": "ACiE01",
-    "fact": "MOI of inertia of hollow circular section is  4 × (R 4 – r 4).",
+    "fact": "MOI of a hollow circular section is (π/4) × (R⁴ − r⁴).",
     "verification": {
       "status": "verified"
     }
@@ -490,7 +490,7 @@
   {
     "id": "QR-ACiE01-062",
     "chapter": "ACiE01",
-    "fact": "The moment of inertia of a rectangular section about a horizontal axis passing through the base is bd 3 3.",
+    "fact": "The moment of inertia of a rectangular section about a horizontal axis passing through the base is bd³/3.",
     "verification": {
       "status": "verified"
     }
@@ -498,7 +498,7 @@
   {
     "id": "QR-ACiE01-063",
     "chapter": "ACiE01",
-    "fact": "The CG of a cone from its base ish 4. [ Note: h 4 for solid cone andh 3 for hollow cone]",
+    "fact": "The CG of a cone from its base is h/4. [Note: h/4 for a solid cone and h/3 for a hollow cone]",
     "verification": {
       "status": "verified"
     }
@@ -522,7 +522,7 @@
   {
     "id": "QR-ACiE01-066",
     "chapter": "ACiE01",
-    "fact": "The center of gravity of hemisphere is 3 8.",
+    "fact": "The centre of gravity of a hemisphere is 3r/8 from its base.",
     "verification": {
       "status": "verified"
     }
@@ -562,7 +562,7 @@
   {
     "id": "QR-ACiE01-071",
     "chapter": "ACiE01",
-    "fact": "The MOI of semi - circle about base is  R 4 8.",
+    "fact": "The MOI of a semi-circle about its base is πR⁴/8.",
     "verification": {
       "status": "verified"
     }
@@ -570,7 +570,7 @@
   {
     "id": "QR-ACiE01-072",
     "chapter": "ACiE01",
-    "fact": "The moment of inertia of the circle is  d 4 64.",
+    "fact": "The moment of inertia of a circle is πd⁴/64.",
     "verification": {
       "status": "verified"
     }
@@ -578,7 +578,7 @@
   {
     "id": "QR-ACiE01-073",
     "chapter": "ACiE01",
-    "fact": "The moment of inertia through centroid of triangle parallel to base is bd 3 36.",
+    "fact": "The moment of inertia through centroid of triangle parallel to base is bd³/36.",
     "verification": {
       "status": "verified"
     }
@@ -586,7 +586,7 @@
   {
     "id": "QR-ACiE01-074",
     "chapter": "ACiE01",
-    "fact": "The area moment of inertia of a semi - circular region having diameter 'd' about its diametric axis is  d 4 128.",
+    "fact": "The area moment of inertia of a semi-circular region of diameter 'd' about its diametric axis is πd⁴/128.",
     "verification": {
       "status": "verified"
     }
@@ -594,7 +594,7 @@
   {
     "id": "QR-ACiE01-075",
     "chapter": "ACiE01",
-    "fact": "The moment of inertia of hollow rectangular section having outer depth 'D' and breadth 'B' and dimensions of inner rectangle are depth 'd' and width 'b' about horizontal axis passing through the Centroid is BD 3 – bd 3 12.",
+    "fact": "The moment of inertia of hollow rectangular section having outer depth 'D' and breadth 'B' and dimensions of inner rectangle are depth 'd' and width 'b' about horizontal axis passing through the centroid is (BD³ − bd³)/12.",
     "verification": {
       "status": "verified"
     }
@@ -618,7 +618,7 @@
   {
     "id": "QR-ACiE01-078",
     "chapter": "ACiE01",
-    "fact": "The MOI of rectangular section about the base is bd 3 3.",
+    "fact": "The MOI of rectangular section about the base is bd³/3.",
     "verification": {
       "status": "verified"
     }
@@ -626,7 +626,7 @@
   {
     "id": "QR-ACiE01-079",
     "chapter": "ACiE01",
-    "fact": "The section modulus of hollow circular section having external diameter D and internal diameter d is  (D 4 −  4) 32D.",
+    "fact": "The section modulus of a hollow circular section having external diameter D and internal diameter d is π(D⁴ − d⁴)/32D.",
     "verification": {
       "status": "verified"
     }
@@ -690,7 +690,7 @@
   {
     "id": "QR-ACiE01-087",
     "chapter": "ACiE01",
-    "fact": "ΣB.. – ΣF.. = La R.L. – First R.L. indicates the formula for arithmetic check.",
+    "fact": "ΣB.S. − ΣF.S. = Last R.L. − First R.L. is the formula for the arithmetic check.",
     "verification": {
       "status": "verified"
     }
@@ -730,7 +730,7 @@
   {
     "id": "QR-ACiE01-092",
     "chapter": "ACiE01",
-    "fact": "tan  =  D  L is the direction of closing error.",
+    "fact": "tan δ = ΣD/ΣL gives the direction of the closing error.",
     "verification": {
       "status": "verified"
     }
@@ -810,7 +810,7 @@
   {
     "id": "QR-ACiE01-102",
     "chapter": "ACiE01",
-    "fact": "The formula to calculate elevation in tachometric surveying is K.S. sin 2  2 + C sin .",
+    "fact": "The formula to calculate elevation in tacheometric surveying is K·S·sin2θ/2 + C·sinθ.",
     "verification": {
       "status": "verified"
     }
@@ -818,7 +818,7 @@
   {
     "id": "QR-ACiE01-103",
     "chapter": "ACiE01",
-    "fact": "For 1m 3 volume of 1: 1.5: 3 PCC, the number of bags of cement are required is 8 bags.",
+    "fact": "For 1m 3 volume of 1:1.5:3 PCC, the number of bags of cement are required is 8 bags.",
     "verification": {
       "status": "verified"
     }
@@ -842,7 +842,7 @@
   {
     "id": "QR-ACiE01-106",
     "chapter": "ACiE01",
-    "fact": "The quantity of brickwork with mortar in foundation used per mason per day is 1.25 m 3.",
+    "fact": "The quantity of brickwork with mortar in foundation used per mason per day is 1.25 m³.",
     "verification": {
       "status": "verified"
     }
@@ -858,7 +858,7 @@
   {
     "id": "QR-ACiE01-108",
     "chapter": "ACiE01",
-    "fact": "Calculate the number of cement bag required if overall density is 2350 kg/m 3, aggregate = 3860 kg, w/c = 0.4 and volume of concrete = 2 m 3. [ Ans: 12 bag]",
+    "fact": "Calculate the number of cement bag required if overall density is 2350 kg/m³, aggregate = 3860 kg, w/c = 0.4 and volume of concrete = 2 m³. [ Ans: 12 bag]",
     "verification": {
       "status": "verified"
     }
@@ -874,7 +874,7 @@
   {
     "id": "QR-ACiE01-110",
     "chapter": "ACiE01",
-    "fact": "If w/c = 0.8, volume of cement is 2 m 3, the volume of water in liter is 2304 liters.",
+    "fact": "If w/c = 0.8, volume of cement is 2 m³, the volume of water in liter is 2304 liters.",
     "verification": {
       "status": "verified"
     }
@@ -882,7 +882,7 @@
   {
     "id": "QR-ACiE01-111",
     "chapter": "ACiE01",
-    "fact": "The expected out turn of the cement concrete 1: 2: 4 for per mason per will be: 5.0 m 3.",
+    "fact": "The expected out turn of the cement concrete 1:2: 4 for per mason per will be: 5.0 m³.",
     "verification": {
       "status": "verified"
     }
@@ -890,7 +890,7 @@
   {
     "id": "QR-ACiE01-112",
     "chapter": "ACiE01",
-    "fact": "The volume of cement in 50 kg bag is 0.0347 m 3.",
+    "fact": "The volume of cement in 50 kg bag is 0.0347 m³.",
     "verification": {
       "status": "verified"
     }
@@ -1010,7 +1010,7 @@
   {
     "id": "QR-ACiE01-127",
     "chapter": "ACiE01",
-    "fact": "The centroid of semi - circle about diametric axis (base) is 2d 3 .",
+    "fact": "The centroid of a semi-circle about its diametric axis (base) is 2d/3π.",
     "verification": {
       "status": "verified"
     }
@@ -1114,7 +1114,7 @@
   {
     "id": "QR-ACiE01-140",
     "chapter": "ACiE01",
-    "fact": "The moment of inertia of solid hemisphere about its base is  R 4 8.",
+    "fact": "The moment of inertia of a solid hemisphere about its base is πR⁴/8.",
     "verification": {
       "status": "verified"
     }
@@ -1130,7 +1130,7 @@
   {
     "id": "QR-ACiE01-142",
     "chapter": "ACiE01",
-    "fact": "The polar moment of inertia (J) of a solid circular section of diameterd about its longitudinal axis is  d 4 32.",
+    "fact": "The polar moment of inertia (J) of a solid circular section of diameter d about its longitudinal axis is πd⁴/32.",
     "verification": {
       "status": "verified"
     }

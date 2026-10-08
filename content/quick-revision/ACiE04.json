@@ -50,7 +50,7 @@
   {
     "id": "QR-ACiE04-007",
     "chapter": "ACiE04",
-    "fact": "The deflection at the center of a simply supported beam when a concentrated load P is acting at its center is PL 3 48EI.",
+    "fact": "The deflection at the center of a simply supported beam when a concentrated load P is acting at its centre is PL³/48EI.",
     "verification": {
       "status": "verified"
     }
@@ -130,7 +130,7 @@
   {
     "id": "QR-ACiE04-017",
     "chapter": "ACiE04",
-    "fact": "The relation between E, G and  is  = E 2G – 1.",
+    "fact": "The relation between E, G and μ is μ = E/2G − 1.",
     "verification": {
       "status": "verified"
     }
@@ -210,7 +210,7 @@
   {
     "id": "QR-ACiE04-027",
     "chapter": "ACiE04",
-    "fact": "The simply supported beam 'A' of lengthl carries a central point load W. Another beam 'B' is loaded with a uniformly distributed load such that the total load on the beam is W. The ratio of maximum deflections between beams A and Bis 8 5.",
+    "fact": "The simply supported beam 'A' of length l carries a central point load W. Another beam 'B' is loaded with a uniformly distributed load such that the total load on the beam is W. The ratio of maximum deflections between beams A and B is 8/5.",
     "verification": {
       "status": "verified"
     }
@@ -226,7 +226,7 @@
   {
     "id": "QR-ACiE04-029",
     "chapter": "ACiE04",
-    "fact": "The deflection of a cantilever beam subjected to a point load W at its free end is WL 3 3EI.",
+    "fact": "The deflection of a cantilever beam subjected to a point load W at its free end is WL³/3EI.",
     "verification": {
       "status": "verified"
     }
@@ -234,7 +234,7 @@
   {
     "id": "QR-ACiE04-030",
     "chapter": "ACiE04",
-    "fact": "The deflection at center of fixed beam with total load W applied uniformly over its length L is WL 3 384EI.",
+    "fact": "The deflection at center of fixed beam with total load W applied uniformly over its length L is WL³/384EI.",
     "verification": {
       "status": "verified"
     }
@@ -242,7 +242,7 @@
   {
     "id": "QR-ACiE04-031",
     "chapter": "ACiE04",
-    "fact": "Strain energy in a simply supported beam loaded with point loadw at center isw 2 l 3 96EI.",
+    "fact": "Strain energy in a simply supported beam loaded with point load W at centre is W²l³/96EI.",
     "verification": {
       "status": "verified"
     }
@@ -282,7 +282,7 @@
   {
     "id": "QR-ACiE04-036",
     "chapter": "ACiE04",
-    "fact": "The maximum bending moment in three hinged arches under point load occurs on either side of its crown at L 2 3.",
+    "fact": "The maximum bending moment in three hinged arches under point load occurs on either side of its crown at L/(2√3).",
     "verification": {
       "status": "verified"
     }
@@ -346,7 +346,7 @@
   {
     "id": "QR-ACiE04-044",
     "chapter": "ACiE04",
-    "fact": "The horizontal thrust in a two hinged semi - circular arch subjected to UDL ofw kN/m over left half span will be 2wR 3 .",
+    "fact": "The horizontal thrust in a two-hinged semi-circular arch carrying a UDL of w kN/m over the left half span is 2wR/3π.",
     "verification": {
       "status": "verified"
     }
@@ -354,7 +354,7 @@
   {
     "id": "QR-ACiE04-045",
     "chapter": "ACiE04",
-    "fact": "For given two hinged semicircular arches A, B and C of radii 5 m, 7.5 m, and 10 m respectively and carrying concentrated crown load 'W', ratio of horizontal thrust at their support will be 1: 1: 1.",
+    "fact": "For given two hinged semicircular arches A, B and C of radii 5 m, 7.5 m, and 10 m respectively and carrying concentrated crown load 'W', ratio of horizontal thrust at their support will be 1:1: 1.",
     "verification": {
       "status": "verified"
     }
@@ -362,7 +362,7 @@
   {
     "id": "QR-ACiE04-046",
     "chapter": "ACiE04",
-    "fact": "For a two hinged arch having constant EI, the horizontal thrust H at a point (x, y) on the arch, in terms of beam moment Mis given by ∫ My dy dx ∫ y 2 ds EI.",
+    "fact": "For a two hinged arch having constant EI, the horizontal thrust H at a point (x, y) on the arch, in terms of beam moment M is given by H = ∫(M y ds/EI) ÷ ∫(y² ds/EI).",
     "verification": {
       "status": "verified"
     }
@@ -410,7 +410,7 @@
   {
     "id": "QR-ACiE04-052",
     "chapter": "ACiE04",
-    "fact": "When a body is subjected to a direct tensile stress ( x) in one plane accompanied by a simple shear stress ( xy), the maximum normal stress is  x + 1 2 ×  x 2 + 4  x 2 y.",
+    "fact": "When a body is subjected to a direct tensile stress (σx) in one plane with a simple shear stress (τxy), the maximum normal stress is σx/2 + ½√(σx² + 4τxy²).",
     "verification": {
       "status": "verified"
     }
@@ -450,7 +450,7 @@
   {
     "id": "QR-ACiE04-057",
     "chapter": "ACiE04",
-    "fact": "The deflection at the center of fixed beam carrying a point load at the mid - spam is WL 3 192EI.",
+    "fact": "The deflection at the center of fixed beam carrying a point load at the mid-span is WL³/192EI.",
     "verification": {
       "status": "verified"
     }
@@ -514,7 +514,7 @@
   {
     "id": "QR-ACiE04-065",
     "chapter": "ACiE04",
-    "fact": "The equation of flexure is M I =  y = E R.",
+    "fact": "The equation of flexure is M/I = σ/y = E/R.",
     "verification": {
       "status": "verified"
     }
@@ -530,7 +530,7 @@
   {
     "id": "QR-ACiE04-067",
     "chapter": "ACiE04",
-    "fact": "If m 1 andm 2 are the two individual member of truss an of compound truss, the truss is determinate and static ifm = m 1 + m 2 + 3.",
+    "fact": "If m₁ and m₂ are the two individual members of a compound truss, the truss is determinate and statically stable if m = m₁ + m₂ + 3.",
     "verification": {
       "status": "verified"
     }
@@ -570,7 +570,7 @@
   {
     "id": "QR-ACiE04-072",
     "chapter": "ACiE04",
-    "fact": "Euler's Bucking load for one end fixed and other hinged is given by 2  2 ΕΙ L 2.",
+    "fact": "Euler's buckling load for one end fixed and the other hinged is 2π²EI/L².",
     "verification": {
       "status": "verified"
     }
@@ -578,7 +578,7 @@
   {
     "id": "QR-ACiE04-073",
     "chapter": "ACiE04",
-    "fact": "The major principal stresses produced on diagonal plane is expressed asf x + f y 2 + 1 2 ((f x – f y) 2 + 4  v 2) 1/2.",
+    "fact": "The major principal stress on a diagonal plane is (fx + fy)/2 + ½√((fx − fy)² + 4τv²).",
     "verification": {
       "status": "verified"
     }
@@ -594,7 +594,7 @@
   {
     "id": "QR-ACiE04-075",
     "chapter": "ACiE04",
-    "fact": "A UVL of w is applied in a two hinged a parabolic arch with zero at one end and w at other end. The formula to calculate horizontal thrust is w l 2 16H.",
+    "fact": "A UVL of w is applied on a two-hinged parabolic arch, zero at one end and w at the other end. The horizontal thrust is wl²/16H.",
     "verification": {
       "status": "verified"
     }
@@ -626,7 +626,7 @@
   {
     "id": "QR-ACiE04-079",
     "chapter": "ACiE04",
-    "fact": "Th laion bwn Youn' Moulu (E), ha oulu (G) an Poion' aio (μ) i cocly ivn by the expression is G = E 2 (1 + ).",
+    "fact": "The relation between Young's modulus (E), shear modulus (G) and Poisson's ratio (μ) is G = E/[2(1 + μ)].",
     "verification": {
       "status": "verified"
     }
@@ -698,7 +698,7 @@
   {
     "id": "QR-ACiE04-088",
     "chapter": "ACiE04",
-    "fact": "The vertical reaction for the arch with W load acting at distance a of total span \"2 l \" is Wa 2 l.",
+    "fact": "The vertical reaction for the arch with W load acting at distance a of total span \"2l\" is Wa/2l.",
     "verification": {
       "status": "verified"
     }
@@ -746,7 +746,7 @@
   {
     "id": "QR-ACiE04-094",
     "chapter": "ACiE04",
-    "fact": "If 'L' is the span of a three hinged arch, 'h' is the rise and 'W' is the u.d.l. per unit length over the entire span, the horizontal reaction at each support is given by WL 2 8h.",
+    "fact": "If 'L' is the span of a three hinged arch, 'h' is the rise and 'W' is the u.d.l. per unit length over the entire span, the horizontal reaction at each support is given by WL²/8h.",
     "verification": {
       "status": "verified"
     }
@@ -802,7 +802,7 @@
   {
     "id": "QR-ACiE04-101",
     "chapter": "ACiE04",
-    "fact": "The loading rate used in compressive strength test is 14 N/mm 2 per minute",
+    "fact": "The loading rate used in compressive strength test is 14 N/mm² per minute",
     "verification": {
       "status": "verified"
     }
@@ -866,7 +866,7 @@
   {
     "id": "QR-ACiE04-109",
     "chapter": "ACiE04",
-    "fact": "The locus of reaction of a two hinged semi - circular arch is straight line.",
+    "fact": "The locus of reaction of a two hinged semi-circular arch is straight line.",
     "verification": {
       "status": "verified"
     }
@@ -946,7 +946,7 @@
   {
     "id": "QR-ACiE04-119",
     "chapter": "ACiE04",
-    "fact": "Euler's Buckling load for both end hinged are given by  2 EI L 2.",
+    "fact": "Euler's buckling load for both ends hinged is π²EI/L².",
     "verification": {
       "status": "verified"
     }
@@ -962,7 +962,7 @@
   {
     "id": "QR-ACiE04-121",
     "chapter": "ACiE04",
-    "fact": "The formula for the maximum deflection of a simply supported beam of length L and flexural rigidity EI, subjected to a total uniform distributed load of total load W over its entire span is 5WL 3 384EI.",
+    "fact": "The formula for the maximum deflection of a simply supported beam of length L and flexural rigidity EI, subjected to a total uniform distributed load of total load W over its entire span is 5WL³/384EI.",
     "verification": {
       "status": "verified"
     }

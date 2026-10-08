@@ -1164,7 +1164,7 @@
       "marks": 1,
       "stem": "A plane truss has 11 members, 7 joints and 3 reaction components. Its degree of static indeterminacy is:",
       "options": [
-        "Zero — the truss is statically determinate",
+        "Zero",
         "1",
         "2",
         "3"

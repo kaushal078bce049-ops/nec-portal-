@@ -54,10 +54,54 @@ function buildToUnicode() {
       }
     }
     for (const blk of s.text.matchAll(/beginbfrange([\s\S]*?)endbfrange/g)) {
-      for (const p of blk[1].matchAll(/<([0-9A-Fa-f]+)>\s*<([0-9A-Fa-f]+)>\s*<([0-9A-Fa-f]+)>/g)) {
-        const lo = parseInt(p[1], 16), hi = parseInt(p[2], 16), dst = parseInt(p[3], 16);
+      /*
+       * The array form: `<lo> <hi> [<d0> <d1> ...]`, one destination per code
+       * in the range rather than a run starting at one value. Writers use it
+       * whenever the destinations are not consecutive, which is the normal case
+       * for a subsetted font — and one of the 2083 papers is written entirely
+       * this way. Without it almost every CID stays unmapped and the page comes
+       * out looking enciphered.
+       */
+      for (const p of blk[1].matchAll(/<([0-9A-Fa-f]+)>\s*<([0-9A-Fa-f]+)>\s*\[([^\]]*)\]/g)) {
+        const lo = parseInt(p[1], 16);
+        let i = 0;
+        for (const d of p[3].matchAll(/<([0-9A-Fa-f]+)>/g)) {
+          map.set(lo + i, hexToStr(d[1]));
+          i++;
+        }
+      }
+
+      /*
+       * The run form, over what is left once the arrays are removed.
+       *
+       * Removing them first is essential. Three consecutive destinations
+       * *inside* an array — `<0020> <0021> <0022>` — match the run pattern
+       * perfectly, and reading them as lo/hi/dst overwrites correct entries
+       * with nonsense. That is what made most letters come out shifted by a
+       * constant while every third one stayed right: the corrupting triples
+       * land every third slot.
+       */
+      const runs = blk[1].replace(/\[[^\]]*\]/g, ' ');
+      for (const p of runs.matchAll(/<([0-9A-Fa-f]+)>\s*<([0-9A-Fa-f]+)>\s*<([0-9A-Fa-f]+)>/g)) {
+        const lo = parseInt(p[1], 16), hi = parseInt(p[2], 16);
+
+        // The destination of a bfrange is not always one code point. Longer
+        // than four hex digits it is a *string* — a ligature, or a character
+        // outside the BMP written as a surrogate pair — and parsing the whole
+        // thing as an integer yields a number far outside Unicode, which is
+        // what made fromCodePoint throw and took the whole extraction down.
+        // Such a range maps its first code only; the alternative is to invent
+        // successors for a sequence, which has no defined meaning.
+        if (p[3].length > 4) {
+          map.set(lo, hexToStr(p[3]));
+          continue;
+        }
+
+        const dst = parseInt(p[3], 16);
         for (let c = lo; c <= hi && c - lo < 65536; c++) {
-          map.set(c, String.fromCodePoint(dst + (c - lo)));
+          const cp = dst + (c - lo);
+          if (cp > 0x10ffff) break;
+          map.set(c, String.fromCodePoint(cp));
         }
       }
     }
@@ -78,6 +122,45 @@ const toUni = buildToUnicode();
 
 const ESCAPES = { n: '\n', r: '\r', t: '\t', b: '\b', f: '\f', '(': '(', ')': ')', '\\': '\\' };
 
+/**
+ * Whether every font in this document is a composite one with Identity
+ * encoding.
+ *
+ * It decides how to read a *literal* string. With Identity-H the bytes in a
+ * string are two-byte CIDs, not characters, and reading them one at a time
+ * produces text that looks enciphered — which is exactly what one of the 2083
+ * papers did, with every third letter of the alphabet apparently missing. The
+ * missing letters were an artefact of the byte pairs falling out of step.
+ *
+ * Only when *all* fonts are composite, because a document that mixes the two
+ * needs the font in force at each show-text operator, and that means tracking
+ * Tf through the content stream. No source here needs that, and guessing wrong
+ * on a simple font would remap ordinary ASCII into nonsense.
+ */
+const compositeOnly = (() => {
+  const fonts = doc.match(/\/Subtype\s*\/(Type0|TrueType|Type1|Type3|MMType1)/g) ?? [];
+  if (fonts.length === 0) return false;
+  const composite = fonts.filter((f) => /Type0/.test(f)).length;
+  // CIDFontType2 descendants are counted by the regex above as well, so the
+  // test is that nothing *simple* appears alongside.
+  return composite > 0 && fonts.every((f) => /Type0/.test(f));
+})() && /\/Encoding\s*\/Identity-[HV]/.test(doc);
+
+/** Reinterpret a byte string as big-endian 2-byte CIDs through the CMap. */
+function cidPairs(bytes) {
+  if (bytes.length % 2 !== 0) return null;
+  let out = '';
+  let hits = 0;
+  for (let i = 0; i < bytes.length; i += 2) {
+    const cid = (bytes.charCodeAt(i) << 8) | bytes.charCodeAt(i + 1);
+    const mapped = toUni.get(cid);
+    if (mapped === undefined) return null;   // not this reading
+    out += mapped;
+    hits++;
+  }
+  return hits > 0 ? out : null;
+}
+
 /** Decode a PDF literal string body, resolving backslash escapes. */
 function decodeLiteral(src) {
   let out = '';
@@ -92,6 +175,10 @@ function decodeLiteral(src) {
     } else if (c === '\n') { /* line continuation */ }
     else out += ESCAPES[c] ?? c;
   }
+  // Escapes are resolved first: a CID pair can contain the byte 0x5C, which is
+  // written `\\` in the file, so splitting into pairs before unescaping would
+  // cut a glyph in half.
+  if (compositeOnly) return cidPairs(out) ?? out;
   return out;
 }
 

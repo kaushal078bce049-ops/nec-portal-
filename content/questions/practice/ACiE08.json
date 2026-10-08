@@ -45,7 +45,7 @@
       "options": [
         "Always generates more energy per unit of installed capacity",
         "Requires no diversion structure at all",
-        "HAS LITTLE OR NO STORAGE, so its output follows the river's natural flow and falls away in the dry season when the flow does",
+        "HAS LITTLE OR NO STORAGE",
         "Can only be built on rivers with a very small catchment"
       ],
       "answerIndex": 2,
@@ -76,7 +76,7 @@
       "marks": 1,
       "stem": "In hydropower planning, the FIRM POWER (or primary power) of a plant means:",
       "options": [
-        "The power the plant can be relied upon to deliver AT ALL TIMES — corresponding to the minimum flow available with the chosen dependability, so that it can be sold under a guaranteed contract",
+        "The power the plant can be relied upon to deliver AT ALL TIMES",
         "The plant's maximum output at full gate opening",
         "The average power delivered over the year",
         "The power delivered during the monsoon months only"
@@ -110,7 +110,7 @@
       "stem": "The FLOW DURATION CURVE used in hydropower planning plots:",
       "options": [
         "Discharge against time in chronological order through the year",
-        "DISCHARGE against the PERCENTAGE OF TIME that discharge is equalled or exceeded — which discards the chronological order and answers instead how often each flow is available",
+        "DISCHARGE against the PERCENTAGE OF TIME that discharge is equalled or exceeded",
         "Cumulative volume against time",
         "Discharge against the corresponding water level"
       ],
@@ -178,7 +178,7 @@
         "Includes the detailed design drawings and the tender documents",
         "Is carried out after construction has begun",
         "Is required only for projects above 100 MW",
-        "Uses EXISTING and rapidly-collected data to compare ALTERNATIVES and establish whether the project merits further study — while the feasibility study investigates the SELECTED alternative in depth and to a cost accuracy sufficient for an investment decision"
+        "Uses EXISTING and rapidly-collected data to compare ALTERNATIVES and establish whether the project merits further study"
       ],
       "answerIndex": 3,
       "solution": "**It uses EXISTING and rapidly-collected data to compare ALTERNATIVES and establish whether the project merits further study** — while the feasibility study investigates the SELECTED alternative in depth and to a cost accuracy sufficient for an investment decision.\n\n**The study sequence in full:**\n\n| Stage | Purpose and depth |\n|---|---|\n| **RECONNAISSANCE / desk study** ← | **Maps, existing records, a site visit. Identifies candidate sites. Cost accuracy ±40% or worse** ← |\n| **PRE-FEASIBILITY** ← | **Compares ALTERNATIVES — layouts, headworks sites, capacities. Selects one. Cost accuracy ±25 to 30%** ← |\n| **FEASIBILITY** ← | **Investigates the SELECTED scheme in depth — drilling, gauging, seismic, EIA, financial model. Cost accuracy ±10 to 15%** ← |\n| **DETAILED DESIGN / tender design** ← | **Drawings, specifications, bills of quantities. Cost accuracy ±5 to 10%** ← |\n| **CONSTRUCTION drawings** ← | **Issued as the work proceeds, incorporating what the excavation reveals** ← |\n\n> **THE SECOND ROW'S PURPOSE — COMPARING ALTERNATIVES — IS WHAT MOST DISTINGUISHES IT AND IT IS THE STAGE MOST OFTEN SKIPPED: a pre-feasibility study should examine several layouts and select among them.**\n\n> **Where the intake goes, whether the conveyance is a canal or a tunnel, which bank it runs on, how high the dam is, what capacity is installed.**\n\n> **Each combination is costed roughly and the best is carried forward.**\n\n> **Skipping this stage — going from reconnaissance straight to a feasibility study of one layout — means the layout studied was chosen by someone's judgement rather than by comparison, and it may well not be the best.**\n\n> **A layout error discovered at feasibility stage is expensive to correct and one discovered during construction is usually not corrected at all, so the cheap comparative work at pre-feasibility stage is where the largest savings are available.**\n\n**THE COST ACCURACY COLUMN DESERVES ATTENTION BECAUSE IT IS ROUTINELY IGNORED WHEN THE FIGURES ARE QUOTED:**\n\n| Point | Note |\n|---|---|\n| **A pre-feasibility cost of 'Rs 4 billion' means Rs 3 to 5 billion** ← | ← |\n| **Quoting it as Rs 4 billion, without the range, creates a false expectation** ← | ← |\n| **Which the feasibility study's more accurate Rs 4.6 billion then appears to violate** ← | ← |\n| **And the project acquires a reputation for cost overrun before any work has begun** ← | ← |\n\n> **THE FOURTH ROW DESCRIBES A GENUINE AND COMMON INJUSTICE TO PROJECTS AND IT IS AVOIDABLE BY DISCIPLINE IN REPORTING: every cost estimate should be quoted with its accuracy and its base date.**\n\n> **'Rs 4.0 billion ± 30 per cent, at 2026 prices' is an honest statement and 'Rs 4 billion' is not, though they rest on identical work.**\n\n> **The discipline costs nothing and it protects both the estimator and the project, because a later estimate within the stated range is then a confirmation rather than an overrun.**\n\n> **And where a project genuinely does overrun, the discipline makes that visible too, which is the point of it.**\n\n**A CLOSING NOTE ON THE RELATIVE COSTS OF THE STAGES, WHICH IS ENCOURAGING:**\n\n> **The whole investigation sequence — reconnaissance through detailed design — typically costs 3 to 8 per cent of the project's construction cost.**\n\n> **The decisions it informs determine essentially all of that cost.**\n\n> **So investigation is the highest-leverage expenditure on a project, and economising on it in order to start construction sooner is the least defensible economy available — it saves a small certain amount and risks a large uncertain one.**\n\n> **The counter-pressure is real, though: investigation produces no visible progress, and a sponsor under pressure to show activity finds it the easiest budget to cut.**",
@@ -208,7 +208,7 @@
       "marks": 1,
       "stem": "For a hydropower project in Nepal, the environmental study required — IEE or EIA — is determined principally by:",
       "options": [
-        "The project's INSTALLED CAPACITY, together with whether it lies in a protected area — with an IEE for smaller projects and a full EIA for larger ones or for any project in a sensitive area",
+        "The project's INSTALLED CAPACITY, together with whether it lies in a protected area",
         "The developer's own assessment of the likely impacts",
         "Whether the project is publicly or privately financed",
         "The length of the transmission line only"
@@ -243,7 +243,7 @@
       "options": [
         "Pumps groundwater to supplement a river's dry-season flow",
         "Uses a pump instead of a turbine to generate power",
-        "PUMPS water from a lower to an upper reservoir using cheap off-peak energy and generates from it at peak — consuming more energy than it returns, and existing to shift energy in TIME rather than to produce it",
+        "PUMPS water from a lower to an upper reservoir using cheap off-peak energy and generates from it at peak",
         "Pumps water over a ridge into an adjacent, steeper catchment"
       ],
       "answerIndex": 2,
@@ -277,7 +277,7 @@
         "Permits construction to begin while the studies are completed in parallel",
         "Is issued only after the environmental study has been approved",
         "Grants the holder permanent water rights over the river reach",
-        "Grants the exclusive right to INVESTIGATE a specified river reach for a limited period — during which the holder prepares the studies, and after which a separate GENERATION LICENSE must be obtained before construction"
+        "Grants the exclusive right to INVESTIGATE a specified river reach for a limited period"
       ],
       "answerIndex": 3,
       "solution": "**It grants the exclusive right to INVESTIGATE a specified river reach for a limited period** — during which the holder prepares the studies, and after which a separate GENERATION LICENSE must be obtained before construction.\n\n**The two licenses and what each permits:**\n\n| License | Grants | Typical term |\n|---|---|---|\n| **SURVEY license** ← | **The exclusive right to study a defined reach — access, gauging, drilling, topographic survey** ← | **A few years, extendable** ← |\n| **GENERATION license** ← | **The right to build and operate, and to use the water** ← | **Decades, after which the plant transfers to the state** ← |\n\n> **THE WORD 'EXCLUSIVE' IN THE FIRST ROW IS THE LICENSE'S WHOLE COMMERCIAL VALUE AND IT IS WHY THE SYSTEM EXISTS: studying a site costs a great deal and produces information that anyone could then use.**\n\n> **Without exclusivity nobody would invest in the studies, because a competitor could wait for the results and then bid for the site with no investigation cost of their own.**\n\n> **The survey license solves that by reserving the site to whoever is doing the work, for long enough to complete it and to apply for generation.**\n\n> **It is a straightforward answer to a free-rider problem, and it is the same device used in mineral exploration for exactly the same reason.**\n\n**THE SYSTEM'S CHARACTERISTIC ABUSE, WHICH IS WORTH KNOWING:**\n\n| Point | Note |\n|---|---|\n| **A survey license is cheap to obtain relative to the site's value** ← | ← |\n| **So licenses have been taken out with no intention of developing** ← | ← |\n| **Held, and then sold on to a genuine developer at a large mark-up** ← | **The practice known as license trading or site squatting** ← |\n| **Which delays development and adds a cost that produces nothing** ← | ← |\n| **The regulatory answers are performance BONDS, strict MILESTONES and non-transferability** ← | ← |\n\n> **THE LAST ROW LISTS THE STANDARD REMEDIES AND THE MILESTONE CONDITION IS THE MOST EFFECTIVE OF THEM: the license requires specified progress by specified dates, and lapses if the progress is not made.**\n\n> **A holder with no intention of developing cannot meet the milestones and loses the license, while a genuine developer meets them in the ordinary course of the work.**\n\n> **The condition therefore discriminates between the two at no cost to the honest party, which is what a good regulatory test does.**\n\n> **The difficulty is enforcement — declaring a license lapsed invites litigation, and an agency that hesitates to do so leaves the milestones unenforced and the abuse unaddressed.**\n\n**AND THE GENERATION LICENSE'S TERM DESERVES A CLOSING WORD BECAUSE IT SHAPES THE WHOLE FINANCIAL MODEL:**\n\n| Point | Note |\n|---|---|\n| **The license runs for a defined period, after which the plant transfers to the Government** ← | **A build-own-operate-transfer arrangement** ← |\n| **So the developer must recover the entire investment WITHIN that period** ← | ← |\n| **Which sets the tariff, the debt tenor and the required return** ← | ← |\n| **And makes any DELAY costly twice over — interest during construction, and a shortened earning period** ← | ← |\n\n> **The fourth row is why delay is so damaging to a hydropower project's economics and it is worth stating precisely: the license term generally runs from its issue, not from commissioning.**\n\n> **So a project delayed three years has three fewer years of revenue at the end, in addition to having paid three years of interest on undeployed capital.**\n\n> **The two effects compound, and a delay that appears to cost only its financing charge in fact costs that plus the most valuable years of the concession — the late ones, when the debt is repaid and the revenue is nearly all margin.**\n\n> **That is why developers press so hard on approvals and why the licensing timetable, which looks like an administrative matter, is in fact a first-order determinant of whether projects get built.**",
@@ -309,7 +309,7 @@
       "options": [
         "The tailrace depth only",
         "The turbine's mechanical losses",
-        "ALL HYDRAULIC LOSSES in the water conveyance system — the intake, the headrace, the settling basin, the forebay, the penstock and its bends and valves — since only the head remaining at the turbine can do work",
+        "ALL HYDRAULIC LOSSES in the water conveyance system",
         "The generator's electrical losses"
       ],
       "answerIndex": 2,
@@ -341,7 +341,7 @@
       "stem": "Hydropower plants are conventionally classified by head as low, medium and high. The classification matters chiefly because:",
       "options": [
         "Low-head plants are always cheaper per kilowatt installed",
-        "It determines the type of TURBINE that is suitable, and with it the whole layout of the plant — Kaplan for low head, Francis for medium, Pelton for high",
+        "It determines the type of TURBINE that is suitable, and with it the whole layout of the plant",
         "High-head plants require no tailrace",
         "It determines the statutory license category"
       ],
@@ -373,7 +373,7 @@
       "marks": 1,
       "stem": "The LOAD DURATION CURVE of a power system, used in planning the generation mix, shows:",
       "options": [
-        "The system LOAD plotted against the percentage of time that load is equalled or exceeded — from which the base-load, intermediate and peaking blocks of plant are read off directly",
+        "The system LOAD plotted against the percentage of time that load is equalled or exceeded",
         "The load on each generating unit through a typical day",
         "The relationship between load and system frequency",
         "The growth of the peak load over successive years"
@@ -409,7 +409,7 @@
         "The three uses require water of different quality",
         "Flood control requires a higher dam than the other purposes",
         "Hydropower and irrigation cannot use the same water",
-        "FLOOD CONTROL wants the reservoir kept EMPTY to absorb floods, while irrigation and power want it kept FULL to guarantee supply — so the operating rule must trade one purpose against another at every moment"
+        "FLOOD CONTROL wants the reservoir kept EMPTY to absorb floods"
       ],
       "answerIndex": 3,
       "solution": "**FLOOD CONTROL wants the reservoir kept EMPTY to absorb floods, while irrigation and power want it kept FULL to guarantee supply** — so the operating rule must trade one purpose against another at every moment.\n\n**The conflict set out:**\n\n| Purpose | Wants the reservoir | Because |\n|---|---|---|\n| **FLOOD CONTROL** ← | **EMPTY, with space available** ← | **Only empty space can absorb a flood** ← |\n| **IRRIGATION** ← | **FULL** ← | **Water in store is supply guaranteed** ← |\n| **HYDROPOWER** ← | **FULL** ← | **Full means both water available and maximum head** ← |\n| **WATER SUPPLY** ← | **FULL** ← | **Same reason as irrigation, with a higher reliability demand** ← |\n| **NAVIGATION and recreation** ← | **STEADY, at a constant level** ← | **Which conflicts with everything that draws the level down** ← |\n\n> **THE FIRST ROW AGAINST THE REST IS THE IRREDUCIBLE CONFLICT AND IT CANNOT BE ENGINEERED AWAY, ONLY MANAGED: storage space is either occupied by water or available for a flood, and it cannot be both.**\n\n> **So a multipurpose reservoir is not a reservoir serving several purposes simultaneously; it is a reservoir whose space is ALLOCATED among purposes, with each purpose getting a defined zone.**\n\n> **Recognising it as an allocation problem rather than a design problem is the key to it, and it is why the operating rule curve — not the dam — is the hardest part of a multipurpose scheme.**\n\n> **THE HYDROPOWER ENTRY DESERVES A NOTE BECAUSE IT HAS A SECOND REASON THE OTHERS LACK: a full reservoir gives not only water but HEAD.**\n\n> **Drawing the level down 10 m on a 60 m head loses about a sixth of the power from every cubic metre thereafter.**\n\n> **So hydropower resists drawdown more strongly than irrigation does, because irrigation loses only the water and power loses the water and the head together.**\n\n> **That asymmetry surfaces in operating disputes and it is a real technical difference rather than institutional obstinacy.**\n\n**HOW THE ALLOCATION IS MADE — THE STORAGE ZONES:**\n\n| Zone, from the top down | Purpose |\n|---|---|\n| **SURCHARGE storage, above the full reservoir level** ← | **Temporary, during the passage of a flood — uncontrolled** ← |\n| **FLOOD CONTROL storage** ← | **Kept EMPTY during the flood season, ready to absorb inflow** ← |\n| **CONSERVATION (live) storage** ← | **Irrigation, power and water supply draw from this** ← |\n| **DEAD storage, below the lowest outlet** ← | **Sediment accumulation, and it is never drawn** ← |\n\n> **THE SECOND ROW IS THE SEASONAL COMPROMISE THAT MAKES MULTIPURPOSE OPERATION WORKABLE AND IT IS THE RULE CURVE'S MAIN DEVICE: the flood control zone is kept empty only during the flood season, and is allowed to fill at the season's end.**\n\n> **So the reservoir is drawn down before the monsoon and refilled as the monsoon ends, giving flood protection when floods occur and full storage when they do not.**\n\n> **That works because the conflict is SEASONAL rather than constant — floods come at a known time of year.**\n\n> **Its risk is at the boundaries: an early flood arriving before drawdown, or a monsoon that ends early leaving the reservoir unfilled, and the rule curve's shape at those transitions is where the real judgement lies.**\n\n> **Climate change is eroding the assumption that underpins the whole device — that flood season timing is predictable — which is a genuine and underappreciated problem for every rule curve now in operation.**",
@@ -441,7 +441,7 @@
       "options": [
         "The compensation payable exceeds the cost of the dam",
         "Resettlement is prohibited by law in hill districts",
-        "It involves negotiating with people who lose their land and livelihood and gain nothing directly from the project — so it cannot be accelerated by adding resources the way construction can, and a failed settlement can halt the works entirely",
+        "It involves negotiating with people who lose their land and livelihood and gain nothing directly from the project",
         "Suitable resettlement land is always available adjacent to the reservoir"
       ],
       "answerIndex": 2,
@@ -475,7 +475,7 @@
         "The tariff at which the power is sold under the power purchase agreement",
         "The average annual operating cost divided by the annual energy",
         "The project's construction cost divided by its installed capacity",
-        "The constant per-unit price that, over the project's life, would exactly recover ALL costs discounted to present value — capital, operation, maintenance and replacement — making projects with different cost profiles and lifetimes directly comparable"
+        "The constant per-unit price that, over the project's life, would exactly recover ALL costs discounted to present value"
       ],
       "answerIndex": 3,
       "solution": "**The constant per-unit price that, over the project's life, would exactly recover ALL costs discounted to present value** — capital, operation, maintenance and replacement — making projects with different cost profiles and lifetimes directly comparable.\n\n**Stated as a formula:**\n\n| Element | Expression |\n|---|---|\n| **LCOE** | **= (present value of all costs over the life) ÷ (present value of all energy over the life)** ← |\n| **Numerator** | **Capital + Σ [annual O&M and replacement ÷ (1+i)ⁿ]** ← |\n| **Denominator** | **Σ [annual energy ÷ (1+i)ⁿ]** ← |\n| **Note** | **The ENERGY is discounted too, which is the step most often omitted and most often questioned** ← |\n\n> **THE LAST ROW SURPRISES PEOPLE AND IT IS WORTH EXPLAINING BECAUSE IT LOOKS WRONG: why discount kilowatt-hours, which are physical?**\n\n> **The answer is that LCOE is a price, and a price is a ratio of money to energy at the same point in time.**\n\n> **Discounting the costs and not the energy would compare present-value rupees against undiscounted kilowatt-hours, which is not a consistent price at all.**\n\n> **The formula is a definition constructed to give the constant price that exactly balances the discounted cash flows, and that requires both sides to be treated alike — so the energy discounting is not an economic claim about kilowatt-hours losing value, it is an arithmetic consequence of the definition.**\n\n**WHAT LCOE IS GOOD FOR AND WHAT IT HIDES:**\n\n| Good for | Hides |\n|---|---|\n| **Comparing technologies with very different capital-to-operating ratios** ← | **WHEN the energy is delivered — a peak kWh and a night kWh count the same** ← |\n| **Comparing projects of different lifetimes** ← | **Whether the energy is FIRM or intermittent** ← |\n| **A single headline figure for screening** ← | **System costs — transmission, backup, curtailment** ← |\n| **Sensitivity testing against the discount rate** ← | **Risk, and who bears it** ← |\n\n> **THE FIRST ITEM IN THE 'HIDES' COLUMN IS LCOE'S MOST CONSEQUENTIAL BLIND SPOT AND IT MATTERS ENORMOUSLY FOR HYDROPOWER: LCOE treats every kilowatt-hour as identical.**\n\n> **A storage plant delivering into the evening peak and an ROR plant spilling energy at monsoon midday can have the same LCOE and utterly different value.**\n\n> **So ranking projects by LCOE alone systematically favours the plant that produces the most energy over the plant that produces the most valuable energy.**\n\n> **This is the same criticism now made of LCOE comparisons between solar and dispatchable generation, and it applies with equal force to ROR against storage hydro — which is why LCOE should screen a project list and never decide one.**\n\n**AND THE DISCOUNT RATE DESERVES THE CLOSING WORD BECAUSE IT DOMINATES THE ANSWER:**\n\n| Point | Note |\n|---|---|\n| **Hydropower is CAPITAL-heavy and OPERATING-light** ← | **The costs are nearly all at the start** ← |\n| **So its LCOE is extremely sensitive to the discount rate** ← | ← |\n| **A move from 8 to 12 per cent can raise a hydropower LCOE by a third or more** ← | ← |\n| **While a fuel-heavy thermal plant's LCOE barely moves** ← | **Because most of its cost is incurred as it operates** ← |\n| **So the discount rate chosen decides the comparison before the engineering is examined** ← | ← |\n\n> **The last row is why the discount rate is the first thing to check in any published comparison of generation technologies, and why comparisons using a high commercial discount rate systematically disfavour hydro, nuclear and other long-lived capital-intensive plant.**\n\n> **That is not a fault in the arithmetic; it correctly reflects the cost of capital to a private developer.**\n\n> **But it is a poor guide to what a country should build over a sixty-year horizon, which is why public appraisal uses a social discount rate and reaches different conclusions — and why the two sets of conclusions are so often argued past one another.**",
@@ -505,7 +505,7 @@
       "marks": 1,
       "stem": "The term CASCADE DEVELOPMENT of a river basin refers to:",
       "options": [
-        "Developing a series of plants down a river so that each uses a successive reach of the fall — with the tailwater of one becoming the headwater of the next, so that the basin's total fall is exploited with the least waste",
+        "Developing a series of plants down a river so that each uses a successive reach of the fall",
         "Building several plants simultaneously to reduce mobilisation costs",
         "A single plant with turbines arranged at several levels",
         "Developing the tributaries before the main stem"
@@ -539,7 +539,7 @@
       "stem": "For a hydropower project, INTEREST DURING CONSTRUCTION (IDC) is a significant cost component because:",
       "options": [
         "Hydropower loans carry higher interest rates than other infrastructure loans",
-        "The capital is drawn down over a LONG construction period during which the project earns nothing — so interest accrues and is capitalised, and on a five-year build IDC can reach a fifth or more of the project cost",
+        "The capital is drawn down over a LONG construction period during which the project earns nothing",
         "Interest is charged on the full loan amount from the date of signature",
         "It is a statutory levy on hydropower construction"
       ],
@@ -639,7 +639,7 @@
       "options": [
         "Apply the design flow to all 365 days and multiply by the capacity factor",
         "Use the mean annual flow with the peak turbine efficiency throughout",
-        "DIVIDE the curve into intervals, take the flow available in each, CAP it at the design flow, deduct the riparian release, apply the efficiency appropriate to that part-load, and sum the energy of all intervals",
+        "DIVIDE the curve into intervals",
         "Use only the flow exceeded 50 per cent of the time"
       ],
       "answerIndex": 2,
@@ -673,7 +673,7 @@
         "Assume a runoff coefficient of 0.5 applied to the rainfall",
         "Use the regional average specific discharge without adjustment",
         "Measure the flow for one year and scale it to the long term by assuming that year was average",
-        "TRANSFER the record from a gauged catchment nearby — scaling by CATCHMENT AREA and adjusting for differences in rainfall and elevation — and verify the transfer against whatever short-term measurements the site itself allows"
+        "TRANSFER the record from a gauged catchment nearby"
       ],
       "answerIndex": 3,
       "solution": "**TRANSFER the record from a gauged catchment nearby** — scaling by CATCHMENT AREA and adjusting for differences in rainfall and elevation — and verify the transfer against whatever short-term measurements the site itself allows.\n\n**The transfer method in its simplest and its better forms:**\n\n| Form | Expression | Comment |\n|---|---|---|\n| **Simple area ratio** | **Q_site = Q_gauged × (A_site / A_gauged)** ← | **Assumes identical yield per unit area** ← |\n| **Area and rainfall** | **Q_site = Q_gauged × (A_site/A_gauged) × (P_site/P_gauged)** ← | **Better — corrects for the rainfall difference** ← |\n| **With an exponent** | **Q_site = Q_gauged × (A_site/A_gauged)ⁿ** ← | **n slightly less than 1, since large catchments yield a little less per unit area** ← |\n| **Regional regression** | **Q = f(area, rainfall, elevation, and other catchment indices)** ← | **The best available where a regional study exists** ← |\n\n> **THE ASSUMPTION IN THE FIRST ROW IS THE ONE THAT FAILS AND KNOWING WHEN IT FAILS IS THE WHOLE SKILL: it holds only if the two catchments are hydrologically similar.**\n\n> **Similar rainfall, similar elevation range, similar geology, similar land cover, and similar snow and glacier contribution.**\n\n> **Two adjacent Nepali catchments can differ radically in all of these — one reaching above the snow line and the other not, one on permeable and one on impermeable rock — and their specific yields then differ by a factor rather than a percentage.**\n\n> **The ELEVATION check is the most important single one in Nepal, because a catchment extending above about 5,000 m has snow and glacier melt sustaining its dry-season flow, and one that does not is rain-fed and nearly dries — and it is exactly the dry-season flow on which the project's firm power depends.**\n\n**THE VERIFICATION STEP DESERVES EMPHASIS BECAUSE IT IS CHEAP AND IS OFTEN SKIPPED:**\n\n| Measure | Note |\n|---|---|\n| **Install a staff gauge at the site as early as possible, in the survey license period** ← | **It costs almost nothing and each month of record is valuable** ← |\n| **Take current-meter or salt-dilution measurements to build a rating** ← | ← |\n| **Compare the site's measured flows with the transferred estimates for the SAME days** ← | ← |\n| **And adjust the transfer coefficient to fit** ← | ← |\n| **Concentrate the measurements in the DRY season** ← | **That is where the estimate matters most and where the transfer is least reliable** ← |\n\n> **THE LAST ROW IS WHERE THE EFFORT SHOULD GO AND IT IS COUNTER TO THE NATURAL INCLINATION: monsoon flows are dramatic and easy to be interested in, and dry-season flows determine the project's value.**\n\n> **A dozen careful dry-season gaugings across two or three years pin down the low-flow end of the curve, which is where the firm power comes from and where the transfer method is most doubtful.**\n\n> **Monsoon flows can be estimated adequately by transfer because the catchments' responses are dominated by rainfall, which is more uniform across a region than the baseflow characteristics are.**\n\n> **So the measurement programme should be designed around the dry season, and a programme that gauges through the monsoon and stops in November has spent its money on the part of the curve it needed least.**\n\n> **THE THIRD DISTRACTOR — ONE YEAR ASSUMED AVERAGE — IS A REAL AND SERIOUS ERROR RATHER THAN AN INVENTED ONE, and it is worth naming: a single year's record establishes nothing about the long-term distribution.**\n\n> **A wet year overstates the resource and a dry year understates it, and there is no way to know which the year was without a long-term reference — which is precisely what the transfer method supplies.**\n\n> **So the correct use of a single year's site record is not as a resource estimate but as a CALIBRATION of the transfer from a long-record station, and the distinction between those two uses is the difference between a defensible hydrology and an indefensible one.**",
@@ -703,7 +703,7 @@
       "marks": 1,
       "stem": "The RESERVOIR MASS CURVE (Rippl diagram) is used to determine the storage required to meet a given demand. On the diagram, the required storage is:",
       "options": [
-        "The MAXIMUM VERTICAL DISTANCE between a demand line drawn tangent to a peak of the cumulative inflow curve and the curve itself, before the two meet again",
+        "The MAXIMUM VERTICAL DISTANCE between a demand line drawn tangent to a peak of the cumulative inflow curve and the curve itself",
         "The total volume under the inflow curve",
         "The horizontal distance between successive tangent points",
         "The slope of the steepest part of the mass curve"
@@ -739,7 +739,7 @@
         "More firm power but less total annual energy",
         "A higher capacity factor and lower capital cost",
         "Machines that are more efficient throughout the year",
-        "More total annual energy but a LOWER capacity factor and a higher cost per unit of energy — because the extra capacity is used only during the brief high flows and stands idle the rest of the year"
+        "More total annual energy but a LOWER capacity factor and a higher cost per unit of energy"
       ],
       "answerIndex": 3,
       "solution": "**More total annual energy but a LOWER capacity factor and a higher cost per unit of energy** — because the extra capacity is used only during the brief high flows and stands idle the rest of the year.\n\n**What happens as the design discharge is increased:**\n\n| Quantity | Direction |\n|---|---|\n| **Installed capacity** | **RISES, in proportion to the design flow** ← |\n| **Annual energy** | **RISES, but by less and less for each increment** ← |\n| **Capacity factor** | **FALLS** ← |\n| **Capital cost** | **RISES** ← |\n| **Cost per unit of energy** | **Falls at first, reaches a minimum, then RISES** ← |\n| **FIRM power** | **UNCHANGED — it depends on the low flows, which the larger machine does not affect** ← |\n\n> **THE LAST ROW IS THE ONE THAT SURPRISES AND IT IS THE POINT OF DISTRACTOR (a): enlarging the plant does nothing whatever for firm power.**\n\n> **Firm power is set by the flow available almost all the time, and that flow is small.**\n\n> **A larger turbine passes more water when more water is there, which is in the monsoon, and the monsoon has nothing to do with the dry-season minimum.**\n\n> **So a developer seeking to raise firm power must add STORAGE or pondage, and adding machine capacity is precisely the wrong intervention — an important distinction because the two are easily conflated as 'making the plant bigger'.**\n\n**WHY THE COST PER UNIT HAS A MINIMUM, WHICH IS THE OPTIMISATION:**\n\n| Point | Note |\n|---|---|\n| **Each increment of capacity costs roughly the same per MW** ← | **Turbine, generator, penstock enlargement, powerhouse** ← |\n| **But each increment earns LESS energy than the one before** ← | **Because it captures a thinner slice of the flow duration curve** ← |\n| **So cost per unit of energy falls while the slices are thick and rises once they are thin** ← | ← |\n| **The minimum is the economic design flow** ← | ← |\n| **Which for a Nepali ROR scheme commonly lands around Q40 to Q50** ← | ← |\n\n> **THE SECOND ROW IS THE DIMINISHING RETURN AND ITS SHAPE COMES DIRECTLY FROM THE FLOW DURATION CURVE'S SHAPE, so the optimum moves with the river: a flat curve, with well-sustained flows, justifies a larger plant than a steep flashy one.**\n\n> **On a snowfed river with a long sustained melt season the slices stay thick well to the left, and the optimum design flow is a higher exceedance percentile.**\n\n> **On a flashy monsoon river the flows collapse quickly and the optimum is a smaller plant.**\n\n> **So there is no universal design percentile, and Q40 is a starting point for a calculation rather than a rule to apply.**\n\n**AND THE OPTIMISATION IS NOT PURELY TECHNICAL, WHICH DESERVES A CLOSING NOTE:**\n\n| Factor | Effect on the optimum size |\n|---|---|\n| **A tariff paying more for DRY-season energy** ← | **Pushes toward a SMALLER plant, since the extra monsoon energy is worth less** ← |\n| **A tariff paying a CAPACITY charge as well as energy** ← | **Pushes toward a LARGER plant** ← |\n| **A grid that cannot absorb the monsoon output** ← | **Pushes toward smaller — surplus energy is curtailed and earns nothing** ← |\n| **An export market for surplus monsoon energy** ← | **Pushes toward larger** ← |\n\n> **The third row is a real and frequently binding constraint in Nepal and it is worth recognising as an economic rather than an engineering limit: capacity that generates energy nobody will take is worthless however cheaply it was built.**\n\n> **A plant sized on the flow duration curve alone, in a system already spilling monsoon energy, is oversized regardless of what the hydrology says.**\n\n> **So the sizing calculation must include the market as one of its inputs, and the engineer who optimises against the river alone will produce a plant that is optimal for a system that does not exist.**",
@@ -771,7 +771,7 @@
       "options": [
         "The mean annual flood in every case",
         "The largest flood in the available record, regardless of its return period",
-        "The CONSEQUENCE of failure — with a higher return period, up to the probable maximum flood, adopted where failure would endanger life or destroy the works, and a lower one where the consequence is limited",
+        "The CONSEQUENCE of failure",
         "A uniform 100-year return period for all hydropower structures"
       ],
       "answerIndex": 2,
@@ -803,7 +803,7 @@
       "stem": "A GLOF (Glacial Lake Outburst Flood) presents a design problem distinct from an ordinary flood for a Himalayan hydropower project chiefly because it:",
       "options": [
         "Occurs only during the monsoon, when the plant is already shut down",
-        "Produces a flood of very high peak and enormous SEDIMENT and DEBRIS load that is not represented in the gauged flood record at all — so it cannot be estimated by frequency analysis of the river's flows",
+        "Produces a flood of very high peak and enormous SEDIMENT and DEBRIS load that is not represented in the gauged flood record at all",
         "Is always smaller than the design flood and can be neglected",
         "Affects only the transmission line and not the waterway"
       ],
@@ -835,7 +835,7 @@
       "marks": 1,
       "stem": "Two hydropower plants on the same river system are said to have COMPLEMENTARY flows when:",
       "options": [
-        "Their catchments have HIGH FLOWS at DIFFERENT times of year — so their combined output is steadier than either alone, and the firm power of the pair exceeds the sum of their individual firm powers",
+        "Their catchments have HIGH FLOWS at DIFFERENT times of year",
         "They are owned by the same developer",
         "They share a common transmission line",
         "One is a storage plant and the other run-of-river"
@@ -901,7 +901,7 @@
       "marks": 1,
       "stem": "The DEAD STORAGE of a reservoir is provided principally to:",
       "options": [
-        "Accommodate the SEDIMENT expected to deposit over the project's design life, so that the live storage above it remains available throughout that life",
+        "Accommodate the SEDIMENT expected to deposit over the project's design life",
         "Meet the demand during the most severe drought on record",
         "Provide the head required by the turbines",
         "Hold the flood inflow temporarily during the passage of a flood"
@@ -936,7 +936,7 @@
       "options": [
         "The sediment's chemical composition",
         "The height of the dam alone",
-        "The RATIO of the reservoir's CAPACITY to the annual INFLOW — a large reservoir on a small river detains water long enough to settle nearly everything, while a small reservoir on a large river passes most of it",
+        "The RATIO of the reservoir's CAPACITY to the annual INFLOW",
         "The type of spillway provided"
       ],
       "answerIndex": 2,
@@ -1002,7 +1002,7 @@
       "options": [
         "Dry-season generation is more expensive to produce",
         "The transmission losses are greater in the dry season",
-        "Dry-season energy is SCARCE and therefore more valuable to the system — so the tariff signal encourages developers to build plants and adopt designs that deliver in the dry season",
+        "Dry-season energy is SCARCE and therefore more valuable to the system",
         "Water rights are more costly to acquire in the dry season"
       ],
       "answerIndex": 2,
@@ -1034,7 +1034,7 @@
       "stem": "The ECONOMIC LIFE assumed for the civil works of a hydropower project is typically much longer than that assumed for the electromechanical equipment because:",
       "options": [
         "Civil works are subject to lower quality standards and therefore fail more gradually",
-        "Dams, tunnels and intakes are largely passive structures subject to slow deterioration, while turbines, generators and control systems have moving and wearing parts and are also overtaken by technological obsolescence",
+        "Dams, tunnels and intakes are largely passive structures subject to slow deterioration",
         "Electromechanical equipment is not depreciated in project accounts",
         "Civil works can be replaced more cheaply"
       ],
@@ -1069,7 +1069,7 @@
         "The ratio of total debt to total equity in the project",
         "The number of years required to repay the loan",
         "The ratio of the interest paid to the principal repaid",
-        "The ratio of the CASH AVAILABLE FOR DEBT SERVICE in a period to the DEBT SERVICE due in that period — a lender's test of whether the project can pay, typically required to be at least 1.2 to 1.3"
+        "The ratio of the CASH AVAILABLE FOR DEBT SERVICE in a period to the DEBT SERVICE due in that period"
       ],
       "answerIndex": 3,
       "solution": "**The ratio of the CASH AVAILABLE FOR DEBT SERVICE in a period to the DEBT SERVICE due in that period** — a lender's test of whether the project can pay, typically required to be at least 1.2 to 1.3.\n\n**Stated as a formula and explained:**\n\n| Element | Expression |\n|---|---|\n| **DSCR** | **= Cash available for debt service ÷ (interest + principal due)** ← |\n| **Cash available (CFADS)** | **= Revenue − operating costs − taxes − any required reserve contributions** ← |\n| **Debt service** | **= interest + scheduled principal repayment in the period** ← |\n| **A DSCR of 1.0** | **The project exactly covers its obligation, with nothing spare** ← |\n| **A DSCR of 1.3** | **30 per cent headroom before default** ← |\n\n> **THE FOURTH ROW EXPLAINS WHY LENDERS DEMAND MORE THAN 1.0 AND IT IS A STRAIGHTFORWARD POINT ABOUT RISK: a project at exactly 1.0 defaults on the first bad year.**\n\n> **A dry year, an outage, a delayed payment from the offtaker, a repair — any of them turns 1.0 into less than 1.0, and the loan is in default.**\n\n> **The margin above 1.0 is the buffer against that, and its size reflects how variable the lender expects the cash flow to be.**\n\n> **So a hydropower project with a firm power purchase agreement and a creditworthy offtaker may be lent at 1.2, while one with hydrological risk and a weaker offtaker is asked for 1.4 — and the required ratio is the lender's summary of everything they fear about the project.**\n\n**HOW THE DSCR SHAPES THE PROJECT, WHICH IS ITS REAL SIGNIFICANCE FOR AN ENGINEER:**\n\n| Point | Note |\n|---|---|\n| **The DSCR requirement determines how much DEBT the project can carry** ← | ← |\n| **Which determines the required EQUITY** ← | ← |\n| **Which is usually the scarce resource** ← | ← |\n| **So a design change that raises dry-year revenue raises the DSCR in the worst year** ← | ← |\n| **Which permits more debt, less equity, and a project that can actually be financed** ← | ← |\n\n> **THE FOURTH AND FIFTH ROWS ARE THE ENGINEERING CONNECTION AND THEY ARE WORTH DWELLING ON BECAUSE THEY ARE NOT OBVIOUS: the binding constraint is the DSCR in the WORST year, not the average.**\n\n> **A lender sizes the debt so that even in a poor hydrological year the ratio holds.**\n\n> **So the project's financeable debt is set by its worst-year cash flow, and any measure that lifts the worst year — pondage, a more conservative design flow, a firmer contract, hydrological insurance — increases the debt capacity disproportionately.**\n\n> **A design change that raises average energy by 5 per cent may do nothing for financeability, and one that raises the dry-year minimum by 5 per cent may transform it.**\n\n> **That is a direct and frequently unrecognised link between hydraulic design decisions and whether the project can be built at all, and it is a good reason for the engineer and the financial analyst to work the model together rather than in sequence.**\n\n**A CLOSING NOTE ON TWO RELATED RATIOS THAT APPEAR ALONGSIDE IT:**\n\n| Ratio | Meaning |\n|---|---|\n| **DSCR** ← | **Period by period — can it pay this year?** ← |\n| **LLCR (Loan Life Coverage Ratio)** ← | **PV of cash flow over the loan's life ÷ debt outstanding — can it pay over the whole loan?** ← |\n| **PLCR (Project Life Coverage Ratio)** ← | **The same over the whole project life — a longer and more generous view** ← |\n\n> **The three answer the same question over three horizons, and a project can pass one and fail another.**\n\n> **A project with weak early years and strong later ones passes the LLCR and fails the DSCR in year three, which is exactly the profile of a hydropower plant whose tariff escalates or whose debt amortises unevenly.**\n\n> **The remedy in that case is not more equity but a differently SHAPED repayment schedule — sculpted amortisation, matching the principal repayments to the cash flow rather than to a flat annuity — which is a standard project finance technique and one worth knowing exists, because it can rescue a project that appears unfinanceable under a conventional loan structure.**",
@@ -1102,7 +1102,7 @@
         "The scheme's installed capacity in kilowatts",
         "The turbine type available locally",
         "The head available at the site",
-        "The DISTANCE and TERRAIN to the nearest grid, since the cost of a transmission line through mountainous country can exceed the cost of the generation itself — making an isolated mini-grid cheaper than a connection for a remote settlement"
+        "The DISTANCE and TERRAIN to the nearest grid"
       ],
       "answerIndex": 3,
       "solution": "**The DISTANCE and TERRAIN to the nearest grid, since the cost of a transmission line through mountainous country can exceed the cost of the generation itself** — making an isolated mini-grid cheaper than a connection for a remote settlement.\n\n**The comparison set out:**\n\n| Option | Costs | Suits |\n|---|---|---|\n| **GRID EXTENSION** ← | **Line cost per km, which is high in the hills; plus the energy tariff** ← | **Settlements near the grid, or with a large load** ← |\n| **ISOLATED MINI-GRID (micro-hydro)** ← | **The scheme's full capital cost, plus a small local distribution network** ← | **Remote settlements with a suitable stream** ← |\n| **SOLAR HOME SYSTEMS** ← | **Per household, no network at all** ← | **Scattered households with small loads** ← |\n\n> **THE ECONOMIC CROSSOVER BETWEEN THE FIRST TWO IS A DISTANCE AND IT IS THE CALCULATION THAT DECIDES THE QUESTION: at what distance does the line cost exceed the mini-grid cost?**\n\n> **A medium-voltage line through Nepali hill terrain may cost several million rupees per kilometre, with the towers, the access, the wayleave and the difficulty of construction.**\n\n> **A 50 kW micro-hydro scheme serving a village may cost a few tens of millions in total.**\n\n> **So the crossover falls at a distance of a few kilometres to a few tens of kilometres depending on the load — and beyond it the isolated scheme is genuinely cheaper, not merely a second best.**\n\n**THE FACTORS THAT SHIFT THE CROSSOVER, WHICH IS WHERE THE JUDGEMENT LIES:**\n\n| Factor | Effect |\n|---|---|\n| **A LARGER load** ← | **Favours the grid — the line's cost is spread over more energy** ← |\n| **A load that will GROW** ← | **Favours the grid, which has no capacity limit** ← |\n| **DIFFICULT terrain** ← | **Favours the isolated scheme — line cost rises steeply** ← |\n| **A good local STREAM with head** ← | **Favours the isolated scheme, obviously** ← |\n| **A need for RELIABILITY** ← | **Favours the grid — a single micro-hydro has no backup** ← |\n| **Local capacity to OPERATE and maintain** ← | **Essential for the isolated scheme; irrelevant for the grid** ← |\n\n> **THE SECOND ROW IS THE CONSIDERATION MOST OFTEN UNDERWEIGHTED AND IT HAS PRODUCED A GREAT MANY STRANDED MICRO-HYDRO SCHEMES: the load grows, and a fixed 50 kW scheme cannot.**\n\n> **A village electrified at 50 kW acquires mills, refrigeration, small workshops and more households, and within a decade wants 200 kW.**\n\n> **The micro-hydro cannot supply it, so the grid arrives after all — and the micro-hydro scheme is then redundant, having been built and operated for a decade at considerable cost.**\n\n> **The mitigation is to design the scheme so it can be GRID-CONNECTED when the grid arrives, feeding its output into the network rather than being abandoned — which requires synchronous rather than induction generation, appropriate protection, and a tariff arrangement agreed in advance.**\n\n> **That foresight costs a modest amount at construction and preserves the asset's value entirely, and it should be a standard requirement for any publicly funded scheme rather than the exception it currently is.**\n\n> **THE LAST ROW DESERVES THE FINAL WORD BECAUSE IT DETERMINES WHETHER THE SCHEME SURVIVES: an isolated scheme needs someone competent and paid to run it, for as long as it operates.**\n\n> **The technical failure of rural micro-hydro is rare; the institutional failure is common — a scheme built by a donor, handed to a committee, and unmaintained after the first serious fault because no one has the skill, the spares or the money.**\n\n> **So the tariff collection arrangement, the operator's training and pay, and the spares supply chain are as much part of the design as the turbine selection.**\n\n> **A scheme delivered without them is a capital gift that becomes scrap in five years, and the engineering that went into it is wasted along with the money.**",
@@ -1200,7 +1200,7 @@
       "options": [
         "The valley is wide and the foundation is alluvial",
         "A very large volume of concrete is available cheaply",
-        "The valley is a NARROW GORGE with SOUND, STRONG ROCK abutments capable of taking the arch thrust — since the dam transfers most of the water load horizontally into the flanks rather than downward into the bed",
+        "The valley is a NARROW GORGE with SOUND, STRONG ROCK abutments capable of taking the arch thrust",
         "The reservoir is shallow and the dam low"
       ],
       "answerIndex": 2,
@@ -1234,7 +1234,7 @@
         "Overturning of the embankment as a rigid body",
         "Crushing of the fill at the base under its own weight",
         "Failure of the concrete facing in tension",
-        "PIPING and OVERTOPPING — internal erosion carrying fines out along a seepage path, and the passage of a flood over the crest, both of which erode the embankment rather than overstress it"
+        "PIPING and OVERTOPPING"
       ],
       "answerIndex": 3,
       "solution": "**PIPING and OVERTOPPING** — internal erosion carrying fines out along a seepage path, and the passage of a flood over the crest, both of which erode the embankment rather than overstress it.\n\n**Why an embankment fails by erosion rather than by stress:**\n\n| Point | Note |\n|---|---|\n| **An embankment is a granular mass, not a monolith** ← | **It cannot overturn and does not crush** ← |\n| **Its weakness is that its particles can be MOVED by flowing water** ← | ← |\n| **Water flowing THROUGH it can carry fines out at the exit — PIPING** ← | ← |\n| **Water flowing OVER it strips the downstream face — OVERTOPPING** ← | ← |\n| **Both are progressive and both can breach a dam within hours** ← | ← |\n| **And together they account for the great majority of embankment dam failures** ← | ← |\n\n> **THE CONTRAST WITH A CONCRETE DAM IS INSTRUCTIVE AND IT DECIDES HOW EACH IS DESIGNED: a concrete dam can survive being overtopped and is designed against stress and stability; an embankment cannot survive overtopping and is designed against erosion.**\n\n> **This single difference drives the spillway provision: an embankment dam needs a spillway of ample and reliable capacity, because the consequence of its being inadequate is total loss of the dam.**\n\n> **A concrete gravity dam overtopped by a flood larger than its spillway will generally survive, with damage to its toe and its abutments.**\n\n> **So the design flood standard applied to an embankment dam is stricter, and an EMERGENCY spillway or fuse plug is commonly provided as a second line — which is a proportionate response to a failure mode that offers no warning and no margin.**\n\n**HOW PIPING IS PREVENTED, WHICH IS THE CENTRAL DESIGN TASK:**\n\n| Measure | Note |\n|---|---|\n| **FILTERS at every internal boundary where fine material could migrate into coarse** ← | **Designed by the standard filter criteria on particle sizes** ← |\n| **A CHIMNEY or inclined filter drain within the embankment** ← | **Intercepts seepage and controls the phreatic surface** ← |\n| **A horizontal blanket drain to a toe drain** ← | **Carries the collected seepage safely out** ← |\n| **A cut-off, core or grout curtain to reduce the seepage in the first place** ← | ← |\n| **Careful treatment around CONDUITS and at the abutment contacts** ← | **The commonest locations of piping failures** ← |\n\n> **THE FIRST ROW IS THE MOST IMPORTANT PROVISION AND ITS LOGIC IS WORTH STATING PLAINLY: a filter permits water to pass while retaining the particles of the material it protects.**\n\n> **So seepage is allowed to occur and to escape freely, and only the soil is held back.**\n\n> **The design criteria relate the filter's D15 to the base soil's D85 — the filter must be fine enough to retain, and its D15 to the base D15 — coarse enough to drain freely.**\n\n> **Getting those two conditions right is what makes a filter work, and a 'filter' of the wrong gradation either clogs, which raises the phreatic surface, or passes the fines, which is piping by another name.**\n\n> **THE LAST ROW IS WHERE PIPING ACTUALLY HAPPENS AND IT IS WORTH DWELLING ON BECAUSE IT IS A DETAILING FAILURE RATHER THAN A DESIGN ONE: a conduit passing through an embankment creates a preferential seepage path along its outside.**\n\n> **The fill cannot be compacted properly against the conduit's haunches, the conduit settles differently from the fill around it, and a gap opens.**\n\n> **Water finds that path, erosion begins along it, and the dam fails from a defect a few centimetres wide.**\n\n> **The modern answer is to avoid conduits through embankments altogether where possible — taking the outlet through the abutment in a tunnel instead — and where one is unavoidable, to provide a filter diaphragm around it rather than the old anti-seep collars, which are now understood to have made compaction worse and achieved little.**",
@@ -1264,7 +1264,7 @@
       "marks": 1,
       "stem": "The FREEBOARD of a dam is the vertical distance between the maximum reservoir level and the dam crest. It is provided to accommodate:",
       "options": [
-        "WAVE RUN-UP, wind setup, settlement of the dam and a margin of safety — so that the crest is not overtopped by waves even when the reservoir is at its maximum level",
+        "WAVE RUN-UP, wind setup, settlement of the dam and a margin of safety",
         "The thickness of the road pavement on the crest",
         "The volume of the design flood",
         "Ice thrust on the upstream face"
@@ -1300,7 +1300,7 @@
         "Increase the friction and so slow the discharge",
         "Make the crest easier to construct",
         "Ensure the flow SEPARATES from the crest at all discharges",
-        "Have the flow follow the surface with ATMOSPHERIC pressure on it at the design head — avoiding negative pressures that would cause cavitation, while achieving a high discharge coefficient"
+        "Have the flow follow the surface with ATMOSPHERIC pressure on it at the design head"
       ],
       "answerIndex": 3,
       "solution": "**To have the flow follow the surface with ATMOSPHERIC pressure on it at the design head** — avoiding negative pressures that would cause cavitation, while achieving a high discharge coefficient.\n\n**The reasoning behind the shape:**\n\n| Step | Note |\n|---|---|\n| **Water flowing over a SHARP-crested weir springs clear as a nappe** ← | ← |\n| **The under-surface of that nappe is a free surface at ATMOSPHERIC pressure** ← | ← |\n| **If solid material is placed exactly along that surface, the flow is unchanged** ← | ← |\n| **And the pressure on the solid surface is therefore atmospheric — neither positive nor negative** ← | ← |\n| **So the ogee crest is the shape that supports the nappe without disturbing it** ← | ← |\n| **Giving the discharge efficiency of a sharp-crested weir with the structural solidity of a mass concrete crest** ← | ← |\n\n> **THE SIXTH ROW IS THE ELEGANCE OF THE IDEA AND IT IS WORTH APPRECIATING: the ogee spillway gets the hydraulic performance of the most efficient weir shape and the durability of a solid structure, by the simple device of building the structure exactly where the water was going anyway.**\n\n> **A sharp-crested weir is hydraulically efficient and structurally hopeless at dam scale.**\n\n> **A broad-crested weir is structurally sound and hydraulically poor, with a lower discharge coefficient.**\n\n> **The ogee resolves the conflict rather than compromising between the two, which is a much better kind of solution and one worth recognising when it appears.**\n\n**THE CRITICAL QUALIFICATION IS 'AT THE DESIGN HEAD' AND IT IS THE EXAMINABLE POINT:**\n\n| Operating head | What happens |\n|---|---|\n| **AT the design head Hd** ← | **The nappe fits the profile exactly, pressure is atmospheric, coefficient is at its highest** ← |\n| **BELOW the design head** ← | **The nappe wants to fall INSIDE the profile, so it presses on the crest — POSITIVE pressure, slightly reduced coefficient, entirely safe** ← |\n| **ABOVE the design head** ← | **The nappe wants to spring OUTSIDE the profile, so it pulls away from the crest — NEGATIVE pressure, higher coefficient, and the RISK OF CAVITATION** ← |\n\n> **THE THIRD ROW IS THE DANGER AND IT IS WHY THE DESIGN HEAD IS DELIBERATELY CHOSEN BELOW THE MAXIMUM: negative pressures at heads above the design head can approach vapour pressure, at which point cavitation begins.**\n\n> **Cavitation on a concrete spillway surface pits and then rapidly destroys it, and the damage is at its worst just downstream of the crest where the velocity is highest.**\n\n> **The standard practice is to set the design head at about 75 to 80 per cent of the maximum head, so that at the maximum flood the negative pressure remains within tolerable limits.**\n\n> **That sacrifices a little discharge capacity at normal heads and buys safety at the extreme — and the reason the design head is not simply set equal to the maximum is that a profile designed for the rare maximum flood would run under positive pressure and reduced efficiency for its entire ordinary life.**\n\n> **So the choice is a deliberate trade between everyday efficiency and extreme-event safety, resolved at around three-quarters, and it is a good illustration of why a design parameter is sometimes set at neither the normal nor the extreme condition.**\n\n**AND A CLOSING NOTE ON CAVITATION PROTECTION, WHICH APPLIES BEYOND THE CREST:**\n\n> **On a high spillway the velocity further down the chute can reach 30 or 40 m/s, at which any surface irregularity — a misaligned form joint, a protruding bolt, a repair patch — triggers cavitation downstream of it.**\n\n> **The classical protection is extreme surface tolerance, which is expensive and hard to maintain.**\n\n> **The modern protection is AERATION: a step or ramp in the chute floor that draws air under the flow, because a small percentage of entrained air near the boundary largely suppresses cavitation damage.**\n\n> **Aerator ramps at intervals down a high chute are now standard, and they represent a shift from trying to make the surface perfect to accepting that it will not be and protecting it anyway — the same philosophy noted with cracked-base analysis and with GLOF-graded protection.**",
@@ -1330,7 +1330,7 @@
       "marks": 1,
       "stem": "A STILLING BASIN at the toe of a spillway dissipates energy by:",
       "options": [
-        "Forcing a HYDRAULIC JUMP, in which the supercritical high-velocity flow from the chute converts to subcritical flow with a large loss of energy in the turbulence",
+        "Forcing a HYDRAULIC JUMP",
         "Allowing the water to spread over a wide apron and evaporate",
         "Reducing the flow's velocity by friction along a long horizontal apron alone",
         "Diverting the flow into a series of small channels"
@@ -1398,7 +1398,7 @@
       "options": [
         "Increase the total spillway discharge capacity during floods",
         "Provide additional head for the power turbines",
-        "Permit the reservoir to be DRAWN DOWN or emptied — for flushing accumulated sediment, for inspection and repair of the dam, and as an emergency measure if the dam is found to be in distress",
+        "Permit the reservoir to be DRAWN DOWN or emptied",
         "Supply water to the fish ladder"
       ],
       "answerIndex": 2,
@@ -1463,7 +1463,7 @@
       "stem": "In the stability analysis of a gravity dam, the SLIDING FACTOR (or shear-friction factor of safety) is checked because:",
       "options": [
         "Concrete may crush at the toe under the vertical load",
-        "The dam may slide HORIZONTALLY along its base or along a weak plane in the foundation, resisted by friction and by the cohesion or shear strength of the contact",
+        "The dam may slide HORIZONTALLY along its base or along a weak plane in the foundation",
         "The dam may float when the reservoir is full",
         "The abutments may spread apart"
       ],
@@ -1498,7 +1498,7 @@
         "The dam is a concrete gravity dam of great height",
         "The design flood is very small",
         "The spillway must discharge into a stilling basin",
-        "The dam is an EMBANKMENT, which cannot be overtopped — so the spillway is placed in a separate excavated channel on an abutment or a saddle, clear of the embankment"
+        "The dam is an EMBANKMENT, which cannot be overtopped"
       ],
       "answerIndex": 3,
       "solution": "**The dam is an EMBANKMENT, which cannot be overtopped** — so the spillway is placed in a separate excavated channel on an abutment or a saddle, clear of the embankment.\n\n**Why the dam type dictates the spillway arrangement:**\n\n| Dam type | Spillway arrangement |\n|---|---|\n| **CONCRETE gravity or arch** ← | **An OGEE overflow section built into the dam itself — the water falls down the dam's own face** ← |\n| **EMBANKMENT (earth or rockfill)** ← | **A SEPARATE spillway — chute, side channel, shaft or tunnel — placed away from the fill** ← |\n\n> **THE REASON IS THE EROSION VULNERABILITY ESTABLISHED EARLIER AND IT ADMITS OF NO EXCEPTION: an embankment cannot have water flowing over or against it.**\n\n> **So the spillway must be somewhere the flowing water touches only rock or concrete.**\n\n> **The natural place is a saddle, a low col in the reservoir rim, or an abutment where a channel can be excavated in rock.**\n\n> **The consequence is that an embankment dam's spillway is a separate and often very expensive structure — sometimes a third of the project's cost — whereas a concrete dam's spillway is largely part of the dam it is built into.**\n\n> **That cost difference partly offsets the embankment's cheaper dam, and it is why the dam-type comparison must be made on the TOTAL cost of dam plus spillway plus diversion, not on the dam alone.**\n\n**THE MAIN SPILLWAY TYPES AND WHERE EACH SUITS:**\n\n| Type | Description | Suits |\n|---|---|---|\n| **OGEE / overflow** ← | **Over the dam crest, down the dam face** ← | **Concrete dams** ← |\n| **CHUTE (trough)** ← | **A control structure then a steep open channel down the hillside** ← | **Embankment dams with a suitable saddle or abutment** ← |\n| **SIDE CHANNEL** ← | **Crest parallel to the channel, flow turns 90° into a trough alongside** ← | **Narrow gorges where there is no room for a wide crest at right angles** ← |\n| **SHAFT / MORNING GLORY** ← | **A circular crest dropping into a vertical shaft and a tunnel** ← | **Sites with no room for a surface spillway — often reusing the diversion tunnel** ← |\n| **SIPHON** ← | **Self-priming, operating automatically at a fixed level** ← | **Small schemes needing automatic operation with no gates** ← |\n| **LABYRINTH** ← | **A zigzag crest giving a long crest length in a short width** ← | **Where capacity must be increased without widening — often a retrofit** ← |\n\n> **THE FOURTH ROW HAS A CHARACTERISTIC AND DANGEROUS BEHAVIOUR THAT DESERVES NAMING: a shaft spillway's discharge is limited once the shaft runs FULL.**\n\n> **Below that point it behaves as a weir and its discharge grows rapidly with head, which is the desired behaviour.**\n\n> **Once the shaft primes and flows full it behaves as a pipe, and its discharge then grows only as the square root of the head — so a large increase in reservoir level produces very little extra discharge.**\n\n> **That makes a shaft spillway unsuitable as the sole spillway for a dam where a flood much larger than the design flood is credible, because it cannot pass the excess, and it is normally paired with an auxiliary or emergency spillway.**\n\n> **THE LAST ROW IS THE COMMON MODERN RETROFIT AND IT IS WORTH KNOWING WHY IT WORKS: weir discharge is proportional to crest LENGTH, and a labyrinth folds a long crest into a short opening.**\n\n> **A zigzag crest three or four times the width of the opening passes correspondingly more water at the same head.**\n\n> **So a dam whose spillway is found inadequate — because the design flood estimate has been revised upward, which happens regularly as records lengthen — can often be upgraded by replacing a straight crest with a labyrinth, without widening the opening or raising the dam.**\n\n> **That is a great deal cheaper than the alternatives, and it is why labyrinth and piano-key weirs have become common on rehabilitation projects worldwide.**",
@@ -1528,7 +1528,7 @@
       "marks": 1,
       "stem": "GATED spillways are provided in preference to ungated (free overflow) spillways chiefly because they:",
       "options": [
-        "Allow the reservoir to be stored ABOVE the spillway crest level — gaining storage and head — while retaining the ability to pass the design flood by opening the gates",
+        "Allow the reservoir to be stored ABOVE the spillway crest level",
         "Cannot fail to operate during a flood",
         "Are cheaper to build and require no mechanical equipment",
         "Reduce the design flood that must be passed"
@@ -1563,7 +1563,7 @@
       "options": [
         "The inflow hydrograph reaches its own peak",
         "The reservoir reaches its full supply level",
-        "The inflow EQUALS the outflow — that is, when the storage stops increasing and the reservoir level is at its maximum",
+        "The inflow EQUALS the outflow",
         "The inflow has fallen to zero"
       ],
       "answerIndex": 2,
@@ -1595,7 +1595,7 @@
       "stem": "The INSTRUMENTATION installed in a large dam — piezometers, inclinometers, extensometers, seepage weirs and survey monuments — is of value only if:",
       "options": [
         "It is installed after the dam has been in service for some years",
-        "The readings are taken from the day of first filling, recorded consistently, and compared against PREDICTED behaviour and previous readings — since a single reading means nothing and only the TREND against expectation reveals distress",
+        "The readings are taken from the day of first filling",
         "The instruments are read once a year by an external consultant",
         "The instruments are of the most expensive type available"
       ],
@@ -1630,7 +1630,7 @@
         "The OBE applies to concrete dams and the MCE to embankment dams",
         "The two are the same event described by different agencies",
         "The MCE is used only for dams above 100 m in height",
-        "The dam must remain OPERATIONAL with only minor repairable damage under the OBE, whereas under the MCE it need only avoid CATASTROPHIC RELEASE of the reservoir — damage, even severe damage, being acceptable"
+        "The dam must remain OPERATIONAL with only minor repairable damage under the OBE"
       ],
       "answerIndex": 3,
       "solution": "**The dam must remain OPERATIONAL with only minor repairable damage under the OBE, whereas under the MCE it need only avoid CATASTROPHIC RELEASE of the reservoir** — damage, even severe damage, being acceptable.\n\n**The two levels and their performance requirements:**\n\n| Level | Definition | Required performance |\n|---|---|---|\n| **OBE (Operating Basis Earthquake)** ← | **An event with a reasonable probability of occurring in the dam's life — often a 145-year return period** ← | **Remain operational; damage minor and repairable without emptying the reservoir** ← |\n| **MCE (Maximum Credible Earthquake)** ← | **The largest event the regional geology and seismology can plausibly produce** ← | **No UNCONTROLLED RELEASE of the reservoir. The dam may be severely damaged and may need replacing** ← |\n\n> **THE TWO-LEVEL APPROACH IS THE HEART OF MODERN SEISMIC DESIGN AND IT APPLIES FAR BEYOND DAMS, so it is worth understanding as a philosophy: design for FUNCTION under the event you expect, and for SURVIVAL under the event you cannot exclude.**\n\n> **Requiring a dam to remain fully operational after the maximum credible earthquake would make it impossibly expensive, and would buy a level of performance nobody needs — after such an event the dam's continued generation is not the priority.**\n\n> **Requiring it merely to avoid catastrophic release under a moderate earthquake would be far too lax, since such an earthquake will probably occur and the dam should keep working through it.**\n\n> **So two events, two requirements, each proportionate — and the same structure is checked twice, against different criteria.**\n\n> **The parallel in building codes is exact: a building must be undamaged in a frequent earthquake, repairable in a design earthquake and standing but perhaps unusable in the maximum considered one.**\n\n**THE MCE'S DEFINITION DESERVES CAREFUL ATTENTION BECAUSE IT IS NOT A PROBABILISTIC ONE:**\n\n| Point | Note |\n|---|---|\n| **The MCE is DETERMINISTIC — it is the largest event the known faults could produce** ← | ← |\n| **Established by identifying the seismic sources, their maximum magnitudes and their distances** ← | ← |\n| **Not by extrapolating a recurrence curve to a very long return period** ← | ← |\n| **Though a probabilistic assessment is usually done in parallel and the more onerous adopted** ← | ← |\n\n> **THE THIRD ROW IS THE SAME METHODOLOGICAL POINT MADE EARLIER ABOUT GLOFS AND IT RECURS FOR THE SAME REASON: an extreme governed by a physical limit should be assessed against that limit, not by statistical extrapolation.**\n\n> **A fault of a given length and character can produce an earthquake of a certain maximum magnitude and no larger, because there is only so much rock to rupture.**\n\n> **So the maximum credible event is bounded by geology, and identifying that bound is a more reliable procedure than extending a Gutenberg-Richter relation out to a ten-thousand-year return period.**\n\n> **Nepal's setting makes this concrete: the Main Himalayan Thrust is capable of a magnitude 8 or greater event, and any dam in the country must be assessed against that possibility regardless of what the instrumental record of the last century contains.**\n\n**AND THE PRACTICAL CONSEQUENCES FOR DESIGN DESERVE THE CLOSING NOTE:**\n\n| Requirement | Note |\n|---|---|\n| **Embankment dams need generous FREEBOARD against seismic settlement** ← | **The fill settles during shaking, and the crest can drop by a metre or more** ← |\n| **And a wide, well-filtered core, so a crack that forms cannot pipe** ← | **CRACK-STOPPING filters are the key seismic detail for an embankment** ← |\n| **Liquefiable foundation materials must be removed or treated** ← | **A liquefiable layer beneath a dam is not acceptable at any level of shaking** ← |\n| **Concrete dams need the cracked-base analysis noted earlier** ← | ← |\n| **And appurtenances — gates, hoists, power supply, access roads — must survive too** ← | **A dam that survives while its gates cannot be opened is not safe** ← |\n\n> **The second row is the most important embankment detail and it is worth remembering as the seismic counterpart of the ordinary filter: a wide chimney filter of properly graded sand will heal a transverse crack that opens through the core during shaking.**\n\n> **Water flowing into the crack meets the filter, the filter's sand washes into the crack and plugs it, and the erosion stops.**\n\n> **That is a self-healing mechanism designed in deliberately, and it is the reason a well-detailed modern embankment can survive severe shaking that would breach an older homogeneous one.**\n\n> **The last row is the one most often forgotten in practice, and it fails whole schemes: the dam is designed to survive the MCE and the access road, the substation and the gate hoists are not — so the dam stands and cannot be operated, which under a full reservoir after a major earthquake is precisely the situation in which operation matters most.**",
@@ -1660,13 +1660,13 @@
       "marks": 1,
       "stem": "An EMERGENCY PREPAREDNESS (or Emergency Action) PLAN for a large dam is required principally because:",
       "options": [
-        "No dam can be made absolutely safe, so the residual risk must be managed by ensuring that a developing failure is DETECTED, that the downstream population is WARNED in time, and that everyone knows in advance what they are to do",
+        "No dam can be made absolutely safe",
         "It is a condition of obtaining construction insurance",
         "It replaces the need for regular dam safety inspections",
         "It transfers legal liability for a failure from the owner to the authorities"
       ],
       "answerIndex": 0,
-      "solution": "**No dam can be made absolutely safe, so the residual risk must be managed** — by ensuring that a developing failure is DETECTED, that the downstream population is WARNED in time, and that everyone knows in advance what they are to do.\n\n**What the plan must contain:**\n\n| Element | Note |\n|---|---|\n| **DAM BREAK ANALYSIS and inundation mapping** ← | **Where the water goes, how deep, and how soon — the technical foundation of everything else** ← |\n| **Defined EMERGENCY LEVELS with triggering conditions** ← | **Linked to instrument thresholds, reservoir levels and observed conditions** ← |\n| **NOTIFICATION flowchart — who calls whom, in what order, with what message** ← | **Names and numbers, kept current** ← |\n| **WARNING system to the population at risk** ← | **Sirens, mobile alerts, and a means that works when power and network fail** ← |\n| **EVACUATION routes and assembly areas** ← | **Marked on the ground, not merely on a map** ← |\n| **Responsibilities of the owner, the police, the local authority and the district administration** ← | ← |\n| **A programme of DRILLS and annual review** ← | ← |\n\n> **THE FIRST ROW IS WHERE THE ENGINEERING SITS AND IT IS THE PART WITHOUT WHICH THE REST IS GUESSWORK: a dam break analysis routes the outflow from a hypothetical breach down the valley and maps the resulting flood.**\n\n> **It gives the arrival time and the depth at every settlement, and it is from those arrival times that the warning system's required speed is determined.**\n\n> **A village 40 minutes downstream needs a warning within minutes to have any chance; one four hours downstream can be reached by telephone and vehicle.**\n\n> **So the analysis defines what the warning system has to achieve, and designing the warning system without it is designing to an unknown requirement.**\n\n> **THE LAST ROW IS WHERE MOST PLANS FAIL AND IT IS A FAILURE OF UPKEEP RATHER THAN OF DESIGN: a plan written once, filed and never exercised will not work.**\n\n> **The telephone numbers change, the officials are transferred, the siren is not maintained, the population turns over, and nobody has ever practised.**\n\n> **In the emergency, the plan is found, and it names people who left five years ago.**\n\n> **So the annual drill and review are not administrative overhead — they are what keeps the plan real, and a plan without them is a document rather than a capability.**\n\n**AND THE PHRASE 'NO DAM CAN BE MADE ABSOLUTELY SAFE' DESERVES DEFENDING BECAUSE IT SOUNDS DEFEATIST AND IS NOT:**\n\n| Point | Note |\n|---|---|\n| **Every design uses estimated loads, assumed material properties and imperfect knowledge of the foundation** ← | ← |\n| **Construction introduces defects that are not all detected** ← | ← |\n| **Deterioration occurs over decades** ← | ← |\n| **And events larger than those designed for remain possible** ← | ← |\n| **So the probability of failure is small and it is NOT zero** ← | ← |\n| **Managing a small non-zero probability of a catastrophic outcome is exactly what an emergency plan is for** ← | ← |\n\n> **THE FIFTH AND SIXTH ROWS TOGETHER ARE THE MATURE POSITION AND IT IS WORTH ADOPTING EXPLICITLY: acknowledging residual risk is not an admission of poor engineering.**\n\n> **It is a recognition that engineering reduces risk and does not eliminate it, and that the remaining risk deserves its own treatment.**\n\n> **The alternative posture — that the dam is safe and therefore no plan is needed — leaves the population with no protection precisely in the circumstance the whole enterprise was meant to guard against.**\n\n> **And it is worth noting that the emergency plan is by far the cheapest element of dam safety: the dam costs billions, and the plan costs a few million and saves the lives that the billions could not guarantee.**\n\n> **Option (d)'s suggestion about liability is worth rejecting explicitly, since it inverts the position: preparing a plan does not transfer liability, and failing to prepare one where it is required is itself a source of liability — so the plan protects the population first and the owner second, and never at the population's expense.**",
+      "solution": "**No dam can be made absolutely safe, so the residual risk must be managed** — by ensuring that a developing failure is DETECTED, that the downstream population is WARNED in time, and that everyone knows in advance what they are to do.\n\n**What the plan must contain:**\n\n| Element | Note |\n|---|---|\n| **DAM BREAK ANALYSIS and inundation mapping** ← | **Where the water goes, how deep, and how soon — the technical foundation of everything else** ← |\n| **Defined EMERGENCY LEVELS with triggering conditions** ← | **Linked to instrument thresholds, reservoir levels and observed conditions** ← |\n| **NOTIFICATION flowchart — who calls whom, in what order, with what message** ← | **Names and numbers, kept current** ← |\n| **WARNING system to the population at risk** ← | **Sirens, mobile alerts, and a means that works when power and network fail** ← |\n| **EVACUATION routes and assembly areas** ← | **Marked on the ground, not merely on a map** ← |\n| **Responsibilities of the owner, the police, the local authority and the district administration** ← | ← |\n| **A programme of DRILLS and annual review** ← | ← |\n\n> **THE FIRST ROW IS WHERE THE ENGINEERING SITS AND IT IS THE PART WITHOUT WHICH THE REST IS GUESSWORK: a dam break analysis routes the outflow from a hypothetical breach down the valley and maps the resulting flood.**\n\n> **It gives the arrival time and the depth at every settlement, and it is from those arrival times that the warning system's required speed is determined.**\n\n> **A village 40 minutes downstream needs a warning within minutes to have any chance; one four hours downstream can be reached by telephone and vehicle.**\n\n> **So the analysis defines what the warning system has to achieve, and designing the warning system without it is designing to an unknown requirement.**\n\n> **THE LAST ROW IS WHERE MOST PLANS FAIL AND IT IS A FAILURE OF UPKEEP RATHER THAN OF DESIGN: a plan written once, filed and never exercised will not work.**\n\n> **The telephone numbers change, the officials are transferred, the siren is not maintained, the population turns over, and nobody has ever practised.**\n\n> **In the emergency, the plan is found, and it names people who left five years ago.**\n\n> **So the annual drill and review are not administrative overhead — they are what keeps the plan real, and a plan without them is a document rather than a capability.**\n\n**AND THE PHRASE 'NO DAM CAN BE MADE ABSOLUTELY SAFE' DESERVES DEFENDING BECAUSE IT SOUNDS DEFEATIST AND IS NOT:**\n\n| Point | Note |\n|---|---|\n| **Every design uses estimated loads, assumed material properties and imperfect knowledge of the foundation** ← | ← |\n| **Construction introduces defects that are not all detected** ← | ← |\n| **Deterioration occurs over decades** ← | ← |\n| **And events larger than those designed for remain possible** ← | ← |\n| **So the probability of failure is small and it is NOT zero** ← | ← |\n| **Managing a small non-zero probability of a catastrophic outcome is exactly what an emergency plan is for** ← | ← |\n\n> **THE FIFTH AND SIXTH ROWS TOGETHER ARE THE MATURE POSITION AND IT IS WORTH ADOPTING EXPLICITLY: acknowledging residual risk is not an admission of poor engineering.**\n\n> **It is a recognition that engineering reduces risk and does not eliminate it, and that the remaining risk deserves its own treatment.**\n\n> **The alternative posture — that the dam is safe and therefore no plan is needed — leaves the population with no protection precisely in the circumstance the whole enterprise was meant to guard against.**\n\n> **And it is worth noting that the emergency plan is by far the cheapest element of dam safety: the dam costs billions, and the plan costs a few million and saves the lives that the billions could not guarantee.**\n\n> **Option (d)'s suggestion about liability is worth rejecting explicitly, since it inverts the position: preparing a plan does not transfer liability, and failing to prepare one where it is required is itself a source of liability — so the plan protects the population first and the owner second, and never at the population's expense.**\n\nThe residual risk must be managed by ensuring that a developing failure is DETECTED, that the downstream population is WARNED in time, and that everyone knows in advance what they are to do.",
       "difficulty": "medium",
       "tags": [
         "emergency preparedness plan",
@@ -1694,7 +1694,7 @@
       "stem": "A SIDE INTAKE on a run-of-river scheme is normally located on the OUTER bank of a river bend because:",
       "options": [
         "The outer bank is where the river is shallowest",
-        "SECONDARY (helicoidal) FLOW at a bend carries the surface water — which is relatively sediment-free — toward the outer bank and sweeps the bed load along the bed toward the INNER bank, so an outer-bank intake draws the cleanest available water",
+        "SECONDARY (helicoidal) FLOW at a bend carries the surface water",
         "The outer bank requires less excavation",
         "Floods do not reach the outer bank"
       ],
@@ -1729,7 +1729,7 @@
         "Takes water from a reservoir rather than from a flowing river",
         "Requires a tall diversion weir across the river",
         "Uses no screen of any kind",
-        "Takes water through a horizontal or gently sloping BAR RACK set in the river BED, over which the flow passes — the water falling between the bars into a collection trench while coarse material is carried on over the rack"
+        "Takes water through a horizontal or gently sloping BAR RACK set in the river BED, over which the flow passes"
       ],
       "answerIndex": 3,
       "solution": "**It takes water through a horizontal or gently sloping BAR RACK set in the river BED, over which the flow passes** — the water falling between the bars into a collection trench while coarse material is carried on over the rack.\n\n**Why it suits steep mountain streams:**\n\n| Advantage | Note |\n|---|---|\n| **No tall weir is needed — the structure sits IN the bed** ← | **So there is little to be damaged by a flood** ← |\n| **Boulders and debris pass OVER the rack and continue downstream** ← | **Rather than accumulating against a weir** ← |\n| **It works over a wide range of flows** ← | **Taking its design flow and letting the excess pass over** ← |\n| **It is compact and cheap** ← | ← |\n| **And it is well suited to steep, boulder-strewn torrents** ← | **Where a conventional weir and side intake would be destroyed** ← |\n\n> **THE SECOND ROW IS THE KEY VIRTUE ON A HIMALAYAN TORRENT AND IT IS WHY THE TYPE IS SO WIDELY USED IN NEPAL'S SMALL SCHEMES: such streams carry boulders, and boulders destroy structures that try to stop them.**\n\n> **A Tyrolean intake does not try — it is a low structure aligned with the bed, and the boulders roll over it.**\n\n> **The rack bars take a battering and are replaceable; the structure beneath survives.**\n\n> **That is the sacrificial-element philosophy again, applied at small scale, and it is why a Tyrolean intake in a torrent outlasts a more substantial-looking weir.**\n\n**THE BAR DETAILING IS WHERE THESE INTAKES SUCCEED OR FAIL AND IT REPAYS ATTENTION:**\n\n| Detail | Note |\n|---|---|\n| **Bars run PARALLEL to the flow** ← | **So material slides along them rather than lodging across them** ← |\n| **Clear spacing typically 10 to 30 mm** ← | **Set by the size of particle the settling basin can handle** ← |\n| **Bars are wider at the top than the bottom — a TRAPEZOIDAL or teardrop section** ← | **So anything that passes the top gap cannot jam lower down** ← |\n| **The rack slopes downstream at about 1 in 5 to 1 in 10** ← | **Helping material self-clear** ← |\n| **The collection trench beneath is sized to carry the design flow without surcharging** ← | **If it backs up, water rises through the rack and the intake stops working** ← |\n\n> **THE THIRD ROW IS A PIECE OF DETAILING THAT SOLVES A REAL AND OTHERWISE INTRACTABLE PROBLEM AND IT IS WORTH REMEMBERING AS A GENERAL PRINCIPLE: a gap that narrows downward jams; a gap that widens downward cannot.**\n\n> **With parallel-sided bars, a stone that just enters the gap at the top wedges partway down and stays there, and each such stone reduces the intake's capacity permanently until someone prises it out.**\n\n> **With bars tapering so the gap widens downward, any stone that enters passes straight through into the trench, where it is dealt with by the flushing arrangement.**\n\n> **The same principle appears in crusher jaws, in hopper outlets and in trash rack design generally — make the passage widen in the direction of travel, and blockage becomes impossible rather than merely unlikely.**\n\n**AND THE TYPE'S LIMITATIONS DESERVE STATING, SINCE IT IS NOT UNIVERSALLY APPLICABLE:**\n\n| Limitation | Note |\n|---|---|\n| **The rack CLOGS with leaves, twigs and fine debris** ← | **Requiring frequent manual raking — the type's main operating burden** ← |\n| **It admits SAND and fine material freely** ← | **Only coarse material is excluded, so a settling basin is essential** ← |\n| **Its capacity is limited by the rack's plan area** ← | **Large flows need long racks, and the arrangement becomes unwieldy** ← |\n| **It suits STEEP streams and works poorly on flat ones** ← | **Self-cleaning depends on the flow's energy** ← |\n\n> **The first row is the reason these intakes need an attentive operator and it is the commonest cause of their disappointing in service: a rack blanketed with leaves after an autumn storm passes almost no water.**\n\n> **Nothing in the design prevents this, and the remedy is a person with a rake.**\n\n> **So the type trades capital cost and flood robustness for an operating burden — an excellent trade for a scheme with a resident operator and a poor one for a scheme intended to run unattended, which is a distinction worth making before the type is selected.**",
@@ -1759,7 +1759,7 @@
       "marks": 1,
       "stem": "The GRAVEL TRAP placed immediately downstream of an ROR intake, before the settling basin, is provided to:",
       "options": [
-        "Remove the COARSE fraction — gravel and coarse sand that the intake has admitted — close to the river, where it can be flushed straight back with a short sluice and a steep gradient",
+        "Remove the COARSE fraction",
         "Remove dissolved salts from the water",
         "Store gravel for use as construction aggregate",
         "Increase the water's velocity before it enters the settling basin"
@@ -1825,7 +1825,7 @@
       "marks": 1,
       "stem": "A DIVERSION WEIR across a river for an ROR scheme differs from a storage dam principally in that the weir:",
       "options": [
-        "Creates NO SIGNIFICANT STORAGE — it raises the water level just enough to command the intake, and passes the flood over its crest",
+        "Creates NO SIGNIFICANT STORAGE",
         "Is always constructed of earthfill",
         "Must be higher than a storage dam for the same river",
         "Requires no foundation treatment"
@@ -1893,7 +1893,7 @@
       "options": [
         "An inclined rack is stronger than a vertical one",
         "Inclination increases the velocity through the rack",
-        "A blocked rack imposes a DIFFERENTIAL HEAD across itself that can collapse it, and the blockage also reduces the net head and hence the output — so the rack must be cleanable while the plant runs",
+        "A blocked rack imposes a DIFFERENTIAL HEAD across itself that can collapse it",
         "The inclination prevents fish from approaching the intake"
       ],
       "answerIndex": 2,
@@ -1959,7 +1959,7 @@
       "options": [
         "Removes a finer fraction of sediment than an intermittent basin can",
         "Requires no flushing water at all",
-        "Withdraws a small CONTINUOUS flow from hoppers along the basin floor, carrying the settled sediment away without interrupting generation — at the cost of that flow being permanently unavailable for power",
+        "Withdraws a small CONTINUOUS flow from hoppers along the basin floor",
         "Operates only during the dry season"
       ],
       "answerIndex": 2,
@@ -1990,7 +1990,7 @@
       "marks": 1,
       "stem": "In the layout of an ROR headworks, the FOREBAY at the downstream end of the headrace serves to:",
       "options": [
-        "Provide the final small reserve of water that absorbs the SURGE when the turbines change load, to keep the penstock intake submerged, and to act as the last point at which floating debris and excess water can be removed before the penstock",
+        "Provide the final small reserve of water that absorbs the SURGE when the turbines change load",
         "Act as the settling basin for fine sediment",
         "Measure the discharge entering the penstock",
         "Increase the head available to the turbines"
@@ -2023,7 +2023,7 @@
       "marks": 1,
       "stem": "In choosing between an open HEADRACE CANAL and a pressure TUNNEL for the conveyance of an ROR scheme in mountainous terrain, the tunnel is often preferred despite its higher unit cost because it:",
       "options": [
-        "Takes a DIRECT route through the ridges rather than contouring around every side valley — and it is immune to landslides, rockfall, erosion and the land acquisition that a hillside canal on unstable slopes entails",
+        "Takes a DIRECT route through the ridges rather than contouring around every side valley",
         "Requires no surge protection at its downstream end",
         "Always has a lower head loss per kilometre than a canal",
         "Can be constructed without any geological investigation"
@@ -2057,7 +2057,7 @@
       "stem": "A CROSS-DRAINAGE structure on a hillside headrace canal is required wherever the canal crosses a natural stream or gully. The arrangement most commonly adopted on a small Himalayan scheme is:",
       "options": [
         "A siphon carrying the canal beneath the stream bed",
-        "A SUPER-PASSAGE carrying the stream OVER the canal, or a culvert carrying it under — because the stream is a flashy, debris-laden torrent whose flow must be kept entirely separate from the canal water",
+        "A SUPER-PASSAGE carrying the stream OVER the canal, or a culvert carrying it under",
         "Allowing the stream to discharge directly into the canal to augment its flow",
         "Diverting the stream permanently into a new channel"
       ],
@@ -2124,7 +2124,7 @@
       "options": [
         "Support the penstock's weight only, the sliding supports between them carrying nothing",
         "Insulate the penstock from ground vibration",
-        "Resist the UNBALANCED FORCES at changes of direction — chiefly the resultant of the internal pressure acting on the bend, together with the component of the pipe's weight along the slope and the friction of thermal movement",
+        "Resist the UNBALANCED FORCES at changes of direction",
         "Allow the penstock to be dismantled in sections"
       ],
       "answerIndex": 2,
@@ -2157,7 +2157,7 @@
       "options": [
         "Increasing the penstock's wall thickness",
         "Reducing the flow velocity in the penstock",
-        "Lengthening the CLOSURE TIME of the turbine's guide vanes or valve, and by providing a SURGE TANK close to the powerhouse to shorten the length of conduit in which the pressure wave must travel",
+        "Lengthening the CLOSURE TIME of the turbine's guide vanes or valve",
         "Increasing the penstock's diameter alone"
       ],
       "answerIndex": 2,
@@ -2191,7 +2191,7 @@
         "The velocity in the penstock equals 4 m/s",
         "The head loss equals 5 per cent of the gross head",
         "The wall thickness is minimised",
-        "The sum of the ANNUAL COST OF THE PIPE and the ANNUAL VALUE OF THE ENERGY LOST to friction is a MINIMUM — a larger pipe costing more and losing less, a smaller one the reverse"
+        "The sum of the ANNUAL COST OF THE PIPE and the ANNUAL VALUE OF THE ENERGY LOST to friction is a MINIMUM"
       ],
       "answerIndex": 3,
       "solution": "**The sum of the ANNUAL COST OF THE PIPE and the ANNUAL VALUE OF THE ENERGY LOST to friction is a MINIMUM** — a larger pipe costing more and losing less, a smaller one the reverse.\n\n**The structure of the optimisation:**\n\n| Component | Behaviour with diameter D |\n|---|---|\n| **Annual capital charge on the pipe** | **INCREASES with D — roughly with D to the power 1.5 for a pipe of constant pressure rating** ← |\n| **Annual value of energy lost to friction** | **DECREASES steeply with D — head loss varies as 1/D⁵ for a given discharge** ← |\n| **Their SUM** | **Falls, reaches a minimum, then rises** ← |\n| **The minimum is the economic diameter** | ← |\n\n> **THE SECOND ROW'S 1/D⁵ IS THE RELATIONSHIP THAT MAKES THE OPTIMISATION SHARP AND IT IS WORTH SEEING WHERE IT COMES FROM: by Darcy-Weisbach, h = f L V² / (2gD).**\n\n> **For a fixed discharge Q, V = Q/A ∝ 1/D², so V² ∝ 1/D⁴.**\n\n> **Substituting: h ∝ (1/D⁴)/D = 1/D⁵.**\n\n> **So increasing the diameter by 15 per cent halves the head loss, which is why enlarging a penstock is such an effective way of recovering head and why the optimum is reached quite quickly as D grows.**\n\n**WHAT MOVES THE OPTIMUM, WHICH IS THE PRACTICALLY USEFUL PART:**\n\n| Factor | Effect on the economic diameter |\n|---|---|\n| **A HIGHER energy tariff** ← | **LARGER pipe — the head saved is worth more** ← |\n| **A higher steel price** ← | **SMALLER pipe** ← |\n| **A higher discount rate** ← | **SMALLER pipe — future energy is worth less today than present steel costs** ← |\n| **A higher plant capacity factor** ← | **LARGER pipe — the loss is incurred for more hours a year** ← |\n| **A LONGER penstock** ← | **LARGER pipe — the loss is proportional to length while the cost per metre is not affected** ← |\n\n> **THE FOURTH ROW IS OFTEN OVERLOOKED AND IT HAS A CLEAR CONSEQUENCE: a peaking plant running 1,500 hours a year loses far less energy to friction than a base-load plant running 6,000 hours, even at the same rated flow.**\n\n> **So the peaking plant's economic diameter is smaller, and applying a base-load plant's sizing rule to it over-invests in pipe.**\n\n> **This is another instance of the general point that a hydraulic component's correct size depends on how the plant will be OPERATED, not only on its rated conditions.**\n\n> **And it is a reason to settle the operating regime before sizing the waterway, rather than treating the regime as something decided later by the system operator.**\n\n> **SEVERAL EMPIRICAL FORMULAE EXIST FOR A FIRST ESTIMATE AND THEY ARE WORTH HAVING, WITH THE PROPER CAVEAT: expressions such as D = 0.72 Q^0.5 for low head, or Fahlbusch's and Sarkaria's formulae relating D to P and H, give a starting diameter within perhaps 10 per cent.**\n\n> **They embed particular assumptions about energy prices, steel prices and discount rates prevailing where and when they were derived.**\n\n> **So they are legitimate for a first pass and should never be the final answer, because the underlying economics have moved since and differ between countries.**\n\n> **The proper procedure is to cost three or four candidate diameters explicitly, compute the annual energy loss for each from the actual flow duration curve and tariff, and plot the total — which takes an afternoon and gives an answer that can be defended, unlike a formula whose provenance nobody in the room can state.**",
@@ -2254,7 +2254,7 @@
       "marks": 1,
       "stem": "A SURGE TANK on a hydropower waterway performs two distinct functions. These are:",
       "options": [
-        "To reflect the WATER HAMMER pressure wave, shortening the effective conduit length; and to provide a water RESERVE and a free surface that allow the tunnel's flow to accelerate or decelerate gradually as the turbine load changes",
+        "To reflect the WATER HAMMER pressure wave, shortening the effective conduit length",
         "To measure the flow and to provide access to the tunnel",
         "To remove air from the tunnel and to filter the water",
         "To raise the head on the turbines and to store water overnight"
@@ -2289,7 +2289,7 @@
       "options": [
         "Its velocity exceeds 3 m/s",
         "It is lined with concrete rather than shotcrete",
-        "It flows FULL, with the water under pressure greater than atmospheric — so the hydraulic grade line lies above the tunnel crown and the tunnel's slope need not match the hydraulic gradient",
+        "It flows FULL, with the water under pressure greater than atmospheric",
         "It is excavated by a tunnel boring machine"
       ],
       "answerIndex": 2,
@@ -2320,7 +2320,7 @@
       "marks": 1,
       "stem": "In the NEW AUSTRIAN TUNNELLING METHOD (NATM), the principle is to:",
       "options": [
-        "Mobilise the ROCK MASS ITSELF as the main load-carrying element — installing a flexible initial support of shotcrete and rock bolts that allows controlled deformation, monitoring that deformation, and adjusting the support to what the ground actually requires",
+        "Mobilise the ROCK MASS ITSELF as the main load-carrying element",
         "Excavate the full face and immediately install a rigid, heavy concrete lining that carries the whole ground load",
         "Avoid all support and rely on the rock standing unaided",
         "Freeze the ground before excavation in every case"
@@ -2356,7 +2356,7 @@
         "Determine the tunnel's hydraulic roughness",
         "Calculate the tunnel's cost per metre",
         "Estimate the rock's chemical composition",
-        "CLASSIFY the rock mass from a set of measured parameters, and from that classification estimate the STAND-UP TIME and recommend a support pattern — converting qualitative geological description into a quantitative design basis"
+        "CLASSIFY the rock mass from a set of measured parameters"
       ],
       "answerIndex": 3,
       "solution": "**To CLASSIFY the rock mass from a set of measured parameters, and from that classification estimate the STAND-UP TIME and recommend a support pattern** — converting qualitative geological description into a quantitative design basis.\n\n**The two systems and what they count:**\n\n| System | Parameters |\n|---|---|\n| **RMR (Bieniawski)** ← | **Six: intact rock strength, RQD, joint spacing, joint condition, groundwater, and a correction for joint orientation. Rated 0 to 100** ← |\n| **Q-SYSTEM (Barton)** ← | **Q = (RQD/Jn) × (Jr/Ja) × (Jw/SRF), six parameters in three ratios** ← |\n\n> **THE Q-SYSTEM'S THREE RATIOS EACH HAVE A PHYSICAL MEANING AND KNOWING THEM MAKES THE FORMULA MEMORABLE RATHER THAN ARBITRARY: RQD/Jn represents the BLOCK SIZE — how much intact rock there is, divided by the number of joint sets breaking it up.**\n\n> **Jr/Ja represents the SHEAR STRENGTH between blocks — joint roughness over joint alteration, so a rough clean joint scores well and a smooth clay-filled one badly.**\n\n> **Jw/SRF represents the ACTIVE STRESS — water pressure reduction against the stress reduction factor for squeezing, swelling or faulted ground.**\n\n> **So Q is block size times inter-block friction times a stress condition, which is a reasonable summary of what determines whether a tunnel stands up, and the formula becomes a statement rather than a string of symbols.**\n\n**WHAT THE CLASSIFICATIONS ARE USED FOR:**\n\n| Use | Note |\n|---|---|\n| **Estimating STAND-UP TIME for a given unsupported span** ← | **Bieniawski's chart — how long the excavation will hold before support is needed** ← |\n| **Recommending a SUPPORT PATTERN** ← | **Bolt length and spacing, shotcrete thickness, whether steel ribs are needed** ← |\n| **Estimating rock mass DEFORMATION MODULUS** ← | **Through empirical correlations** ← |\n| **Comparing ground conditions between locations and projects** ← | **A common language** ← |\n| **CONTRACTUALLY, to define the support class payable for a given reach** ← | **Which is how the observational contract described earlier is made to work** ← |\n\n> **THE LAST ROW IS THE SYSTEMS' MOST PRACTICALLY IMPORTANT USE AND IT IS SELDOM MENTIONED IN TEXTBOOKS: the rock classification provides the objective trigger for a change in support and therefore for a change in payment.**\n\n> **Without it, 'the ground got worse' is an assertion that the contractor makes and the engineer disputes.**\n\n> **With it, the face is mapped, the Q value or RMR is computed from countable parameters, and the support class follows from a schedule agreed before the work began.**\n\n> **So the classification turns a matter of judgement into a matter of measurement, which is what allows the support to vary honestly with the ground — and that is a contractual achievement at least as valuable as the engineering one.**\n\n**AND THE SYSTEMS' LIMITATIONS DESERVE STATING, SINCE THEY ARE OFTEN APPLIED BEYOND THEM:**\n\n| Limitation | Note |\n|---|---|\n| **They are EMPIRICAL, derived from case histories** ← | **Mostly from particular geological settings** ← |\n| **They handle JOINTED rock well and squeezing or swelling ground poorly** ← | **The SRF term is a crude handle on a complex behaviour** ← |\n| **They say nothing about a single adverse feature** ← | **A classification can be good and one badly oriented wedge can still drop out** ← |\n| **And they are no substitute for understanding the geology** ← | ← |\n\n> **The third row is the most important caution and it applies to every classification system: an average is not a guarantee.**\n\n> **A reach of tunnel may rate as good rock throughout and contain one intersection of three joint sets forming a wedge that is kinematically free to fall.**\n\n> **The classification does not see it, because it counts joint sets and spacings rather than analysing the geometry.**\n\n> **So the classification sets the general support pattern and a separate KINEMATIC analysis of the wedges formed by the mapped joint sets must be done alongside it — which is why the tunnel face is mapped geologically and not merely scored.**",
@@ -2421,7 +2421,7 @@
       "options": [
         "Provide additional storage volume for surge",
         "Allow air to escape from the tunnel crown during filling",
-        "Give ACCESS to an intermediate point of the tunnel — creating additional working faces so the tunnel can be driven from several points at once, and providing ventilation, spoil removal and later maintenance access",
+        "Give ACCESS to an intermediate point of the tunnel",
         "Reduce the tunnel's friction losses"
       ],
       "answerIndex": 2,
@@ -2453,7 +2453,7 @@
       "stem": "CONSOLIDATION GROUTING and CONTACT GROUTING around a concrete-lined pressure tunnel are carried out respectively to:",
       "options": [
         "Seal the tunnel against water entry and to colour the lining for inspection",
-        "Strengthen and tighten the surrounding ROCK MASS by filling its fissures; and to fill the VOID between the lining's extrados and the rock, particularly at the crown where the concrete shrinks away",
+        "Strengthen and tighten the surrounding ROCK MASS by filling its fissures",
         "Both do the same thing under different names",
         "Reduce the tunnel's roughness and to provide reinforcement"
       ],
@@ -2519,7 +2519,7 @@
       "stem": "The DRAFT TUBE fitted below a reaction turbine serves to:",
       "options": [
         "Provide a support for the turbine's weight",
-        "RECOVER the kinetic energy remaining in the water leaving the runner, by expanding it gradually; and to allow the turbine to be set ABOVE the tailwater level while still using the head down to that level",
+        "RECOVER the kinetic energy remaining in the water leaving the runner, by expanding it gradually",
         "Prevent air from entering the turbine casing",
         "Increase the velocity of the water leaving the runner"
       ],
@@ -2551,7 +2551,7 @@
       "marks": 1,
       "stem": "A BIFURCATION or MANIFOLD in a penstock, where the single pipe divides to feed two or more turbines, requires special structural attention because:",
       "options": [
-        "The opening in the main pipe's wall interrupts the HOOP STRESS path, so the load must be carried around the opening by reinforcement — a sickle plate, crescent rib or external girder — and the junction is a region of complex three-dimensional stress",
+        "The opening in the main pipe's wall interrupts the HOOP STRESS path",
         "The velocity increases sharply at the junction",
         "The water temperature rises at the junction",
         "Bifurcations are always made of cast iron"
@@ -2586,7 +2586,7 @@
       "options": [
         "Regulate the flow to the turbine in normal operation",
         "Measure the flow entering the turbine",
-        "Isolate that unit for maintenance without dewatering the whole penstock, and to close as a SAFETY device if the turbine's own guide vanes fail to shut on a runaway",
+        "Isolate that unit for maintenance without dewatering the whole penstock",
         "Reduce the pressure entering the turbine casing"
       ],
       "answerIndex": 2,
@@ -2618,7 +2618,7 @@
       "stem": "In an underground waterway, a SURGE SHAFT is sometimes replaced by an AIR CUSHION SURGE CHAMBER, which works by:",
       "options": [
         "Venting the tunnel to atmosphere through a vertical borehole",
-        "Confining a volume of COMPRESSED AIR in a sealed rock cavern connected to the tunnel — the air acting as the compressible element that a free water surface would otherwise provide, so no shaft to the surface is needed",
+        "Confining a volume of COMPRESSED AIR in a sealed rock cavern connected to the tunnel",
         "Injecting air continuously into the flowing water",
         "Using a rubber bladder inside the penstock"
       ],
@@ -2684,7 +2684,7 @@
       "stem": "The TAILRACE of a hydropower plant should be designed so that:",
       "options": [
         "Its water level is as HIGH as possible to provide submergence",
-        "Its water level is kept as LOW as practicable, since every metre of tailwater level is a metre of head lost — while still maintaining the submergence the draft tube requires",
+        "Its water level is kept as LOW as practicable, since every metre of tailwater level is a metre of head lost",
         "Its velocity is as high as possible to carry sediment away",
         "It discharges into a different river from the one the intake draws on"
       ],
@@ -2718,7 +2718,7 @@
       "options": [
         "The water must be chemically treated before it enters",
         "Rapid filling would erode the concrete lining",
-        "Trapped AIR must be able to escape ahead of the rising water — a pocket of compressed air suddenly released can blow out a lining or a bulkhead — and the lining and rock need time to take up the pressure gradually so that any distress is detected before full pressure is reached",
+        "Trapped AIR must be able to escape ahead of the rising water",
         "The turbines must be run in slowly at the same time"
       ],
       "answerIndex": 2,
@@ -2752,7 +2752,7 @@
         "The rock is weak and easily excavated",
         "Construction cost alone is to be minimised",
         "There is no suitable rock at the site",
-        "The valley is steep and narrow with NO SAFE SURFACE SITE clear of rockfall, landslide and flood — and where placing the machine hall in sound rock also shortens the waterway, protects against seismic and security threats, and avoids surface land acquisition"
+        "The valley is steep and narrow with NO SAFE SURFACE SITE clear of rockfall"
       ],
       "answerIndex": 3,
       "solution": "**The valley is steep and narrow with NO SAFE SURFACE SITE clear of rockfall, landslide and flood** — and where placing the machine hall in sound rock also shortens the waterway, protects against seismic and security threats, and avoids surface land acquisition.\n\n**The reasons for going underground:**\n\n| Reason | Note |\n|---|---|\n| **NO SAFE SURFACE SITE in a steep narrow valley** ← | **Often the decisive reason in the Himalaya** ← |\n| **Protection from ROCKFALL, LANDSLIDE, avalanche and flood** ← | ← |\n| **A SHORTER waterway is sometimes possible** ← | **Since the cavern can sit where the tunnel naturally arrives** ← |\n| **Better SEISMIC performance** ← | **Underground structures shake with the rock rather than being shaken by it** ← |\n| **No surface land acquisition or visual impact** ← | ← |\n| **Security, which historically mattered a great deal** ← | ← |\n| **And the excavated rock can serve as construction aggregate** ← | ← |\n\n> **THE FOURTH ROW IS A GENUINE AND SOMETIMES SURPRISING ADVANTAGE AND IT IS WORTH UNDERSTANDING WHY: a surface structure responds to ground motion by vibrating, and its response can amplify the input several times.**\n\n> **An underground cavern is confined by rock on all sides and moves essentially with it, so the relative motion — which is what damages a structure — is much smaller.**\n\n> **Recorded underground damage in major earthquakes has been consistently less than surface damage at the same location, provided the cavern is in competent rock and away from an active fault.**\n\n> **So in a highly seismic country, going underground buys seismic performance as well as protection from the slopes above, and the two reasons reinforce each other.**\n\n**THE COSTS AND DIFFICULTIES ARE REAL AND OPTION (b) IS THERE TO BE REJECTED:**\n\n| Difficulty | Note |\n|---|---|\n| **Excavation of a large cavern is EXPENSIVE and slow** ← | **A machine hall may be 20 m wide, 40 m high and 100 m long** ← |\n| **It demands GOOD ROCK — a large cavern in poor rock is very costly to support** ← | ← |\n| **Access tunnels, cable tunnels, ventilation shafts and a transformer cavern are all additional** ← | ← |\n| **Ventilation, lighting, drainage and fire safety are all harder underground** ← | ← |\n| **And a FIRE underground is a far more serious event than a fire on the surface** ← | **Escape is limited and smoke has nowhere to go** ← |\n\n> **THE SECOND ROW DIRECTLY CONTRADICTS OPTION (a) AND THE CONTRADICTION IS WORTH BEING EXPLICIT ABOUT: weak, easily excavated rock is a reason NOT to build a cavern, not a reason to build one.**\n\n> **A large span in weak rock requires heavy support — long tensioned anchors, thick shotcrete, steel arches — and the support cost rises far faster than the excavation cost falls.**\n\n> **The governing dimension is the cavern's SPAN, and the stand-up time for a 20 m span in poor rock may be measured in hours.**\n\n> **So an underground powerhouse requires competent rock as a precondition, and where the rock is poor the surface option becomes relatively more attractive even in a difficult valley.**\n\n> **THE LAST ROW DESERVES SERIOUS WEIGHT AND IT SHAPES A GREAT DEAL OF THE DETAILED DESIGN: an underground powerhouse contains transformers, oil-filled equipment, cables and generators, all of which can burn.**\n\n> **The standard responses are to place the TRANSFORMERS in a separate cavern, to use oil-free or low-flammability transformers and cables where possible, to provide a dedicated smoke extraction system, to compartment the cavern with fire doors, and to provide at least two independent escape routes.**\n\n> **The separate transformer cavern is the single most valuable of these, because transformer oil is the largest fire load in the station and separating it protects the machine hall from the worst credible fire.**\n\n> **And two independent escape routes is an absolute requirement rather than a preference — a single access tunnel that is also the only escape route is not acceptable, however inconvenient the second one is to construct.**",
@@ -2815,7 +2815,7 @@
       "marks": 1,
       "stem": "The fundamental distinction between an IMPULSE turbine and a REACTION turbine is that in an impulse turbine:",
       "options": [
-        "The entire available head is converted to KINETIC ENERGY in the nozzle before the water strikes the runner, so the runner operates at ATMOSPHERIC pressure and is not enclosed in pressurised water",
+        "The entire available head is converted to KINETIC ENERGY in the nozzle before the water strikes the runner",
         "The runner is always mounted on a horizontal shaft",
         "The water flows radially rather than axially",
         "The efficiency is always higher than a reaction turbine's"
@@ -2848,7 +2848,7 @@
       "marks": 1,
       "stem": "The SPECIFIC SPEED of a turbine, Ns = N√P / H^1.25, is used in turbine selection because it:",
       "options": [
-        "Is a single number combining SPEED, POWER and HEAD that characterises the SHAPE of the runner — so each turbine family occupies a characteristic range of specific speed, and computing it for a site points directly to the family required",
+        "Is a single number combining SPEED, POWER and HEAD that characterises the SHAPE of the runner",
         "Determines the turbine's efficiency directly",
         "Gives the actual rotational speed the turbine will run at",
         "Measures the turbine's resistance to cavitation"
@@ -2914,7 +2914,7 @@
       "marks": 1,
       "stem": "The GOVERNOR of a hydro turbine must reconcile two conflicting requirements when the load is suddenly rejected. These are:",
       "options": [
-        "Closing SLOWLY to limit the water hammer pressure rise in the penstock, and closing QUICKLY to limit the runaway speed rise of the unit — the two pulling in opposite directions",
+        "Closing SLOWLY to limit the water hammer pressure rise in the penstock",
         "Maintaining voltage and maintaining frequency",
         "Cooling the bearings and lubricating the seals",
         "Opening the guide vanes and closing the main inlet valve"
@@ -2950,7 +2950,7 @@
         "Erosion caused by sand particles in the water striking the runner",
         "Corrosion of the runner due to dissolved oxygen",
         "Air leaking into the turbine casing through the shaft seal",
-        "The formation of VAPOUR BUBBLES where the local pressure falls to the water's vapour pressure, and their violent COLLAPSE as they are carried into a higher-pressure region — the collapse pitting and eroding the metal surface"
+        "The formation of VAPOUR BUBBLES where the local pressure falls to the water's vapour pressure"
       ],
       "answerIndex": 3,
       "solution": "**The formation of VAPOUR BUBBLES where the local pressure falls to the water's vapour pressure, and their violent COLLAPSE as they are carried into a higher-pressure region** — the collapse pitting and eroding the metal surface.\n\n**The mechanism, step by step:**\n\n| Step | Note |\n|---|---|\n| **Water accelerating over a curved blade experiences a local pressure DROP** ← | **By Bernoulli — higher velocity, lower pressure** ← |\n| **If that pressure reaches the VAPOUR pressure, the water boils locally** ← | **At ambient temperature — it is boiling by pressure reduction, not by heating** ← |\n| **Vapour bubbles form and are carried downstream by the flow** ← | ← |\n| **Reaching a region of higher pressure, they COLLAPSE — implode — almost instantaneously** ← | ← |\n| **The collapse near a surface produces a microjet and a shock wave of enormous local intensity** ← | **Pressures of the order of gigapascals, momentarily** ← |\n| **Repeated millions of times, this fatigues and removes metal, leaving a spongy pitted surface** ← | ← |\n\n> **THE FIFTH ROW IS WHY CAVITATION DAMAGES EVEN VERY HARD MATERIALS AND IT SURPRISES PEOPLE: the damage is not caused by the water's velocity but by the implosion.**\n\n> **A collapsing bubble adjacent to a surface collapses asymmetrically, forming a microjet that strikes the metal at enormous speed and very small area.**\n\n> **The local stress exceeds the yield strength of any engineering metal, so each collapse removes or work-hardens a minute amount, and the accumulation is a fatigue process.**\n\n> **Hardness alone therefore does not confer immunity — resistance depends on toughness and work-hardening capacity as well, which is why austenitic stainless steels resist cavitation better than harder but more brittle materials.**\n\n**DISTINGUISHING CAVITATION FROM SAND ABRASION IS PRACTICALLY IMPORTANT AND OPTION (a) IS THERE FOR THAT REASON:**\n\n| Feature | CAVITATION | SAND ABRASION |\n|---|---|---|\n| **Appearance** | **Spongy, pitted, honeycombed — material removed from within** ← | **Smooth, polished, wave-patterned grooves following the flow** ← |\n| **Location** | **Where pressure is LOWEST — blade suction side outlet, draft tube cone, runner band** ← | **Where velocity and particle concentration are highest — leading edges, labyrinth seals, nozzle tips** ← |\n| **Cause** | **Setting too high, running off design point, low tailwater** ← | **Sediment in the water** ← |\n| **Remedy** | **Lower the setting, restrict the operating range, aerate, use resistant steel** ← | **Better settling, hard coatings, replaceable parts** ← |\n\n> **THE APPEARANCE ROW IS HOW THE TWO ARE TOLD APART ON A DISMANTLED RUNNER AND THE DIAGNOSIS MATTERS BECAUSE THE REMEDIES ARE DIFFERENT: treating cavitation damage by improving the settling basin achieves nothing, and lowering the turbine setting does nothing for sand abrasion.**\n\n> **In Nepal the two very often occur TOGETHER and they reinforce each other — abrasion roughens the blade surface, the roughness triggers local flow separation, separation lowers the local pressure, and cavitation begins where it otherwise would not.**\n\n> **So a runner suffering sand abrasion becomes progressively more prone to cavitation, and the combined damage rate exceeds the sum of the two acting alone.**\n\n> **That interaction is why Himalayan runners deteriorate faster than either mechanism alone would predict, and it is an argument for repairing abrasion damage promptly rather than letting it accumulate to a convenient overhaul date.**\n\n> **A CLOSING NOTE ON THE OPERATING RANGE, WHICH IS THE CHEAPEST CONTROL AVAILABLE: cavitation is worst at part load and at overload, and least near the design point.**\n\n> **So restricting the machine's permitted operating range — refusing to run it below, say, 50 per cent of rated output — avoids much of the damage at the cost of some operational flexibility.**\n\n> **Turbine manufacturers supply a permitted operating range on the hill chart for exactly this purpose, and operating outside it to meet a system need is a decision that trades runner life for immediate energy.**\n\n> **Making that trade knowingly is legitimate; making it because nobody consulted the hill chart is how runners are destroyed in a fraction of their intended life.**",
@@ -2982,7 +2982,7 @@
       "options": [
         "Reduce the casing's weight and cost",
         "Increase the water's pressure as it approaches the runner",
-        "Deliver the water to the guide vanes UNIFORMLY around the whole circumference at constant velocity — since the flow remaining in the casing diminishes as water is progressively drawn off into the runner",
+        "Deliver the water to the guide vanes UNIFORMLY around the whole circumference at constant velocity",
         "Allow the casing to be cast in a single piece"
       ],
       "answerIndex": 2,
@@ -3014,7 +3014,7 @@
       "stem": "A KAPLAN turbine is described as 'double regulated' because:",
       "options": [
         "It has two runners on the same shaft",
-        "Both the GUIDE VANES and the RUNNER BLADES are adjustable, and they are moved in a coordinated relationship — which keeps the flow entering the blades at the correct angle over a wide range of load and gives the machine a very flat efficiency curve",
+        "Both the GUIDE VANES and the RUNNER BLADES are adjustable",
         "It can operate in both directions of rotation",
         "It is regulated by both a governor and a manual control"
       ],
@@ -3080,7 +3080,7 @@
       "stem": "The EXCITATION system of a hydro generator is provided to:",
       "options": [
         "Start the turbine rotating from rest",
-        "Supply the DIRECT CURRENT to the rotor's field winding that produces the magnetic field — and by varying that current, to control the generator's TERMINAL VOLTAGE and its reactive power output",
+        "Supply the DIRECT CURRENT to the rotor's field winding that produces the magnetic field",
         "Cool the stator windings",
         "Synchronise the generator's frequency with the grid"
       ],
@@ -3114,11 +3114,11 @@
       "options": [
         "It is the most expensive single item in the station",
         "It must be installed before the walls are built",
-        "Its required CAPACITY and HOOK HEIGHT are set by the heaviest single piece to be lifted — usually the generator rotor — and those in turn fix the height of the machine hall, the strength of the crane beams and the size of the erection bay",
+        "Its required CAPACITY and HOOK HEIGHT are set by the heaviest single piece to be lifted",
         "Cranes have very long delivery periods"
       ],
       "answerIndex": 2,
-      "solution": "**Its required CAPACITY and HOOK HEIGHT are set by the heaviest single piece to be lifted — usually the generator rotor** — and those in turn fix the height of the machine hall, the strength of the crane beams and the size of the erection bay.\n\n**How the crane propagates through the whole building:**\n\n| Consequence | Note |\n|---|---|\n| **The HEAVIEST LIFT sets the crane's capacity** ← | **Normally the generator rotor, which on a large machine is hundreds of tonnes** ← |\n| **The crane's capacity sets the size and strength of the CRANE BEAMS and their columns** ← | ← |\n| **The HOOK HEIGHT needed to lift the rotor clear of the stator sets the crane rail level** ← | ← |\n| **Which sets the HEIGHT of the machine hall** ← | ← |\n| **And the height of an underground cavern is very expensive, so this matters greatly there** ← | ← |\n| **The ERECTION BAY must be large enough to lay out the largest components** ← | ← |\n| **And the ACCESS route must admit the heaviest piece from the road** ← | ← |\n\n> **THE FOURTH AND FIFTH ROWS TOGETHER EXPLAIN WHY THIS IS A FIRST-ORDER LAYOUT DECISION RATHER THAN AN EQUIPMENT DETAIL: cavern height is one of the most expensive dimensions in an underground powerhouse, because excavation volume and support requirements both grow with it.**\n\n> **The height is determined by stacking the draft tube, the turbine, the generator, the crane clearance and the crane itself, and the crane's contribution is substantial.**\n\n> **So a decision to use two smaller cranes lifting in tandem instead of one large one, or to split the rotor for transport and assemble it in situ, can reduce the cavern's height by several metres and save a great deal of excavation.**\n\n> **Those decisions must be taken early, because they cannot be revisited once the cavern's profile is fixed.**\n\n**THE LAST ROW IS FREQUENTLY THE BINDING CONSTRAINT IN NEPAL AND IT DESERVES ITS OWN TREATMENT:**\n\n| Point | Note |\n|---|---|\n| **The heaviest indivisible component must travel from the port to the site by ROAD** ← | ← |\n| **Every bridge, culvert, bend and tunnel on that route sets a limit** ← | ← |\n| **In Nepal that means from Kolkata or Haldia through India and up a hill road** ← | ← |\n| **Hill road bends limit the LENGTH as much as bridges limit the weight** ← | ← |\n| **So the transport study must be done before the machine is specified, not after** ← | ← |\n\n> **THE FIFTH ROW IS THE PRACTICAL RULE AND ITS VIOLATION HAS DELAYED REAL PROJECTS: a transformer or a rotor that cannot reach the site is not a procurement problem to be solved later, it is a specification error.**\n\n> **The remedies — splitting the component, strengthening bridges, building a bypass, or in extreme cases airlifting — are all expensive and slow.**\n\n> **So the route survey is done early, the governing weight and dimension are established, and the equipment is specified within them.**\n\n> **Where the site's constraint is severe, that may mean choosing more, smaller units rather than fewer large ones — which raises the cost per kilowatt and is nonetheless the right answer when the alternative is a machine that cannot be delivered.**\n\n> **A CLOSING NOTE ON THE NUMBER OF UNITS, SINCE THE TRANSPORT QUESTION FEEDS INTO IT: the choice between two large units and three or four smaller ones involves several considerations at once.**\n\n> **More units give better part-load efficiency on a variable river, more redundancy when one is under maintenance, smaller and more transportable components, and a lower minimum operating flow.**\n\n> **Fewer units give lower cost per kilowatt, a smaller powerhouse, and less equipment to maintain.**\n\n> **Two or three units is the usual resolution for a Nepali ROR scheme, with the variable flow argument generally outweighing the cost per kilowatt — and it is worth noting that this is the same conclusion reached earlier from the turbine's minimum operating flow, arrived at now from an entirely different direction.**",
+      "solution": "**Its required CAPACITY and HOOK HEIGHT are set by the heaviest single piece to be lifted — usually the generator rotor** — and those in turn fix the height of the machine hall, the strength of the crane beams and the size of the erection bay.\n\n**How the crane propagates through the whole building:**\n\n| Consequence | Note |\n|---|---|\n| **The HEAVIEST LIFT sets the crane's capacity** ← | **Normally the generator rotor, which on a large machine is hundreds of tonnes** ← |\n| **The crane's capacity sets the size and strength of the CRANE BEAMS and their columns** ← | ← |\n| **The HOOK HEIGHT needed to lift the rotor clear of the stator sets the crane rail level** ← | ← |\n| **Which sets the HEIGHT of the machine hall** ← | ← |\n| **And the height of an underground cavern is very expensive, so this matters greatly there** ← | ← |\n| **The ERECTION BAY must be large enough to lay out the largest components** ← | ← |\n| **And the ACCESS route must admit the heaviest piece from the road** ← | ← |\n\n> **THE FOURTH AND FIFTH ROWS TOGETHER EXPLAIN WHY THIS IS A FIRST-ORDER LAYOUT DECISION RATHER THAN AN EQUIPMENT DETAIL: cavern height is one of the most expensive dimensions in an underground powerhouse, because excavation volume and support requirements both grow with it.**\n\n> **The height is determined by stacking the draft tube, the turbine, the generator, the crane clearance and the crane itself, and the crane's contribution is substantial.**\n\n> **So a decision to use two smaller cranes lifting in tandem instead of one large one, or to split the rotor for transport and assemble it in situ, can reduce the cavern's height by several metres and save a great deal of excavation.**\n\n> **Those decisions must be taken early, because they cannot be revisited once the cavern's profile is fixed.**\n\n**THE LAST ROW IS FREQUENTLY THE BINDING CONSTRAINT IN NEPAL AND IT DESERVES ITS OWN TREATMENT:**\n\n| Point | Note |\n|---|---|\n| **The heaviest indivisible component must travel from the port to the site by ROAD** ← | ← |\n| **Every bridge, culvert, bend and tunnel on that route sets a limit** ← | ← |\n| **In Nepal that means from Kolkata or Haldia through India and up a hill road** ← | ← |\n| **Hill road bends limit the LENGTH as much as bridges limit the weight** ← | ← |\n| **So the transport study must be done before the machine is specified, not after** ← | ← |\n\n> **THE FIFTH ROW IS THE PRACTICAL RULE AND ITS VIOLATION HAS DELAYED REAL PROJECTS: a transformer or a rotor that cannot reach the site is not a procurement problem to be solved later, it is a specification error.**\n\n> **The remedies — splitting the component, strengthening bridges, building a bypass, or in extreme cases airlifting — are all expensive and slow.**\n\n> **So the route survey is done early, the governing weight and dimension are established, and the equipment is specified within them.**\n\n> **Where the site's constraint is severe, that may mean choosing more, smaller units rather than fewer large ones — which raises the cost per kilowatt and is nonetheless the right answer when the alternative is a machine that cannot be delivered.**\n\n> **A CLOSING NOTE ON THE NUMBER OF UNITS, SINCE THE TRANSPORT QUESTION FEEDS INTO IT: the choice between two large units and three or four smaller ones involves several considerations at once.**\n\n> **More units give better part-load efficiency on a variable river, more redundancy when one is under maintenance, smaller and more transportable components, and a lower minimum operating flow.**\n\n> **Fewer units give lower cost per kilowatt, a smaller powerhouse, and less equipment to maintain.**\n\n> **Two or three units is the usual resolution for a Nepali ROR scheme, with the variable flow argument generally outweighing the cost per kilowatt — and it is worth noting that this is the same conclusion reached earlier from the turbine's minimum operating flow, arrived at now from an entirely different direction.**\n\nUsually the generator rotor — and those in turn fix the height of the machine hall, the strength of the crane beams and the size of the erection bay.",
       "difficulty": "medium",
       "tags": [
         "powerhouse crane",
@@ -3146,7 +3146,7 @@
       "stem": "A THRUST BEARING in a vertical-shaft hydro generating unit carries:",
       "options": [
         "Only the radial forces from the shaft's rotation",
-        "The combined WEIGHT of the entire rotating assembly — rotor, shaft and runner — plus the downward HYDRAULIC THRUST on the runner, transferring that load to the powerhouse structure",
+        "The combined WEIGHT of the entire rotating assembly",
         "The torque generated by the turbine",
         "The electromagnetic forces in the generator air gap"
       ],
@@ -3178,7 +3178,7 @@
       "marks": 1,
       "stem": "The step-up TRANSFORMER at a hydropower station raises the generator's output voltage — typically 6.6 to 13.8 kV — to transmission voltage because:",
       "options": [
-        "Transmission line LOSSES are proportional to the square of the CURRENT, so raising the voltage for the same power reduces the current proportionately and the losses as its square — making long-distance transmission economic",
+        "Transmission line LOSSES are proportional to the square of the CURRENT",
         "High voltage is safer for personnel to work with",
         "Generators cannot be built to produce high voltage under any circumstances",
         "The grid frequency changes with voltage"
@@ -3246,7 +3246,7 @@
       "options": [
         "An isolator operates faster than a circuit breaker",
         "A circuit breaker is used only at low voltage",
-        "A circuit breaker can INTERRUPT current — including fault current — under load, whereas an isolator has no arc-quenching capability and may only be operated OFF-LOAD, to provide a visible break for safety",
+        "A circuit breaker can INTERRUPT current",
         "They are two names for the same device"
       ],
       "answerIndex": 2,
@@ -3313,7 +3313,7 @@
         "Determine the unit's maximum power output",
         "Calibrate the flow measurement instruments",
         "Establish the turbine's efficiency at full load",
-        "VERIFY that the rotating assembly, the bearings and the generator can withstand the speed they would reach on a full load rejection with the closing mechanism failed — a condition the machine must survive without damage"
+        "VERIFY that the rotating assembly"
       ],
       "answerIndex": 3,
       "solution": "**To VERIFY that the rotating assembly, the bearings and the generator can withstand the speed they would reach on a full load rejection with the closing mechanism failed** — a condition the machine must survive without damage.\n\n**What runaway speed is and why it must be tested:**\n\n| Point | Note |\n|---|---|\n| **RUNAWAY is the speed reached with full flow and NO load, the gates failing to close** ← | ← |\n| **It is typically 1.7 to 2.0 times rated speed for a Francis machine** ← | **And can exceed 2.5 times for a Kaplan at an unfavourable blade angle** ← |\n| **Centrifugal stress rises with the SQUARE of speed** ← | **So twice the speed is four times the stress** ← |\n| **The machine must survive it without damage and without disintegration** ← | ← |\n| **So the design must accommodate it, and the test confirms the design** ← | ← |\n\n> **THE THIRD ROW IS WHY RUNAWAY IS A SERIOUS DESIGN CONDITION RATHER THAN AN INCIDENTAL ONE: at twice rated speed the centrifugal forces on the generator rotor are four times their normal value.**\n\n> **The rotor rim, its retaining wedges and the pole fixings must all be designed for that.**\n\n> **A generator rotor failing at runaway would disintegrate, throwing large pieces of steel through the machine hall, so the requirement is absolute rather than economic.**\n\n> **And because runaway can occur from a simple mechanical failure of the closing mechanism — an event of modest probability rather than a remote one — designing for it is not conservatism but a straightforward response to a credible condition.**\n\n**THE COMMISSIONING TEST PROGRAMME MORE BROADLY IS WORTH KNOWING SINCE IT IS THE PROJECT'S FINAL PROOF:**\n\n| Test | Purpose |\n|---|---|\n| **Dry tests of all controls, protections and interlocks** ← | **Before water is admitted** ← |\n| **First filling of the waterway, staged** ← | **As described earlier** ← |\n| **First rotation at low speed, checking bearings and vibration** ← | ← |\n| **Speed rise to rated, with vibration and temperature monitoring** ← | ← |\n| **RUNAWAY test** ← | **Brief, with careful monitoring** ← |\n| **Synchronisation and first connection to the grid** ← | ← |\n| **LOAD REJECTION tests at 25, 50, 75 and 100 per cent** ← | **Verifying pressure rise and speed rise against the design predictions** ← |\n| **INDEX and efficiency tests** ← | **Verifying the guaranteed performance** ← |\n| **A continuous RELIABILITY run before takeover** ← | **Commonly 15 to 30 days** ← |\n\n> **THE LOAD REJECTION SERIES IS THE MOST INFORMATIVE OF THESE AND IT IS THE DIRECT TEST OF THE GOVERNING COMPROMISE DISCUSSED EARLIER: each rejection is instrumented, and the measured penstock pressure rise and speed rise are compared against the values the design predicted.**\n\n> **Agreement confirms the whole chain of assumptions — the wave speed, the conduit lengths, the closure time, the flywheel effect, the surge tank's behaviour.**\n\n> **Disagreement means one of those was wrong, and it is far better to discover that during commissioning than during a real incident.**\n\n> **The tests are done in ascending order for the obvious reason: if the 25 per cent rejection produces a larger pressure rise than predicted, the 100 per cent test is not attempted until the discrepancy is understood.**\n\n> **THE LAST ROW IS THE CONTRACTUAL MILESTONE THAT MATTERS MOST TO EVERYONE INVOLVED AND ITS PURPOSE IS OFTEN MISUNDERSTOOD: the reliability run is not a performance test but an ENDURANCE test.**\n\n> **Many defects — a bearing running slightly hot, a seal weeping, a control that hunts under particular conditions, a cooling system marginal on a hot afternoon — appear only after sustained operation.**\n\n> **A machine can pass every instantaneous test and fail within a fortnight of continuous running.**\n\n> **So the reliability run exists to expose those, and shortening it under commercial pressure to begin earning revenue transfers the risk from the contractor to the owner at precisely the moment the contractor's obligations are being discharged — which is why its duration is written into the contract and should not be traded away.**",

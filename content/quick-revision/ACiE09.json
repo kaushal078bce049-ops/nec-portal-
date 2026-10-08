@@ -66,7 +66,7 @@
   {
     "id": "QR-ACiE09-009",
     "chapter": "ACiE09",
-    "fact": "Formula of mechanical extra widening in road is W m = n l 2 2R.",
+    "fact": "Formula of mechanical extra widening in road is Wm = n l²/2R.",
     "verification": {
       "status": "verified"
     }
@@ -186,7 +186,7 @@
   {
     "id": "QR-ACiE09-024",
     "chapter": "ACiE09",
-    "fact": "In plain terrain, the design speed of vehicle for 1 st class road 120 km/hr.",
+    "fact": "In plain terrain, the design speed of vehicle for 1st class road 120 km/hr.",
     "verification": {
       "status": "verified"
     }
@@ -202,7 +202,7 @@
   {
     "id": "QR-ACiE09-026",
     "chapter": "ACiE09",
-    "fact": "Super elevation formula i n hilly roadse = v 2 127R.",
+    "fact": "Super-elevation formula in hilly roads: e = v²/127R.",
     "verification": {
       "status": "verified"
     }
@@ -234,7 +234,7 @@
   {
     "id": "QR-ACiE09-030",
     "chapter": "ACiE09",
-    "fact": "85 th percentile cumulative frequency is used for speed regulation.",
+    "fact": "85th percentile cumulative frequency is used for speed regulation.",
     "verification": {
       "status": "verified"
     }
@@ -554,7 +554,7 @@
   {
     "id": "QR-ACiE09-070",
     "chapter": "ACiE09",
-    "fact": "A 160 kN load damages pavement................. times more than 80 kN load. Then answer is       160 80 4 = 16.",
+    "fact": "A 160 kN load damages a pavement (160/80)⁴ = 16 times more than an 80 kN load.",
     "verification": {
       "status": "verified"
     }
@@ -1058,7 +1058,7 @@
   {
     "id": "QR-ACiE09-133",
     "chapter": "ACiE09",
-    "fact": "The standard penetration value is 1 10 mm.",
+    "fact": "The standard penetration value is 1/10 mm.",
     "verification": {
       "status": "verified"
     }

@@ -18,7 +18,7 @@
   {
     "id": "QR-ACiE05-003",
     "chapter": "ACiE05",
-    "fact": "In roof truss, the value of snow load is taken as 2.5 N/m 2.",
+    "fact": "In roof truss, the value of snow load is taken as 2.5 N/m².",
     "verification": {
       "status": "verified"
     }
@@ -210,7 +210,7 @@
   {
     "id": "QR-ACiE05-027",
     "chapter": "ACiE05",
-    "fact": "For masonry built in 1: 1: 6 cement - lime - sand mix mortar or equivalent, the horizontal shear stress permissible on the area of a mortar bed joint is 0.15 MPa.",
+    "fact": "For masonry built in 1:1: 6 cement - lime - sand mix mortar or equivalent, the horizontal shear stress permissible on the area of a mortar bed joint is 0.15 MPa.",
     "verification": {
       "status": "verified"
     }
@@ -338,7 +338,7 @@
   {
     "id": "QR-ACiE05-043",
     "chapter": "ACiE05",
-    "fact": "In reinforcement, the symbol  denote diameter.",
+    "fact": "In reinforcement, the symbol φ denotes diameter.",
     "verification": {
       "status": "verified"
     }
@@ -458,7 +458,7 @@
   {
     "id": "QR-ACiE05-058",
     "chapter": "ACiE05",
-    "fact": "The minimum cube strength of concrete used for a pre - stressed member, is 350 kg/cm 2.",
+    "fact": "The minimum cube strength of concrete used for a pre - stressed member, is 350 kg/cm².",
     "verification": {
       "status": "verified"
     }
@@ -642,7 +642,7 @@
   {
     "id": "QR-ACiE05-081",
     "chapter": "ACiE05",
-    "fact": "The Lap length of reinforcement in compression shall not be less than 24 . [ where, ϕ = diameter of bar]",
+    "fact": "The lap length of reinforcement in compression shall not be less than 24φ, where φ = diameter of the bar.",
     "verification": {
       "status": "verified"
     }
@@ -826,7 +826,7 @@
   {
     "id": "QR-ACiE05-104",
     "chapter": "ACiE05",
-    "fact": "The weight of coarse aggregate required for the concrete mix of 1: 2: 4, given that w/c ratio = 0.45 and quantity of water is 9 liters.",
+    "fact": "The weight of coarse aggregate required for the concrete mix of 1:2: 4, given that w/c ratio = 0.45 and quantity of water is 9 liters.",
     "verification": {
       "status": "verified"
     }
@@ -842,7 +842,7 @@
   {
     "id": "QR-ACiE05-106",
     "chapter": "ACiE05",
-    "fact": "The normal thrust at any section along the tangent to the centerline of the arch is H cos  + V sin .",
+    "fact": "The normal thrust at any section along the tangent to the centreline of an arch is H·cosθ + V·sinθ.",
     "verification": {
       "status": "verified"
     }
@@ -962,7 +962,7 @@
   {
     "id": "QR-ACiE05-121",
     "chapter": "ACiE05",
-    "fact": "The minimum value of anchorage provided at the end of an RCC section is 16 .",
+    "fact": "The minimum anchorage provided at the end of an RCC section is 16φ.",
     "verification": {
       "status": "verified"
     }
@@ -986,7 +986,7 @@
   {
     "id": "QR-ACiE05-124",
     "chapter": "ACiE05",
-    "fact": "For simply supported beams, what is the maximum permitted deflection 1 325 of the span.",
+    "fact": "For simply supported beams, what is the maximum permitted deflection is span/325.",
     "verification": {
       "status": "verified"
     }
@@ -1106,7 +1106,7 @@
   {
     "id": "QR-ACiE05-139",
     "chapter": "ACiE05",
-    "fact": "The typical concrete mix proportion for an RCC roof slab is 1: 1.5: 3.",
+    "fact": "The typical concrete mix proportion for an RCC roof slab is 1:1.5:3.",
     "verification": {
       "status": "verified"
     }
@@ -1122,7 +1122,7 @@
   {
     "id": "QR-ACiE05-141",
     "chapter": "ACiE05",
-    "fact": "The short - term static modulus of elasticity (E) for M25 grade concrete as per IS 456: 2000 is 25,000 N/mm 2.",
+    "fact": "The short - term static modulus of elasticity (E) for M25 grade concrete as per IS 456:2000 is 25,000 N/mm².",
     "verification": {
       "status": "verified"
     }
