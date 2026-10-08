@@ -133,6 +133,17 @@ export interface Syllabus {
     note: string;
   };
   groups: Record<string, { label: string; chapters: number[] }>;
+  /**
+   * Revision sections that are not examination chapters.
+   *
+   * The capsule closes with "Civil and Rural Engineering", which the NEC civil
+   * syllabus does not list among its ten chapters — it has no theory, no
+   * practice bank and no share of the hundred questions, and adding it to
+   * `chapters` would unbalance the blueprint that divides a paper ten ways. It
+   * is named here instead, so the quick revision page and the Word export can
+   * both show it without either hard-coding the fact.
+   */
+  extraRevisionSections?: { no: number; code: string; title: string }[];
   chapters: SyllabusChapter[];
 }
 

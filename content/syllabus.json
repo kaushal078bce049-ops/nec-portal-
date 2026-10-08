@@ -34,6 +34,14 @@
       ]
     }
   },
+  "extraRevisionSections": [
+    {
+      "no": 11,
+      "code": "ACRE11",
+      "title": "Civil and Rural Engineering",
+      "$comment": "Closes the revision capsule but is not one of the ten examination chapters: it has no theory, no practice bank and no share of the hundred questions. Listed here so the quick revision page and the Word export both show it after Project Planning without either having to hard-code it."
+    }
+  ],
   "chapters": [
     {
       "no": 1,

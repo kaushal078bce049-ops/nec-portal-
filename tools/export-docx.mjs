@@ -356,9 +356,15 @@ function buildSets(dir, title, subtitle, blurb, label, onlySlug, renameTo) {
 // 5. Quick revision portal
 // ---------------------------------------------------------------------------
 function buildQuickRevision(only) {
-  const chapters = only
-    ? syllabus.chapters.filter((c) => c.code === only)
-    : syllabus.chapters;
+  /*
+   * The ten examination chapters, followed by any extra revision section the
+   * syllabus names — "Civil and Rural Engineering" closes the capsule but is
+   * not an examination chapter. Reading the list from syllabus.json keeps this
+   * export and the quick revision page in step; when the section was hard-coded
+   * in the page alone, the Word file silently lost twenty-two cards.
+   */
+  const all = [...syllabus.chapters, ...(syllabus.extraRevisionSections ?? [])];
+  const chapters = only ? all.filter((c) => c.code === only) : all;
   const p = [];
   p.push(front(
     only ? `Quick Revision — ${chapterTitle(only)}` : 'Quick Revision',
@@ -487,7 +493,7 @@ function main() {
         'A single model question set authored against the NEC syllabus: 100 one-mark questions, 120 minutes, no negative marking.',
         'Set', s.slug));
     }
-    for (const c of syllabus.chapters) {
+    for (const c of [...syllabus.chapters, ...(syllabus.extraRevisionSections ?? [])]) {
       const f = path.join(CONTENT, 'quick-revision', `${c.code}.json`);
       if (fs.existsSync(f)) emit(SD, `05-quick-revision-${c.code}.md`, buildQuickRevision(c.code));
     }
@@ -502,11 +508,19 @@ function main() {
     const CD = path.join(OUTDIR, 'chapters');
     fs.rmSync(CD, { recursive: true, force: true });
 
-    syllabus.chapters.forEach((c, i) => {
+    /*
+     * The extra revision sections get a folder too. "Civil and Rural
+     * Engineering" has no theory and no practice bank, so its folder holds the
+     * revision document alone — which is correct, and better than leaving the
+     * section out of the chapter-by-chapter set entirely.
+     */
+    [...syllabus.chapters, ...(syllabus.extraRevisionSections ?? [])].forEach((c, i) => {
       const n = i + 1;
       const dir = path.join(CD, safeName(`${n}. ${c.title}`));
 
-      emit(dir, safeName(`${n}.1 ${c.title} - Notes.md`), buildTheory(c.code, 'notes'));
+      const tf = path.join(CONTENT, 'theory');
+      const hasTheory = (c.subchapters ?? []).some((s) => fs.existsSync(path.join(tf, `${s.code}.json`)));
+      if (hasTheory) emit(dir, safeName(`${n}.1 ${c.title} - Notes.md`), buildTheory(c.code, 'notes'));
 
       const pf = path.join(CONTENT, 'questions', 'practice', `${c.code}.json`);
       if (fs.existsSync(pf)) {

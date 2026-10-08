@@ -10,23 +10,16 @@ export const metadata: Metadata = {
     'High-yield one-liners, formulas and code values for the NEC civil engineering license examination, organised by syllabus chapter — for the final days before the exam.',
 };
 
-/**
- * Sections of the revision capsule that are not examination chapters.
- *
- * The capsule closes with "Civil and Rural Engineering", which the NEC civil
- * syllabus does not list as one of its ten chapters — so it has no theory, no
- * practice bank and no share of the hundred questions, and adding it to
- * syllabus.json would unbalance the blueprint that divides a paper ten ways.
- * It still gets asked, which is why the capsule carries it, so it is shown here
- * after Project Planning exactly as the source has it.
- */
-const EXTRA_SECTIONS = [
-  { code: 'ACRE11', no: 11, title: 'Civil and Rural Engineering', notes: false },
-];
-
 export default function QuickRevisionPage() {
   const syllabus = getSyllabus();
 
+  /*
+   * The ten examination chapters, then whatever the syllabus names as an extra
+   * revision section — currently "Civil and Rural Engineering", which closes
+   * the capsule but is not an examination chapter and so has no theory to link
+   * to. Naming them in syllabus.json rather than here keeps this page and the
+   * Word export reading the same list.
+   */
   const chapters = [
     ...syllabus.chapters.map((chapter) => ({
       code: chapter.code,
@@ -35,7 +28,13 @@ export default function QuickRevisionPage() {
       notes: true,
       cards: getRevisionCards(chapter.code),
     })),
-    ...EXTRA_SECTIONS.map((s) => ({ ...s, cards: getRevisionCards(s.code) })),
+    ...(syllabus.extraRevisionSections ?? []).map((s) => ({
+      code: s.code,
+      no: s.no,
+      title: s.title,
+      notes: false,
+      cards: getRevisionCards(s.code),
+    })),
   ];
 
   const total = chapters.reduce((n, c) => n + c.cards.length, 0);
