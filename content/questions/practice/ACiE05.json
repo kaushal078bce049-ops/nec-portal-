@@ -2496,7 +2496,7 @@
       "stem": "When a single ANGLE is used as a tension member and connected through ONE LEG only, its design strength must be reduced to account for:",
       "options": [
         "The reduced yield strength of rolled angles",
-        "SHEAR LAG",
+        "Shear lag in the unconnected leg of the angle",
         "The greater corrosion of an angle's inner surfaces",
         "The eccentricity of the bolt holes from the angle's heel"
       ],

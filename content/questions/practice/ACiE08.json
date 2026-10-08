@@ -1330,7 +1330,7 @@
       "marks": 1,
       "stem": "A STILLING BASIN at the toe of a spillway dissipates energy by:",
       "options": [
-        "Forcing a HYDRAULIC JUMP",
+        "Forcing a hydraulic jump within the basin",
         "Allowing the water to spread over a wide apron and evaporate",
         "Reducing the flow's velocity by friction along a long horizontal apron alone",
         "Diverting the flow into a series of small channels"
