@@ -10,7 +10,7 @@
   {
     "id": "QR-ACiE05-002",
     "chapter": "ACiE05",
-    "fact": "The snow load is calculated as S = µS 0.",
+    "fact": "The snow load is calculated as S = μ·S₀, where μ is the shape coefficient and S₀ the ground snow load.",
     "verification": {
       "status": "verified"
     }
@@ -66,7 +66,7 @@
   {
     "id": "QR-ACiE05-009",
     "chapter": "ACiE05",
-    "fact": "The relation between intensity of wind pressure P and Velocity V is taken as P ∝ V 2.",
+    "fact": "The intensity of wind pressure P varies with the velocity V as P ∝ V².",
     "verification": {
       "status": "verified"
     }
@@ -402,7 +402,7 @@
   {
     "id": "QR-ACiE05-051",
     "chapter": "ACiE05",
-    "fact": "A cantilever beam having span L m of couple M 0 act at free end of beam, the maximum bending moment is M 0.",
+    "fact": "For a cantilever of span L carrying a couple M₀ at its free end, the maximum bending moment is M₀.",
     "verification": {
       "status": "verified"
     }
@@ -666,7 +666,7 @@
   {
     "id": "QR-ACiE05-084",
     "chapter": "ACiE05",
-    "fact": "NBC - 203 code deals with earthquake resistant design for low strength masonry. 8 5. The law that governs the standards of construction of structural and non - structural buildings in Nepal is building code.",
+    "fact": "NBC 203 deals with earthquake-resistant design for low-strength masonry.",
     "verification": {
       "status": "verified"
     }
@@ -826,7 +826,7 @@
   {
     "id": "QR-ACiE05-104",
     "chapter": "ACiE05",
-    "fact": "The weight of coarse aggregate required for the concrete mix of 1:2: 4, given that w/c ratio = 0.45 and quantity of water is 9 liters.",
+    "fact": "For a 1:2:4 mix with w/c = 0.45 and 9 litres of water, the cement is 9/0.45 = 20 kg and the coarse aggregate 4 × 20 = 80 kg.",
     "verification": {
       "status": "verified"
     }
@@ -874,7 +874,7 @@
   {
     "id": "QR-ACiE05-110",
     "chapter": "ACiE05",
-    "fact": "The proportion of earthquake forces transfer red in the vertical structure is 1 3.",
+    "fact": "The proportion of earthquake force transferred to the vertical structure is 1/3.",
     "verification": {
       "status": "verified"
     }
@@ -1098,7 +1098,7 @@
   {
     "id": "QR-ACiE05-138",
     "chapter": "ACiE05",
-    "fact": "A simply supported beam carries two equal point loads W at a distance of L 3 from either support. The bending moment at the mid - span is WL 3.",
+    "fact": "A simply supported beam carries two equal point loads W at L/3 from either support; the bending moment at mid-span is WL/3.",
     "verification": {
       "status": "verified"
     }
@@ -1131,6 +1131,14 @@
     "id": "QR-ACiE05-142",
     "chapter": "ACiE05",
     "fact": "The correct formula for Poisson's ratio based on Young's Modulus (E) and bulk modulus (k) is E 2K + 1.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE05-143",
+    "chapter": "ACiE05",
+    "fact": "The law governing the standards of construction of structural and non-structural buildings in Nepal is the building code.",
     "verification": {
       "status": "verified"
     }

@@ -34,7 +34,7 @@
   {
     "id": "QR-AALL10-005",
     "chapter": "AALL10",
-    "fact": "The Area of A 0 size paper is 1 m².",
+    "fact": "The area of A0 size paper is 1 m².",
     "verification": {
       "status": "verified"
     }
@@ -42,7 +42,7 @@
   {
     "id": "QR-AALL10-006",
     "chapter": "AALL10",
-    "fact": "1 2 times the length of the paper is the width of the standard A - series drawing paper such as A4, A3, A2.",
+    "fact": "The width of a standard A-series drawing sheet is 1/√2 times its length, which is why A4, A3 and A2 all keep the same proportions.",
     "verification": {
       "status": "verified"
     }
@@ -386,7 +386,7 @@
   {
     "id": "QR-AALL10-049",
     "chapter": "AALL10",
-    "fact": "The relationship between different time estimates T 0, T p and T min PERT activity is T e = T 0 + T p + 4T m 6 [T 0 = Optimistic time, T p = Pessimistic time, T m = Most likely time]",
+    "fact": "The PERT expected time is Te = (T₀ + 4Tm + Tp)/6, where T₀ is the optimistic time, Tm the most likely time and Tp the pessimistic time.",
     "verification": {
       "status": "verified"
     }
@@ -546,7 +546,7 @@
   {
     "id": "QR-AALL10-069",
     "chapter": "AALL10",
-    "fact": "Nepal Engineer's Association (NEA) is social service act and independent organization of Nepalese engineers. There are 3 categories of NEA memberships. The tenure of an executive member of NEA in 2 years.",
+    "fact": "The Nepal Engineers' Association (NEA) is a social service and independent organisation of Nepalese engineers. It has 3 categories of membership, and the tenure of an executive member is 2 years.",
     "verification": {
       "status": "verified"
     }
@@ -554,7 +554,7 @@
   {
     "id": "QR-AALL10-070",
     "chapter": "AALL10",
-    "fact": "As per labor law, workers are not allowed to work continuously for more than 5 hours and the maximum working hour in a day is 8 hours. The punishment for infringement of copyright for the first time in Imprisonment upto 6 months and fine of Rs. 10,000/ – to Rs. 1 lacs or both.",
+    "fact": "As per labour law, workers may not work continuously for more than 5 hours, and the maximum working day is 8 hours. The punishment for a first infringement of copyright is imprisonment of up to 6 months, a fine of Rs 10,000 to Rs 1 lakh, or both.",
     "verification": {
       "status": "verified"
     }

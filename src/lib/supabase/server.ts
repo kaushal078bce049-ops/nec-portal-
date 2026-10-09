@@ -7,6 +7,27 @@ import { createClient } from '@supabase/supabase-js';
 import { isSupabaseConfigured, publicEnv, serverEnv } from '@/lib/env';
 
 /**
+ * Strip the lifetime from an auth cookie so it dies with the browser.
+ *
+ * Supabase writes its session and refresh cookies with a Max-Age of a year, so
+ * a candidate who closes the portal and comes back is still signed in — on a
+ * shared or college machine, so is whoever sits down next. Removing `maxAge`
+ * and `expires` makes them session cookies: closing the browser ends the
+ * session and the next visit has to sign in again.
+ *
+ * This shortens the *client's* grip on the session only. The token still
+ * carries its own expiry and is still verified server-side on every request, so
+ * nothing here weakens the check that matters.
+ */
+export function sessionOnly(options: Record<string, unknown> | undefined) {
+  if (!options) return options;
+  const { maxAge, expires, ...rest } = options as { maxAge?: number; expires?: Date };
+  void maxAge;
+  void expires;
+  return rest;
+}
+
+/**
  * Request-scoped client that carries the caller's session via httpOnly cookies
  * and is therefore constrained by RLS. Use this for reads on behalf of a user.
  */
@@ -22,7 +43,7 @@ export async function getServerClient() {
       setAll(toSet) {
         try {
           for (const { name, value, options } of toSet) {
-            cookieStore.set(name, value, options);
+            cookieStore.set(name, value, sessionOnly(options));
           }
         } catch {
           // Server Components cannot mutate cookies; middleware refreshes the

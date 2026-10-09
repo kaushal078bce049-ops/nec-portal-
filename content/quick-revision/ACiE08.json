@@ -170,7 +170,7 @@
   {
     "id": "QR-ACiE08-022",
     "chapter": "ACiE08",
-    "fact": "If 20% of the reservoir capacity is marked for dead storage in a storage reservoir of 30 m. cum and the average annual silt decomposition in the reservoir is 0.1 m. cum, then the useful life of the reservoir will start reducing after storage available for dead storage = 0.2 × 30 = 6 m. cum. So, time required to silt in the whole of the dead storage or in 6 m. cum is T = 6 0.1, T = 60 years.",
+    "fact": "A 30 m.cum reservoir with 20% dead storage holds 0.2 × 30 = 6 m.cum of dead storage. At 0.1 m.cum of silt a year, T = 6/0.1 = 60 years before the useful life starts to reduce.",
     "verification": {
       "status": "verified"
     }

@@ -58,7 +58,7 @@
   {
     "id": "QR-ACiE04-008",
     "chapter": "ACiE04",
-    "fact": "In a simply supported beam, two equal point loads P are acting at a distance of L 3 from both supports A and B. the value of shear force at distance L 6 from support A is P.",
+    "fact": "In a simply supported beam carrying two equal point loads P at L/3 from each support, the shear force at L/6 from support A is P.",
     "verification": {
       "status": "verified"
     }
@@ -202,7 +202,7 @@
   {
     "id": "QR-ACiE04-026",
     "chapter": "ACiE04",
-    "fact": "In crippling load equation for a column of length L, the equivalent length for a case of both the ends fixed is L 2.",
+    "fact": "In the crippling load equation for a column of length L, the equivalent length with both ends fixed is L/2.",
     "verification": {
       "status": "verified"
     }
@@ -218,7 +218,7 @@
   {
     "id": "QR-ACiE04-028",
     "chapter": "ACiE04",
-    "fact": "If the width of a simply supported beam carrying an isolated load at its center is doubled, the deflection of the beam at the center is changed by 1 2.",
+    "fact": "If the width of a simply supported beam carrying a central isolated load is doubled, the central deflection is halved.",
     "verification": {
       "status": "verified"
     }
@@ -258,7 +258,7 @@
   {
     "id": "QR-ACiE04-033",
     "chapter": "ACiE04",
-    "fact": "In a three hinged arch with supports at different heighth 1 andh 2, load W is acting at the center of arch. If L is the length of the span, the horizontal thrust is WL (h 1 + h 2) 2.",
+    "fact": "For a three-hinged arch with supports at different heights h₁ and h₂ carrying a load W at the centre of a span L, the horizontal thrust is WL/[2(h₁ + h₂)].",
     "verification": {
       "status": "verified"
     }
@@ -290,7 +290,7 @@
   {
     "id": "QR-ACiE04-037",
     "chapter": "ACiE04",
-    "fact": "Increase in permissible stress in design of wall subjected to eccentric load with eccentricity ratio > 1 24 is 0.25",
+    "fact": "The permissible stress in a wall under eccentric load is increased by 0.25 when the eccentricity ratio exceeds 1/24.",
     "verification": {
       "status": "verified"
     }
@@ -354,7 +354,7 @@
   {
     "id": "QR-ACiE04-045",
     "chapter": "ACiE04",
-    "fact": "For given two hinged semicircular arches A, B and C of radii 5 m, 7.5 m, and 10 m respectively and carrying concentrated crown load 'W', ratio of horizontal thrust at their support will be 1:1: 1.",
+    "fact": "For two-hinged semicircular arches of radii 5 m, 7.5 m and 10 m carrying the same crown load W, the ratio of horizontal thrust at the supports is 1 : 1 : 1.",
     "verification": {
       "status": "verified"
     }
@@ -474,7 +474,7 @@
   {
     "id": "QR-ACiE04-060",
     "chapter": "ACiE04",
-    "fact": "The ILD for reaction at fixed support of cantilever beam is 1 ordinate throughout the span.",
+    "fact": "The influence line for the reaction at the fixed support of a cantilever is a unit ordinate throughout the span.",
     "verification": {
       "status": "verified"
     }
@@ -650,7 +650,7 @@
   {
     "id": "QR-ACiE04-082",
     "chapter": "ACiE04",
-    "fact": "The effective length of a column with both ends fixed is L 2.",
+    "fact": "The effective length of a column with both ends fixed is L/2.",
     "verification": {
       "status": "verified"
     }
@@ -818,7 +818,7 @@
   {
     "id": "QR-ACiE04-103",
     "chapter": "ACiE04",
-    "fact": "The degree of kinematic indeterminacy of pin jointed plane frame is 2 j – 3.",
+    "fact": "The degree of kinematic indeterminacy of a pin-jointed plane frame is 2j − 3.",
     "verification": {
       "status": "verified"
     }

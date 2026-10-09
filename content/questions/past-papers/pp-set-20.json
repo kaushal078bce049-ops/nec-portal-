@@ -206,7 +206,7 @@
       "stem": "In an M1 profile of gradually varied flow:",
       "options": [
         "y0 > y > yc",
-        "yc > y0 > y",
+        "Yc > y0 > y",
         "y > y0 > yc",
         "y > yc > y0"
       ],

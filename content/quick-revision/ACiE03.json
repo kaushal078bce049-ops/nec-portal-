@@ -290,7 +290,7 @@
   {
     "id": "QR-ACiE03-037",
     "chapter": "ACiE03",
-    "fact": "If the area changes from A 1 to A 2 and velocity of flow changes from V 1 to V 2 then A 1 × V 1 = A 2 × V 2 is called equation of continuity.",
+    "fact": "If the area changes from A₁ to A₂ and the velocity from V₁ to V₂, then A₁V₁ = A₂V₂ — the equation of continuity.",
     "verification": {
       "status": "verified"
     }
@@ -402,7 +402,7 @@
   {
     "id": "QR-ACiE03-051",
     "chapter": "ACiE03",
-    "fact": "Formula for sudden expansion loss is (V 1 – V 2) 2 2g.",
+    "fact": "The head loss at a sudden expansion is (V₁ − V₂)²/2g.",
     "verification": {
       "status": "verified"
     }
@@ -410,7 +410,7 @@
   {
     "id": "QR-ACiE03-052",
     "chapter": "ACiE03",
-    "fact": "If size particle is 6 cm, find manning's rughosity coefficient. Manning's rugosity coefficient = d 1/6 21.1 = (0.06) 1/6 21.1 = 0.029.",
+    "fact": "Manning's rugosity coefficient from particle size: n = d^(1/6)/21.1. For d = 6 cm, n = (0.06)^(1/6)/21.1 = 0.029.",
     "verification": {
       "status": "verified"
     }
@@ -626,7 +626,7 @@
   {
     "id": "QR-ACiE03-079",
     "chapter": "ACiE03",
-    "fact": "The discharge passing over ogee weir is proportional to H 3/2.",
+    "fact": "The discharge passing over an ogee weir is proportional to H^(3/2).",
     "verification": {
       "status": "verified"
     }
@@ -786,7 +786,7 @@
   {
     "id": "QR-ACiE03-099",
     "chapter": "ACiE03",
-    "fact": "Recording type method is very accurate of rain gauging. 10 0. U - tube manometer is used to measure pressure difference between two points",
+    "fact": "The recording type rain gauge is the most accurate method of rain gauging.",
     "verification": {
       "status": "verified"
     }
@@ -818,7 +818,7 @@
   {
     "id": "QR-ACiE03-103",
     "chapter": "ACiE03",
-    "fact": "In WECS/DHM method, the formula used for flood forecasting of return period of 2 years is 1.8767 (A 3000 + 1) 0.8783.",
+    "fact": "In the WECS/DHM method, the flood of 2-year return period is Q₂ = 1.8767 (A/3000 + 1)^0.8783.",
     "verification": {
       "status": "verified"
     }
@@ -842,7 +842,7 @@
   {
     "id": "QR-ACiE03-106",
     "chapter": "ACiE03",
-    "fact": "The dimension of Chezys coefficient C in [MLT] notation system is L 1/2 T – 1.",
+    "fact": "The dimension of Chezy's coefficient C is L^(1/2)T⁻¹.",
     "verification": {
       "status": "verified"
     }
@@ -1147,6 +1147,14 @@
     "id": "QR-ACiE03-144",
     "chapter": "ACiE03",
     "fact": "Coefficient of friction in laminar flow is 16 R e.",
+    "verification": {
+      "status": "verified"
+    }
+  },
+  {
+    "id": "QR-ACiE03-145",
+    "chapter": "ACiE03",
+    "fact": "A U-tube manometer is used to measure the pressure difference between two points.",
     "verification": {
       "status": "verified"
     }

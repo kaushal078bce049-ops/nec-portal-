@@ -123,7 +123,19 @@ export default async function DailyCapsulePage({
                 submission, with a full review afterwards. Your score is saved to your dashboard.
               </p>
             </div>
-            <StartExamButton kind="daily_capsule" slug={date} label="Start capsule" />
+            <StartExamButton
+              kind="daily_capsule"
+              slug={date}
+              label="Start capsule"
+              title={`Daily capsule · ${date}`}
+              rules={{
+                totalQuestions: capsule.questions.length,
+                durationMinutes: config.durationMinutes,
+                totalMarks: capsule.questions.length * config.marksPerQuestion,
+                passMarks: Math.ceil(capsule.questions.length * config.marksPerQuestion * 0.5),
+                negativeMarking: false,
+              }}
+            />
           </div>
 
           <div className="mt-10">

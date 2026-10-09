@@ -354,7 +354,7 @@
   {
     "id": "QR-ACiE02-045",
     "chapter": "ACiE02",
-    "fact": "The void ratio of a soil is 0.68 and specific gravity is 2.68. The critical gradient for quick sand condition isic = 2.68 – 10 1 + 0.68 = 1.",
+    "fact": "For a soil of void ratio 0.68 and specific gravity 2.68, the critical gradient for quick sand is ic = (2.68 − 1)/(1 + 0.68) = 1.",
     "verification": {
       "status": "verified"
     }
@@ -458,7 +458,7 @@
   {
     "id": "QR-ACiE02-058",
     "chapter": "ACiE02",
-    "fact": "The critical gradient of the seepage of water in a soil medium is G – 1 1 + e. (where, G = Specific gravity of soil ande = Void ratio)",
+    "fact": "The critical hydraulic gradient of seepage through a soil is ic = (G − 1)/(1 + e), where G is the specific gravity and e the void ratio.",
     "verification": {
       "status": "verified"
     }

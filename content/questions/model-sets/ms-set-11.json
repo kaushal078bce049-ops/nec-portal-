@@ -12,7 +12,7 @@
       "marks": 1,
       "stem": "For repetitive use of formworks in concrete construction, the material:",
       "options": [
-        "steel",
+        "Steel",
         "Cast iron",
         "Bamboo",
         "Aluminium"
@@ -37,7 +37,7 @@
       "stem": "The arrangement made to support an unsafe structure temporarily:",
       "options": [
         "Formwork",
-        "shoring",
+        "Shoring",
         "Underpinning",
         "Grouting"
       ],
@@ -62,7 +62,7 @@
       "options": [
         "Check",
         "Rot",
-        "splitting",
+        "Splitting",
         "Cracking"
       ],
       "answerIndex": 2,
@@ -86,8 +86,8 @@
       "options": [
         "Drier",
         "Base",
-        "both",
-        "pigment"
+        "Thinner",
+        "Pigment"
       ],
       "answerIndex": 3,
       "solution": "**pigment.** The component of paint that imparts color to it is called pigment.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -134,7 +134,7 @@
       "options": [
         "Closer",
         "Bat",
-        "frog",
+        "Frog",
         "Spike"
       ],
       "answerIndex": 2,
@@ -157,9 +157,9 @@
       "stem": "The construction material that can be obtained from naturally existing rock by any method:",
       "options": [
         "Cement",
-        "All of these",
+        "Lime",
         "Brick",
-        "stone"
+        "Stone"
       ],
       "answerIndex": 3,
       "solution": "**stone.** The construction material that can be obtained from naturally existing rock by any method is stone.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -180,7 +180,7 @@
       "marks": 1,
       "stem": "The type of cement used for painting:",
       "options": [
-        "white cement",
+        "White cement",
         "Rapid hardening cement",
         "Alumina cement",
         "Portland cement"
@@ -206,7 +206,7 @@
       "options": [
         "Tack coating",
         "Prime coating",
-        "crack filling",
+        "Crack filling",
         "Bituminous macadam"
       ],
       "answerIndex": 2,
@@ -231,7 +231,7 @@
         "Increases",
         "Remains same",
         "Remains constant",
-        "decreases"
+        "Decreases"
       ],
       "answerIndex": 3,
       "solution": "**decreases.** After storage, the strength of cement is decreases.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -252,7 +252,7 @@
       "marks": 1,
       "stem": "The meaning of SC in soil classification:",
       "options": [
-        "sand with plastic fines",
+        "Sand with plastic fines",
         "Sand with inorganic fines",
         "Soil with plastic fines",
         "Sand with common fines"
@@ -277,7 +277,7 @@
       "stem": "The ratio of the volume of water present in a given soil mass to the total volume of its voids:",
       "options": [
         "Void ratio",
-        "degree of saturation",
+        "Degree of saturation",
         "Porosity",
         "Percentage voids"
       ],
@@ -303,7 +303,7 @@
         "Liquid limit",
         "Percentage of clay-size fraction finer than 2 micron",
         "Plasticity index",
-        "shrinkage limit"
+        "Shrinkage limit"
       ],
       "answerIndex": 3,
       "solution": "**shrinkage limit.** The maximum water content at which a reduction in water content does not cause a decrease in volume of a soil mas s, is known as shrinkage limit.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -322,9 +322,9 @@
       "chapter": "ACiE02",
       "subchapter": "ACiE0201",
       "marks": 1,
-      "stem": "The valueof the coefficient of uniformity for well - graded sand:",
+      "stem": "The valueof the coefficient of uniformity for well-graded sand:",
       "options": [
-        "greater than 6",
+        "Greater than 6",
         "Greater than 4",
         "1 to 3",
         "Greater than 10"
@@ -374,7 +374,7 @@
       "options": [
         "Any of above",
         "Normally consolidated",
-        "over consolidated",
+        "Over consolidated",
         "Under-consolidated"
       ],
       "answerIndex": 2,
@@ -396,7 +396,7 @@
       "marks": 1,
       "stem": "The ratio of settlement at any time 't' to the final settlement:",
       "options": [
-        "degree of consolidation",
+        "Degree of consolidation",
         "Settlement ratio",
         "Coefficient of consolidation",
         "Consolidation index"
@@ -421,8 +421,8 @@
       "stem": "The densification of a soil by means of mechanical manipulation:",
       "options": [
         "Consolidation",
-        "compaction",
-        "densification",
+        "Compaction",
+        "Densification",
         "Compressibility"
       ],
       "answerIndex": 1,
@@ -471,7 +471,7 @@
         "Vane shear test",
         "Triaxial compression test",
         "Direct shear test",
-        "unconfined compression test"
+        "Unconfined compression test"
       ],
       "answerIndex": 3,
       "solution": "**unconfined compression test.** For testing a saturated clay for shear strength, the test recommended, is unconfined compression test.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -493,9 +493,9 @@
       "stem": "At critical depth of flow of water in open channels, the specific energy:",
       "options": [
         "Average",
-        "minimum",
+        "Minimum",
         "Zero",
-        "None of the above"
+        "Maximum"
       ],
       "answerIndex": 1,
       "solution": "**minimum.** At critical depth of flow of water in open channels, the specific energy is minimum.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -518,7 +518,7 @@
       "options": [
         "Meteorology",
         "Precipitation",
-        "hydrology",
+        "Hydrology",
         "Climatology"
       ],
       "answerIndex": 2,
@@ -540,10 +540,10 @@
       "marks": 1,
       "stem": "Precipitation caused by lifting of an air mass due to the pressure difference:",
       "options": [
-        "convective precipitation",
-        "orographic precipitation",
-        "none of these",
-        "cyclonic precipitation"
+        "Convective precipitation",
+        "Orographic precipitation",
+        "Frontal precipitation",
+        "Cyclonic precipitation"
       ],
       "answerIndex": 3,
       "solution": "**cyclonic precipitation.** Precipitation caused by lifting of an air mass due to the pressure difference, is called cyclonic precipitation\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -564,7 +564,7 @@
       "marks": 1,
       "stem": "The value of bulk modulus for an incompressible liquid:",
       "options": [
-        "infinite",
+        "Infinite",
         "Maximum",
         "Minimum",
         "Zero"
@@ -773,8 +773,8 @@
       "marks": 1,
       "stem": "In purely bending, stress distribution in the beam:",
       "options": [
-        "cubic",
-        "linear",
+        "Cubic",
+        "Linear",
         "Parabolic",
         "Elliptical"
       ],
@@ -821,9 +821,9 @@
       "marks": 1,
       "stem": "The bending moment at end supports of a simply supported beam:",
       "options": [
-        "zero",
+        "Zero",
         "1.0",
-        "None of the above",
+        "Equal to the reaction",
         "Maximum"
       ],
       "answerIndex": 0,
@@ -846,7 +846,7 @@
       "stem": "The maximum energy which can be stored in a body up to the elastic limit:",
       "options": [
         "Rigidity",
-        "proof resilience",
+        "Proof resilience",
         "Proof load",
         "Proof stress"
       ],
@@ -871,7 +871,7 @@
       "options": [
         "Bulk Modulus",
         "Poisson's Ratio",
-        "modulus of elasticity",
+        "Modulus of elasticity",
         "Modulus of Rigidity"
       ],
       "answerIndex": 2,
@@ -896,7 +896,7 @@
         "Is equal to zero",
         "Is minimum",
         "Is maximum",
-        "changes sign"
+        "Changes sign"
       ],
       "answerIndex": 3,
       "solution": "**changes sign.** At the point of contra flexure, the bending moment is changes sign\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -968,7 +968,7 @@
         "Triangle",
         "Cubic parabola",
         "Parabolic",
-        "rectangle"
+        "Rectangle"
       ],
       "answerIndex": 3,
       "solution": "**rectangle.** The shear force diagram of the cantilever beam with point load at the free end is rectangle.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -989,7 +989,7 @@
       "marks": 1,
       "stem": "The shear stress at the outermost fibers of a circular shaft under torsion:",
       "options": [
-        "maximum",
+        "Maximum",
         "Minimum",
         "Zero",
         "Average"
@@ -1015,7 +1015,7 @@
       "options": [
         "Oven dry",
         "Air dry",
-        "saturated surface dry",
+        "Saturated surface dry",
         "As available from surface"
       ],
       "answerIndex": 2,
@@ -1040,7 +1040,7 @@
         "Anchorage length",
         "Equivalent length",
         "Bond length",
-        "development length"
+        "Development length"
       ],
       "answerIndex": 3,
       "solution": "**development length.** The Length required for full transfer of bar stress to concrete is called development length.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1158,8 +1158,8 @@
       "stem": "The bending stress on the neutral axis of the cross sectional beam:",
       "options": [
         "Minimum",
-        "zero",
-        "None of the above",
+        "Zero",
+        "Maximum",
         "1.0"
       ],
       "answerIndex": 1,
@@ -1205,7 +1205,7 @@
       "marks": 1,
       "stem": "The section in which the area of tensile steel is such that at the ultimate limit state, the ultimate compressive strain in concrete is reached, however the tensile strain in the reinforcing steel is less than the yield strain:",
       "options": [
-        "over reinforced section",
+        "Over reinforced section",
         "Balanced section",
         "Under reinforced section",
         "Ultra reinforced section"
@@ -1230,7 +1230,7 @@
       "stem": "A fillet weld whose axis is parallel to the direction of the applied load:",
       "options": [
         "All the above",
-        "side fillet weld",
+        "Side fillet weld",
         "Diagonal filler weld",
         "End fillet weld"
       ],
@@ -1255,7 +1255,7 @@
       "options": [
         "Lake in lower regions",
         "Stream flowing in plains",
-        "spring along hill slopes",
+        "Spring along hill slopes",
         "Reservoirs"
       ],
       "answerIndex": 2,
@@ -1302,7 +1302,7 @@
       "stem": "The chemical generally used for controlling algae:",
       "options": [
         "Ferric sulphate",
-        "copper sulphate",
+        "Copper sulphate",
         "Ferrous sulphate",
         "Lime"
       ],
@@ -1399,7 +1399,7 @@
       "options": [
         "Return",
         "Interest",
-        "risk",
+        "Risk",
         "Volatility"
       ],
       "answerIndex": 2,
@@ -1422,9 +1422,9 @@
       "stem": "Vulnerability analysis comes in which part of the disaster management cycle:",
       "options": [
         "Preparedness",
-        "acceptance",
-        "transfer",
-        "mitigation"
+        "Acceptance",
+        "Transfer",
+        "Mitigation"
       ],
       "answerIndex": 3,
       "solution": "**mitigation.** Vulnerability analysis comes in which part of the disaster management cycle is mitigation.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1445,7 +1445,7 @@
       "marks": 1,
       "stem": "The first step involving in EIA:",
       "options": [
-        "scoping",
+        "Scoping",
         "Screening",
         "Baseline study",
         "Auditing"
@@ -1470,7 +1470,7 @@
       "stem": "The sewer used to convey wastewater form one or more lateral sewer:",
       "options": [
         "Depressed sewer",
-        "main sewer",
+        "Main sewer",
         "Outfall sewer",
         "Lateral sewer"
       ],
@@ -1496,7 +1496,7 @@
         "Paleo irrigation",
         "Delta",
         "Kor watering",
-        "duty"
+        "Duty"
       ],
       "answerIndex": 3,
       "solution": "**duty.** The ratio of base period to delta is duty.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1517,7 +1517,7 @@
       "marks": 1,
       "stem": "The consumptive use in terms of losses:",
       "options": [
-        "evaporation and transpiration",
+        "Evaporation and transpiration",
         "Evaporation, Infiltration, and Transpiration",
         "Evaporation and Infiltration",
         "Evaporation and the conveyance losses"
@@ -1542,7 +1542,7 @@
       "stem": "Canal normally used for diversion of flood water of a river:",
       "options": [
         "Contour canal",
-        "inundation canal",
+        "Inundation canal",
         "Ridge canal",
         "Feeder canal"
       ],
@@ -1567,7 +1567,7 @@
       "options": [
         "Canal outlet",
         "Canal fall",
-        "canal escape",
+        "Canal escape",
         "Canal regulator"
       ],
       "answerIndex": 2,
@@ -1589,7 +1589,7 @@
       "marks": 1,
       "stem": "The sediments that are rolling, sliding and bouncing:",
       "options": [
-        "bed load",
+        "Bed load",
         "Contact load",
         "Dissolved load",
         "Suspended load"
@@ -1613,10 +1613,10 @@
       "marks": 1,
       "stem": "According to Khosla, the soil material has lowest safe exit gradient:",
       "options": [
-        "coarse sand",
-        "fine sand",
-        "boulders",
-        "shingle"
+        "Coarse sand",
+        "Fine sand",
+        "Boulders",
+        "Shingle"
       ],
       "answerIndex": 1,
       "solution": "**fine sand.** According to Khosla, the soil material has lowest safe exit gradient is fine sand.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1638,9 +1638,9 @@
       "stem": "The major differentiating point between weirs and barrages:",
       "options": [
         "their usage/purpose",
-        "size of the water channel",
-        "presence of gates",
-        "size of the structure"
+        "Size of the water channel",
+        "Presence of gates",
+        "Size of the structure"
       ],
       "answerIndex": 2,
       "solution": "**presence of gates.** The major differentiating point between weirs and barrages is presence of gates.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1664,7 +1664,7 @@
         "Design discharge",
         "Median discharge",
         "Maximum flood discharge",
-        "dominant discharge"
+        "Dominant discharge"
       ],
       "answerIndex": 3,
       "solution": "**dominant discharge.** A quantum of discharge with high enough magnitude and frequency to bring about changes to the river boundary and surrounding area is dominant discharge.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1686,7 +1686,7 @@
       "stem": "The sensitivity of rigid module:",
       "options": [
         "Maximum",
-        "zero",
+        "Zero",
         "Minimum",
         "1.0"
       ],
@@ -1711,8 +1711,8 @@
       "options": [
         "Silt ejector",
         "Silt extractor",
-        "silt excluder",
-        "All of these"
+        "Silt excluder",
+        "Divide wall"
       ],
       "answerIndex": 2,
       "solution": "**silt excluder.** The structure at the head of regulator to remove silt is silt excluder.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1757,7 +1757,7 @@
       "marks": 1,
       "stem": "The power available continuously:",
       "options": [
-        "firm power",
+        "Firm power",
         "Secondary power",
         "Plant power",
         "Water power"
@@ -1783,7 +1783,7 @@
       "options": [
         "Secondary power",
         "Plant power",
-        "firm power",
+        "Firm power",
         "Water power"
       ],
       "answerIndex": 2,
@@ -1808,7 +1808,7 @@
         "Earthen dam",
         "Concrete dam",
         "Buttress dam",
-        "cofferdam"
+        "Cofferdam"
       ],
       "answerIndex": 3,
       "solution": "**cofferdam.** The temporary structures that are built to enclose certain worksite is cofferdam.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1829,7 +1829,7 @@
       "marks": 1,
       "stem": "The most commonly used vertical lift gates in modern days:",
       "options": [
-        "fixed wheel gate",
+        "Fixed wheel gate",
         "Sliding gates",
         "Free-roller gates",
         "Slotted gates"
@@ -1853,10 +1853,10 @@
       "marks": 1,
       "stem": "The safety valve of dam/reservoir:",
       "options": [
-        "weir",
-        "spillway",
+        "Weir",
+        "Spillway",
         "Forebay",
-        "sluice"
+        "Sluice"
       ],
       "answerIndex": 1,
       "solution": "**spillway.** The safety valve of dam/reservoir is spillway.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1901,7 +1901,7 @@
       "marks": 1,
       "stem": "Power generated by unit head under unit discharge condition:",
       "options": [
-        "unit power",
+        "Unit power",
         "Unit speed",
         "Specific speed",
         "Horse power"
@@ -1926,7 +1926,7 @@
       "stem": "The hydrostatic pressure on the phreatic line within a dam section:",
       "options": [
         "The vapour pressure of the liquid",
-        "atmospheric pressure",
+        "Atmospheric pressure",
         "Gauge Pressure",
         "Absolute pressure at a point"
       ],
@@ -1951,7 +1951,7 @@
       "options": [
         "Constant",
         "Linear",
-        "parabolic",
+        "Parabolic",
         "Triangular, from zero at the surface to γH at the base"
       ],
       "answerIndex": 2,
@@ -1973,7 +1973,7 @@
       "marks": 1,
       "stem": "The feeder for other means of transportation:",
       "options": [
-        "roadway",
+        "Roadway",
         "Airway",
         "Formation width",
         "Railway"
@@ -2048,7 +2048,7 @@
         "Cubic spiral",
         "Cubic parabola",
         "Lemniscate",
-        "clothoid"
+        "Clothoid"
       ],
       "answerIndex": 3,
       "solution": "**clothoid.** The ideal shape of a transition curve is clothoid.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2070,7 +2070,7 @@
       "stem": "Drainage structure parallel to the road provided to intercept rain in a hilly region:",
       "options": [
         "Cross drain",
-        "catch drain",
+        "Catch drain",
         "Sloping drain",
         "Side drain"
       ],
@@ -2120,7 +2120,7 @@
         "Stopping distance",
         "Passing distance",
         "Sight distance",
-        "lag distance"
+        "Lag distance"
       ],
       "answerIndex": 3,
       "solution": "**lag distance.** The distance travelled by moving vehicles during perception and brake reaction time is known as lag distance.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2167,7 +2167,7 @@
       "options": [
         "Steel sheet",
         "Cement",
-        "bitumen",
+        "Bitumen",
         "Sand"
       ],
       "answerIndex": 2,
@@ -2213,10 +2213,10 @@
       "marks": 1,
       "stem": "The ratio obtained by dividing 'quick assets' by current liabilities:",
       "options": [
-        "acid test ratio",
+        "Acid test ratio",
         "Turnover ratio",
         "Solvency ratio",
-        "None of these"
+        "Current ratio"
       ],
       "answerIndex": 0,
       "solution": "**acid test ratio.** The ratio obtained by dividing 'quick assets' by current liabilities is called acid test ratio\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2238,9 +2238,9 @@
       "stem": "In PERT analysis, the time estimates of activities and probability of their occurrence follow:",
       "options": [
         "Normal distribution curve",
-        "beta distribution curve",
+        "Beta distribution curve",
         "Poisson's distribution curve",
-        "None of the above"
+        "Binomial distribution curve"
       ],
       "answerIndex": 1,
       "solution": "**beta distribution curve.** In PERT analysis, the time estimates of activities and probability of their occurrence follow is beta distribution curve.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2264,7 +2264,7 @@
         "Independent float",
         "Free float",
         "Half float",
-        "total float"
+        "Total float"
       ],
       "answerIndex": 3,
       "solution": "**total float.** The difference between the maximum time available and the actual time needed to perform an activity is known as total float.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2285,7 +2285,7 @@
       "marks": 1,
       "stem": "The technique for establishing and maintaining priorities among the various jobs of a project:",
       "options": [
-        "critical ratio scheduling",
+        "Critical ratio scheduling",
         "Event flow scheduling technique",
         "Short interval scheduling",
         "Slotting technique for scheduling"
@@ -2310,9 +2310,9 @@
       "stem": "If part of contract work is assigned to another party:",
       "options": [
         "Joint venture",
-        "sub - contracting",
-        "Both",
-        "None of these"
+        "Sub-contracting",
+        "Novation",
+        "Assignment"
       ],
       "answerIndex": 1,
       "solution": "**sub - contracting.** If part of contract work is assigned to another party, is called sub - contracting.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2335,7 +2335,7 @@
       "options": [
         "Technical",
         "Environmental and social",
-        "appraisal",
+        "Appraisal",
         "Financial and economical"
       ],
       "answerIndex": 2,
@@ -2357,7 +2357,7 @@
       "marks": 1,
       "stem": "The assessment done by the implementing agency to check the eligibility of the firm to carry out the contract:",
       "options": [
-        "pre - qualification",
+        "Pre-qualification",
         "Contract assessment",
         "Post-qualification",
         "Tender-assessment"
@@ -2382,7 +2382,7 @@
       "stem": "Symbol R represent in dimension:",
       "options": [
         "Area",
-        "radius",
+        "Radius",
         "Diameter",
         "Circumference"
       ],

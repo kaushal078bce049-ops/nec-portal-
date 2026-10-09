@@ -12,7 +12,7 @@
       "marks": 1,
       "stem": "Removal of impurities from ore:",
       "options": [
-        "concentration of ore",
+        "Concentration of ore",
         "Crushing and grinding",
         "Minerals",
         "Gangue"
@@ -37,7 +37,7 @@
       "stem": "The property of the material that enables it to be drawn out or elongated to an appreciable extent:",
       "options": [
         "Hardness",
-        "ductility",
+        "Ductility",
         "Toughness",
         "Malleability"
       ],
@@ -62,7 +62,7 @@
       "options": [
         "Tungsten",
         "Manganese",
-        "chromium",
+        "Chromium",
         "Nickel"
       ],
       "answerIndex": 2,
@@ -109,7 +109,7 @@
       "stem": "The type of destructive test for concrete:",
       "options": [
         "Visual testing",
-        "compression test",
+        "Compression test",
         "Eddy current testing",
         "Ultrasonic testing"
       ],
@@ -134,7 +134,7 @@
       "options": [
         "Lintel",
         "Coping",
-        "frieze",
+        "Frieze",
         "Cornice"
       ],
       "answerIndex": 2,
@@ -159,7 +159,7 @@
         "Keying",
         "Rendering",
         "Dubbing out",
-        "hacking"
+        "Hacking"
       ],
       "answerIndex": 3,
       "solution": "**hacking.** The process of making the background rough before plastering is called hacking.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -206,7 +206,7 @@
       "options": [
         "Prism",
         "Hexahedron",
-        "pyramid",
+        "Pyramid",
         "Cone"
       ],
       "answerIndex": 2,
@@ -231,7 +231,7 @@
         "Cone",
         "Hexahedron",
         "Pyramid",
-        "prism"
+        "Prism"
       ],
       "answerIndex": 3,
       "solution": "**prism.** The shape made up of uniform triangles is prism.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -252,7 +252,7 @@
       "marks": 1,
       "stem": "The best suited material for stabilization of black cotton soils:",
       "options": [
-        "hydrated lime",
+        "Hydrated lime",
         "Bitumen",
         "Calcium chloride",
         "Sodium silicate"
@@ -277,7 +277,7 @@
       "stem": "The type of footing used when the two columns carry equal loads:",
       "options": [
         "Right angle triangle",
-        "rectangle",
+        "Rectangle",
         "Equilateral Triangle",
         "Right angled isosceles triangle"
       ],
@@ -324,7 +324,7 @@
       "marks": 1,
       "stem": "The type of failure occurs in loose soil:",
       "options": [
-        "local shear failure",
+        "Local shear failure",
         "Deep shear failure",
         "Punching shear failure",
         "General shear failure"
@@ -349,7 +349,7 @@
       "stem": "The minimum water content at which the soil just begins to crumble when rolled into threads 3 mm in diameter:",
       "options": [
         "Shrinkage limit",
-        "plastic limit",
+        "Plastic limit",
         "Plasticity index",
         "Liquid limit"
       ],
@@ -822,12 +822,12 @@
       "chapter": "ACiE04",
       "subchapter": "ACiE0401",
       "marks": 1,
-      "stem": "The locus of reaction of a two hinged semi - circular arch:",
+      "stem": "The locus of reaction of a two hinged semi-circular arch:",
       "options": [
         "Parabola",
-        "straight line",
+        "Straight line",
         "Triangle",
-        "None of these"
+        "Circle"
       ],
       "answerIndex": 1,
       "solution": "**straight line.** The locus of reaction of a two hinged semi - circular arch is straight line.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1134,8 +1134,8 @@
       "options": [
         "Black bolt",
         "Turned bolt",
-        "friction grip bolt",
-        "None of these"
+        "Friction grip bolt",
+        "High-strength black bolt"
       ],
       "answerIndex": 2,
       "solution": "**friction grip bolt.** For the reversal of stresses, the most suitable bolt is friction grip bolt.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1182,7 +1182,7 @@
       "options": [
         "1 3",
         "1:4",
-        "none of these",
+        "None of these",
         "1:1"
       ],
       "answerIndex": 0,
@@ -1205,7 +1205,7 @@
       "stem": "The property of concrete in which the water tends to rise to the surface while placing and compacting:",
       "options": [
         "Rutting",
-        "bleeding",
+        "Bleeding",
         "Longitudinal cracking",
         "Shear failure"
       ],
@@ -1252,7 +1252,7 @@
       "marks": 1,
       "stem": "The maximum load a beam can sustain before permanent deformation:",
       "options": [
-        "proof resilience",
+        "Proof resilience",
         "Proof load",
         "Rigidity",
         "Proof stress"
@@ -1277,7 +1277,7 @@
       "stem": "The length of a steel bar that needs to be embedded in concrete to achieve the desired bond strength:",
       "options": [
         "Anchorage length",
-        "development length",
+        "Development length",
         "Equivalent length",
         "Bond length"
       ],
@@ -1715,7 +1715,7 @@
         "Surface inlet",
         "French drain",
         "Surface outlet",
-        "bedding"
+        "Bedding"
       ],
       "answerIndex": 3,
       "solution": "**bedding.** The method which uses dead furrows on cropped farms for drainage of excess irrigation or rain water, is called bedding.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1736,10 +1736,10 @@
       "marks": 1,
       "stem": "The factor causing waterlogging suggests extensive irrigation:",
       "options": [
-        "over and intensive irrigation",
-        "excessive rain",
-        "seepage through the canals",
-        "seepage of water from high land"
+        "Over and intensive irrigation",
+        "Excessive rain",
+        "Seepage through the canals",
+        "Seepage of water from high land"
       ],
       "answerIndex": 0,
       "solution": "**over and intensive irrigation.** The factor causing waterlogging suggests extensive irrigation is over and intensive irrigation.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -1761,7 +1761,7 @@
       "stem": "The crop with highest delta among rice, tobacco, wheat and banana:",
       "options": [
         "Millet",
-        "rice",
+        "Rice",
         "All",
         "Wheat"
       ],
@@ -1786,7 +1786,7 @@
       "options": [
         "Marginal bund",
         "Divide wall",
-        "head regulator",
+        "Head regulator",
         "None of the above"
       ],
       "answerIndex": 2,
@@ -2413,7 +2413,7 @@
         "Diamond",
         "Trumpet",
         "Delta",
-        "clover leaf"
+        "Clover leaf"
       ],
       "answerIndex": 3,
       "solution": "**clover leaf.** For the movement of vehicles at an intersection of two roads, without any interference, the type of grade separator generally preferred to, is clover leaf.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",
@@ -2506,7 +2506,7 @@
       "marks": 1,
       "stem": "In water bound macadam roads, binding material:",
       "options": [
-        "stone dust",
+        "Stone dust",
         "Lime",
         "Sand",
         "Cement"
@@ -2557,7 +2557,7 @@
         "Surface dressing",
         "Seal coat",
         "Prime coat",
-        "tack coat"
+        "Tack coat"
       ],
       "answerIndex": 3,
       "solution": "**tack coat.** The bitumen layer spread over old pavement to bind newer pavement layer together is tack coat.\n\nThis is a recall item from the NEC revision syllabus: the statement is the whole of it, and the other options are real terms from the same chapter, which is exactly why they look plausible.",

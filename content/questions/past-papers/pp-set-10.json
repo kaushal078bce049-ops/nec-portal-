@@ -15,9 +15,9 @@
       "stem": "Oedometer is used to measure:",
       "options": [
         "Pressure",
-        "speed",
-        "velocity",
-        "consolidation"
+        "Speed",
+        "Velocity",
+        "Consolidation"
       ],
       "answerIndex": 3,
       "solution": "**Consolidation.**\n\n> The source draws the distinction that this question exists for: **an OEDOMETER measures the CONSOLIDATION of soil; an ODOMETER is a device that measures the DISTANCE travelled by a vehicle.**\n\n> **The two words differ by one letter**, and options (b) and (c) — speed and velocity — are there precisely to catch a candidate who has read \"odometer\".\n\n**What the oedometer does:**\n\n> A soil specimen is **confined laterally in a rigid ring** and loaded **vertically in increments**, with the settlement measured against time for each increment.\n\n> **The lateral confinement is the essential feature**: it reproduces the **ONE-DIMENSIONAL** condition of a wide loaded area on a clay layer, where the soil cannot spread sideways — which is exactly the field situation being modelled.\n\n**What it yields:**\n\n| Parameter | Meaning |\n|---|---|\n| **C_c — compression index** | Slope of the **virgin e–log σ′** curve — governs **HOW MUCH** settlement |\n| **C_r — recompression index** | Reloading slope, about **C_c/5 to C_c/10** |\n| **σ′_c — preconsolidation pressure** | Maximum past effective stress, from **CASAGRANDE's construction** |\n| **c_v — coefficient of consolidation** | From the time–settlement curve — governs **HOW FAST** |\n| **m_v** | Used directly in settlement: **S = m_v Δσ H** |\n| **k — permeability** | Indirectly, from **k = c_v m_v γ_w** |\n\n> **C_c says HOW MUCH; c_v says HOW FAST.** Keeping those two questions apart is the organising idea of consolidation — a clay may be highly compressible yet drain quickly, or barely compressible yet take decades.\n\n**And only the second is helped by vertical drains**, which shorten the drainage path without changing the total settlement at all.\n\n**The settlement expression:**\n\n> **S = (C_c H/(1 + e₀)) log₁₀[(σ′₀ + Δσ)/σ′₀]** for a normally consolidated clay.\n\n> **For an OVER-consolidated clay the calculation SPLITS at σ′_c** — C_r below it, C_c above. **Using C_c throughout can overestimate the settlement five-fold** and buy a piled foundation that was never needed.\n\n**The distinction from COMPACTION**, which is the other pairing examined here:\n\n| | **COMPACTION** | **CONSOLIDATION** |\n|---|---|---|\n| Expels | **AIR** | **WATER** |\n| Applies to | Partially saturated soil | **Fully SATURATED** soil |\n| Cause | **MECHANICAL energy** — rolling, ramming | **Sustained LOAD** |\n| Time | **Instantaneous** | **Years** |\n| Test | **PROCTOR** | **OEDOMETER** |",
@@ -79,7 +79,7 @@
       "options": [
         "Blasting",
         "Mucking",
-        "hardening",
+        "Hardening",
         "Tempering"
       ],
       "answerIndex": 1,
@@ -333,7 +333,7 @@
       "marks": 1,
       "stem": "NDRRMA falls under which ministry?",
       "options": [
-        "prime minister Office",
+        "Prime minister Office",
         "Ministry of physical infrastructure",
         "Ministry of Energy",
         "Ministry of home affairs (MOHA)"
@@ -749,9 +749,9 @@
       "marks": 1,
       "stem": "Cold frontal precipitation is formed due to:",
       "options": [
-        "when an advancing cold air mass meets warmer air; cold fronts move faster than warm fronts",
-        "when a large mass of air is forced to rise across landform barriers, such as high mountain ranges, plateaus and hills",
-        "heating of the ground surface: the air warms, expands and is forced to rise to a great height, being replaced by colder air; as the air rises it cools, becomes saturated, condenses and clouds form, and by further cooling precipitation takes place",
+        "When an advancing cold air mass meets warmer air; cold fronts move faster than warm fronts",
+        "When a large mass of air is forced to rise across landform barriers, such as high mountain ranges, plateaus and hills",
+        "Heating of the ground surface: the air warms, expands and is forced to rise to a great height, being replaced by colder air; as the air rises it cools, becomes saturated, condenses and clouds form, and by further cooling precipitation takes place",
         "All of the above"
       ],
       "answerIndex": 0,
@@ -782,8 +782,8 @@
       "stem": "What property of water makes it spherical?",
       "options": [
         "Cavitation",
-        "viscosity",
-        "pressure",
+        "Viscosity",
+        "Pressure",
         "Surface tension"
       ],
       "answerIndex": 3,
@@ -814,7 +814,7 @@
       "stem": "In which type of parking can the maximum number of vehicles be parked?",
       "options": [
         "45 degree parking",
-        "parallel parking",
+        "Parallel parking",
         "Perpendicular Parking or 90 degree",
         "75 degree parking"
       ],
@@ -847,7 +847,7 @@
       "options": [
         "Adding money",
         "Discounting",
-        "dividing",
+        "Dividing",
         "Compounding"
       ],
       "answerIndex": 3,
@@ -877,10 +877,10 @@
       "marks": 1,
       "stem": "Expulsion of pore water from soil is called:",
       "options": [
-        "pressurization",
+        "Pressurization",
         "Compaction",
         "Consolidation",
-        "densification"
+        "Densification"
       ],
       "answerIndex": 2,
       "solution": "**Consolidation.**\n\n> The source states both halves of the pair: **expulsion of PORE WATER from soil is called CONSOLIDATION; expulsion of AIR from soil is called COMPACTION.**\n\n**The distinction in full:**\n\n| | **CONSOLIDATION** | **COMPACTION** |\n|---|---|---|\n| **Expels** | **WATER** | **AIR** |\n| Applies to | **Fully SATURATED** soil | **Partially saturated** soil |\n| Cause | **Sustained LOAD** | **MECHANICAL energy** — rolling, ramming, vibration |\n| **Time** | **TIME-DEPENDENT — years** | **INSTANTANEOUS** |\n| Nature | **NATURAL** — a response to loading | **ARTIFICIAL** — an engineering operation |\n| Test | **OEDOMETER** | **PROCTOR** |\n\n> **Compaction expels AIR in minutes by machine; consolidation expels WATER over years under load.** Those two sentences separate them completely, and the pair is examined in almost every paper.\n\n**Why consolidation takes so long:**\n\n> **Water must physically FLOW OUT of the soil**, and clay's permeability is extremely low — **below 10⁻⁹ m/s.**\n\n> **The time depends on the DRAINAGE PATH LENGTH squared:**\n\n> **t = T_v d²/c_v**\n\n> **Doubling the layer thickness QUADRUPLES the time** — which is why thick clay layers settle for decades.\n\n**And why VERTICAL DRAINS work:**\n\n> **They do not change the total settlement at all** — they shorten the **drainage path**, converting long vertical drainage into short horizontal drainage.\n\n> **Since t ∝ d², halving the path quarters the time.** A preload that would take twenty years can be completed in one or two.\n\n> **That is the whole point of ground improvement by preloading with drains**: it does not reduce settlement, it **gets it over with before construction.**\n\n**The three stages of consolidation:**\n\n| Stage | Mechanism |\n|---|---|\n| **Immediate** | Expulsion of **air** and lateral distortion, if partly saturated |\n| **PRIMARY** | **Expulsion of pore water** — the main settlement, governed by **c_v** |\n| **SECONDARY (creep)** | **Gradual readjustment of clay particles** into a more stable configuration |\n\n> **Secondary consolidation continues AFTER all excess pore pressure has dissipated** — so it cannot be predicted from pore pressure at all, and it **dominates the long-term settlement of ORGANIC soils and PEAT.**\n\n**The parameters, and the question each answers:**\n\n| Parameter | Question |\n|---|---|\n| **C_c, m_v** | **HOW MUCH** settlement |\n| **c_v** | **HOW FAST** |\n| **σ′_c** | Whether the clay is **normally or over-consolidated** |\n\n> **A clay may be highly compressible yet drain quickly, or barely compressible yet take decades.** Keeping those two questions apart is the organising idea of the whole subject.\n\n**Why option (d), \"densification\", is a reasonable-sounding trap:**\n\n> **Both processes densify the soil** — that is their shared outcome. **But \"densification\" names the RESULT, not the MECHANISM**, and it does not distinguish which fluid is expelled.\n\n> **The question asks specifically about pore WATER**, which identifies consolidation uniquely.",
@@ -909,7 +909,7 @@
       "marks": 1,
       "stem": "Bitumen is extracted from:",
       "options": [
-        "indovengaris product",
+        "Indovengaris product",
         "Crop product",
         "Acidic product",
         "Petroleum products"
@@ -1134,8 +1134,8 @@
       "stem": "Which bacteria can function with and without oxygen?",
       "options": [
         "Facultative bacteria",
-        "mesophilic bacteria",
-        "thermophilic bacteria",
+        "Mesophilic bacteria",
+        "Thermophilic bacteria",
         "All of the above"
       ],
       "answerIndex": 0,
@@ -1231,7 +1231,7 @@
       "options": [
         "Viscosity",
         "Surface tension",
-        "density",
+        "Density",
         "Cavitation"
       ],
       "answerIndex": 1,
@@ -1294,8 +1294,8 @@
       "stem": "For a simply supported beam, if the bending moment is constant, what will be the shear force?",
       "options": [
         "Zero",
-        "constant",
-        "uniformly varying",
+        "Constant",
+        "Uniformly varying",
         "None of the above"
       ],
       "answerIndex": 0,
@@ -1357,9 +1357,9 @@
       "marks": 1,
       "stem": "The extra width added to a road is:",
       "options": [
-        "mechanical + psychological",
-        "mechanical + psychological shoulder",
-        "mechanical + psychological + eye sight",
+        "Mechanical + psychological",
+        "Mechanical + psychological shoulder",
+        "Mechanical + psychological + eye sight",
         "None of the above"
       ],
       "answerIndex": 0,
@@ -1391,7 +1391,7 @@
       "options": [
         "Quality",
         "Quality and cost",
-        "cost",
+        "Cost",
         "All of the above"
       ],
       "answerIndex": 1,
@@ -1424,7 +1424,7 @@
         "Marginal bund",
         "Divide wall",
         "Head regulator",
-        "cross regulator"
+        "Cross regulator"
       ],
       "answerIndex": 1,
       "solution": "**The divide wall.**\n\n> The source's diagram shows the arrangement directly: **the DIVIDE WALL separates the under-sluice (scouring sluice) pocket from the main weir bays**, with the head regulator drawing from the pocket into the canal.\n\n**What the divide wall does:**\n\n| Function | Note |\n|---|---|\n| **Separates the under-sluice pocket from the weir** | Its defining purpose |\n| **Creates a STILL POND** in front of the head regulator | Where **silt can settle out before entering the canal** |\n| Keeps the two flow regimes apart | Prevents cross-currents |\n| **Prevents oblique flow toward the canal head** | Which would draw silt in |\n\n> **The still pond is the key idea**: by isolating a pocket of relatively quiet water in front of the head regulator, coarse sediment settles there and can be **flushed away through the under-sluices** rather than entering the canal.\n\n> **That is silt control by hydraulic arrangement rather than by a mechanical device** — cheap, passive and effective.\n\n**The components of a diversion headworks**, as the source's figure shows them:\n\n| Component | Function |\n|---|---|\n| **Weir or barrage** | **Raises the water level** so the canal can draw by gravity |\n| **DIVIDE WALL** | **Separates the under-sluice pocket from the weir** ← |\n| **Under-sluices (scouring sluices)** | **Flush accumulated silt**; pass low flows |\n| **HEAD REGULATOR** | **Controls flow INTO the canal** |\n| **SILT EXCLUDER** | Stops silt **ENTERING** the canal |\n| **FISH LADDER** | Beside the divide wall |\n| **GUIDE BANK** | Confines the river; **prevents OUTFLANKING** |\n| **Marginal bund** | Embankment confining floodwater to the channel |\n\n> **Note that the FISH LADDER is placed beside the divide wall**, because the under-sluice pocket carries flow year-round — and **fish find the ladder by following a current**, so a reliable flow at its entrance is essential.\n\n**Why the other options are wrong:**\n\n| Option | What it actually does |\n|---|---|\n| **MARGINAL BUND** | An **embankment along the bank** confining floodwater — a river training work, not a headworks separator |\n| **HEAD regulator** | Controls flow **INTO the canal** — it draws from the pocket the divide wall creates |\n| **CROSS regulator** | Sits **ACROSS the parent canal** downstream of an offtake, to **raise the level** so the offtake can draw |\n\n> **HEAD and CROSS regulators are constantly swapped**, and the distinction is worth fixing: **the CROSS regulator is across the PARENT canal; the HEAD regulator is at the HEAD of the OFFTAKE.** They are built as a pair.\n\n**And the silt structures**, equally often confused:\n\n> **SILT EXCLUDER excludes silt at the ENTRANCE** — it sits at the head regulator and stops silt getting into the canal.\n> **SILT EJECTOR ejects silt from WITHIN the canal** — downstream, removing what has already entered.\n\n> **Prevention versus cure**, and the two names describe exactly that difference.\n\n**The under-sluices deserve a note** because they do two jobs:\n\n> They **pass the low flows of the river** (so the weir crest need not be overtopped at all times) **and FLUSH the silt** that accumulates in the pocket — the flushing being possible precisely because the divide wall has confined that silt to a defined area.\n\n> **The divide wall and the under-sluices work as a system**: the wall concentrates the silt, the sluices remove it.",
@@ -1517,9 +1517,9 @@
       "marks": 1,
       "stem": "Under sluices are provided at:",
       "options": [
-        "the same height as the river bed level",
-        "below river bed level",
-        "at a height more than that of the cross regulator",
+        "The same height as the river bed level",
+        "Below river bed level",
+        "At a height more than that of the cross regulator",
         "None of the above"
       ],
       "answerIndex": 0,

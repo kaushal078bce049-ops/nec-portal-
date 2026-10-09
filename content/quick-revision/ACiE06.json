@@ -322,7 +322,7 @@
   {
     "id": "QR-ACiE06-041",
     "chapter": "ACiE06",
-    "fact": "The formula for overall efficiency of HRT F is E 1 + E 2 (1 – E 1).",
+    "fact": "The overall efficiency of two units in series is E = E₁ + E₂(1 − E₁).",
     "verification": {
       "status": "verified"
     }

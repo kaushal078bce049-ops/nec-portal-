@@ -929,7 +929,7 @@
       "marks": 1,
       "stem": "The hoop tension in a thin circular pipe of internal diameter D under internal pressure p, per unit length, is:",
       "options": [
-        "pD",
+        "PD",
         "pD/2",
         "pD/4",
         "2pD"

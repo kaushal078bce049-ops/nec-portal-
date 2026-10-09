@@ -1095,7 +1095,7 @@
       "options": [
         "Turbidity",
         "Colour",
-        "pH",
+        "PH",
         "Hardness"
       ],
       "answerIndex": 0,

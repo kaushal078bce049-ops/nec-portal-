@@ -103,8 +103,36 @@ export async function startAttempt(
     if (new Date(existing.expires_at).getTime() > Date.now()) {
       return { attemptId: existing.id };
     }
-    // Stale: finalise it before opening a fresh one.
+    // Stale: finalise it before deciding anything else.
     await submitAttempt(user, existing.id, { reason: 'expired' });
+  }
+
+  /*
+   * One attempt per paper. Once it is submitted it stays submitted.
+   *
+   * A paper that can be sat twice is not a measure of anything: the second
+   * attempt is taken knowing the questions, so the score it produces is not
+   * comparable with anyone else's, and the rankings are shared. It also means a
+   * disappointing result can simply be erased, which is the opposite of what
+   * sitting a mock is for.
+   *
+   * The attempt is not withdrawable either — there is no path that deletes a
+   * submitted row — so what is on the dashboard is what happened.
+   */
+  const { data: done } = await admin
+    .from('exam_attempts')
+    .select('id')
+    .eq('user_id', user.id)
+    .eq('kind', kind)
+    .eq('exam_slug', slug)
+    .eq('status', 'submitted')
+    .limit(1)
+    .maybeSingle();
+
+  if (done) {
+    throw badRequest(
+      'You have already sat this paper. An attempt cannot be retaken or withdrawn once it is submitted — open your result to review every question and its solution.',
+    );
   }
 
   const questionIds = questions.map((q) => q.id);

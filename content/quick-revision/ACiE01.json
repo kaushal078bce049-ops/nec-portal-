@@ -634,7 +634,7 @@
   {
     "id": "QR-ACiE01-080",
     "chapter": "ACiE01",
-    "fact": "A trapezoid having two parallel side 'a' and 'b' and height 'h'. The Y centroid distance from bottom side 'b' is H 3 × b + 2a b + a.",
+    "fact": "For a trapezoid of parallel sides a and b and height h, the centroid lies at (h/3) × (b + 2a)/(b + a) from the side b.",
     "verification": {
       "status": "verified"
     }
@@ -818,7 +818,7 @@
   {
     "id": "QR-ACiE01-103",
     "chapter": "ACiE01",
-    "fact": "For 1m 3 volume of 1:1.5:3 PCC, the number of bags of cement are required is 8 bags.",
+    "fact": "For 1 m³ of 1:1.5:3 PCC, the number of cement bags required is 8.",
     "verification": {
       "status": "verified"
     }

@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import type { PaperMeta } from '@/lib/content/types';
 
+import type { ExamRules } from './ExamRulesDialog';
 import { StartExamButton } from './StartExamButton';
 
 /**
@@ -13,10 +14,12 @@ export function PaperGrid({
   papers,
   signedIn,
   attemptsBySlug,
+  rules,
 }: {
   papers: PaperMeta[];
   signedIn: boolean;
   attemptsBySlug: Record<string, { score: number; totalMarks: number; passed: boolean; attemptId: string }>;
+  rules: ExamRules;
 }) {
   if (papers.length === 0) {
     return (
@@ -29,7 +32,7 @@ export function PaperGrid({
   return (
     <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {papers.map((paper) => {
-        const best = attemptsBySlug[paper.slug];
+        const sat = attemptsBySlug[paper.slug];
 
         return (
           <li key={paper.slug} className="card flex flex-col p-5">
@@ -45,24 +48,42 @@ export function PaperGrid({
 
             {paper.notes && <p className="mt-2.5 text-sm leading-relaxed text-body">{paper.notes}</p>}
 
-            {best && (
+            {sat && (
               <p className="mt-3 rounded-lg bg-sunken p-2.5 text-xs">
-                <span className="text-muted">Best score </span>
+                <span className="text-muted">Your score </span>
                 <span
                   className="font-bold"
-                  style={{ color: best.passed ? 'var(--positive)' : 'var(--accent)' }}
+                  style={{ color: sat.passed ? 'var(--positive)' : 'var(--accent)' }}
                 >
-                  {best.score}/{best.totalMarks}
+                  {sat.score}/{sat.totalMarks}
                 </span>
-                <Link href={`/exam/${best.attemptId}/review`} className="ml-2 accent hover:underline">
-                  See solutions
-                </Link>
               </p>
             )}
 
             <div className="mt-auto pt-4">
-              {signedIn ? (
-                <StartExamButton kind={paper.kind} slug={paper.slug} />
+              {sat ? (
+                /*
+                 * Already sat, so there is nothing to start. A paper is one
+                 * attempt only — offering the button again would promise
+                 * something the server refuses, so the card offers the review
+                 * instead, which is what a candidate wants at this point
+                 * anyway.
+                 */
+                <>
+                  <Link href={`/exam/${sat.attemptId}/review`} className="btn btn-outline w-full">
+                    Review every question
+                  </Link>
+                  <p className="mt-2 text-center text-xs text-muted">
+                    Sat once already — a paper cannot be retaken.
+                  </p>
+                </>
+              ) : signedIn ? (
+                <StartExamButton
+                  kind={paper.kind}
+                  slug={paper.slug}
+                  title={paper.title}
+                  rules={rules}
+                />
               ) : (
                 <>
                   {/* No account is needed. Requiring one to read free content
@@ -72,6 +93,8 @@ export function PaperGrid({
                   <StartExamButton
                     kind={paper.kind}
                     slug={paper.slug}
+                    title={paper.title}
+                    rules={rules}
                     guest
                     label="Start now — no account needed"
                   />

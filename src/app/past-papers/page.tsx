@@ -47,7 +47,18 @@ export default async function PastPapersPage() {
       </div>
 
       <div className="mt-10">
-        <PaperGrid papers={papers} signedIn={Boolean(user)} attemptsBySlug={attempts} />
+        <PaperGrid
+          papers={papers}
+          signedIn={Boolean(user)}
+          attemptsBySlug={attempts}
+          rules={{
+            totalQuestions: scheme.totalQuestions,
+            durationMinutes: scheme.durationMinutes,
+            totalMarks: scheme.totalMarks,
+            passMarks: scheme.passMarks,
+            negativeMarking: scheme.negativeMarking,
+          }}
+        />
       </div>
 
     </div>

@@ -871,7 +871,7 @@
       "marks": 1,
       "stem": "Under the acceptance criteria of IS 456 for concrete of grade M20 and above, the compressive strength is accepted if the mean of any FOUR consecutive test results is not less than f_ck + 0.825σ (or f_ck + 3 N/mm², whichever is greater) AND every individual result is not less than:",
       "options": [
-        "f_ck",
+        "F_ck",
         "f_ck − 3 N/mm²",
         "0.75 f_ck",
         "f_ck + 3 N/mm²"

@@ -70,7 +70,17 @@ export async function proxy(request: NextRequest) {
         }
         response = NextResponse.next({ request });
         for (const { name, value, options } of toSet) {
-          response.cookies.set(name, value, options);
+          /*
+           * Drop the lifetime so the auth cookie dies with the browser.
+           * Supabase writes it with a Max-Age of a year, which on a shared or
+           * college machine means the next person to open the portal is signed
+           * in as whoever used it last. Without maxAge and expires it becomes
+           * a session cookie and closing the browser ends the session.
+           */
+          const { maxAge, expires, ...rest } = options ?? {};
+          void maxAge;
+          void expires;
+          response.cookies.set(name, value, rest);
         }
       },
     },
