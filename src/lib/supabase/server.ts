@@ -33,7 +33,18 @@ export function sessionOnly(options: Record<string, unknown> | undefined) {
    * readable from JavaScript and sendable over plain HTTP. These are not
    * attributes to lose by accident, so they are set here on purpose.
    */
-  out.httpOnly = given.httpOnly ?? true;
+  /*
+   * httpOnly is forced, not defaulted. @supabase/ssr ships `httpOnly: false`
+   * on purpose, so that a browser-side Supabase client can read the session —
+   * and `?? true` therefore keeps the false and leaves the token exposed to any
+   * script on the page.
+   *
+   * Nothing here reads the session in the browser. Every page resolves the user
+   * server-side, and the one client-side Supabase call starts an OAuth
+   * redirect, which needs no existing session. So the token is kept out of
+   * JavaScript's reach entirely.
+   */
+  out.httpOnly = true;
   out.sameSite = given.sameSite ?? 'lax';
   out.path = given.path ?? '/';
   out.secure = given.secure ?? process.env.NODE_ENV === 'production';

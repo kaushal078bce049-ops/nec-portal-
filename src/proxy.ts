@@ -82,7 +82,10 @@ export async function proxy(request: NextRequest) {
           delete opts.expires;
           // Restated rather than left to the spread: removing the lifetime by
           // destructuring once took Secure and HttpOnly with it.
-          opts.httpOnly = options?.httpOnly ?? true;
+          // Forced, not defaulted: @supabase/ssr ships httpOnly false on
+          // purpose, so `?? true` would keep the false. Nothing in this app
+          // reads the session from the browser.
+          opts.httpOnly = true;
           opts.sameSite = options?.sameSite ?? 'lax';
           opts.path = options?.path ?? '/';
           opts.secure = options?.secure ?? process.env.NODE_ENV === 'production';
