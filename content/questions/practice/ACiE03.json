@@ -1205,7 +1205,7 @@
       "marks": 1,
       "stem": "The force exerted by a flowing fluid on a pipe bend is best calculated using:",
       "options": [
-        "The momentum equation, applied to a control volume enclosing the bend",
+        "The momentum equation",
         "Bernoulli's equation alone",
         "The continuity equation alone",
         "Darcy's formula"

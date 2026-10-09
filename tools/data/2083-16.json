@@ -169,16 +169,16 @@
       "sub": "ACiE0103",
       "q": "Before plastering, the surface should be:",
       "o": [
-        "Smooth and dry",
-        "Clean and wetted",
-        "Rough and painted",
-        "Dry and dusty"
+        "Rough",
+        "Clean",
+        "Smooth",
+        "Dry"
       ],
-      "a": 1,
-      "s": "The surface is cleaned of dust and loose mortar and then wetted, so it does not draw mixing water out of the fresh plaster and cause it to crack.",
-      "trap": "\"Rough\" is half right — joints are raked to give a key — but the stated requirement before applying plaster is clean and wet.",
-      "trick": "A dry background steals the water the plaster needs to hydrate.",
-      "mn": "Clean it, wet it, plaster it."
+      "a": 0,
+      "s": "The background is hacked or the joints raked to give a mechanical key, so the plaster has something to grip. It is also cleaned and wetted, but roughness is what holds it.",
+      "trap": "Clean and wetted are both required too, which makes either a defensible-sounding answer; neither is what stops the plaster falling off.",
+      "trick": "Ask what the plaster holds on to.",
+      "mn": "Rough it up to key it on."
     },
     {
       "ch": "ACiE01",
@@ -1145,16 +1145,16 @@
       "sub": "ACiE0402",
       "q": "The angle between a principal plane and the plane of maximum shear is:",
       "o": [
-        "45°",
-        "30°",
-        "60°",
-        "90°"
+        "45° and 135°",
+        "30° and 60°",
+        "60° and 120°",
+        "90° and 180°"
       ],
       "a": 0,
-      "s": "On Mohr's circle the principal points and the maximum-shear points are 90° apart, which is 45° in the physical element.",
-      "trap": "90° is the angle on the circle, and it is offered precisely to catch anyone who forgets to halve it.",
-      "trick": "Always halve a Mohr's circle angle to get the real one.",
-      "mn": "90 on the circle, 45 on the steel."
+      "s": "The principal points and the maximum-shear points are 90° apart on Mohr’s circle, which is 45° in the element — and there are two such planes, at 45° and 135°.",
+      "trap": "Quoting 45° alone is incomplete: the maximum shear acts on two perpendicular planes, not one.",
+      "trick": "Halve the Mohr angle, then remember there are two of them.",
+      "mn": "Forty-five and one thirty-five."
     },
     {
       "ch": "ACiE05",
@@ -1257,16 +1257,16 @@
       "sub": "ACiE0604",
       "q": "Which pipe is normally located underneath the flooring of a building?",
       "o": [
-        "Drainage pipe",
-        "Water supply pipe",
         "Gas pipe",
+        "Water supply pipe",
+        "Drainage pipe",
         "Vent pipe"
       ],
       "a": 0,
-      "s": "Drainage runs by gravity, so it must be laid at the lowest level and falls continuously to the outside drain.",
-      "trap": "Water supply pipes are also concealed, but they are pressurised and are run in walls where they can be reached.",
-      "trick": "Gravity flow has to go underneath; pressure flow can go anywhere.",
-      "mn": "No pressure, no choice — put it low."
+      "s": "Gas service pipes are run in a duct beneath the floor so they are not buried in the structure and can be reached for inspection and repair.",
+      "trap": "Drainage runs below the lowest floor *level* but outside the building footprint, in the ground rather than under the flooring.",
+      "trick": "A gas pipe must stay accessible and must never be cast into concrete.",
+      "mn": "Gas goes under the floor."
     },
     {
       "ch": "ACiE03",

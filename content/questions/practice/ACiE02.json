@@ -1218,7 +1218,7 @@
       "marks": 1,
       "stem": "Compared with the ordinary method of slices, Bishop's simplified method:",
       "options": [
-        "Satisfies vertical equilibrium of each slice and is more accurate",
+        "Satisfies vertical equilibrium of each slice",
         "Ignores the weight of the slices",
         "Applies only to cohesionless soils",
         "Gives a lower factor of safety"
@@ -1885,7 +1885,7 @@
       "options": [
         "Stronger than reinforced concrete",
         "Cheaper to design",
-        "Flexible and permeable, and built from local boulders without cement",
+        "Flexible and permeable",
         "Permanent and maintenance free"
       ],
       "answerIndex": 2,
@@ -1977,7 +1977,7 @@
       "options": [
         "A complete replacement for boreholes",
         "Suitable only for rock",
-        "Rapid and non-intrusive, but indirect and requiring calibration against boreholes",
+        "Rapid and non-intrusive",
         "More accurate than direct sampling"
       ],
       "answerIndex": 2,
@@ -2371,7 +2371,7 @@
       "options": [
         "Have a higher capacity",
         "Are always cheaper",
-        "Cause no vibration and can be installed close to existing structures",
+        "Cause no vibration",
         "Require no reinforcement"
       ],
       "answerIndex": 2,

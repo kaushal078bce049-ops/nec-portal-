@@ -1482,7 +1482,7 @@
       "options": [
         "Pumps are more likely to be stolen",
         "Pumping plant is not essential to the scheme",
-        "The pump has a short physical life and can be replaced or added to cheaply and without disturbing anything else",
+        "The pump has a short physical life",
         "Dams do not deteriorate"
       ],
       "answerIndex": 2,
@@ -1547,7 +1547,7 @@
       "marks": 1,
       "stem": "The TEMPORARY (carbonate) hardness of water differs from PERMANENT (non-carbonate) hardness in that temporary hardness:",
       "options": [
-        "Is caused by the bicarbonates of calcium and magnesium and can be removed by simple boiling",
+        "Is caused by the bicarbonates of calcium and magnesium",
         "Is caused by sodium and potassium salts",
         "Cannot be removed by any treatment",
         "Is measured in different units"
