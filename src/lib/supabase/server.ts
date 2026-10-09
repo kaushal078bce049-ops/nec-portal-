@@ -20,11 +20,25 @@ import { isSupabaseConfigured, publicEnv, serverEnv } from '@/lib/env';
  * nothing here weakens the check that matters.
  */
 export function sessionOnly(options: Record<string, unknown> | undefined) {
-  if (!options) return options;
-  const { maxAge, expires, ...rest } = options as { maxAge?: number; expires?: Date };
-  void maxAge;
-  void expires;
-  return rest;
+  const given = (options ?? {}) as Record<string, unknown>;
+  const out: Record<string, unknown> = { ...given };
+
+  delete out.maxAge;
+  delete out.expires;
+
+  /*
+   * Restate the security attributes rather than trusting the spread to carry
+   * them. Removing the lifetime by destructuring once dropped Secure and
+   * HttpOnly as well — the cookie went out as `Path=/; SameSite=lax` and was
+   * readable from JavaScript and sendable over plain HTTP. These are not
+   * attributes to lose by accident, so they are set here on purpose.
+   */
+  out.httpOnly = given.httpOnly ?? true;
+  out.sameSite = given.sameSite ?? 'lax';
+  out.path = given.path ?? '/';
+  out.secure = given.secure ?? process.env.NODE_ENV === 'production';
+
+  return out;
 }
 
 /**

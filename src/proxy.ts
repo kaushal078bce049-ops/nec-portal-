@@ -77,10 +77,16 @@ export async function proxy(request: NextRequest) {
            * in as whoever used it last. Without maxAge and expires it becomes
            * a session cookie and closing the browser ends the session.
            */
-          const { maxAge, expires, ...rest } = options ?? {};
-          void maxAge;
-          void expires;
-          response.cookies.set(name, value, rest);
+          const opts: Record<string, unknown> = { ...(options ?? {}) };
+          delete opts.maxAge;
+          delete opts.expires;
+          // Restated rather than left to the spread: removing the lifetime by
+          // destructuring once took Secure and HttpOnly with it.
+          opts.httpOnly = options?.httpOnly ?? true;
+          opts.sameSite = options?.sameSite ?? 'lax';
+          opts.path = options?.path ?? '/';
+          opts.secure = options?.secure ?? process.env.NODE_ENV === 'production';
+          response.cookies.set(name, value, opts);
         }
       },
     },
